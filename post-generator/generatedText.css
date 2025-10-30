@@ -1,0 +1,40 @@
+body {
+	word-wrap: break-word;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background: var(--tablerow2);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--link);
+}
+
+/**** BBCODE FONT ****/
+:root {
+	--BBCode-font-1: 0.5em;
+	--BBCode-font-2: 0.75em;
+	--BBCode-font-3: 1em;
+	--BBCode-font-4: 1.25em;
+	--BBCode-font-5: 1.5em;
+	--BBCode-font-6: 1.75em;
+	--BBCode-font-7: 2em;
+}
+
+/**** HTML DISPLAY STYLES ****/
+.section-name {
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+.center {
+	text-align: center;
+}
+.html-spacer {
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+hr { margin-bottom: -0.5em; }

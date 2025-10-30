@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>button post generator</title>
+		
+		<!--base stylesheet-->
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		
+		<!--buttons database-->
+		<script src="/buttonList.js?fileversion=4.01"></script>
+		<!--buttons functions-->
+		<script src="/buttonFunctions.js?fileversion=4.01"></script>
+		
+		<style>
+			body { text-align: center; }
+			.code-iframe-section { display: flex; gap: 2em; flex-wrap: wrap; justify-content: center; }
+			h3 { margin-bottom: .5em; }
+			iframe { width: min(95vw, 525px); height: min(80vw, 600px); border: 1px var(--boxborder) solid; }
+		</style>
+	</head>
+	
+	<body>
+		<!-- page color theme selection -->
+		<select type="submit" name="theme" id="theme" onchange="setPageTheme(this.value);">
+			<label class="sr-only" for="theme">Page theme:</label>
+			<option>Page theme</option>
+			<option value="light">light</option>
+			<option value="dark">dark</option>
+		</select>
+		
+		<p>this page auto-generates the forum code I use for my masterposts on other sites</p>
+		<p>if you are not me, you probably want to <a href="/">return home</a></p>
+		
+		<p><button id="toggle-preview" class="btn" onclick="togglePreview();">show preview</button></p>
+		
+		<div class="code-iframe-section">
+			<div>
+				<h3>intro</h3>
+				<iframe src="intro.html"></iframe>
+			</div>
+			
+			<div>
+				<h3>gender</h3>
+				<iframe src="gender.html"></iframe>
+			</div>
+			
+			<div>
+				<h3>pronouns</h3>
+				<iframe src="pronouns.html"></iframe>
+			</div>
+			
+			<div>
+				<h3>orientations</h3>
+				<iframe src="orientations.html"></iframe>
+			</div>
+			
+			<div>
+				<h3>other</h3>
+				<iframe src="other.html"></iframe>
+			</div>
+			
+			<div>
+				<h3>fandom</h3>
+				<iframe src="fandom.html"></iframe>
+			</div>
+			
+			<div>
+				<h3>flight rising</h3>
+				<iframe src="flight-rising.html"></iframe>
+			</div>
+			
+			<div>
+				<h3>links</h3>
+				<iframe src="links.html"></iframe>
+			</div>
+		</div>
+		
+		<script>
+			// set page color theme
+			setPageTheme();
+			
+			// whether to show previews of FR posts
+			var postPreview = false;
+			if (new URL(window.location.toLocaleString()).searchParams.has('preview')) {
+				postPreview = (new URL(window.location.toLocaleString()).searchParams.get('preview') === 'true');
+				updateIFramePreviews();
+			}
+			// toggle preview state
+			function togglePreview() {
+				postPreview = !postPreview;
+				updateIFramePreviews();
+				console.log(postPreview);
+			}
+			// update preview state of all iframes
+			function updateIFramePreviews() {
+				if (postPreview == true) document.getElementById('toggle-preview').innerHTML = 'show code';
+				else document.getElementById('toggle-preview').innerHTML = 'show preview';
+				
+				document.querySelectorAll('iframe').forEach((iframe) => {
+					if (iframe.src.includes('?preview=')) iframe.src = iframe.src.substring(0,iframe.src.indexOf('?preview='));
+					iframe.src += '?preview=' + postPreview;
+				});
+			}
+		</script>
+	</body>
+</html>

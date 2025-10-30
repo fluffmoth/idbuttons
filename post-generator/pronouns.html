@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>button post generator</title>
+		
+		<!--base stylesheet-->
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<!--generator page stylesheet-->
+		<link href="generatedText.css" rel="stylesheet" type="text/css" media="all">
+		
+		<!--buttons database-->
+		<script src="/buttonList.js?fileversion=4.01"></script>
+		<!--buttons functions-->
+		<script src="/buttonFunctions.js?fileversion=4.01"></script>
+		<!--FR post generator-->
+		<script src="postGenerator.js?fileversion=4.01"></script>
+	</head>
+	
+	<body>
+		<!-- post bbcode inserted here -->
+		<div id="post-bbcode">
+			<!-- navigation at top of post -->
+			<span id="post navigation"></span>
+			
+			[center][size=4][url=https://idbuttons.neocities.org/?tags=pronoun][b]Buttons Database - Pronouns[/b][/url][/size]
+			<br>[i]searchable database, includes additional identities, flags, and text options![/i]
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- he/him -->
+			<span class="section" data-name="he/him - gender flags">
+				<span class="button-section" id="he genders" data-tags="single pronoun,he/him,gender flag"></span>
+			</span>
+			<span class="section" data-name="he/him - orientation flags">
+				<span class="button-section" id="he orientations" data-tags="single pronoun,he/him,orientation flag"></span>
+			</span>
+			<span class="section" data-name="he/him - other">
+				<span class="button-section" id="he colors" data-tags="single pronoun,he/him,color"></span>
+				<span class="button-section" id="he other" data-tags="single pronoun,he/him"></span>
+			</span>
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- she/her -->
+			<span class="section" data-name="she/her - gender flags">
+				<span class="button-section" id="she genders" data-tags="single pronoun,she/her,gender flag"></span>
+			</span>
+			<span class="section" data-name="she/her - orientation flags">
+				<span class="button-section" id="she orientations" data-tags="single pronoun,she/her,orientation flag"></span>
+			</span>
+			<span class="section" data-name="she/her - other">
+				<span class="button-section" id="she colors" data-tags="single pronoun,she/her,color"></span>
+				<span class="button-section" id="she other" data-tags="single pronoun,she/her"></span>
+			</span>
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- they/them -->
+			<span class="section" data-name="they/them - gender flags">
+				<span class="button-section" id="they genders" data-tags="single pronoun,they/them,gender flag"></span>
+			</span>
+			<span class="section" data-name="they/them - orientation flags">
+				<span class="button-section" id="they orientations" data-tags="single pronoun,they/them,orientation flag"></span>
+			</span>
+			<span class="section" data-name="they/them - other">
+				<span class="button-section" id="they colors" data-tags="single pronoun,they/them,color"></span>
+			</span>
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- it/its -->
+			<span class="section" data-name="it/its - gender flags">
+				<span class="button-section" id="it genders" data-tags="single pronoun,it/its,gender flag"></span>
+			</span>
+			<span class="section" data-name="it/its - colors">
+				<span class="button-section" id="it colors" data-tags="single pronoun,it/its,color"></span>
+			</span>
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- nameself/no pronouns -->
+			<span class="section" data-name="ask, none, any, & nameself">
+				<span class="button-section" id="ask pronouns" data-tags="pronoun,ask pronouns,!color,!orientation flag"></span>
+				<span class="button-section" id="no pronouns" data-tags="pronoun,no pronouns,!color,!orientation flag"></span>
+				<span class="button-section" id="any pronouns" data-tags="pronoun,any pronouns,!color,!orientation flag"></span>
+				<span class="button-section" id="nameself" data-tags="single pronoun,nameself"></span>
+			</span>
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- neopronouns -->
+			<span class="section" data-name="neopronouns">
+				<span class="button-section" id="any neos" data-tags="pronoun,any neopronouns"></span>
+				<span class="button-section" id="neopronouns" data-tags="single pronoun,neopronoun"></span>
+			</span>
+			
+			<!-- spivak -->
+			<span class="section" data-name="spivak pronouns">
+				<span class="button-section" id="spivak" data-tags="single pronoun,neopronoun,spivak"></span>
+			</span>
+			
+			<!-- historical -->
+			<span class="section" data-name="historical neopronouns">
+				<span class="button-section" id="historical" data-tags="single pronoun,neopronoun,historical"></span>
+			</span>
+			
+			<!-- fae -->
+			<span class="section" data-name="fae pronouns">
+				<span class="button-section" id="fae" data-tags="single pronoun,neopronoun,fae|fey"></span>
+			</span>
+			
+			<!-- feline -->
+			<span class="section" data-name="feline neopronouns">
+				<span class="button-section" id="feline" data-tags="single pronoun,neopronoun,feline"></span>
+			</span>
+			
+			<!-- canine -->
+			<span class="section" data-name="canine neopronouns">
+				<span class="button-section" id="canine" data-tags="single pronoun,neopronoun,canine"></span>
+			</span>
+			
+			<!-- nounself -->
+			<span class="section" data-name="other nounself pronouns">
+				<span class="button-section" id="nounself" data-tags="single pronoun,nounself"></span>
+			</span>
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- he/they -->
+			<span class="section" data-name="he/they - gender flags">
+				<span class="button-section" id="he/they genders" data-tags="pronoun,he/they,gender flag"></span>
+			</span>
+			<span class="section" data-name="he/they - orientation flags">
+				<span class="button-section" id="he/they orientations" data-tags="pronoun,he/they,orientation flag"></span>
+			</span>
+			<span class="section" data-name="he/they - colors">
+				<span class="button-section" id="he/they colors" data-tags="pronoun,he/they,color"></span>
+			</span>
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- she/they -->
+			<span class="section" data-name="she/they - gender flags">
+				<span class="button-section" id="she/they genders" data-tags="pronoun,she/they,gender flag"></span>
+			</span>
+			<span class="section" data-name="she/they - orientation flags">
+				<span class="button-section" id="she/they orientations" data-tags="pronoun,she/they,orientation flag"></span>
+			</span>
+			<span class="section" data-name="she/they - colors">
+				<span class="button-section" id="she/they colors" data-tags="pronoun,she/they,color"></span>
+			</span>
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- he/she -->
+			<span class="section" data-name="he/she">
+				<span class="button-section" id="he/she" data-tags="pronoun,he/she|he/her|she/he|she/him"></span>
+			</span>
+			
+			<!-- he/she/they -->
+			<span class="section" data-name="he/she/they">
+				<span class="button-section" id="he/she/they" data-tags="pronoun,mixed pronouns,he,she,they,!it"></span>
+				<span class="button-section" id="he/she/they colors" data-tags="pronoun,mixed pronouns,he,she,they,!it,color"></span>
+			</span>
+			
+			<!-- they/it -->
+			<span class="section" data-name="they/it">
+				<span class="button-section" id="they/it" data-tags="pronoun,mixed pronouns,they/it|it/they"></span>
+				<span class="button-section" id="they/it colors" data-tags="pronoun,mixed pronouns,they/it|it/they,color"></span>
+			</span>
+			
+			<!-- pronounfluid/label collector -->
+			<span class="section" data-name="pronounfluid & pronoun collectors">
+				<span class="button-section" id="pronounfluid" data-tags="pronounfluid"></span>
+				<span class="button-section" id="pronoun collector" data-tags="label collector,multipronoun"></span>
+			</span>
+			
+			<!-- xe mixed -->
+			<span class="section" data-name="mixed pronouns with xe/ze">
+				<span class="button-section" id="xe mixed" data-tags="pronoun,mixed pronouns,xe|ze"></span>
+			</span>
+			
+			<!-- nounself mixed -->
+			<span class="section" data-name="nounself mixed pronouns">
+				<span class="button-section" id="nounself mixed" data-tags="pronoun,mixed pronouns,nounself"></span>
+			</span>
+			
+			<!-- other mixed -->
+			<span class="section" data-name="other mixed/multi pronouns">
+				<span class="button-section" id="mixed pronouns" data-tags="pronoun,mixed pronouns"></span>
+			</span>
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- spanish -->
+			<span class="section" data-name="spanish pronouns">
+				<span class="button-section" id="spanish" data-tags="spanish"></span>
+			</span>
+			
+			<!-- conlang -->
+			<span class="section" data-name="conlang pronouns">
+				<span class="button-section" id="conlang" data-tags="pronoun,conlang"></span>
+			</span>
+		
+		<script>
+			loadOrder = [
+				"he genders",
+				"he orientations",
+				"he colors",
+				"he other",
+				
+				"she genders",
+				"she orientations",
+				"she colors",
+				"she other",
+				
+				"they genders",
+				"they orientations",
+				"they colors",
+				
+				"it genders",
+				"it colors",
+				
+				"spanish",
+				"conlang",
+				
+				"nameself",
+				"no pronouns",
+				"ask pronouns",
+				"any neos", "any pronouns",
+				"fae",
+				"spivak",
+				"feline",
+				"canine",
+				"historical",
+				"nounself",
+				"neopronouns",
+				
+				"nounself mixed",
+				"xe mixed",
+				"he/they genders", "he/they orientations", "he/they colors",
+				"she/they genders", "she/they orientations", "she/they colors",
+				"he/she",
+				"they/it colors", "they/it",
+				"he/she/they colors", "he/she/they",
+				"pronoun collector", "pronounfluid",
+				"mixed pronouns"
+			]
+			
+			// set page color theme
+			setPageTheme();
+			
+			// generate post text
+			generatePost();
+		</script>
+	</body>
+</html>

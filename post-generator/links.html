@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>button post generator</title>
+		
+		<!--base stylesheet-->
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<!--generator page stylesheet-->
+		<link href="generatedText.css" rel="stylesheet" type="text/css" media="all">
+		
+		<!--buttons database-->
+		<script src="/buttonList.js?fileversion=4.01"></script>
+		<!--buttons functions-->
+		<script src="/buttonFunctions.js?fileversion=4.01"></script>
+		<!--FR post generator-->
+		<script src="postGenerator.js?fileversion=4.01"></script>
+	</head>
+	
+	<body>
+		<!-- post bbcode inserted here -->
+		<div id="post-bbcode">
+			<!-- navigation at top of post -->
+			<span id="post navigation"></span>
+			
+			[center][size=4][url=https://idbuttons.neocities.org/?tags=link%20button][b]Buttons Database - Link Buttons[/b][/url][/size]
+			<br>[i]searchable database, includes additional identities, flags, and text options![/i]
+			
+			<!-- link buttons -->
+			<span class="section" data-name="link buttons">
+				<span class="button-section" id="links" data-tags="link button"></span>
+			</span>
+		
+		<script>
+			loadOrder = [
+				"links"
+			]
+			
+			// set page color theme
+			setPageTheme();
+			
+			// generate post text
+			generatePost();
+		</script>
+	</body>
+</html>

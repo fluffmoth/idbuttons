@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>button post generator</title>
+		
+		<!--base stylesheet-->
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<!--generator page stylesheet-->
+		<link href="generatedText.css" rel="stylesheet" type="text/css" media="all">
+		
+		<!--buttons database-->
+		<script src="/buttonList.js?fileversion=4.01"></script>
+		<!--buttons functions-->
+		<script src="/buttonFunctions.js?fileversion=4.01"></script>
+		<!--FR post generator-->
+		<script src="postGenerator.js?fileversion=4.01"></script>
+	</head>
+	
+	<body>
+		<!-- post bbcode inserted here -->
+		<div id="post-bbcode">
+			<!-- navigation at top of post -->
+			<span id="post navigation"></span>
+			
+			[center][size=4][url=https://idbuttons.neocities.org/?tags=orientation][b]Buttons Database - Orientations[/b][/url][/size]
+			<br>[i]searchable database, includes additional identities, flags, and text options![/i]
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- unsorted -->
+			<span class="section" data-name="unsorted orientations">
+				<span class="button-section" id="gay" data-tags="orientation,gay"></span>
+				<span class="button-section" id="queer" data-tags="orientation,queer"></span>
+				<span class="single-button" data-name="t4t" data-icon=""></span>
+				<span class="single-button" data-name="tlt" data-icon=""></span>
+				<span class="single-button" data-name="diamoric" data-icon=""></span>
+				<span class="single-button" data-name="gai" data-icon=""></span>
+				<span class="button-section" id="orientations" data-tags="orientation"></span>
+			</span>
+			
+			<!-- straight -->
+			<span class="section" data-name="straight">
+				<span class="button-section" id="straight" data-tags="orientation,straight|heterosexual|hetero"></span>
+				<span class="button-section" id="straight ally" data-tags="orientation,straight|heterosexual|hetero,ally"></span>
+			</span>
+			
+			<!-- m-spec -->
+			<span class="section" data-name="m-spec">
+				<span class="single-button" data-name="bisexual" data-icon="flag"></span>
+				<span class="single-button" data-name="pansexual" data-icon=""></span>
+				<span class="single-button" data-name="bi/pan" data-icon=""></span>
+				
+				<span class="single-button" data-name="doe" data-icon="bi flag"></span>
+				<span class="single-button" data-name="stag" data-icon="bi flag"></span>
+				<span class="single-button" data-name="tomcat" data-icon="bi flag"></span>
+				
+				<span class="button-section" id="bi" data-tags="orientation,bi"></span>
+				<span class="button-section" id="pan" data-tags="orientation,pan"></span>
+				
+				<span class="single-button" data-name="omnisexual" data-icon="flag"></span>
+				<span class="single-button" data-name="omni/bi" data-icon=""></span>
+				<span class="button-section" id="omni" data-tags="orientation,omni"></span>
+				
+				<span class="single-button" data-name="polysexual" data-icon="flag"></span>
+				<span class="single-button" data-name="pluralian" data-icon="flag"></span>
+				
+				<span class="button-section" id="m-spec galactic" data-tags="orientation,m-spec,galactic orientation"></span>
+				<span class="button-section" id="m-spec" data-tags="orientation,m-spec"></span>
+			</span>
+			
+			<!-- fluid -->
+			<span class="section" data-name="fluid">
+				<span class="button-section" id="fluid" data-tags="orientation,fluid"></span>
+				<span class="button-section" id="flux" data-tags="orientation,flux"></span>
+			</span>
+			
+			<!-- FIN attraction -->
+			<span class="section" data-name="FIN attraction">
+				<span class="single-button" data-name="likes women" data-icon=""></span>
+				<span class="single-button" data-name="likes girls" data-icon=""></span>
+				<span class="single-button" data-name="likes females" data-icon=""></span>
+				
+				<span class="single-button" data-name="lesbian" data-icon="flag"></span>
+				<span class="single-button" data-name="femme" data-icon="lesbian flag"></span>
+				<span class="single-button" data-name="butch" data-icon="lesbian flag"></span>
+				<span class="single-button" data-name="femme" data-icon="flag"></span>
+				<span class="single-button" data-name="butch" data-icon="flag"></span>
+				
+				<span class="single-button" data-name="wlw" data-icon="sapphic flag"></span>
+				<span class="button-section" id="wlw" data-tags="orientation,wlw"></span>
+				<span class="button-section" id="sapphic" data-tags="orientation,sapphic"></span>
+				
+				<span class="single-button" data-name="nb lesbian" data-icon="lesbian flag"></span>
+				<span class="single-button" data-name="nb sapphic" data-icon="nonbinary sapphic flag"></span>
+				<span class="single-button" data-name="nblw" data-icon="juvelic sapphic flag"></span>
+				
+				<span class="single-button" data-name="trixic" data-icon="Trixic flag"></span>
+				<span class="single-button" data-name="orbisian" data-icon="Trixic flag"></span>
+				<span class="single-button" data-name="nblw" data-icon="Trixic flag"></span>
+				<span class="button-section" id="nblw" data-tags="orientation,nblw"></span>
+				<span class="button-section" id="fin galactic" data-tags="orientation,FIN attraction,galactic orientation"></span>
+				<span class="button-section" id="fin" data-tags="orientation,FIN attraction"></span>
+			</span>
+			
+			<!-- MIN attraction -->
+			<span class="section" data-name="MIN attraction">
+				<span class="single-button" data-name="likes men" data-icon=""></span>
+				<span class="single-button" data-name="likes boys" data-icon=""></span>
+				<span class="single-button" data-name="likes males" data-icon=""></span>
+				
+				<span class="single-button" data-name="gay" data-icon="gay man flag"></span>
+				<span class="single-button" data-name="gay man" data-icon=""></span>
+				<span class="single-button" data-name="vincian" data-icon=""></span>
+				
+				<span class="single-button" data-name="twink" data-icon="flag"></span>
+				<span class="single-button" data-name="bear" data-icon="flag"></span>
+				<span class="single-button" data-name="achillean" data-icon="flag"></span>
+				<span class="button-section" id="mlm" data-tags="orientation,mlm"></span>
+				
+				<span class="button-section" id="toric" data-tags="orientation,toric"></span>
+				<span class="single-button" data-name="nblm" data-icon=""></span>
+				<span class="single-button" data-name="nb achillean" data-icon=""></span>
+				<span class="single-button" data-name="nb mlm" data-icon=""></span>
+				
+				<span class="button-section" id="nblm" data-tags="orientation,nblm"></span>
+				<span class="button-section" id="min galactic" data-tags="orientation,MIN attraction,galactic orientation"></span>
+				<span class="button-section" id="min" data-tags="orientation,MIN attraction"></span>
+			</span>
+			
+			<!-- NIN attraction -->
+			<span class="section" data-name="NIN attraction">
+				<span class="single-button" data-name="likes nbs" data-icon=""></span>
+				
+				<span class="button-section" id="ceterosexual" data-tags="orientation,ceterosexual"></span>
+				
+				<span class="button-section" id="nin galactic" data-tags="orientation,NIN attraction,galactic orientation"></span>
+				<span class="button-section" id="nin" data-tags="orientation,NIN attraction"></span>
+				<span class="single-button" data-name="wlnb" data-icon=""></span>
+				<span class="single-button" data-name="mlnb" data-icon=""></span>
+			</span>
+			
+			<!-- ace spectrum -->
+			<span class="section" data-name="ace spectrum">
+				<span class="single-button" data-name="asexual" data-icon="flag"></span>
+				<span class="single-button" data-name="demisexual" data-icon="flag"></span>
+				<span class="single-button" data-name="gray ace" data-icon=""></span>
+				<span class="single-button" data-name="acespec" data-icon=""></span>
+				<span class="button-section" id="ace" data-tags="orientation,asexual|ace spectrum"></span>
+				<span class="button-section" id="ace sam" data-tags="orientation,asexual|ace spectrum,split attraction model"></span>
+			</span>
+			
+			<!-- aro spectrum -->
+			<span class="section" data-name="aro spectrum">
+				<span class="single-button" data-name="aromantic" data-icon="flag"></span>
+				<span class="single-button" data-name="demiromantic" data-icon="flag"></span>
+				<span class="single-button" data-name="gray aro" data-icon=""></span>
+				<span class="single-button" data-name="arospec" data-icon=""></span>
+				<span class="button-section" id="aro" data-tags="orientation,aromantic|aro spectrum"></span>
+				<span class="button-section" id="aro sam" data-tags="orientation,aromantic|aro spectrum,split attraction model"></span>
+			</span>
+			
+			<!-- aroace -->
+			<span class="section" data-name="aroace">
+				<span class="single-button" data-name="aroace" data-icon="flag"></span>
+				<span class="button-section" id="aroace" data-tags="orientation,aroace"></span>
+				<span class="button-section" id="aroace spectrum" data-tags="orientation,aroace spectrum"></span>
+				<span class="single-button" data-name="angled aroace" data-icon="flag"></span>
+				<span class="single-button" data-name="oriented aroace" data-icon="flag"></span>
+				<span class="hidden button-section" id="aroace sam" data-tags="orientation,aroace spectrum|aroace,split attraction model"></span>
+			</span>
+			
+			<!-- romantic orientations -->
+			<span class="section" data-name="other romantic orientations">
+				<span class="button-section" id="homoromantic" data-tags="orientation,romantic orientation,homoromantic"></span>
+				
+				<span class="single-button" data-name="biromantic" data-icon=""></span>
+				<span class="single-button" data-name="panromantic" data-icon=""></span>
+				<span class="single-button" data-name="omniromantic" data-icon=""></span>
+				<span class="single-button" data-name="polyromantic" data-icon=""></span>
+				<span class="button-section" id="m-spec romantic" data-tags="orientation,romantic orientation,m-spec"></span>
+				
+				<span class="button-section" id="other romantic" data-tags="orientation,romantic orientation"></span>
+			</span>
+			
+			<!-- label collectors -->
+			<span class="section" data-name="label collectors">
+				<span class="button-section" id="collectors" data-tags="orientation,label collector"></span>
+			</span>
+			
+			<!-- tertiary -->
+			<span class="section" data-name="tertiary attraction">
+				<span class="button-section" id="tertiary" data-tags="orientation,tertiary attraction"></span>
+			</span>
+		
+		<script>
+			loadOrder = [
+				"collectors",
+				
+				"tertiary",
+				
+				"flux", "fluid", 
+				
+				"aroace sam", "aroace", "aroace spectrum",
+				"ace sam", "aceflux", "ace",
+				"aro sam", "aroflux", "aro",
+				
+				"homoromantic", "m-spec romantic", "other romantic",
+				"m-spec galactic", "omni", "bi", "pan", "m-spec",
+				
+				"fin galactic", "nblw", "sapphic", "wlw", "fin",
+				
+				"min galactic", "toric", "nblm", "mlm", "min",
+				
+				"nin galactic", "ceterosexual", "nin",
+				
+				"straight ally","straight",
+				
+				"queer","gay","orientations"
+			]
+			
+			// set page color theme
+			setPageTheme();
+			
+			// generate post text
+			generatePost();
+		</script>
+	</body>
+</html>

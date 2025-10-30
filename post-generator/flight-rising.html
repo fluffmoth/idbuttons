@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>button post generator</title>
+		
+		<!--base stylesheet-->
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<!--generator page stylesheet-->
+		<link href="generatedText.css" rel="stylesheet" type="text/css" media="all">
+		
+		<!--buttons database-->
+		<script src="/buttonList.js?fileversion=4.01"></script>
+		<!--buttons functions-->
+		<script src="/buttonFunctions.js?fileversion=4.01"></script>
+		<!--FR post generator-->
+		<script src="postGenerator.js?fileversion=4.01"></script>
+	</head>
+	
+	<body>
+		<!-- post bbcode inserted here -->
+		<div id="post-bbcode">
+			<!-- navigation at top of post -->
+			<span id="post navigation"></span>
+			
+			[center][size=4][url=https://idbuttons.neocities.org/?tags=flight%20rising][b]Buttons Database - Flight Rising[/b][/url][/size]
+			<br>[i]searchable database, includes additional identities, flags, and text options![/i]
+			
+			<!-- flight rising -->
+			<span class="section" data-name="flight rising specific">
+				<span class="button-section" id="flight rising" data-tags="flight rising,!gender"></span>
+			</span>
+		
+		<script>
+			loadOrder = [
+				"flight rising"
+			]
+			
+			// set page color theme
+			setPageTheme();
+			
+			// generate post text
+			generatePost();
+		</script>
+	</body>
+</html>

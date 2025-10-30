@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>id button maker</title>
+		
+		<!--base stylesheet-->
+		<link href="/style.css?fileversion=4.00" rel="stylesheet" type="text/css" media="all">
+		<!--button maker stylesheet-->
+		<link href="maker.css?fileversion=4.00" rel="stylesheet" type="text/css" media="all">
+		
+		<!--buttons database-->
+		<script src="/buttonList.js?fileversion=4.01"></script>
+		<!--buttons functions-->
+		<script src="/buttonFunctions.js?fileversion=4.01"></script>
+		<!--font sprite functions-->
+		<script src="fontSprites.js?fileversion=4.01"></script>
+		<!--maker functions-->
+		<script src="buttonMaker.js?fileversion=4.01"></script>
+		<!--palette list-->
+		<script src="buttonPalettes.js?fileversion=4.01"></script>
+	</head>
+	
+	<body>
+		
+		<!-- page color theme selection -->
+		<select type="submit" name="theme" id="theme" onchange="setPageTheme(this.value);">
+			<label class="sr-only" for="theme">Page theme:</label>
+			<option>Page theme</option>
+			<option value="light">light</option>
+			<option value="dark">dark</option>
+		</select>
+		
+		<header>
+			<h1><a href="/database">tiny identity buttons</a></h1>
+		</header>
+		
+		<nav>
+			<p>nav: <a href="/database">premade buttons</a></p>
+		</nav>
+		
+		<hr>
+		
+		<main>
+			<section class="top">
+				<h2>custom button maker</h2>
+				<p align="center">To get started, select options below or click edit
+					(<img src="/buttons/edit.png" alt="edit" style="margin-bottom: -.5em; padding-bottom: .25em;">)
+					on any button in the <a href="/database">database</a></p>
+				
+				<hr>
+			</section>
+			
+			
+			<form id="maker-options" name="maker options">
+				<!-- Prevent implicit submission of the form -->
+				<button type="submit" disabled class="hidden" aria-hidden="true"></button>
+				
+				<div class="flex-wrapper">
+					<!-- top of form -->
+					<div id="maker-options-left">
+						<div id="icon-option-wrapper">
+							<h4>icon</h4>
+							<div class="radio-row">
+								<input type="radio" name="icon" id="shape-icon-radio" onchange="setIcon(this.value)"></input>
+								<label for="shape-icon-radio">
+									Shape icon: 
+									<p>Color: </p>
+								</label>
+								<div class="select-wrapper">
+									<select onchange="selectIconBase('shape',this.value,'icon base');" id="base-category-shape"><option selected>Select shape</option></select>
+									<p><select onchange="setIconSelection(this.value,true)" id="color-category-shape"></select></p>
+								</div>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="icon" id="gender-icon-radio" onchange="setIcon(this.value)"></input>
+								<label for="gender-icon-radio"> Gender flag: </label>
+								<select onchange="setIconSelection(this.value,true)" id="icon-category-gender"><option selected>Select flag</option></select>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="icon" id="orientation-icon-radio" onchange="setIcon(this.value)"></input>
+								<label for="orientation-icon-radio"> Orientation flag: </label>
+								<select onchange="setIconSelection(this.value,true)" id="icon-category-orientation"><option selected>Select flag</option></select>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="icon" id="custom-icon-radio" onchange="setIcon(this.value)"></input>
+								<label for="custom-icon-radio"> Other: </label>
+								<input type="text" placeholder="Enter an existing icon or button name" onchange="setIconSelection(this.value,true)" id="icon-category-custom"></input>
+							</div>
+						</div>
+						
+						<p>
+							<label for="buttonmaker-text"><h4>text</h4></label>
+							<input type="text" id="buttonmaker-text" name="text" placeholder="Button display text" oninput="setText(this.value);"></input>
+							<p class="hidden" id="buttonmaker-text-error">Unsupported characters: <span id="unsupported-char-display"></span></p>
+						</p>
+						
+						<p>
+							<label for="palette-select"><h4>color palette</h4></label>
+							<select name="base" id="palette-select" oninput="setPalette(this.value)">
+								<optgroup id="palette-select-custom" label="Custom Palettes"></optgroup>
+								<optgroup id="palette-select-default" label="Default Palettes"></optgroup>
+							</select>
+							<button class="linkbtn small" type="button" onclick="openCustomColors();">Customize...</button>
+						</p>
+						
+						<!-- bottom buttons -->
+						<p>
+							<button class="linkbtn makerReset" type="button" onclick="getSavedSettings();">Reset</button>
+							<button class="linkbtn" onclick="openAdvancedSection();" type="button">Advanced...</button>
+						</p>
+					</div>
+					
+					<!-- result -->
+					<section id="result" class="result">
+						<hr>
+						<header><h3>result</h3></header>
+						<div id="canvas-wrapper">
+							<canvas id="canvas"></canvas>
+							<div><button class="linkbtn small" type="button" id="download">Download PNG</button></div>
+						</div>
+						<div id="scalePreview" class="hidden">
+							<h4>2x preview</h4>
+							<canvas id="scaleCanvas"></canvas>
+						</div>
+						<h3 id="result-spacer" style="visibility:hidden">.</h3>
+					</section>
+				</div>
+				
+				<!-- ADVANCED/COLORS ACCORDION -->
+				<div id="advanced-section-wrapper" class="accordion-section-wrapper">
+					<section class="hidden" id="custom-palette-section">
+						<h4>customize palette</h4>
+						<p>Accepts hex or rgb color codes. Gradients not currently supported.</p>
+						
+						<div id="custom-color-input-wrapper">
+							<div>
+								<label for="custom-base-color">Text background:</label>
+								<input id="custom-base-color" class="custom-color" type="text" name="base" placeholder="Color required"></input>
+								<div id="custom-color-base-preview" class="custom-color-preview"></div>
+							</div>
+							<div>
+								<label for="custom-text-color">Text:</label>
+								<input id="custom-text-color" class="custom-color" type="text" name="text" placeholder="Color required"></input>
+								<div id="custom-color-text-preview" class="custom-color-preview"></div>
+							</div>
+							<div>
+								<label for="custom-text-shadow-color">Text shadow:</label>
+								<input id="custom-text-shadow-color" class="custom-color" type="text" name="textShadow" placeholder="None"></input>
+								<div id="custom-color-textShadow-preview" class="custom-color-preview"></div>
+							</div>
+							<div>
+								<label for="custom-inner-outline-color">Inner outline:</label>
+								<input id="custom-inner-outline-color" class="custom-color" type="text" name="innerOutline" placeholder="Color required"></input>
+								<div id="custom-color-innerOutline-preview" class="custom-color-preview"></div>
+							</div>
+							<div>
+								<label for="custom-outline-color">Outline:</label>
+								<input id="custom-outline-color" class="custom-color" type="text" name="outline" placeholder="Color required"></input>
+								<div id="custom-color-outline-preview" class="custom-color-preview"></div>
+							</div>
+							<div>
+								<label for="custom-shadow-color">Shadow:</label>
+								<input id="custom-shadow-color" class="custom-color" type="text" name="shadow" placeholder="None"></input>
+								<div id="custom-color-shadow-preview" class="custom-color-preview"></div>
+							</div>
+							<div>
+								<label for="custom-glow-color">Glow:</label>
+								<input id="custom-glow-color" class="custom-color" type="text" name="glow" placeholder="None"></input>
+								<div id="custom-color-glow-preview" class="custom-color-preview"></div>
+							</div>
+						</div>
+						
+						<h4>save palette</h4>
+						<div id="custom-save-bar">
+							<input id="custom-palette-name" placeholder="Enter name" name="customName" type="text"></input>
+							<button class="btn" type="button" onclick="saveCustomPalette();">Save</button>
+							<span id="palette-saved-status" class="subtext">Saved!</span>
+							<p class="subtext">(Custom palettes with the same name will be overwritten)</p>
+						</div>
+						
+						<h4>edit saved palettes</h4>
+						
+						<ul id="saved-palette-list"><li class="empty-text">None!</li></ul>
+						
+						<button class="close-x" type="button" onclick="closeCustomColors();"
+							aria-label="Close Custom Color Section"><span aria-hidden="true">X</span>
+						</button>
+					</section>
+					
+					<section class="hidden" id="advanced-section">
+						<h4>style</h4>
+						<div class="checkbox-section">
+							<p>
+								<input id="disable-shadow" name="disableShadow" type="checkbox" onchange="shadowOn=!this.checked;updateButton();"></input>
+								<label for="disable-shadow"> Hide button shadow</label>
+							</p>
+							
+							<p>
+								<input id="disable-glow" name="disableGlow" type="checkbox" onchange="glowOn=!this.checked;updateButton();"></input>
+								<label for="disable-glow"> Hide glow outlines</label> <span class="subtext">(only affects some palettes)</span>
+							</p>
+						</div>
+						
+						<h4>text</h4>
+						<div class="checkbox-section">
+							<p>
+								<input id="disable-textShadow" name="disableTextShadow" type="checkbox" onchange="textShadowOn=!this.checked;updateButton();"></input>
+								<label for="disable-textShadow"> Hide text shadows</label> <span class="subtext">(only affects some palettes)</span>
+							</p>
+							
+							<p>
+								<input id="prestyled-text-off" class="hidden" name="prestyledText" value="off" disabled></input>
+								<input id="prestyled-text" name="prestyledText" type="checkbox" defaultChecked
+									onchange="
+										forceCustomText=!this.checked;
+										document.getElementById('prestyled-text-off').disabled = this.checked;
+										updateButton();"
+									></input>
+								<label for="prestyled-text"> Use prestyled text if available</label>
+								<button class="linkbtn" type="button" onclick="document.getElementById('prestyled-text-info').classList.toggle('hidden');">(?)</button>
+								<p id="prestyled-text-info" class="subtext hidden">
+									Prestyled text copies the text width, spacing, and abbreviations from existing buttons if possible.
+									Prestyled text is unavailable for palettes with text shadows or alternating letter colors.
+								</p>
+							</p>
+						</div>
+						
+						<h4>custom text width</h4>
+						<div class="radio-row">
+							<input type="radio" name="fontstyle" id="regular" value="regular" checked onchange="fontStyle=this.value;updateButton();"></input><label for="regular"> Regular</label>
+						</div>
+						<div class="radio-row">
+							<input type="radio" name="fontstyle" id="narrow" value="narrow" onchange="fontStyle=this.value;updateButton();"></input><label for="narrow"> Narrow</label>
+						</div>
+						<div class="radio-row">
+							<input type="radio" name="fontstyle" id="thin" value="thin" onchange="fontStyle=this.value;updateButton();"></input><label for="thin"> Ultra Thin</label>
+						</div>
+						<div class="radio-row">
+							<input type="radio" name="fontstyle" id="regularCase" value="regularCase" onchange="fontStyle=this.value;updateButton();"></input><label for="regularCase"> Uppercase Regular, Lowercase Narrow</label>
+						</div>
+						<div class="radio-row">
+							<input type="radio" name="fontstyle" id="narrowCase" value="narrowCase" onchange="fontStyle=this.value;updateButton();"></input><label for="narrowCase"> Uppercase Narrow, Lowercase Ultra Thin</label>
+						</div>
+						
+						<h4>other settings</h4>
+						
+						<p>
+							<input id="show-scaled" name="showScaled" type="checkbox" onchange="toggleShowScaledButton();"></input>
+							<label for="show-scaled"> Show 2x preview</span>
+						</p>
+						
+						<div class="advanced-button-wrapper">
+							<button class="btn" type="button" onclick="saveSettings();">Save Settings</button>
+							<span id="saved-status" class="subtext hidden">Saved!</span>
+							<p>
+								<button class="btn" type="button" onclick="clearSavedSettings();">Clear Saved Settings</button>
+								<span id="cleared-status" class="subtext hidden">Cleared!</span>
+							</p>
+							<button class="btn" type="submit">Redraw Image</button>
+							<button class="linkbtn" type="button" onclick="document.getElementById('redraw-info').classList.toggle('hidden');">(?)</button>
+							<p id="redraw-info" class="subtext hidden">
+								Reloads the page with all the same settings and inputs.
+								Try this if the button is not rendering correctly.
+							</p>
+						</div>
+						
+						<button class="close-x" type="button" onclick="closeAdvancedSection();"
+							aria-label="Close Advanced Options"><span aria-hidden="true">X</span>
+						</button>
+					</section>
+					
+					<div class="accordion-right-spacer"></div>
+				</div>
+			</form>
+		</main>
+		
+		<script>
+			// set page color theme
+			setPageTheme();
+			
+			// load button maker
+			initButtonMaker();
+		</script>
+	</body>
+</html>

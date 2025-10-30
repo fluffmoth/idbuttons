@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script>
+			// if parameters/hashes exist, redirect to database
+			if (window.location.href.includes(`?`) || window.location.href.includes(`#`)) {
+				window.location.href = window.location.href.replace(window.location.hostname,window.location.hostname + '/database');
+			}
+		</script>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>fluffmoth's id buttons</title>
+		
+		<!-- favicon -->
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		
+		<!--base stylesheet-->
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<!--this page's stylesheet-->
+		<link href="/landingPage.css" rel="stylesheet" type="text/css" media="all">
+		
+		<!--buttons database-->
+		<script src="/buttonList.js?fileversion=4.01"></script>
+		<!--buttons functions-->
+		<script src="/buttonFunctions.js?fileversion=4.01"></script>
+		<!--landing page functions-->
+		<script src="/landingPage.js?fileversion=4.01"></script>
+	</head>
+	
+	<body>
+		<!-- page color theme selection -->
+		<select type="submit" name="theme" id="theme" onchange="setPageTheme(this.value);">
+			<label class="sr-only" for="theme">Page theme:</label>
+			<option>Page theme</option>
+			<option value="light">light</option>
+			<option value="dark">dark</option>
+		</select>
+		
+		<div id="landing-container">
+			<header>
+				<h2>tiny identity buttons</h2>
+				<p>free resource database</p>
+				<p><button class="" onclick="window.location.href='/database';">
+						<img class="enter" src="/Enter.png" alt="Enter">
+					</button></p>
+			</header>
+			
+			<div id="buttons-block-overlay"></div>
+			<div id="buttons-block"></div>
+		</div>
+		
+		<script>
+			// set page color theme
+			setPageTheme();
+			
+			loadLanding();
+		</script>
+	</body>
+</html>

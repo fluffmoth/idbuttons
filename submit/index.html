@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>submit a button</title>
+		
+		<!--base stylesheet-->
+		<link href="/style.css?fileversion=4.00" rel="stylesheet" type="text/css" media="all">
+		
+		<!--buttons functions-->
+		<script src="/buttonFunctions.js?fileversion=4.01"></script>
+		<!--filter/tag list-->
+		<script src="/database/filterList.js?fileversion=4.01"></script>
+		<!--button submission functions-->
+		<script src="buttonSubmission.js?fileversion=4.01"></script>
+	</head>
+	
+	<body>
+		<!-- page color theme selection -->
+		<select type="submit" name="theme" id="theme" onchange="setPageTheme(this.value);">
+			<label class="sr-only" for="theme">Page theme:</label>
+			<option>Page theme</option>
+			<option value="light">light</option>
+			<option value="dark">dark</option>
+		</select>
+		
+		<header>
+			<h1><a href="/database">tiny identity buttons</a></h1>
+		</header>
+		
+		<nav>
+			<p>nav:
+				<a href="/database">premade buttons</a> /
+				<a href="/maker">custom button maker</a>
+			</p>
+		</nav>
+		
+		<hr>
+		
+		<main>
+			<header>
+				<h2>submit a button</h2>
+				<p>If you've made a button you'd like to submit for entry to the database, please fill out the form
+					below. When you're done, copy the entire generated text block at the bottom and submit it
+					<a href="">here</a>.</p>
+				
+				<hr>
+			</header>
+			
+			<section id="button-submission-section">
+				<section class="button-form" id="button-form-0">
+					<p>
+						<label for="name-0">Name:</label>
+						<input type="text" class="name" id="name-0"></input>
+					</p>
+					<p>Tags:</p>
+					<!-- tag list inserted below -->
+					<ul id="tag-list"></ul>
+					
+					<p>
+						<label for="icon-0">Icon description:</label>
+						<input type="text" class="name" id="icon-0"></input>
+					</p>
+				</section>
+			</section>
+			
+			<textarea id="button-code-result"></textarea>
+		</main>
+		
+		<script>
+			// set page color theme
+			setPageTheme();
+			
+			// load button maker
+			initButtonSubmit();
+		</script>
+	</body>
+</html>

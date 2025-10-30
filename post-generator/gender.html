@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>button post generator</title>
+		
+		<!--base stylesheet-->
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<!--generator page stylesheet-->
+		<link href="generatedText.css" rel="stylesheet" type="text/css" media="all">
+		
+		<!--buttons database-->
+		<script src="/buttonList.js?fileversion=4.01"></script>
+		<!--buttons functions-->
+		<script src="/buttonFunctions.js?fileversion=4.01"></script>
+		<!--FR post generator-->
+		<script src="postGenerator.js?fileversion=4.01"></script>
+	</head>
+	
+	<body>
+		<!-- post bbcode inserted here -->
+		<div id="post-bbcode">
+			<!-- navigation at top of post -->
+			<span id="post navigation"></span>
+			
+			[center][size=4][url=https://idbuttons.neocities.org/?tags=gender][b]Buttons Database - Gender[/b][/url][/size]
+			<br>[i]searchable database, includes additional identities, flags, and text options![/i]
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- trans -->
+			<span class="section" data-name="transgender">
+				<span class="button-section" id="trans" data-tags="gender,transgender"></span>
+				<span class="button-section" id="trans male" data-tags="gender,transgender,male"></span>
+				<span class="button-section" id="trans female" data-tags="gender,transgender,female"></span>
+				<span class="button-section" id="trans orientations" data-tags="gender,transgender,orientation"></span>
+			</span>
+			
+			<!-- cis -->
+			<span class="section" data-name="cisgender">
+				<span class="button-section" id="cis" data-tags="gender,cisgender"></span>
+				<span class="button-section" id="cis male" data-tags="gender,cisgender,male"></span>
+				<span class="button-section" id="cis female" data-tags="gender,cisgender,female"></span>
+			</span>
+			
+			<!-- masc -->
+			<span class="section" data-name="male/masculine">
+				<span class="single-button" data-name="male" data-icon=""></span>
+				<span class="single-button" data-name="mingender" data-icon=""></span>
+				<span class="single-button" data-name="miaspec" data-icon=""></span>
+				<span class="button-section" id="male" data-tags="gender,male,!female"></span>
+				<span class="single-button" data-name="beauboy" data-icon=""></span>
+				<span class="button-section" id="masculine" data-tags="gender,masculine,!feminine"></span>
+			</span>
+			
+			<!-- fem -->
+			<span class="section" data-name="female/feminine">
+				<span class="single-button" data-name="female" data-icon=""></span>
+				<span class="single-button" data-name="fingender" data-icon=""></span>
+				<span class="single-button" data-name="fiaspec" data-icon=""></span>
+				<span class="button-section" id="female" data-tags="gender,female,!male"></span>
+				<span class="single-button" data-name="beaugirl" data-icon=""></span>
+				<span class="button-section" id="feminine" data-tags="gender,feminine,!masculine"></span>
+			</span>
+			
+			<!-- nonbinary/neutral/androgynous -->
+			<span class="section" data-name="nonbinary, neutral & androgynous">
+				<span class="button-section" id="nonbinary" data-tags="gender,nonbinary"></span>
+				<span class="button-section" id="neutral" data-tags="gender,neutral"></span>
+				<span class="button-section" id="androgynous" data-tags="gender,androgynous"></span>
+			</span>
+			
+			<!-- nonbinary alignments -->
+			<span class="section" data-name="nonbinary alignments">
+				<span class="button-section" id="nonbinary alignments" data-tags="gender,nb alignment"></span>
+			</span>
+			
+			<!-- genderless -->
+			<span class="section" data-name="genderless">
+				<span class="button-section" id="agender" data-tags="gender,agender"></span>
+				<span class="button-section" id="genderless" data-tags="gender,genderless"></span>
+			</span>
+			
+			<!-- queer & GNC -->
+			<span class="section" data-name="queer & non-conforming">
+				<span class="button-section" id="queer" data-tags="gender,queer"></span>
+				<span class="button-section" id="gnc" data-tags="gender,gnc"></span>
+			</span>
+			
+			<!-- fluid/flux -->
+			<span class="section" data-name="fluid/flux genders">
+				<span class="button-section" id="genderfluid" data-tags="gender,genderfluid"></span>
+				<span class="button-section" id="genderflux" data-tags="gender,genderflux"></span>
+				<span class="button-section" id="fluidflux" data-tags="gender,fluidflux"></span>
+			</span>
+			
+			<!-- demi & hyper genders -->
+			<span class="section" data-name="demi & hyper genders">
+				<span class="button-section" id="demigender" data-tags="gender,demigender"></span>
+				<span class="button-section" id="hypergender" data-tags="gender,hypergender"></span>
+			</span>
+			
+			<!-- multigenders -->
+			<span class="section" data-name="multigenders">
+				<span class="button-section" id="multigenders" data-tags="gender,multigender"></span>
+			</span>
+			
+			<span class="section" data-name="label collectors">
+				<span class="button-section" id="collectors" data-tags="gender,label collector"></span>
+			</span>
+			
+			<!-- uingenders -->
+			<span class="section" data-name="unclear, unknown, & unlabeled">
+				<span class="button-section" id="uingenders" data-tags="gender,uingender"></span>
+			</span>
+			
+			<!-- unsorted gender buttons -->
+			<span class="section" data-name="unsorted gender buttons">
+				<span class="button-section" id="other genders" data-tags="gender"></span>
+			</span>
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- intersex genders -->
+			<span class="section" data-name="intersex genders (exclusive)">
+				<span class="button-section" id="intersex" data-tags="gender,intersex"></span>
+			</span>
+			
+			<!-- jewish -->
+			<span class="section" data-name="cultural genders (exclusive)">
+				<span class="button-section" id="jewish genders" data-tags="gender,jewish"></span>
+				<span class="button-section" id="indigenous genders" data-tags="gender,indigenous"></span>
+			</span>
+			
+			<!-- neurogenders -->
+			<span class="section" data-name="neurogenders (exclusive)">
+				<span class="button-section" id="neurogenders" data-tags="gender,neurogender"></span>
+			</span>
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- circa-binary -->
+			<span class="section" data-name="circa-binary genders">
+				<span class="button-section" id="circa-binary" data-tags="gender,circa-binary"></span>
+			</span>
+			
+			<!-- genderfluid fragment system -->
+			<span class="section" data-name="genderfluid fragment system"
+				data-subtitle="(agender/demi variants in the [url=https://idbuttons.neocities.org/database/?tags=genderfluid fragment system]database[/url])">
+				<span class="button-section" id="genderfluid fragment system" data-tags="gender,genderfluid fragment system"></span>
+			</span>
+			
+			<!-- galactian alignments -->
+			<span class="section" data-name="galactian alignments">
+				<span class="button-section" id="galactian alignments" data-tags="gender,galactian alignment system"></span>
+			</span>
+			
+			<!-- alloy alignments -->
+			<span class="section" data-name="alloy alignments">
+				<span class="button-section" id="alloy alignments" data-tags="gender,alloy alignment system"></span>
+			</span>
+			
+			<!-- celestial system -->
+			<span class="section" data-name="celestial system">
+				<span class="button-section" id="celestial system" data-tags="gender,celestial gender system"></span>
+			</span>
+			
+			<!-- sylvian system -->
+			<span class="section" data-name="sylvian system">
+				<span class="button-section" id="sylvian system" data-tags="gender,sylvian system"></span>
+			</span>
+			
+			<!-- mystian system -->
+			<span class="section" data-name="mystian system">
+				<span class="button-section" id="mystian system" data-tags="gender,mystian system"></span>
+			</span>
+			
+			<!-- singender system -->
+			<span class="section" data-name="singender system">
+				<span class="button-section" id="singender system" data-tags="gender,singender system"></span>
+			</span>
+			
+			<div class="divider-line">-----</div>
+			
+			<!-- faunagenders -->
+			<span class="section" data-name="animal xenogenders">
+				<span class="button-section" id="faunagenders" data-tags="gender,faunagender"></span>
+			</span>
+			
+			<!-- mythogenders -->
+			<span class="section" data-name="fantasy/mythological xenogenders">
+				<span class="button-section" id="mythogenders" data-tags="gender,mythogender"></span>
+			</span>
+			
+			<!-- FR dragon breed xenogenders -->
+			<span class="section" data-name="FR dragon breed xenogenders">
+				<span class="button-section" id="fr genders" data-tags="gender,flight rising,dragongender"></span>
+			</span>
+			
+			<!-- fictigenders -->
+			<span class="section" data-name="other fiction-based xenogenders">
+				<span class="button-section" id="fictigenders" data-tags="gender,fictigender"></span>
+			</span>
+			
+			<!-- space/alien xenogenders -->
+			<span class="section" data-name="space/alien xenogenders">
+				<span class="button-section" id="aliengenders" data-tags="gender,aliengender"></span>
+				<span class="button-section" id="genderspace" data-tags="gender,genderspace"></span>
+			</span>
+			
+			<!-- nature xenogenders -->
+			<span class="section" data-name="nature xenogenders">
+				<span class="button-section" id="nature xenogenders" data-tags="gender,xenogender,nature"></span>
+				<span class="button-section" id="floragenders" data-tags="gender,floragender"></span>
+				<span class="button-section" id="seasonalgenders" data-tags="gender,seasonalgender"></span>
+			</span>
+			
+			<!-- food xenogenders -->
+			<span class="section" data-name="food xenogenders">
+				<span class="button-section" id="gastrogenders" data-tags="gender,gastrogender"></span>
+			</span>
+			
+			<!-- technogenders -->
+			<span class="section" data-name="technology xenogenders">
+				<span class="button-section" id="techno-gender system" data-tags="gender,techno-gender system"></span>
+				<span class="button-section" id="technogenders" data-tags="gender,technogender,technology"></span>
+			</span>
+			
+			<!-- colorgenders -->
+			<span class="section" data-name="colorgenders">
+				<span class="button-section" id="colorgenders" data-tags="gender,colorgender"></span>
+				<span class="button-section" id="specific colorgenders" data-tags="gender,specific colorgender"></span>
+			</span>
+			
+			<!-- soft xenogenders -->
+			<span class="section" data-name="soft xenogenders">
+				<span class="button-section" id="soft genders" data-tags="gender,xenogender,soft|fluffy|cute"></span>
+			</span>
+			
+			<!-- mutogenders -->
+			<span class="section" data-name="mutogenders">
+				<span class="button-section" id="mutogenders" data-tags="gender,mutogender"></span>
+			</span>
+			
+			<!-- aesthetigenders -->
+			<span class="section" data-name="aesthetigenders">
+				<span class="button-section" id="aesthetigenders" data-tags="gender,aesthetigender"></span>
+			</span>
+			
+			<!-- other xenogenders -->
+			<span class="section" data-name="other xenogenders">
+				<span class="button-section" id="nonspecific xenogenders" data-tags="gender,xenogender,nonspecific xenogender"></span>
+				<span class="button-section" id="other xenogenders" data-tags="gender,xenogender"></span>
+			</span>
+		</div>
+		
+		<script>
+			loadOrder = [
+				"genderfluid fragment system",
+				"galactian alignments",
+				"alloy alignments",
+				"celestial system",
+				"sylvian system",
+				"mystian system",
+				"singender system",
+				"techno-gender system",
+				
+				"technogenders",
+				
+				"fr genders",
+				"faunagenders",
+				"mythogenders", "fictigenders",
+				"aliengenders", "genderspace",
+				"floragenders", "seasonalgenders", "nature xenogenders",
+				"gastrogenders",
+				"specific colorgenders", "colorgenders",
+				
+				"neurogenders",
+				"jewish genders", "indigenous genders",
+				"intersex",
+				
+				"circa-binary",
+				"collectors", "multigenders",
+				"uingenders",
+				
+				"mutogenders",
+				"soft genders",
+				"aesthetigenders",
+				"nonspecific xenogenders",
+				"other xenogenders",
+				
+				"fluidflux", "genderflux", "genderfluid",
+				"demigender", "hypergender",
+				
+				"queer", "gnc",
+				"agender",
+				"genderless",
+				"androgynous", "neutral", "nonbinary alignments",
+				"trans orientations", "trans male", "trans female", "trans",
+				"cis male", "cis female", "cis",
+				"male",
+				"female",
+				"masculine",
+				"feminine","nonbinary",
+				
+				"other genders"
+			]
+			
+			// set page color theme
+			setPageTheme();
+			
+			// generate post text
+			generatePost();
+		</script>
+	</body>
+</html>

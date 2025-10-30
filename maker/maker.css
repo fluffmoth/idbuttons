@@ -1,0 +1,170 @@
+:root {
+	--form-width: min(450px,100%);
+	--form-width-wide: min(calc(var(--form-width) + var(--btn-width)*2.5),100%);
+}
+
+h2 { text-align: center; }
+h3, h4 { margin-bottom: 0.5em; }
+
+.subtext { font-size: .9em; margin: .25em 0 .5em 0; }
+.small { font-size: .9em; }
+
+select, input[type=text] {
+	border: 1px var(--boxborder) solid;
+	background: var(--tablerow1);
+	color: var(--text);
+}
+
+optgroup:empty { display: none; }
+
+/****************************************************/
+
+main { width: 100%; }
+
+main:has(.flex-wrapper.wrapped) #maker-options, main > .top {
+	margin: 0px auto;
+	width: var(--form-width-wide);
+}
+main:has(.flex-wrapper.wrapped) > .top { width: var(--form-width); }
+
+#maker-options .flex-wrapper {
+	display: flex; flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.flex-wrapper.wrapped { flex-direction: column; }
+
+#maker-options-left { width: var(--form-width); }
+
+
+/****************************************************/
+
+.result { text-align: center; padding-left: 3em; }
+.wrapped .result { padding: 0; width: var(--form-width); }
+
+.flex-wrapper:not(.wrapped) .result > hr { display: none; }
+
+#canvas-wrapper { border: 1px var(--boxborder) solid; padding: 1.25em 1.5em; }
+.wrapped #canvas-wrapper { border: none; padding: .5em; }
+
+canvas {
+	margin: 0 0 .5em 0;
+	width: var(--btn-width);
+	height: var(--btn-height);
+	image-rendering: pixelated;
+	font-smooth: never;
+	-webkit-font-smoothing : none;
+}
+
+canvas.double {
+	width: calc(var(--btn-width)*2);
+	height: calc(var(--btn-height)*2);
+}
+
+#scaleCanvas { pointer-events: none; }
+
+/****************************************************/
+
+.radio-row {
+	margin: .5em 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.radio-row input[type=radio] { margin: 0; }
+.radio-row label { padding: 0 .5em; }
+.radio-row select, .radio-row input[type=text], .radio-row .select-wrapper { flex: 1; /* fill remaining horizontal space */ }
+.radio-row .select-wrapper select { width: 100%; }
+.radio-row p { margin: .25em 0 0 0; }
+
+#buttonmaker-text { box-sizing: border-box; width: 100%; }
+#buttonmaker-text-error {
+	color: red;
+	font-style: italic;
+	font-size: .9em;
+	margin-top: .25em;
+}
+
+/* maker form reset button */
+.makerReset {
+	display: inline-block;
+	float: right;
+}
+
+/****************************************************/
+
+.accordion-section-wrapper {
+	display: flex; gap: 0; justify-content: center;
+}
+main:has(.flex-wrapper.wrapped) .accordion-right-spacer { display: none; }
+
+.accordion-section-wrapper > section {
+	position: relative;
+	width: var(--form-width);
+	margin: 0 0 1em 0;
+	padding: 1em;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	background: var(--tablerow2);
+	border: 1px var(--boxborder) solid;
+}
+main:has(.flex-wrapper.wrapped) #advanced-section {
+	margin-left: auto; margin-right: auto;
+}
+
+.close-x {
+	position: absolute;
+	top: .5em; right: .5em;
+}
+
+.accordion-section-wrapper > section :first-child { margin-top: 0; }
+
+.checkbox-section { margin-bottom: 1em; }
+.checkbox-section p { margin: .5em 0; }
+
+.advanced-button-wrapper { margin-top: 1em; }
+.advanced-button-wrapper p:has(.btn) { margin: .5em 0; }
+.advanced-button-wrapper .btn { width: 13em; }
+
+/**********CUSTOM COLORS*****************/
+
+#custom-color-input-wrapper > div {
+	display: flex; flex-wrap: wrap; gap: .5em;
+	justify-content: start; align-content: center;
+	margin: .5em 0;
+}
+
+.custom-color { width: 8em; }
+
+#custom-palette-section input[type=text] { height: 1.35em; }
+
+.custom-color-preview {
+	position: relative;
+	width: 1.25em; height: 1.25em;
+	background: var(--tablerow1);
+	border: 1px var(--boxborder) solid;
+	text-align: center;
+	color: var(--link);
+}
+
+.custom-color-preview > * {
+	position: absolute;
+	width: calc(1.25em * 1.41421356);
+	border: 1px var(--boxborder) solid;
+}
+.custom-color-preview :first-child {
+	rotate: 45deg;
+	top: calc(1.25em / 2.2);
+	left: calc(1.25em / -4);
+}
+.custom-color-preview :nth-child(2) {
+	rotate: -45deg;
+	top: calc(1.25em / 2.2);
+	left: calc(1.25em / -4);
+}
+
+#custom-save-bar { display: flex; flex-wrap: wrap; gap: .5em; align-items: center; }
+#custom-save-bar input[type=text] { flex: 1; max-width: 20em; }
+#palette-saved-status { visibility: hidden; }
+
+#saved-palette-list:has(.list-entry) .empty-text { display: none; }
+.list-entry button { margin-left: .5em; }

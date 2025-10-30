@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>fluffmoth's id buttons</title>
+		
+		<!--base stylesheet-->
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		
+		<!--buttons database-->
+		<script src="/buttonList.js?fileversion=4.01"></script>
+		<!--buttons functions-->
+		<script src="/buttonFunctions.js?fileversion=4.01"></script>
+		<!--filter list-->
+		<script src="filterList.js?fileversion=4.01"></script>
+		<!--filter form functions-->
+		<script src="filterFunctions.js?fileversion=4.01"></script>
+		<!--button table functions-->
+		<script src="buttonTable.js?fileversion=4.01"></script>
+	</head>
+	
+	<body>
+		<!-- page color theme selection -->
+		<select type="submit" name="theme" id="theme" onchange="setPageTheme(this.value);">
+			<label class="sr-only" for="theme">Page theme:</label>
+			<option>Page theme</option>
+			<option value="light">light</option>
+			<option value="dark">dark</option>
+		</select>
+		
+		<header>
+			<h1><a href="/database">tiny identity buttons</a></h1>
+		</header>
+		
+		<nav>
+			<p>nav: <a href="/maker">custom button maker</a></p>
+		</nav>
+		
+		<hr>
+		
+		<section>
+			<header><h2>button database</h2></header>
+			<p>This site is a work in progress! (<span id="button-count">?</span> buttons uploaded so far)</p>
+			<p>Gender and pronoun buttons are all here, but many others haven't been added yet</p>
+			<p>Remaining buttons can be found on
+				<a href="https://docs.google.com/spreadsheets/d/1Q6LqU2nnnU60ARfc4NPdPbpCMIMl6WSDP_NWomr5OB4/edit?usp=sharing">Google Sheets</a>,
+				and more info can be found in the
+				<a href="https://www1.flightrising.com/forums/cc/3078623">Flight Rising thread</a>.</p>
+			<p>If you find an inaccurate description, broken link, or any other issue,
+				please contact me on <a href="https://www1.flightrising.com/msgs/new?to=fluffmoth" target="_blank">Flight Rising</a>
+			or via <a href="mailto:fluffmoth@gmail.com?subject=Identity Buttons" target="_blank">email</a></p>
+		</section>
+		
+		<section>
+			<form id="filters" method="GET">
+				<input id="search-input" type="text" placeholder="Search.." name="search"></input>
+				<button type="submit" class="btn">Search</button>
+				
+				<!-- button to open/close tags section -->
+				<button id="open-filter-buttons" type="button" class="btn" onclick="document.getElementById('filter-buttons').classList.toggle('hidden');">Filters...</button>
+				
+				<!-- random button -->
+				<button id="random-button" type="button" class="btn" onclick="randomButton();">Random</button>
+				
+				<!-- recent buttons -->
+				<button class="btn" type="button" onclick="recentButtons();">Latest</button>
+				
+				<!-- tags section -->
+				<section id="filter-buttons" class="hidden">
+					<input id="filter-tags" class="hidden" type="textarea" name="tags" value="">
+					
+					<!-- filters inserted here -->
+					<ul id="filter-ul"></ul>
+					
+					<button type="submit" class="btn">Apply</button>
+					<button type="button" class="btn" onclick="document.getElementById('filters').reset();">Clear</button>
+					<p>Only buttons that match ALL selected filters will be shown</p>
+				</section>
+			</form>
+		</section>
+		
+		<!-- buttons inserted here -->
+		<table id="button-table" class="2color">
+			<tr id="button-table-header">
+				<th class="name-col">Identity</th>
+				<th class="preview-col" colspan="2">Preview</th>
+				<th class="icon-col">Icon</th>
+				<th class="bbCode-col">BBCode</th>
+				<th class="htmlCode-col">HTML Code</th>
+				<th class="info-col">Info</th>
+			</tr>
+			<!-- sample row -->
+			<tr id="button-sample" class="button-row"></tr>
+		</table>
+		
+		<script>
+			initButtons();
+		</script>
+	</body>
+</html>

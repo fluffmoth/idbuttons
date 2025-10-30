@@ -1,0 +1,24 @@
+FR DONE:
+Dominance Teams
+
+Eventually make sure to add this person's:
+https://docs.google.com/spreadsheets/d/1UKTT5vFYIQAZHjJk55k2NJSLA8DNE3GbsIjsD4bt1Mw
+
+NOTES:
+add an exact search function (quotes)
+code textarea select all on keyboard focus
+credits/links
+filter area header/title + close X
+better filter dropdown icons
+
+add additional tags section back in?
+
+landing page brick-style layout - offset every other row
+
+BUG: when palette set to 'Custom', the previous palette needs to be deselected in the dropdown
+
+BUG/IMPORTANT FEATURE: links to shape icons for the maker need to work with the new selection style
+
+BUG: when checking anything not from the Gender subtab, Gender button gets displayed as [less] even if nothing within is checked
+
+BUG: post-generator sections won't display anything if all tags are !tags

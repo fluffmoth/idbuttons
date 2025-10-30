@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>button post generator</title>
+		
+		<!--base stylesheet-->
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<!--generator page stylesheet-->
+		<link href="generatedText.css" rel="stylesheet" type="text/css" media="all">
+		
+		<!--buttons database-->
+		<script src="/buttonList.js?fileversion=4.01"></script>
+		<!--buttons functions-->
+		<script src="/buttonFunctions.js?fileversion=4.01"></script>
+		<!--FR post generator-->
+		<script src="postGenerator.js?fileversion=4.01"></script>
+	</head>
+	
+	<body>
+		<!-- post bbcode inserted here -->
+		<div id="post-bbcode">
+			<!-- navigation at top of post -->
+			<span id="post navigation"></span>
+			
+			[center][size=4][url=https://idbuttons.neocities.org/?tags=other%20identity][b]Buttons Database - Other Identities[/b][/url][/size]
+			<br>[i]searchable database, includes additional identities, flags, and text options![/i]
+			
+			<!-- relationships -->
+			<span class="section" data-name="relationship structures/orientations">
+				<span class="button-section" id="polyam" data-tags="polyamorous"></span>
+				<span class="button-section" id="relationship structures" data-tags="relationship style"></span>
+			</span>
+			
+			<!-- disability/disorders/health -->
+			<span class="section" data-name="disability">
+				<span class="button-section" id="disability" data-tags="disability"></span>
+			</span>
+			<span class="section" data-name="physical health">
+				<span class="button-section" id="physical health" data-tags="physical health"></span>
+			</span>
+			<span class="section" data-name="mental health & neurodivergence">
+				<span class="button-section" id="mental health" data-tags="mental health"></span>
+			</span>
+			
+			<!-- languages -->
+			<span class="section" data-name="languages">
+				<span class="button-section" id="languages" data-tags="language"></span>
+			</span>
+			
+			<!-- pets -->
+			<span class="section" data-name="pets"
+				data-subtitle="(pet parent variants in the [url=https://idbuttons.neocities.org/database/?tags=pets]database[/url])">
+				<span class="button-section" id="pets" data-tags="interests,pets"></span>
+			</span>
+			
+			<!-- jobs/roles -->
+			<span class="section" data-name="jobs/roles">
+				<span class="button-section" id="jobs" data-tags="job|role"></span>
+			</span>
+			
+			<!-- military -->
+			<span class="section" data-name="military">
+				<span class="button-section" id="military" data-tags="military"></span>
+			</span>
+			
+			<!-- other identities -->
+			<span class="section" data-name="other">
+				<span class="button-section" id="other" data-tags="!gender,!orientation,!pronoun,!flight rising,!button base"></span>
+			</span>
+		
+		<script>
+			loadOrder = [
+				"polyam", "relationship structures",
+			
+				"physical health", "mental health", "disability",
+				
+				"languages",
+				"pets",
+				
+				"military", "jobs",
+				
+				"other"
+			]
+			
+			// set page color theme
+			setPageTheme();
+			
+			// generate post text
+			generatePost();
+		</script>
+	</body>
+</html>
