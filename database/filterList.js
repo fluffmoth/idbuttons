@@ -242,7 +242,16 @@ const filterList = [
 			{ label: `Subspecies`, tags: `subspecies` },
 			{ label: `Lineage`, tags: `lineage` },
 			{ label: `Challenges`, tags: `challenge` },
+			{ label: `Special Dragons`, tags: `special dragon` },
 			{ label: `Eye Types`, tags: `eye type` },
+			{ label: `Colors`, tags: `color|dragon color`,
+				children: [
+					{ label: `Rarity`, tags: `gene rarity` },
+					{ label: `Color Patterns`, tags: `color pattern` },
+					{ label: `Specific Color Genes`, tags: `specific color` },
+					{ label: `Other`, tags: `!gene rarity,!color pattern` }
+				]
+			},
 			{ label: `Exalting`, tags: `exalting` }
 		]
 	},

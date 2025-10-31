@@ -13203,14 +13203,511 @@ const relationshipList = [
 
 const FRList = [
 	{
+		name: `Old Lore`, // display name
+		altNames: [`Old Beastclans Lore`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		src: `/buttons/FR/Old_Lore_Beastclans.png`, // local image source
+		imgur: `https://i.imgur.com/isiMyHP.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lore`,`beastclans`], // tags for search/filtering
+		info: `Old lore for the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,beastclans">Beastclans</a>`, // optional extra info
+		icon: `Beastclans symbol` // description of the flag/icon
+	},
+	{
+		name: `2-Letter Name`, // display name
+		altNames: [`Two-Letter Name`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/uWro6ua.png`, // imgur link
+		tags: [`flight rising`,`name`,`dragon`], // tags for search/filtering
+		info: `Special <a href="?tags=flight rising,dragon">dragon</a> name length on <a href="?tags=flight rising">Flight Rising</a>`, // optional extra info
+		icon: `Gold rounded star` // description of the flag/icon
+	},
+	{
+		name: `Birthday Dragon`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/tNdq8a4.png`, // imgur link
+		tags: [`flight rising`,`birthday`,`dragon`,`special dragon`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> birthday-related special <a href="?tags=flight rising,special dragon">dragon</a>`, // optional extra info
+		icon: `Birthday cake` // description of the flag/icon
+	},
+	{
+		name: `Comfort Dragon`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/gmtiY7w.png`, // imgur link
+		tags: [`flight rising`,`dragon`,`special dragon`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> comfort <a href="?tags=flight rising,special dragon">dragon</a>`, // optional extra info
+		icon: `Pastel heart` // description of the flag/icon
+	},
+	{
+		name: `Comfort Dragon`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Rq2knnC.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`dragon`,`special dragon`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> comfort <a href="?tags=flight rising,special dragon">dragon</a>`, // optional extra info
+		icon: `Pastel star flower` // description of the flag/icon
+	},
+	{
+		name: `Comfort Dragon`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/UIuKM01.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`dragon`,`special dragon`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> comfort <a href="?tags=flight rising,special dragon">dragon</a>`, // optional extra info
+		icon: `Pastel rounded star` // description of the flag/icon
+	},
+	{
+		name: `Gift Dragon`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/OvWlB0T.png`, // imgur link
+		tags: [`flight rising`,`dragon`,`gift`,`special dragon`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> gifted <a href="?tags=flight rising,special dragon">dragon</a>`, // optional extra info
+		icon: `Rainbow heart` // description of the flag/icon
+	},
+	{
+		name: `Fave Dragon`, // display name
+		altNames: [`Favorite Dragon`,`Favourite Dragon`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/bBiPBQ5.png`, // imgur link
+		tags: [`flight rising`,`dragon`,`favorite`,`special dragon`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> favorite <a href="?tags=flight rising,special dragon">dragon</a>`, // optional extra info
+		icon: `Gold rounded star` // description of the flag/icon
+	},
+	{
+		name: `Featured`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/1WgaLgV.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`featured`,`special`,`flight rising`,`dragon`,`special dragon`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Gold rounded star` // description of the flag/icon
+	},
+	{
+		name: `Featured Dragon`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/OPS7bfK.png`, // imgur link
+		tags: [`flight rising`,`dragon`,`featured`,`special dragon`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> featured <a href="?tags=flight rising,special dragon">dragon</a>`, // optional extra info
+		icon: `Gold rounded star` // description of the flag/icon
+	},
+	{
+		name: `Important`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/KDZ4Avf.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`special`,`flight rising`,`dragon`,`special dragon`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Gold rounded star` // description of the flag/icon
+	},
+	{
+		name: `Important Dragon`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/zPVR9KS.png`, // imgur link
+		tags: [`flight rising`,`dragon`,`important`,`special dragon`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> important <a href="?tags=flight rising,special dragon">dragon</a>`, // optional extra info
+		icon: `Gold rounded star` // description of the flag/icon
+	},
+	{
+		name: `Avatar Dragon`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/FObX7rS.png`, // imgur link
+		tags: [`flight rising`,`avatar`,`dragon`,`special dragon`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> avatar <a href="?tags=flight rising,special dragon">dragon</a>`, // optional extra info
+		icon: `Gold profile icon` // description of the flag/icon
+	},
+	{
+		name: `Memorial`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ZpKPKqH.png`, // imgur link
+		tags: [`memorial`,`flight rising`,`dragon`,`special dragon`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `White star flower` // description of the flag/icon
+	},
+	{
+		name: `Memorial Dragon`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/P4dEMjM.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`memorial`,`flight rising`,`dragon`,`special dragon`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> memorial <a href="?tags=flight rising,special dragon">dragon</a>`, // optional extra info
+		icon: `White star flower` // description of the flag/icon
+	},
+	{
+		name: `Memorial Drgn`, // display name
+		altNames: [`Memorial Dragon`], // optional alternate names, for search algorithms
+		alt: `%altNames0`,
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/fVFXfTh.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`memorial`,`flight rising`,`dragon`,`special dragon`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> memorial <a href="?tags=flight rising,special dragon">dragon</a>`, // optional extra info
+		icon: `White star flower` // description of the flag/icon
+	},
+	{
+		name: `500 Challenge`, // display name
+		altNames: [`500 Hatch Challenge`], // optional alternate names, for search algorithms
+		alt: `%altNames0`,
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/vchUiBa.png`, // imgur link
+		tags: [`flight rising`,`challenge`,`breeding challenge`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> breeding <a href="?tags=flight rising,challenge">challenge</a>`, // optional extra info
+		icon: `Green egg` // description of the flag/icon
+	},
+	{
+		name: `500 Hatch`, // display name
+		altNames: [`500 Hatch Challenge`], // optional alternate names, for search algorithms
+		alt: `%altNames0`,
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/B1vFG6s.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`challenge`,`breeding challenge`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> breeding <a href="?tags=flight rising,challenge">challenge</a>`, // optional extra info
+		icon: `Green egg` // description of the flag/icon
+	},
+	{
+		name: `Will Breed`, // display name
+		altNames: [`Can Breed`], // optional alternate names, for search algorithms
+		alt: `%name`,
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/7gibfJe.png`, // imgur link
+		tags: [`flight rising`,`breeding`,`breedable`], // tags for search/filtering
+		info: `Available to breed (for breeding sims like <a href="?tags=flight rising">Flight Rising</a>)`, // optional extra info
+		icon: `Green checkmark` // description of the flag/icon
+	},
+	{
+		name: `Won't Breed`, // display name
+		altNames: [`Can't Breed`], // optional alternate names, for search algorithms
+		alt: `%name`,
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/p6CYc1v.png`, // imgur link
+		tags: [`flight rising`,`breeding`,`not breedable`], // tags for search/filtering
+		info: `Not available to breed (for breeding sims like <a href="?tags=flight rising">Flight Rising</a>)`, // optional extra info
+		icon: `Red X` // description of the flag/icon
+	},
+	
+	/////////////////////////////////////////////////////////////////////
+	// DRAGON COLORS //
+	{
+		name: `Scattered`, // display name
+		altNames: [`Scattered Gene Colors`], // optional alternate names, for search algorithms
+		alt: `%altNames0`,
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/TVHy8Pj.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`scatterscroll`,`gene`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,dragon color">color</a> (scatterscroll applied)`, // optional extra info
+		icon: `Pastel rainbow DNA` // description of the flag/icon
+	},
+	{
+		name: `Scatterscroll`, // display name
+		altNames: [`Scattered Gene Colors`], // optional alternate names, for search algorithms
+		alt: `%altNames0`,
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/6GjPq7Q.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`dragon color`,`scatterscroll`,`gene`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,dragon color">color</a> (scatterscroll applied)`, // optional extra info
+		icon: `Pastel rainbow DNA` // description of the flag/icon
+	},
+	{
+		name: `One & Only`, // display name
+		altNames: [`One and Only`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/3L4wxEX.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`dragon color`,`special dragon`,`unique`,`gene rarity`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,dragon color">color</a> or <a href="?tags=flight rising,gene">gene</a> <a href="?tags=flight rising,gene rarity">rarity</a>`, // optional extra info
+		icon: `Pastel rainbow star` // description of the flag/icon
+	},
+	{
+		name: `Only Dragon`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/xgnWuel.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`dragon color`,`special dragon`,`unique`,`gene rarity`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,dragon color">color</a> or <a href="?tags=flight rising,gene">gene</a> <a href="?tags=flight rising,gene rarity">rarity</a>`, // optional extra info
+		icon: `Pastel rainbow star` // description of the flag/icon
+	},
+	{
+		name: `Unique Colors`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/akxlnW4.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`special dragon`,`unique`,`gene rarity`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,dragon color">color</a> <a href="?tags=flight rising,gene rarity">rarity</a>`, // optional extra info
+		icon: `Pastel rainbow star` // description of the flag/icon
+	},
+	{
+		name: `Unique Genes`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/bBruP9d.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`special dragon`,`unique`,`gene`,`gene rarity`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,dragon color">color</a> or <a href="?tags=flight rising,gene">gene</a> <a href="?tags=flight rising,gene rarity">rarity</a>`, // optional extra info
+		icon: `Pastel rainbow star` // description of the flag/icon
+	},
+	{
+		name: `1 of 1`, // display name
+		altNames: [`One of One`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/djVsGUf.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`dragon color`,`special dragon`,`unique`,`gene rarity`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,dragon color">color</a> gene <a href="?tags=flight rising,gene rarity">rarity</a>`, // optional extra info
+		icon: `Pastel rainbow star` // description of the flag/icon
+	},
+	{
+		name: `1 of 2`, // display name
+		altNames: [`One of Two`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ZkpnT0h.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`dragon color`,`gene rarity`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,dragon color">color</a> gene <a href="?tags=flight rising,gene rarity">rarity</a>`, // optional extra info
+		icon: `Pastel rainbow star` // description of the flag/icon
+	},
+	{
+		name: `1 of 3`, // display name
+		altNames: [`One of Three`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Phrp6Zt.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`dragon color`,`gene rarity`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,dragon color">color</a> gene <a href="?tags=flight rising,gene rarity">rarity</a>`, // optional extra info
+		icon: `Pastel rainbow star` // description of the flag/icon
+	},
+	{
+		name: `1 of 4`, // display name
+		altNames: [`One in Four`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/VxpQi6V.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`dragon color`,`gene rarity`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,dragon color">color</a> gene <a href="?tags=flight rising,gene rarity">rarity</a>`, // optional extra info
+		icon: `Pastel rainbow star` // description of the flag/icon
+	},
+	{
+		name: `1 of 5`, // display name
+		altNames: [`One of Five`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/nEeHkoX.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`dragon color`,`gene rarity`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,dragon color">color</a> gene <a href="?tags=flight rising,gene rarity">rarity</a>`, // optional extra info
+		icon: `Pastel rainbow star` // description of the flag/icon
+	},
+	{
+		name: `1 of 10`, // display name
+		altNames: [`One of Ten`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/KiNiQUA.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`dragon color`,`gene rarity`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,dragon color">color</a> gene <a href="?tags=flight rising,gene rarity">rarity</a>`, // optional extra info
+		icon: `Pastel rainbow star` // description of the flag/icon
+	},
+	{
+		name: `Eyeburner`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/lJYz6YI.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`color`,`aesthetic`,`colorful`,`neon`,`bright`,`radioactive`,`eyeburner`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon with bright clashing <a href="?tags=flight rising,dragon color">colors</a>`, // optional extra info
+		icon: `Neon leopard spots` // description of the flag/icon
+	},
+	{
+		name: `Radioactive`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/L7aQfSh.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`specific color`,`neon`,`bright`,`radioactive`,`eyeburner`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,dragon color">color</a>`, // optional extra info
+		icon: `Neon leopard spots` // description of the flag/icon
+	},
+	{
+		name: `Pastel Dragon`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Y3tHz6g.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`pastel`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon with pastel <a href="?tags=flight rising,dragon color">colors</a>`, // optional extra info
+		icon: `Pastel rainbow heart` // description of the flag/icon
+	},
+	{
+		name: `Colorful!`, // display name
+		altNames: [`Colorful`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/JvvMvDo.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`dragon color`,`color`,`aesthetic`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Rainbow on gray` // description of the flag/icon
+	},
+	{
+		name: `Colorful!`, // display name
+		altNames: [`Colorful`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/zwkSD6b.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`color`,`aesthetic`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Sparkly rainbow` // description of the flag/icon
+	},
+	{
+		name: `XXX`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name Genes`,
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Q5fDwjn.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`genes`,`color pattern`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,color pattern">color pattern</a>`, // optional extra info
+		icon: `3 dark rectangles` // description of the flag/icon
+	},
+	{
+		name: `Near XXX`, // display name
+		altNames: [`Almost XXX`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name Genes`,
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/aJRfmuo.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`genes`,`color pattern`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,color pattern">color pattern</a>`, // optional extra info
+		icon: `3 dark rectangles` // description of the flag/icon
+	},
+	{
+		name: `XXY`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name Genes`,
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/xGZ2vEk.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`genes`,`color pattern`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,color pattern">color pattern</a>`, // optional extra info
+		icon: `2 dark rectangles, 1 light` // description of the flag/icon
+	},
+	{
+		name: `Near XXY`, // display name
+		altNames: [`Almost XXY`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name Genes`,
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/rwAuYZR.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`genes`,`color pattern`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,color pattern">color pattern</a>`, // optional extra info
+		icon: `2 dark rectangles, 1 light` // description of the flag/icon
+	},
+	{
+		name: `XYX`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name Genes`,
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/s7w1KiL.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`genes`,`color pattern`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,color pattern">color pattern</a>`, // optional extra info
+		icon: `2 dark rectangles, 1 light` // description of the flag/icon
+	},
+	{
+		name: `Near XYX`, // display name
+		altNames: [`Almost XYX`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name Genes`,
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/r4RVZWB.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`genes`,`color pattern`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,color pattern">color pattern</a>`, // optional extra info
+		icon: `2 dark rectangles, 1 light` // description of the flag/icon
+	},
+	{
+		name: `XYY`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name Genes`,
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ei8Oa6s.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`genes`,`color pattern`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,color pattern">color pattern</a>`, // optional extra info
+		icon: `1 dark rectangle, 2 light` // description of the flag/icon
+	},
+	{
+		name: `Near XYY`, // display name
+		altNames: [`Almost XYY`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name Genes`,
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/GLBk0WT.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`genes`,`color pattern`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,color pattern">color pattern</a>`, // optional extra info
+		icon: `1 dark rectangle, 2 light` // description of the flag/icon
+	},
+	{
+		name: `XYZ`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name Genes`,
+		//src: `/buttons/FR/colors/%name.png`, // local image source
+		imgur: `https://i.imgur.com/7ZR2Tu1.png`, // imgur link
+		tags: [`flight rising`,`dragon color`,`genes`,`color pattern`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> dragon <a href="?tags=flight rising,color pattern">color pattern</a>`, // optional extra info
+		icon: `3 different gray rectangles` // description of the flag/icon
+	},
+	
+	
+	/////////////////////////////////////////////////////////////////////
+	// CHALLENGES //
+	{
+		name: `Biolocke`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/irlzakv.png`, // imgur link
+		tags: [`flight rising`,`challenge`,`breeding challenge`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> breeding <a href="?tags=flight rising,challenge">challenge</a>`, // optional extra info
+		icon: `Eggs` // description of the flag/icon
+	},
+	{
 		name: `Fodderlocke`, // display name
 		dateAdded: `2024-02-25`, // date this button was first added to the masterlist
 		src: `/buttons/FR/%name.png`, // local image source
 		imgur: `https://i.imgur.com/4XHFQ1N.png`, // imgur link
-		tags: [`flight rising`,`challenge`], // tags for search/filtering
+		tags: [`flight rising`,`challenge`,`breeding challenge`], // tags for search/filtering
 		info: `<a href="?tags=flight rising">Flight Rising</a> breeding <a href="?tags=flight rising,challenge">challenge</a>`, // optional extra info
 		icon: `Eggs` // description of the flag/icon
 	},
+	
+	
+	/////////////////////////////////////////////////////////////////////
+	// FR GENES //
 	{
 		name: `Tertiary Gene: Okapi`, // display name
 		dateAdded: `2024-02-19`, // date this button was first added to the masterlist
@@ -13221,6 +13718,10 @@ const FRList = [
 		info: `<a href="?tags=flight rising">Flight Rising</a> tertiary gene`, // optional extra info
 		icon: `Okapi gene` // description of the flag/icon
 	},
+	
+	
+	/////////////////////////////////////////////////////////////////////
+	// FR LOCATIONS //
 	{
 		name: `Wyrmwound`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
@@ -13618,7 +14119,7 @@ const FRList = [
 		imgur: `https://i.imgur.com/b4FBlhD.png`, // imgur link
 		tags: [`flight rising`,`age`,`beastclans`], // tags for search/filtering
 		info: `<a href="?tags=flight rising">Flight Rising</a> related <a href="?tags=age">age</a>`, // optional extra info
-		icon: `Beastclans` // description of the flag/icon
+		icon: `Beastclans symbol` // description of the flag/icon
 	},
 	{
 		name: `Adult Player`, // display name
@@ -13732,8 +14233,8 @@ const FRList = [
 		name: `Pride Dragon`, // display name
 		src: `/buttons/FR/%name.png`, // local image source
 		imgur: `https://i.imgur.com/HGv7TkD.png`, // imgur link
-		tags: [`flight rising`,`pride`], // tags for search/filtering
-		info: `<a href="?tags=flight rising">Flight Rising</a> related`, // optional extra info
+		tags: [`flight rising`,`pride`,`dragon`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> pride-themed <a href="?tags=flight rising,dragon">dragon</a>`, // optional extra info
 		icon: `Rainbow flag` // description of the flag/icon
 	},
 	{
@@ -13944,8 +14445,8 @@ const FRexalting = [
 		src: `/buttons/FR/exalting/%name.png`, // local image source
 		imgur: `https://i.imgur.com/LXYkIHM.png`, // imgur link
 		inFRPost: true, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`exalting`], // tags for search/filtering
-		info: `<a href="?tags=flight rising">Flight Rising</a> exalting status`, // optional extra info
+		tags: [`flight rising`,`exalting`,`dragon`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,dragon">dragon</a> exalting status`, // optional extra info
 		icon: `Red X` // description of the flag/icon
 	},
 	{
@@ -15471,16 +15972,6 @@ const subspeciesList = [
 			(more <a href="?tags=NAME,subspecies|subspecies extras">NAME buttons</a>)`, // optional extra info
 		link: ``, // optional URL the button should link to
 		icon: `` // description of the flag/icon
-	},
-	{
-		name: ``, // display name
-		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
-		imgur: ``, // imgur link
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`NAME`], // tags for search/filtering
-		info: `<a href="?tags=NAME,subspecies|subspecies extras">NAME</a> subspecies`, // optional extra info
-		link: ``, // optional URL the button should link to
-		icon: `` // description of the flag/icon
 	}*/
 ]
 
@@ -16142,6 +16633,72 @@ const interestsList = [
 		icon: `logo` // description of the flag/icon
 	},
 	{
+		name: `Blaseball`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/zpmUYjD.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`horror`,`browser game`], // tags for search/filtering
+		info: `<a href="?tags=interests,browser game">Browser</a>-based <a href="?tags=interests,horror">horror</a> <a href="?tags=interests,video game">game</a>.`, // optional extra info
+		icon: `Baseball` // description of the flag/icon
+	},
+	{
+		name: `Bugsnax`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/jIVnPcX.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`adventure`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>.`, // optional extra info
+		icon: `Strabby` // description of the flag/icon
+	},
+	{
+		name: `Cult of the Lamb`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/plaitf1.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`roguelike`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>.`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Darkest Dungeon`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/aEJVcpF.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`,`roguelike`], // tags for search/filtering
+		info: `<a href="?tags=interests,rpg">RPG</a> <a href="?tags=interests,video game">video game</a>.`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Dead by Daylight`, // display name
+		altNames: [`DBD`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/NaRpy2m.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`survival`,`horror`], // tags for search/filtering
+		info: `<a href="?tags=interests,horror">Horror</a> survival <a href="?tags=interests,video game">video game</a>.`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Deltarune`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Sj6j121.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`], // tags for search/filtering
+		info: `<a href="?tags=interests,rpg">RPG</a> <a href="?tags=interests,video game">video game</a>.`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Deltarune`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/THu4T3D.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`], // tags for search/filtering
+		info: `<a href="?tags=interests,rpg">RPG</a> <a href="?tags=interests,video game">video game</a>.`, // optional extra info
+		icon: `Soul heart` // description of the flag/icon
+	},
+	{
 		name: `Phantasy Star Online 2`, // display name
 		altNames: [`PSO2`], // optional alternate names, for search algorithms
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
@@ -16173,6 +16730,28 @@ const interestsList = [
 		tags: [`interests`,`fandom`,`game`,`video game`,`mmo`,`rpg`,`mmorpg`,`phantasy star`,`science fiction`,`fantasy`], // tags for search/filtering
 		info: `Game in the <a href="?tags=interests,phantasy star">Phantasy Star</a> series`, // optional extra info
 		icon: `New Genesis logo` // description of the flag/icon
+	},
+	{
+		name: `League`, // display name
+		altNames: [`League of Legends`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%altNames0`,
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/FVp37B5.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`mmo`,`fantasy`], // tags for search/filtering
+		info: `<a href="?tags=interests,mmo">MMO</a> <a href="?tags=interests,video game">video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `LoL`, // display name
+		altNames: [`League of Legends`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%altNames0`,
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/MIrglcw.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`mmo`,`fantasy`], // tags for search/filtering
+		info: `<a href="?tags=interests,mmo">MMO</a> <a href="?tags=interests,video game">video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
 	},
 	{
 		name: `Cubfan135`, // display name
@@ -16579,8 +17158,8 @@ const interestsList = [
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name.png`, // local image source
 		imgur: `https://i.imgur.com/ZcE4a9h.png`, // imgur link
-		tags: [`interests`,`fandom`,`game`,`video game`,`mmo`,`rpg`,`mmorpg`], // tags for search/filtering
-		info: `Horse <a href="?tags=interests,mmo">MMO</a>`, // optional extra info
+		tags: [`interests`,`fandom`,`game`,`video game`,`mmo`,`rpg`,`mmorpg`,`browser game`], // tags for search/filtering
+		info: `<a href="?tags=interests,browser game">Browser</a>-based horse <a href="?tags=interests,mmo">MMO</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
 	},
 	{
