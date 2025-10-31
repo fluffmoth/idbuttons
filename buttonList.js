@@ -16754,6 +16754,193 @@ const interestsList = [
 		icon: `logo` // description of the flag/icon
 	},
 	{
+		name: `Skyrim`, // display name
+		altNames: [`Elder Scrolls VI`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `Elder Scrolls: %name`,
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/sxmoj5E.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`,`fantasy`,`elder scrolls`], // tags for search/filtering
+		info: `Fantasy <a href="?tags=interests,rpg">RPG</a> <a href="?tags=interests,video game">game</a> in the <a href="?tags=elder scrolls">Elder Scrolls</a> series`, // optional extra info
+		icon: `Dragon` // description of the flag/icon
+	},
+	{
+		name: `The Elder Scrolls: Online`, // display name
+		altNames: [`TES: Online`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/games/The_Elder_Scrolls_Online.png`, // local image source
+		imgur: `https://i.imgur.com/HFqGeqB.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`,`mmo`,`fantasy`,`elder scrolls`], // tags for search/filtering
+		info: `Fantasy <a href="?tags=interests,mmo">MMO</a>/<a href="?tags=interests,rpg">RPG</a> <a href="?tags=interests,video game">game</a> in the <a href="?tags=elder scrolls">Elder Scrolls</a> series`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Oblivion`, // display name
+		altNames: [`Elder Scrolls IV`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `Elder Scrolls: %name`,
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Zzz5bZC.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`,`fantasy`,`elder scrolls`], // tags for search/filtering
+		info: `Fantasy <a href="?tags=interests,rpg">RPG</a> <a href="?tags=interests,video game">game</a> in the <a href="?tags=elder scrolls">Elder Scrolls</a> series`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Oblivion`, // display name
+		altNames: [`Elder Scrolls IV`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `Elder Scrolls: %name`,
+		src: `/buttons/interests/games/%name_alt.png`, // local image source
+		imgur: `https://i.imgur.com/exSn8Jy.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`,`fantasy`,`elder scrolls`], // tags for search/filtering
+		info: `Fantasy <a href="?tags=interests,rpg">RPG</a> <a href="?tags=interests,video game">game</a> in the <a href="?tags=elder scrolls">Elder Scrolls</a> series`, // optional extra info
+		icon: `Solid logo` // description of the flag/icon
+	},
+	{
+		name: `Morrowind`, // display name
+		altNames: [`Elder Scrolls III`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `Elder Scrolls: %name`,
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/yhIlDb9.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`,`fantasy`,`elder scrolls`], // tags for search/filtering
+		info: `Fantasy <a href="?tags=interests,rpg">RPG</a> <a href="?tags=interests,video game">game</a> in the <a href="?tags=elder scrolls">Elder Scrolls</a> series`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Morrowind`, // display name
+		altNames: [`Elder Scrolls III`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `Elder Scrolls: %name`,
+		src: `/buttons/interests/games/%name_alt.png`, // local image source
+		imgur: `https://i.imgur.com/laCFoeQ.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`,`fantasy`,`elder scrolls`], // tags for search/filtering
+		info: `Fantasy <a href="?tags=interests,rpg">RPG</a> <a href="?tags=interests,video game">game</a> in the <a href="?tags=elder scrolls">Elder Scrolls</a> series`, // optional extra info
+		icon: `Solid logo` // description of the flag/icon
+	},
+	{
+		name: `Kirby`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/uOsoNEC.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`nintendo`,`platformer`], // tags for search/filtering
+		info: `<a href="?tags=interests,nintendo">Nintendo</a> character and <a href="?tags=interests,video game">game</a> series`, // optional extra info
+		icon: `Kirby` // description of the flag/icon
+	},
+	{
+		name: `Mario`, // display name
+		altNames: [`Super Mario Bros`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/I8HOEiR.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`nintendo`,`platformer`,`super mario bros`], // tags for search/filtering
+		info: `<a href="?tags=interests,nintendo">Nintendo</a> character and <a href="?tags=interests,video game">game</a> series`, // optional extra info
+		icon: `Mario` // description of the flag/icon
+	},
+	{
+		name: `Super Smash Bros 4`, // display name
+		altNames: [`Smash 4`,`Sm4sh`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/II1EzaW.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`nintendo`,`platformer`,`fighting game`,`super smash bros`], // tags for search/filtering
+		info: `<a href="?tags=interests,nintendo">Nintendo</a> <a href="?tags=interests,fighting game">fighting game</a> in the <a href="?tags=interests,super smash bros">Super Smash Bros</a> series`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Pokemon`, // display name
+		altNames: [`Pokémon`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%altNames0`,
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/8GgdVkW.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`nintendo`,`rpg`,`tcg`,`card game`,`movie`,`television`], // tags for search/filtering
+		info: `<a href="?tags=interests,nintendo">Nintendo</a> <a href="?tags=interests,television">TV</a> and <a href="?tags=interests,game">game</a> series`, // optional extra info
+		icon: `Pokéball` // description of the flag/icon
+	},
+	{
+		name: `Just Shapes & Beats`, // display name
+		altNames: [`Just Shapes and Beats`,`JS&B`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/425WuJb.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`music game`,`rhythm game`], // tags for search/filtering
+		info: `<a href="?tags=interests,music game|rhythm game">Music</a>-based <a href="?tags=interests,video game">video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Halo`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/39zDWxM.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`fps`,`science fiction`], // tags for search/filtering
+		info: `Series of <a href="?tags=interests,science fiction">sci-fi</a> <a href="?tags=interests,games,fps">FPS</a> <a href="?tags=interests,video game">games</a> and media`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Half-Life`, // display name
+		altNames: [`Half Life`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/d3uTqtL.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`fps`,`science fiction`], // tags for search/filtering
+		info: `Series of <a href="?tags=interests,science fiction">sci-fi</a> <a href="?tags=interests,games,fps">FPS</a> <a href="?tags=interests,video game">games</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Overwatch`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/v50Ipgt.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`fps`,`science fiction`], // tags for search/filtering
+		info: `<a href="?tags=interests,games,fps">FPS</a> <a href="?tags=interests,video game">video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Hollow Knight`, // display name
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/PnAMpIx.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`platformer`,`metroidvania`,`silksong`], // tags for search/filtering
+		info: `<a href="?tags=interests,nintendo">Platformer</a> <a href="?tags=interests,video game">video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `FNAF`, // display name
+		altNames: [`Five Nights at Freddy's`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%altNames0`,
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Nl7xQPH.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`horror`,`movie`], // tags for search/filtering
+		info: `<a href="?tags=interests,horror">Horror</a> <a href="?tags=interests,video game">game</a> and media series`, // optional extra info
+		icon: `Freddy Fazbear` // description of the flag/icon
+	},
+	{
+		name: `FNAF`, // display name
+		altNames: [`Five Nights at Freddy's`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		alt: `%altNames0`,
+		//src: `/buttons/interests/games/%name_alt.png`, // local image source
+		imgur: `https://i.imgur.com/Y6nir0L.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`horror`,`movie`], // tags for search/filtering
+		info: `<a href="?tags=interests,horror">Horror</a> <a href="?tags=interests,video game">game</a> and media series`, // optional extra info
+		icon: `Purple guy` // description of the flag/icon
+	},
+	
+	
+	{
 		name: `Cubfan135`, // display name
 		dateAdded: `2024-02-09`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name.png`, // local image source
