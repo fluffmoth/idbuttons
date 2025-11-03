@@ -103,7 +103,10 @@ function newButtonRow(b) {
 	
 	// preview column
 	var editCol = row.insertCell(2);
-	if (!b.shape || b.shape.toLowerCase() == 'standard') {
+	if (
+		(!b.shape || b.shape.toLowerCase() == 'standard') &&
+		(!b.style || b.style.toLowerCase() == 'left')
+	){
 		editCol.classList.add('edit-col');
 		var editLink = document.createElement("a");
 		editLink.target = '_blank';
