@@ -19558,6 +19558,7 @@ const jobRolesList = [
 	},
 	{
 		name: `NEET`, // display name
+		alt: `%name (Not in Education, Employment, or Training)`,
 		dateAdded: `2024-01-25`, // date this button was first added to the masterlist
 		src: `/buttons/roles/%name_Gray.png`, // local image source
 		imgur: `https://i.imgur.com/RJ4Nut4.png`, // imgur link
@@ -19567,6 +19568,7 @@ const jobRolesList = [
 	},
 	{
 		name: `NEET`, // display name
+		alt: `%name (Not in Education, Employment, or Training)`,
 		dateAdded: `2024-01-25`, // date this button was first added to the masterlist
 		src: `/buttons/roles/%name_Red.png`, // local image source
 		imgur: `https://i.imgur.com/RXjDeb1.png`, // imgur link
@@ -19577,6 +19579,7 @@ const jobRolesList = [
 	},
 	{
 		name: `Jobless`, // display name
+		alt: `%name`,
 		dateAdded: `2024-01-25`, // date this button was first added to the masterlist
 		src: `/buttons/roles/%name_Gray.png`, // local image source
 		imgur: `https://i.imgur.com/a18Ix4F.png`, // imgur link
@@ -19586,6 +19589,7 @@ const jobRolesList = [
 	},
 	{
 		name: `Jobless`, // display name
+		alt: `%name`,
 		dateAdded: `2024-01-25`, // date this button was first added to the masterlist
 		src: `/buttons/roles/%name_Red.png`, // local image source
 		imgur: `https://i.imgur.com/XxjnTRp.png`, // imgur link
@@ -19596,6 +19600,7 @@ const jobRolesList = [
 	},
 	{
 		name: `Coin Collector`, // display name
+		alt: `%name`,
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		imgur: `https://i.imgur.com/FnGg7dY.png`, // imgur link
 		tags: [`interests`,`hobby`,`collector`,`coins`], // tags for search/filtering
@@ -19604,8 +19609,8 @@ const jobRolesList = [
 	},
 	{
 		name: `Coin Collecting`, // display name
-		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		alt: `%name`,
+		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		imgur: `https://i.imgur.com/xZMOiBe.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`hobby`,`collector`,`coins`], // tags for search/filtering
