@@ -4475,21 +4475,24 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Artemian`, // display name
-		imgur: `https://i.imgur.com/xMiioxe.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/hMm97F3.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Atmosian`, // display name
-		imgur: `https://i.imgur.com/pioYk58.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/3J1u1lf.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Atmosian`, // display name
-		imgur: `https://i.imgur.com/NT0OWb9.png`, // imgur link
+		src: `/buttons/gender/galactian/%name_alt.png`, // local image source
+		imgur: `https://i.imgur.com/ewP0RTs.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
@@ -4497,20 +4500,23 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Aurorian`, // display name
-		imgur: `https://i.imgur.com/ZyfoWYW.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/prfNryw.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Calypsian`, // display name
-		imgur: `https://i.imgur.com/8K735nh.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ZDMcWNa.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Celestian`, // display name
+		src: `/buttons/gender/galactian/%name.png`, // local image source
 		imgur: `https://i.imgur.com/6FbyHU9.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
@@ -4518,6 +4524,7 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Cometian`, // display name
+		src: `/buttons/gender/galactian/%name.png`, // local image source
 		imgur: `https://i.imgur.com/DhcQgr5.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
@@ -4525,13 +4532,15 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Constellian`, // display name
-		imgur: `https://i.imgur.com/SC1tTbl.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/yx1exbL.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Daenixian`, // display name
+		src: `/buttons/gender/galactian/%name.png`, // local image source
 		imgur: `https://i.imgur.com/m5xkWRn.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
@@ -4539,6 +4548,7 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Dawnian`, // display name
+		src: `/buttons/gender/galactian/%name.png`, // local image source
 		imgur: `https://i.imgur.com/HMnALZl.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
@@ -4546,6 +4556,7 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Duenixian`, // display name
+		src: `/buttons/gender/galactian/%name.png`, // local image source
 		imgur: `https://i.imgur.com/gJ5r9q2.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
@@ -4553,27 +4564,31 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Duskian`, // display name
-		imgur: `https://i.imgur.com/p18fc7Z.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/QSg1N3K.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Eclipsian`, // display name
-		imgur: `https://i.imgur.com/WcZJake.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/vLeqlz2.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Equinoxian`, // display name
-		imgur: `https://i.imgur.com/Us6Se0H.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/IqwYKXz.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Galaxian`, // display name
+		src: `/buttons/gender/galactian/%name.png`, // local image source
 		imgur: `https://i.imgur.com/g64noeJ.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
@@ -4581,6 +4596,7 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Hafian`, // display name
+		src: `/buttons/gender/galactian/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Ad1ciwV.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
@@ -4588,6 +4604,7 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Helian`, // display name
+		src: `/buttons/gender/galactian/%name.png`, // local image source
 		imgur: `https://i.imgur.com/mtFdsGT.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
@@ -4595,21 +4612,24 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Lunarian`, // display name
-		imgur: `https://i.imgur.com/VeK8BsF.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/M1UNcNh.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Meteorian`, // display name
-		imgur: `https://i.imgur.com/sZmKKTM.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/c6hD7qM.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Nebularian`, // display name
-		imgur: `https://i.imgur.com/awqKoMx.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/EIQQDab.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -4617,7 +4637,8 @@ const galactianAlignmentList = [
 	{
 		name: `Neularian`, // display name
 		altNames: [`Neufem Lunarian`], // optional alternate names, for search algorithms
-		imgur: `https://i.imgur.com/iUqVPg5.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/snJxKW7.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -4625,27 +4646,31 @@ const galactianAlignmentList = [
 	{
 		name: `Neusarian`, // display name
 		altNames: [`Neumasc Solarian`], // optional alternate names, for search algorithms
-		imgur: `https://i.imgur.com/FJm9RIZ.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/TZkDN8W.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Novarian`, // display name
-		imgur: `https://i.imgur.com/0OTU6PT.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/bG6iLUp.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Penumbrian`, // display name
-		imgur: `https://i.imgur.com/ArtQnpH.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/qokSZ23.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Phoebian`, // display name
+		src: `/buttons/gender/galactian/%name.png`, // local image source
 		imgur: `https://i.imgur.com/lsuBq2s.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
@@ -4653,6 +4678,7 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Phoenixian`, // display name
+		src: `/buttons/gender/galactian/%name.png`, // local image source
 		imgur: `https://i.imgur.com/3AiRAOC.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
@@ -4660,6 +4686,7 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Pistolian`, // display name
+		src: `/buttons/gender/galactian/%name.png`, // local image source
 		imgur: `https://i.imgur.com/G1lLqG6.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
@@ -4667,6 +4694,7 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Selenian`, // display name
+		src: `/buttons/gender/galactian/%name.png`, // local image source
 		imgur: `https://i.imgur.com/TYody9G.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
@@ -4674,42 +4702,48 @@ const galactianAlignmentList = [
 	},
 	{
 		name: `Siderealian`, // display name
-		imgur: `https://i.imgur.com/juZiZK2.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/NefrB8L.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Singularian`, // display name
-		imgur: `https://i.imgur.com/AV7XCe1.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/pUz2SqM.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Solarian`, // display name
-		imgur: `https://i.imgur.com/OKjyyyM.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/dE4NEyz.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Solstian`, // display name
-		imgur: `https://i.imgur.com/VWl7bQm.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/aiT0PFS.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Stellarian`, // display name
-		imgur: `https://i.imgur.com/SDPCPLU.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/0xScsK5.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Twilightian`, // display name
-		imgur: `https://i.imgur.com/O3AOKqd.png`, // imgur link
+		src: `/buttons/gender/galactian/%name.png`, // local image source
+		imgur: `https://i.imgur.com/mbBNNQF.png`, // imgur link
 		tags: [`gender`,`galactian alignment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,galactian alignment system">Galactian Alignment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -9311,6 +9345,13 @@ const mixedPronounList = [
 		icon: `Demiboy flag` // description of the flag/icon
 	},
 	{
+		name: `He/Ey`, // display name
+		imgur: `https://i.imgur.com/8bRya2m.png`, // imgur link
+		tags: [`pronoun`,`mixed pronouns`,`neopronoun`,`he`,`him`,`ey`,`em`,`xenogender`,`gender flag`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Xenogender flag` // description of the flag/icon
+	},
+	{
 		name: `He/Fruit`, // display name
 		imgur: `https://i.imgur.com/DjQabXZ.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`neopronoun`,`he`,`him`,`fruit`,`fruits`,`nounself`,`xenogender`,`gender flag`], // tags for search/filtering
@@ -13225,6 +13266,49 @@ const FRList = [
 	},
 	
 	/////////////////////////////////////////////////////////////////////
+	// DRAGON SPECIES/BREEDS //
+	{
+		name: `Undertide`, // display name
+		alt: `%name`,
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		src: `/buttons/FR/breeds/%name.png`, // local image source
+		imgur: `https://i.imgur.com/fhe5js6.png`, // imgur link
+		tags: [`flight rising`,`dragon breed`,`undertide`], // tags for search/filtering
+		info: `Breed of dragon on <a href="?tags=flight rising">Flight Rising</a>`, // optional extra info
+		icon: `Undertide blue` // description of the flag/icon
+	},
+	{
+		name: `Undertide Fan`, // display name
+		alt: `%name`,
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		src: `/buttons/FR/breeds/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Iauu1Ro.png`, // imgur link
+		tags: [`flight rising`,`dragon breed`,`undertide`], // tags for search/filtering
+		info: `Breed of dragon on <a href="?tags=flight rising">Flight Rising</a>`, // optional extra info
+		icon: `Undertide blue` // description of the flag/icon
+	},
+	{
+		name: `Undertide Monolair`, // display name
+		alt: `%name`,
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		src: `/buttons/FR/breeds/%name.png`, // local image source
+		imgur: `https://i.imgur.com/2cQQXlC.png`, // imgur link
+		tags: [`flight rising`,`dragon breed`,`undertide`,`monolair`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> lair exclusively featuring <a href="?tags=undertide">Undertide</a> dragons`, // optional extra info
+		icon: `Undertide blue` // description of the flag/icon
+	},
+	{
+		name: `Undertide Lair`, // display name
+		alt: `%name`,
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		src: `/buttons/FR/breeds/%name.png`, // local image source
+		imgur: `https://i.imgur.com/X29nWrP.png`, // imgur link
+		tags: [`flight rising`,`dragon breed`,`undertide`,`monolair`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> lair focused on <a href="?tags=undertide">Undertide</a> dragons`, // optional extra info
+		icon: `Undertide blue` // description of the flag/icon
+	},
+	
+	/////////////////////////////////////////////////////////////////////
 	// DRAGON IDs //
 	{
 		name: `Low Digit ID`, // display name
@@ -13365,7 +13449,7 @@ const FRList = [
 	},
 	
 	/////////////////////////////////////////////////////////////////////
-	// DRAGONS //
+	// SPECIAL DRAGONS //
 	
 	{
 		name: `Birthday Dragon`, // display name
@@ -16821,13 +16905,22 @@ const interestsList = [
 	},
 	{
 		name: `Mandela Catalogue`, // display name
-		altNames: [`The Mandela Catalogue`], // optional alternate names, for search algorithms
+		altNames: [`The Mandela Catalog`], // optional alternate names, for search algorithms
 		dateAdded: `2025-11-03`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name.png`, // local image source
 		imgur: `https://i.imgur.com/CS9T7Ea.png`, // imgur link
 		tags: [`interests`,`fandom`,`youtube`,`television`,`series`,`horror`,`analogue`], // tags for search/filtering
 		info: `Analogue <a href="?tags=interests,horror">horror</a> series on Youtube`, // optional extra info
 		icon: `333` // description of the flag/icon
+	},
+	{
+		name: `Petscop`, // display name
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/miuyrCw.png`, // imgur link
+		tags: [`interests`,`fandom`,`youtube`,`television`,`series`,`horror`,`Tony Domenico`], // tags for search/filtering
+		info: `<a href="?tags=interests,horror">Horror</a> series on Youtube`, // optional extra info
+		icon: `` // description of the flag/icon
 	},
 	{
 		name: `Welcome to Night Vale`, // display name
@@ -17889,7 +17982,8 @@ const homestuckList = [
 	{
 		name: `Homestuck`, // display name
 		alt: `%name`,
-		imgur: `https://i.imgur.com/iJZWqi6.png`, // imgur link
+		src: `/buttons/interests/homestuck/%name.png`, // local image source
+		imgur: `https://i.imgur.com/xGX9zKi.png`, // imgur link
 		tags: [`interests`,`fandom`,`comic`,`webcomic`], // tags for search/filtering
 		info: `<a href="?tags=interests,webcomic">Webcomic</a><br>
 			more buttons:
@@ -17897,6 +17991,34 @@ const homestuckList = [
 			<a href="?tags=homestuck,hemospectrum">hemospectrum</a>,
 			<a href="?tags=homestuck,quadrant">quadrants</a>`, // optional extra info
 		icon: `Sburb logo` // description of the flag/icon
+	},
+	{
+		name: `Homestuck`, // display name
+		alt: `%name`,
+		src: `/buttons/interests/homestuck/%name_spiral.png`, // local image source
+		imgur: `https://i.imgur.com/khqUCfF.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`comic`,`webcomic`], // tags for search/filtering
+		info: `<a href="?tags=interests,webcomic">Webcomic</a><br>
+			more buttons:
+			<a href="?tags=homestuck,aspect|derse|prospit">aspects/moons</a>,
+			<a href="?tags=homestuck,hemospectrum">hemospectrum</a>,
+			<a href="?tags=homestuck,quadrant">quadrants</a>`, // optional extra info
+		icon: `Spiral logo` // description of the flag/icon
+	},
+	{
+		name: `Homestuck`, // display name
+		alt: `%name`,
+		src: `/buttons/interests/homestuck/%name_arrow.png`, // local image source
+		imgur: `https://i.imgur.com/oV4Dk17.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`comic`,`webcomic`], // tags for search/filtering
+		info: `<a href="?tags=interests,webcomic">Webcomic</a><br>
+			more buttons:
+			<a href="?tags=homestuck,aspect|derse|prospit">aspects/moons</a>,
+			<a href="?tags=homestuck,hemospectrum">hemospectrum</a>,
+			<a href="?tags=homestuck,quadrant">quadrants</a>`, // optional extra info
+		icon: `==>` // description of the flag/icon
 	},
 	{
 		name: `Lowblood`, // display name
@@ -18850,9 +18972,9 @@ const aestheticList = [
 		alt: `%name`,
 		//src: `/buttons/aesthetic/%name.png`, // local image source
 		imgur: `https://i.imgur.com/TfeviN2.png`, // imgur link
-		tags: [`aesthetic`], // tags for search/filtering
+		tags: [`aesthetic`,`academia`,`academic`,`books`], // tags for search/filtering
 		info: `<a href="?tags=aesthetic">Aesthetic</a>`, // optional extra info
-		icon: `Books` // description of the flag/icon
+		icon: `Book pile` // description of the flag/icon
 	},
 	{
 		name: `Fantasycore`, // display name
@@ -19121,6 +19243,16 @@ const jobRolesList = [
 		alt: `%name`,
 		imgur: `https://i.imgur.com/ueA9g1t.png`, // imgur link
 		tags: [`job`,`role`,`academia`,`academic`,`library`,`books`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Book pile` // description of the flag/icon
+	},
+	{
+		name: `Archivist`, // display name
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/roles/%name.png`, // local image source
+		imgur: `https://i.imgur.com/7PEdzMP.png`, // imgur link
+		tags: [`job`,`role`,`academia`,`academic`,`archive`,`books`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Book pile` // description of the flag/icon
 	},
@@ -19463,6 +19595,7 @@ dietList = [
 	{
 		name: `Carnivore`, // display name
 		dateAdded: `2025-10-29`, // date this button was first added to the masterlist
+		alt: `%name`,
 		//src: `/buttons/other/diets/%name.png`, // local image source
 		imgur: `https://i.imgur.com/vRWPuxd.png`, // imgur link
 		inFRPost: true, // whether this button should be included in the FR masterlist
@@ -19473,6 +19606,7 @@ dietList = [
 	{
 		name: `Eats Trash`, // display name
 		dateAdded: `2025-10-29`, // date this button was first added to the masterlist
+		alt: `%name`,
 		//src: `/buttons/other/diets/%name.png`, // local image source
 		imgur: `https://i.imgur.com/WXBzxw1.gif`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -19483,6 +19617,7 @@ dietList = [
 	{
 		name: `Herbivore`, // display name
 		dateAdded: `2025-10-29`, // date this button was first added to the masterlist
+		alt: `%name`,
 		//src: `/buttons/other/diets/%name.png`, // local image source
 		imgur: `https://i.imgur.com/rTSYOCb.png`, // imgur link
 		inFRPost: true, // whether this button should be included in the FR masterlist
@@ -19493,6 +19628,7 @@ dietList = [
 	{
 		name: `Insectivore`, // display name
 		dateAdded: `2025-10-29`, // date this button was first added to the masterlist
+		alt: `%name`,
 		//src: `/buttons/other/diets/%name.png`, // local image source
 		imgur: `https://i.imgur.com/UYmuTaM.png`, // imgur link
 		inFRPost: true, // whether this button should be included in the FR masterlist
@@ -19503,6 +19639,7 @@ dietList = [
 	{
 		name: `Omnivore`, // display name
 		dateAdded: `2025-10-29`, // date this button was first added to the masterlist
+		alt: `%name`,
 		//src: `/buttons/other/diets/%name.png`, // local image source
 		imgur: `https://i.imgur.com/ifVkkqf.png`, // imgur link
 		inFRPost: true, // whether this button should be included in the FR masterlist
@@ -19513,6 +19650,7 @@ dietList = [
 	{
 		name: `Pescetarian`, // display name
 		dateAdded: `2025-10-29`, // date this button was first added to the masterlist
+		alt: `%name`,
 		//src: `/buttons/other/diets/%name.png`, // local image source
 		imgur: `https://i.imgur.com/NgoWFLG.png`, // imgur link
 		inFRPost: true, // whether this button should be included in the FR masterlist
@@ -19523,6 +19661,7 @@ dietList = [
 	{
 		name: `Piscivore`, // display name
 		dateAdded: `2025-10-29`, // date this button was first added to the masterlist
+		alt: `%name`,
 		//src: `/buttons/other/diets/%name.png`, // local image source
 		imgur: `https://i.imgur.com/IMnBi2a.png`, // imgur link
 		inFRPost: true, // whether this button should be included in the FR masterlist
@@ -19533,6 +19672,7 @@ dietList = [
 	{
 		name: `Vegan`, // display name
 		dateAdded: `2025-10-29`, // date this button was first added to the masterlist
+		alt: `%name`,
 		//src: `/buttons/other/diets/%name.png`, // local image source
 		imgur: `https://i.imgur.com/8XzULGg.png`, // imgur link
 		inFRPost: true, // whether this button should be included in the FR masterlist
@@ -19543,6 +19683,7 @@ dietList = [
 	{
 		name: `Vegetarian`, // display name
 		dateAdded: `2025-10-29`, // date this button was first added to the masterlist
+		alt: `%name`,
 		//src: `/buttons/other/diets/%name.png`, // local image source
 		imgur: `https://i.imgur.com/cZOnhJ9.png`, // imgur link
 		inFRPost: true, // whether this button should be included in the FR masterlist
@@ -19551,6 +19692,30 @@ dietList = [
 		icon: `Plant` // description of the flag/icon
 	}
 	
+]
+
+cultureList = [
+	{
+		name: `Indonesian`, // display name
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/countries/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Q6aMNpW.png`, // imgur link
+		tags: [`nationality`,`culture`,`indonesia`], // tags for search/filtering
+		info: `<a href="?tags=country|nationality|culture">Culture/nationality</a>`, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Indonesia`, // display name
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/countries/%name.png`, // local image source
+		imgur: `https://i.imgur.com/I3ANxLd.png`, // imgur link
+		tags: [`country`,`culture`,`indonesia`], // tags for search/filtering
+		info: `<a href="?tags=country|nationality|culture">Culture/nationality</a>`, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+
 ]
 
 otherList = [
@@ -21379,6 +21544,7 @@ const buttonList = arr.concat(
 	
 	dietList,
 	
+	cultureList,
 	otherList,
 	
 	buttons2List,

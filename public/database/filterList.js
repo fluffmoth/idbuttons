@@ -210,6 +210,7 @@ const filterList = [
 							{ label: `Bogsneak`, tags: `bogsneak` },
 							{ label: `Coatl`, tags: `coatl` },
 							{ label: `Fae`, tags: `fae` },
+							{ label: `Fathom`, tags: `fathom` },
 							{ label: `Guardian`, tags: `guardian` },
 							{ label: `Imperial`, tags: `imperial` },
 							{ label: `Mirror`, tags: `mirror` },
@@ -230,6 +231,9 @@ const filterList = [
 							{ label: `Aether`, tags: `aether` },
 							{ label: `Auraboa`, tags: `auraboa` },
 							{ label: `Banescale`, tags: `banescale` },
+							{ label: `Cirrus`, tags: `cirrus` },
+							{ label: `Dusthide`, tags: `dusthide` },
+							{ label: `Everlux`, tags: `everlux` },
 							{ label: `Gaoler`, tags: `gaoler` },
 							{ label: `Sandsurge`, tags: `sandsurge` },
 							{ label: `Undertide`, tags: `undertide` },
@@ -255,6 +259,7 @@ const filterList = [
 			{ label: `Exalting`, tags: `exalting` }
 		]
 	},
+	{ label: `Cultures & Nationalities`, tags: `country|nationality|culture` },
 	{ label: `Aesthetics/Subcultures`, tags: `aesthetic|subculture,!gender` },
 	{ label: `Jobs/Roles/Hobbies`, tags: `job|role|hobby` ,
 		children: [
