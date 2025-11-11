@@ -12596,7 +12596,7 @@ const aroAceList = [
 		imgur: `https://i.imgur.com/eTmFfQ7.png`, // imgur link
 		tags: [`orientation`,`a-spec`,`aro spectrum`,`aromantic`,`aro`], // tags for search/filtering
 		info: `<a href="?tags=orientation,aro spectrum">Aro spectrum</a> identity referring to someone who only experiences
-			sexual attraction towards those they are deeply connected/bonded to`, // optional extra info
+			romantic attraction towards those they are already deeply connected/bonded to`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
