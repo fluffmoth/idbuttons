@@ -451,12 +451,15 @@ function setAltText(btn) {
 		// if alt text not already set
 		if (!btn.alt || btn.alt == ``) {
 			btn.alt = btn.name;
-			// if button icon is not basic flag
-			let icon = adjustIconText(btn);
+			// if subspecies, note at end of alt text
 			if (btn.tags.includes('flight rising') && btn.tags.includes('subspecies')) btn.alt += ` (Subspecies)`
 			else if (btn.tags.includes('flight rising') && btn.tags.includes('lineage')) btn.alt += ` (Subspecies)`
+			// if button uses a default icon base
 			else if (btn.iconBase) btn.alt += ' (' + btn.iconBase.icon + ' ' + adjustIconBaseName(btn).toLowerCase() + ')';
-			else if (icon) btn.alt += ` (${icon})`;
+			// otherwise if button icon is not basic flag or logo, add icon text to end of alt text
+			else if (!btn.icon == 'flag' && !btn.icon == 'logo') {
+				btn.alt += ` (${adjustIconText(btn)})`;
+			}
 		}
 		else {
 			// replace button name references with the name
