@@ -3718,7 +3718,7 @@ const xenogenderList = [
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `https://i.imgur.com/1K6hRNf.png`, // imgur link
 		tags: [`gender`,`xenogender`,`aesthetigender`,`pastel`,`goth`,`pastel goth`], // tags for search/filtering
-		info: `<a href="?tags=gender,aesthetigender">Aesthetigender</a> related to the pastel goth aesthetic`, // optional extra info
+		info: `<a href="?tags=gender,aesthetigender">Aesthetigender</a> related to the <a href="?tags=pastel goth">pastel goth</a> aesthetic`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -3741,6 +3741,15 @@ const xenogenderList = [
 		imgur: `https://i.imgur.com/37UqTOQ.png`, // imgur link
 		tags: [`gender`,`xenogender`,`plague doctor`,`plague`], // tags for search/filtering
 		info: `<a href="?tags=gender,xenogender">Xenogender</a> related to plaguecore and plague doctors`, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Plastarskyic`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		src: `/buttons/gender/%name.png`, // local image source
+		imgur: `https://i.imgur.com/978OsG1.png`, // imgur link
+		tags: [`gender`,`xenogender`,`aesthetigender`,`glow`,`stars`], // tags for search/filtering
+		info: `<a href="?tags=gender,aesthetigender">Aesthetigender</a> related to glow-in-the-dark plastic stars`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -14497,6 +14506,18 @@ const FRList = [
 		icon: `Nature flight` // description of the flag/icon
 	},
 	{
+		name: `Frog Cult`, // display name
+		altNames: [`Frog Club`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/%name.png`, // local image source
+		imgur: `https://i.imgur.com/FvfV2kD.png`, // imgur link
+		tags: [`flight rising`,`frog`], // tags for search/filtering
+		info: `<a href="?tags=flight rising">Flight Rising</a> club based on the Desert Rain Frog Companion apparel item`, // optional extra info
+		link: `https://www1.flightrising.com/forums/gend/2629348/1`, // optional URL the button should link to
+		icon: `Round green frog` // description of the flag/icon
+	},
+	{
 		name: `Pride Dragon`, // display name
 		src: `/buttons/FR/%name.png`, // local image source
 		imgur: `https://i.imgur.com/HGv7TkD.png`, // imgur link
@@ -16452,6 +16473,70 @@ const musicList = [
 		icon: `Hawaii Part II album` // description of the flag/icon
 	},
 	{
+		name: `Jack Stauber`, // display name
+		altNames: [`Jack Stauber's Micropop`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/92gO9MS.png`, // imgur link
+		tags: [`interests`,`fandom`,`music`,`music artist`,`synth`,`pop`], // tags for search/filtering
+		info: `<a href="?tags=interests,music artist">Music artist</a>`, // optional extra info
+		icon: `Music notes` // description of the flag/icon
+	},
+	{
+		name: `Tally Hall`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/sGPdmfH.png`, // imgur link
+		tags: [`interests`,`fandom`,`music`,`music artist`,`alternative`,`alt`,`rock`,`pop`,`fabloo`], // tags for search/filtering
+		info: `American indie rock <a href="?tags=interests,music artist">band</a>`, // optional extra info
+		icon: `Good & Evil album` // description of the flag/icon
+	},
+	{
+		name: `Tally Hall: Good & Evil`, // display name
+		altNames: [`Good & Evil`,`Good and Evil`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/qqmbLIS.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`music`,`music album`,`tally hall`], // tags for search/filtering
+		info: `<a href="?tags=interests,tally hall">Tally Hall</a> album`, // optional extra info
+		icon: `Good & Evil album` // description of the flag/icon
+	},
+	{
+		name: `TWRP`, // display name
+		altNames: [`Tupperware Remix Party`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Tug9vXl.png`, // imgur link
+		tags: [`interests`,`fandom`,`music`,`music artist`,`electronic`,`rock`], // tags for search/filtering
+		info: `Electronic rock <a href="?tags=interests,music artist">band</a>, formerly named Tupperware Remix Party`, // optional extra info
+		icon: `Rainbow music notes` // description of the flag/icon
+	},
+	{
+		name: `Twenty One Pilots`, // display name
+		altNames: [`21 Pilots`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/UFNuPA7.png`, // imgur link
+		tags: [`interests`,`fandom`,`music`,`music artist`,`alternative`,`alt`,`rock`], // tags for search/filtering
+		info: `Alt rock <a href="?tags=interests,music artist">music duo</a>`, // optional extra info
+		icon: `Dark music notes` // description of the flag/icon
+	},
+	{
+		name: `Perturbator`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/cjtnrTH.png`, // imgur link
+		tags: [`interests`,`fandom`,`music`,`music artist`,`electronic`,`darksynth`,`synthwave`], // tags for search/filtering
+		info: `Electronic <a href="?tags=interests,music artist">music artist</a>`, // optional extra info
+		icon: `Lustful Sacraments album` // description of the flag/icon
+	},
+	{
 		name: `Daft Punk`, // display name
 		dateAdded: `2025-11-03`, // date this button was first added to the masterlist
 		alt: `%name`,
@@ -16667,13 +16752,74 @@ const musicList = [
 		icon: `O My Heart album` // description of the flag/icon
 	},
 	{
-		name: `Kalimba`, // display name
-		dateAdded: `2024-01-24`, // date this button was first added to the masterlist
+		name: `Heilung`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
-		imgur: `https://i.imgur.com/G2FwKaA.png`, // imgur link
-		tags: [`interests`,`music`,`musical instrument`], // tags for search/filtering
-		info: `<a href="?tags=interests,music">Musical</a> <a href="?tags=musical instrument">instrument</a>`, // optional extra info
+		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/0L6Cwis.png`, // imgur link
+		tags: [`interests`,`fandom`,`music`,`music artist`,`folk`,`viking`], // tags for search/filtering
+		info: `European folk <a href="?tags=interests,music artist">music group</a>`, // optional extra info
+		icon: `Music notes` // description of the flag/icon
+	},
+	{
+		name: `Ghost`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/hNpGoBq.png`, // imgur link
+		tags: [`interests`,`fandom`,`music`,`music artist`,`rock`], // tags for search/filtering
+		info: `Swedish rock <a href="?tags=interests,music artist">band</a>`, // optional extra info
+		icon: `Inverted cross` // description of the flag/icon
+	},
+	{
+		name: `Gorillaz`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/U5FwfXV.png`, // imgur link
+		tags: [`interests`,`fandom`,`music`,`music artist`,`alternative`,`rock`,`alt`], // tags for search/filtering
+		info: `Alt rock virtual <a href="?tags=interests,music artist">band</a>`, // optional extra info
+		icon: `Red music notes` // description of the flag/icon
+	},
+	{
+		name: `Carpenter Brut`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/1kHiKOB.png`, // imgur link
+		tags: [`interests`,`fandom`,`music`,`music artist`,`electronic`,`darksynth`,`synthwave`], // tags for search/filtering
+		info: `<a href="?tags=interests,darksynth">Darksynth</a> electronic <a href="?tags=interests,music artist">music artist</a>`, // optional extra info
+		icon: `Solid black` // description of the flag/icon
+	},
+	{
+		name: `Chonny Jash`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/9v53g7m.png`, // imgur link
+		tags: [`interests`,`fandom`,`music`,`music artist`,`tally hall`], // tags for search/filtering
+		info: `Independent <a href="?tags=interests,music artist">singer/songwriter</a> known for <a href="?tags=tally hall">Tally Hall</a> covers`, // optional extra info
+		icon: `Solid black` // description of the flag/icon
+	},
+	{
+		name: `Michael Jackson`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/o1H8UmF.png`, // imgur link
+		tags: [`interests`,`fandom`,`music`,`music artist`], // tags for search/filtering
+		info: `<a href="?tags=interests,music artist">Music artist</a>`, // optional extra info
+		icon: `Music notes` // description of the flag/icon
+	},
+	{
+		name: `Moonwalker`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/9tL1FD7.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`music`,`michael jackson`], // tags for search/filtering
+		info: `<a href="?tags=michael jackson">Michael Jackson</a> fan`, // optional extra info
 		icon: `Music notes` // description of the flag/icon
 	},
 	{
@@ -16739,6 +16885,39 @@ const musicList = [
 		tags: [`interests`,`fandom`,`music`,`music album`,`hozier`], // tags for search/filtering
 		info: `<a href="?tags=fandom,hozier">Hozier</a> album`, // optional extra info
 		icon: `Unreal Unearth album` // description of the flag/icon
+	},
+	
+	
+	{
+		name: `Music`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/jo4fU6U.png`, // imgur link
+		tags: [`interests`,`music`], // tags for search/filtering
+		info: `<a href="?tags=interests,music">Music</a>`, // optional extra info
+		icon: `Music notes` // description of the flag/icon
+	},
+	{
+		name: `Eclectic`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name music`,
+		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/iTC51rT.png`, // imgur link
+		tags: [`interests`,`music`,`genre`,`eclectic`], // tags for search/filtering
+		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
+		icon: `Music notes` // description of the flag/icon
+	},
+	{
+		name: `Eclectic Music Taste`, // display name
+		altNames: [`Eclectic Taste`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ePwMD5G.png`, // imgur link
+		tags: [`interests`,`music`,`genre`,`eclectic`], // tags for search/filtering
+		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
+		icon: `Music notes` // description of the flag/icon
 	},
 	{
 		name: `Ambience`, // display name
@@ -16860,15 +17039,46 @@ const musicList = [
 		tags: [`interests`,`music`,`genre`,`electronic`,`dance`,`rave`], // tags for search/filtering
 		info: `Electronic <a href="?tags=interests,music">music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
 		icon: `Glowing green music notes` // description of the flag/icon
+	},
+	{
+		name: `Kalimba`, // display name
+		dateAdded: `2024-01-24`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/G2FwKaA.png`, // imgur link
+		tags: [`interests`,`music`,`musical instrument`], // tags for search/filtering
+		info: `<a href="?tags=interests,music">Musical</a> <a href="?tags=musical instrument">instrument</a>`, // optional extra info
+		icon: `Music notes` // description of the flag/icon
 	}
 ]
 
 const interestsList = [
 	{
+		name: `Chocolate`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%altNames0`,
+		//src: `/buttons/interests/food/%name.png`, // local image source
+		imgur: `https://i.imgur.com/CJhLgXY.png`, // imgur link
+		tags: [`interests`,`food`,`candy`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Milk chocolate` // description of the flag/icon
+	},
+	{
+		name: `Chocolate`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%altNames0`,
+		//src: `/buttons/interests/food/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Qgp8iNH.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`food`,`candy`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `White chocolate` // description of the flag/icon
+	},
+	{
 		name: `Tea`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/%name.png`, // local image source
+		src: `/buttons/interests/food/%name.png`, // local image source
 		imgur: `https://i.imgur.com/ioHnU6S.png`, // imgur link
 		tags: [`interests`,`food`,`drink`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -16878,7 +17088,7 @@ const interestsList = [
 		name: `Coffee`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/%name.png`, // local image source
+		src: `/buttons/interests/food/%name.png`, // local image source
 		imgur: `https://i.imgur.com/0CD2sOu.png`, // imgur link
 		tags: [`interests`,`food`,`drink`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -16889,7 +17099,7 @@ const interestsList = [
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name.png`, // local image source
 		imgur: `https://i.imgur.com/uDOL1AY.png`, // imgur link
-		tags: [`interests`,`science`,`scientist`,`reptiles`,`zoology`,`herpetologist`], // tags for search/filtering
+		tags: [`interests`,`science`,`scientist`,`reptiles`,`amphibians`,`zoology`,`herpetologist`], // tags for search/filtering
 		info: `<a href="?tags=science">Scientific</a> study of reptiles/amphibians`, // optional extra info
 		icon: `Gold snake` // description of the flag/icon
 	},
@@ -17161,13 +17371,14 @@ const interestsList = [
 		icon: `Mandalorian helmet` // description of the flag/icon
 	},
 	{
-		name: `Three Body`, // display name
+		name: `The Three-Body Problem`, // display name
+		altNames: [`Three Body`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
-		src: `/buttons/interests/%name.png`, // local image source
+		src: `/buttons/interests/Three_Body.png`, // local image source
 		imgur: `https://i.imgur.com/lDDMyE5.png`, // imgur link
-		tags: [`interests`,`fandom`,`scifi`,`science fiction`,`tv`,`television`], // tags for search/filtering
-		info: `<a href="?tags=interests,science fiction">Science fiction</a> <a href="?tags=interests,television|tv">TV show</a>
-			(more Three Body buttons <a href="?tags=three body">here</a>)`, // optional extra info
+		tags: [`interests`,`fandom`,`scifi`,`science fiction`,`tv`,`television`,`book`,`novel`], // tags for search/filtering
+		info: `<a href="?tags=interests,science fiction">Science fiction</a> <a href="?tags=interests,book">book</a> and <a href="?tags=interests,television|tv">TV</a> series
+			(more Three Body Problem buttons <a href="?tags=three body">here</a>)`, // optional extra info
 		icon: `logo` // description of the flag/icon
 	},
 	{
@@ -17179,7 +17390,7 @@ const interestsList = [
 		imgur: `https://i.imgur.com/FP3KcnQ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`three body`], // tags for search/filtering
-		info: `From the <a href="?tags=three body">Three Body</a> series`, // optional extra info
+		info: `From the <a href="?tags=three body">Three Body Problem</a> series`, // optional extra info
 		icon: `Sword` // description of the flag/icon
 	},
 	{
@@ -17190,7 +17401,7 @@ const interestsList = [
 		imgur: `https://i.imgur.com/4RKaQMZ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`three body`], // tags for search/filtering
-		info: `From the <a href="?tags=three body">Three Body</a> series`, // optional extra info
+		info: `From the <a href="?tags=three body">Three Body Problem</a> series`, // optional extra info
 		icon: `ETO logo` // description of the flag/icon
 	},
 	{
@@ -17202,7 +17413,7 @@ const interestsList = [
 		imgur: `https://i.imgur.com/cunJmYx.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`three body`], // tags for search/filtering
-		info: `Earth-Trisolaris Organization from the <a href="?tags=three body">Three Body</a> series`, // optional extra info
+		info: `Earth-Trisolaris Organization from the <a href="?tags=three body">Three Body Problem</a> series`, // optional extra info
 		icon: `ETO logo` // description of the flag/icon
 	},
 	{
@@ -17213,7 +17424,7 @@ const interestsList = [
 		imgur: `https://i.imgur.com/HK9mrDJ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`three body`], // tags for search/filtering
-		info: `From the <a href="?tags=three body">Three Body</a> series`, // optional extra info
+		info: `From the <a href="?tags=three body">Three Body Problem</a> series`, // optional extra info
 		icon: `` // description of the flag/icon
 	},
 	{
@@ -19068,20 +19279,168 @@ const aestheticList = [
 		icon: `Book pile` // description of the flag/icon
 	},
 	{
+		name: `Dazecore`, // display name
+		altNames: [`Blue Hour`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/aN1sCfX.png`, // imgur link
+		tags: [`aesthetic`,`lo-fi`,`dreamy`,`urban`], // tags for search/filtering
+		info: `Dreamy, late-night <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
+		icon: `Blue PC monitor` // description of the flag/icon
+	},
+	{
+		name: `Dieselpunk`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/GaCMO9X.png`, // imgur link
+		tags: [`aesthetic`,`sci fi`,`science fiction`,`steampunk`,`genre`], // tags for search/filtering
+		info: `Retro-futuristic <a href="?tags=science fiction">science fiction</a> genre and <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
+		icon: `Gold bullet` // description of the flag/icon
+	},
+	{
+		name: `Dragoncore`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/weia2aX.png`, // imgur link
+		tags: [`aesthetic`,`dragon`,`fantasy`,`mythology`], // tags for search/filtering
+		info: `Dragon-related <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
+		icon: `Dark dragon head` // description of the flag/icon
+	},
+	{
+		name: `Dreamcore`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Wg1Qxoe.png`, // imgur link
+		tags: [`aesthetic`,`dreamy`,`surreal`,`internet`,`digital`], // tags for search/filtering
+		info: `Surreal internet <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
+		icon: `Pastel clouds` // description of the flag/icon
+	},
+	{
+		name: `Elegant Gothic Lolita`, // display name
+		altNames: [`EG Lolita`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/LTm7UbO.png`, // imgur link
+		tags: [`aesthetic`,`fashion`,`lolita`], // tags for search/filtering
+		info: `Lolita <a href="?tags=fashion">fashion</a> subgenre/<a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
+		icon: `Black bow` // description of the flag/icon
+	},
+	{
+		name: `Fairy Kei`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/tmrS2fP.png`, // imgur link
+		tags: [`aesthetic`,`fashion`,`pastel`], // tags for search/filtering
+		info: `Cute pastel <a href="?tags=fashion">fashion</a> subgenre`, // optional extra info
+		icon: `Pastel stripes` // description of the flag/icon
+	},
+	{
+		name: `Fairy-Kei`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/xGZbw9f.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`aesthetic`,`fashion`,`pastel`], // tags for search/filtering
+		info: `Cute pastel <a href="?tags=fashion">fashion</a> subgenre`, // optional extra info
+		icon: `Pastel stripes` // description of the flag/icon
+	},
+	{
+		name: `Fairycore`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Qq78qBr.png`, // imgur link
+		tags: [`aesthetic`,`fairy`,`fantasy`,`mythology`], // tags for search/filtering
+		info: `Fairy <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
+		icon: `Flower` // description of the flag/icon
+	},
+	{
+		name: `Fairycore`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/FwT7OTD.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`aesthetic`,`fairy`,`fantasy`,`mythology`], // tags for search/filtering
+		info: `Fairy <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
+		icon: `Pastel fairy wings` // description of the flag/icon
+	},
+	{
 		name: `Fantasycore`, // display name
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		alt: `%name`,
+		//src: `/buttons/aesthetic/%name.png`, // local image source
 		imgur: `https://i.imgur.com/AmM7lRQ.png`, // imgur link
 		tags: [`aesthetic`,`fantasy`], // tags for search/filtering
 		info: `Fantasy <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
 		icon: `Blue and gold stars` // description of the flag/icon
+	},
+	
+	
+	{
+		name: `Glitch`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/9TCvzie.png`, // imgur link
+		tags: [`aesthetic`,`digital`,`technology`,`distortion`,`error`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a>`, // optional extra info
+		icon: `Neon glitch pixels` // description of the flag/icon
+	},
+	{
+		name: `Glowcore`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/TKj1OVk.png`, // imgur link
+		tags: [`aesthetic`,`glow`,`fluorescent`,`neon`,`glowwave`], // tags for search/filtering
+		info: `Glow-in-the-dark or fluorescent <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
+		icon: `Neon stripes` // description of the flag/icon
+	},
+	{
+		name: `Glowcore`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/aesthetic/%name_Plastarskyic.png`, // local image source
+		imgur: `https://i.imgur.com/x9woRbz.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`aesthetic`,`glow`,`fluorescent`,`neon`,`glowwave`,`gender flag`,`plastarskyic`], // tags for search/filtering
+		info: `Glow-in-the-dark or fluorescent <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
+		icon: `<a href="?tags=plastarskyic">Plastarskyic</a> flag` // description of the flag/icon
+	},
+	{
+		name: `Glowwave`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/AnDSbgH.png`, // imgur link
+		tags: [`aesthetic`,`glow`,`fluorescent`,`neon`,`glowcore`], // tags for search/filtering
+		info: `Glow-in-the-dark or fluorescent <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
+		icon: `Neon stripes` // description of the flag/icon
+	},
+	{
+		name: `Golden Hour`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/PngxIP9.png`, // imgur link
+		tags: [`aesthetic`,`photography`,`sunset`,`sunrise`,`sunlight`], // tags for search/filtering
+		info: `Period of warm natural light when the sun is just above the horizon. Often used in photography`, // optional extra info
+		icon: `Golden sky` // description of the flag/icon
 	},
 	{
 		name: `Pastel Goth`, // display name
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		imgur: `https://i.imgur.com/oNrZjs5.png`, // imgur link
 		tags: [`interests`,`fashion`,`subculture`,`aesthetic`,`goth`], // tags for search/filtering
-		info: `Fashion <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
+		info: `<a href="?tags=fashion">Fashion</a> subgenre/<a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
 		icon: `Pink bat` // description of the flag/icon
 	},
 	{
@@ -19191,7 +19550,7 @@ const jobRolesList = [
 		alt: `%name`,
 		src: `/buttons/roles/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Ky56lJq.png`, // imgur link
-		tags: [`job`,`veterinary`,`vet`,`animals`,`medical`,`pets`], // tags for search/filtering
+		tags: [`job`,`veterinary`,`vet`,`animals`,`animal`,`medical`,`pets`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Dog with red cross` // description of the flag/icon
 	},
@@ -19200,7 +19559,7 @@ const jobRolesList = [
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
 		alt: `%name`,
 		imgur: `https://i.imgur.com/HsvHDl5.png`, // imgur link
-		tags: [`job`,`veterinary`,`vet`,`animals`,`medical`,`pets`,`veterinarian`], // tags for search/filtering
+		tags: [`job`,`veterinary`,`vet`,`animals`,`animal`,`medical`,`pets`,`veterinarian`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Dog with red cross` // description of the flag/icon
 	},
@@ -19620,6 +19979,16 @@ const jobRolesList = [
 ]
 
 const animalList = [
+	{
+		name: `Frog`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/pets/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ooe7M15.png`, // imgur link
+		tags: [`interests`,`pets`,`animals`,`frog`,`amphibians`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Round green frog` // description of the flag/icon
+	},
 	{
 		name: `Turtles`, // display name
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
