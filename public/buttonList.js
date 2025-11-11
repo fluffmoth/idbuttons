@@ -13041,7 +13041,7 @@ const tertiaryAttractionList = [
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgur: `https://i.imgur.com/zSDfxz3.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`orientation`,`tertiary attraction`,`queerplatonic`,`panqp`,`platonic attraction`,`queerplatonic attraction`,`pan`], // tags for search/filtering
+		tags: [`orientation`,`tertiary attraction`,`relationship style`,`queerplatonic`,`panqp`,`platonic attraction`,`queerplatonic attraction`,`pan`,`a-spec`,`aro spectrum`,`aromantic`,`aro`,`aroace`,`aroace spectrum`], // tags for search/filtering
 		info: `Refers to someone who experiences<a href="?tags=queerplatonic">queerplatonic</a> attraction towards all genders`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
@@ -13050,7 +13050,7 @@ const tertiaryAttractionList = [
 		alt: `Panqueerplatonic`,
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgur: `https://i.imgur.com/N2OXe3S.png`, // imgur link
-		tags: [`orientation`,`tertiary attraction`,`queerplatonic`,`panqueerplatonic`,`platonic attraction`,`queerplatonic attraction`,`pan`], // tags for search/filtering
+		tags: [`orientation`,`tertiary attraction`,`relationship style`,`queerplatonic`,`panqueerplatonic`,`platonic attraction`,`queerplatonic attraction`,`pan`,`a-spec`,`aro spectrum`,`aromantic`,`aro`,`aroace`,`aroace spectrum`], // tags for search/filtering
 		info: `Refers to someone who experiences <a href="?tags=queerplatonic">queerplatonic</a> attraction towards all genders`, // optional extra info
 		icon: `Panqueerplatonic flag` // description of the flag/icon
 	},
@@ -13058,7 +13058,7 @@ const tertiaryAttractionList = [
 		name: `Queerplatonic`, // display name
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgur: `https://i.imgur.com/u6ZPWxO.png`, // imgur link
-		tags: [`orientation`,`tertiary attraction`,`aro spectrum`,`relationship`,`relationship style`,`platonic attraction`,`queerplatonic attraction`], // tags for search/filtering
+		tags: [`orientation`,`tertiary attraction`,`a-spec`,`aro spectrum`,`aromantic`,`aro`,`aroace`,`aroace spectrum`,`relationship`,`relationship style`,`platonic attraction`,`queerplatonic attraction`], // tags for search/filtering
 		info: `Refers to a non-romantic, intimate, committed <a href="?tags=relationship">relationship</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	}
@@ -13230,6 +13230,14 @@ const relationshipList = [
 			a relationship with more than one individual at once, or an individual with the capability/desire
 			to form such relationships`, // optional extra info
 		icon: `Original polyamorous flag` // description of the flag/icon
+	},
+	{
+		name: `Polyplatonic`, // display name
+		src: `/buttons/relationships/%name.png`, // local image source
+		imgur: `https://i.imgur.com/6xCFiOn.png`, // imgur link
+		tags: [`relationship`,`relationship style`,`orientation`,`tertiary attraction`,`polyamory`,`non-monogamy`,`queerplatonic`,`a-spec`,`aro spectrum`,`aromantic`,`aro`,`aroace`,`aroace spectrum`], // tags for search/filtering
+		info: `<a href="?tags=relationship style">Relationship style</a> describing someone with the capability/desire to have non-monogamous <a href="?tags=queerplatonic">queerplatonic</a> relationships`, // optional extra info
+		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Relationship Anarchy`, // display name
@@ -16867,6 +16875,7 @@ const musicList = [
 		dateAdded: `2025-11-03`, // date this button was first added to the masterlist
 		src: `/buttons/interests/music/Melanie_Martinez_Stan.png`, // local image source
 		imgur: `https://i.imgur.com/bhJBDxc.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`melanie martinez`], // tags for search/filtering
 		info: `Fan of <a href="?tags=interests,melanie martinez">Melanie Martinez</a>`, // optional extra info
 		icon: `Crybaby` // description of the flag/icon
@@ -16878,6 +16887,7 @@ const musicList = [
 		dateAdded: `2025-11-03`, // date this button was first added to the masterlist
 		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `https://i.imgur.com/crnrB6l.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`melanie martinez`], // tags for search/filtering
 		info: `<a href="?tags=interests,melanie martinez">Melanie Martinez</a> album`, // optional extra info
 		icon: `Crybaby` // description of the flag/icon
@@ -16889,6 +16899,7 @@ const musicList = [
 		dateAdded: `2025-11-03`, // date this button was first added to the masterlist
 		//src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `https://i.imgur.com/YskaYt6.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`melanie martinez`], // tags for search/filtering
 		info: `<a href="?tags=interests,melanie martinez">Melanie Martinez</a> album`, // optional extra info
 		icon: `Portals album` // description of the flag/icon
@@ -17366,6 +17377,7 @@ const musicList = [
 		alt: `%name`,
 		//src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `https://i.imgur.com/ePwMD5G.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`music`,`genre`,`eclectic`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
 		icon: `Music notes` // description of the flag/icon
@@ -17376,6 +17388,7 @@ const musicList = [
 		alt: `%name music`,
 		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `https://i.imgur.com/b480W4V.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`music`,`genre`,`ambient`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
 		icon: `Music notes` // description of the flag/icon
@@ -17395,6 +17408,7 @@ const musicList = [
 		dateAdded: `2024-01-25`, // date this button was first added to the masterlist
 		alt: `%name music`,
 		src: `/buttons/interests/music/%name.png`, // local image source
+		inFRPost: false, // whether this button should be included in the FR masterlist
 		imgur: `https://i.imgur.com/lK49NBA.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`ambient`,`ambience`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -18236,7 +18250,7 @@ const gamesList = [
 		dateAdded: `2024-02-09`, // date this button was first added to the masterlist
 		src: `/buttons/interests/games/%name.png`, // local image source
 		imgur: `https://i.imgur.com/C046V2w.png`, // imgur link
-		tags: [`interests`,`game`,`video game`], // tags for search/filtering
+		tags: [`interests`,`game`,`video game`,`genre`], // tags for search/filtering
 		info: `<a href="?tags=interests,video game">Video game</a> genre`, // optional extra info
 		icon: `Game controller` // description of the flag/icon
 	},
@@ -18402,7 +18416,7 @@ const gamesList = [
 	{
 		name: `Animal Crossing`, // display name
 		imgur: `https://i.imgur.com/W2pwiXX.png`, // imgur link
-		tags: [`interests`,`fandom`,`game`,`video game`], // tags for search/filtering
+		tags: [`interests`,`fandom`,`game`,`video game`,`nintendo`], // tags for search/filtering
 		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
 	},
@@ -18410,7 +18424,7 @@ const gamesList = [
 		name: `Animal Crossing`, // display name
 		imgur: `https://i.imgur.com/pG6607d.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`fandom`,`game`,`video game`], // tags for search/filtering
+		tags: [`interests`,`fandom`,`game`,`video game`,`nintendo`], // tags for search/filtering
 		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
 	},
@@ -18419,7 +18433,7 @@ const gamesList = [
 		altNames: [`ACNH`], // optional alternate names, for search algorithms
 		alt: `%name`,
 		imgur: `https://i.imgur.com/gBns0Su.png`, // imgur link
-		tags: [`interests`,`fandom`,`game`,`video game`,`animal crossing`], // tags for search/filtering
+		tags: [`interests`,`fandom`,`game`,`video game`,`animal crossing`,`nintendo`], // tags for search/filtering
 		info: `<a href="?tags=interests,animal crossing">Animal Crossing</a> game`, // optional extra info
 		icon: `Animal Crossing logo` // description of the flag/icon
 	},
@@ -18428,7 +18442,7 @@ const gamesList = [
 		altNames: [`ACNL`], // optional alternate names, for search algorithms
 		alt: `%name`,
 		imgur: `https://i.imgur.com/finJJSI.png`, // imgur link
-		tags: [`interests`,`fandom`,`game`,`video game`,`animal crossing`], // tags for search/filtering
+		tags: [`interests`,`fandom`,`game`,`video game`,`animal crossing`,`nintendo`], // tags for search/filtering
 		info: `<a href="?tags=interests,animal crossing">Animal Crossing</a> game`, // optional extra info
 		icon: `Animal Crossing logo` // description of the flag/icon
 	},
@@ -18436,7 +18450,7 @@ const gamesList = [
 		name: `Animal Crossing: Pocket Camp`, // display name
 		alt: `%name`,
 		imgur: `https://i.imgur.com/G4EWBZB.png`, // imgur link
-		tags: [`interests`,`fandom`,`game`,`video game`,`animal crossing`,`mobile game`], // tags for search/filtering
+		tags: [`interests`,`fandom`,`game`,`video game`,`animal crossing`,`mobile game`,`nintendo`], // tags for search/filtering
 		info: `<a href="?tags=interests,animal crossing">Animal Crossing</a> game`, // optional extra info
 		icon: `Animal Crossing logo` // description of the flag/icon
 	},
@@ -18838,6 +18852,16 @@ const gamesList = [
 		icon: `Purple guy` // description of the flag/icon
 	},
 	{
+		name: `Subnautica`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/6xXOj3v.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`survival`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `Peeper` // description of the flag/icon
+	},
+	{
 		name: `Saw`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name movies`,
@@ -18846,27 +18870,6 @@ const gamesList = [
 		tags: [`interests`,`fandom`,`horror`,`movie`], // tags for search/filtering
 		info: `<a href="?tags=interests,horror">Horror</a> <a href="?tags=interests,movie">movie</a> series`, // optional extra info
 		icon: `Jigsaw` // description of the flag/icon
-	}
-]
-
-const softwareList = [
-	{
-		name: ``, // display name
-		alt: `%name`,
-		//src: `/buttons/interests/software/%name.png`, // local image source
-		imgur: ``, // imgur link
-		tags: [`interests`,`software`], // tags for search/filtering
-		info: `<a href="?tags=interests,software">software</a>`, // optional extra info
-		icon: `logo` // description of the flag/icon
-	},
-	{
-		name: `Procreate`, // display name
-		alt: `%name`,
-		//src: `/buttons/interests/software/%name.png`, // local image source
-		imgur: `https://i.imgur.com/TWSJTng.png`, // imgur link
-		tags: [`interests`,`software`,`art`,`drawing`], // tags for search/filtering
-		info: `<a href="?tags=interests,art">Art</a> <a href="?tags=interests,software">software</a>`, // optional extra info
-		icon: `logo` // description of the flag/icon
 	}
 ]
 
@@ -20105,6 +20108,305 @@ const aestheticList = [
 	}
 ]
 
+
+const softwareList = [
+	{
+		name: `Procreate`, // display name
+		alt: `%name`,
+		//src: `/buttons/interests/software/%name.png`, // local image source
+		imgur: `https://i.imgur.com/TWSJTng.png`, // imgur link
+		tags: [`interests`,`software`,`application`,`art`,`drawing`], // tags for search/filtering
+		info: `<a href="?tags=interests,art">Art</a> <a href="?tags=application|software">application</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Chrome`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/7W1F2MH.png`, // imgur link
+		tags: [`interests`,`application`,`browser`,`software`], // tags for search/filtering
+		info: `Browser <a href="?tags=application|software">application</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Firefox`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ZWbvIUm.png`, // imgur link
+		tags: [`interests`,`application`,`software`,`browser`], // tags for search/filtering
+		info: `Browser <a href="?tags=application|software">application</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	}
+]
+
+const programmingList = [
+	{
+		name: `C`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/oMnM8EA.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `C++`, // display name
+		altNames: [`C Plus Plus`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ePIGi03.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `C Sharp`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/b6arHJW.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `CSS3`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/k6Z0FET.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Erlang`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/0HMmN2x.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Fortran`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/zcrIOQo.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Git`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/oECqh1h.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Game Maker`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/YOiSuuj.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`game dev`,`game development`,`application`,`software`], // tags for search/filtering
+		info: `Tool for 2D game development`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Haskell`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/wFWHww3.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `HTML5`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/oRCRaLp.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Java`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/kIBRUWr.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `JavaScript`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/wZCK2nd.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `GNU/Linux`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/jpFf9kf.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`operating system`], // tags for search/filtering
+		info: `Open-source software/operating system family`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Lua`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/8zu2HNU.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Mac OS`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/tO1rcHb.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`operating system`,`macintosh`,`apple`], // tags for search/filtering
+		info: `Family of <a href="?tags=operating system">operating systems</a> used in Apple's Macintosh PCs`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Node.js`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/IrEBkLu.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`javascript`,`runtime environment`], // tags for search/filtering
+		info: `JavaScript runtime environment`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Vim/Neovim`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/8Pyvf5Y.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`application`,`software`,`text editor`], // tags for search/filtering
+		info: `Open-source text editor program`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `PHP`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/vUJv9Cn.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Scripting language</a> used in web development`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Rust`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/TtNNcx0.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `SQL`, // display name
+		altNames: [`Structured Query Language`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/zDKm0KR.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`,`database language`,`database`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Database language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Sublime Text`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/6wmXvN6.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`application`,`software`,`text editor`], // tags for search/filtering
+		info: `Text and source code editor`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Swift`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/mh6GOa7.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Typescript`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/OfuDONM.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`,`javascript`], // tags for search/filtering
+		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `VSCode`, // display name
+		altNames: [`Visual Studio Code`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/woC0F8K.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`editor`], // tags for search/filtering
+		info: `Source-code editor`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Vue`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/bk6wpyw.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`programming language`,`javascript`], // tags for search/filtering
+		info: `Javascript framework`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Windows`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgur: `https://i.imgur.com/IL3HSh4.png`, // imgur link
+		tags: [`interests`,`programming`,`coding`,`operating system`,`microsoft`], // tags for search/filtering
+		info: `Microsoft's family of computer <a href="?tags=operating system">operating systems</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	}
+]
+
 const jobRolesList = [
 	{
 		name: `Undertaker`, // display name
@@ -20435,9 +20737,8 @@ const jobRolesList = [
 		altNames: [`Game Development`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		imgur: `https://i.imgur.com/I5qcdda.png`, // imgur link
-		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`game`,`computer`,`technology`], // tags for search/filtering
-		info: `<a href="?tags=video game">Video game</a> development`, // optional extra info
+		tags: [`interests`,`game`,`computer`,`technology`,`game dev`,`programming`,`coding`], // tags for search/filtering
+		info: `<a href="?tags=interests,game">Game</a> development`, // optional extra info
 		icon: `PC monitor` // description of the flag/icon
 	},
 	{
@@ -20445,8 +20746,8 @@ const jobRolesList = [
 		altNames: [`Game Development`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		imgur: `https://i.imgur.com/FrcqnBH.png`, // imgur link
-		tags: [`interests`,`game`,`technology`], // tags for search/filtering
-		info: `<a href="?tags=video game">Video game</a> development`, // optional extra info
+		tags: [`interests`,`game`,`technology`,`game dev`,`programming`,`coding`], // tags for search/filtering
+		info: `<a href="?tags=interests,game">Game</a> development`, // optional extra info
 		icon: `Game controller` // description of the flag/icon
 	},
 	{
@@ -20454,9 +20755,8 @@ const jobRolesList = [
 		altNames: [`Game Development`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		imgur: `https://i.imgur.com/9zq2aGd.png`, // imgur link
-		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`game`,`mobile`,`phone`,`technology`], // tags for search/filtering
-		info: `<a href="?tags=video game">Video game</a> development`, // optional extra info
+		tags: [`interests`,`game`,`mobile`,`phone`,`technology`,`game dev`,`programming`,`coding`], // tags for search/filtering
+		info: `<a href="?tags=interests,game">Game</a> development`, // optional extra info
 		icon: `Smartphone` // description of the flag/icon
 	},
 	{
@@ -20464,7 +20764,7 @@ const jobRolesList = [
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		imgur: `https://i.imgur.com/QRaYuXB.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`job`,`game`,`developer`,`game dev`,`pc`,`computer`,`technology`], // tags for search/filtering
+		tags: [`interests`,`job`,`game`,`developer`,`game dev`,`pc`,`computer`,`technology`,`programming`,`coding`], // tags for search/filtering
 		info: `Someone who does <a href="?tags=game dev">game dev</a>`, // optional extra info
 		icon: `PC monitor` // description of the flag/icon
 	},
@@ -20473,7 +20773,7 @@ const jobRolesList = [
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		src: `/buttons/roles/%name.png`, // local image source
 		imgur: `https://i.imgur.com/kJWXOvJ.png`, // imgur link
-		tags: [`interests`,`job`,`game`,`developer`,`game dev`,`technology`], // tags for search/filtering
+		tags: [`interests`,`job`,`game`,`developer`,`game dev`,`technology`,`programming`,`coding`], // tags for search/filtering
 		info: `Someone who does <a href="?tags=game dev">game dev</a>`, // optional extra info
 		icon: `Game controller` // description of the flag/icon
 	},
@@ -20482,7 +20782,7 @@ const jobRolesList = [
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		imgur: `https://i.imgur.com/at3FcAS.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`job`,`game`,`developer`,`game dev`,`mobile`,`phone`,`technology`], // tags for search/filtering
+		tags: [`interests`,`job`,`game`,`developer`,`game dev`,`mobile`,`phone`,`technology`,`programming`,`coding`], // tags for search/filtering
 		info: `Someone who does <a href="?tags=game dev">game dev</a>`, // optional extra info
 		icon: `Smartphone` // description of the flag/icon
 	},
@@ -22946,6 +23246,7 @@ const buttonList = arr.concat(
 	gamesList, finalFantasyList,
 	interestsList, homestuckList,
 	softwareList,
+	programmingList,
 	subcultureList,
 	aestheticList,
 	jobRolesList,

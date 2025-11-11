@@ -28,13 +28,88 @@
 			[center][size=4][url=https://idbuttons.neocities.org/?tags=fandom][b]Buttons Database - Fandoms/Aesthetics/Hobbies[/b][/url][/size]
 			<br>[i]searchable database, includes additional identities, flags, and text options![/i]
 			
-			<!-- fandoms -->
+			<div class="divider-line">-----</div>
+			
+			<!-- game consoles -->
+			<span class="section" data-name="consoles/platforms">
+				<span class="button-section" id="consoles" data-tags="game console"></span>
+				<span class="button-section" id="gaming-devices" data-tags="gaming device"></span>
+			</span>
+			
+			<!-- games -->
+			<span class="section" data-name="games">
+				<span class="single-button" data-name="games" data-icon="Game controller"></span>
+				<span class="single-button" data-name="gamer" data-icon="Game controller"></span>
+				<span class="button-section" id="game-genres" data-tags="game,genre"></span>
+				<span class="button-section" id="games" data-tags="interests,game"></span>
+				<span class="button-section" id="elder-scrolls" data-tags="interests,game,elder scrolls"></span>
+			</span>
+			
+			<!-- nintendo -->
+			<span class="section" data-name="nintendo">
+				<span class="button-section" id="nintendo" data-tags="nintendo"></span>
+			</span>
+			
+			<!-- mmo -->
+			<span class="section" data-name="MMOs">
+				<span class="button-section" id="mmos" data-tags="game,mmo"></span>
+			</span>
+			
+			<!-- browser -->
+			<span class="section" data-name="browser games">
+				<span class="button-section" id="browser-games" data-tags="browser game"></span>
+			</span>
+			
+			<!-- programming -->
+			<span class="section" data-name="programming & software">
+				<span class="button-section" id="game-dev" data-tags="game dev"></span>
+				<span class="button-section" id="program-languages" data-tags="programming language"></span>
+			</span>
+			
+			<!-- music genres -->
+			<span class="section" data-name="music - genres">
+				<span class="single-button" data-name="music" data-icon=""></span>
+				<span class="button-section" id="electronic-genres" data-tags="music,genre,electronic"></span>
+				<span class="button-section" id="music-genres" data-tags="music,genre"></span>
+			</span>
+			
+			<!-- music artists -->
+			<span class="section" data-name="music - artists"
+				data-subtitle="(albums & variants in the [url=https://idbuttons.neocities.org/database/?tags=interests,music]database[/url])">
+				<span class="button-section" id="music-artists" data-tags="music artist"></span>
+			</span>
+			
+			<!-- streamers -->
+			<span class="section" data-name="youtubers/streamers">
+				<span class="button-section" id="youtubers" data-tags="fandom,youtuber"></span>
+				<span class="button-section" id="streamers" data-tags="fandom,streamer"></span>
+			</span>
+			
+			<!-- anime/manga -->
+			<span class="section" data-name="anime & manga">
+				<span class="button-section" id="anime" data-tags="anime|manga"></span>
+			</span>
+			
+			<!-- other fandoms -->
 			<span class="section" data-name="fandoms">
 				<span class="button-section" id="fandoms" data-tags="fandom"></span>
 			</span>
 		
 		<script>
 			loadOrder = [
+				"game-dev", "program-languages",
+				
+				"consoles", "gaming-devices",
+				"game-genres",
+				"browser-games", "nintendo", "mmos", "elder-scrolls", "games",
+				
+				"electronic-genres",
+				"music-genres", "music-artists",
+				
+				"youtubers", "streamers",
+				
+				"anime",
+				
 				"fandoms"
 			]
 			

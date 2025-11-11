@@ -149,6 +149,7 @@
 				<span class="single-button" data-name="gray ace" data-icon=""></span>
 				<span class="single-button" data-name="acespec" data-icon=""></span>
 				<span class="button-section" id="ace" data-tags="orientation,asexual|ace spectrum"></span>
+				<span class="button-section" id="aceflux" data-tags="orientation,aroflux"></span>
 				<span class="button-section" id="ace sam" data-tags="orientation,asexual|ace spectrum,split attraction model"></span>
 			</span>
 			
@@ -159,6 +160,7 @@
 				<span class="single-button" data-name="gray aro" data-icon=""></span>
 				<span class="single-button" data-name="arospec" data-icon=""></span>
 				<span class="button-section" id="aro" data-tags="orientation,aromantic|aro spectrum"></span>
+				<span class="button-section" id="aroflux" data-tags="orientation,aroflux"></span>
 				<span class="button-section" id="aro sam" data-tags="orientation,aromantic|aro spectrum,split attraction model"></span>
 			</span>
 			
@@ -170,6 +172,16 @@
 				<span class="single-button" data-name="angled aroace" data-icon="flag"></span>
 				<span class="single-button" data-name="oriented aroace" data-icon="flag"></span>
 				<span class="hidden button-section" id="aroace sam" data-tags="orientation,aroace spectrum|aroace,split attraction model"></span>
+			</span>
+			
+			<!-- queerplatonic -->
+			<span class="section" data-name="queerplatonic">
+				<span class="button-section" id="queerplatonic" data-tags="queerplatonic,!homestuck"></span>
+			</span>
+			
+			<!-- tertiary -->
+			<span class="section" data-name="tertiary attraction">
+				<span class="button-section" id="tertiary" data-tags="orientation,tertiary attraction"></span>
 			</span>
 			
 			<!-- romantic orientations -->
@@ -189,15 +201,12 @@
 			<span class="section" data-name="label collectors">
 				<span class="button-section" id="collectors" data-tags="orientation,label collector"></span>
 			</span>
-			
-			<!-- tertiary -->
-			<span class="section" data-name="tertiary attraction">
-				<span class="button-section" id="tertiary" data-tags="orientation,tertiary attraction"></span>
-			</span>
 		
 		<script>
 			loadOrder = [
 				"collectors",
+				
+				"queerplatonic",
 				
 				"tertiary",
 				

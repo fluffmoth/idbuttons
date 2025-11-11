@@ -117,9 +117,9 @@ const filterList = [
 			{ label: `Fluid`, tags: `fluid` },
 			{ label: `A-spec`, tags: `a-spec`,
 				children: [
-					{ label: `Ace Spectrum`, tags: `asexual|ace spectrum,ace spectrum`},
-					{ label: `Aro Spectrum`, tags: `aromantic|aro spectrum,aro spectrum`},
-					{ label: `Aroace Spectrum`, tags: `aroace|aroace spectrum,aroace spectrum`}
+					{ label: `Ace Spectrum`, tags: `asexual|ace spectrum`},
+					{ label: `Aro Spectrum`, tags: `aromantic|aro spectrum`},
+					{ label: `Aroace Spectrum`, tags: `aroace|aroace spectrum`}
 				]
 			},
 			{ label: `Straight`, tags: `straight|hetero` },
@@ -137,7 +137,8 @@ const filterList = [
 			{ label: `Relationship Structures/Orientations`, tags: `relationship style` },
 			{ label: `Polyamory`, tags: `polyamorous` },
 			{ label: `Monogamy/Monoamory`, tags: `monogamous|monoamorous` },
-			{ label: `Nonamory`, tags: `nonamorous` }
+			{ label: `Nonamory`, tags: `nonamorous` },
+			{ label: `Queerplatonic`, tags: `relationship|relationship style|orientation,queerplatonic` }
 		]
 	},
 	{ label: `Religion`, tags: `religion` },
@@ -182,6 +183,7 @@ const filterList = [
 			{ label: `Podcasts`, tags: `podcast` },
 			{ label: `Streamers`, tags: `streamer` },
 			{ label: `Books`, tags: `book` },
+			{ label: `Programming/Software`, tags: `programming|coding|game dev|software` },
 		]
 	},
 	{ label: `Flight Rising`, tags: `flight rising,!subspecies extras,!lineage extras`,
