@@ -2925,23 +2925,23 @@ const xenogenderList = [
 		name: `Pompomgender`, // display name
 		altNames: [`Pompompuringender`], // optional alternate names, for search algorithms
 		imgur: `https://i.imgur.com/mlGkj2N.png`, // imgur link
-		tags: [`gender`,`xenogender`,`fictigender`,`sanrio`,`sanriogender`,`Pompompurin`], // tags for search/filtering
-		info: `<a href="?tags=gender,sanriogender">Sanriogender</a> related to the character Pompompurin`, // optional extra info
+		tags: [`gender`,`xenogender`,`fictigender`,`sanrio`,`sanriogender`,`pompompurin`], // tags for search/filtering
+		info: `<a href="?tags=gender,sanriogender">Sanriogender</a> related to the character <a href="?tags=interests,sanrio,pompompurin">Pompompurin</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Cinnagender`, // display name
 		altNames: [`Cinnamorollgender`], // optional alternate names, for search algorithms
 		imgur: `https://i.imgur.com/o48oTwb.png`, // imgur link
-		tags: [`gender`,`xenogender`,`fictigender`,`sanrio`,`sanriogender`,`Cinnamoroll`], // tags for search/filtering
-		info: `<a href="?tags=gender,sanriogender">Sanriogender</a> related to the character Cinnamoroll`, // optional extra info
+		tags: [`gender`,`xenogender`,`fictigender`,`sanrio`,`sanriogender`,`cinnamoroll`], // tags for search/filtering
+		info: `<a href="?tags=gender,sanriogender">Sanriogender</a> related to the character <a href="?tags=interests,sanrio,cinnamoroll">Cinnamoroll</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Sanriogender`, // display name
 		imgur: `https://i.imgur.com/KyDfipZ.png`, // imgur link
 		tags: [`gender`,`xenogender`,`fictigender`,`sanrio`], // tags for search/filtering
-		info: `<a href="?tags=gender,fictigender">Fictigender</a> related to Sanrio or Sanrio characters`, // optional extra info
+		info: `<a href="?tags=gender,fictigender">Fictigender</a> related to <a href="?tags=interests,sanrio">Sanrio</a> or Sanrio characters`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -16247,20 +16247,471 @@ const subspeciesList = [
 		info: `<a href="?tags=mushelisk,subspecies|subspecies extras">Mushelisk</a> subspecies - Baby Hinkypunk`, // optional extra info
 		link: `https://www1.flightrising.com/forums/drs/3115386`, // optional URL the button should link to
 		icon: `Crossed out Mushelisk mushroom` // description of the flag/icon
+	},
+	{
+		name: `Forest Wights`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/E8Ipcnv.png`, // imgur link
+		tags: [`flight rising`,`lineage`], // tags for search/filtering
+		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras,!subspecies extras">lineage</a>
+			(more <a href="?tags=forest wights,lineage|lineage extras">Forest Wights buttons</a>)`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3054627`, // optional URL the button should link to
+		icon: `Pale blue antler` // description of the flag/icon
+	},
+	{
+		name: `Forest Wights: Gen 0`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/iW2iZg0.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`forest wights`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=forest wights,lineage|lineage extras">Forest Wights</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3054627`, // optional URL the button should link to
+		icon: `Pale blue antler` // description of the flag/icon
+	},
+	{
+		name: `Forest Wights: Gen 1`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/y2LVQdZ.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`forest wights`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=forest wights,lineage|lineage extras">Forest Wights</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3054627`, // optional URL the button should link to
+		icon: `Pale blue antler` // description of the flag/icon
+	},
+	{
+		name: `Forest Wights: Gen 2`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/LgUnSqM.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`forest wights`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=forest wights,lineage|lineage extras">Forest Wights</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3054627`, // optional URL the button should link to
+		icon: `Pale blue antler` // description of the flag/icon
+	},
+	{
+		name: `Forest Wights: Gen 3`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/OBcx0Wz.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`forest wights`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=forest wights,lineage|lineage extras">Forest Wights</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3054627`, // optional URL the button should link to
+		icon: `Pale blue antler` // description of the flag/icon
+	},
+	{
+		name: `Forest Wights: Gen 4`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/51hFTWF.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`forest wights`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=forest wights,lineage|lineage extras">Forest Wights</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3054627`, // optional URL the button should link to
+		icon: `Pale blue antler` // description of the flag/icon
+	},
+	{
+		name: `Forest Wights: Gen 5`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/FSWhuGK.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`forest wights`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=forest wights,lineage|lineage extras">Forest Wights</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3054627`, // optional URL the button should link to
+		icon: `Pale blue antler` // description of the flag/icon
+	},
+	{
+		name: `Forest Wights: Gen 6`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/fmSFK9T.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`forest wights`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=forest wights,lineage|lineage extras">Forest Wights</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3054627`, // optional URL the button should link to
+		icon: `Pale blue antler` // description of the flag/icon
+	},
+	{
+		name: `Forest Wights: Gen 7`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/VKCmKp6.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`forest wights`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=forest wights,lineage|lineage extras">Forest Wights</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3054627`, // optional URL the button should link to
+		icon: `Pale blue antler` // description of the flag/icon
+	},
+	{
+		name: `Forest Wights: Gen 8`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/5A8Sx7F.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`forest wights`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=forest wights,lineage|lineage extras">Forest Wights</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3054627`, // optional URL the button should link to
+		icon: `Pale blue antler` // description of the flag/icon
+	},
+	{
+		name: `Forest Wights: Gen 9`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Vv5OA15.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`forest wights`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=forest wights,lineage|lineage extras">Forest Wights</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3054627`, // optional URL the button should link to
+		icon: `Pale blue antler` // description of the flag/icon
+	},
+	{
+		name: `Forest Wights: Gen 10`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/M1LffJt.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`forest wights`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=forest wights,lineage|lineage extras">Forest Wights</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3054627`, // optional URL the button should link to
+		icon: `Pale blue antler` // description of the flag/icon
+	},
+	{
+		name: `Eternals`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/6oDOi1q.png`, // imgur link
+		tags: [`flight rising`,`lineage`], // tags for search/filtering
+		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras">lineage</a>
+			(more <a href="?tags=eternals,lineage|lineage extras">Eternals buttons</a>)`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3104819`, // optional URL the button should link to
+		icon: `Blood moon` // description of the flag/icon
+	},
+	{
+		name: `Eternals: Gen 0`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/hAzwnMq.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`eternals`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=eternals,lineage|lineage extras">Eternals</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3104819`, // optional URL the button should link to
+		icon: `Blood moon` // description of the flag/icon
+	},
+	{
+		name: `Eternals: Gen 1`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Q1WeLTd.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`eternals`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=eternals,lineage|lineage extras">Eternals</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3104819`, // optional URL the button should link to
+		icon: `Blood moon` // description of the flag/icon
+	},
+	{
+		name: `Eternals: Gen 2`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/8I0yjke.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`eternals`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=eternals,lineage|lineage extras">Eternals</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3104819`, // optional URL the button should link to
+		icon: `Blood moon` // description of the flag/icon
+	},
+	{
+		name: `Eternals: Gen 3`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/UxnjgBH.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`eternals`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=eternals,lineage|lineage extras">Eternals</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3104819`, // optional URL the button should link to
+		icon: `Blood moon` // description of the flag/icon
+	},
+	{
+		name: `Eternals: Gen 4`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/upwF8AV.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`eternals`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=eternals,lineage|lineage extras">Eternals</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3104819`, // optional URL the button should link to
+		icon: `Blood moon` // description of the flag/icon
+	},
+	{
+		name: `Eternals: Gen 5`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Rg53PDh.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`eternals`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=eternals,lineage|lineage extras">Eternals</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3104819`, // optional URL the button should link to
+		icon: `Blood moon` // description of the flag/icon
+	},
+	{
+		name: `Eternals: Gen 6`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/AQ8aRfr.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`eternals`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=eternals,lineage|lineage extras">Eternals</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3104819`, // optional URL the button should link to
+		icon: `Blood moon` // description of the flag/icon
+	},
+	{
+		name: `Eternals: Gen 7`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/wu5FqQJ.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`eternals`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=eternals,lineage|lineage extras">Eternals</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3104819`, // optional URL the button should link to
+		icon: `Blood moon` // description of the flag/icon
+	},
+	{
+		name: `Eternals: Gen 8`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/lX6oeIH.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`eternals`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=eternals,lineage|lineage extras">Eternals</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3104819`, // optional URL the button should link to
+		icon: `Blood moon` // description of the flag/icon
+	},
+	{
+		name: `Eternals: Gen 9`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/qdWsFmI.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`eternals`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=eternals,lineage|lineage extras">Eternals</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3104819`, // optional URL the button should link to
+		icon: `Blood moon` // description of the flag/icon
+	},
+	{
+		name: `Eternals: Gen 10`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/bk2C2Yv.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`eternals`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=eternals,lineage|lineage extras">Eternals</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3104819`, // optional URL the button should link to
+		icon: `Blood moon` // description of the flag/icon
+	},
+	{
+		name: `Binary Beasts`, // display name
+		altNames: [`Beasts of Binary`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/cq4bI7F.png`, // imgur link
+		tags: [`flight rising`,`lineage`,`glitch`], // tags for search/filtering
+		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras">lineage</a> based on a glitched dragon
+			(more <a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary buttons</a>)`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		icon: `Binary 101` // description of the flag/icon
+	},
+	{
+		name: `Binary Beasts: Un-Coded`, // display name
+		altNames: [`Un-Coded`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/GCaS8sw.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`], // tags for search/filtering
+		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		icon: `Binary 101` // description of the flag/icon
+	},
+	{
+		name: `Binary Beasts: Live-Wire`, // display name
+		altNames: [`Live-Wire`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/dnn4TAJ.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`], // tags for search/filtering
+		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		icon: `Binary 101` // description of the flag/icon
+	},
+	{
+		name: `Binary Beasts: Gen 1`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/xF64jOj.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		icon: `Binary 101` // description of the flag/icon
+	},
+	{
+		name: `Binary Beasts: Gen 2`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/iY2JTjw.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		icon: `Binary 101` // description of the flag/icon
+	},
+	{
+		name: `Binary Beasts: Gen 3`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/TNpMs2v.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		icon: `Binary 101` // description of the flag/icon
+	},
+	{
+		name: `Binary Beasts: Gen 4`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/E0KkZs4.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		icon: `Binary 101` // description of the flag/icon
+	},
+	{
+		name: `Binary Beasts: Gen 5`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Nl6stFV.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		icon: `Binary 101` // description of the flag/icon
+	},
+	{
+		name: `Binary Beasts: Gen 6`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/EaRVZVD.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		icon: `Binary 101` // description of the flag/icon
+	},
+	{
+		name: `Binary Beasts: Gen 7`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/16qUcHx.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		icon: `Binary 101` // description of the flag/icon
+	},
+	{
+		name: `Binary Beasts: Gen 8`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/xS5ike6.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		icon: `Binary 101` // description of the flag/icon
+	},
+	{
+		name: `Binary Beasts: Gen 9`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/lWtDUps.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		icon: `Binary 101` // description of the flag/icon
+	},
+	{
+		name: `Binary Beasts: Gen 10`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/pbtVder.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		icon: `Binary 101` // description of the flag/icon
 	}
 	
-	/*,
+	/*
+	,
 	{
 		name: ``, // display name
-		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: ``, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`], // tags for search/filtering
 		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>
 			(more <a href="?tags=NAME,subspecies|subspecies extras">NAME buttons</a>)`, // optional extra info
 		link: ``, // optional URL the button should link to
 		icon: `` // description of the flag/icon
-	}*/
+	}
+	*/
 ]
 
 //////////// OTHER ////////////
@@ -16785,8 +17236,8 @@ const musicList = [
 		name: `Carpenter Brut`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/music/%name.png`, // local image source
-		imgur: `https://i.imgur.com/1kHiKOB.png`, // imgur link
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/JHpvnR9.png`, // imgur link
 		tags: [`interests`,`fandom`,`music`,`music artist`,`electronic`,`darksynth`,`synthwave`], // tags for search/filtering
 		info: `<a href="?tags=interests,darksynth">Darksynth</a> electronic <a href="?tags=interests,music artist">music artist</a>`, // optional extra info
 		icon: `Solid black` // description of the flag/icon
@@ -17201,9 +17652,137 @@ const interestsList = [
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		alt: `%name`,
 		imgur: `https://i.imgur.com/njCJq66.png`, // imgur link
-		tags: [`interests`,`fandom`,`fantasy`,`book`,`television`], // tags for search/filtering
+		tags: [`interests`,`fandom`,`fantasy`,`book`,`television`,`neil gaiman`], // tags for search/filtering
 		info: `Comedic fantasy <a href="?tags=interests,book">novel</a>/<a href="?tags=interests,television|tv">TV show</a>`, // optional extra info
 		icon: `Black/white wings` // description of the flag/icon
+	},
+	{
+		name: `Warriors`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/books/%name.png`, // local image source
+		imgur: `https://i.imgur.com/J94Ephk.png`, // imgur link
+		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`], // tags for search/filtering
+		info: `<a href="?tags=interests,book">Book</a> series about feral cats (more <a href="?tags=interests,warrior cats">Warriors buttons</a>)`, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warrior Cats`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/books/%name.png`, // local image source
+		imgur: `https://i.imgur.com/yP1Dk4Q.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`book`,`cats`,`warriors`], // tags for search/filtering
+		info: `<a href="?tags=interests,book">Book</a> series about feral cats (more <a href="?tags=interests,warrior cats">Warriors buttons</a>)`, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warriors: Riverclan`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/books/%name.png`, // local image source
+		imgur: `https://i.imgur.com/FcevfEX.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`,`warriors`,`clan`], // tags for search/filtering
+		info: `<a href="?tags=interests,warrior cats">Warriors</a> clan`, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warriors: Shadowclan`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/books/%name.png`, // local image source
+		imgur: `https://i.imgur.com/4nrkVd7.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`,`warriors`,`clan`], // tags for search/filtering
+		info: `<a href="?tags=interests,warrior cats">Warriors</a> clan`, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warriors: Skyclan`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/books/%name.png`, // local image source
+		imgur: `https://i.imgur.com/i91ubAy.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`,`warriors`,`clan`], // tags for search/filtering
+		info: `<a href="?tags=interests,warrior cats">Warriors</a> clan`, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warriors: Starclan`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/books/%name.png`, // local image source
+		imgur: `https://i.imgur.com/V03wlrQ.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`,`warriors`,`clan`], // tags for search/filtering
+		info: `<a href="?tags=interests,warrior cats">Warriors</a> clan`, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warriors: Thunderclan`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/books/%name.png`, // local image source
+		imgur: `https://i.imgur.com/wUxwHw9.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`,`warriors`,`clan`], // tags for search/filtering
+		info: `<a href="?tags=interests,warrior cats">Warriors</a> clan`, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warriors: Windclan`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/books/%name.png`, // local image source
+		imgur: `https://i.imgur.com/EDZaEls.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`,`warriors`,`clan`], // tags for search/filtering
+		info: `<a href="?tags=interests,warrior cats">Warriors</a> clan`, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	
+	{
+		name: `Sanrio`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/K9W8Tym.png`, // imgur link
+		tags: [`interests`,`fandom`,`sanrio`], // tags for search/filtering
+		info: `(more <a href="?tags=interests,sanrio">Sanrio buttons</a>)`, // optional extra info
+		icon: `Hello Kitty` // description of the flag/icon
+	},
+	{
+		name: `Cinnamoroll`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/joJXsVi.png`, // imgur link
+		tags: [`interests`,`fandom`,`sanrio`], // tags for search/filtering
+		info: `<a href="?tags=interests,sanrio">Sanrio</a> character`, // optional extra info
+		icon: `Cinnamoroll` // description of the flag/icon
+	},
+	{
+		name: `Hello Kitty`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ZkgdON0.png`, // imgur link
+		tags: [`interests`,`fandom`,`sanrio`], // tags for search/filtering
+		info: `<a href="?tags=interests,sanrio">Sanrio</a> character`, // optional extra info
+		icon: `Hello Kitty` // description of the flag/icon
+	},
+	{
+		name: `Pompompurin`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/bkPzSyW.png`, // imgur link
+		tags: [`interests`,`fandom`,`sanrio`], // tags for search/filtering
+		info: `<a href="?tags=interests,sanrio">Sanrio</a> character`, // optional extra info
+		icon: `Pompompurin` // description of the flag/icon
 	},
 	
 	{
@@ -18253,9 +18832,20 @@ const gamesList = [
 		alt: `%altNames0`,
 		//src: `/buttons/interests/games/%name_alt.png`, // local image source
 		imgur: `https://i.imgur.com/Y6nir0L.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`game`,`video game`,`horror`,`movie`], // tags for search/filtering
 		info: `<a href="?tags=interests,horror">Horror</a> <a href="?tags=interests,video game">game</a> and media series`, // optional extra info
 		icon: `Purple guy` // description of the flag/icon
+	},
+	{
+		name: `Saw`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name movies`,
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/fGAMFvP.png`, // imgur link
+		tags: [`interests`,`fandom`,`horror`,`movie`], // tags for search/filtering
+		info: `<a href="?tags=interests,horror">Horror</a> <a href="?tags=interests,movie">movie</a> series`, // optional extra info
+		icon: `Jigsaw` // description of the flag/icon
 	}
 ]
 
@@ -19448,7 +20038,7 @@ const aestheticList = [
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		imgur: `https://i.imgur.com/lHX3YIL.png`, // imgur link
 		tags: [`aesthetic`,`sanrio`], // tags for search/filtering
-		info: `<a href="?tags=aesthetic">Aesthetic</a> relating to the Sanrio company`, // optional extra info
+		info: `<a href="?tags=aesthetic">Aesthetic</a> relating to the <a href="?tags=interests,sanrio">Sanrio</a> company`, // optional extra info
 		icon: `Hello Kitty` // description of the flag/icon
 	},
 	{
@@ -20056,7 +20646,7 @@ const animalList = [
 	}
 ]
 
-dietList = [
+const dietList = [
 	{
 		name: `Carnivore`, // display name
 		dateAdded: `2025-10-29`, // date this button was first added to the masterlist
@@ -20159,7 +20749,7 @@ dietList = [
 	
 ]
 
-cultureList = [
+const cultureList = [
 	{
 		name: `Indonesian`, // display name
 		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
@@ -20183,7 +20773,361 @@ cultureList = [
 
 ]
 
-otherList = [
+const timezoneList = [
+	{
+		name: `Alaskan Time`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ueartQJ.png`, // imgur link
+		tags: [`time zone`,`akst`,`akdt`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a>`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `Atlantic Time`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/FUlSUZa.png`, // imgur link
+		tags: [`time zone`,`ast`,`adt`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a>`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `Arizona Time`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/IUpHlGo.png`, // imgur link
+		tags: [`time zone`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a>`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `Central Time`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/BAYHRHf.png`, // imgur link
+		tags: [`time zone`,`cst`,`cdt`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a>`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `Eastern Time`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/k7mTvIf.png`, // imgur link
+		tags: [`time zone`,`est`,`edt`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a>`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `Mountain Time`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/jy4N1pw.png`, // imgur link
+		tags: [`time zone`,`mst`,`mdt`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a>`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `Pacific Time`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/uFMfy5S.png`, // imgur link
+		tags: [`time zone`,`pst`,`pdt`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a>`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time -5`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/04PIMth.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`international date line west`,`idlw`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (International Date Line West)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time -4`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/xbsbPqT.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`niue time`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Niue Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time -3`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ikTPgzn.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`samoa daylight time`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Samoa Daylight Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time -2`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/2VCdrqz.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`hawaii–aleutian daylight time`,`hdt`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Hawaii–Aleutian Daylight Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time -1`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/fVc0Lih.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`alaska daylight time`,`akdt`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Alaska Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +0`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/JvUa9ma.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`pacific daylight time`,`pacific time`,`pst`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Pacific Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +1`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/q9EEy5M.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`mountain daylight time`,`mountain time`,`mst`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Mountain Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +2`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/J7D1quC.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`central time`,`central daylight time`,`cst`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Central Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +3`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/mlHpBMC.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`eastern standard time`,`eastern daylight time`,`est`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Eastern Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +4`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/hZipXGO.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`amaxon summer time`,`amst`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Amazon Summer Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +4:30`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://files.catbox.moe/mqxe6i.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`newfoundland daylight time`,`ndt`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Newfoundland Daylight Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +5`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/nefzg1V.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`brasília summer time`,`brst`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Brasília Summer Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +6`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/mx6elfM.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`eastern greenland time`,`egt`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Eastern Greenland Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +7`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/J2GQubK.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`western european time`,`wet`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Western European Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +8`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/rUoKR6y.png`, // imgur link
+		tags: [`time zone`,`flight rising`,`central european time`,`cet`,`west africa time`,`wat`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time (Central European Time, West Africa Time)`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +9`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/dEe2UrM.png`, // imgur link
+		tags: [`time zone`,`flight rising`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +10`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/4SzSxLW.png`, // imgur link
+		tags: [`time zone`,`flight rising`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +11`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/inXE8B9.png`, // imgur link
+		tags: [`time zone`,`flight rising`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +12`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/X4p2jRx.png`, // imgur link
+		tags: [`time zone`,`flight rising`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +13`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Mffvbz0.png`, // imgur link
+		tags: [`time zone`,`flight rising`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +14`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Dmyubyt.png`, // imgur link
+		tags: [`time zone`,`flight rising`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +15`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/JHqnR5C.png`, // imgur link
+		tags: [`time zone`,`flight rising`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +16`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/hWPjBUy.png`, // imgur link
+		tags: [`time zone`,`flight rising`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +17`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/7A7cEAI.png`, // imgur link
+		tags: [`time zone`,`flight rising`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +18`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/VHmdVcB.png`, // imgur link
+		tags: [`time zone`,`flight rising`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +19`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/WNKiucd.png`, // imgur link
+		tags: [`time zone`,`flight rising`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +20`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/3Sx6zgy.png`, // imgur link
+		tags: [`time zone`,`flight rising`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+	{
+		name: `FR Time +21`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `%name`,
+		//src: `/buttons/timezones/%name.png`, // local image source
+		imgur: `https://i.imgur.com/NjaYK36.png`, // imgur link
+		tags: [`time zone`,`flight rising`], // tags for search/filtering
+		info: `<a href="?tags=time zone">Time zone</a> relative to <a href="?tags=flight rising">Flight Rising</a> time`, // optional extra info
+		icon: `Gray clock` // description of the flag/icon
+	},
+
+]
+
+const otherList = [
 	{
 		name: `Young Adult`, // display name
 		dateAdded: `2024-01-24`, // date this button was first added to the masterlist
@@ -22010,6 +22954,7 @@ const buttonList = arr.concat(
 	dietList,
 	
 	cultureList,
+	timezoneList,
 	otherList,
 	
 	buttons2List,

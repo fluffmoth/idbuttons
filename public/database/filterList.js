@@ -180,7 +180,8 @@ const filterList = [
 			{ label: `Anime/Manga`, tags: `anime|manga` },
 			{ label: `Comics/Webcomics`, tags: `comic|webcomic` },
 			{ label: `Podcasts`, tags: `podcast` },
-			{ label: `Streamers`, tags: `streamer` }
+			{ label: `Streamers`, tags: `streamer` },
+			{ label: `Books`, tags: `book` },
 		]
 	},
 	{ label: `Flight Rising`, tags: `flight rising,!subspecies extras,!lineage extras`,
@@ -260,6 +261,7 @@ const filterList = [
 		]
 	},
 	{ label: `Cultures & Nationalities`, tags: `country|nationality|culture` },
+	{ label: `Time Zones`, tags: `time zone` },
 	{ label: `Aesthetics/Subcultures`, tags: `aesthetic|subculture,!gender` },
 	{ label: `Jobs/Roles/Hobbies`, tags: `job|role|hobby` ,
 		children: [

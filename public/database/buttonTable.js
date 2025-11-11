@@ -72,7 +72,7 @@ function recentButtons() {
 	
 	// number of buttons to show
 	var num = recentMax;
-	// if url parameters include a value for recent
+	// if url parameters include a number value for how many of the latest buttons to show
 	if (
 		urlParams.has('latestCount')
 		&& Number(urlParams.get('latestCount')) > 0
