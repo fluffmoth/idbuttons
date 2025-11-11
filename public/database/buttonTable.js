@@ -11,7 +11,10 @@ function initButtonTable() {
 		t.addEventListener('click', function() { this.select(); });
 	});
 	
-	if ( urlParams.has('latest') || urlParams.has('recent') ) {
+	if (
+		(urlParams.has('latest') && urlParams.get('latest') == 'true')
+		|| urlParams.has('latestCount')
+	) {
 		// add recent buttons to table
 		recentButtons();
 	} else {
@@ -55,13 +58,29 @@ function randomButton() {
 
 // display recent buttons
 function recentButtons() {
+	// add latest to url parameters
+	if (
+		!urlParams.has('latest')
+		|| (urlParams.has('latest') && urlParams.get('latest') != 'true')
+	) {
+		urlParams.set('latest','true');
+		window.location.search = urlParams;
+	}
+	
 	// clear button table
 	clearButtons();
 	
 	// number of buttons to show
 	var num = recentMax;
 	// if url parameters include a value for recent
-	if ( urlParams.has('recent') && Number(urlParams.get('recent')) > 0 ) num = Number(urlParams.get('recent'));
+	if (
+		urlParams.has('latestCount')
+		&& Number(urlParams.get('latestCount')) > 0
+	) {
+		num = Number(urlParams.get('latestCount'));
+	}
+	
+	console.log(num);
 	
 	var arr = sortButtonsNewToOld(recentButtonsList(num));
 	// add array buttons to table
