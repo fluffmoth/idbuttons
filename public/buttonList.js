@@ -6,6 +6,7 @@
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
 		//src: `/buttons/interests/%name.png`, // local image source
 		imgur: ``, // imgur link
+		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`job`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -5669,7 +5670,8 @@ const heButtonList = [
 	},
 	{
 		name: `He/Him`, // display name
-		imgur: `https://imgur.com/iVTdpNe.png`, // imgur link
+		src: `/buttons/pronouns/%name_Xiaspec.png`, // local image source
+		postimg: `https://i.postimg.cc/0jXhkCRg/He-Him-Xiaspec.png`, // postimg link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`xiaspec`,`xenic`,`xenogender`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Xiaspec flag` // description of the flag/icon
@@ -6116,7 +6118,8 @@ const theyButtonList = [
 	{
 		name: `They/Them`, // display name
 		dateAdded: `2024-02-19`, // date this button was first added to the masterlist
-		imgur: `https://imgur.com/7Ahjeby.png`, // imgur link
+		//src: `/buttons/pronouns/%name_Tiny_Stars_Plague_Red.png`, // local image source
+		postimg: `https://i.postimg.cc/28PX0yzC/They-Them-Tiny-Stars-Plague.png`, // postimg link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`star`,`red`,`shape icon`], // tags for search/filtering
 		info: ``, // optional extra info
 		iconBase: {name:`Tiny stars`,icon:`Plague red`},
@@ -12255,7 +12258,7 @@ const aroAceList = [
 	{
 		name: `Sex-Indifferent`, // display name
 		altNames: [`Sex-Neutral`], // optional alternate names, for search algorithms
-		imgur: `https://imgur.com/L7iYnMg.png`, // imgur link
+		postimg: `https://i.postimg.cc/8zprQBkf/Sex-Indifferent.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`a-spec`,`ace spectrum`], // tags for search/filtering
 		info: `Refers to someone who has no strong feelings regarding the act or concept of sexual interaction.
@@ -16859,7 +16862,9 @@ const religionList = [
 		name: `Jewish`, // display name
 		dateAdded: `2024-01-18`, // date this button was first added to the masterlist
 		altNames: [`Judaism`,`Jew`], // optional alternate names, for search algorithms
+		src: `/buttons/religion/%name.png`, // local image source
 		imgur: `https://i.imgur.com/ehCjVGy.png`, // imgur link
+		postimg: `https://i.postimg.cc/jq8jn0RD/Jewish.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`religion`,`culture`,`ethnicity`,`israel`], // tags for search/filtering
 		info: `` + religionDisclaimer, // optional extra info
@@ -16869,7 +16874,9 @@ const religionList = [
 		name: `Satanist`, // display name
 		dateAdded: `2024-01-18`, // date this button was first added to the masterlist
 		altNames: [`Satanism`,`Church of Satan`], // optional alternate names, for search algorithms
+		src: `/buttons/religion/%name.png`, // local image source
 		imgur: `https://i.imgur.com/0jxq0LK.png`, // imgur link
+		postimg: `https://i.postimg.cc/SQZKYFmY/Satanist.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`religion`,`satan`], // tags for search/filtering
 		info: `` + religionDisclaimer, // optional extra info
@@ -16879,7 +16886,9 @@ const religionList = [
 		name: `Catholic`, // display name
 		dateAdded: `2024-01-18`, // date this button was first added to the masterlist
 		altNames: [`Catholicism`], // optional alternate names, for search algorithms
+		src: `/buttons/religion/%name.png`, // local image source
 		imgur: `https://i.imgur.com/JhQiChJ.png`, // imgur link
+		postimg: `https://i.postimg.cc/jq8jn0RP/Catholic.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`religion`], // tags for search/filtering
 		info: `` + religionDisclaimer, // optional extra info
@@ -16889,7 +16898,9 @@ const religionList = [
 		name: `Catholic`, // display name
 		dateAdded: `2024-01-18`, // date this button was first added to the masterlist
 		altNames: [`Catholicism`], // optional alternate names, for search algorithms
+		src: `/buttons/religion/%name_Green.png`, // local image source
 		imgur: `https://i.imgur.com/Uuzh4zA.png`, // imgur link
+		postimg: `https://i.postimg.cc/1RWzVhyf/Catholic_Green.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`religion`], // tags for search/filtering
 		info: `` + religionDisclaimer, // optional extra info
@@ -16899,7 +16910,9 @@ const religionList = [
 		name: `Catholic`, // display name
 		dateAdded: `2024-01-18`, // date this button was first added to the masterlist
 		altNames: [`Catholicism`], // optional alternate names, for search algorithms
+		src: `/buttons/religion/%name_Purple.png`, // local image source
 		imgur: `https://i.imgur.com/4rqSzEJ.png`, // imgur link
+		postimg: `https://i.postimg.cc/Vs7N0QzS/Catholic_Purple.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`religion`], // tags for search/filtering
 		info: `` + religionDisclaimer, // optional extra info
