@@ -20213,6 +20213,7 @@ const softwareList = [
 		alt: `%name`,
 		//src: `/buttons/interests/software/%name.png`, // local image source
 		imgur: `https://i.imgur.com/TWSJTng.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`interests`,`software`,`application`,`art`,`drawing`], // tags for search/filtering
 		info: `<a href="?tags=interests,art">Art</a> <a href="?tags=application|software">application</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20223,6 +20224,7 @@ const softwareList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/7W1F2MH.png`, // imgur link
+		postimg: `https://i.postimg.cc/c45nQtBd/Chrome.png`, // postimg link
 		tags: [`interests`,`application`,`browser`,`software`], // tags for search/filtering
 		info: `Browser <a href="?tags=application|software">application</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20233,6 +20235,7 @@ const softwareList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/ZWbvIUm.png`, // imgur link
+		postimg: `https://i.postimg.cc/28XZ4L7y/Firefox.png`, // postimg link
 		tags: [`interests`,`application`,`software`,`browser`], // tags for search/filtering
 		info: `Browser <a href="?tags=application|software">application</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20246,6 +20249,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/oMnM8EA.png`, // imgur link
+		postimg: `https://i.postimg.cc/RVbHcJL9/C.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20257,6 +20261,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/ePIGi03.png`, // imgur link
+		postimg: `https://i.postimg.cc/ncwDv9Gp/C.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20267,6 +20272,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/b6arHJW.png`, // imgur link
+		postimg: `https://i.postimg.cc/15YqpVr9/C_Sharp.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20277,6 +20283,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/k6Z0FET.png`, // imgur link
+		postimg: `https://i.postimg.cc/GhSykTxm/CSS3.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20287,6 +20294,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/0HMmN2x.png`, // imgur link
+		postimg: `https://i.postimg.cc/4NF9zHQ3/Erlang.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20297,6 +20305,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/zcrIOQo.png`, // imgur link
+		postimg: `https://i.postimg.cc/NfPH12kM/Fortran.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20307,6 +20316,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/oECqh1h.png`, // imgur link
+		postimg: `https://i.postimg.cc/vHSVWxtc/Git.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20317,6 +20327,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/YOiSuuj.png`, // imgur link
+		postimg: `https://i.postimg.cc/sD0hpG4B/Game_Maker.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`game dev`,`game development`,`application`,`software`], // tags for search/filtering
 		info: `Tool for 2D game development`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20327,6 +20338,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/wFWHww3.png`, // imgur link
+		postimg: `https://i.postimg.cc/nhjQTV3p/Haskell.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20337,6 +20349,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/oRCRaLp.png`, // imgur link
+		postimg: `https://i.postimg.cc/4x7hw4WX/HTML5.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20347,6 +20360,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/kIBRUWr.png`, // imgur link
+		postimg: `https://i.postimg.cc/13nNMRvR/Java.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20357,6 +20371,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/wZCK2nd.png`, // imgur link
+		postimg: `https://i.postimg.cc/Hkc73W6p/Java_Script.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20367,6 +20382,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/jpFf9kf.png`, // imgur link
+		postimg: `https://i.postimg.cc/yYrZF3yD/GNU_Linux.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`operating system`], // tags for search/filtering
 		info: `Open-source software/operating system family`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20377,6 +20393,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/8zu2HNU.png`, // imgur link
+		postimg: `https://i.postimg.cc/52YFp9s4/Lua.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20387,6 +20404,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/tO1rcHb.png`, // imgur link
+		postimg: `https://i.postimg.cc/0yMJZ5V2/Mac_OS.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`operating system`,`macintosh`,`apple`], // tags for search/filtering
 		info: `Family of <a href="?tags=operating system">operating systems</a> used in Apple's Macintosh PCs`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20397,6 +20415,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/IrEBkLu.png`, // imgur link
+		postimg: `https://i.postimg.cc/4x7hw4W3/Node_js.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`javascript`,`runtime environment`], // tags for search/filtering
 		info: `JavaScript runtime environment`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20407,6 +20426,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/8Pyvf5Y.png`, // imgur link
+		postimg: `https://i.postimg.cc/52YFp9sH/Vim_Neovim.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`application`,`software`,`text editor`], // tags for search/filtering
 		info: `Open-source text editor program`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20417,6 +20437,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/vUJv9Cn.png`, // imgur link
+		postimg: `https://i.postimg.cc/fRt05W8R/PHP.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Scripting language</a> used in web development`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20427,6 +20448,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/TtNNcx0.png`, // imgur link
+		postimg: `https://i.postimg.cc/RZ6nGCgF/Rust.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20438,6 +20460,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/zDKm0KR.png`, // imgur link
+		postimg: `https://i.postimg.cc/jSwJvqM2/SQL.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`,`database language`,`database`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Database language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20448,6 +20471,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/6wmXvN6.png`, // imgur link
+		postimg: `https://i.postimg.cc/MpMjtZ9X/Sublime_Text.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`application`,`software`,`text editor`], // tags for search/filtering
 		info: `Text and source code editor`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20458,6 +20482,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/mh6GOa7.png`, // imgur link
+		postimg: `https://i.postimg.cc/nhjQTV3C/Swift.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20468,6 +20493,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/OfuDONM.png`, // imgur link
+		postimg: `https://i.postimg.cc/cLg8T1Fv/Typescript.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`,`javascript`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20479,6 +20505,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/woC0F8K.png`, // imgur link
+		postimg: `https://i.postimg.cc/nhjQTV3j/VSCode.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`editor`], // tags for search/filtering
 		info: `Source-code editor`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20489,6 +20516,7 @@ const programmingList = [
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
 		imgur: `https://i.imgur.com/bk6wpyw.png`, // imgur link
+		postimg: `https://i.postimg.cc/sgQZKfTG/Vue.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`,`javascript`], // tags for search/filtering
 		info: `Javascript framework`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20498,7 +20526,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
-		imgur: `https://i.imgur.com/IL3HSh4.png`, // imgur link
+		postimg: `https://i.postimg.cc/qvhCQB1C/Windows.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`operating system`,`microsoft`], // tags for search/filtering
 		info: `Microsoft's family of computer <a href="?tags=operating system">operating systems</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
