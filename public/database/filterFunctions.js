@@ -109,18 +109,7 @@ function createFilter(el,f,tags) {
 		open.type = `button`;
 		open.classList.add(`open-filters`);
 		open.addEventListener(`click`, function() {
-			if (ul.classList.contains(`hidden`)) {
-				ul.classList.remove(`hidden`);
-				if (ul.parentElement && ul.parentElement.querySelector(`.open-filters`)) {
-					open.innerHTML = `[less]`;
-				}
-			}
-			else {
-				ul.classList.add(`hidden`);
-				if (ul.parentElement && ul.parentElement.querySelector(`.open-filters`)) {
-					open.innerHTML = `[more]`;
-				}
-			}
+			ul.classList.toggle(`hidden`);
 		});
 		li.appendChild(open);
 		
@@ -143,13 +132,7 @@ function createFilter(el,f,tags) {
 // expand/collapse filter button sections
 function expandSection(ul) {
 	ul.classList.remove(`hidden`);
-	if (ul.parentElement && ul.parentElement.querySelector(`.open-filters`)) {
-		ul.parentElement.querySelector(`.open-filters`).innerHTML = `[less]`;
-	}
 }
 function collapseSection(ul) {
 	ul.classList.add(`hidden`);
-	if (ul.parentElement && ul.parentElement.querySelector(`.open-filters`)) {
-		ul.parentElement.querySelector(`.open-filters`).innerHTML = `[more]`;
-	}
 }

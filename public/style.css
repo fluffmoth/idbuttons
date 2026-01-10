@@ -140,6 +140,14 @@ hr { border: none; border-top: 1px var(--boxborder) solid; }
 	-webkit-user-select: none; user-select: none;
 }
 
+/* buttons to expand filter item sublists */
+#filter-ul {
+	/* button before a CLOSED dropdown */
+	button.open-filters:has(+ ul.hidden):after { content: '[more]'; }
+	/* button before an OPEN dropdown */
+	button.open-filters:not(:has(+ ul.hidden)):after { content: '[less]'; }
+}
+
 /***********************************************/
 /* BUTTON TABLE */
 
