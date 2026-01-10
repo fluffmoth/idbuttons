@@ -509,16 +509,21 @@ function getHTMLCode(btn) {
 }
 
 // returns the image source link for the given button
-// prefer imgur source, use local if imgur unavailable
+// prefer postimg, then imgur, then local
 // if no sources, return blank string
 // optional full parameter = whether to get full location url for local sources
 function getSrc(btn,full) {
-	if (btn.imgur && btn.imgur != `` && btn.imgur != undefined) return btn.imgur;
-	else if (btn.src) return getLocalSrc(btn,full);
-	else return ``;
+	if (btn.postimg && btn.postimg != undefined && btn.postimg != ``) return btn.postimg;
+	else if (btn.imgur && btn.imgur != undefined && btn.imgur != ``) return btn.imgur;
+	else if (btn.src) return getLocalSrc(btn,true);
+	else {
+		return ``;
+		console.log(`Could not find external image source for button: name = ${btn.name}; icon = ${btn.icon}`);
+	}
 }
 
 // returns the local image source for the given button
+// if none available try postimg, then imgur
 function getLocalSrc(btn, full) {
 	if (btn.src != `` && btn.src != undefined) {
 		let name = srcFormat(btn.name);
@@ -532,6 +537,7 @@ function getLocalSrc(btn, full) {
 		if (full) src = `https://idbuttons.neocities.org` + src;
 		return src;
 	}
+	else if (btn.postimg && btn.postimg != `` && btn.postimg != undefined) return btn.postimg;
 	else if (btn.imgur && btn.imgur != `` && btn.imgur != undefined) return btn.imgur;
 	else return ``;
 }

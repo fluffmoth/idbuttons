@@ -61,8 +61,9 @@
 				<div class="flex-wrapper">
 					<!-- top of form -->
 					<div id="maker-options-left">
-						<div id="icon-option-wrapper">
-							<h4>icon</h4>
+						<!-- icon selection -->
+						<section id="icon-option-wrapper">
+							<h4>icon:</h4>
 							<div class="radio-row">
 								<input type="radio" name="icon" id="shape-icon-radio" onchange="setIcon(this.value)"></input>
 								<label for="shape-icon-radio">
@@ -89,22 +90,33 @@
 								<label for="custom-icon-radio"> Other: </label>
 								<input type="text" placeholder="Enter an existing icon or button name" onchange="setIconSelection(this.value,true)" id="icon-category-custom"></input>
 							</div>
-						</div>
+						</section>
 						
-						<p>
-							<label for="buttonmaker-text"><h4>text</h4></label>
+						<!-- text input -->
+						<section class="row">
+							<label for="buttonmaker-text"><h4>text: </h4></label>
 							<input type="text" id="buttonmaker-text" name="text" placeholder="Button display text" oninput="setText(this.value);"></input>
 							<p class="hidden" id="buttonmaker-text-error">Unsupported characters: <span id="unsupported-char-display"></span></p>
-						</p>
+						</section>
 						
-						<p>
-							<label for="palette-select"><h4>color palette</h4></label>
-							<select name="base" id="palette-select" oninput="setPalette(this.value)">
+						<!-- shape dropdown -->
+						<section class="row">
+							<label for="shape-select"><h4>button shape: </h4></label>
+							<select name="shape" id="shape-select" oninput="setShape(this.value);">
+								<option id="shape-option-standard">Standard</option>
+								<option id="shape-option-square">Square</option>
+							</select>
+						</section>
+						
+						<!-- palette dropdown -->
+						<section class="row">
+							<label for="palette-select"><h4>palette: </h4></label>
+							<select name="base" id="palette-select" oninput="setPalette(this.value);">
 								<optgroup id="palette-select-custom" label="Custom Palettes"></optgroup>
 								<optgroup id="palette-select-default" label="Default Palettes"></optgroup>
 							</select>
 							<button class="linkbtn small" type="button" onclick="openCustomColors();">Customize...</button>
-						</p>
+						</section>
 						
 						<!-- bottom buttons -->
 						<p>
@@ -125,7 +137,6 @@
 							<h4>2x preview</h4>
 							<canvas id="scaleCanvas"></canvas>
 						</div>
-						<h3 id="result-spacer" style="visibility:hidden">.</h3>
 					</section>
 				</div>
 				

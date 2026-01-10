@@ -123,14 +123,13 @@ function newButtonRow(b) {
 	// preview column
 	var editCol = row.insertCell(2);
 	if (
-		(!b.shape || b.shape.toLowerCase() == 'standard') &&
 		(!b.style || b.style.toLowerCase() == 'left')
 	){
 		editCol.classList.add('edit-col');
 		var editLink = document.createElement("a");
 		editLink.target = '_blank';
 		// SET LINK URL PARAMS
-		let editLinkIcon = '', editLinkText = '', editLinkBase = '';
+		let editLinkIcon = '', editLinkText = '', editLinkBase = '', editLinkShape = 'Standard';
 		// if it's a color/button shape base
 		if (b.tags.includes('palette button base')) {
 			editLinkText = '(Your Text)';
@@ -145,10 +144,14 @@ function newButtonRow(b) {
 			// if button has a non-standard palette
 			if (b.palette && b.palette != 'Standard') editLinkBase = b.palette;
 		}
+		// get the button's shape
+		if (b.shape && b.shape != undefined && b.shape != '') editLinkShape = b.shape;
+		// set the actual edit link url
 		editLink.href = `/maker/
 			?text=` + encodeURIComponent(editLinkText) +
 			`&icon=` + encodeURIComponent(editLinkIcon) +
-			`&base=` + encodeURIComponent(editLinkBase);
+			`&base=` + encodeURIComponent(editLinkBase) +
+			`&shape=` + encodeURIComponent(editLinkShape);
 		// put edit image button in link
 		var editImg = document.createElement("img");
 		editImg.src = `/buttons/edit.png`;

@@ -1044,7 +1044,8 @@ const genderButtonList = [
 	},
 	{
 		name: `Bigenderflux`, // display name
-		imgur: `https://i.imgur.com/ozXwjvF.png`, // imgur link
+		src: `/buttons/gender/%name.png`, // local image source
+		postimg: `https://i.postimg.cc/1tcD9Fyj/Bigenderflux.png`, // postimg link
 		tags: [`gender`,`genderflux`,`multigender`,`bigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,bigender">Bigender</a> identity that
 			<a href="?tags=gender,genderflux">fluctuates</a> in intensity`, // optional extra info
@@ -4087,8 +4088,9 @@ const xenogenderList = [
 const genderFluidFragmentList = [
 	{
 		name: `Agenderfae`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name.png`, // local image source
 		imgur: `https://i.imgur.com/t3otIr3.png`, // imgur link
+		postimg: `https://i.postimg.cc/0yh8NHQt/Agenderfae.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`,`genderless`,`genderfae`], // tags for search/filtering
 		info: `<a href="?tags=gender,genderfae">Genderfae</a> identity that is connected to genderlessness.
@@ -4097,8 +4099,9 @@ const genderFluidFragmentList = [
 	},
 	{
 		name: `Agenderfaer`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name.png`, // local image source
 		imgur: `https://i.imgur.com/TTppxfT.png`, // imgur link
+		postimg: `https://i.postimg.cc/DwR2zYZ5/Agenderfaer.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`,`genderless`,`genderfaer`], // tags for search/filtering
 		info: `<a href="?tags=gender,genderfaer">Genderfaer</a> identity that is connected to genderlessness.
@@ -4107,8 +4110,9 @@ const genderFluidFragmentList = [
 	},
 	{
 		name: `Agenderfaun`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name.png`, // local image source
 		imgur: `https://i.imgur.com/7ljVCBA.png`, // imgur link
+		postimg: `https://i.postimg.cc/jSBsjk5g/Agenderfaun.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`,`genderless`,`genderfaun`], // tags for search/filtering
 		info: `<a href="?tags=gender,genderfaun">Genderfaun</a> identity that is connected to genderlessness.
@@ -4117,8 +4121,9 @@ const genderFluidFragmentList = [
 	},
 	{
 		name: `Agenderfaunet`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name.png`, // local image source
 		imgur: `https://i.imgur.com/nHRYWPp.png`, // imgur link
+		postimg: `https://i.postimg.cc/QM5jKk9c/Agenderfaunet.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`,`genderless`,`genderfaunet`], // tags for search/filtering
 		info: `<a href="?tags=gender,genderfaunet">Genderfaunet</a> identity that is connected to genderlessness.
@@ -4127,8 +4132,9 @@ const genderFluidFragmentList = [
 	},
 	{
 		name: `Agenderflor`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name.png`, // local image source
 		imgur: `https://i.imgur.com/bEI8Hxr.png`, // imgur link
+		postimg: `https://i.postimg.cc/g0RGLqXv/Agenderflor.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`,`genderless`,`genderflor`], // tags for search/filtering
 		info: `<a href="?tags=gender,genderflor">Genderflor</a> identity that is connected to genderlessness.
@@ -4137,8 +4143,9 @@ const genderFluidFragmentList = [
 	},
 	{
 		name: `Agenderfloret`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name.png`, // local image source
 		imgur: `https://i.imgur.com/rTqyEnQ.png`, // imgur link
+		postimg: `https://i.postimg.cc/MGRzfbM7/Agenderfloret.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`,`genderless`,`genderfloret`], // tags for search/filtering
 		info: `<a href="?tags=gender,genderfloret">Genderfloret</a> identity that is connected to genderlessness.
@@ -4147,8 +4154,9 @@ const genderFluidFragmentList = [
 	},
 	{
 		name: `Agendersatyr`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name.png`, // local image source
 		imgur: `https://i.imgur.com/6W6iCkU.png`, // imgur link
+		postimg: `https://i.postimg.cc/GpYbTJ8j/Agendersatyr.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`,`genderless`,`gendersatyr`], // tags for search/filtering
 		info: `<a href="?tags=gender,gendersatyr">Gendersatyr</a> identity that is connected to genderlessness.
@@ -4157,8 +4165,9 @@ const genderFluidFragmentList = [
 	},
 	{
 		name: `Agenderselkie`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name.png`, // local image source
 		imgur: `https://i.imgur.com/dOhpOUz.png`, // imgur link
+		postimg: `https://i.postimg.cc/fbXMSjtf/Agenderselkie.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`,`genderless`,`genderselkie`], // tags for search/filtering
 		info: `<a href="?tags=gender,genderselkie">Genderselkie</a> identity that is connected to genderlessness.
@@ -4306,16 +4315,18 @@ const genderFluidFragmentList = [
 	},
 	{
 		name: `Genderfaun`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name.png`, // local image source
 		imgur: `https://i.imgur.com/q6tYzau.png`, // imgur link
+		postimg: `https://i.postimg.cc/bw4zvFJR/Genderfaun.png`, // postimg link
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`,`genderfawn`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,genderfluid fragment system">Genderfluid Fragment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Genderfaun`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name_2.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name_2.png`, // local image source
 		imgur: `https://i.imgur.com/ZL4v8oH.png`, // imgur link
+		postimg: `https://i.postimg.cc/W1x24f3w/Genderfaun_2.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`,`genderfawn`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,genderfluid fragment system">Genderfluid Fragment System</a>`, // optional extra info
@@ -4398,16 +4409,18 @@ const genderFluidFragmentList = [
 	},
 	{
 		name: `Genderfrith`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name.png`, // local image source
 		imgur: `https://i.imgur.com/bGY18Zk.png`, // imgur link
+		postimg: `https://i.postimg.cc/t48XgmTd/Genderfrith.png`, // postimg link
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,genderfluid fragment system">Genderfluid Fragment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Genderfrith`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name_2.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name_2.png`, // local image source
 		imgur: `https://i.imgur.com/fA7H276.png`, // imgur link
+		postimg: `https://i.postimg.cc/Vk2YNH6B/Genderfrith_2.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,genderfluid fragment system">Genderfluid Fragment System</a>`, // optional extra info
@@ -4415,14 +4428,16 @@ const genderFluidFragmentList = [
 	},
 	{
 		name: `Gendersatyr`, // display name
-		imgur: `https://i.imgur.com/S48FuV7.png`, // imgur link
+		src: `/buttons/gender/genderfluid_fragment/%name.png`, // local image source
+		postimg: `https://i.postimg.cc/d0DTbff3/Gendersatyr.png`, // postimg link
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,genderfluid fragment system">Genderfluid Fragment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Gendersatyr`, // display name
-		imgur: `https://i.imgur.com/lEJuTqq.png`, // imgur link
+		src: `/buttons/gender/genderfluid_fragment/%name_2.png`, // local image source
+		postimg: `https://i.postimg.cc/vBr8kLGf/Gendersatyr-2.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`], // tags for search/filtering
 		info: `<a href="?tags=genderfluid">Genderfluidity</a> that never encompasses female or feminine genders.
@@ -4448,16 +4463,18 @@ const genderFluidFragmentList = [
 	},
 	{
 		name: `Gendersylph`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Ms0y1gE.png`, // imgur link
+		postimg: `https://i.postimg.cc/DwR2zYZB/Gendersylph.png`, // postimg link
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,genderfluid fragment system">Genderfluid Fragment System</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Gendersylph`, // display name
-		src: `/buttons/gender/genderfluid fragment/%name_2.png`, // local image source
+		src: `/buttons/gender/genderfluid_fragment/%name_2.png`, // local image source
 		imgur: `https://i.imgur.com/g7cKg2D.png`, // imgur link
+		postimg: `https://i.postimg.cc/FHw9KnRT/Gendersylph_2.png`, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`genderfluid`,`genderfluid fragment system`], // tags for search/filtering
 		info: `Gender in the <a href="?tags=gender,genderfluid fragment system">Genderfluid Fragment System</a>`, // optional extra info
@@ -11987,7 +12004,7 @@ const aroAceList = [
 		name: `Rat Ace`, // display name
 		altNames: [`Rat Asexual`], // optional alternate names, for search algorithms
 		src: `/buttons/orientation/%name.png`, // local image source
-		imgur: `https://i.imgur.com/frPiwiM.png`, // imgur link
+		postimg: `https://i.postimg.cc/HkzwDXsv/Rat-Ace.png`, // postimg link
 		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`bambi`], // tags for search/filtering
 		info: `An <a href="?tags=orientation,ace spectrum">ace-spec</a> individual who prefers non-sexual physical affection
 			over sexual acts. Ace equivalent to
@@ -13293,6 +13310,36 @@ const FRList = [
 	
 	/////////////////////////////////////////////////////////////////////
 	// DRAGON SPECIES/BREEDS //
+	{
+		name: `Sandsurge`, // display name
+		alt: `%name`,
+		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
+		src: `/buttons/FR/breeds/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ao60Xvj.png`, // imgur link
+		tags: [`flight rising`,`dragon breed`,`sandsurge`], // tags for search/filtering
+		info: `Breed of dragon on <a href="?tags=flight rising">Flight Rising</a>`, // optional extra info
+		icon: `Sandsurge teal` // description of the flag/icon
+	},
+	{
+		name: `Sandsurge Fan`, // display name
+		alt: `%name`,
+		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
+		src: `/buttons/FR/breeds/%name.png`, // local image source
+		imgur: `https://i.imgur.com/G9NqG7W.png`, // imgur link
+		tags: [`flight rising`,`dragon breed`,`sandsurge`], // tags for search/filtering
+		info: `Breed of dragon on <a href="?tags=flight rising">Flight Rising</a>`, // optional extra info
+		icon: `Sandsurge teal` // description of the flag/icon
+	},
+	{
+		name: `Sandsurge Monolair`, // display name
+		alt: `%name`,
+		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
+		src: `/buttons/FR/breeds/%name.png`, // local image source
+		imgur: `https://i.imgur.com/nSH5ZRM.png`, // imgur link
+		tags: [`flight rising`,`dragon breed`,`sandsurge`], // tags for search/filtering
+		info: `Breed of dragon on <a href="?tags=flight rising">Flight Rising</a>`, // optional extra info
+		icon: `Sandsurge teal` // description of the flag/icon
+	},
 	{
 		name: `Undertide`, // display name
 		alt: `%name`,
@@ -17757,7 +17804,6 @@ const interestsList = [
 		info: `<a href="?tags=interests,warrior cats">Warriors</a> clan`, // optional extra info
 		icon: `Warriors clan icon` // description of the flag/icon
 	},
-	
 	{
 		name: `Sanrio`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
@@ -17798,7 +17844,6 @@ const interestsList = [
 		info: `<a href="?tags=interests,sanrio">Sanrio</a> character`, // optional extra info
 		icon: `Pompompurin` // description of the flag/icon
 	},
-	
 	{
 		name: `Cubfan135`, // display name
 		dateAdded: `2024-02-09`, // date this button was first added to the masterlist
@@ -18108,6 +18153,16 @@ const interestsList = [
 		tags: [`interests`,`fandom`,`toys`,`plushies`,`stuffed animals`], // tags for search/filtering
 		info: `Stuffed <a href="?tags=interests,toys">toy</a> company`, // optional extra info
 		icon: `Teddy bear` // description of the flag/icon
+	},
+	{
+		name: `Wii Deleted You`, // display name
+		alt: `%name`,
+		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
+		//src: `/buttons/interests/%name.png`, // local image source
+		imgur: `https://i.imgur.com/3qo801i.png`, // imgur link
+		tags: [`interests`,`fandom`,`creepypasta`,`horror`], // tags for search/filtering
+		info: `<a href="?tags=interests,creepypasta">Creepypasta</a>`, // optional extra info
+		icon: `Mii smile` // description of the flag/icon
 	}
 	
 	/*,
@@ -18303,6 +18358,15 @@ const gamesList = [
 		icon: `Hat` // description of the flag/icon
 	},
 	{
+		name: `A Hat In Time`, // display name
+		alt: `%name`,
+		imgur: `https://i.imgur.com/7iLEs8k.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`platformer`], // tags for search/filtering
+		info: `<a href="?tags=interests,game,platformer">Platformer</a> <a href="?tags=interests,video game">game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
 		name: `Star Stable`, // display name
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		src: `/buttons/interests/games/%name.png`, // local image source
@@ -18312,13 +18376,13 @@ const gamesList = [
 		icon: `logo` // description of the flag/icon
 	},
 	{
-		name: `A Hat In Time`, // display name
-		alt: `%name`,
-		imgur: `https://i.imgur.com/7iLEs8k.png`, // imgur link
-		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`fandom`,`game`,`video game`,`platformer`], // tags for search/filtering
-		info: `<a href="?tags=interests,game,platformer">Platformer</a> <a href="?tags=interests,video game">game</a>`, // optional extra info
-		icon: `logo` // description of the flag/icon
+		name: `Pico's School`, // display name
+		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/kTRynUr.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`browser game`,`point and click`], // tags for search/filtering
+		info: `<a href="?tags=interests,browser game">Browser</a>-based point-and-click <a href="?tags=interests,video game">game</a>`, // optional extra info
+		icon: `Pico` // description of the flag/icon
 	},
 	{
 		name: `Alice: Madness Returns`, // display name
@@ -19661,10 +19725,44 @@ const homestuckList = [
 
 const finalFantasyList = [
 	{
+		name: `FFVII`, // display name
+		altNames: [`Final Fantasy VII`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
+		alt: `Final Fantasy 7`,
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/r1VITcQ.png`, // imgur link
+		tags: [`interests`,`fandom`,`game`,`video game`,`fantasy`,`rpg`,`final fantasy`,`ffvii`], // tags for search/filtering
+		info: `<a href="?tags=final fantasy">Final Fantasy</a> game (more FFVII buttons <a href="?tags=ffvii">here</a>)`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Final Fantasy VII`, // display name
+		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
+		alt: `Final Fantasy 7`,
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/m7xse7B.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`fantasy`,`rpg`,`final fantasy`,`ffvii`], // tags for search/filtering
+		info: `<a href="?tags=final fantasy">Final Fantasy</a> game (more FFVII buttons <a href="?tags=ffvii">here</a>)`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Final Fantasy 7`, // display name
+		altNames: [`Final Fantasy VII`], // optional alternate names, for search algorithms
+		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
+		alt: `%name`,
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/vs2kiEL.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`fantasy`,`rpg`,`final fantasy`,`ffvii`], // tags for search/filtering
+		info: `<a href="?tags=final fantasy">Final Fantasy</a> game (more FFVII buttons <a href="?tags=ffvii">here</a>)`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
 		name: `FFXIV`, // display name
 		altNames: [`Final Fantasy XIV`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
-		alt: `%name`,
+		alt: `Final Fantasy 14`,
 		imgur: `https://i.imgur.com/eMPFsUR.png`, // imgur link
 		tags: [`interests`,`fandom`,`game`,`video game`,`fantasy`,`mmo`,`rpg`,`mmorpg`,`final fantasy`], // tags for search/filtering
 		info: `<a href="?tags=final fantasy">Final Fantasy</a> game (more FFXIV buttons <a href="?tags=ffxiv">here</a>)`, // optional extra info
@@ -19674,7 +19772,7 @@ const finalFantasyList = [
 		name: `FFXIV`, // display name
 		altNames: [`Final Fantasy XIV`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
-		alt: `%name`,
+		alt: `Final Fantasy 14`,
 		src: `/buttons/interests/%name_Dark.png`, // local image source
 		imgur: `https://i.imgur.com/2uDcdCS.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -21585,7 +21683,7 @@ const buttons2List = [
 
 //////////// BASES ////////////
 
-const basesList = [
+const paletteBasesList = [
 	{
 		name: `Standard Base`, // display name
 		alt: `%name`,
@@ -21593,16 +21691,6 @@ const basesList = [
 		imgur: `https://i.imgur.com/vihmTfG.png`, // imgur link
 		tags: [`button base`,`basic button base`,`palette button base`,`shape button base`,`gray`], // tags for search/filtering
 		info: `The original from which all others are born`, // optional extra info
-		icon: `Solid standard gray` // description of the flag/icon
-	},
-	{
-		name: `Standard Base (Square)`, // display name
-		alt: `%name`,
-		src: `/bases/palettes/Square.png`, // local image source
-		imgur: `https://i.imgur.com/TSZQCxb.png`, // imgur link
-		shape: `Square`, // shape of button base
-		tags: [`button base`,`basic button base`,`shape button base`,`gray`,`square base`], // tags for search/filtering
-		info: `The <a href="?tags=button base">standard button base</a>, but square. Not currently compatible with the editor.`, // optional extra info
 		icon: `Solid standard gray` // description of the flag/icon
 	},
 	{
@@ -22047,24 +22135,495 @@ const basesList = [
 		alt: `%name`,
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
 		src: `/bases/palettes/Windows_7.png`, // local image source
-		imgur: `https://imgur.com/ssgOXY1.png`, // imgur link
-		shape: `Square`, // shape of button base
-		tags: [`button base`,`basic button base`,`palette button base`,`gray`,`square base`], // tags for search/filtering
+		tags: [`button base`,`basic button base`,`palette button base`,`gray`,`microsoft`], // tags for search/filtering
 		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/606271">Ness97</a>`, // optional extra info
 		icon: `Solid Windows 7 gray` // description of the flag/icon
 	},
 	{
-		name: `Windows Error Base`, // display name
+		name: `Windows XP Base`, // display name
 		alt: `%name`,
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		src: `/bases/palettes/Windows_Error.png`, // local image source
-		imgur: `https://i.imgur.com/RwbzGro.png`, // imgur link
-		shape: `Square`, // shape of button base
-		tags: [`button base`,`basic button base`,`palette button base`,`gray`,`multicolor`,`square base`], // tags for search/filtering
+		src: `/bases/palettes/Windows_XP.png`, // local image source
+		tags: [`button base`,`basic button base`,`palette button base`,`gray`,`multicolor`,`microsoft`], // tags for search/filtering
 		info: `Inspired by <a href="https://www1.flightrising.com/clan-profile/606271">Ness97</a>'s
 			<a href="?tags=button base,windows 7 base">Windows 7</a> base`, // optional extra info
-		icon: `Solid White` // description of the flag/icon
+		icon: `Windows XP logo` // description of the flag/icon
+	}
+]
+
+const paletteSquareBasesList = [
+	{
+		name: `Standard Base`, // display name
+		alt: `%name`,
+		src: `/bases/palettes_square/Standard.png`, // local image source
+		imgur: `https://i.imgur.com/TSZQCxb.png`, // imgur link
+		shape: `Square`, // shape of button base
+		palette: `Standard`, // palette of button base
+		tags: [`button base`,`basic button base`,`gray`,`shape button base`,`square base`], // tags for search/filtering
+		info: `The <a href="?tags=button base">standard button base</a>, square variant. Not currently compatible with the editor.`, // optional extra info
+		icon: `Solid standard gray` // description of the flag/icon
 	},
+	{
+		name: `Dark Mode Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Dark_Mode.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`gray`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Dark version of the standard button base colors`, // optional extra info
+		icon: `Solid dark mode gray` // description of the flag/icon
+	},
+	{
+		name: `True Black Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/True_Black.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`shape button base`,`square base`], // tags for search/filtering
+		info: `The darker and completely unsaturated cousin of <a href="?tags=dark mode base">Dark Mode</a>`, // optional extra info
+		icon: `Solid True Black gray` // description of the flag/icon
+	},
+	{
+		name: `Arcane Pink Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Arcane_Pink.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`arcane`,`pink`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,arcane flight">Arcane</a> flight colors`, // optional extra info
+		icon: `Solid Arcane pink` // description of the flag/icon
+	},
+	{
+		name: `Earth Brown Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Earth_Brown.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`earth`,`brown`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,earth flight">Earth</a> flight colors`, // optional extra info
+		icon: `Solid Earth brown` // description of the flag/icon
+	},
+	{
+		name: `Fire Orange Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Fire_Orange.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`fire`,`orange`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,fire flight">Fire</a> flight colors`, // optional extra info
+		icon: `Solid Fire orange` // description of the flag/icon
+	},
+	{
+		name: `Ice Blue Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Ice_Blue.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`ice`,`blue`,`white`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,ice flight">Ice</a> flight colors`, // optional extra info
+		icon: `Solid Ice blue` // description of the flag/icon
+	},
+	{
+		name: `Water Blue Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Water_Blue.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`water`,`blue`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,water flight">Water</a> flight colors`, // optional extra info
+		icon: `Solid Water blue` // description of the flag/icon
+	},
+	{
+		name: `Shadow Purple Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Shadow_Purple.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`shadow`,`purple`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,shadow flight">Shadow</a> flight colors`, // optional extra info
+		icon: `Solid Shadow purple` // description of the flag/icon
+	},
+	{
+		name: `Light Yellow Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Light_Yellow.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`light`,`yellow`,`white`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,light flight">Light</a> flight colors`, // optional extra info
+		icon: `Solid Light yellow` // description of the flag/icon
+	},
+	{
+		name: `Sunshine Yellow Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Sunshine_Yellow.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`sunshine`,`yellow`,`shape button base`,`square base`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Solid sunshine yellow` // description of the flag/icon
+	},
+	{
+		name: `Lightning Aqua Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Lightning_Aqua.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`lightning`,`aqua`,`blue`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,lightning flight">Lightning</a> flight colors`, // optional extra info
+		icon: `Solid Lightning aqua` // description of the flag/icon
+	},
+	{
+		name: `Nature Green Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Nature_Green.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`nature`,`green`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,nature flight">Nature</a> flight colors`, // optional extra info
+		icon: `Solid Nature green` // description of the flag/icon
+	},
+	{
+		name: `Mire Green Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Mire_Green.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`mire`,`green`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> Mire coliseum venue`, // optional extra info
+		icon: `Solid Mire green` // description of the flag/icon
+	},
+	{
+		name: `Wind Green Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Wind_Green.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`wind`,`green`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,wind flight">Wind</a> flight colors`, // optional extra info
+		icon: `Solid Wind green` // description of the flag/icon
+	},
+	{
+		name: `Plague Red Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Plague_Red.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`plague`,`red`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,plague flight">Plague</a> flight colors`, // optional extra info
+		icon: `Solid Plague red` // description of the flag/icon
+	},
+	{
+		name: `Wispwillow Grove Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Wispwillow_Grove.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`shadow`,`gray`,`blue`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,shadow flight">Shadow</a> region Wispwillow Grove`, // optional extra info
+		icon: `Wispwillow Grove gradient` // description of the flag/icon
+	},
+	{
+		name: `Dusk Sanctum Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Dusk_Sanctum.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`shadow`,`gray`,`purple`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,shadow flight">Shadow</a> region.
+			Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a>`, // optional extra info
+		icon: `Dusk Sanctum gradient` // description of the flag/icon
+	},
+	{
+		name: `Driftwood Drag Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Driftwood_Drag.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`shadow`,`black`,`purple`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,shadow flight">Shadow</a> region.
+			Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a>`, // optional extra info
+		icon: `Driftwood Drag gradient` // description of the flag/icon
+	},
+	{
+		name: `Murkbarrow Close Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Murkbarrow_Close.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`shadow`,`black`,`blue`,`teal`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,shadow flight">Shadow</a> region.
+			Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a>`, // optional extra info
+		icon: `Murkbarrow Close gradient` // description of the flag/icon
+	},
+	{
+		name: `Foxfire Bramble Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Foxfire_Bramble.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`shadow`,`gray`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,shadow flight">Shadow</a> region.
+			Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a> and fluffmoth`, // optional extra info
+		icon: `Foxfire Bramble gradient` // description of the flag/icon
+	},
+	{
+		name: `Wyrmwound Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Wyrmwound.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`plague`,`green`,`brown`,`multicolor`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Based on the <a href="?tags=flight rising">Flight Rising</a> <a href="?tags=flight rising,plague flight">Plague</a> region`, // optional extra info
+		icon: `Wyrmwound gradient` // description of the flag/icon
+	},
+	{
+		name: `Trans Pride Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Trans_Pride.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`blue`,`white`,`pink`,`multicolor`,`shape button base`,`square base`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Trans flag` // description of the flag/icon
+	},
+	{
+		name: `Gay Pride Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Gay_Pride.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`rainbow`,`multicolor`,`black`,`shape button base`,`square base`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Gay flag (lightened)` // description of the flag/icon
+	},
+	{
+		name: `Asmodaeus Red Base`, // display name
+		alt: `%name`,
+		altNames: [`Demonic Red`], // optional alternate names, for search algorithms
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Asmodaeus_Red.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`red`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a> (formerly Demonic Red)`, // optional extra info
+		icon: `Solid Asmodaeus red` // description of the flag/icon
+	},
+	{
+		name: `Asmodaeus Orange Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Asmodaeus_Orange.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`orange`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a>`, // optional extra info
+		icon: `Solid Asmodaeus orange` // description of the flag/icon
+	},
+	{
+		name: `Asmodaeus Yellow-Orange Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Asmodaeus_Yellow-Orange.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`yellow`,`orange`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a>`, // optional extra info
+		icon: `Solid Asmodaeus yellow-orange` // description of the flag/icon
+	},
+	{
+		name: `Asmodaeus Yellow Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Asmodaeus_Yellow.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`yellow`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a>`, // optional extra info
+		icon: `Solid Asmodaeus yellow` // description of the flag/icon
+	},
+	{
+		name: `Asmodaeus Green Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Asmodaeus_Green.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`green`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a>`, // optional extra info
+		icon: `Solid Asmodaeus green` // description of the flag/icon
+	},
+	{
+		name: `Asmodaeus Teal Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Asmodaeus_Teal.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`teal`,`blue`,`green`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a>`, // optional extra info
+		icon: `Solid Asmodaeus teal` // description of the flag/icon
+	},
+	{
+		name: `Asmodaeus Aqua Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Asmodaeus_Aqua.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`aqua`,`blue`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a>`, // optional extra info
+		icon: `Solid Asmodaeus aqua` // description of the flag/icon
+	},
+	{
+		name: `Asmodaeus Blue Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Asmodaeus_Blue.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`blue`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a>`, // optional extra info
+		icon: `Solid Asmodaeus blue` // description of the flag/icon
+	},
+	{
+		name: `Asmodaeus Purple Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Asmodaeus_Purple.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`purple`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a>`, // optional extra info
+		icon: `Solid Asmodaeus purple` // description of the flag/icon
+	},
+	{
+		name: `Asmodaeus Pink Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Asmodaeus_Pink.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`pink`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/622227">zenithAsmodaeus</a>`, // optional extra info
+		icon: `Solid Asmodaeus pink` // description of the flag/icon
+	},
+	{
+		name: `Royal Red Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Royal_Red.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`gold`,`yellow`,`red`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/606271">Ness97</a>`, // optional extra info
+		icon: `Solid royal red` // description of the flag/icon
+	},
+	{
+		name: `Royal Blue Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Royal_Blue.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`gold`,`yellow`,`blue`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/606271">Ness97</a>`, // optional extra info
+		icon: `Solid royal blue` // description of the flag/icon
+	},
+	{
+		name: `Royal Green Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Royal_Green.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`gold`,`yellow`,`green`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/606271">Ness97</a>`, // optional extra info
+		icon: `Solid royal green` // description of the flag/icon
+	},
+	{
+		name: `Royal Purple Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Royal_Purple.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`gold`,`yellow`,`purple`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/606271">Ness97</a>`, // optional extra info
+		icon: `Solid royal purple` // description of the flag/icon
+	},
+	{
+		name: `Heavenly Gold Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Heavenly_Gold.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`gold`,`yellow`,`white`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/606271">Ness97</a>`, // optional extra info
+		icon: `Heavenly gold gradient` // description of the flag/icon
+	},
+	{
+		name: `Heavenly White Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Heavenly_White.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`gold`,`yellow`,`white`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/606271">Ness97</a>`, // optional extra info
+		icon: `Solid heavenly white` // description of the flag/icon
+	},
+	{
+		name: `Gilded Black Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Gilded_Black.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`gold`,`yellow`,`black`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/606271">Ness97</a>`, // optional extra info
+		icon: `Solid gilded black` // description of the flag/icon
+	},
+	{
+		name: `Vergil Blue Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Vergil_Blue.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`blue`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/545357">SakraKaine</a>,
+			inspired by Vergil's sin devil trigger from Devil May Cry 5`, // optional extra info
+		icon: `Solid Vergil blue` // description of the flag/icon
+	},
+	{
+		name: `Dante Orange Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Dante_Orange.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`black`,`orange`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/545357">SakraKaine</a>,
+			inspired by Dante's sin devil trigger from Devil May Cry 5`, // optional extra info
+		icon: `Solid Dante red` // description of the flag/icon
+	},
+	{
+		name: `Scratchboard Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Scratchboard.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`rainbow`,`multicolor`,`black`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Fun experiment? Yes. Useful? Probably not.`, // optional extra info
+		icon: `Solid black` // description of the flag/icon
+	},
+	{
+		name: `Windows 7 Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Windows_7.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`gray`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Palette designed by <a href="https://www1.flightrising.com/clan-profile/606271">Ness97</a>`, // optional extra info
+		icon: `Solid Windows 7 gray` // description of the flag/icon
+	},
+	{
+		name: `Windows XP Base`, // display name
+		alt: `%name`,
+		dateAdded: `2026-01-10`, // date this button was first added to the masterlist
+		src: `/bases/palettes_square/Windows_XP.png`, // local image source
+		shape: `Square`, // shape of button base
+		tags: [`button base`,`basic button base`,`palette button base`,`gray`,`multicolor`,`shape button base`,`square base`], // tags for search/filtering
+		info: `Inspired by <a href="https://www1.flightrising.com/clan-profile/606271">Ness97</a>'s
+			<a href="?tags=button base,windows 7 base">Windows 7</a> base`, // optional extra info
+		icon: `Windows XP logo` // description of the flag/icon
+	}
+]
+
+const iconBasesList = [
 	// ROYAL/GILDED SHAPES
 	{
 		name: `Star Outline`, // display name
@@ -23260,5 +23819,5 @@ const buttonList = arr.concat(
 	
 	buttons2List,
 	
-	basesList
+	paletteBasesList, paletteSquareBasesList, iconBasesList
 );

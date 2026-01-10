@@ -419,5 +419,15 @@ const buttonPalettes = {
 		outline: [155, 183, 211],
 		shadow: [50, 48, 68],
 		display: {base:[240, 240, 240]}
+	},
+	'Windows XP': {
+		base: [236, 233, 216],
+		text: [0, 0, 0],
+		innerOutline: [248, 248, 240],
+		outline: [27, 112, 240],
+		shadow: [34, 32, 17],
+		overlay: {
+			base: {}, outline: {}, innerOutline: {}
+		}
 	}
 }

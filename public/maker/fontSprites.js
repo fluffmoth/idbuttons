@@ -1,7 +1,7 @@
 const fontSpriteData = {
 	regular: {
 		A: {kern: {T:-1}},
-		B: {kern: {',':-1,';':-1}},
+		B: {kern: {',':-1,';':-1,'I':-1}},
 		C: {kern: {T:-1,',':-1,';':-1}},
 		D: {kern: {',':-1,';':-1}},
 		E: {width: 4},

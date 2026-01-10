@@ -4,7 +4,7 @@
 }
 
 h2 { text-align: center; }
-h3, h4 { margin-bottom: 0.5em; }
+h3, h4 { margin: 0; }
 
 .subtext { font-size: .9em; margin: .25em 0 .5em 0; }
 .small { font-size: .9em; }
@@ -36,11 +36,21 @@ main:has(.flex-wrapper.wrapped) > .top { width: var(--form-width); }
 
 #maker-options-left { width: var(--form-width); }
 
-
 /****************************************************/
 
-.result { text-align: center; padding-left: 3em; }
-.wrapped .result { padding: 0; width: var(--form-width); }
+.result {
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+	text-align: center;
+	padding-left: 3em;
+	
+	#scalePreview h4 { margin-bottom: .25em; }
+}
+.wrapped .result {
+	padding: 0;
+	width: var(--form-width);
+}
 
 .flex-wrapper:not(.wrapped) .result > hr { display: none; }
 
@@ -64,7 +74,9 @@ canvas.double {
 #scaleCanvas { pointer-events: none; }
 
 /****************************************************/
-
+#maker-options-left > section {
+	margin: .5rem 0 1rem 0;
+}
 .radio-row {
 	margin: .5em 0;
 	display: flex;
@@ -77,8 +89,24 @@ canvas.double {
 .radio-row .select-wrapper select { width: 100%; }
 .radio-row p { margin: .25em 0 0 0; }
 
-#buttonmaker-text { box-sizing: border-box; width: 100%; }
+/* sections which should be displayed as horizontal rows */
+section.row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .3em;
+	align-items: center;
+	
+	h4 { width: fit-content; }
+}
+
+/* text input for button */
+#buttonmaker-text {
+	box-sizing: border-box;
+	flex-grow: 1;
+	height: 1.5em;
+}
 #buttonmaker-text-error {
+	width: 100%;
 	color: red;
 	font-style: italic;
 	font-size: .9em;

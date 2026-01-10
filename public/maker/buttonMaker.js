@@ -1,13 +1,13 @@
 let canvas, ctx, buttonWidth, buttonHeight, baseCanvasWidth, baseCanvasHeight;
 let flexWrapper, makerFormLeft, makerResult;
 
-// current values of base, icon, and text
-let urlBase, curIcon, curText;
-
-// default values of base, icon, and text
-const defaultBase = `Button Base`;
-const defaultIcon = `Button Base`;
-const defaultText = ``;
+// object to store maker data
+const maker = {
+	base: { default: 'Button Base' },
+	icon: { default: 'Button Base' },
+	text: { default: '' },
+	shape: { default: 'Standard' }
+};
 
 let fontStyle, forceCustomText, shadowOn, textShadowOn, glowOn;
 
@@ -103,12 +103,16 @@ function getSavedSettings() {
 	let save = JSON.parse(localStorage.getItem('makerSettings'));
 	if (!save) save = {};
 	
-	if (urlParams.has('icon') && urlParams.get('icon') != ``) curIcon = decodeURI(urlParams.get('icon'));
-	setIconSelection(curIcon);
+	if (urlParams.has('icon') && urlParams.get('icon') != ``) maker.icon.cur = decodeURI(urlParams.get('icon'));
+	setIconSelection(maker.icon.cur);
 	
-	if (urlParams.has('text') && urlParams.get('text') != ``) curText = decodeURI(urlParams.get('text'));
-	else curText = defaultText;
-	setTextContent(curText);
+	if (urlParams.has('text') && urlParams.get('text') != ``) maker.text.cur = decodeURI(urlParams.get('text'));
+	else maker.text.cur = maker.text.default;
+	setTextContent(maker.text.cur);
+	
+	if (urlParams.has('shape') && urlParams.get('shape') != ``) setShape(decodeURI(urlParams.get('shape')));
+	else if (save.shape) setShape(save.shape);
+	else setShape(maker.shape.default);
 	
 	if (urlParams.has('base') && urlParams.get('base') != ``) setPalette(decodeURI(urlParams.get('base')));
 	else if (save.base) setPalette(save.base);
@@ -306,8 +310,8 @@ function updateButton(params) {
 	setBase();
 	
 	// set icon (default to palette base)
-	if (curIcon) setIcon(curIcon);
-	else setIcon(paletteKey+' Base',false);
+	if (maker.icon.cur) setIcon(maker.icon.cur);
+	else setIcon(paletteKey +' Base',false);
 	
 	updateScaleButton();
 }
@@ -340,28 +344,47 @@ function updateScaleButton() {
 // show the scaled up button
 function toggleShowScaledButton() {
 	document.getElementById('scalePreview').classList.toggle('hidden');
-	document.getElementById('result-spacer').classList.toggle('hidden');
 	document.getElementById('show-scaled').checked = !document.getElementById('scalePreview').classList.contains('hidden');
 	adjustMakerLayout();
+}
+
+// get the file location path for base with given name
+// if name not specified, uses the standard
+function getBaseSrc(name) {
+	let src;
+	
+	// if name provided, get image source of button with given name and (optional) icon
+	if (name) {
+		let btn = getButtonFromOption(name);
+		if (btn) src = getLocalSrc(btn);
+	}
+	// if source not found or button name not provided
+	if (!src) {
+		// if shape is not standard
+		if (maker.shape.cur && maker.shape.cur != 'Standard') src = `/bases/palettes_${maker.shape.cur.toLowerCase()}/`;
+		// if shape is standard
+		else src = '/bases/palettes/';
+		
+		// if the palette includes glow and glow is enabled, use a glow base
+		if (palette.glow && glowOn) {
+			if (
+				palette.shadow && shadowOn &&
+				(palette.shadow.length < 4 || palette.shadow[3] > 0)
+			) src += 'Standard_Glow_Shadow.png';
+			else src += 'Standard_Glow.png';
+		}
+		// if no glow needs to be added, use the regular base
+		else src += 'Standard.png';
+	}
+	
+	return src;
 }
 
 // set the base in the canvas
 function setBase(name) {
 	console.log('Updating canvas base area');
 	
-	let src;
-	
-	// if name provided get image source of button with given name and (optional) icon
-	if (name) { var btn = getButtonFromOption(name); if (btn) src = getLocalSrc(btn); }
-	// if source not found or button name not provided
-	if (!src && palette.glow && glowOn) {
-		if (
-			palette.shadow && shadowOn &&
-			(palette.shadow.length < 4 || palette.shadow[3] > 0)
-		) src = '/bases/palettes/Standard_Glow_Shadow.png';
-		else src = '/bases/palettes/Standard_Glow.png';
-	}
-	else if (!src) src = '/bases/palettes/Standard.png';
+	let src = getBaseSrc(name);
 	
 	// create new img element for button
 	var img = new Image();
@@ -369,7 +392,11 @@ function setBase(name) {
 	
 	// draw image when src is loaded
 	img.addEventListener( "load", () => {
-		[[0,0,86,3],[0,3,5,1],[0,4,3,6],[0,10,5,1],[0,11,86,3],[17,3,1,8],[80,0,6,4],[82,4,4,6],[80,10,6,1]].forEach((r) => {
+		let rects;
+		if (maker.shape.cur == "Square") rects = [[0,0,86,3],[0,3,3,8],[17,3,1,8],[82,3,3,8],[0,10,86,4]];
+		else rects = [[0,0,86,3],[0,3,5,1],[0,4,3,6],[0,10,5,1],[0,11,86,3],[17,3,1,8],[80,0,6,4],[82,4,4,6],[80,10,6,1]];
+		
+		rects.forEach((r) => {
 			ctx.clearRect(r[0],r[1],r[2],r[3]);
 			ctx.globalCompositeOperation = "xor";
 			ctx.drawImage(img,r[0],r[1],r[2],r[3],r[0],r[1],r[2],r[3]);
@@ -380,7 +407,7 @@ function setBase(name) {
 		
 		ctx.globalCompositeOperation = "source-over"; // reset composite operation
 		// redraw text after base updates
-		setText(curText);
+		setText(maker.text.cur);
 	}, false, );
 	
 	img.src = src;
@@ -391,7 +418,7 @@ function setIcon(name,set) {
 	if (name) {
 		console.log('Updating canvas icon:',name);
 		
-		if (set != false) curIcon = name;
+		if (set != false) maker.icon.cur = name;
 		
 		// get button with given name and (optional) icon
 		let btn;
@@ -413,7 +440,21 @@ function setIcon(name,set) {
 				
 				clipX = 3; clipY = 4; clipWidth = 14; clipHeight = 6;
 				ctx.drawImage(img,clipX,clipY,clipWidth,clipHeight,clipX,clipY,clipWidth,clipHeight);
+				
+				// if current base shape is square and reference icon is rounded, fill in icon corners
+				if (maker.shape.cur == 'Square') {
+					clipX = 3; clipWidth = 2; clipHeight = 1;
+					// top left corner
+					clipY = 4;
+					ctx.drawImage(img,clipX,clipY,clipWidth,clipHeight,clipX,3,clipWidth,clipHeight);
+					// bottom left corner
+					clipX = 3; clipY = 9; clipWidth = 2; clipHeight = 1;
+					ctx.drawImage(img,clipX,clipY,clipWidth,clipHeight,clipX,10,clipWidth,clipHeight);
+				}
+				
 				updateScaleButton();
+				
+				console.log('Canvas icon updated.');
 			}, false, );
 			
 			img.src = getLocalSrc(btn);
@@ -452,7 +493,7 @@ function setIconSelection(name,update) {
 	
 	// if icon option found in dropdowns
 	if (selOpt) {
-		curIcon = selOpt.value;
+		maker.icon.cur = selOpt.value;
 		if (update) updateButton();
 	
 		// check the radio parent of the selected option
@@ -467,11 +508,12 @@ function setIconSelection(name,update) {
 function setText(name) {
 	console.log('Updating canvas text area');
 	
-	curText = name;
+	maker.text.cur = name;
 	
 	// get button with given name and (optional) icon
 	var btn = getButtonFromOption(name,{altNames:false});
-	// if button found
+	// if usable existing button found, get the text formatting from that button
+	// do not use if forceCustomText enabled
 	if (btn && name && !forceCustomText
 		&& !btn.tags.includes('button base')
 		&& (!btn.palette || btn.palette.toLowerCase() == 'standard')
@@ -486,45 +528,57 @@ function setText(name) {
 		img.addEventListener( "load", () => {
 			let clipWidth, clipHeight, clipX, clipY;
 			
-			clipX = 18; clipY = 3; clipWidth = 62; clipHeight = 8;
-			ctx.drawImage(img,clipX,clipY,clipWidth,clipHeight,clipX,clipY,clipWidth,clipHeight);
-			updateTextColors(20,clipX,clipY,clipWidth,clipHeight);
+			// draw the specified area from the existing button image onto the canvas
+			// replace the colors appropriately for the selected palette
+			function draw(clipX,clipY,clipWidth,clipHeight) {
+				ctx.drawImage(img,clipX,clipY,clipWidth,clipHeight,clipX,clipY,clipWidth,clipHeight);
+				updateTextColors(20,clipX,clipY,clipWidth,clipHeight);
+			}
 			
-			clipX = 18; clipY = 4; clipWidth = 64; clipHeight = 6;
-			ctx.drawImage(img,clipX,clipY,clipWidth,clipHeight,clipX,clipY,clipWidth,clipHeight);
-			updateTextColors(20,clipX,clipY,clipWidth,clipHeight);
+			// if doing a square button, fill the rectangular text area with the base color first to avoid gaps
+			if (maker.shape.cur == "Square") {
+				ctx.fillStyle = colorString(buttonPalettes['Standard'].base);
+				ctx.fillRect(18,3,64,8);
+			}
+			// draw the text area from the existing button image onto the canvas
+			draw(18,3,62,8);
+			draw(18,4,64,6);
+			// if shape is square, update text colors in the remaining gaps
+			if (maker.shape.cur == "Square") {
+				updateTextColors(20,80,3,2,1);
+				updateTextColors(20,80,10,2,1);
+			}
+			
 		}, false, );
 		
 		img.src = getLocalSrc(btn);
 	}
+	// if no existing button found, generate new text
 	else {
 		ctx.fillStyle = colorString(buttonPalettes['Standard'].base);
-		let clipWidth, clipHeight, clipX, clipY;
 		
 		// determine text shadow
 		let sColor;
 		if (textShadowOn && palette.textShadow) sColor = palette.textShadow;
 		
-		clipX = 18; clipY = 3; clipWidth = 62; clipHeight = 8;
-		ctx.fillRect(clipX,clipY,clipWidth,clipHeight);
-		drawSpriteString(ctx,name,clipX+2,clipY,clipX+clipWidth,{
-			style:fontStyle,
-			colors:palette.altColors,
-			textShadow:sColor});
-		// draw regular text
-		updateTextColors(20,clipX,clipY,clipWidth,clipHeight);
+		function draw(clipX,clipY,clipWidth,clipHeight,stringOffsetY) {
+			ctx.fillRect(clipX,clipY,clipWidth,clipHeight);
+			// draw regular text
+			drawSpriteString(ctx,name,clipX+2,clipY+stringOffsetY,clipX+clipWidth,{
+				style:fontStyle,
+				colors:palette.altColors,
+				textShadow:sColor});
+			updateTextColors(20,clipX,clipY,clipWidth,clipHeight);
+		}
 		
-		clipX = 18; clipY = 4; clipWidth = 64; clipHeight = 6;
-		ctx.fillRect(clipX,clipY,clipWidth,clipHeight);
-		// draw regular text
-		drawSpriteString(ctx,name,clipX+2,clipY-1,clipX+clipWidth,{
-			style:fontStyle,
-			colors:palette.altColors,
-			textShadow:sColor});
-		updateTextColors(20,clipX,clipY,clipWidth,clipHeight);
-		
-		showUnsupportedChars(name);
+		if (maker.shape.cur == "Square") { draw(18,3,64,8,0); }
+		else {
+			draw(18,3,62,8,0);
+			draw(18,4,64,6,-1);
+		}
 	}
+	
+	showUnsupportedChars(name);
 }
 
 // set the text in the input box
@@ -617,6 +671,17 @@ function deletePaletteOption(key) {
 	if (document.getElementById(listId)) document.getElementById(listId).remove();
 }
 
+// set button shape to given string
+function setShape(str) {
+	// select option from dropdown if it exists
+	let opt = document.getElementById(`shape-option-${str.toLowerCase()}`);
+	if(opt) opt.selected = true;
+	// set current shape to given string
+	maker.shape.cur = str;
+	// update the button display
+	updateButton();
+}
+
 // set palette to given key in buttonPalettes
 function setPalette(key) {
 	if (buttonPalettes[key]) {
@@ -631,7 +696,7 @@ function setPalette(key) {
 		updateCustomColors();
 		
 		updateButton();
-		if (!curIcon) setIcon(paletteKey + ' Base',false);
+		if (!maker.icon.cur) setIcon(paletteKey + ' Base',false);
 	}
 }
 
@@ -906,7 +971,12 @@ function replaceColorWithImage(targetColor,imageUrl,params) {
 		if (!params.height) params.height = canvas.height;
 		if (!params.composite) params.composite = "source-over";
 	}
-	imageUrl = '/bases/palettes/' + imageUrl;
+	
+	let src = '/bases/palettes';
+	if (maker.shape.cur && maker.shape.cur !== 'Standard') src += '_' + maker.shape.cur.toLowerCase();
+	imageUrl = src + '/' + imageUrl;
+	console.log(imageUrl);
+	
 	if (targetColor.length < 4) targetColor.push(255); // default to opaque if alpha not provided
 	
 	// get image data for selected region
