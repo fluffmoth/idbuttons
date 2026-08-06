@@ -513,8 +513,9 @@ function getHTMLCode(btn) {
 // if no sources, return blank string
 // optional full parameter = whether to get full location url for local sources
 function getSrc(btn,full) {
-	if (btn.postimg && btn.postimg != undefined && btn.postimg != ``) return btn.postimg;
+	if (btn.imgbb && btn.imgbb != undefined && btn.imgbb != ``) return btn.imgbb;
 	else if (btn.imgur && btn.imgur != undefined && btn.imgur != ``) return btn.imgur;
+	else if (btn.postimg && btn.postimg != undefined && btn.postimg != ``) return btn.postimg;
 	else if (btn.src) return getLocalSrc(btn,true);
 	else {
 		return ``;

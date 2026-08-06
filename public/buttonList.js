@@ -5503,6 +5503,7 @@ const heButtonList = [
 		name: `He/Him`, // display name
 		dateAdded: `2024-02-09`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Star_Water.png`, // local image source
+		imgbb: `https://i.ibb.co/Y4x0prjB/He-Him-Star-Water.png`, // imgbb link
 		imgur: `https://i.imgur.com/iT50ETU.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`star`,`blue`,`shape icon`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -5513,6 +5514,7 @@ const heButtonList = [
 		name: `He/Him`, // display name
 		dateAdded: `2024-02-09`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Star_Plague.png`, // local image source
+		imgbb: `https://i.ibb.co/FpBbh6Z/He-Him-Star-Plague.png`, // imgbb link
 		imgur: `https://i.imgur.com/nmPuvKm.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`star`,`red`,`shape icon`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -5523,6 +5525,7 @@ const heButtonList = [
 		name: `He/Him`, // display name
 		dateAdded: `2024-02-09`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Star_Nature.png`, // local image source
+		imgbb: `https://i.ibb.co/Fb6jkmj1/He-Him-Star-Nature.png`, // imgbb link
 		imgur: `https://i.imgur.com/BOM8DOB.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`star`,`green`,`shape icon`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -5533,6 +5536,7 @@ const heButtonList = [
 		name: `He/Him`, // display name
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Demiboy.png`, // local image source
+		imgbb: `https://i.ibb.co/S4mh2BbW/He-Him-Demiboy.png`, // imgbb link
 		imgur: `https://i.imgur.com/arxdbD2.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`demiboy`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -5671,6 +5675,7 @@ const heButtonList = [
 	{
 		name: `He/Him`, // display name
 		src: `/buttons/pronouns/%name_Xiaspec.png`, // local image source
+		imgbb: `https://i.ibb.co/CpxtF1f0/He-Him-Xiaspec.png`, // imgbb link
 		postimg: `https://i.postimg.cc/0jXhkCRg/He-Him-Xiaspec.png`, // postimg link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`xiaspec`,`xenic`,`xenogender`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -5809,6 +5814,7 @@ const sheButtonList = [
 		name: `She/Her`, // display name
 		dateAdded: `2024-02-09`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Star_Light.png`, // local image source
+		imgbb: `https://i.ibb.co/v4TqshCz/She-Her-Star-Light.png`, // imgbb link
 		imgur: `https://i.imgur.com/yd0c8jM.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`star`,`yellow`,`shape icon`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -5819,6 +5825,7 @@ const sheButtonList = [
 		name: `She/Her`, // display name
 		dateAdded: `2024-02-09`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Star_Nature.png`, // local image source
+		imgbb: `https://i.ibb.co/KcVDm8KT/She-Her-Star-Nature.png`, // imgbb link
 		imgur: `https://i.imgur.com/cOKRArT.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`star`,`green`,`shape icon`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -5829,6 +5836,7 @@ const sheButtonList = [
 		name: `She/Her`, // display name
 		dateAdded: `2024-02-09`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Star_Wind.png`, // local image source
+		imgbb: `https://i.ibb.co/ZsD97DS/She-Her-Star-Wind.png`, // imgbb link
 		imgur: `https://i.imgur.com/BPbxEPb.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`star`,`green`,`shape icon`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -5839,6 +5847,7 @@ const sheButtonList = [
 		name: `She/Her`, // display name
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Demigirl.png`, // local image source
+		imgbb: `https://i.ibb.co/mFMB9M1C/She-Her-Demigirl.png`, // imgbb link
 		imgur: `https://i.imgur.com/OPvsslx.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`demigirl`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -6119,6 +6128,7 @@ const theyButtonList = [
 		name: `They/Them`, // display name
 		dateAdded: `2024-02-19`, // date this button was first added to the masterlist
 		//src: `/buttons/pronouns/%name_Tiny_Stars_Plague_Red.png`, // local image source
+		imgbb: `https://i.ibb.co/3GntKWH/They-Them-Tiny-Stars-Plague-Red.png`, // imgbb link
 		postimg: `https://i.postimg.cc/28PX0yzC/They-Them-Tiny-Stars-Plague.png`, // postimg link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`star`,`red`,`shape icon`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -6186,6 +6196,7 @@ const theyButtonList = [
 	
 	{
 		name: `They/Them`, // display name
+		imgbb: `https://i.ibb.co/gZfxYFxs/They-Them-Demiboy.png`, // imgbb link
 		imgur: `https://i.imgur.com/IeOR13H.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`demiboy`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -6671,6 +6682,7 @@ const neoPronounList = [
 		name: `Electroself`, // display name
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Pastel_Purple.png`, // local image source
+		imgbb: `https://i.ibb.co/cKzhqFK6/Electroself-Pastel-Purple.png`, // imgbb link
 		imgur: `https://i.imgur.com/3EbTOR0.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`electro`,`electroself`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -6680,6 +6692,7 @@ const neoPronounList = [
 		name: `Electroself`, // display name
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Electrodeic.png`, // local image source
+		imgbb: `https://i.ibb.co/JFFVscFZ/Electroself-Electrodeic.png`, // imgbb link
 		imgur: `https://i.imgur.com/EVgGrei.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`electro`,`electroself`,`electrodeic`,`gender flag`], // tags for search/filtering
@@ -6690,6 +6703,7 @@ const neoPronounList = [
 		name: `Electroself`, // display name
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Prielectro.png`, // local image source
+		imgbb: `https://i.ibb.co/KpKcrQN0/Electroself-Prielectro.png`, // imgbb link
 		imgur: `https://i.imgur.com/u451t0q.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`electro`,`electroself`,`prielectro`,`gender flag`], // tags for search/filtering
@@ -6700,6 +6714,7 @@ const neoPronounList = [
 		name: `Cat/Catself`, // display name
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Black.png`, // local image source
+		imgbb: `https://i.ibb.co/B5f3W3mm/Cat-Catself-Black.png`, // imgbb link
 		imgur: `https://i.imgur.com/oaPmD49.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`feline`,`cat`,`cats`,`catself`,`color`,`black`], // tags for search/filtering
@@ -6710,6 +6725,7 @@ const neoPronounList = [
 		name: `Cat/Cats`, // display name
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Black.png`, // local image source
+		imgbb: `https://i.ibb.co/jk4R5B6b/Cat-Cats-Black.png`, // imgbb link
 		imgur: `https://i.imgur.com/q38ksEy.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`feline`,`cat`,`cats`,`catself`,`color`,`black`], // tags for search/filtering
@@ -6720,6 +6736,7 @@ const neoPronounList = [
 		name: `Cat/Catself`, // display name
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Catgender.png`, // local image source
+		imgbb: `https://i.ibb.co/hJdZ91LN/Cat-Catself-Catgender.png`, // imgbb link
 		imgur: `https://i.imgur.com/rRBGouz.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`feline`,`cat`,`cats`,`catself`,`catgender`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -6729,6 +6746,7 @@ const neoPronounList = [
 		name: `Cat/Catself`, // display name
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Transgender.png`, // local image source
+		imgbb: `https://i.ibb.co/bjzh0brc/Cat-Catself-Transgender.png`, // imgbb link
 		imgur: `https://i.imgur.com/i8cQD9t.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`feline`,`cat`,`cats`,`catself`,`transgender`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -6738,6 +6756,7 @@ const neoPronounList = [
 		name: `Cat/Catself`, // display name
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Xenogender.png`, // local image source
+		imgbb: `https://i.ibb.co/PG1qgL15/Cat-Catself-Xenogender.png`, // imgbb link
 		imgur: `https://i.imgur.com/ZHpoTsp.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`feline`,`cat`,`cats`,`catself`,`xenogender`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -6746,6 +6765,7 @@ const neoPronounList = [
 	{
 		name: `Any Neopronouns`, // display name
 		src: `/buttons/pronouns/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/5gYNWjV6/Any-Neopronouns.png`, // imgbb link
 		imgur: `https://i.imgur.com/6YtLZau.png`, // imgur link
 		tags: [`pronoun`,`neopronoun`,`any pronoun`,`any pronouns`,`any`,`neopronoun flag`,`pronoun flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -7267,6 +7287,7 @@ const neoPronounList = [
 	{
 		name: `Gor/Gores`, // display name
 		src: `/buttons/pronouns/%name_Red.png`, // local image source
+		imgbb: `https://i.ibb.co/233Xrqkn/Gor-Gores-Red.png`, // imgbb link
 		imgur: `https://i.imgur.com/gREMaby.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`gore`,`gor`,`gores`,`color`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -7282,6 +7303,7 @@ const neoPronounList = [
 	{
 		name: `Howl/Howls`, // display name
 		src: `/buttons/pronouns/%name_Xenogender.png`, // local image source
+		imgbb: `https://i.ibb.co/5h6F8gt4/Howl-Howls-Xenogender.png`, // imgbb link
 		imgur: `https://i.imgur.com/Un20ghC.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`dog`,`canine`,`howl`,`howls`,`xenogender`,`gender flag`], // tags for search/filtering
 		info: `<a href="?tags=pronoun,canine">Canine-related</a> neopronouns`, // optional extra info
@@ -7485,6 +7507,7 @@ const neoPronounList = [
 	{
 		name: `Mew/Mews`, // display name
 		src: `/buttons/pronouns/%name_Xenogender.png`, // local image source
+		imgbb: `https://i.ibb.co/TMYbjLqF/Mew-Mews-Xenogender.png`, // imgbb link
 		imgur: `https://i.imgur.com/NspkjKk.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`cat`,`feline`,`mew`,`mews`,`mewself`,`xenogender`,`gender flag`], // tags for search/filtering
 		info: `<a href="?tags=pronoun,cat">Cat-related</a> neopronouns`, // optional extra info
@@ -7590,6 +7613,7 @@ const neoPronounList = [
 		altNames: [`Neopronoun`], // optional alternate names, for search algorithms
 		alt: `Neopronouns (Neopronoun flag)`,
 		src: `/buttons/pronouns/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/j90z2yFF/Neopronouns.png`, // imgbb link
 		imgur: `https://i.imgur.com/RbkQks3.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`neopronoun flag`,`pronoun flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -7600,6 +7624,7 @@ const neoPronounList = [
 		altNames: [`Neopronoun`], // optional alternate names, for search algorithms
 		alt: `Neopronouns (Neopronoun flag)`,
 		src: `/buttons/pronouns/%name_2.png`, // local image source
+		imgbb: `https://i.ibb.co/Y4dbGKZR/Neopronouns-2.png`, // imgbb link
 		imgur: `https://i.imgur.com/U6S2sqL.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`neopronoun flag`,`pronoun flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -7609,6 +7634,7 @@ const neoPronounList = [
 		name: `Neopronouns`, // display name
 		altNames: [`Neopronoun`], // optional alternate names, for search algorithms
 		src: `/buttons/pronouns/%name_Heart_Shadow.png`, // local image source
+		imgbb: `https://i.ibb.co/V0QW5HFN/Neopronouns-Heart-Shadow.png`, // imgbb link
 		imgur: `https://i.imgur.com/K8HgKno.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`heart`,`purple`], // tags for search/filtering
@@ -7640,6 +7666,7 @@ const neoPronounList = [
 		name: `Kaysh/Kaysh`, // display name
 		dateAdded: `2024-01-27`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Neopronouns.png`, // local image source
+		imgbb: `https://i.ibb.co/0yrRghSF/Kaysh-Kaysh-Neopronouns.png`, // imgbb link
 		imgur: `https://i.imgur.com/SUXp8Gp.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`conlang`,`kaysh`,`star wars`,`mando'a`,`mandalorian`,`neopronoun flag`,`pronoun flag`], // tags for search/filtering
 		info: `Third person singular pronouns in the <a href="?tags=mando'a">Mando'a</a> language from the
@@ -7650,6 +7677,7 @@ const neoPronounList = [
 		name: `Kaysh/Kaysh`, // display name
 		dateAdded: `2024-01-27`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Nonbinary.png`, // local image source
+		imgbb: `https://i.ibb.co/rG797vkW/Kaysh-Kaysh-Nonbinary.png`, // imgbb link
 		imgur: `https://i.imgur.com/3DufIU4.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`conlang`,`kaysh`,`star wars`,`mando'a`,`mandalorian`,`nonbinary`,`gender flag`], // tags for search/filtering
@@ -7661,6 +7689,7 @@ const neoPronounList = [
 		name: `Kaysh/Kaysh`, // display name
 		dateAdded: `2024-01-27`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Transgender.png`, // local image source
+		imgbb: `https://i.ibb.co/TMRGZgJY/Kaysh-Kaysh-Transgender.png`, // imgbb link
 		imgur: `https://i.imgur.com/h8Y6FWG.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`conlang`,`kaysh`,`star wars`,`mando'a`,`mandalorian`,`transgender`,`gender flag`], // tags for search/filtering
 		info: `Third person singular pronouns in the <a href="?tags=mando'a">Mando'a</a> language from the
@@ -7671,6 +7700,7 @@ const neoPronounList = [
 		name: `Kaysh/Kaysh`, // display name
 		dateAdded: `2024-01-27`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Mandalorian.png`, // local image source
+		imgbb: `https://i.ibb.co/NgL3cg0B/Kaysh-Kaysh-Mandalorian.png`, // imgbb link
 		imgur: `https://i.imgur.com/VXHb45r.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`conlang`,`kaysh`,`star wars`,`mando'a`,`mandalorian`], // tags for search/filtering
 		info: `Third person singular pronouns in the <a href="?tags=mando'a">Mando'a</a> language from the
@@ -7681,6 +7711,7 @@ const neoPronounList = [
 		name: `Kaysh/Kaysh`, // display name
 		dateAdded: `2024-01-27`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Lightsabers.png`, // local image source
+		imgbb: `https://i.ibb.co/mrbZBcXh/Kaysh-Kaysh-Lightsabers.png`, // imgbb link
 		imgur: `https://i.imgur.com/lVinVDw.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`conlang`,`kaysh`,`star wars`,`mando'a`,`mandalorian`,`lightsaber`], // tags for search/filtering
@@ -7705,6 +7736,7 @@ const neoPronounList = [
 	{
 		name: `Nya/Nyan`, // display name
 		src: `/buttons/pronouns/%name_Xenogender.png`, // local image source
+		imgbb: `https://i.ibb.co/pvBHXZ5F/Nya-Nyan-Xenogender.png`, // imgbb link
 		imgur: `https://i.imgur.com/pR9S3rT.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`cat`,`feline`,`nya`,`nyan`,`nyanself`,`transgender`,`gender flag`], // tags for search/filtering
 		info: `<a href="?tags=pronoun,cat">Cat-related</a> neopronouns`, // optional extra info
@@ -7884,6 +7916,7 @@ const neoPronounList = [
 	{
 		name: `Purr/Purrs`, // display name
 		src: `/buttons/pronouns/%name_Catgender.png`, // local image source
+		imgbb: `https://i.ibb.co/Fb4GYgqL/Purr-Purrs-Catgender.png`, // imgbb link
 		imgur: `https://i.imgur.com/4OYCpJ4.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`cat`,`feline`,`purr`,`purrs`,`purrself`,`catgender`,`gender flag`], // tags for search/filtering
 		info: `<a href="?tags=pronoun,cat">Cat-related</a> neopronouns`, // optional extra info
@@ -7892,6 +7925,7 @@ const neoPronounList = [
 	{
 		name: `Purr/Purrs`, // display name
 		src: `/buttons/pronouns/%name_Transgender.png`, // local image source
+		imgbb: `https://i.ibb.co/gMN5R35g/Purr-Purrs-Transgender.png`, // imgbb link
 		imgur: `https://i.imgur.com/PwjZxbb.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`cat`,`feline`,`purr`,`purrs`,`purrself`,`transgender`,`gender flag`], // tags for search/filtering
 		info: `<a href="?tags=pronoun,cat">Cat-related</a> neopronouns`, // optional extra info
@@ -8297,6 +8331,7 @@ const neoPronounList = [
 	},
 	{
 		name: `Vam/Vamps`, // display name
+		imgbb: `https://i.ibb.co/WZ87FWJ/Vam-Vamps-Blood.png`, // imgbb link
 		imgur: `https://i.imgur.com/u0ZQQWT.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`vampire`,`vam`,`vamps`,`vampself`,`bat`], // tags for search/filtering
@@ -8357,6 +8392,7 @@ const neoPronounList = [
 	{
 		name: `Void/Voids`, // display name
 		src: `/buttons/pronouns/%name_Transgender.png`, // local image source
+		imgbb: `https://i.ibb.co/ynBYCLbG/Void-Voids-Transgender.png`, // imgbb link
 		imgur: `https://i.imgur.com/wlk9D7k.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`void`,`voids`,`voidself`,`transgender`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -8365,6 +8401,7 @@ const neoPronounList = [
 	{
 		name: `Void/Voids`, // display name
 		src: `/buttons/pronouns/%name_Xenogender.png`, // local image source
+		imgbb: `https://i.ibb.co/rfmvvvkc/Void-Voids-Xenogender.png`, // imgbb link
 		imgur: `https://i.imgur.com/9DI4FeE.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`void`,`voids`,`voidself`,`xenogender`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -9405,6 +9442,7 @@ const mixedPronounList = [
 		name: `He/It`, // display name
 		dateAdded: `2024-02-09`, // date this button was first added to the masterlist
 		src: `/buttons/pronouns/%name_Green.png`, // local image source
+		imgbb: `https://i.ibb.co/YGpwHHt/He-It-Green.png`, // imgbb link
 		imgur: `https://i.imgur.com/BZDB3bS.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`it`,`its`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -9532,6 +9570,7 @@ const mixedPronounList = [
 	{
 		name: `He/She/Sol`, // display name
 		src: `/buttons/pronouns/%name_Starfluid.png`, // local image source
+		imgbb: `https://i.ibb.co/chnGXhg2/He-She-Sol-Starfluid.png`, // imgbb link
 		imgur: `https://i.imgur.com/XWXqhEx.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`neopronoun`,`he`,`him`,`she`,`her`,`sol`,`sols`,`nounself`,`starfluid`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -10282,6 +10321,7 @@ const mixedPronounList = [
 	{
 		name: `They/He/It`, // display name
 		src: `/buttons/pronouns/%name_Genderqueer.png`, // local image source
+		imgbb: `https://i.ibb.co/20nmrk5W/They-He-It-Genderqueer.png`, // imgbb link
 		imgur: `https://i.imgur.com/L7ywnXO.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`they`,`them`,`he`,`him`,`it`,`its`,`genderqueer`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -10381,6 +10421,8 @@ const mixedPronounList = [
 	{
 		name: `He/She/It`, // display name
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
+		src: `/buttons/pronouns/%name_Genderfluid.png`, // local image source
+		imgbb: `https://i.ibb.co/67Z7bX4Q/He-She-It-Genderfluid.png`, // imgbb link
 		imgur: `https://i.imgur.com/rqg0njf.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`neopronoun`,`he`,`him`,`she`,`her`,`it`,`its`,`genderfluid`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -20872,6 +20914,7 @@ const softwareList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/1YnnKL09/Chrome.png`, // imgbb link
 		imgur: `https://i.imgur.com/7W1F2MH.png`, // imgur link
 		postimg: `https://i.postimg.cc/c45nQtBd/Chrome.png`, // postimg link
 		tags: [`interests`,`application`,`browser`,`software`], // tags for search/filtering
@@ -20883,6 +20926,7 @@ const softwareList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/p6Q57dbW/Firefox.png`, // imgbb link
 		imgur: `https://i.imgur.com/ZWbvIUm.png`, // imgur link
 		postimg: `https://i.postimg.cc/28XZ4L7y/Firefox.png`, // postimg link
 		tags: [`interests`,`application`,`software`,`browser`], // tags for search/filtering
@@ -20897,6 +20941,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/Xcc9K18/C.png`, // imgbb link
 		imgur: `https://i.imgur.com/oMnM8EA.png`, // imgur link
 		postimg: `https://i.postimg.cc/RVbHcJL9/C.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
@@ -20909,6 +20954,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/Mkx6BZ96/C.png`, // imgbb link
 		imgur: `https://i.imgur.com/ePIGi03.png`, // imgur link
 		postimg: `https://i.postimg.cc/ncwDv9Gp/C.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
@@ -20920,6 +20966,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/Rp7thxxp/C-Sharp.png`, // imgbb link
 		imgur: `https://i.imgur.com/b6arHJW.png`, // imgur link
 		postimg: `https://i.postimg.cc/15YqpVr9/C_Sharp.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
@@ -20931,9 +20978,10 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/8DXykSPB/CSS3.png`, // imgbb link
 		imgur: `https://i.imgur.com/k6Z0FET.png`, // imgur link
 		postimg: `https://i.postimg.cc/GhSykTxm/CSS3.png`, // postimg link
-		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		tags: [`interests`,`programming`,`coding`,`programming language`,`css`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
 	},
@@ -20942,6 +20990,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/xSNxkZ8T/Erlang.png`, // imgbb link
 		imgur: `https://i.imgur.com/0HMmN2x.png`, // imgur link
 		postimg: `https://i.postimg.cc/4NF9zHQ3/Erlang.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
@@ -20953,6 +21002,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/KctRXFNF/Fortran.png`, // imgbb link
 		imgur: `https://i.imgur.com/zcrIOQo.png`, // imgur link
 		postimg: `https://i.postimg.cc/NfPH12kM/Fortran.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
@@ -20964,6 +21014,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/VphZKTxP/Git.png`, // imgbb link
 		imgur: `https://i.imgur.com/oECqh1h.png`, // imgur link
 		postimg: `https://i.postimg.cc/vHSVWxtc/Git.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`], // tags for search/filtering
@@ -20975,6 +21026,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/NddnXLzW/Game-Maker.png`, // imgbb link
 		imgur: `https://i.imgur.com/YOiSuuj.png`, // imgur link
 		postimg: `https://i.postimg.cc/sD0hpG4B/Game_Maker.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`game dev`,`game development`,`application`,`software`], // tags for search/filtering
@@ -20986,6 +21038,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/jP3xGDbr/Haskell.png`, // imgbb link
 		imgur: `https://i.imgur.com/wFWHww3.png`, // imgur link
 		postimg: `https://i.postimg.cc/nhjQTV3p/Haskell.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
@@ -20997,9 +21050,10 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/3YyRbnWK/HTML5.png`, // imgbb link
 		imgur: `https://i.imgur.com/oRCRaLp.png`, // imgur link
 		postimg: `https://i.postimg.cc/4x7hw4WX/HTML5.png`, // postimg link
-		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
+		tags: [`interests`,`programming`,`coding`,`programming language`,`html`], // tags for search/filtering
 		info: `<a href="?tags=programming language">Programming language</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
 	},
@@ -21008,6 +21062,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/HTLqfFTJ/Java.png`, // imgbb link
 		imgur: `https://i.imgur.com/kIBRUWr.png`, // imgur link
 		postimg: `https://i.postimg.cc/13nNMRvR/Java.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
@@ -21019,6 +21074,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/nqpBkg1P/Java-Script.png`, // imgbb link
 		imgur: `https://i.imgur.com/wZCK2nd.png`, // imgur link
 		postimg: `https://i.postimg.cc/Hkc73W6p/Java_Script.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
@@ -21030,6 +21086,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/5Pbd8TC/GNU-Linux.png`, // imgbb link
 		imgur: `https://i.imgur.com/jpFf9kf.png`, // imgur link
 		postimg: `https://i.postimg.cc/yYrZF3yD/GNU_Linux.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`operating system`], // tags for search/filtering
@@ -21041,6 +21098,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/gMZM6T7t/Lua.png`, // imgbb link
 		imgur: `https://i.imgur.com/8zu2HNU.png`, // imgur link
 		postimg: `https://i.postimg.cc/52YFp9s4/Lua.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
@@ -21052,6 +21110,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/jkrnZhBT/Mac-OS.png`, // imgbb link
 		imgur: `https://i.imgur.com/tO1rcHb.png`, // imgur link
 		postimg: `https://i.postimg.cc/0yMJZ5V2/Mac_OS.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`operating system`,`macintosh`,`apple`], // tags for search/filtering
@@ -21063,6 +21122,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/4nNQPcNc/Node-js.png`, // imgbb link
 		imgur: `https://i.imgur.com/IrEBkLu.png`, // imgur link
 		postimg: `https://i.postimg.cc/4x7hw4W3/Node_js.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`javascript`,`runtime environment`], // tags for search/filtering
@@ -21074,6 +21134,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/TDVyDsDy/Vim-Neovim.png`, // imgbb link
 		imgur: `https://i.imgur.com/8Pyvf5Y.png`, // imgur link
 		postimg: `https://i.postimg.cc/52YFp9sH/Vim_Neovim.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`application`,`software`,`text editor`], // tags for search/filtering
@@ -21085,6 +21146,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/twqFGgjx/PHP.png`, // imgbb link
 		imgur: `https://i.imgur.com/vUJv9Cn.png`, // imgur link
 		postimg: `https://i.postimg.cc/fRt05W8R/PHP.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
@@ -21096,6 +21158,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/Q7sGhWvb/Rust.png`, // imgbb link
 		imgur: `https://i.imgur.com/TtNNcx0.png`, // imgur link
 		postimg: `https://i.postimg.cc/RZ6nGCgF/Rust.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
@@ -21108,6 +21171,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/1JvRgvpP/SQL.png`, // imgbb link
 		imgur: `https://i.imgur.com/zDKm0KR.png`, // imgur link
 		postimg: `https://i.postimg.cc/jSwJvqM2/SQL.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`,`database language`,`database`], // tags for search/filtering
@@ -21119,6 +21183,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/t5KKCB3/Sublime-Text.png`, // imgbb link
 		imgur: `https://i.imgur.com/6wmXvN6.png`, // imgur link
 		postimg: `https://i.postimg.cc/MpMjtZ9X/Sublime_Text.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`application`,`software`,`text editor`], // tags for search/filtering
@@ -21130,6 +21195,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/nM67scJ4/Swift.png`, // imgbb link
 		imgur: `https://i.imgur.com/mh6GOa7.png`, // imgur link
 		postimg: `https://i.postimg.cc/nhjQTV3C/Swift.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`], // tags for search/filtering
@@ -21141,6 +21207,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/QFZ92Dpd/Typescript.png`, // imgbb link
 		imgur: `https://i.imgur.com/OfuDONM.png`, // imgur link
 		postimg: `https://i.postimg.cc/cLg8T1Fv/Typescript.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`,`javascript`], // tags for search/filtering
@@ -21153,6 +21220,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/3yFt9B6S/VSCode.png`, // imgbb link
 		imgur: `https://i.imgur.com/woC0F8K.png`, // imgur link
 		postimg: `https://i.postimg.cc/nhjQTV3j/VSCode.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`editor`], // tags for search/filtering
@@ -21164,6 +21232,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/gFgdG12f/Vue.png`, // imgbb link
 		imgur: `https://i.imgur.com/bk6wpyw.png`, // imgur link
 		postimg: `https://i.postimg.cc/sgQZKfTG/Vue.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`programming language`,`javascript`], // tags for search/filtering
@@ -21175,6 +21244,7 @@ const programmingList = [
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
 		src: `/buttons/interests/programming/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/whKcdPJW/Windows.png`, // imgbb link
 		postimg: `https://i.postimg.cc/qvhCQB1C/Windows.png`, // postimg link
 		tags: [`interests`,`programming`,`coding`,`operating system`,`microsoft`], // tags for search/filtering
 		info: `Microsoft's family of computer <a href="?tags=operating system">operating systems</a>`, // optional extra info
