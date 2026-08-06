@@ -17574,6 +17574,106 @@ const musicList = [
 		tags: [`interests`,`music`,`musical instrument`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Musical</a> <a href="?tags=musical instrument">instrument</a>`, // optional extra info
 		icon: `Music notes` // description of the flag/icon
+	},
+	{
+		name: `Classical`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ZhnO9yr.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`music`,`genre`], // tags for search/filtering
+		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
+		icon: `Music notes` // description of the flag/icon
+	},
+	{
+		name: `Electronic`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/NaGfCgq.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`music`,`genre`], // tags for search/filtering
+		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
+		icon: `Glowing green music notes` // description of the flag/icon
+	},
+	{
+		name: `Emo`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/3U79VnS.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`music`,`genre`,`fashion`,`subculture`], // tags for search/filtering
+		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a> and fashion subculture`, // optional extra info
+		icon: `Dark music notes` // description of the flag/icon
+	},
+	{
+		name: `Folk Punk`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/k19P7h1.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`music`,`genre`,`folk`,`punk`], // tags for search/filtering
+		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
+		icon: `Dark music notes` // description of the flag/icon
+	},
+	{
+		name: `Indie Folk`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/QDBz03v.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`music`,`genre`,`indie`,`folk`], // tags for search/filtering
+		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
+		icon: `Music notes` // description of the flag/icon
+	},
+	{
+		name: `Industrial`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/SZfmfRv.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`music`,`genre`,`electronic`], // tags for search/filtering
+		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
+		icon: `Dark music notes` // description of the flag/icon
+	},
+	{
+		name: `Metalhead`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/mmoRz30.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`music`,`metal`,`heavy metal`,`rock`], // tags for search/filtering
+		info: `Participant in <a href="?tags=interests,music,metal|heavy metal">heavy metal</a> music subculture`, // optional extra info
+		icon: `Dark music notes` // description of the flag/icon
+	},
+	{
+		name: `Midwest Emo`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/PjhDNyG.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`music`,`genre`,`indie`,`emo`,`math rock`,`rock`], // tags for search/filtering
+		info: `<a href="?tags=interests,emo">Emo</a> music subgenre`, // optional extra info
+		icon: `Dark music notes` // description of the flag/icon
+	},
+	{
+		name: `Rock`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/jdiT3bZ.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`music`,`genre`], // tags for search/filtering
+		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
+		icon: `Music notes` // description of the flag/icon
+	},
+	{
+		name: `Trip Hop`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Ab8SxQk.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`music`,`genre`,`hip hop`,`electronic`], // tags for search/filtering
+		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
+		icon: `Music notes` // description of the flag/icon
 	}
 ]
 
@@ -19214,7 +19314,7 @@ const gamesList = [
 	{
 		name: `Dialtown`, // display name
 		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		//src: `/buttons/interests/games/%name.png`, // local image source
+		src: `/buttons/interests/games/%name.png`, // local image source
 		imgur: `https://i.imgur.com/YIgeGTo.png`, // imgur link
 		postimg: ``, // postimg link
 		tags: [`interests`,`fandom`,`game`,`video game`,`dating sim`], // tags for search/filtering
@@ -19298,7 +19398,7 @@ const gamesList = [
 	{
 		name: `Devil May Cry`, // display name
 		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		//src: `/buttons/interests/games/%name.png`, // local image source
+		src: `/buttons/interests/games/%name.png`, // local image source
 		imgur: `https://i.imgur.com/6bnCltc.png`, // imgur link
 		postimg: ``, // postimg link
 		tags: [`interests`,`fandom`,`game`,`video game`,`adventure`,`anime`,`animation`,`television`], // tags for search/filtering
@@ -19310,7 +19410,7 @@ const gamesList = [
 		altNames: [`Devil May Cry`], // optional alternate names, for search algorithms
 		alt: `Devil May Cry`,
 		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		//src: `/buttons/interests/games/%name.png`, // local image source
+		src: `/buttons/interests/games/Devil_May_Cry_alt.png`, // local image source
 		imgur: `https://i.imgur.com/dshZ1UN.png`, // imgur link
 		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
