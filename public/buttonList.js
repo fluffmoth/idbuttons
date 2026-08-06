@@ -3,15 +3,15 @@
 	,
 	{
 		name: ``, // display name
-		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
 		//src: `/buttons/interests/%name.png`, // local image source
 		imgur: ``, // imgur link
 		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`job`], // tags for search/filtering
+		tags: [`aesthetic`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Ammonite` // description of the flag/icon
-	}
+		icon: `` // description of the flag/icon
+	},
 	
 		optional extras: (don't forget to modify commas)
 		
@@ -2950,7 +2950,7 @@ const xenogenderList = [
 		name: `Prigenshin`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Rf3sC3f.png`, // imgur link
-		tags: [`gender`,`xenogender`,`fictigender`,`gamegender`,`genshin`,`prince`,`prince system`], // tags for search/filtering
+		tags: [`gender`,`xenogender`,`fictigender`,`gamegender`,`genshin`,`genshin impact`,`prince`,`prince system`], // tags for search/filtering
 		info: `<a href="?tags=gender,fictigender">Fictigender</a> related to being a Genshin Impact prince
 			(<a href="?tags=gender,prince system">Prince System</a>)`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -2960,7 +2960,7 @@ const xenogenderList = [
 		src: `/buttons/gender/%name_2.png`, // local image source
 		imgur: `https://i.imgur.com/Bb6mW5o.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`gender`,`xenogender`,`fictigender`,`gamegender`,`genshin`,`prince`,`prince system`], // tags for search/filtering
+		tags: [`gender`,`xenogender`,`fictigender`,`gamegender`,`genshin`,`genshin impact`,`prince`,`prince system`], // tags for search/filtering
 		info: `<a href="?tags=gender,fictigender">Fictigender</a> related to being a Genshin Impact prince
 			(<a href="?tags=gender,prince system">Prince System</a>)`, // optional extra info
 		icon: `alt flag` // description of the flag/icon
@@ -2969,7 +2969,7 @@ const xenogenderList = [
 		name: `Pricryo`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `https://i.imgur.com/DHMyUiU.png`, // imgur link
-		tags: [`gender`,`xenogender`,`fictigender`,`gamegender`,`prigenshin`,`genshin`,`prince`,`prince system`], // tags for search/filtering
+		tags: [`gender`,`xenogender`,`fictigender`,`gamegender`,`prigenshin`,`genshin`,`genshin impact`,`prince`,`prince system`], // tags for search/filtering
 		info: `<a href="?tags=gender,prigenshin">Prigenshin</a> gender related to being a prince of the Genshin Impact element cryo
 			(<a href="?tags=gender,prince system">Prince System</a>)`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -2978,7 +2978,7 @@ const xenogenderList = [
 		name: `Prielectro`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `https://i.imgur.com/HSZbLiK.png`, // imgur link
-		tags: [`gender`,`xenogender`,`fictigender`,`gamegender`,`prigenshin`,`genshin`,`prince`,`prince system`], // tags for search/filtering
+		tags: [`gender`,`xenogender`,`fictigender`,`gamegender`,`prigenshin`,`genshin`,`genshin impact`,`prince`,`prince system`], // tags for search/filtering
 		info: `<a href="?tags=gender,prigenshin">Prigenshin</a> gender related to being a prince of the Genshin Impact element electro
 			(<a href="?tags=gender,prince system">Prince System</a>)`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -2988,7 +2988,7 @@ const xenogenderList = [
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `https://i.imgur.com/5MN4wf0.png`, // imgur link
-		tags: [`gender`,`xenogender`,`fictigender`,`gamegender`,`prigenshin`,`genshin`,`deity`], // tags for search/filtering
+		tags: [`gender`,`xenogender`,`fictigender`,`gamegender`,`prigenshin`,`genshin`,`genshin impact`,`deity`], // tags for search/filtering
 		info: `<a href="?tags=gender,fictigender">Fictigender</a> related to Genshin Impact,
 			its electro element, and divinity`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -18889,7 +18889,7 @@ const gamesList = [
 		name: `Overwatch`, // display name
 		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/games/%name.png`, // local image source
+		src: `/buttons/interests/games/%name.png`, // local image source
 		imgur: `https://i.imgur.com/v50Ipgt.png`, // imgur link
 		tags: [`interests`,`fandom`,`game`,`video game`,`fps`,`science fiction`], // tags for search/filtering
 		info: `<a href="?tags=interests,game,fps">FPS</a> <a href="?tags=interests,video game">video game</a>`, // optional extra info
@@ -18899,7 +18899,7 @@ const gamesList = [
 		name: `Hollow Knight`, // display name
 		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/games/%name.png`, // local image source
+		src: `/buttons/interests/games/%name.png`, // local image source
 		imgur: `https://i.imgur.com/PnAMpIx.png`, // imgur link
 		tags: [`interests`,`fandom`,`game`,`video game`,`platformer`,`metroidvania`,`silksong`], // tags for search/filtering
 		info: `<a href="?tags=interests,nintendo">Platformer</a> <a href="?tags=interests,video game">video game</a>`, // optional extra info
@@ -18910,7 +18910,7 @@ const gamesList = [
 		altNames: [`Five Nights at Freddy's`], // optional alternate names, for search algorithms
 		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
 		alt: `%altNames0`,
-		//src: `/buttons/interests/games/%name.png`, // local image source
+		src: `/buttons/interests/games/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Nl7xQPH.png`, // imgur link
 		tags: [`interests`,`fandom`,`game`,`video game`,`horror`,`movie`], // tags for search/filtering
 		info: `<a href="?tags=interests,horror">Horror</a> <a href="?tags=interests,video game">game</a> and media series`, // optional extra info
@@ -18921,7 +18921,7 @@ const gamesList = [
 		altNames: [`Five Nights at Freddy's`], // optional alternate names, for search algorithms
 		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
 		alt: `%altNames0`,
-		//src: `/buttons/interests/games/%name_alt.png`, // local image source
+		src: `/buttons/interests/games/%name_purple.png`, // local image source
 		imgur: `https://i.imgur.com/Y6nir0L.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`game`,`video game`,`horror`,`movie`], // tags for search/filtering
@@ -18932,7 +18932,7 @@ const gamesList = [
 		name: `Subnautica`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/games/%name.png`, // local image source
+		src: `/buttons/interests/games/%name.png`, // local image source
 		imgur: `https://i.imgur.com/6xXOj3v.png`, // imgur link
 		tags: [`interests`,`fandom`,`game`,`video game`,`survival`], // tags for search/filtering
 		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
@@ -18947,6 +18947,376 @@ const gamesList = [
 		tags: [`interests`,`fandom`,`horror`,`movie`], // tags for search/filtering
 		info: `<a href="?tags=interests,horror">Horror</a> <a href="?tags=interests,movie">movie</a> series`, // optional extra info
 		icon: `Jigsaw` // description of the flag/icon
+	},
+	{
+		name: `Genshin Impact`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/hUchsi0.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`,`open world`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game,rpg">RPG</a> <a href="?tags=interests,video game">video game</a> (more Genshin Impact buttons <a href="?tags=genshin impact">here</a>)`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Genshin Impact: Inazuma`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/1M6z8WT.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`genshin impact`], // tags for search/filtering
+		info: `<a href="?tags=genshin impact">Genshin Impact</a> region`, // optional extra info
+		icon: `Inazuma Emblem` // description of the flag/icon
+	},
+	{
+		name: `Genshin Impact: Liyue`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/EjflpCW.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`genshin impact`], // tags for search/filtering
+		info: `<a href="?tags=genshin impact">Genshin Impact</a> region`, // optional extra info
+		icon: `Liyue Emblem` // description of the flag/icon
+	},
+	{
+		name: `Genshin Impact: Mondstadt`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/gzVHUGT.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`genshin impact`], // tags for search/filtering
+		info: `<a href="?tags=genshin impact">Genshin Impact</a> region`, // optional extra info
+		icon: `Mondstadt Emblem` // description of the flag/icon
+	},
+	{
+		name: `Genshin Impact: Snezhnaya`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/OFQKPZ9.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`genshin impact`], // tags for search/filtering
+		info: `<a href="?tags=genshin impact">Genshin Impact</a> region`, // optional extra info
+		icon: `Snezhnaya Emblem` // description of the flag/icon
+	},
+	{
+		name: `Genshin Impact: Sumeru`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/11JeShx.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`genshin impact`], // tags for search/filtering
+		info: `<a href="?tags=genshin impact">Genshin Impact</a> region`, // optional extra info
+		icon: `Sumeru Emblem` // description of the flag/icon
+	},
+	{
+		name: `Idol Hell`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/5Tw56Ex.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`bullet hell`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Inscryption`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/6vXRkBW.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`roguelike`,`deck builder`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Legend of Zelda`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/BL0dT4x.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`,`zelda`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `Triforce icon` // description of the flag/icon
+	},
+	{
+		name: `LOZ`, // display name
+		altNames: [`Legend of Zelda`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/Legend_of_Zelda_%name.png`, // local image source
+		imgur: `https://i.imgur.com/MwkWoMQ.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`,`zelda`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `Triforce icon` // description of the flag/icon
+	},
+	{
+		name: `Zelda`, // display name
+		altNames: [`Legend of Zelda`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/Legend_of_Zelda_%name.png`, // local image source
+		imgur: `https://i.imgur.com/aF5B3s7.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`,`zelda`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `Triforce icon` // description of the flag/icon
+	},
+	{
+		name: `Splatoon`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/wthFnM3.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`nintendo`], // tags for search/filtering
+		info: `<a href="?tags=interests,nintendo">Nintendo</a> <a href="?tags=interests,video game">video game</a>`, // optional extra info
+		icon: `Inkling` // description of the flag/icon
+	},
+	{
+		name: `Splatoon`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name_octo.png`, // local image source
+		imgur: `https://i.imgur.com/JMBy38q.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`nintendo`], // tags for search/filtering
+		info: `<a href="?tags=interests,nintendo">Nintendo</a> <a href="?tags=interests,video game">video game</a>`, // optional extra info
+		icon: `Octoling` // description of the flag/icon
+	},
+	{
+		name: `Spore`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/3tkrPue.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Stardew Valley`, // display name
+		altNames: [`Stardew`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/4SVfFPD.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `Stardew Valley chicken` // description of the flag/icon
+	},
+	{
+		name: `Destiny`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/aUzL2Bv.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`shooter`,`fps`,`destiny game`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a> (more Destiny buttons <a href="?tags=destiny game">here</a>)`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Destiny`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name_dark.png`, // local image source
+		imgur: `https://i.imgur.com/cv7JulL.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`shooter`,`fps`,`destiny game`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a> (more Destiny buttons <a href="?tags=destiny game">here</a>)`, // optional extra info
+		icon: `logo (dark)` // description of the flag/icon
+	},
+	{
+		name: `Destiny: Hunter`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/OrsulnO.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`destiny game`,`hunter`], // tags for search/filtering
+		info: `<a href="?tags=destiny game">Destiny</a> class`, // optional extra info
+		icon: `Destiny logo (red)` // description of the flag/icon
+	},
+	{
+		name: `Destiny: Titan`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/x0U9Sh8.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`destiny game`,`hunter`], // tags for search/filtering
+		info: `<a href="?tags=destiny game">Destiny</a> class`, // optional extra info
+		icon: `Destiny logo (orange)` // description of the flag/icon
+	},
+	{
+		name: `Destiny: Warlock`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/hP4kVRf.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`destiny game`,`hunter`], // tags for search/filtering
+		info: `<a href="?tags=destiny game">Destiny</a> class`, // optional extra info
+		icon: `Destiny logo (green)` // description of the flag/icon
+	},
+	{
+		name: `Don't Starve`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/hBzaYAj.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`survival`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Don't Starve`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name_torch.png`, // local image source
+		imgur: `https://i.imgur.com/7T2NLyg.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`survival`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `Torch` // description of the flag/icon
+	},
+	{
+		name: `Elden Ring`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/iR2WNmx.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Fallen London`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/tE0IdPc.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`browser game`], // tags for search/filtering
+		info: `<a href="?tags=interests,browser game">Browser-based</a> <a href="?tags=interests,video game">video game</a>`, // optional extra info
+		icon: `Black candle` // description of the flag/icon
+	},
+	{
+		name: `Fable`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/3Kueyts.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `Crown` // description of the flag/icon
+	},
+	{
+		name: `Dialtown`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/YIgeGTo.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`dating sim`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a> phone <a href="?tags=interests,game,dating sim">dating sim</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Digimon`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/cjVsXOX.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`rpg`,`tcg`,`card game`,`movie`,`television`,`animation`,`anime`], // tags for search/filtering
+		info: `<a href="?tags=interests,television">TV</a>, <a href="?tags=interests,video game">video game</a>, and <a href="?tags=interests,tcg">TCG</a> series`, // optional extra info
+		icon: `Digivice` // description of the flag/icon
+	},
+	{
+		name: `Sonic`, // display name
+		altNames: [`Sonic the Hedgehog`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Ut9RRot.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`platformer`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a> series`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Pathfinder`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/gn3taZc.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`ttrpg`,`tabletop`], // tags for search/filtering
+		info: `<a href="?tags=interests,ttrpg">TTRPG</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Phasmophobia`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/hCo9rA5.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`horror`], // tags for search/filtering
+		info: `<a href="?tags=interests,horror">Horror</a> <a href="?tags=interests,video game">video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Phasmophobia`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name_ghost.png`, // local image source
+		imgur: `https://i.imgur.com/EvuXlIm.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`horror`], // tags for search/filtering
+		info: `<a href="?tags=interests,horror">Horror</a> <a href="?tags=interests,video game">video game</a>`, // optional extra info
+		icon: `Ghost` // description of the flag/icon
+	},
+	{
+		name: `Phasmo`, // display name
+		altNames: [`Phasmophobia`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/Phasmophobia_ghost_alt.png`, // local image source
+		imgur: `https://i.imgur.com/nLg35o4.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`horror`], // tags for search/filtering
+		info: `<a href="?tags=interests,horror">Horror</a> <a href="?tags=interests,video game">video game</a>`, // optional extra info
+		icon: `Ghost` // description of the flag/icon
+	},
+	{
+		name: `Portal`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/JR7ZBLT.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`platformer`,`puzzle`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Devil May Cry`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/6bnCltc.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`fandom`,`game`,`video game`,`adventure`,`anime`,`animation`,`television`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a> and <a href="?tags=interests,television">TV</a> series`, // optional extra info
+		icon: `DMC5 logo` // description of the flag/icon
+	},
+	{
+		name: `DMC`, // display name
+		altNames: [`Devil May Cry`], // optional alternate names, for search algorithms
+		alt: `Devil May Cry`,
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		//src: `/buttons/interests/games/%name.png`, // local image source
+		imgur: `https://i.imgur.com/dshZ1UN.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`game`,`video game`,`adventure`,`anime`,`animation`,`television`], // tags for search/filtering
+		info: `<a href="?tags=interests,devil may cry">Devil May Cry</a> (<a href="?tags=interests,video game">video game</a> and <a href="?tags=interests,television">TV</a> series)`, // optional extra info
+		icon: `DMC5 logo` // description of the flag/icon
 	}
 ]
 
@@ -18956,6 +19326,7 @@ const homestuckList = [
 		alt: `%name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/xGX9zKi.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`interests`,`fandom`,`comic`,`webcomic`], // tags for search/filtering
 		info: `<a href="?tags=interests,webcomic">Webcomic</a><br>
 			more buttons:
@@ -18969,6 +19340,7 @@ const homestuckList = [
 		alt: `%name`,
 		src: `/buttons/interests/homestuck/%name_spiral.png`, // local image source
 		imgur: `https://i.imgur.com/khqUCfF.png`, // imgur link
+		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`comic`,`webcomic`], // tags for search/filtering
 		info: `<a href="?tags=interests,webcomic">Webcomic</a><br>
@@ -18983,6 +19355,7 @@ const homestuckList = [
 		alt: `%name`,
 		src: `/buttons/interests/homestuck/%name_arrow.png`, // local image source
 		imgur: `https://i.imgur.com/oV4Dk17.png`, // imgur link
+		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`comic`,`webcomic`], // tags for search/filtering
 		info: `<a href="?tags=interests,webcomic">Webcomic</a><br>
@@ -18994,30 +19367,30 @@ const homestuckList = [
 	},
 	{
 		name: `Lowblood`, // display name
-		altNames: [`Lowblood`], // optional alternate names, for search algorithms
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/90Bne4Q.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
 		icon: `Hemospectrum Lowbloods` // description of the flag/icon
 	},
 	{
 		name: `Highblood`, // display name
-		altNames: [`Highblood`], // optional alternate names, for search algorithms
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/XNuIOb4.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
 		icon: `Hemospectrum Highbloods` // description of the flag/icon
 	},
 	{
 		name: `Seadweller`, // display name
-		altNames: [`Seadweller`], // optional alternate names, for search algorithms
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Pgza6CV.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
 		icon: `Hemospectrum fuchsia/violet` // description of the flag/icon
@@ -19028,6 +19401,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/V0AB2zV.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
 		icon: `Hemospectrum star` // description of the flag/icon
@@ -19038,6 +19412,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/WQD8pVM.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
 		icon: `Hemospectrum star` // description of the flag/icon
@@ -19048,6 +19423,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/yS4smQr.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
 		icon: `Hemospectrum rust` // description of the flag/icon
@@ -19058,6 +19434,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/WSITmww.png`, // imgur link
+		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
@@ -19069,6 +19446,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/LjIBUyK.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
 		icon: `Hemospectrum bronze` // description of the flag/icon
@@ -19079,6 +19457,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/lsxBNaE.png`, // imgur link
+		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
@@ -19090,6 +19469,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/3xhNojt.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
 		icon: `Hemospectrum gold` // description of the flag/icon
@@ -19100,6 +19480,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/hXmK7Q4.png`, // imgur link
+		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
@@ -19111,6 +19492,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/YSzj7vC.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
 		icon: `Hemospectrum lime` // description of the flag/icon
@@ -19121,6 +19503,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/OuGYfwM.png`, // imgur link
+		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`homestuck`,`hemospectrum`,`mutant`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
@@ -19132,6 +19515,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/k9Rf9aq.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
 		icon: `Hemospectrum olive` // description of the flag/icon
@@ -19142,6 +19526,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/LRtjzH4.png`, // imgur link
+		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
@@ -19153,6 +19538,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/D3b79hf.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
 		icon: `Hemospectrum jade` // description of the flag/icon
@@ -19163,6 +19549,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/mOf4FSg.png`, // imgur link
+		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
@@ -19174,6 +19561,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/eQVo1Rp.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
 		icon: `Hemospectrum teal` // description of the flag/icon
@@ -19184,6 +19572,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/9MmlExk.png`, // imgur link
+		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
@@ -19195,6 +19584,7 @@ const homestuckList = [
 		alt: `Homestuck Hemospectrum: %name`,
 		src: `/buttons/interests/homestuck/%name.png`, // local image source
 		imgur: `https://i.imgur.com/u7IX0uo.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`homestuck`,`hemospectrum`,`blood color`], // tags for search/filtering
 		info: `<a href="?tags=homestuck">Homestuck</a> troll <a href="?tags=homestuck,hemospectrum">hemospectrum</a> blood color`, // optional extra info
 		icon: `Hemospectrum blue` // description of the flag/icon
@@ -19821,9 +20211,41 @@ const finalFantasyList = [
 
 const subcultureList = [
 	{
+		name: `Grunge`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name_pin.png`, // local image source
+		imgur: `https://i.imgur.com/42Kv5Fg.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`aesthetic`,`music`,`genre`,`rock`,`fashion`,`subculture`], // tags for search/filtering
+		info: `Alternative rock genre and subculture`, // optional extra info
+		icon: `Safety pin` // description of the flag/icon
+	},
+	{
+		name: `Grunge`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/YeJCScR.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`aesthetic`,`music`,`genre`,`rock`,`fashion`,`subculture`], // tags for search/filtering
+		info: `Alternative rock genre and subculture`, // optional extra info
+		icon: `Vinyl record` // description of the flag/icon
+	},
+	{
+		name: `Punk`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/interests/music/%name.png`, // local image source
+		imgur: `https://i.imgur.com/GW180jv.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`interests`,`aesthetic`,`music`,`genre`,`rock`,`fashion`,`subculture`], // tags for search/filtering
+		info: `Rock music genre and subculture`, // optional extra info
+		icon: `Safety pin` // description of the flag/icon
+	},
+	{
 		name: `Goth`, // display name
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		imgur: `https://i.imgur.com/Pn33kaF.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`interests`,`music`,`genre`,`subculture`,`fashion`,`aesthetic`], // tags for search/filtering
 		info: `Music/fashion <a href="?tags=subculture">subculture</a>`, // optional extra info
 		icon: `Bat` // description of the flag/icon
@@ -19833,6 +20255,7 @@ const subcultureList = [
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		alt: `%name (music notes)`,
 		imgur: `https://i.imgur.com/BbPx2ym.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`interests`,`music`,`genre`,`subculture`,`fashion`,`aesthetic`], // tags for search/filtering
 		info: `Music/fashion <a href="?tags=subculture">subculture</a>`, // optional extra info
 		icon: `Dark music notes` // description of the flag/icon
@@ -19842,6 +20265,7 @@ const subcultureList = [
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		alt: `Goth: %name`,
 		imgur: `https://i.imgur.com/907eP2u.png`, // imgur link
+		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`subculture`,`aesthetic`,`goth`], // tags for search/filtering
 		info: `<a href="?tags=goth">Goth</a> term, generally refers to young people who are new to the subculture`, // optional extra info
@@ -19853,9 +20277,20 @@ const subcultureList = [
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		alt: `%name (%altNames0)`,
 		imgur: `https://i.imgur.com/KLFk3KG.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`subculture`,`aesthetic`,`rave`,`edm`,`kandi`], // tags for search/filtering
 		info: `Peace Love Unity Respect, set of principles associated with the <a href="?tags=rave|EDM">rave/EDM</a> <a href="?tags=subculture">subculture</a>`, // optional extra info
 		icon: `Sparkle heart rainbow` // description of the flag/icon
+	},
+	{
+		name: `Kandi Kid`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/LCAWWbJ.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`subculture`,`rave`,`edm`,`kandi`,`bracelet`,`jewelry`], // tags for search/filtering
+		info: `Participant in the <a href="?tags=rave|EDM">rave/EDM</a> <a href="?tags=subculture">subculture</a> tradition of making and exchanging handmade beaded jewelry.`, // optional extra info
+		icon: `Rainbow gradient` // description of the flag/icon
 	}
 ]
 
@@ -19867,6 +20302,7 @@ const aestheticList = [
 		alt: `%name`,
 		//src: `/buttons/aesthetic/%name.png`, // local image source
 		imgur: `https://i.imgur.com/co3WWXY.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`aesthetic`,`season`,`seasonal`,`autumn`,`fall`], // tags for search/filtering
 		info: `Autumn season <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
 		icon: `Tea` // description of the flag/icon
@@ -19877,6 +20313,7 @@ const aestheticList = [
 		alt: `%name`,
 		//src: `/buttons/aesthetic/%name.png`, // local image source
 		imgur: `https://i.imgur.com/3HtkeUW.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`aesthetic`,`barbie`], // tags for search/filtering
 		info: `Barbie <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
 		icon: `Pink gradient` // description of the flag/icon
@@ -19887,6 +20324,7 @@ const aestheticList = [
 		alt: `%name`,
 		//src: `/buttons/aesthetic/%name.png`, // local image source
 		imgur: `https://i.imgur.com/nW9hUMw.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`aesthetic`,`city`,`metropolitan`,`urban`], // tags for search/filtering
 		info: `City <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
 		icon: `City skyline` // description of the flag/icon
@@ -19897,6 +20335,7 @@ const aestheticList = [
 		alt: `%name`,
 		//src: `/buttons/aesthetic/%name.png`, // local image source
 		imgur: `https://i.imgur.com/5x3AjhK.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`aesthetic`,`clown`,`clowns`,`circus`], // tags for search/filtering
 		info: `Clown <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
 		icon: `Clown nose` // description of the flag/icon
@@ -19907,6 +20346,7 @@ const aestheticList = [
 		alt: `%name`,
 		//src: `/buttons/aesthetic/%name.png`, // local image source
 		imgur: `https://i.imgur.com/40lq9We.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`aesthetic`,`crow`,`raven`,`bird`,`avian`,`birds`,`corvid`,`corvids`], // tags for search/filtering
 		info: `Corvid (crow/raven/etc) <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
 		icon: `Crow` // description of the flag/icon
@@ -19917,6 +20357,7 @@ const aestheticList = [
 		alt: `%name`,
 		//src: `/buttons/aesthetic/%name.png`, // local image source
 		imgur: `https://i.imgur.com/qGabqd5.png`, // imgur link
+		postimg: ``, // postimg link
 		tags: [`aesthetic`,`cottage`], // tags for search/filtering
 		info: `Idealized rural <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
 		icon: `Pastel teapot` // description of the flag/icon
@@ -19927,6 +20368,7 @@ const aestheticList = [
 		alt: `%name`,
 		//src: `/buttons/aesthetic/%name.png`, // local image source
 		imgur: `https://i.imgur.com/ua3gjjt.png`, // imgur link
+		postimg: ``, // postimg link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`aesthetic`,`cowboy`,`cowgirl`,`cowhand`,`western`], // tags for search/filtering
 		info: `Cowboy <a href="?tags=aesthetic">aesthetic</a>`, // optional extra info
@@ -20161,7 +20603,7 @@ const aestheticList = [
 		alt: `%name`,
 		src: `/buttons/aesthetic/%name.png`, // local image source
 		imgur: `https://i.imgur.com/TF48zBk.png`, // imgur link
-		tags: [`aesthetic`], // tags for search/filtering
+		tags: [`aesthetic`,`grunge`], // tags for search/filtering
 		info: `<a href="?tags=aesthetic">Aesthetic</a> combining grunge elements and overgrown forests/jungles`, // optional extra info
 		icon: `Dark green foliage` // description of the flag/icon
 	},
@@ -20173,7 +20615,7 @@ const aestheticList = [
 		src: `/buttons/aesthetic/%name.png`, // local image source
 		imgur: `https://i.imgur.com/M2CpeZd.png`, // imgur link
 		tags: [`aesthetic`], // tags for search/filtering
-		info: `<a href="?tags=aesthetic">Aesthetic</a> associated with otherworldly magic,inspired by fantasy media created for young girls`, // optional extra info
+		info: `<a href="?tags=aesthetic">Aesthetic</a> associated with otherworldly magic, inspired by fantasy media created for young girls`, // optional extra info
 		icon: `` // description of the flag/icon
 	},
 	{
@@ -20216,6 +20658,100 @@ const aestheticList = [
 		tags: [`aesthetic`,`gore`,`blood`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Blood drop` // description of the flag/icon
+	},	
+	{
+		name: `Gremlincore`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/GpIVvm1.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`aesthetic`,`core`,`gremlin`,`goblin`,`goblincore`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> based on gremlins/goblins and the appreciation of aspects of nature not typically regarded as beautiful`, // optional extra info
+		icon: `Mushrooms` // description of the flag/icon
+	},
+	{
+		name: `Fairy Grunge`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/FlcwNZz.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`aesthetic`,`grunge`,`fairycore`,`fairy`,`grunge fairycore`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> mixing <a href="?tags=fairycore">fairycore</a> and <a href="?tags=grunge">grunge</a>`, // optional extra info
+		icon: `Dark green fairy wings` // description of the flag/icon
+	},
+	{
+		name: `Grunge Fairycore`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/gZ4zNG8.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`aesthetic`,`core`,`grunge`,`fairycore`,`fairy`,`fairy grunge`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> mixing <a href="?tags=fairycore">fairycore</a> and <a href="?tags=grunge">grunge</a> (<a href="?tags=fairy grunge">fairy grunge</a>)`, // optional extra info
+		icon: `Dark green fairy wings` // description of the flag/icon
+	},
+	{
+		name: `Halloweencore`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/aesthetic/%name_bat.png`, // local image source
+		imgur: `https://i.imgur.com/8cMg1Xq.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`aesthetic`,`core`,`holiday`,`halloween`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> related to <a href="?tags=halloween">Halloween</a>`, // optional extra info
+		icon: `Orange bat` // description of the flag/icon
+	},
+	{
+		name: `Halloweencore`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/aesthetic/%name_face.png`, // local image source
+		imgur: `https://i.imgur.com/vbHqVVC.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`aesthetic`,`core`,`holiday`,`halloween`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> related to <a href="?tags=halloween">Halloween</a>`, // optional extra info
+		icon: `Jack-o-lantern face` // description of the flag/icon
+	},
+	{
+		name: `Halloweencore`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/aesthetic/%name_pumpkins_dark.png`, // local image source
+		imgur: `https://i.imgur.com/PvkiWQ4.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`aesthetic`,`core`,`holiday`,`halloween`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> related to <a href="?tags=halloween">Halloween</a>`, // optional extra info
+		icon: `Pumpkins (dark background)` // description of the flag/icon
+	},
+	{
+		name: `Halloweencore`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/aesthetic/%name_pumpkins.png`, // local image source
+		imgur: `https://i.imgur.com/hKDOVZl.png`, // imgur link
+		postimg: ``, // postimg link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`aesthetic`,`core`,`holiday`,`halloween`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> related to <a href="?tags=halloween">Halloween</a>`, // optional extra info
+		icon: `Pumpkins` // description of the flag/icon
+	},
+	{
+		name: `Honeycore`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/pPbISNY.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`aesthetic`,`core`,`honey`,`bee`,`bees`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> related to rural agricultural imagery and values, with a focus on honey and bees`, // optional extra info
+		icon: `Honeycomb` // description of the flag/icon
+	},
+	{
+		name: `Icepunk`, // display name
+		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
+		src: `/buttons/aesthetic/%name.png`, // local image source
+		imgur: `https://i.imgur.com/3UId8ud.png`, // imgur link
+		postimg: ``, // postimg link
+		tags: [`aesthetic`,`music`,`genre`,`ice age`,`coldrave`,`steampunk`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> and <a href="?tags=music,genre">music microgenre</a> meme relating to Ice Age aesthetics`, // optional extra info
+		icon: `Icicles` // description of the flag/icon
 	}
 ]
 
