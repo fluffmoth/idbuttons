@@ -5,7 +5,8 @@
 		name: ``, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
-		imgur: `https://i.imgur.com/pbtVder.png`, // imgur link
+		imgbb: ``, // imgbb link
+		imgur: ``, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`generation`], // tags for search/filtering
 		info: subspeciesData.binaryBeasts.info, // optional extra info
@@ -12613,6 +12614,8 @@ const aroAceList = [
 	},
 	{
 		name: `Aro Pan`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/MybSVFnH/Aro-Pan.png`, // imgbb link
 		imgur: `https://i.imgur.com/bybFVO1.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`a-spec`,`split attraction model`,`aro spectrum`,`aromantic`,`aro`,`pan`], // tags for search/filtering
@@ -12621,10 +12624,12 @@ const aroAceList = [
 	},
 	{
 		name: `Aro Pan`, // display name
-		imgur: `https://i.imgur.com/klcxdUI.png`, // imgur link
+		src: `/buttons/orientation/%name_alt.png`, // local image source
+		imgbb: `https://i.ibb.co/r2cNK1Pr/Aro-Pan-alt.png`, // imgbb link
+		imgur: `https://i.imgur.com/1RK6bjG.png`, // imgur link
 		tags: [`orientation`,`a-spec`,`split attraction model`,`aro spectrum`,`aromantic`,`aro`,`pan`], // tags for search/filtering
 		info: `Aromantic and pan`, // optional extra info
-		icon: `flags (split)` // description of the flag/icon
+		icon: `flags (stripe)` // description of the flag/icon
 	},
 	{
 		name: `Arospec`, // display name
