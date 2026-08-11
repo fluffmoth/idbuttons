@@ -525,6 +525,8 @@ const genderButtonList = [
 	},
 	{
 		name: `NB Girl`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/TMVvG0FJ/NB-Girl.png`, // imgbb link
 		imgur: `https://i.imgur.com/ZQ3o18X.png`, // imgur link
 		tags: [`gender`,`nonbinary`,`nb`,`nonbinary girl`,`girl`,`female`,`nonbinary female`], // tags for search/filtering
 		info: `Nonbinary girl`, // optional extra info
@@ -532,6 +534,8 @@ const genderButtonList = [
 	},
 	{
 		name: `NB Woman`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/LG65YwR/NB-Woman.png`, // imgbb link
 		imgur: `https://i.imgur.com/E7XeyWd.png`, // imgur link
 		tags: [`gender`,`nonbinary`,`nb`,`nb woman`,`woman`,`female`,`nonbinary female`], // tags for search/filtering
 		info: `Nonbinary woman`, // optional extra info
@@ -539,6 +543,8 @@ const genderButtonList = [
 	},
 	{
 		name: `NB Man`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/v42CzqrN/NB-Man.png`, // imgbb link
 		imgur: `https://i.imgur.com/pJrQozw.png`, // imgur link
 		tags: [`gender`,`nonbinary`,`nb`,`nonbinary man`,`man`,`male`,`nonbinary male`], // tags for search/filtering
 		info: `Nonbinary man`, // optional extra info
@@ -591,6 +597,8 @@ const genderButtonList = [
 	{
 		name: `Nonbinary`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/d0mjXzMj/Nonbinary.png`, // imgbb link
+		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `https://i.imgur.com/tn0RSo5.png`, // imgur link
 		tags: [`gender`], // tags for search/filtering
 		info: `Any gender that does not strictly ascribe to binary genders/systems`, // optional extra info
@@ -598,6 +606,8 @@ const genderButtonList = [
 	},
 	{
 		name: `Nonbinary`, // display name
+		src: `/buttons/gender/%name_trans.png`, // local image source
+		imgbb: `https://i.ibb.co/svYvF3kf/Nonbinary-trans.png`, // imgbb link
 		imgur: `https://i.imgur.com/2CnjrDd.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`enby`], // tags for search/filtering
@@ -657,6 +667,8 @@ const genderButtonList = [
 	},
 	{
 		name: `Trans`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/6R2ZC4dH/Trans.png`, // imgbb link
 		imgur: `https://i.imgur.com/9hqcHsy.png`, // imgur link
 		tags: [`gender`,`transgender`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -804,6 +816,8 @@ const genderButtonList = [
 	},
 	{
 		name: `Transgender`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/zVxhjQ5t/Transgender.png`, // imgbb link
 		imgur: `https://i.imgur.com/10ttDG2.png`, // imgur link
 		tags: [`gender`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -1727,20 +1741,27 @@ const genderButtonList = [
 	},
 	{
 		name: `Queer`, // display name
-		imgur: `https://i.imgur.com/eswSnrS.png`, // imgur link
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/fdzGDZxk/Queer.png`, // imgbb link
+		imgur: `https://i.imgur.com/rog4AZi.png`, // imgur link
 		tags: [`gender`,`orientation`], // tags for search/filtering
 		info: `Anti-conformity identity and movement for people who are not cishet`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Queer`, // display name
+		src: `/buttons/orientation/%name_chevron.png`, // local image source
+		imgbb: `https://i.ibb.co/6c1KZ4QZ/Queer-chevron.png`, // imgbb link
 		imgur: `https://i.imgur.com/9R2Unq1.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`orientation`], // tags for search/filtering
 		info: `Anti-conformity identity and movement for people who are not cishet`, // optional extra info
 		icon: `Chevron flag` // description of the flag/icon
 	},
 	{
 		name: `Queer`, // display name
+		src: `/buttons/orientation/%name_pastel_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/pjWSGzCk/Queer-pastel-rainbow.png`, // imgbb link
 		imgur: `https://i.imgur.com/JNAfoEf.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`orientation`], // tags for search/filtering
@@ -1750,6 +1771,7 @@ const genderButtonList = [
 	{
 		name: `Queer`, // display name
 		src: `/buttons/orientation/%name_Rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/qFXfMPWQ/Queer-Rainbow.png`, // imgbb link
 		imgur: `https://i.imgur.com/MzX3ELB.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`orientation`], // tags for search/filtering
@@ -10745,6 +10767,8 @@ const FINList = [
 	},
 	{
 		name: `Lesbian`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/23ZqbpKv/Lesbian.png`, // imgbb link
 		imgur: `https://i.imgur.com/5iXiC8z.png`, // imgur link
 		tags: [`orientation`,`FIN attraction`,`female`,`woman`,`girl`,`wlw`,`sapphic`,`lesbian`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -10753,6 +10777,7 @@ const FINList = [
 	{
 		name: `Lesbian`, // display name
 		src: `/buttons/orientation/%name_Rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/zyZVZFK/Lesbian-Rainbow.png`, // imgbb link
 		imgur: `https://i.imgur.com/2z1AtLF.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`FIN attraction`,`female`,`woman`,`girl`,`wlw`,`sapphic`,`lesbian`,`rainbow`], // tags for search/filtering
