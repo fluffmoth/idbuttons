@@ -132,7 +132,7 @@ const genderButtonList = [
 	{
 		name: `Arogender`, // display name
 		imgur: `https://i.imgur.com/UTDCqkh.png`, // imgur link
-		tags: [`gender`,`aromantic`,`aro-spec`,`aro`,`orientation gender`], // tags for search/filtering
+		tags: [`gender`,`aromantic`,`aro-spec`,`a-spec`,`aro`,`orientation gender`], // tags for search/filtering
 		info: `Gender related to being aromantic or aro-spec`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
@@ -12042,7 +12042,7 @@ const aroAceList = [
 		src: `/buttons/orientation/%name_2.png`, // local image source
 		imgur: `https://i.imgur.com/MD4hz5S.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`aro spectrum`,`asexual`,`ace`,`aromantic`,`aro`,`demi`,`demisexual`,`demiromantic`,`pan`,`pansexual`,`panromantic`,`split attraction model`], // tags for search/filtering
+		tags: [`orientation`,`a-spec`,`ace spectrum`,`aro spectrum`,`asexual`,`ace`,`aromantic`,`aro`,`demi`,`demisexual`,`demiromantic`,`pan`,`pansexual`,`panromantic`,`m-spec`,`split attraction model`], // tags for search/filtering
 		info: `Demisexual and/or demiromantic and <a href="?tags=orientation,pan">pan</a>`, // optional extra info
 		icon: `alt flag` // description of the flag/icon
 	},
@@ -12894,7 +12894,7 @@ const aroAceList = [
 		name: `Pan Ace`, // display name
 		altNames: [`Asexual Panromantic`], // optional alternate names, for search algorithms
 		imgur: `https://i.imgur.com/nv4LFb6.png`, // imgur link
-		tags: [`orientation`,`a-spec`,`split attraction model`,`ace spectrum`,`asexual`,`ace`,`pan`,`panromantic`], // tags for search/filtering
+		tags: [`orientation`,`a-spec`,`m-spec`,`split attraction model`,`ace spectrum`,`asexual`,`ace`,`pan`,`panromantic`], // tags for search/filtering
 		info: `Asexual and panromantic`, // optional extra info
 		icon: `flags (split)` // description of the flag/icon
 	},
@@ -12904,7 +12904,7 @@ const aroAceList = [
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Uc0290s.png`, // imgur link
-		tags: [`orientation`,`a-spec`,`split attraction model`,`ace spectrum`,`asexual`,`ace`,`bi`,`biromantic`], // tags for search/filtering
+		tags: [`orientation`,`a-spec`,`m-spec`,`split attraction model`,`ace spectrum`,`asexual`,`ace`,`bi`,`biromantic`], // tags for search/filtering
 		info: `Asexual and biromantic`, // optional extra info
 		icon: `flags (split)` // description of the flag/icon
 	},
@@ -13098,7 +13098,7 @@ const tertiaryAttractionList = [
 	{
 		name: `Panalterous`, // display name
 		imgur: `https://i.imgur.com/zzLpW3R.png`, // imgur link
-		tags: [`orientation`,`tertiary attraction`,`alterous attraction`,`emotional attraction`,`pan`], // tags for search/filtering
+		tags: [`orientation`,`tertiary attraction`,`alterous attraction`,`emotional attraction`,`pan`,`m-spec`], // tags for search/filtering
 		info: `<a href="?tags=alterous attraction">Alterous</a> attraction
 			(<a href="?tags=emotional attraction">emotional attraction</a> which is neither entirely platonic nor romantic) towards all genders`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -13108,7 +13108,7 @@ const tertiaryAttractionList = [
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgur: `https://i.imgur.com/zSDfxz3.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`orientation`,`tertiary attraction`,`relationship style`,`queerplatonic`,`panqp`,`platonic attraction`,`queerplatonic attraction`,`pan`,`a-spec`,`aro spectrum`,`aromantic`,`aro`,`aroace`,`aroace spectrum`], // tags for search/filtering
+		tags: [`orientation`,`tertiary attraction`,`relationship style`,`queerplatonic`,`panqp`,`platonic attraction`,`queerplatonic attraction`,`pan`,`m-spec`,`a-spec`,`aro spectrum`,`aromantic`,`aro`,`aroace`,`aroace spectrum`], // tags for search/filtering
 		info: `Refers to someone who experiences<a href="?tags=queerplatonic">queerplatonic</a> attraction towards all genders`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
@@ -13117,7 +13117,7 @@ const tertiaryAttractionList = [
 		alt: `Panqueerplatonic`,
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgur: `https://i.imgur.com/N2OXe3S.png`, // imgur link
-		tags: [`orientation`,`tertiary attraction`,`relationship style`,`queerplatonic`,`panqueerplatonic`,`platonic attraction`,`queerplatonic attraction`,`pan`,`a-spec`,`aro spectrum`,`aromantic`,`aro`,`aroace`,`aroace spectrum`], // tags for search/filtering
+		tags: [`orientation`,`tertiary attraction`,`relationship style`,`queerplatonic`,`panqueerplatonic`,`platonic attraction`,`queerplatonic attraction`,`pan`,`m-spec`,`a-spec`,`aro spectrum`,`aromantic`,`aro`,`aroace`,`aroace spectrum`], // tags for search/filtering
 		info: `Refers to someone who experiences <a href="?tags=queerplatonic">queerplatonic</a> attraction towards all genders`, // optional extra info
 		icon: `Panqueerplatonic flag` // description of the flag/icon
 	},
