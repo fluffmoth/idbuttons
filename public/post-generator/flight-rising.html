@@ -30,11 +30,102 @@
 			
 			<!-- flight rising -->
 			<span class="section" data-name="flight rising specific">
-				<span class="button-section" id="flight rising" data-tags="flight rising,!gender"></span>
+				<span class="button-section" id="flight rising" data-tags="flight rising,!gender,!subspecies,!lineage"></span>
+			</span>
+			
+			<!-- dragon colors & genes -->
+			<span class="section" data-name="dragon colors & genes">
+				<span class="button-section" id="color pattern" data-tags="flight rising,color pattern"></span>
+				<span class="button-section" id="scatterscroll" data-tags="flight rising,gene,scatterscroll"></span>
+				<span class="button-section" id="gene rarity" data-tags="flight rising,gene rarity"></span>
+				<span class="button-section" id="dragon colors" data-tags="flight rising,dragon color"></span>
+				<span class="button-section" id="genes" data-tags="flight rising,gene"></span>
+			</span>
+			<!-- dragon eyes-->
+			<span class="section" data-name="eye types">
+				<span class="button-section" id="eye type" data-tags="flight rising,eye type"></span>
+			</span>
+			<!-- dragon breeds -->
+			<span class="section" data-name="dragon breeds">
+				<span class="button-section" id="dragon breeds" data-tags="flight rising,dragon breed"></span>
+			</span>
+			
+			<!-- id digits -->
+			<span class="section" data-name="id digits">
+				<span class="button-section" id="id digits" data-tags="flight rising,dragon id"></span>
+			</span>
+			
+			<!-- diet -->
+			<span class="section" data-name="id digits">
+				<span class="button-section" id="vegetarian" data-tags="diet,vegetarian"></span>
+				<span class="button-section" id="diet" data-tags="diet"></span>
+			</span>
+			
+			
+			<!-- exalting -->
+			<span class="section" data-name="exalting">
+				<span class="button-section" id="exalting" data-tags="flight rising,exalting"></span>
+			</span>
+			<!-- dom -->
+			<span class="section" data-name="dominance">
+				<span class="button-section" id="dom team" data-tags="flight rising,dom team"></span>
+				<span class="button-section" id="dominance" data-tags="flight rising,dominance"></span>
+			</span>
+			
+			<!-- locations -->
+			<span class="section" data-name="FR locations">
+				<span class="button-section" id="locations" data-tags="flight rising,location"></span>
+			</span>
+			
+			<!-- time zones -->
+			<span class="section" data-name="time zones">
+				<span class="button-section" id="time zones" data-tags="flight rising,time zone"></span>
+			</span>
+			
+			<!-- lineage -->
+			<span class="section" data-name="lineage projects">
+				<span class="button-section" id="lineage" data-tags="flight rising,lineage,!lineage extras"></span>
+			</span>
+			<!-- subspecies -->
+			<span class="section" data-name="subspecies">
+				<span class="button-section" id="subspecies" data-tags="flight rising,subspecies,!subspecies extras,!non-specific subspecies"></span>
+			</span>
+			<!-- subspecies -->
+			<span class="section" data-name='non-specific "subspecies"'>
+				<span class="single-button" data-name="tainted" data-icon=""></span>
+				<span class="single-button" data-name="blessed" data-icon=""></span>
+				<span class="single-button" data-name="demigod" data-icon=""></span>
+				<span class="button-section" id="deity subspecies" data-tags="flight rising,subspecies,deity,!subspecies extras"></span>
+				<span class="button-section" id="demon subspecies" data-tags="flight rising,subspecies,demon,!subspecies extras"></span>
+				<span class="button-section" id="angel subspecies" data-tags="flight rising,subspecies,angel,!subspecies extras"></span>
+				<span class="button-section" id="dragon subspecies" data-tags="flight rising,subspecies,dragon,!subspecies extras"></span>
+				<span class="button-section" id="shade subspecies" data-tags="flight rising,subspecies,shade,!subspecies extras"></span>
 			</span>
 		
 		<script>
 			loadOrder = [
+				"lineage",
+				"subspecies",
+				"angel subspecies","demon subspecies","deity subspecies","fae subspecies",
+				"dragon subspecies","shade subspecies",
+				
+				"id digits",
+				
+				"time zones",
+				
+				"vegetarian", "diet",
+				
+				"exalting",
+				
+				"dom team", "dominance",
+				
+				"eye type",
+				"color pattern", "scatterscroll", "gene rarity", "dragon colors", "genes",
+				
+				"dragon breeds",
+				
+				"locations",
+				
 				"flight rising"
 			]
 			

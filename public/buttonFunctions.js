@@ -452,7 +452,7 @@ function setAltText(btn) {
 		if (!btn.alt || btn.alt == ``) {
 			btn.alt = btn.name;
 			// if subspecies, note at end of alt text
-			if (btn.tags.includes('flight rising') && btn.tags.includes('subspecies')) btn.alt += ` (Subspecies)`
+			if (btn.tags.includes('flight rising') && btn.tags.includes('subspecies') && !btn.tags.includes('non-specific subspecies')) btn.alt += ` (Subspecies)`
 			else if (btn.tags.includes('flight rising') && btn.tags.includes('lineage') && !btn.tags.includes('generation')) btn.alt += ` (Lineage)`
 			// if button uses a default icon base
 			else if (btn.iconBase) btn.alt += ' (' + btn.iconBase.icon + ' ' + adjustIconBaseName(btn).toLowerCase() + ')';
