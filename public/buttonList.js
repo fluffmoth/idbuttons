@@ -3,13 +3,13 @@
 	,
 	{
 		name: ``, // display name
-		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		//src: `/buttons/interests/%name.png`, // local image source
-		imgur: ``, // imgur link
-		postimg: ``, // postimg link
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/pbtVder.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`aesthetic`], // tags for search/filtering
-		info: ``, // optional extra info
+		tags: [`flight rising`,`lineage`,`lineage extras`,`generation`], // tags for search/filtering
+		info: subspeciesData.binaryBeasts.info, // optional extra info
+		link: ``, // optional URL the button should link to
 		icon: `` // description of the flag/icon
 	},
 	
@@ -7280,7 +7280,7 @@ const neoPronounList = [
 	{
 		name: `God/Godself`, // display name
 		imgur: `https://i.imgur.com/Lorr3zP.png`, // imgur link
-		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`god`,`godself`,`xenogender`,`gender flag`], // tags for search/filtering
+		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`god`,`godself`,`deity`,`xenogender`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Xenogender flag` // description of the flag/icon
 	},
@@ -15079,13 +15079,81 @@ const FReyeList = [
 ]
 
 // flight rising subspecies/lineage
+const subspeciesData = {
+	subspeciesInfo: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>`,
+	clockworkGaoler: {
+		info: `<a href="?tags=clockwork gaoler,subspecies|subspecies extras">Clockwork Gaoler</a> subspecies`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/2822452`, // optional URL the button should link to
+	},
+	cloudbringers: {
+		info: `<a href="?tags=cloudbringers,subspecies|subspecies extras">Cloudbringers</a> subspecies`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/2674001`, // optional URL the button should link to
+	},
+	drinkDragons: {
+		info: `<a href="?tags=drink dragons,subspecies|subspecies extras">Drink Dragons</a> subspecies`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/2317227`, // optional URL the button should link to
+	},
+	effluvialCrow: {
+		tags: [`flight rising`,`subspecies`,`subspecies extras`,`effluvial crow`,`plague flight`],
+		info: `<a href="?tags=effluvial crow,subspecies|subspecies extras">Effluvial Crow</a> subspecies`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/2464726`, // optional URL the button should link to
+	},
+	archangels: {
+		tags: [`flight rising`,`lineage`,`archangels`], // tags for search/filtering
+		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+	},
+	binaryBeasts: {
+		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+	},
+	watermelon: {
+		info: `<a href="?tags=watermelon|watermelon lineage,lineage|lineage extras">Watermelon</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3055369`, // optional URL the button should link to
+	},
+	courtOfThorns: {
+		tags: [`flight rising`,`lineage`,`court of thorns`,`lineage extras`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=court of thorns,lineage|lineage extras">Court of Thorns</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3036129`, // optional URL the button should link to
+	},
+	mechanicalWants: {
+		tags: [`flight rising`,`lineage`,`mechanical wants`,`plague flight`,`lineage extras`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=mechanical wants,lineage|lineage extras">Mechanical Wants</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3078957`, // optional URL the button should link to
+	},
+	sunsetsLegacy: {
+		tags: [`flight rising`,`lineage`,`sunset's legacy`,`Imperial`,`lineage extras`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=sunset's legacy,lineage|lineage extras">Sunset's Legacy</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/raf/2981024`, // optional URL the button should link to
+	},
+	runefall: {
+		tags: [`flight rising`,`lineage`,`runefall`,`Banescale`,`lineage extras`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=runefall,lineage|lineage extras">Runefall</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/frd/3089274`, // optional URL the button should link to
+	},
+	nuvoleBianche: {
+		tags: [`flight rising`,`lineage`,`nuvole bianche`,`lineage extras`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=nuvole bianche,lineage|lineage extras">Nuvole Bianche</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3125135/1`, // optional URL the button should link to
+	},
+	nightWarrior: {
+		tags: [`flight rising`,`lineage`,`night warrior`,`lineage extras`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=night warrior,lineage|lineage extras">Night Warrior</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drt/2836254`, // optional URL the button should link to
+	},
+	darkStalker: {
+		tags: [`flight rising`,`lineage`,`dark stalker`,`lineage extras`,`generation`], // tags for search/filtering
+		info: `<a href="?tags=dark stalker,lineage|lineage extras">Dark Stalker</a> lineage`, // optional extra info
+		link: `https://www1.flightrising.com/forums/drs/3250198`, // optional URL the button should link to
+	},
+}
+
 const subspeciesList = [
 	{
 		name: `Subspecies`, // display name
-		alt: `%name`,
 		imgur: `https://i.imgur.com/iJRr6Ic.png`, // imgur link
 		tags: [`flight rising`,`subspecies`], // tags for search/filtering
-		info: `All <a href="?tags=flight rising">Flight Rising</a>
+		info: `<a href="?tags=flight rising">Flight Rising</a>
 			<a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>`, // optional extra info
 		icon: `Dragon head` // description of the flag/icon
 	},
@@ -15093,7 +15161,7 @@ const subspeciesList = [
 		name: `Aloe Vera`, // display name
 		imgur: `https://i.imgur.com/Vx1HobZ.png`, // imgur link
 		tags: [`flight rising`,`subspecies`], // tags for search/filtering
-		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>`, // optional extra info
+		info: subspeciesData.subspeciesInfo, // optional extra info
 		link: `https://www1.flightrising.com/forums/drs/2451335`, // optional URL the button should link to
 		icon: `Leaves` // description of the flag/icon
 	},
@@ -15101,7 +15169,7 @@ const subspeciesList = [
 		name: `Amalgamate`, // display name
 		imgur: `https://i.imgur.com/FOaYD4C.png`, // imgur link
 		tags: [`flight rising`,`subspecies`], // tags for search/filtering
-		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>`, // optional extra info
+		info: subspeciesData.subspeciesInfo, // optional extra info
 		link: `https://www1.flightrising.com/forums/drs/2535929`, // optional URL the button should link to
 		icon: `Green drips` // description of the flag/icon
 	},
@@ -15119,55 +15187,55 @@ const subspeciesList = [
 		tags: [`flight rising`,`subspecies`,`gaoler`], // tags for search/filtering
 		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>
 			(more <a href="?tags=clockwork gaoler,subspecies|subspecies extras">Clockwork Gaoler buttons</a>)`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2822452`, // optional URL the button should link to
+		link: subspeciesData.clockworkGaoler.link, // optional URL the button should link to
 		icon: `Gears` // description of the flag/icon
 	},
 	{
 		name: `Clockwork Gaoler: Brasswork`, // display name
 		imgur: `https://i.imgur.com/8Tgx5rZ.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`subspecies extras`,`clockwork gaoler`], // tags for search/filtering
-		info: `<a href="?tags=clockwork gaoler,subspecies|subspecies extras">Clockwork Gaoler</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2822452`, // optional URL the button should link to
+		info: subspeciesData.clockworkGaoler.info, // optional extra info
+		link: subspeciesData.clockworkGaoler.link, // optional URL the button should link to
 		icon: `Brass gears` // description of the flag/icon
 	},
 	{
 		name: `Clockwork Gaoler: Bronzework`, // display name
 		imgur: `https://i.imgur.com/ZhczZFL.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`clockwork gaoler`], // tags for search/filtering
-		info: `<a href="?tags=clockwork gaoler,subspecies|subspecies extras">Clockwork Gaoler</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2822452`, // optional URL the button should link to
+		info: subspeciesData.clockworkGaoler.info, // optional extra info
+		link: subspeciesData.clockworkGaoler.link, // optional URL the button should link to
 		icon: `Bronze gears` // description of the flag/icon
 	},
 	{
 		name: `Clockwork Gaoler: Copperwork`, // display name
 		imgur: `https://i.imgur.com/me4rYD3.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`clockwork gaoler`], // tags for search/filtering
-		info: `<a href="?tags=clockwork gaoler,subspecies|subspecies extras">Clockwork Gaoler</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2822452`, // optional URL the button should link to
+		info: subspeciesData.clockworkGaoler.info, // optional extra info
+		link: subspeciesData.clockworkGaoler.link, // optional URL the button should link to
 		icon: `Copper gears` // description of the flag/icon
 	},
 	{
 		name: `Clockwork Gaoler: Ironwork`, // display name
 		imgur: `https://i.imgur.com/Og9hzcr.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`clockwork gaoler`], // tags for search/filtering
-		info: `<a href="?tags=clockwork gaoler,subspecies|subspecies extras">Clockwork Gaoler</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2822452`, // optional URL the button should link to
+		info: subspeciesData.clockworkGaoler.info, // optional extra info
+		link: subspeciesData.clockworkGaoler.link, // optional URL the button should link to
 		icon: `Iron gears` // description of the flag/icon
 	},
 	{
 		name: `Clockwork Gaoler: Tarnished`, // display name
 		imgur: `https://i.imgur.com/u7BZJyy.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`clockwork gaoler`], // tags for search/filtering
-		info: `<a href="?tags=clockwork gaoler,subspecies|subspecies extras">Clockwork Gaoler</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2822452`, // optional URL the button should link to
+		info: subspeciesData.clockworkGaoler.info, // optional extra info
+		link: subspeciesData.clockworkGaoler.link, // optional URL the button should link to
 		icon: `Tarnished gears` // description of the flag/icon
 	},
 	{
 		name: `Clockwork Gaoler: Variants`, // display name
 		imgur: `https://i.imgur.com/Si3AzrM.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`clockwork gaoler`], // tags for search/filtering
-		info: `<a href="?tags=clockwork gaoler,subspecies|subspecies extras">Clockwork Gaoler</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2822452`, // optional URL the button should link to
+		info: subspeciesData.clockworkGaoler.info, // optional extra info
+		link: subspeciesData.clockworkGaoler.link, // optional URL the button should link to
 		icon: `Gears` // description of the flag/icon
 	},
 	{
@@ -15175,33 +15243,32 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/fMJrqkQ.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`wind flight`], // tags for search/filtering
-		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>
-			(more <a href="?tags=cloudbringers,subspecies|subspecies extras">Cloudbringers buttons</a>)`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2674001`, // optional URL the button should link to
+		info: subspeciesData.subspeciesInfo + ` (more <a href="?tags=cloudbringers,subspecies|subspecies extras">Cloudbringers buttons</a>)`, // optional extra info
+		link: subspeciesData.cloudbringers.link, // optional URL the button should link to
 		icon: `Pale clouds` // description of the flag/icon
 	},
 	{
 		name: `Cloudbringers: Dawn Lineage`, // display name
 		imgur: `https://i.imgur.com/hrKDNwr.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`lineage`,`cloudbringers`], // tags for search/filtering
-		info: `<a href="?tags=cloudbringers,subspecies|subspecies extras">Cloudbringers</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2674001`, // optional URL the button should link to
+		info: subspeciesData.cloudbringers.info + ` <a href="?tags=flight rising,lineage,!lineage extras">lineage</a>`, // optional extra info
+		link: subspeciesData.cloudbringers.link, // optional URL the button should link to
 		icon: `Pale clouds` // description of the flag/icon
 	},
 	{
 		name: `Cloudbringers: Starlight Line`, // display name
 		imgur: `https://i.imgur.com/nX0K0zc.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`lineage`,`cloudbringers`], // tags for search/filtering
-		info: `<a href="?tags=cloudbringers,subspecies|subspecies extras">Cloudbringers</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2674001`, // optional URL the button should link to
+		info: subspeciesData.cloudbringers.info + ` <a href="?tags=flight rising,lineage,!lineage extras">lineage</a>`, // optional extra info
+		link: subspeciesData.cloudbringers.link, // optional URL the button should link to
 		icon: `Pale clouds` // description of the flag/icon
 	},
 	{
 		name: `Cloudbringers: Estranged`, // display name
 		imgur: `https://i.imgur.com/64SGG9s.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`cloudbringers`], // tags for search/filtering
-		info: `<a href="?tags=cloudbringers,subspecies|subspecies extras">Cloudbringers</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2674001`, // optional URL the button should link to
+		info: subspeciesData.cloudbringers.info, // optional extra info
+		link: subspeciesData.cloudbringers.link, // optional URL the button should link to
 		icon: `Pale clouds` // description of the flag/icon
 	},
 	{
@@ -15209,7 +15276,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/F9juNE4.png`, // imgur link
 		tags: [`flight rising`,`subspecies`], // tags for search/filtering
-		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>`, // optional extra info
+		info: subspeciesData.subspeciesInfo, // optional extra info
 		link: `https://www1.flightrising.com/forums/drs/2577783`, // optional URL the button should link to
 		icon: `Cryoborg symbol` // description of the flag/icon
 	},
@@ -15217,7 +15284,7 @@ const subspeciesList = [
 		name: `Cypermorph`, // display name
 		imgur: `https://i.imgur.com/pnKlH0X.png`, // imgur link
 		tags: [`flight rising`,`subspecies`], // tags for search/filtering
-		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a> by
+		info: subspeciesData.subspeciesInfo + ` by
 			<a href="https://www1.flightrising.com/clan-profile/575523">@woodlands</a>`, // optional extra info
 		link: ``, // optional URL the button should link to
 		icon: `` // description of the flag/icon
@@ -15252,17 +15319,17 @@ const subspeciesList = [
 		name: `Drink Dragons`, // display name
 		imgur: `https://i.imgur.com/rPzyHXl.png`, // imgur link
 		tags: [`flight rising`,`subspecies`], // tags for search/filtering
-		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>
+		info: subspeciesData.subspeciesInfo + `
 			(more <a href="?tags=drink dragons,subspecies|subspecies extras">Drink Dragons buttons</a>)`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2317227`, // optional URL the button should link to
+		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
 		icon: `Pastel cup with straw` // description of the flag/icon
 	},
 	{
 		name: `Drink Dragons: Bubble Tea`, // display name
 		imgur: `https://i.imgur.com/VBkoHoZ.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
-		info: `<a href="?tags=drink dragons,subspecies|subspecies extras">Drink Dragons</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2317227`, // optional URL the button should link to
+		info: subspeciesData.drinkDragons.info, // optional extra info
+		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
 		icon: `Bubble tea with straw` // description of the flag/icon
 	},
 	{
@@ -15270,32 +15337,32 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Kn2Fjf4.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
-		info: `<a href="?tags=drink dragons,subspecies|subspecies extras">Drink Dragons</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2317227`, // optional URL the button should link to
+		info: subspeciesData.drinkDragons.info, // optional extra info
+		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
 		icon: `Coffee mug` // description of the flag/icon
 	},
 	{
 		name: `Drink Dragons: Juice`, // display name
 		imgur: `https://i.imgur.com/mM8gHXZ.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
-		info: `<a href="?tags=drink dragons,subspecies|subspecies extras">Drink Dragons</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2317227`, // optional URL the button should link to
+		info: subspeciesData.drinkDragons.info, // optional extra info
+		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
 		icon: `Pink juice with straw` // description of the flag/icon
 	},
 	{
 		name: `Drink Dragons: Milk`, // display name
 		imgur: `https://i.imgur.com/R0VUBOF.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
-		info: `<a href="?tags=drink dragons,subspecies|subspecies extras">Drink Dragons</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2317227`, // optional URL the button should link to
+		info: subspeciesData.drinkDragons.info, // optional extra info
+		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
 		icon: `Milk with straw` // description of the flag/icon
 	},
 	{
 		name: `Drink Dragons: Soda`, // display name
 		imgur: `https://i.imgur.com/NUBmJKe.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
-		info: `<a href="?tags=drink dragons,subspecies|subspecies extras">Drink Dragons</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2317227`, // optional URL the button should link to
+		info: subspeciesData.drinkDragons.info, // optional extra info
+		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
 		icon: `Soda cup with straw` // description of the flag/icon
 	},
 	{
@@ -15303,8 +15370,8 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Bmki0B9.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
-		info: `<a href="?tags=drink dragons,subspecies|subspecies extras">Drink Dragons</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2317227`, // optional URL the button should link to
+		info: subspeciesData.drinkDragons.info, // optional extra info
+		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
 		icon: `Tea mug` // description of the flag/icon
 	},
 	{
@@ -15313,72 +15380,72 @@ const subspeciesList = [
 		tags: [`flight rising`,`subspecies`,`plague flight`,`wildclaw`], // tags for search/filtering
 		info: `Flight Rising Plague Wildclaw <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>
 			(more <a href="?tags=effluvial crow,subspecies|subspecies extras">Effluvial Crow buttons</a>)`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2464726`, // optional URL the button should link to
+		link: subspeciesData.effluvialCrow.link, // optional URL the button should link to
 		icon: `Red feather` // description of the flag/icon
 	},
 	{
 		name: `Effluvial Crow: Albino Crow`, // display name
 		imgur: `https://i.imgur.com/FHn9pFv.png`, // imgur link
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`effluvial crow`,`plague flight`], // tags for search/filtering
-		info: `<a href="?tags=effluvial crow,subspecies|subspecies extras">Effluvial Crow</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2464726`, // optional URL the button should link to
+		tags: subspeciesData.effluvialCrow.tags, // tags for search/filtering
+		info: subspeciesData.effluvialCrow.info, // optional extra info
+		link: subspeciesData.effluvialCrow.link, // optional URL the button should link to
 		icon: `Red feather` // description of the flag/icon
 	},
 	{
 		name: `Effluvial Crow: Charged`, // display name
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/HKqXPiQ.png`, // imgur link
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`effluvial crow`,`plague flight`], // tags for search/filtering
-		info: `<a href="?tags=effluvial crow,subspecies|subspecies extras">Effluvial Crow</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2464726`, // optional URL the button should link to
+		tags: subspeciesData.effluvialCrow.tags, // tags for search/filtering
+		info: subspeciesData.effluvialCrow.info, // optional extra info
+		link: subspeciesData.effluvialCrow.link, // optional URL the button should link to
 		icon: `Red feather` // description of the flag/icon
 	},
 	{
 		name: `Effluvial Crow: Eboncrow`, // display name
 		imgur: `https://i.imgur.com/fymJnFl.png`, // imgur link
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`effluvial crow`,`plague flight`], // tags for search/filtering
-		info: `<a href="?tags=effluvial crow,subspecies|subspecies extras">Effluvial Crow</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2464726`, // optional URL the button should link to
+		tags: subspeciesData.effluvialCrow.tags, // tags for search/filtering
+		info: subspeciesData.effluvialCrow.info, // optional extra info
+		link: subspeciesData.effluvialCrow.link, // optional URL the button should link to
 		icon: `Red feather` // description of the flag/icon
 	},
 	{
 		name: `Effluvial Crow: Jackdaw`, // display name
 		imgur: `https://i.imgur.com/5aPQJaS.png`, // imgur link
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`effluvial crow`,`plague flight`], // tags for search/filtering
-		info: `<a href="?tags=effluvial crow,subspecies|subspecies extras">Effluvial Crow</a> subspecies`, // optional extra info
+		tags: subspeciesData.effluvialCrow.tags, // tags for search/filtering
+		info: subspeciesData.effluvialCrow.info, // optional extra info
 		link: `https://www1.flightrising.com/forums/drs/2464726#post_33798585`, // optional URL the button should link to
 		icon: `Red feather` // description of the flag/icon
 	},
 	{
 		name: `Effluvial Crow: Lesser`, // display name
 		imgur: `https://i.imgur.com/bscgWPO.png`, // imgur link
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`effluvial crow`,`plague flight`], // tags for search/filtering
-		info: `<a href="?tags=effluvial crow,subspecies|subspecies extras">Effluvial Crow</a> subspecies`, // optional extra info
+		tags: subspeciesData.effluvialCrow.tags, // tags for search/filtering
+		info: subspeciesData.effluvialCrow.info, // optional extra info
 		link: `https://www1.flightrising.com/forums/drs/2464726#post_33798575`, // optional URL the button should link to
 		icon: `Red feather` // description of the flag/icon
 	},
 	{
 		name: `Effluvial Crow: Lesser Albino Crow`, // display name
 		imgur: `https://i.imgur.com/aauvqYY.png`, // imgur link
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`effluvial crow`,`plague flight`], // tags for search/filtering
-		info: `<a href="?tags=effluvial crow,subspecies|subspecies extras">Effluvial Crow</a> subspecies`, // optional extra info
+		tags: subspeciesData.effluvialCrow.tags, // tags for search/filtering
+		info: subspeciesData.effluvialCrow.info, // optional extra info
 		link: `https://www1.flightrising.com/forums/drs/2464726#post_33798575`, // optional URL the button should link to
 		icon: `Red feather` // description of the flag/icon
 	},
 	{
 		name: `Effluvial Crow: Lesser Eboncrow`, // display name
 		imgur: `https://i.imgur.com/7Mevg3x.png`, // imgur link
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`effluvial crow`,`plague flight`], // tags for search/filtering
-		info: `<a href="?tags=effluvial crow,subspecies|subspecies extras">Effluvial Crow</a> subspecies`, // optional extra info
+		tags: subspeciesData.effluvialCrow.tags, // tags for search/filtering
+		info: subspeciesData.effluvialCrow.info, // optional extra info
 		link: `https://www1.flightrising.com/forums/drs/2464726#post_33798575`, // optional URL the button should link to
 		icon: `Red feather` // description of the flag/icon
 	},
 	{
 		name: `Effluvial Crow: Starcrow`, // display name
 		imgur: `https://i.imgur.com/Z2jdD8g.png`, // imgur link
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`effluvial crow`,`plague flight`], // tags for search/filtering
-		info: `<a href="?tags=effluvial crow,subspecies|subspecies extras">Effluvial Crow</a> subspecies`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2464726`, // optional URL the button should link to
+		tags: subspeciesData.effluvialCrow.tags, // tags for search/filtering
+		info: subspeciesData.effluvialCrow.info, // optional extra info
+		link: subspeciesData.effluvialCrow.link, // optional URL the button should link to
 		icon: `Red feather` // description of the flag/icon
 	},
 	{
@@ -15420,7 +15487,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Kd8iWr1.png`, // imgur link (old: https://i.imgur.com/aEoMdJ8.png)
 		tags: [`flight rising`,`subspecies`], // tags for search/filtering
-		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>`, // optional extra info
+		info: subspeciesData.subspeciesInfo, // optional extra info
 		link: `https://www1.flightrising.com/forums/drs/2578575`, // optional URL the button should link to
 		icon: `Red runes` // description of the flag/icon
 	},
@@ -15428,7 +15495,7 @@ const subspeciesList = [
 		name: `Honeytummy`, // display name
 		imgur: `https://i.imgur.com/asHR6ZX.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`insect`,`bee`], // tags for search/filtering
-		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>`, // optional extra info
+		info: subspeciesData.subspeciesInfo, // optional extra info
 		link: `https://www1.flightrising.com/forums/drs/2368493`, // optional URL the button should link to
 		icon: `Bee` // description of the flag/icon
 	},
@@ -15573,7 +15640,7 @@ const subspeciesList = [
 		name: `Sentient Scrapdragons`, // display name
 		imgur: `https://i.imgur.com/68ef6wA.png`, // imgur link
 		tags: [`flight rising`,`subspecies`], // tags for search/filtering
-		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>`, // optional extra info
+		info: subspeciesData.subspeciesInfo, // optional extra info
 		link: `https://docs.google.com/document/d/1uLPf2B2GOP0ip-aMH5m3JwqCX3twYHkR9_1Sk2s8qSg`, // optional URL the button should link to
 		icon: `Printed paper scrap` // description of the flag/icon
 	},
@@ -15624,7 +15691,6 @@ const subspeciesList = [
 	{
 		name: `Starchildren: Red Star`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/x3CrWV5.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`starchildren`], // tags for search/filtering
@@ -15635,7 +15701,6 @@ const subspeciesList = [
 	{
 		name: `Starchildren: Blue Star`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/S5qwRdN.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`starchildren`], // tags for search/filtering
 		info: `<a href="?tags=starchildren,subspecies|subspecies extras">Starchildren</a> subspecies`, // optional extra info
@@ -15645,7 +15710,6 @@ const subspeciesList = [
 	{
 		name: `Starchildren: Yellow Star`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/DRm4zJ9.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`starchildren`], // tags for search/filtering
 		info: `<a href="?tags=starchildren,subspecies|subspecies extras">Starchildren</a> subspecies`, // optional extra info
@@ -15655,7 +15719,6 @@ const subspeciesList = [
 	{
 		name: `Starry Sea Veils`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/XnlP7ak.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`starchildren`,`deepsea veils`,`veilspun`,`water flight`], // tags for search/filtering
 		info: `<a href="?tags=starchildren,subspecies|subspecies extras">Starchildren</a> and
@@ -15667,7 +15730,6 @@ const subspeciesList = [
 	{
 		name: `Nebulous Effluvials`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/ZIldruj.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`wildclaw`,`starchildren`,`effluvial crow`], // tags for search/filtering
 		info: `<a href="?tags=starchildren,subspecies|subspecies extras">Starchildren</a> and
@@ -15679,7 +15741,6 @@ const subspeciesList = [
 	{
 		name: `Stardust Effluvials`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/LOuBuQW.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`wildclaw`,`starchildren`,`effluvial crow`], // tags for search/filtering
 		info: `<a href="?tags=starchildren,subspecies|subspecies extras">Starchildren</a> and
@@ -15691,7 +15752,6 @@ const subspeciesList = [
 	{
 		name: `Starshrikes`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/JBIylqP.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`wildclaw`], // tags for search/filtering
 		info: `Flight Rising Wildclaw <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>
@@ -15702,7 +15762,6 @@ const subspeciesList = [
 	{
 		name: `Starshrikes: Greater Starshrike`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/GgR2FY8.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`starshrikes`], // tags for search/filtering
 		info: `<a href="?tags=starshrikes,subspecies|subspecies extras">Starshrikes</a> subspecies`, // optional extra info
@@ -15712,7 +15771,6 @@ const subspeciesList = [
 	{
 		name: `Starshrike`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/anKeexH.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`starshrikes`], // tags for search/filtering
 		info: `<a href="?tags=starshrikes,subspecies|subspecies extras">Starshrikes</a> subspecies`, // optional extra info
@@ -15722,7 +15780,6 @@ const subspeciesList = [
 	{
 		name: `Swamp Things`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/6L0LWRn.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`plague flight`,`shadow flight`,`gaoler`], // tags for search/filtering
 		info: `Flight Rising Shadow/Plague themed Gaoler <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>
@@ -15733,7 +15790,6 @@ const subspeciesList = [
 	{
 		name: `Swamp Things: Ghost`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/xVFlRU2.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`swamp things`], // tags for search/filtering
 		info: `<a href="?tags=swamp things,subspecies|subspecies extras">Swamp Things</a> subspecies`, // optional extra info
@@ -15743,7 +15799,6 @@ const subspeciesList = [
 	{
 		name: `Swamp Things: Hybrid`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/ZlN9QDv.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`swamp things`], // tags for search/filtering
 		info: `<a href="?tags=swamp things,subspecies|subspecies extras">Swamp Things</a> subspecies`, // optional extra info
@@ -15753,7 +15808,6 @@ const subspeciesList = [
 	{
 		name: `Swamp Things: Librarian`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/mlTx14i.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`swamp things`], // tags for search/filtering
 		info: `<a href="?tags=swamp things,subspecies|subspecies extras">Swamp Things</a> subspecies`, // optional extra info
@@ -15763,7 +15817,6 @@ const subspeciesList = [
 	{
 		name: `Swamp Things: Mesmyr`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/il8vzOx.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`swamp things`], // tags for search/filtering
 		info: `<a href="?tags=swamp things,subspecies|subspecies extras">Swamp Things</a> subspecies`, // optional extra info
@@ -15773,7 +15826,6 @@ const subspeciesList = [
 	{
 		name: `Swamp Things: Mirelurk`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/QBnmnUA.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`swamp things`], // tags for search/filtering
 		info: `<a href="?tags=swamp things,subspecies|subspecies extras">Swamp Things</a> subspecies`, // optional extra info
@@ -15783,7 +15835,6 @@ const subspeciesList = [
 	{
 		name: `Swamp Things: Woodbeast`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/FuVpGdx.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`swamp things`], // tags for search/filtering
 		info: `<a href="?tags=swamp things,subspecies|subspecies extras">Swamp Things</a> subspecies`, // optional extra info
@@ -15793,16 +15844,14 @@ const subspeciesList = [
 	{
 		name: `Tree Gaolers`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/MZbXR5c.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`gaoler`], // tags for search/filtering
-		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>`, // optional extra info
+		info: subspeciesData.subspeciesInfo, // optional extra info
 		icon: `Green dragon head` // description of the flag/icon
 	},
 	{
 		name: `Troglodyte`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/44mkmoN.png`, // imgur link
 		tags: [`flight rising`,`lineage`], // tags for search/filtering
 		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras,!subspecies extras">lineage</a>`, // optional extra info
@@ -15812,7 +15861,6 @@ const subspeciesList = [
 	{
 		name: `Trypophobia`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/38eh0Zn.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`plague`], // tags for search/filtering
 		info: `Flight Rising Plague <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>`, // optional extra info
@@ -15822,10 +15870,9 @@ const subspeciesList = [
 	{
 		name: `Unicorn Touched`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/R16Hvgu.png`, // imgur link
 		tags: [`flight rising`,`subspecies`], // tags for search/filtering
-		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>`, // optional extra info
+		info: subspeciesData.subspeciesInfo, // optional extra info
 		link: `https://www1.flightrising.com/forums/drs/2987691`, // optional URL the button should link to
 		icon: `Pastel star` // description of the flag/icon
 	},
@@ -15842,7 +15889,6 @@ const subspeciesList = [
 	{
 		name: `Voidwoken: Shade Infected`, // display name
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/oP8FKLk.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`voidwoken`], // tags for search/filtering
 		info: `<a href="?tags=voidwoken,subspecies|subspecies extras">Voidwoken</a> subspecies`, // optional extra info
@@ -15854,244 +15900,265 @@ const subspeciesList = [
 		dateAdded: `2024-02-16`, // date this button was first added to the masterlist
 		imgur: `https://i.imgur.com/PscmJNo.png`, // imgur link
 		tags: [`flight rising`,`subspecies`], // tags for search/filtering
-		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>`, // optional extra info
+		info: subspeciesData.subspeciesInfo, // optional extra info
 		link: `https://www1.flightrising.com/forums/drs/2986480`, // optional URL the button should link to
 		icon: `Sun wheel` // description of the flag/icon
 	},
 	{
 		name: `Archangels`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/78EvKBu.png`, // imgur link
 		tags: [`flight rising`,`lineage`], // tags for search/filtering
 		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras,!subspecies extras">lineage</a>
 			(more <a href="?tags=archangels,lineage|lineage extras">Archangels buttons</a>)`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels: Pure`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/qeXDB0s.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`,`archangels`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels: Dragonized`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/XIXYVoK.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`,`archangels`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels Level: Angel`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/YCnjUH5.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`,`archangels`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels Level: Archangel`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/fl1vQaT.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels Level: Archai`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/J4kxjL7.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels Level: Elohim`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/4sozEUF.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels Level: Dynamis`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/FL1wyM1.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels Level: Kyriotetes`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/yqLTJex.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels Level: Thrones`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/v47gd8v.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels Level: Cheribum`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/QDPdL8l.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels Level: Seraphim`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/ruEalML.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels: Gen 1`, // display name
 		altNames: [`Archangels: Generation 1`], // optional alternate names, for search algorithms
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/9sPfid0.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels: Gen 2`, // display name
 		altNames: [`Archangels: Generation 2`], // optional alternate names, for search algorithms
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/WPgFFUE.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels: Gen 3`, // display name
 		altNames: [`Archangels: Generation 3`], // optional alternate names, for search algorithms
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/7MOF9Sc.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels: Gen 4`, // display name
 		altNames: [`Archangels: Generation 4`], // optional alternate names, for search algorithms
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/88th5Lc.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels: Gen 5`, // display name
 		altNames: [`Archangels: Generation 5`], // optional alternate names, for search algorithms
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/kSQZv48.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels: Gen 6`, // display name
 		altNames: [`Archangels: Generation 6`], // optional alternate names, for search algorithms
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/9dGDGLt.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels: Gen 7`, // display name
 		altNames: [`Archangels: Generation 7`], // optional alternate names, for search algorithms
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/b7CUW6Z.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels: Gen 8`, // display name
 		altNames: [`Archangels: Generation 8`], // optional alternate names, for search algorithms
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/9ktzx07.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels: Gen 9`, // display name
 		altNames: [`Archangels: Generation 9`], // optional alternate names, for search algorithms
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/GHMvISB.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Archangels: Gen 10`, // display name
 		altNames: [`Archangels: Generation 10`], // optional alternate names, for search algorithms
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/w8BabGw.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`lineage`,`lineage extras`], // tags for search/filtering
-		info: `<a href="?tags=archangels,lineage|lineage extras">Archangels</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drt/2970142`, // optional URL the button should link to
+		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		info: subspeciesData.archangels.info, // optional extra info
+		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
 	},
 	{
 		name: `Mushelisk`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/oJKdMsU.png`, // imgur link
 		tags: [`flight rising`,`subspecies`,`obelisk`], // tags for search/filtering
 		info: `Flight Rising Obelisk <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>
@@ -16102,7 +16169,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/XL1IEYs.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`obelisk`], // tags for search/filtering
@@ -16114,7 +16180,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Royal Mushie`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/uUcXk1W.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`royal mushelisk`,`obelisk`], // tags for search/filtering
@@ -16125,7 +16190,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Moon Mushie`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/DIlrS6v.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16137,7 +16201,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Tooth Mushie`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/QPlIQkg.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16148,7 +16211,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Root Mushie`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/nFKOi3y.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16160,7 +16222,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Wimzard Mushie`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/YYO4GGH.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16172,7 +16233,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Wimzard Mushie`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/bowXQc7.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16183,7 +16243,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Enchanted Blessing`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/7GCLHz6.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16194,7 +16253,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Haunted Blessing`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/dWrRrR0.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16206,7 +16264,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Fantastic Blessing`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/fIUv0kT.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16217,7 +16274,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Earthen Blessing`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/IfneubE.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16229,7 +16285,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Earthen Blessing`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		src: `/buttons/FR/subspecies/%name_Okapi.png`, // local image source
 		imgur: `https://i.imgur.com/sredlXI.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16241,7 +16296,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Drake Blessing`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/SLJIIsU.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16252,7 +16306,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Mermaid Blessing`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/wBCEb5l.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16263,7 +16316,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Tattoo Blessing`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/zIFvEmA.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16274,7 +16326,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Celestial Blessing`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/IoA6NRX.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16285,7 +16336,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Heavenly Blessing`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/IWh98Ox.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16296,7 +16346,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Frog Blessing`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/6N5mHOS.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16307,7 +16356,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Acidic Blessing`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/1yQasPU.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16318,7 +16366,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Hinkypunk`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/gsJvH0Q.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16329,7 +16376,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Sprite`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/XX3lVS3.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16340,7 +16386,6 @@ const subspeciesList = [
 	{
 		name: `Mushelisk: Pinkypunk`, // display name
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
-		alt: `%name`,
 		imgur: `https://i.imgur.com/hvqtJqD.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`mushelisk`,`obelisk`], // tags for search/filtering
@@ -16351,7 +16396,6 @@ const subspeciesList = [
 	{
 		name: `Forest Wights`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/E8Ipcnv.png`, // imgur link
 		tags: [`flight rising`,`lineage`], // tags for search/filtering
@@ -16363,7 +16407,6 @@ const subspeciesList = [
 	{
 		name: `Forest Wights: Gen 0`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/iW2iZg0.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16375,7 +16418,6 @@ const subspeciesList = [
 	{
 		name: `Forest Wights: Gen 1`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/y2LVQdZ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16387,7 +16429,6 @@ const subspeciesList = [
 	{
 		name: `Forest Wights: Gen 2`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/LgUnSqM.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16399,7 +16440,6 @@ const subspeciesList = [
 	{
 		name: `Forest Wights: Gen 3`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/OBcx0Wz.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16411,7 +16451,6 @@ const subspeciesList = [
 	{
 		name: `Forest Wights: Gen 4`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/51hFTWF.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16423,7 +16462,6 @@ const subspeciesList = [
 	{
 		name: `Forest Wights: Gen 5`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/FSWhuGK.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16435,7 +16473,6 @@ const subspeciesList = [
 	{
 		name: `Forest Wights: Gen 6`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/fmSFK9T.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16447,7 +16484,6 @@ const subspeciesList = [
 	{
 		name: `Forest Wights: Gen 7`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/VKCmKp6.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16459,7 +16495,6 @@ const subspeciesList = [
 	{
 		name: `Forest Wights: Gen 8`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/5A8Sx7F.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16471,7 +16506,6 @@ const subspeciesList = [
 	{
 		name: `Forest Wights: Gen 9`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Vv5OA15.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16483,7 +16517,6 @@ const subspeciesList = [
 	{
 		name: `Forest Wights: Gen 10`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/M1LffJt.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16495,7 +16528,6 @@ const subspeciesList = [
 	{
 		name: `Eternals`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/6oDOi1q.png`, // imgur link
 		tags: [`flight rising`,`lineage`], // tags for search/filtering
@@ -16507,7 +16539,6 @@ const subspeciesList = [
 	{
 		name: `Eternals: Gen 0`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/hAzwnMq.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16519,7 +16550,6 @@ const subspeciesList = [
 	{
 		name: `Eternals: Gen 1`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Q1WeLTd.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16531,7 +16561,6 @@ const subspeciesList = [
 	{
 		name: `Eternals: Gen 2`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/8I0yjke.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16543,7 +16572,6 @@ const subspeciesList = [
 	{
 		name: `Eternals: Gen 3`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/UxnjgBH.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16555,7 +16583,6 @@ const subspeciesList = [
 	{
 		name: `Eternals: Gen 4`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/upwF8AV.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16567,7 +16594,6 @@ const subspeciesList = [
 	{
 		name: `Eternals: Gen 5`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Rg53PDh.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16579,7 +16605,6 @@ const subspeciesList = [
 	{
 		name: `Eternals: Gen 6`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/AQ8aRfr.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16591,7 +16616,6 @@ const subspeciesList = [
 	{
 		name: `Eternals: Gen 7`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/wu5FqQJ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16603,7 +16627,6 @@ const subspeciesList = [
 	{
 		name: `Eternals: Gen 8`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/lX6oeIH.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16615,7 +16638,6 @@ const subspeciesList = [
 	{
 		name: `Eternals: Gen 9`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/qdWsFmI.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16627,7 +16649,6 @@ const subspeciesList = [
 	{
 		name: `Eternals: Gen 10`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/bk2C2Yv.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -16640,183 +16661,1654 @@ const subspeciesList = [
 		name: `Binary Beasts`, // display name
 		altNames: [`Beasts of Binary`], // optional alternate names, for search algorithms
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/cq4bI7F.png`, // imgur link
 		tags: [`flight rising`,`lineage`,`glitch`], // tags for search/filtering
 		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras">lineage</a> based on a glitched dragon
 			(more <a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary buttons</a>)`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		link: subspeciesData.binaryBeasts.link, // optional URL the button should link to
 		icon: `Binary 101` // description of the flag/icon
 	},
 	{
 		name: `Binary Beasts: Un-Coded`, // display name
 		altNames: [`Un-Coded`], // optional alternate names, for search algorithms
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/GCaS8sw.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`], // tags for search/filtering
-		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		info: subspeciesData.binaryBeasts.info, // optional extra info
+		link: subspeciesData.binaryBeasts.link, // optional URL the button should link to
 		icon: `Binary 101` // description of the flag/icon
 	},
 	{
 		name: `Binary Beasts: Live-Wire`, // display name
 		altNames: [`Live-Wire`], // optional alternate names, for search algorithms
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/dnn4TAJ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`], // tags for search/filtering
-		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		info: subspeciesData.binaryBeasts.info, // optional extra info
+		link: subspeciesData.binaryBeasts.link, // optional URL the button should link to
 		icon: `Binary 101` // description of the flag/icon
 	},
 	{
 		name: `Binary Beasts: Gen 1`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/xF64jOj.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
-		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		info: subspeciesData.binaryBeasts.info, // optional extra info
+		link: subspeciesData.binaryBeasts.link, // optional URL the button should link to
 		icon: `Binary 101` // description of the flag/icon
 	},
 	{
 		name: `Binary Beasts: Gen 2`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/iY2JTjw.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
-		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		info: subspeciesData.binaryBeasts.info, // optional extra info
+		link: subspeciesData.binaryBeasts.link, // optional URL the button should link to
 		icon: `Binary 101` // description of the flag/icon
 	},
 	{
 		name: `Binary Beasts: Gen 3`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/TNpMs2v.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
-		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		info: subspeciesData.binaryBeasts.info, // optional extra info
+		link: subspeciesData.binaryBeasts.link, // optional URL the button should link to
 		icon: `Binary 101` // description of the flag/icon
 	},
 	{
 		name: `Binary Beasts: Gen 4`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/E0KkZs4.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
-		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		info: subspeciesData.binaryBeasts.info, // optional extra info
+		link: subspeciesData.binaryBeasts.link, // optional URL the button should link to
 		icon: `Binary 101` // description of the flag/icon
 	},
 	{
 		name: `Binary Beasts: Gen 5`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/Nl6stFV.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
-		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		info: subspeciesData.binaryBeasts.info, // optional extra info
+		link: subspeciesData.binaryBeasts.link, // optional URL the button should link to
 		icon: `Binary 101` // description of the flag/icon
 	},
 	{
 		name: `Binary Beasts: Gen 6`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/EaRVZVD.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
-		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		info: subspeciesData.binaryBeasts.info, // optional extra info
+		link: subspeciesData.binaryBeasts.link, // optional URL the button should link to
 		icon: `Binary 101` // description of the flag/icon
 	},
 	{
 		name: `Binary Beasts: Gen 7`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/16qUcHx.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
-		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		info: subspeciesData.binaryBeasts.info, // optional extra info
+		link: subspeciesData.binaryBeasts.link, // optional URL the button should link to
 		icon: `Binary 101` // description of the flag/icon
 	},
 	{
 		name: `Binary Beasts: Gen 8`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/xS5ike6.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
-		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		info: subspeciesData.binaryBeasts.info, // optional extra info
+		link: subspeciesData.binaryBeasts.link, // optional URL the button should link to
 		icon: `Binary 101` // description of the flag/icon
 	},
 	{
 		name: `Binary Beasts: Gen 9`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/lWtDUps.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
-		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		info: subspeciesData.binaryBeasts.info, // optional extra info
+		link: subspeciesData.binaryBeasts.link, // optional URL the button should link to
 		icon: `Binary 101` // description of the flag/icon
 	},
 	{
 		name: `Binary Beasts: Gen 10`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `https://i.imgur.com/pbtVder.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`binary beasts`,`generation`], // tags for search/filtering
-		info: `<a href="?tags=binary beasts,lineage|lineage extras">Beasts of Binary</a> lineage`, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/3075795#post_3075795`, // optional URL the button should link to
+		info: subspeciesData.binaryBeasts.info, // optional extra info
+		link: subspeciesData.binaryBeasts.link, // optional URL the button should link to
 		icon: `Binary 101` // description of the flag/icon
-	}
+	},
+	
+	{
+		name: `Watermelon`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/4f3vuky.png`, // imgur link
+		tags: [`flight rising`,`lineage`,`watermelon lineage`], // tags for search/filtering
+		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras">lineage</a> 
+			(more <a href="?tags=watermelon|watermelon lineage,lineage|lineage extras">Watermelon lineage buttons</a>)`, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Sproutling`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/uyTmSil.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Flowerling`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/rZ6zIyP.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Fruitling`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/fFoYLzj.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Gen 0`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/vduHK51.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`,`generation`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Gen 1`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/o5rFDSX.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`,`generation`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Gen 2`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/JkHcDrP.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`,`generation`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Gen 3`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/WtYL479.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`,`generation`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Gen 4`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/whzPgXF.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`,`generation`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Gen 5`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/c36tAqR.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`,`generation`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Gen 6`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/z1TtA5a.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`,`generation`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Gen 7`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/zy1rcnS.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`,`generation`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Gen 8`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/JmtKJga.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`,`generation`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Gen 9`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Qmx34VJ.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`,`generation`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Watermelon: Gen 10`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/AwR0Wv0.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`lineage`,`watermelon lineage`,`lineage extras`,`generation`], // tags for search/filtering
+		info: subspeciesData.watermelon.info, // optional extra info
+		link: subspeciesData.watermelon.link, // optional URL the button should link to
+		icon: `Watermelon slice` // description of the flag/icon
+	},
+	{
+		name: `Court of Thorns`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ryNMW7k.png`, // imgur link
+		tags: [`flight rising`,`lineage`], // tags for search/filtering
+		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras">lineage</a> 
+			(more <a href="?tags=court of thorns,lineage|lineage extras">Court of Thorns buttons</a>)`, // optional extra info
+		link: subspeciesData.courtOfThorns.link, // optional URL the button should link to
+		icon: `Dark purple crown` // description of the flag/icon
+	},
+	{
+		name: `Court of Thorns: Gen 1`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/TbCJxb2.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.courtOfThorns.tags, // tags for search/filtering
+		info: subspeciesData.courtOfThorns.info, // optional extra info
+		link: subspeciesData.courtOfThorns.link, // optional URL the button should link to
+		icon: `Dark purple crown` // description of the flag/icon
+	},
+	{
+		name: `Court of Thorns: Gen 2`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/LyRg1sb.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.courtOfThorns.tags, // tags for search/filtering
+		info: subspeciesData.courtOfThorns.info, // optional extra info
+		link: subspeciesData.courtOfThorns.link, // optional URL the button should link to
+		icon: `Dark purple crown` // description of the flag/icon
+	},
+	{
+		name: `Court of Thorns: Gen 3`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/5xt3Cg4.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.courtOfThorns.tags, // tags for search/filtering
+		info: subspeciesData.courtOfThorns.info, // optional extra info
+		link: subspeciesData.courtOfThorns.link, // optional URL the button should link to
+		icon: `Dark purple crown` // description of the flag/icon
+	},
+	{
+		name: `Court of Thorns: Gen 4`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/PzeCf4u.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.courtOfThorns.tags, // tags for search/filtering
+		info: subspeciesData.courtOfThorns.info, // optional extra info
+		link: subspeciesData.courtOfThorns.link, // optional URL the button should link to
+		icon: `Dark purple crown` // description of the flag/icon
+	},
+	{
+		name: `Court of Thorns: Gen 5`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/B9XDkzV.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.courtOfThorns.tags, // tags for search/filtering
+		info: subspeciesData.courtOfThorns.info, // optional extra info
+		link: subspeciesData.courtOfThorns.link, // optional URL the button should link to
+		icon: `Dark purple crown` // description of the flag/icon
+	},
+	{
+		name: `Court of Thorns: Gen 6`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/OnQ20KY.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.courtOfThorns.tags, // tags for search/filtering
+		info: subspeciesData.courtOfThorns.info, // optional extra info
+		link: subspeciesData.courtOfThorns.link, // optional URL the button should link to
+		icon: `Dark purple crown` // description of the flag/icon
+	},
+	{
+		name: `Court of Thorns: Gen 7`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/BBuG8X9.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.courtOfThorns.tags, // tags for search/filtering
+		info: subspeciesData.courtOfThorns.info, // optional extra info
+		link: subspeciesData.courtOfThorns.link, // optional URL the button should link to
+		icon: `Dark purple crown` // description of the flag/icon
+	},
+	{
+		name: `Court of Thorns: Gen 8`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/rNO69TP.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.courtOfThorns.tags, // tags for search/filtering
+		info: subspeciesData.courtOfThorns.info, // optional extra info
+		link: subspeciesData.courtOfThorns.link, // optional URL the button should link to
+		icon: `Dark purple crown` // description of the flag/icon
+	},
+	{
+		name: `Court of Thorns: Gen 9`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/iJfin7q.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.courtOfThorns.tags, // tags for search/filtering
+		info: subspeciesData.courtOfThorns.info, // optional extra info
+		link: subspeciesData.courtOfThorns.link, // optional URL the button should link to
+		icon: `Dark purple crown` // description of the flag/icon
+	},
+	{
+		name: `Court of Thorns: Gen 10`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/YiBm5d7.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.courtOfThorns.tags, // tags for search/filtering
+		info: subspeciesData.courtOfThorns.info, // optional extra info
+		link: subspeciesData.courtOfThorns.link, // optional URL the button should link to
+		icon: `Dark purple crown` // description of the flag/icon
+	},
+	{
+		name: `Mechanical Wants`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/1btJuFs.png`, // imgur link
+		tags: [`flight rising`,`lineage`,`plague flight`], // tags for search/filtering
+		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras">lineage</a> 
+			(more <a href="?tags=mechanical wants,lineage|lineage extras">Mechanical Wants buttons</a>)`, // optional extra info
+		link: subspeciesData.mechanicalWants.link, // optional URL the button should link to
+		icon: `Mechanical Wants gears` // description of the flag/icon
+	},
+	{
+		name: `Mechanical Wants: Gen 0`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/7vg2vta.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.mechanicalWants.tags, // tags for search/filtering
+		info: subspeciesData.mechanicalWants.info, // optional extra info
+		link: subspeciesData.mechanicalWants.link, // optional URL the button should link to
+		icon: `Mechanical Wants gears` // description of the flag/icon
+	},
+	{
+		name: `Mechanical Wants: Gen 1`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/mxvEPFh.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.mechanicalWants.tags, // tags for search/filtering
+		info: subspeciesData.mechanicalWants.info, // optional extra info
+		link: subspeciesData.mechanicalWants.link, // optional URL the button should link to
+		icon: `Mechanical Wants gears` // description of the flag/icon
+	},
+	{
+		name: `Mechanical Wants: Gen 2`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/3WePD5j.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.mechanicalWants.tags, // tags for search/filtering
+		info: subspeciesData.mechanicalWants.info, // optional extra info
+		link: subspeciesData.mechanicalWants.link, // optional URL the button should link to
+		icon: `Mechanical Wants gears` // description of the flag/icon
+	},
+	{
+		name: `Mechanical Wants: Gen 3`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/cBkYCuS.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.mechanicalWants.tags, // tags for search/filtering
+		info: subspeciesData.mechanicalWants.info, // optional extra info
+		link: subspeciesData.mechanicalWants.link, // optional URL the button should link to
+		icon: `Mechanical Wants gears` // description of the flag/icon
+	},
+	{
+		name: `Mechanical Wants: Gen 4`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/qkCEcFz.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.mechanicalWants.tags, // tags for search/filtering
+		info: subspeciesData.mechanicalWants.info, // optional extra info
+		link: subspeciesData.mechanicalWants.link, // optional URL the button should link to
+		icon: `Mechanical Wants gears` // description of the flag/icon
+	},
+	{
+		name: `Mechanical Wants: Gen 5`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/cZfBhTX.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.mechanicalWants.tags, // tags for search/filtering
+		info: subspeciesData.mechanicalWants.info, // optional extra info
+		link: subspeciesData.mechanicalWants.link, // optional URL the button should link to
+		icon: `Mechanical Wants gears` // description of the flag/icon
+	},
+	{
+		name: `Mechanical Wants: Gen 6`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/Qz6Nr9I.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.mechanicalWants.tags, // tags for search/filtering
+		info: subspeciesData.mechanicalWants.info, // optional extra info
+		link: subspeciesData.mechanicalWants.link, // optional URL the button should link to
+		icon: `Mechanical Wants gears` // description of the flag/icon
+	},
+	{
+		name: `Mechanical Wants: Gen 7`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/f96T7PG.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.mechanicalWants.tags, // tags for search/filtering
+		info: subspeciesData.mechanicalWants.info, // optional extra info
+		link: subspeciesData.mechanicalWants.link, // optional URL the button should link to
+		icon: `Mechanical Wants gears` // description of the flag/icon
+	},
+	{
+		name: `Mechanical Wants: Gen 8`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/6LlYgbG.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.mechanicalWants.tags, // tags for search/filtering
+		info: subspeciesData.mechanicalWants.info, // optional extra info
+		link: subspeciesData.mechanicalWants.link, // optional URL the button should link to
+		icon: `Mechanical Wants gears` // description of the flag/icon
+	},
+	{
+		name: `Mechanical Wants: Gen 9`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/wyoPBit.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.mechanicalWants.tags, // tags for search/filtering
+		info: subspeciesData.mechanicalWants.info, // optional extra info
+		link: subspeciesData.mechanicalWants.link, // optional URL the button should link to
+		icon: `Mechanical Wants gears` // description of the flag/icon
+	},
+	{
+		name: `Mechanical Wants: Gen 10`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/SIFXw21.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.mechanicalWants.tags, // tags for search/filtering
+		info: subspeciesData.mechanicalWants.info, // optional extra info
+		link: subspeciesData.mechanicalWants.link, // optional URL the button should link to
+		icon: `Mechanical Wants gears` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/7dCrMR0s/Sunset-s-Legacy.png`, // imgbb link
+		imgur: `https://i.imgur.com/L6Jl7YB.png`, // imgur link
+		tags: [`flight rising`,`lineage`,`Imperial`], // tags for search/filtering
+		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras">lineage</a> 
+			(more <a href="?tags=sunset's legacy,lineage|lineage extras">Sunset's Legacy buttons</a>)`, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 1`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/F44HnDBD/Sunset-s-Legacy-Gen-1.png`, // imgbb link
+		imgur: `https://i.imgur.com/9ENFBgt.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 2`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/1Dzfsrr/Sunset-s-Legacy-Gen-2.png`, // imgbb link
+		imgur: `https://i.imgur.com/GDCjc7K.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 3`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/fGSmWT1r/Sunset-s-Legacy-Gen-3.png`, // imgbb link
+		imgur: `https://i.imgur.com/YLSFevS.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 4`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/NdLPQDBJ/Sunset-s-Legacy-Gen-4.png`, // imgbb link
+		imgur: `https://i.imgur.com/V8txNbg.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 5`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/xt0MJc1X/Sunset-s-Legacy-Gen-5.png`, // imgbb link
+		imgur: `https://i.imgur.com/pwBnrp3.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 6`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/PZVr94zC/Sunset-s-Legacy-Gen-6.png`, // imgbb link
+		imgur: `https://i.imgur.com/RcPqKiB.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 7`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/n8fhz7kP/Sunset-s-Legacy-Gen-7.png`, // imgbb link
+		imgur: `https://i.imgur.com/VvPcnAb.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 8`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/0psPpynV/Sunset-s-Legacy-Gen-8.png`, // imgbb link
+		imgur: `https://i.imgur.com/KchsE2J.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 9`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/CsQDhhy7/Sunset-s-Legacy-Gen-9.png`, // imgbb link
+		imgur: `https://i.imgur.com/malDe3c.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 10`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/F4XKNnnF/Sunset-s-Legacy-Gen-10.png`, // imgbb link
+		imgur: `https://i.imgur.com/HWLnUYc.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 11`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/0p1rw0w0/Sunset-s-Legacy-Gen-11.png`, // imgbb link
+		imgur: `https://i.imgur.com/oH4CyUZ.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 12`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/nqRBQSP9/Sunset-s-Legacy-Gen-12.png`, // imgbb link
+		imgur: `https://i.imgur.com/MfwNd0T.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 13`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/twRBngB0/Sunset-s-Legacy-Gen-13.png`, // imgbb link
+		imgur: `https://i.imgur.com/hBcrlHn.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 14`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/XrRZy1st/Sunset-s-Legacy-Gen-14.png`, // imgbb link
+		imgur: `https://i.imgur.com/ZkoLEsH.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Sunset's Legacy: Gen 15`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/bgpK1zqr/Sunset-s-Legacy-Gen-15.png`, // imgbb link
+		imgur: `https://i.imgur.com/8ottQSk.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.sunsetsLegacy.tags, // tags for search/filtering
+		info: subspeciesData.sunsetsLegacy.info, // optional extra info
+		link: subspeciesData.sunsetsLegacy.link, // optional URL the button should link to
+		icon: `Sunset's Legacy sunrise` // description of the flag/icon
+	},
+	{
+		name: `Runefall`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/rKr5rZhh/Runefall.png`, // imgbb link
+		imgur: `https://i.imgur.com/nlGCDfq.png`, // imgur link
+		tags: [`flight rising`,`lineage`,`Banescale`], // tags for search/filtering
+		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras">lineage</a> 
+			(more <a href="?tags=runefall,lineage|lineage extras">Runefall buttons</a>)`, // optional extra info
+		link: subspeciesData.runefall.link, // optional URL the button should link to
+		icon: `Runefall star` // description of the flag/icon
+	},
+	{
+		name: `Runefall: Gen 1`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/7xGRLQFN/Runefall-Gen-1.png`, // imgbb link
+		imgur: `https://i.imgur.com/nfVTFe7.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.runefall.tags, // tags for search/filtering
+		info: subspeciesData.runefall.info, // optional extra info
+		link: subspeciesData.runefall.link, // optional URL the button should link to
+		icon: `Runefall star` // description of the flag/icon
+	},
+	{
+		name: `Runefall: Gen 2`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/mV8DWQTP/Runefall-Gen-2.png`, // imgbb link
+		imgur: `https://i.imgur.com/eTxcr6U.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.runefall.tags, // tags for search/filtering
+		info: subspeciesData.runefall.info, // optional extra info
+		link: subspeciesData.runefall.link, // optional URL the button should link to
+		icon: `Runefall star` // description of the flag/icon
+	},
+	{
+		name: `Runefall: Gen 3`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/2YYB7yr8/Runefall-Gen-3.png`, // imgbb link
+		imgur: `https://i.imgur.com/FU5rKAH.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.runefall.tags, // tags for search/filtering
+		info: subspeciesData.runefall.info, // optional extra info
+		link: subspeciesData.runefall.link, // optional URL the button should link to
+		icon: `Runefall star` // description of the flag/icon
+	},
+	{
+		name: `Runefall: Gen 4`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/LDYn6Gmz/Runefall-Gen-4.png`, // imgbb link
+		imgur: `https://i.imgur.com/uF01Ezn.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.runefall.tags, // tags for search/filtering
+		info: subspeciesData.runefall.info, // optional extra info
+		link: subspeciesData.runefall.link, // optional URL the button should link to
+		icon: `Runefall star` // description of the flag/icon
+	},
+	{
+		name: `Runefall: Gen 5`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/PZxbdNhx/Runefall-Gen-5.png`, // imgbb link
+		imgur: `https://i.imgur.com/bQnXOUb.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.runefall.tags, // tags for search/filtering
+		info: subspeciesData.runefall.info, // optional extra info
+		link: subspeciesData.runefall.link, // optional URL the button should link to
+		icon: `Runefall star` // description of the flag/icon
+	},
+	{
+		name: `Runefall: Gen 6`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/mCPkJk2y/Runefall-Gen-6.png`, // imgbb link
+		imgur: `https://i.imgur.com/lRgQkxY.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.runefall.tags, // tags for search/filtering
+		info: subspeciesData.runefall.info, // optional extra info
+		link: subspeciesData.runefall.link, // optional URL the button should link to
+		icon: `Runefall star` // description of the flag/icon
+	},
+	{
+		name: `Runefall: Gen 7`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/Kjk5qpcg/Runefall-Gen-7.png`, // imgbb link
+		imgur: `https://i.imgur.com/YxcekHd.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.runefall.tags, // tags for search/filtering
+		info: subspeciesData.runefall.info, // optional extra info
+		link: subspeciesData.runefall.link, // optional URL the button should link to
+		icon: `Runefall star` // description of the flag/icon
+	},
+	{
+		name: `Runefall: Gen 8`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/3920fZcj/Runefall-Gen-8.png`, // imgbb link
+		imgur: `https://i.imgur.com/Xk49WuK.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.runefall.tags, // tags for search/filtering
+		info: subspeciesData.runefall.info, // optional extra info
+		link: subspeciesData.runefall.link, // optional URL the button should link to
+		icon: `Runefall star` // description of the flag/icon
+	},
+	{
+		name: `Runefall: Gen 9`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/0yQyDk9L/Runefall-Gen-9.png`, // imgbb link
+		imgur: `https://i.imgur.com/CjEvlc8.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.runefall.tags, // tags for search/filtering
+		info: subspeciesData.runefall.info, // optional extra info
+		link: subspeciesData.runefall.link, // optional URL the button should link to
+		icon: `Runefall star` // description of the flag/icon
+	},
+	{
+		name: `Runefall: Gen 10`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/GvxyHpFy/Runefall-Gen-10.png`, // imgbb link
+		imgur: `https://i.imgur.com/LiKUpUI.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.runefall.tags, // tags for search/filtering
+		info: subspeciesData.runefall.info, // optional extra info
+		link: subspeciesData.runefall.link, // optional URL the button should link to
+		icon: `Runefall star` // description of the flag/icon
+	},
+	{
+		name: `Nuvole Bianche`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/7tbvgCm8/Nuvole-Bianche.png`, // imgbb link
+		imgur: `https://i.imgur.com/4FGrZ2S.png`, // imgur link
+		tags: [`flight rising`,`lineage`,`pastel`], // tags for search/filtering
+		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras">lineage</a> 
+			(more <a href="?tags=nuvole bianche,lineage|lineage extras">Nuvole Bianche buttons</a>)`, // optional extra info
+		link: subspeciesData.nuvoleBianche.link, // optional URL the button should link to
+		icon: `Nuvole Bianche clouds` // description of the flag/icon
+	},
+	{
+		name: `Nuvole Bianche: Gen 1`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/5xMs599w/Nuvole-Bianche-Gen-1.png`, // imgbb link
+		imgur: `https://i.imgur.com/V2MFtue.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nuvoleBianche.tags, // tags for search/filtering
+		info: subspeciesData.nuvoleBianche.info, // optional extra info
+		link: subspeciesData.nuvoleBianche.link, // optional URL the button should link to
+		icon: `Nuvole Bianche clouds` // description of the flag/icon
+	},
+	{
+		name: `Nuvole Bianche: Gen 2`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/hRtZqt9t/Nuvole-Bianche-Gen-2.png`, // imgbb link
+		imgur: `https://i.imgur.com/k2ciktO.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nuvoleBianche.tags, // tags for search/filtering
+		info: subspeciesData.nuvoleBianche.info, // optional extra info
+		link: subspeciesData.nuvoleBianche.link, // optional URL the button should link to
+		icon: `Nuvole Bianche clouds` // description of the flag/icon
+	},
+	{
+		name: `Nuvole Bianche: Gen 3`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/CsYGP5Q3/Nuvole-Bianche-Gen-3.png`, // imgbb link
+		imgur: `https://i.imgur.com/UileucK.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nuvoleBianche.tags, // tags for search/filtering
+		info: subspeciesData.nuvoleBianche.info, // optional extra info
+		link: subspeciesData.nuvoleBianche.link, // optional URL the button should link to
+		icon: `Nuvole Bianche clouds` // description of the flag/icon
+	},
+	{
+		name: `Nuvole Bianche: Gen 4`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/KxXJCCdJ/Nuvole-Bianche-Gen-4.png`, // imgbb link
+		imgur: `https://i.imgur.com/rupB1di.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nuvoleBianche.tags, // tags for search/filtering
+		info: subspeciesData.nuvoleBianche.info, // optional extra info
+		link: subspeciesData.nuvoleBianche.link, // optional URL the button should link to
+		icon: `Nuvole Bianche clouds` // description of the flag/icon
+	},
+	{
+		name: `Nuvole Bianche: Gen 5`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/k26t7kCQ/Nuvole-Bianche-Gen-5.png`, // imgbb link
+		imgur: `https://i.imgur.com/0a44i18.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nuvoleBianche.tags, // tags for search/filtering
+		info: subspeciesData.nuvoleBianche.info, // optional extra info
+		link: subspeciesData.nuvoleBianche.link, // optional URL the button should link to
+		icon: `Nuvole Bianche clouds` // description of the flag/icon
+	},
+	{
+		name: `Nuvole Bianche: Gen 6`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/G4SXcQSq/Nuvole-Bianche-Gen-6.png`, // imgbb link
+		imgur: `https://i.imgur.com/ej0ypBN.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nuvoleBianche.tags, // tags for search/filtering
+		info: subspeciesData.nuvoleBianche.info, // optional extra info
+		link: subspeciesData.nuvoleBianche.link, // optional URL the button should link to
+		icon: `Nuvole Bianche clouds` // description of the flag/icon
+	},
+	{
+		name: `Nuvole Bianche: Gen 7`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/twB2ss0D/Nuvole-Bianche-Gen-7.png`, // imgbb link
+		imgur: `https://i.imgur.com/Rg7Dopb.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nuvoleBianche.tags, // tags for search/filtering
+		info: subspeciesData.nuvoleBianche.info, // optional extra info
+		link: subspeciesData.nuvoleBianche.link, // optional URL the button should link to
+		icon: `Nuvole Bianche clouds` // description of the flag/icon
+	},
+	{
+		name: `Nuvole Bianche: Gen 8`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/M5x9dvk7/Nuvole-Bianche-Gen-8.png`, // imgbb link
+		imgur: `https://i.imgur.com/Yp1RdFw.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nuvoleBianche.tags, // tags for search/filtering
+		info: subspeciesData.nuvoleBianche.info, // optional extra info
+		link: subspeciesData.nuvoleBianche.link, // optional URL the button should link to
+		icon: `Nuvole Bianche clouds` // description of the flag/icon
+	},
+	{
+		name: `Nuvole Bianche: Gen 9`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/GQ7QyprV/Nuvole-Bianche-Gen-9.png`, // imgbb link
+		imgur: `https://i.imgur.com/FBHCwuV.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nuvoleBianche.tags, // tags for search/filtering
+		info: subspeciesData.nuvoleBianche.info, // optional extra info
+		link: subspeciesData.nuvoleBianche.link, // optional URL the button should link to
+		icon: `Nuvole Bianche clouds` // description of the flag/icon
+	},
+	{
+		name: `Nuvole Bianche: Gen 10`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/XktBW6NJ/Nuvole-Bianche-Gen-10.png`, // imgbb link
+		imgur: `https://i.imgur.com/UxekJMm.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nuvoleBianche.tags, // tags for search/filtering
+		info: subspeciesData.nuvoleBianche.info, // optional extra info
+		link: subspeciesData.nuvoleBianche.link, // optional URL the button should link to
+		icon: `Nuvole Bianche clouds` // description of the flag/icon
+	},
+	{
+		name: `Night Warrior`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/HL0tS6yv/Night-Warrior.png`, // imgbb link
+		imgur: `https://i.imgur.com/WsOcnSc.png`, // imgur link
+		tags: [`flight rising`,`lineage`], // tags for search/filtering
+		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras">lineage</a> 
+			(more <a href="?tags=night warrior,lineage|lineage extras">Night Warrior buttons</a>)`, // optional extra info
+		link: subspeciesData.nightWarrior.link, // optional URL the button should link to
+		icon: `Night sky` // description of the flag/icon
+	},
+	{
+		name: `Night Warrior: Gen 1`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/7dvgj3JZ/Night-Warrior-Gen-1.png`, // imgbb link
+		imgur: `https://i.imgur.com/jIdsbAc.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nightWarrior.tags, // tags for search/filtering
+		info: subspeciesData.nightWarrior.info, // optional extra info
+		link: subspeciesData.nightWarrior.link, // optional URL the button should link to
+		icon: `Night sky` // description of the flag/icon
+	},
+	{
+		name: `Night Warrior: Gen 2`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/G4mvZDxT/Night-Warrior-Gen-2.png`, // imgbb link
+		imgur: `https://i.imgur.com/MPF9jC3.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nightWarrior.tags, // tags for search/filtering
+		info: subspeciesData.nightWarrior.info, // optional extra info
+		link: subspeciesData.nightWarrior.link, // optional URL the button should link to
+		icon: `Night sky` // description of the flag/icon
+	},
+	{
+		name: `Night Warrior: Gen 3`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/whJr1pSf/Night-Warrior-Gen-3.png`, // imgbb link
+		imgur: `https://i.imgur.com/F0tkAWI.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nightWarrior.tags, // tags for search/filtering
+		info: subspeciesData.nightWarrior.info, // optional extra info
+		link: subspeciesData.nightWarrior.link, // optional URL the button should link to
+		icon: `Night sky` // description of the flag/icon
+	},
+	{
+		name: `Night Warrior: Gen 4`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/wkqBRPt/Night-Warrior-Gen-4.png`, // imgbb link
+		imgur: `https://i.imgur.com/iVQvKg9.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nightWarrior.tags, // tags for search/filtering
+		info: subspeciesData.nightWarrior.info, // optional extra info
+		link: subspeciesData.nightWarrior.link, // optional URL the button should link to
+		icon: `Night sky` // description of the flag/icon
+	},
+	{
+		name: `Night Warrior: Gen 5`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/FqLCvg1G/Night-Warrior-Gen-5.png`, // imgbb link
+		imgur: `https://i.imgur.com/EPUyp8a.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nightWarrior.tags, // tags for search/filtering
+		info: subspeciesData.nightWarrior.info, // optional extra info
+		link: subspeciesData.nightWarrior.link, // optional URL the button should link to
+		icon: `Night sky` // description of the flag/icon
+	},
+	{
+		name: `Night Warrior: Gen 6`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/PZQKLS66/Night-Warrior-Gen-6.png`, // imgbb link
+		imgur: `https://i.imgur.com/cAcqUkc.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nightWarrior.tags, // tags for search/filtering
+		info: subspeciesData.nightWarrior.info, // optional extra info
+		link: subspeciesData.nightWarrior.link, // optional URL the button should link to
+		icon: `Night sky` // description of the flag/icon
+	},
+	{
+		name: `Night Warrior: Gen 7`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/zTX9Gn4d/Night-Warrior-Gen-7.png`, // imgbb link
+		imgur: `https://i.imgur.com/FhPG1WV.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nightWarrior.tags, // tags for search/filtering
+		info: subspeciesData.nightWarrior.info, // optional extra info
+		link: subspeciesData.nightWarrior.link, // optional URL the button should link to
+		icon: `Night sky` // description of the flag/icon
+	},
+	{
+		name: `Night Warrior: Gen 8`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/vxvkCkwH/Night-Warrior-Gen-8.png`, // imgbb link
+		imgur: `https://i.imgur.com/Jv6H5XD.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nightWarrior.tags, // tags for search/filtering
+		info: subspeciesData.nightWarrior.info, // optional extra info
+		link: subspeciesData.nightWarrior.link, // optional URL the button should link to
+		icon: `Night sky` // description of the flag/icon
+	},
+	{
+		name: `Night Warrior: Gen 9`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/SC6s2cR/Night-Warrior-Gen-9.png`, // imgbb link
+		imgur: `https://i.imgur.com/6XKSfXm.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nightWarrior.tags, // tags for search/filtering
+		info: subspeciesData.nightWarrior.info, // optional extra info
+		link: subspeciesData.nightWarrior.link, // optional URL the button should link to
+		icon: `Night sky` // description of the flag/icon
+	},
+	{
+		name: `Night Warrior: Gen 10`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/wrcDHxnm/Night-Warrior-Gen-10.png`, // imgbb link
+		imgur: `https://i.imgur.com/T1fzWav.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nightWarrior.tags, // tags for search/filtering
+		info: subspeciesData.nightWarrior.info, // optional extra info
+		link: subspeciesData.nightWarrior.link, // optional URL the button should link to
+		icon: `Night sky` // description of the flag/icon
+	},
+	{
+		name: `Night Warrior: Gen 11`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/7NQF9grd/Night-Warrior-Gen-11.png`, // imgbb link
+		imgur: `https://i.imgur.com/XOO1nX2.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nightWarrior.tags, // tags for search/filtering
+		info: subspeciesData.nightWarrior.info, // optional extra info
+		link: subspeciesData.nightWarrior.link, // optional URL the button should link to
+		icon: `Night sky` // description of the flag/icon
+	},
+	{
+		name: `Night Warrior: Gen 12`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/7dLp9LbN/Night-Warrior-Gen-12.png`, // imgbb link
+		imgur: `https://i.imgur.com/tiRmO0X.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.nightWarrior.tags, // tags for search/filtering
+		info: subspeciesData.nightWarrior.info, // optional extra info
+		link: subspeciesData.nightWarrior.link, // optional URL the button should link to
+		icon: `Night sky` // description of the flag/icon
+	},
+	{
+		name: `Dark Stalker`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/7xXsbHNk/Dark-Stalker.png`, // imgbb link
+		imgur: `https://i.imgur.com/1a6dd4f.png`, // imgur link
+		tags: [`flight rising`,`lineage`], // tags for search/filtering
+		info: `Flight Rising <a href="?tags=flight rising,lineage,!lineage extras">lineage</a> 
+			(more <a href="?tags=dark stalker,lineage|lineage extras">Dark Stalker buttons</a>)`, // optional extra info
+		link: subspeciesData.darkStalker.link, // optional URL the button should link to
+		icon: `Dark Stalker smoke` // description of the flag/icon
+	},
+	{
+		name: `Dark Stalker: Gen 0`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/0yTP5ryZ/Dark-Stalker-Gen-0.png`, // imgbb link
+		imgur: `https://i.imgur.com/Q5ZPTlK.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.darkStalker.tags, // tags for search/filtering
+		info: subspeciesData.darkStalker.info, // optional extra info
+		link: subspeciesData.darkStalker.link, // optional URL the button should link to
+		icon: `Dark Stalker smoke` // description of the flag/icon
+	},
+	{
+		name: `Dark Stalker: Gen 1`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/TDDNpm7q/Dark-Stalker-Gen-1.png`, // imgbb link
+		imgur: `https://i.imgur.com/mmLvwT8.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.darkStalker.tags, // tags for search/filtering
+		info: subspeciesData.darkStalker.info, // optional extra info
+		link: subspeciesData.darkStalker.link, // optional URL the button should link to
+		icon: `Dark Stalker smoke` // description of the flag/icon
+	},
+	{
+		name: `Dark Stalker: Gen 2`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/Fb7mdkbv/Dark-Stalker-Gen-2.png`, // imgbb link
+		imgur: `https://i.imgur.com/SQwL5ek.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.darkStalker.tags, // tags for search/filtering
+		info: subspeciesData.darkStalker.info, // optional extra info
+		link: subspeciesData.darkStalker.link, // optional URL the button should link to
+		icon: `Dark Stalker smoke` // description of the flag/icon
+	},
+	{
+		name: `Dark Stalker: Gen 3`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/Q76Pr7Mc/Dark-Stalker-Gen-3.png`, // imgbb link
+		imgur: `https://i.imgur.com/nMY6zZq.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.darkStalker.tags, // tags for search/filtering
+		info: subspeciesData.darkStalker.info, // optional extra info
+		link: subspeciesData.darkStalker.link, // optional URL the button should link to
+		icon: `Dark Stalker smoke` // description of the flag/icon
+	},
+	{
+		name: `Dark Stalker: Gen 4`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/S4rDKZ7g/Dark-Stalker-Gen-4.png`, // imgbb link
+		imgur: `https://i.imgur.com/svWjwSQ.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.darkStalker.tags, // tags for search/filtering
+		info: subspeciesData.darkStalker.info, // optional extra info
+		link: subspeciesData.darkStalker.link, // optional URL the button should link to
+		icon: `Dark Stalker smoke` // description of the flag/icon
+	},
+	{
+		name: `Dark Stalker: Gen 5`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/1YJFvjMK/Dark-Stalker-Gen-5.png`, // imgbb link
+		imgur: `https://i.imgur.com/86qFSfQ.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.darkStalker.tags, // tags for search/filtering
+		info: subspeciesData.darkStalker.info, // optional extra info
+		link: subspeciesData.darkStalker.link, // optional URL the button should link to
+		icon: `Dark Stalker smoke` // description of the flag/icon
+	},
+	{
+		name: `Dark Stalker: Gen 6`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/PsBdb2J3/Dark-Stalker-Gen-6.png`, // imgbb link
+		imgur: `https://i.imgur.com/kYeu8Bi.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.darkStalker.tags, // tags for search/filtering
+		info: subspeciesData.darkStalker.info, // optional extra info
+		link: subspeciesData.darkStalker.link, // optional URL the button should link to
+		icon: `Dark Stalker smoke` // description of the flag/icon
+	},
+	{
+		name: `Dark Stalker: Gen 7`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/ndZKpPC/Dark-Stalker-Gen-7.png`, // imgbb link
+		imgur: `https://i.imgur.com/8b9fWcw.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.darkStalker.tags, // tags for search/filtering
+		info: subspeciesData.darkStalker.info, // optional extra info
+		link: subspeciesData.darkStalker.link, // optional URL the button should link to
+		icon: `Dark Stalker smoke` // description of the flag/icon
+	},
+	{
+		name: `Dark Stalker: Gen 8`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/tpQzvx4p/Dark-Stalker-Gen-8.png`, // imgbb link
+		imgur: `https://i.imgur.com/NwdnTrc.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.darkStalker.tags, // tags for search/filtering
+		info: subspeciesData.darkStalker.info, // optional extra info
+		link: subspeciesData.darkStalker.link, // optional URL the button should link to
+		icon: `Dark Stalker smoke` // description of the flag/icon
+	},
+	{
+		name: `Dark Stalker: Gen 9`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/1fMGTPMp/Dark-Stalker-Gen-9.png`, // imgbb link
+		imgur: `https://i.imgur.com/cOFuKR7.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.darkStalker.tags, // tags for search/filtering
+		info: subspeciesData.darkStalker.info, // optional extra info
+		link: subspeciesData.darkStalker.link, // optional URL the button should link to
+		icon: `Dark Stalker smoke` // description of the flag/icon
+	},
+	{
+		name: `Dark Stalker: Gen 10`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/svBsfvY1/Dark-Stalker-Gen-10.png`, // imgbb link
+		imgur: `https://i.imgur.com/bVJttRT.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: subspeciesData.darkStalker.tags, // tags for search/filtering
+		info: subspeciesData.darkStalker.info, // optional extra info
+		link: subspeciesData.darkStalker.link, // optional URL the button should link to
+		icon: `Dark Stalker smoke` // description of the flag/icon
+	},
 	
 	/*
 	,
 	{
 		name: ``, // display name
-		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
 		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: ``, // imgbb link
 		imgur: ``, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`subspecies`], // tags for search/filtering
-		info: `Flight Rising <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>
-			(more <a href="?tags=NAME,subspecies|subspecies extras">NAME buttons</a>)`, // optional extra info
+		tags: [`flight rising`,`lineage`,`lineage extras`,`generation`], // tags for search/filtering
+		info: ``, // optional extra info
 		link: ``, // optional URL the button should link to
 		icon: `` // description of the flag/icon
-	}
+	},
 	*/
+]
+
+const nonspecificSubspeciesList = [
+	{
+		name: `Tainted`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/QM4KCv8.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`demon`], // tags for search/filtering
+		info: `Non-specific ` + subspeciesData.subspeciesInfo, // optional extra info
+		icon: `Dark gray` // description of the flag/icon
+	},
+	{
+		name: `Blessed`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/UcTvo43.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`angel`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Pale gray` // description of the flag/icon
+	},
+	{
+		name: `Demigod`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/94SLaCO.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`deity`,`god`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Rainbow star` // description of the flag/icon
+	},
+	{
+		name: `Demon`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/hEXkWLl.png`, // imgur link
+		tags: [`flight rising`,`subspecies`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Red eyes` // description of the flag/icon
+	},
+	{
+		name: `½ Demon`, // display name
+		altNames: [`Half Demon`,`1/2 Demon`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/aaleJ25.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`demon`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Red eyes` // description of the flag/icon
+	},
+	{
+		name: `¼ Demon`, // display name
+		altNames: [`Quarter Demon`,`1/4 Demon`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/pYPzgCp.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`demon`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Red eyes` // description of the flag/icon
+	},
+	{
+		name: `⅛ Demon`, // display name
+		altNames: [`Eighth Demon`,`1/8 Demon`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/djKA0VB.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`subspecies`,`demon`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Red eyes` // description of the flag/icon
+	},
+	{
+		name: `Angel`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/wangwOA.png`, // imgur link
+		tags: [`flight rising`,`subspecies`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Golden eyes` // description of the flag/icon
+	},
+	{
+		name: `½ Angel`, // display name
+		altNames: [`Half Angel`,`1/2 Angel`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/Mo8dJyA.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`angel`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Golden eyes` // description of the flag/icon
+	},
+	{
+		name: `¼ Angel`, // display name
+		altNames: [`Quarter Angel`,`1/4 Angel`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/CQecq8l.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`angel`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Golden eyes` // description of the flag/icon
+	},
+	{
+		name: `⅛ Angel`, // display name
+		altNames: [`Eighth Angel`,`1/8 Angel`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/9XgRrVx.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`subspecies`,`angel`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Golden eyes` // description of the flag/icon
+	},
+	{
+		name: `Fae`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/02jpMGs.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`fairy`,`faerie`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Pink eyes on cyan` // description of the flag/icon
+	},
+	{
+		name: `½ Fae`, // display name
+		altNames: [`Half Fae`,`1/2 Fae`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/AvrTsSC.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`fae`,`fairy`,`faerie`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Pink eyes on cyan` // description of the flag/icon
+	},
+	{
+		name: `¼ Fae`, // display name
+		altNames: [`Quarter Fae`,`1/4 Fae`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/JsimIF3.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`fae`,`fairy`,`faerie`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Pink eyes on cyan` // description of the flag/icon
+	},
+	{
+		name: `⅛ Fae`, // display name
+		altNames: [`Eighth Fae`,`1/8 Fae`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/rqno1If.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`subspecies`,`fae`,`fairy`,`faerie`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Pink eyes on cyan` // description of the flag/icon
+	},
+	{
+		name: `Deity`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/rXfMawG.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`god`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Rainbow eyes` // description of the flag/icon
+	},
+	{
+		name: `½ Deity`, // display name
+		altNames: [`Half Deity`,`1/2 Deity`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/EvKPwXj.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`deity`,`god`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Rainbow eyes` // description of the flag/icon
+	},
+	{
+		name: `¼ Deity`, // display name
+		altNames: [`Quarter Deity`,`1/4 Deity`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/aOXaMoK.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`deity`,`god`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Rainbow eyes` // description of the flag/icon
+	},
+	{
+		name: `⅛ Deity`, // display name
+		altNames: [`Eighth Deity`,`1/8 Deity`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/c9HxJj8.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`subspecies`,`deity`,`god`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Rainbow eyes` // description of the flag/icon
+	},
+	{
+		name: `Dragon`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/ibzwkqb.png`, // imgur link
+		tags: [`flight rising`,`subspecies`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Orange eyes` // description of the flag/icon
+	},
+	{
+		name: `½ Dragon`, // display name
+		altNames: [`Half Dragon`,`1/2 Dragon`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/SUZnIi2.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`dragon`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Orange eyes` // description of the flag/icon
+	},
+	{
+		name: `¼ Dragon`, // display name
+		altNames: [`Quarter Dragon`,`1/4 Dragon`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/vtskW3i.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`dragon`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Orange eyes` // description of the flag/icon
+	},
+	{
+		name: `⅛ Dragon`, // display name
+		altNames: [`Eighth Dragon`,`1/8 Dragon`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/VrK1qau.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`subspecies`,`dragon`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Orange eyes` // description of the flag/icon
+	},
+	{
+		name: `Shade`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgur: `https://i.imgur.com/6M37GtV.png`, // imgur link
+		tags: [`flight rising`,`subspecies`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Black eyes` // description of the flag/icon
+	},
+	{
+		name: `½ Shade`, // display name
+		altNames: [`Half Shade`,`1/2 Shade`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/7gG7GtN.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`shade`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Black eyes` // description of the flag/icon
+	},
+	{
+		name: `¼ Shade`, // display name
+		altNames: [`Quarter Shade`,`1/4 Shade`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/TjuNXO1.png`, // imgur link
+		tags: [`flight rising`,`subspecies`,`shade`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Black eyes` // description of the flag/icon
+	},
+	{
+		name: `⅛ Shade`, // display name
+		altNames: [`Eighth Shade`,`1/8 Shade`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
+		imgur: `https://i.imgur.com/4MIh7Vl.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`flight rising`,`subspecies`,`shade`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Black eyes` // description of the flag/icon
+	},
 ]
 
 //////////// OTHER ////////////
 
 const healthList = [
+	{
+		name: `Disabled`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		//src: `/buttons/health/%name.png`, // local image source
+		imgbb: ``, // imgbb
+		imgur: `https://i.imgur.com/AaYNmEX.png`, // imgur link
+		tags: [`disability`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Disability flag` // description of the flag/icon
+	},
+	{
+		name: `Disabled`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		//src: `/buttons/health/%name.png`, // local image source
+		imgbb: ``, // imgbb
+		imgur: `https://i.imgur.com/bWeLCqf.png`, // imgur link
+		tags: [`disability`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Zig-zag disability flag` // description of the flag/icon
+	},
+	{
+		name: `Disabled`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		//src: `/buttons/health/%name.png`, // local image source
+		imgbb: ``, // imgbb
+		imgur: `https://i.imgur.com/ed1cxgE.png`, // imgur link
+		tags: [`disability`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Brown striped disability flag` // description of the flag/icon
+	},
+	{
+		name: `Disabled`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		//src: `/buttons/health/%name.png`, // local image source
+		imgbb: ``, // imgbb
+		imgur: `https://i.imgur.com/Z33buiu.png`, // imgur link
+		tags: [`disability`,`mental health`,`neurodiversity`,`neurodivergence`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Neurodiversity inifinity` // description of the flag/icon
+	},
 	{
 		name: `Hip Dysplasia`, // display name
 		altNames: [`Dysplasia`], // optional alternate names, for search algorithms
@@ -16833,7 +18325,7 @@ const healthList = [
 		dateAdded: `2024-01-26`, // date this button was first added to the masterlist
 		src: `/buttons/health/%name.png`, // local image source
 		imgur: `https://i.imgur.com/F5b1qO2.png`, // imgur link
-		tags: [`health`,`disorders`,`medical`,`mental health`,`sensitive`], // tags for search/filtering
+		tags: [`health`,`disorders`,`medical`,`mental health`,`neurodivergent`,`neurodiversity`,`sensitive`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Highly Sensitive Person symbol` // description of the flag/icon
 	},
@@ -16842,7 +18334,7 @@ const healthList = [
 		dateAdded: `2024-01-26`, // date this button was first added to the masterlist
 		src: `/buttons/health/%name_HSP.png`, // local image source
 		imgur: `https://i.imgur.com/YHPKhPJ.png`, // imgur link
-		tags: [`health`,`disorders`,`medical`,`mental health`,`hsp`,`highly sensitive person`], // tags for search/filtering
+		tags: [`health`,`disorders`,`medical`,`mental health`,`neurodivergent`,`neurodiversity`,`hsp`,`highly sensitive person`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Highly Sensitive Person symbol` // description of the flag/icon
 	},
@@ -16884,14 +18376,280 @@ const healthList = [
 		icon: `Awareness ribbon` // description of the flag/icon
 	},
 	{
+		name: `Anemic`, // display name
+		altNames: [`Anemia`],
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		//src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/LDmcMP0t/Anemic.png`, // imgbb
+		imgur: `https://i.imgur.com/lsvYQnp.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Arthritis`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		//src: `/buttons/health/%name.png`, // local image source
+		imgbb: ``, // imgbb
+		imgur: `https://i.imgur.com/LUABqhg.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Arthritis`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		//src: `/buttons/health/%name_alt.png`, // local image source
+		imgbb: ``, // imgbb
+		imgur: `https://i.imgur.com/M7PdLcP.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon (blue)` // description of the flag/icon
+	},
+	{
+		name: `Asthma`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		//src: `/buttons/health/%name.png`, // local image source
+		imgbb: ``, // imgbb
+		imgur: `https://i.imgur.com/mRmIDl9.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Cancer Survivor`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/Wp64ZbPn/Cancer-Survivor.png`, // imgbb
+		imgur: `https://i.imgur.com/b9kiMNi.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,`cancer`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Carpal Tunnel`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/qMq54F9k/Carpal-Tunnel.png`, // imgbb
+		imgur: `https://i.imgur.com/W9xcxgQ.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Celiac`, // display name
+		altNames: [`Celiac Disease`],
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/5hPv5cWT/Celiac.png`, // imgbb
+		imgur: `https://i.imgur.com/UdYC8mK.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,`digestive`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Chronic Illness`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/NgbmNyDT/Chronic-Illness.png`, // imgbb
+		imgur: `https://i.imgur.com/D9xaprH.png`, // imgur link
+		tags: [`health`,`disorders`,`disability`,`medical`,`physical health`,`chronic illness`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Disability flag` // description of the flag/icon
+	},
+	{
+		name: `Chronic Illness`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_alt.png`, // local image source
+		imgbb: `https://i.ibb.co/xKLL5QmS/Chronic-Illness-alt.png`, // imgbb
+		imgur: `https://i.imgur.com/JNaCTSP.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`health`,`disorders`,`disability`,`medical`,`physical health`,`chronic illness`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Brown striped disability flag` // description of the flag/icon
+	},
+	{
+		name: `Chronic Pain`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/jvxkL5r0/Chronic-Pain.png`, // imgbb
+		imgur: `https://i.imgur.com/E7c0NAU.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,`chronic illness`,`pain`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Chronic Fatigue Syndrome`, // display name
+		altNames: [`CFS`],
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/21Y5jrBZ/Chronic-Fatigue-Syndrome.png`, // imgbb
+		imgur: `https://i.imgur.com/YoQhgKu.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,`chronic illness`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Chronic Fatigue`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/BVqt1Rnq/Chronic-Fatigue.png`, // imgbb
+		imgur: `https://i.imgur.com/75JySJB.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,`chronic illness`,`chronic fatigue syndrome`,`cfs`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Crohn's`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/tT5pdbWt/Crohn-s.png`, // imgbb
+		imgur: `https://i.imgur.com/XDIaMUK.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,`crohn's disease`,`digestive`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Crohn's Disease`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/LXhFzkxD/Crohn-s-Disease.png`, // imgbb
+		imgur: `https://i.imgur.com/PaZ8Ob5.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`health`,`disorders`,`medical`,`physical health`,`digestive`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Cystic Fibrosis`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/nsfV4Fyp/Cystic-Fibrosis.png`, // imgbb
+		imgur: `https://i.imgur.com/hgMy2e2.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Diabetic`, // display name
+		altNames: [`Diabetes`],
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/JRFv01SG/Diabetic.png`, // imgbb
+		imgur: `https://i.imgur.com/B7aT9QH.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Diabetes symbol` // description of the flag/icon
+	},
+	{
+		name: `Diabetic`, // display name
+		altNames: [`Diabetes`],
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_ribbon.png`, // local image source
+		imgbb: `https://i.ibb.co/sv0JXgCR/Diabetic-ribbon.png`, // imgbb
+		imgur: `https://i.imgur.com/uVi0BlM.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Dwarfism`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/L2kLCn5/Dwarfism.png`, // imgbb
+		imgur: `https://i.imgur.com/dOFzJJj.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`health`,`disorders`,`medical`,`physical health`,`little person`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Dwarfism`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/zVcBfNkT/Dwarfism-flag.png`, // imgbb
+		imgur: `https://i.imgur.com/COtddf2.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,`little person`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Little Person`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/JwFWmhGp/Little-Person.png`, // imgbb
+		imgur: `https://i.imgur.com/YozP8Ml.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`health`,`disorders`,`medical`,`physical health`,`dwarfism`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Little Person`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/60MJzfrC/Little-Person-flag.png`, // imgbb
+		imgur: `https://i.imgur.com/jF8IBPC.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,`dwarfism`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Dwarfism flag` // description of the flag/icon
+	},
+	{
+		name: `Dysautonomia`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/HftTV3DX/Dysautonomia.png`, // imgbb
+		imgur: `https://i.imgur.com/3z1ctUT.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Dysphagia`, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/YTp7G3yV/Dysphagia.png`, // imgbb
+		imgur: `https://i.imgur.com/tPteOrx.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,`digestive`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Ehlers-Danlos`, // display name
+		altNames: [`EDS`,`Ehlers-Danlos Syndrome`],
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/gLJZ2b41/Ehlers-Danlos.png`, // imgbb
+		imgur: `https://i.imgur.com/6Ef6hwD.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Zebra stripes` // description of the flag/icon
+	},
+	{
 		name: `Seizures`, // display name
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/9HW14v8b/Seizures.png`, // imgbb
 		imgur: `https://i.imgur.com/rkIGzm1.png`, // imgur link
-		tags: [`health`,`disorders`,`medical`,`physical health`,`disability`], // tags for search/filtering
+		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Vision-friendly disability flag` // description of the flag/icon
-	}
+		icon: `Disability flag` // description of the flag/icon
+	},
+	
+	/*
+	{
+		name: ``, // display name
+		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		//src: `/buttons/health/%name.png`, // local image source
+		imgbb: ``, // imgbb
+		imgur: ``, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	*/
 ]
 
 const religionDisclaimer = `
@@ -20897,7 +22655,6 @@ const aestheticList = [
 	}
 ]
 
-
 const softwareList = [
 	{
 		name: `Procreate`, // display name
@@ -24544,7 +26301,7 @@ const buttonList = arr.concat(
 	tertiaryAttractionList,
 	relationshipList,
 	
-	FRList, subspeciesList, FRexalting, FReyeList,
+	FRList, subspeciesList, nonspecificSubspeciesList, FRexalting, FReyeList,
 	
 	healthList,
 	religionList,

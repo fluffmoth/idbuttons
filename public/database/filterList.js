@@ -147,7 +147,14 @@ const filterList = [
 			{ label: `Genders & Orientations`, tags: `gender|orientation` }
 		]
 	},
-	{ label: `Health & Disability`, tags: `health|disability|disorder,!gender`},
+	{ label: `Health & Disability`, tags: `health|disability|disabled|disorder,!gender`,
+		children: [
+			{ label: `Neurodiversity`, tags: `neurodiversity|neurodivergent` },
+			{ label: `Mental Health`, tags: `mental health` },
+			{ label: `Physical Health`, tags: `physical health` },
+			{ label: `Chronic Illness`, tags: `chronic illness` }
+		]
+	},
 	{ label: `Dietary Info`, tags: `diet` },
 	{ label: `Fandoms & Interests`, tags: `interests|fandom`,
 		children: [
