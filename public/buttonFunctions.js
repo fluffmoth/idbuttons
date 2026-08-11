@@ -453,7 +453,7 @@ function setAltText(btn) {
 			btn.alt = btn.name;
 			// if subspecies, note at end of alt text
 			if (btn.tags.includes('flight rising') && btn.tags.includes('subspecies')) btn.alt += ` (Subspecies)`
-			else if (btn.tags.includes('flight rising') && btn.tags.includes('lineage')) btn.alt += ` (Lineage)`
+			else if (btn.tags.includes('flight rising') && btn.tags.includes('lineage') && !btn.tags.includes('generation')) btn.alt += ` (Lineage)`
 			// if button uses a default icon base
 			else if (btn.iconBase) btn.alt += ' (' + btn.iconBase.icon + ' ' + adjustIconBaseName(btn).toLowerCase() + ')';
 			// otherwise if button icon is not basic flag or logo, add icon text to end of alt text
