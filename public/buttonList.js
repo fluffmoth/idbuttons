@@ -12618,7 +12618,7 @@ const aroAceList = [
 		imgbb: `https://i.ibb.co/MybSVFnH/Aro-Pan.png`, // imgbb link
 		imgur: `https://i.imgur.com/bybFVO1.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`orientation`,`a-spec`,`split attraction model`,`aro spectrum`,`aromantic`,`aro`,`pan`], // tags for search/filtering
+		tags: [`orientation`,`a-spec`,`m-spec`,`split attraction model`,`aro spectrum`,`aromantic`,`aro`,`pan`,`pansexual`], // tags for search/filtering
 		info: `Aromantic and pan`, // optional extra info
 		icon: `Pan flag with arrow` // description of the flag/icon
 	},
@@ -12627,7 +12627,7 @@ const aroAceList = [
 		src: `/buttons/orientation/%name_alt.png`, // local image source
 		imgbb: `https://i.ibb.co/r2cNK1Pr/Aro-Pan-alt.png`, // imgbb link
 		imgur: `https://i.imgur.com/1RK6bjG.png`, // imgur link
-		tags: [`orientation`,`a-spec`,`split attraction model`,`aro spectrum`,`aromantic`,`aro`,`pan`], // tags for search/filtering
+		tags: [`orientation`,`a-spec`,`m-spec`,`split attraction model`,`aro spectrum`,`aromantic`,`aro`,`pan`,`pansexual`], // tags for search/filtering
 		info: `Aromantic and pan`, // optional extra info
 		icon: `flags (stripe)` // description of the flag/icon
 	},
