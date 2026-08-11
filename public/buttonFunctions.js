@@ -538,9 +538,7 @@ function getLocalSrc(btn, full) {
 		if (full) src = `https://idbuttons.neocities.org` + src;
 		return src;
 	}
-	else if (btn.postimg && btn.postimg != `` && btn.postimg != undefined) return btn.postimg;
-	else if (btn.imgur && btn.imgur != `` && btn.imgur != undefined) return btn.imgur;
-	else return ``;
+	else return getSrc(btn,full);
 }
 
 // if any of button's altNames are referenced in alt text, insert them
