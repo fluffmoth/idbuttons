@@ -152,7 +152,9 @@ const filterList = [
 			{ label: `Neurodiversity`, tags: `neurodiversity|neurodivergent` },
 			{ label: `Mental Health`, tags: `mental health` },
 			{ label: `Physical Health`, tags: `physical health` },
-			{ label: `Chronic Illness`, tags: `chronic illness` }
+			{ label: `Deaf/Auditory`, tags: `auditory` },
+			{ label: `Chronic Illness`, tags: `chronic illness|chronic pain` },
+			{ label: `Assistive Devices`, tags: `assistive device` }
 		]
 	},
 	{ label: `Dietary Info`, tags: `diet` },

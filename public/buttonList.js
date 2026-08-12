@@ -18297,9 +18297,10 @@ const nonspecificSubspeciesList = [
 const healthList = [
 	{
 		name: `Disabled`, // display name
+		altNames: [`Disability`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		//src: `/buttons/health/%name.png`, // local image source
-		imgbb: ``, // imgbb
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/V0wV86Jj/Disabled.png`, // imgbb
 		imgur: `https://i.imgur.com/AaYNmEX.png`, // imgur link
 		tags: [`disability`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -18307,19 +18308,21 @@ const healthList = [
 	},
 	{
 		name: `Disabled`, // display name
+		altNames: [`Disability`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		//src: `/buttons/health/%name.png`, // local image source
-		imgbb: ``, // imgbb
+		src: `/buttons/health/%name_alt.png`, // local image source
+		imgbb: `https://i.ibb.co/HfQFfNSr/Disabled-alt.png`, // imgbb
 		imgur: `https://i.imgur.com/bWeLCqf.png`, // imgur link
 		tags: [`disability`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Zig-zag disability flag` // description of the flag/icon
+		icon: `Disability flag (zig-zag)` // description of the flag/icon
 	},
 	{
 		name: `Disabled`, // display name
+		altNames: [`Disability`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		//src: `/buttons/health/%name.png`, // local image source
-		imgbb: ``, // imgbb
+		src: `/buttons/health/%name_stripe.png`, // local image source
+		imgbb: `https://i.ibb.co/84rLV0z1/Disabled-stripe.png`, // imgbb
 		imgur: `https://i.imgur.com/ed1cxgE.png`, // imgur link
 		tags: [`disability`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -18327,13 +18330,134 @@ const healthList = [
 	},
 	{
 		name: `Disabled`, // display name
+		altNames: [`Disability`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		//src: `/buttons/health/%name.png`, // local image source
-		imgbb: ``, // imgbb
+		src: `/buttons/health/%name_ND.png`, // local image source
+		imgbb: `https://i.ibb.co/jZyCY8rS/Disabled-ND.png`, // imgbb
 		imgur: `https://i.imgur.com/Z33buiu.png`, // imgur link
 		tags: [`disability`,`mental health`,`neurodiversity`,`neurodivergence`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Neurodiversity inifinity` // description of the flag/icon
+	},
+	{
+		name: `Cane User`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/nMK9SwTj/Cane-User.png`, // imgbb
+		imgur: `https://i.imgur.com/2Dp2REm.png`, // imgur link
+		tags: [`disability`,`health`,`medical`,`assistive device`,`cane`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Disability flag` // description of the flag/icon
+	},
+	{
+		name: `Cane User`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_alt.png`, // local image source
+		imgbb: `https://i.ibb.co/3Y7fKX0N/Cane-User-alt.png`, // imgbb
+		imgur: `https://i.imgur.com/W0Y9c9y.png`, // imgur link
+		tags: [`disability`,`health`,`medical`,`assistive device`,`cane`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Disability flag (zig-zag)` // description of the flag/icon
+	},
+	{
+		name: `Cane User`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_handicap.png`, // local image source
+		imgbb: `https://i.ibb.co/vCQfN7b5/Cane-User-handicap.png`, // imgbb
+		imgur: `https://i.imgur.com/5ouR6ge.png`, // imgur link
+		tags: [`disability`,`health`,`medical`,`assistive device`,`cane`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Handicap symbol` // description of the flag/icon
+	},
+	{
+		name: `Crutch User`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/SDRQ8qt6/Crutch-User.png`, // imgbb
+		imgur: `https://i.imgur.com/9OfYE7K.png`, // imgur link
+		tags: [`disability`,`health`,`medical`,`assistive device`,`crutch`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Disability flag` // description of the flag/icon
+	},
+	{
+		name: `Crutch User`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_alt.png`, // local image source
+		imgbb: `https://i.ibb.co/cKg53ZgV/Crutch-User-alt.png`, // imgbb
+		imgur: `https://i.imgur.com/lPVSA0N.png`, // imgur link
+		tags: [`disability`,`health`,`medical`,`assistive device`,`crutch`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Disability flag (zig-zag)` // description of the flag/icon
+	},
+	{
+		name: `Crutch User`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_handicap.png`, // local image source
+		imgbb: `https://i.ibb.co/hRVx555X/Crutch-User-handicap.png`, // imgbb
+		imgur: `https://i.imgur.com/Dmf0ocA.png`, // imgur link
+		tags: [`disability`,`health`,`medical`,`assistive device`,`crutch`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Handicap symbol` // description of the flag/icon
+	},
+	{
+		name: `Walker User`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/84XgpBMZ/Walker-User.png`, // imgbb
+		imgur: `https://i.imgur.com/TzxU10s.png`, // imgur link
+		tags: [`disability`,`health`,`medical`,`assistive device`,`walker`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Disability flag` // description of the flag/icon
+	},
+	{
+		name: `Walker User`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_alt.png`, // local image source
+		imgbb: `https://i.ibb.co/NdLDPz4R/Walker-User-alt.png`, // imgbb
+		imgur: `https://i.imgur.com/zDhXfK8.png`, // imgur link
+		tags: [`disability`,`health`,`medical`,`assistive device`,`walker`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Disability flag (zig-zag)` // description of the flag/icon
+	},
+	{
+		name: `Walker User`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_handicap.png`, // local image source
+		imgbb: `https://i.ibb.co/HfJT0t8j/Walker-User-handicap.png`, // imgbb
+		imgur: `https://i.imgur.com/UEn8QZ4.png`, // imgur link
+		tags: [`disability`,`health`,`medical`,`assistive device`,`walker`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Handicap symbol` // description of the flag/icon
+	},
+	{
+		name: `Wheelchair User`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/bj5Dp1rN/Wheelchair-User.png`, // imgbb
+		imgur: `https://i.imgur.com/QBHEQiq.png`, // imgur link
+		tags: [`disability`,`health`,`medical`,`assistive device`,`wheelchair`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Disability flag` // description of the flag/icon
+	},
+	{
+		name: `Wheelchair User`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_alt.png`, // local image source
+		imgbb: `https://i.ibb.co/Ps65HrMg/Wheelchair-User-alt.png`, // imgbb
+		imgur: `https://i.imgur.com/z6J8rNu.png`, // imgur link
+		tags: [`disability`,`health`,`medical`,`assistive device`,`wheelchair`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Disability flag (zig-zag)` // description of the flag/icon
+	},
+	{
+		name: `Wheelchair User`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_handicap.png`, // local image source
+		imgbb: `https://i.ibb.co/2YP6HsxX/Wheelchair-User-handicap.png`, // imgbb
+		imgur: `https://i.imgur.com/euKkELX.png`, // imgur link
+		tags: [`disability`,`health`,`medical`,`assistive device`,`wheelchair`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Handicap symbol` // description of the flag/icon
 	},
 	{
 		name: `Hip Dysplasia`, // display name
@@ -18396,6 +18520,7 @@ const healthList = [
 		name: `Allergies`, // display name
 		dateAdded: `2024-01-24`, // date this button was first added to the masterlist
 		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/7T4MhSL/Allergies.png`, // imgbb
 		imgur: `https://i.imgur.com/0ElGPSd.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -18405,7 +18530,7 @@ const healthList = [
 		name: `Anemic`, // display name
 		altNames: [`Anemia`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		//src: `/buttons/health/%name.png`, // local image source
+		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `https://i.ibb.co/LDmcMP0t/Anemic.png`, // imgbb
 		imgur: `https://i.imgur.com/lsvYQnp.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
@@ -18415,8 +18540,8 @@ const healthList = [
 	{
 		name: `Arthritis`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		//src: `/buttons/health/%name.png`, // local image source
-		imgbb: ``, // imgbb
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/kg5zsM8s/Arthritis.png`, // imgbb
 		imgur: `https://i.imgur.com/LUABqhg.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -18425,8 +18550,8 @@ const healthList = [
 	{
 		name: `Arthritis`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		//src: `/buttons/health/%name_alt.png`, // local image source
-		imgbb: ``, // imgbb
+		src: `/buttons/health/%name_alt.png`, // local image source
+		imgbb: `https://i.ibb.co/nNKV00kq/Arthritis-alt.png`, // imgbb
 		imgur: `https://i.imgur.com/M7PdLcP.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
@@ -18436,10 +18561,10 @@ const healthList = [
 	{
 		name: `Asthma`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		//src: `/buttons/health/%name.png`, // local image source
-		imgbb: ``, // imgbb
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/5NMLTRq/Asthma.png`, // imgbb
 		imgur: `https://i.imgur.com/mRmIDl9.png`, // imgur link
-		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		tags: [`health`,`disorders`,`medical`,`physical health`,`respiratory`,`lungs`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Awareness ribbon` // description of the flag/icon
 	},
@@ -18654,20 +18779,168 @@ const healthList = [
 		icon: `Zebra stripes` // description of the flag/icon
 	},
 	{
+		name: `Endometriosis`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/4gdcyPwW/Endometriosis.png`, // imgbb
+		imgur: `https://i.imgur.com/k7p86mU.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Epilepsy`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/MxGt5yWh/Epilepsy.png`, // imgbb
+		imgur: `https://i.imgur.com/XHzjiUj.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,`seizures`,`epileptic`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Epilepsy`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_alt.png`, // local image source
+		imgbb: `https://i.ibb.co/TM06kmw2/Epilepsy-alt.png`, // imgbb
+		imgur: `https://i.imgur.com/6TblA8K.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`health`,`disorders`,`medical`,`physical health`,`seizures`,`epileptic`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon (light)` // description of the flag/icon
+	},
+	{
+		name: `Epileptic`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/CsXVMZD0/Epileptic.png`, // imgbb
+		imgur: `https://i.imgur.com/P5OVHxF.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`health`,`disorders`,`medical`,`physical health`,`seizures`,`epilepsy`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Fibromyalgia`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/SwcBCtj8/Fibromyalgia.png`, // imgbb
+		imgur: `https://i.imgur.com/KuCQKoZ.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,`chronic illness`,`chronic pain`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `GERD`, // display name
+		altNames: [`Gastroesophageal Reflux Disease`],
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/ympWhpBx/GERD.png`, // imgbb
+		imgur: `https://i.imgur.com/4bCo5Hl.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,`digestive`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Red stomach` // description of the flag/icon
+	},
+	{
+		name: `Heart Condition`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/WNtnySyz/Heart-Condition.png`, // imgbb
+		imgur: `https://i.imgur.com/C93BkRv.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`health`,`disorders`,`medical`,`physical health`,`heart`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Heart Disease`, // display name
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/4gwJWD8S/Heart-Disease.png`, // imgbb
+		imgur: `https://i.imgur.com/JiM3F0R.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`,`heart`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
 		name: `Seizures`, // display name
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `https://i.ibb.co/9HW14v8b/Seizures.png`, // imgbb
 		imgur: `https://i.imgur.com/rkIGzm1.png`, // imgur link
-		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		tags: [`health`,`disorders`,`medical`,`physical health`,`seizure`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Disability flag` // description of the flag/icon
+	},
+	{
+		name: `Deaf`, // display name
+		dateAdded: `2024-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/wF6tFGZz/Deaf.png`, // imgbb
+		imgur: `https://i.imgur.com/X4sD3Je.png`, // imgur link
+		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Deaf`, // display name
+		dateAdded: `2024-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_ribbon.png`, // local image source
+		imgbb: `https://i.ibb.co/67BNPs7c/Deaf-ribbon.png`, // imgbb
+		imgur: `https://i.imgur.com/BsnXCRp.png`, // imgur link
+		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Deaf/HoH`, // display name
+		altNames: [`Deaf/Hard of Hearing`],
+		dateAdded: `2024-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/S42qXqqQ/Deaf-Ho-H.png`, // imgbb
+		imgur: `https://i.imgur.com/BMCrAie.png`, // imgur link
+		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`,`deaf`,`hard of hearing`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Deaf flag` // description of the flag/icon
+	},
+	{
+		name: `Deaf/HoH`, // display name
+		altNames: [`Deaf/Hard of Hearing`],
+		dateAdded: `2024-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_ribbon.png`, // local image source
+		imgbb: `https://i.ibb.co/mCykJN8k/Deaf-Ho-H-ribbon.png`, // imgbb
+		imgur: `https://i.imgur.com/qQCMQhg.png`, // imgur link
+		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`,`deaf`,`hard of hearing`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Hard of Hearing`, // display name
+		altNames: [`HoH`],
+		dateAdded: `2024-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/QjHddK9y/Hard-of-Hearing.png`, // imgbb
+		imgur: `https://i.imgur.com/KsM0wY2.png`, // imgur link
+		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`,`deaf`,`hard of hearing`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Deaf flag` // description of the flag/icon
+	},
+	{
+		name: `Hard of Hearing`, // display name
+		altNames: [`HoH`],
+		dateAdded: `2024-08-12`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_ribbon.png`, // local image source
+		imgbb: `https://i.ibb.co/qMXJJFcs/Hard-of-Hearing-ribbon.png`, // imgbb
+		imgur: `https://i.imgur.com/WtQy0hm.png`, // imgur link
+		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`,`deaf`,`hard of hearing`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Awareness ribbon` // description of the flag/icon
 	},
 	
 	/*
 	{
 		name: ``, // display name
-		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
+		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
 		//src: `/buttons/health/%name.png`, // local image source
 		imgbb: ``, // imgbb
 		imgur: ``, // imgur link
@@ -18679,9 +18952,8 @@ const healthList = [
 ]
 
 const religionDisclaimer = `
-	NOTE: Religious content (especially imagery) is restricted on many sites,
-	<a href="https://www1.flightrising.com/forums/cc/3078623/159#post_55981807">including Flight Rising</a>.
-	Please exercise caution`;
+	NOTE: Be aware that religious content (especially imagery) is restricted on many sites,
+	<a href="https://www1.flightrising.com/forums/cc/3078623/159#post_55981807">including Flight Rising</a>.`;
 
 const religionList = [
 	{
