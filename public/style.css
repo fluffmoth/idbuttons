@@ -200,3 +200,9 @@ hr { border: none; border-top: 1px var(--boxborder) solid; }
 #button-sample { display: none; }
 
 #results-row td { background: var(--tablerow1); padding: 1em 0; }
+
+/***********************************************/
+/* DISCLAIMER */
+
+body > footer { font-size: .9em; }
+body > footer h4 { display: inline; }
