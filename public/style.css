@@ -110,6 +110,11 @@ hr { border: none; border-top: 1px var(--boxborder) solid; }
 	-webkit-user-select: none; user-select: none;
 }
 
+/* summary section */
+#summary, #filters {
+	max-width: 900px;
+}
+
 /***********************************************/
 /* FILTERS */
 
