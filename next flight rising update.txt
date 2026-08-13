@@ -1,21 +1,23 @@
 LAST POST - 2/11/24 NEXT POST - after 2/25/24
 
 @pinglist-4936
-hey! it's been a long time, have a few updates.
+hey! it's been a super long time, have a few updates.
 
-been moving more things over to the website from the spreadsheet! also got help with a square button shape option for the maker, if that's of interest to anyone. it has to invent the missing pixels to fill in the missing bits on icons, so keep that in mind if you use it
+been moving more things over to the website from the spreadsheet! also a square button shape option has been added to the maker, if that's of interest to anyone. fair warning, it has to invent the 4 missing pixels to fill in the icon corners.
 
-the database also supports postimg links now, and will prioritize them over imgur when available due to imgur's many issues. hopefully gonna let people choose their own preferred host in the future!
+the database also supports imgbb links now, and will prioritize them over imgur when available. hopefully gonna let people choose their own preferred host in the future!
+
 
 -----
 [size=4][b]NEW BUTTONS[/b][/size]
 -----
-New Elder Scrolls icons (based on work by mistymourning)
+New pixel art: Elder Scrolls, Homestuck, Minecraft, Among Us
 [img alt="Elder Scrolls: Morrowind"]https://i.imgur.com/yhIlDb9.png[/img] [img alt="Elder Scrolls: Morrowind"]https://i.imgur.com/laCFoeQ.png[/img]
 [img alt="Elder Scrolls: Oblivion"]https://i.imgur.com/Zzz5bZC.png[/img] [img alt="Elder Scrolls: Oblivion"]https://i.imgur.com/exSn8Jy.png[/img]
-
-New Homestuck icons
+[img alt="Elder Scrolls: Skyrim"]https://i.ibb.co/x8DSZVcD/Skyrim.png[/img] [img alt="Elder Scrolls: Skyrim"]https://i.ibb.co/spQdgPLF/Skyrim-alt.png[/img]
 [img alt="Homestuck"]https://i.imgur.com/xGX9zKi.png[/img] [img alt="Homestuck"]https://i.imgur.com/khqUCfF.png[/img] [img alt="Homestuck"]https://i.imgur.com/oV4Dk17.png[/img]
+[img alt="Minecraft"]https://i.ibb.co/5g922Zc9/Minecraft.png[/img] [img alt="Minecraft"]https://i.ibb.co/KprDsqp0/Minecraft-dirt.png[/img] [img alt="Minecraft"]https://i.imgur.com/ey1wQX6.png[/img] [img alt="Minecraft: Hardcore"]https://i.imgur.com/L5gwwwL.png[/img]
+[img alt="Among Us"]https://i.ibb.co/DHCvmsLc/Among-Us.png[/img]
 
 Melanie Martinez (Crybaby album art by mistymourning)
 [img alt="Melanie Martinez (Crybaby)"]https://i.imgur.com/Mx7Yk9W.png[/img] [img alt="Melanie Stan (Crybaby)"]https://i.imgur.com/bhJBDxc.png[/img]
@@ -28,12 +30,12 @@ Stock the Pond buttons (by skeletonsynth & myself)
 
 
 -----
-[size=4][b]MASTERLIST UPDATE BACKLOG (August 2023 - ?)[/b][/size]
-(buttons posted a while ago, but not in the masterlist/spreadsheet until now)
+[size=4][b]POSTED IN THE FORUM[/b][/size]
+Not yet featured in an official pinglist update, but you've seen these if you've been following the thread!
 -----
 
-auroracore, jungle grunge (by StormHeart413)
-[img alt="Auroracore"]https://i.imgur.com/M2CpeZd.png[/img][img alt="Jungle Grunge"]https://i.imgur.com/TF48zBk.png[/img]
+Auroracore, Jungle Grunge (by StormHeart413)
+[img alt="Auroracore"]https://i.ibb.co/G4GCnjhN/Auroracore.png[/img] [img alt="Jungle Grunge"]https://i.ibb.co/pr4GTXJg/Jungle-Grunge.png[/img]
 
 The Mandela Catalogue, Petscop, Battle for Dream Island, Embears, MLP (by bxsmxth)
 [img alt="Mandela Catalogue (333)"]https://i.imgur.com/CS9T7Ea.png[/img] [img alt="Petscop"]https://i.imgur.com/miuyrCw.png[/img] [img alt="Battle for Dream Island"]https://i.imgur.com/FW6TEMu.png[/img]
@@ -61,3 +63,10 @@ Undertides (by bxsmxth)
 
 Ferrets (by bxsmxth)
 [img]https://i.imgur.com/OmKGclM.png[/img] [img]https://i.imgur.com/5Kh7HL4.png[/img] [img]https://i.imgur.com/L8DrPly.png[/img] [img]https://i.imgur.com/ozPLnsk.png[/img]
+
+Self-shipper/Yumeshipper (by vampirologist)
+[img alt="Self-Shipper"]https://i.ibb.co/xqbwKGdQ/Self-Shipper.png[/img] [img alt="Self-Shipper"]https://i.ibb.co/1YZhJzRt/Self-Shipper-pink.png[/img] [img alt="Yumeshipper"]https://i.ibb.co/pBSXD9Jw/Yumeshipper.png[/img] [img alt="Yumejoshi"]https://i.ibb.co/yBRWkmSV/Yumejoshi.png[/img] [img alt="Yumedanshi"]https://i.ibb.co/ZpymZNtt/Yumedanshi.png[/img]
+
+Gender:
+Heliogender, Luxumbra, Somnigender (by GhostCorgi)
+[img alt="Heliogender"]https://i.ibb.co/ZzWxBKMQ/Heliogender.png[/img] [img alt="Luxumbra"]https://i.ibb.co/Myr3DcbB/Luxumbra.png[/img] [img alt="Somnigender"]https://i.ibb.co/XrQW3Btv/Somnigender.png[/img] [img alt="Somnigender"]https://i.ibb.co/k2DPjwP3/Somnigender-dreams.png[/img]
