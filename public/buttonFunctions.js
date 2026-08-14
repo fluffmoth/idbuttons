@@ -84,6 +84,7 @@ function initButtons() {
 		urlSearch = urlSearch.concat(searchInput.split(' ').filter((item) => urlSearch.indexOf(item) < 0));
 		urlSearch = urlSearch.concat(searchInput.split('-').filter((item) => urlSearch.indexOf(item) < 0));
 		urlSearch = urlSearch.concat(searchInput.split('/').filter((item) => urlSearch.indexOf(item) < 0));
+		urlSearch.push(searchInput); // include the full original search text in case of exact matches
 		// adjustText on all search parameters
 		for (let i = 0; i < urlSearch.length; i++) urlSearch[i] = adjustText(urlSearch[i]);
 	}
