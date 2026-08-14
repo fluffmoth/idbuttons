@@ -275,8 +275,19 @@ const filterList = [
 		]
 	},
 	{ label: `Cultures & Nationalities`, tags: `country|nationality|culture` },
-	{ label: `Time Zones`, tags: `time zone` },
-	{ label: `Aesthetics/Subcultures`, tags: `aesthetic|subculture,!gender,!orientation` },
+	{ label: `Time Zones`, tags: `time zone` ,
+		children: [
+			{ label: `Standard`, tags: `!flight rising` },
+			{ label: `Flight Rising`, tags: `flight rising` },
+		]
+	},
+	{ label: `Aesthetics/Subcultures`, tags: `aesthetic|subculture,!gender,!orientation` ,
+		children: [
+			{ label: `Aesthetics`, tags: `aesthetic` },
+			{ label: `Fashion`, tags: `fashion` },
+			{ label: `Music`, tags: `music|edm` },
+		]
+	},
 	{ label: `Jobs/Roles/Hobbies`, tags: `job|role|hobby` ,
 		children: [
 			{ label: `Academia`, tags: `academia` },
