@@ -12189,6 +12189,16 @@ const aroAceList = [
 		icon: `alt flag` // description of the flag/icon
 	},
 	{
+		name: `Aegoromantic`, // display name
+		altNames: [`Anegoromantic`,`Autochorisromantic`], // optional alternate names, for search algorithms
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/vCc3vsS9/Aegoromantic.png`, // imgbb link
+		imgur: `https://i.imgur.com/ygAg5M3.png`, // imgur link
+		tags: [`orientation`,`a-spec`,`aro spectrum`,`aromantic`,`aro`], // tags for search/filtering
+		info: `<a href="?tags=orientation,aro spectrum">Aro spectrum</a> identity referring to individuals who experience a disconnect between themselves and the subject of attraction`, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
 		name: `Asexual`, // display name
 		imgur: `tyEuRXe.png`, // imgur link
 		tags: [`orientation`,`a-spec`,`ace spectrum`,`ace`], // tags for search/filtering
@@ -13409,6 +13419,13 @@ const relationshipList = [
 ]
 
 //////////// FLIGHT RISING ////////////
+
+const FRdata = {
+	nestNet: {
+		info: `<a href="?tags=flight rising">Flight Rising</a> nest lending`,
+		link: `https://www1.flightrising.com/forums/drw/3366526/1`,
+	}
+}
 
 const FRList = [
 	{
@@ -14909,6 +14926,172 @@ const FRList = [
 		icon: `Wind flight` // description of the flag/icon
 	}
 ]
+
+const FRnestNetwork = [
+	{
+		name: `Nest Network`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/cKZKHng3/Nest-Network-Arcane.png`, // imgbb link
+		imgur: `https://i.imgur.com/qvono2h.png`, // imgur link
+		icon: `Arcane flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Network`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Kz9CQNXv/Nest-Network-Earth.png`, // imgbb link
+		imgur: `https://i.imgur.com/57dfZnt.png`, // imgur link
+		icon: `Earth flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Network`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/cVnkkbF/Nest-Network-Fire.png`, // imgbb link
+		imgur: `https://i.imgur.com/KoCi0qP.png`, // imgur link
+		icon: `Fire flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Network`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/HDGwmjHz/Nest-Network-Ice.png`, // imgbb link
+		imgur: `https://i.imgur.com/DeeWrqO.png`, // imgur link
+		icon: `Ice flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Network`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/3yGNTdtJ/Nest-Network-Light.png`, // imgbb link
+		imgur: `https://i.imgur.com/3vzI42r.png`, // imgur link
+		icon: `Light flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Network`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/QvVXbk9y/Nest-Network-Lightning.png`, // imgbb link
+		imgur: `https://i.imgur.com/f5dILbZ.png`, // imgur link
+		icon: `Lightning flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Network`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/yFB1MZt6/Nest-Network-Nature.png`, // imgbb link
+		imgur: `https://i.imgur.com/7A7hG3b.png`, // imgur link
+		icon: `Nature flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Network`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/5x1NN2sx/Nest-Network-Plague.png`, // imgbb link
+		imgur: `https://i.imgur.com/KDjMOco.png`, // imgur link
+		icon: `Plague flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Network`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/LzrtP1Xv/Nest-Network-Shadow.png`, // imgbb link
+		imgur: `https://i.imgur.com/w1kEzK3.png`, // imgur link
+		icon: `Shadow flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Network`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/qL0rQp79/Nest-Network-Water.png`, // imgbb link
+		imgur: `https://i.imgur.com/p4FQvqs.png`, // imgur link
+		icon: `Water flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Network`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/gZhJ83wc/Nest-Network-Wind.png`, // imgbb link
+		imgur: `https://i.imgur.com/sGVC3qx.png`, // imgur link
+		icon: `Wind flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Renter`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/gLYmVLhr/Nest-Renter-Arcane.png`, // imgbb link
+		imgur: `https://i.imgur.com/VLZA0ka.png`, // imgur link
+		icon: `Arcane flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Renter`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/nsRzf3j3/Nest-Renter-Earth.png`, // imgbb link
+		imgur: `https://i.imgur.com/UpLdShk.png`, // imgur link
+		icon: `Earth flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Renter`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/JwvJbp0D/Nest-Renter-Fire.png`, // imgbb link
+		imgur: `https://i.imgur.com/CAs3Hn3.png`, // imgur link
+		icon: `Fire flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Renter`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/BKqxxf5f/Nest-Renter-Ice.png`, // imgbb link
+		imgur: `https://i.imgur.com/rj69VdS.png`, // imgur link
+		icon: `Ice flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Renter`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/B5Qf6H7c/Nest-Renter-Light.png`, // imgbb link
+		imgur: `https://i.imgur.com/67QvxLm.png`, // imgur link
+		icon: `Light flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Renter`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/4Q6M6Qq/Nest-Renter-Lightning.png`, // imgbb link
+		imgur: `https://i.imgur.com/cWWd7gG.png`, // imgur link
+		icon: `Lightning flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Renter`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/yncDkN3d/Nest-Renter-Nature.png`, // imgbb link
+		imgur: `https://i.imgur.com/xyTCUVX.png`, // imgur link
+		icon: `Nature flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Renter`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/My8gnJnc/Nest-Renter-Plague.png`, // imgbb link
+		imgur: `https://i.imgur.com/mRvCuvt.png`, // imgur link
+		icon: `Plague flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Renter`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/cXhX0Dw6/Nest-Renter-Shadow.png`, // imgbb link
+		imgur: `https://i.imgur.com/teAygQW.png`, // imgur link
+		icon: `Shadow flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Renter`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/xqmtHp46/Nest-Renter-Water.png`, // imgbb link
+		imgur: `https://i.imgur.com/A6Cbaxa.png`, // imgur link
+		icon: `Water flight` // description of the flag/icon
+	},
+	{
+		name: `Nest Renter`, // display name
+		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/BVdhKsnK/Nest-Renter-Wind.png`, // imgbb link
+		imgur: `https://i.imgur.com/3yTZqvH.png`, // imgur link
+		icon: `Wind flight` // description of the flag/icon
+	},
+]
+// assign default values
+FRnestNetwork.forEach((item)=>{
+	let flight = item.icon.replaceAll(' flight','');
+	item.tags = [`flight rising`,`breeding`,`nest network`,flight.toLowerCase() + ' flight'];
+	item.info = FRdata.nestNet.info;
+	if (item.name == 'Nest Network') item.link = FRdata.nestNet.link;
+	if (typeof item.alt == 'undefined') { item.alt = `%name: ` + flight; }
+	if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/FR/nestnetwork/%name_` + flight + `.png`; }
+});
 
 // flight rising exalting
 const FRexalting = [
@@ -27137,7 +27320,7 @@ const buttonList = arr.concat(
 	tertiaryAttractionList,
 	relationshipList,
 	
-	FRList, subspeciesList, nonspecificSubspeciesList, FRexalting, FReyeList,
+	FRList, subspeciesList, nonspecificSubspeciesList, FRexalting, FReyeList, FRnestNetwork,
 	
 	healthList,
 	religionList,
