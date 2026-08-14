@@ -24,7 +24,7 @@ const filterList = [
 					{ label: `Fictigender (fiction/media)`, tags: `fictigender` },
 					{ label: `Gastrogender (food)`, tags: `gastrogender` },
 					{ label: `Genderspace (outer space)`, tags: `genderspace` },
-					{ label: `Aliengender (alien/alterhuman)`, tags: `alien` }
+					{ label: `Aliengender (alien/alterhuman)`, tags: `alien` },
 				]
 			},
 			{ label: `Exclusive Genders`, tags: ``,
@@ -144,7 +144,10 @@ const filterList = [
 	{ label: `Religion`, tags: `religion` },
 	{ label: `Alterhuman/Otherkin`, tags: `alterhuman|otherkin|therian,!gender,!orientation` ,
 		children: [
-			{ label: `Genders & Orientations`, tags: `gender|orientation` }
+			{ label: `Otherkin`, tags: `otherkin` },
+			{ label: `Therian`, tags: `therian` },
+			{ label: `Otherhearted`, tags: `otherhearted|other-hearted|otherkith|synpath` },
+			{ label: `Genders & Orientations`, tags: `gender|orientation` },
 		]
 	},
 	{ label: `Health & Disability`, tags: `health|disability|disabled|disorder,!gender`,
@@ -273,7 +276,7 @@ const filterList = [
 	},
 	{ label: `Cultures & Nationalities`, tags: `country|nationality|culture` },
 	{ label: `Time Zones`, tags: `time zone` },
-	{ label: `Aesthetics/Subcultures`, tags: `aesthetic|subculture,!gender` },
+	{ label: `Aesthetics/Subcultures`, tags: `aesthetic|subculture,!gender,!orientation` },
 	{ label: `Jobs/Roles/Hobbies`, tags: `job|role|hobby` ,
 		children: [
 			{ label: `Academia`, tags: `academia` },
