@@ -115,8 +115,8 @@ function newButtonRow(b) {
 	prevImg.alt = b.alt;
 	prevImg.title = b.alt;
 	// put the button image source in the img
-	// prefer local source, use imgur if local unavailable
-	prevImg.src = getLocalSrc(b);
+	if(window.location.host == 'localhost') prevImg.src = getSrc(b);
+	else prevImg.src = getLocalSrc(b);
 	// add image to preview column
 	prevCol.appendChild(prevImg);
 	

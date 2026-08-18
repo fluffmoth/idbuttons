@@ -59,6 +59,9 @@ function initButtons() {
 	// set page color theme
 	setPageTheme();
 	
+	// set preferred image host
+	setImageHost();
+	
 	// add button count text
 	var buttonCount = ``;
 	buttonCount += buttonList.length;
@@ -509,43 +512,73 @@ function getHTMLCode(btn) {
 	}
 }
 
-// returns the image source link for the given button
-// prefer postimg, then imgur, then local
-// if no sources, return blank string
-// optional full parameter = whether to get full location url for local sources
-function getSrc(btn,full) {
-	if (btn.imgbb && btn.imgbb != undefined && btn.imgbb != ``) {
-		if (!btn.imgbb.includes('https:')) btn.imgbb = 'https://i.ibb.co/' + btn.imgbb;
-		return btn.imgbb;
-	}
-	else if (btn.imgur && btn.imgur != undefined && btn.imgur != ``) {
-		if (!btn.imgur.includes('https:')) btn.imgur = 'https://i.imgur.com/' + btn.imgur;
-		return btn.imgur;
-	}
-	else if (btn.postimg && btn.postimg != undefined && btn.postimg != ``) return btn.postimg;
-	else if (btn.src) return getLocalSrc(btn,true);
+// valid external image host names, listed in order of preference
+const imageHosts = ['imgbb','imgur','postimg','neocities','local','github'];
+var preferImageHost = 'default';
+// set the preferred external image hosting source
+function setImageHost(host) {
+	// if no theme provided, default to the saved theme
+	if ( localStorage.getItem("preferImageHost") && !host ) preferImageHost = localStorage.getItem("preferImageHost");
 	else {
-		return ``;
-		console.log(`Could not find external image source for button: name = ${btn.name}; icon = ${btn.icon}`);
+		// save to variable
+		preferImageHost = host;
+		// save the theme locally
+		localStorage.setItem("preferImageHost", host);
+		// refresh the page
+		location.reload();
 	}
 }
-
-// returns the local image source for the given button
-// if none available try postimg, then imgur
-function getLocalSrc(btn, full) {
-	if (btn.src != `` && btn.src != undefined) {
-		let name = srcFormat(btn.name);
-		let src = btn.src.replace(`%name`,name);
-		
-		// if any of button's altNames are referenced in alt text, insert them
-		src = insertAltNames(btn,src,true);
-		
-		if (btn.palette && btn.palette.toLowerCase() != 'standard') src = src.replace('.png','_'+btn.palette.replaceAll(' ','_')+'.png');
-		
-		if (full) src = `https://idbuttons.neocities.org` + src;
-		return src;
+// returns the image source link for the given button
+// if no sources, return blank string
+function getSrc(btn) {
+	let src = '';
+	// if a current preferImageHost preference is set, get that image link
+	if (imageHosts.includes(preferImageHost)) src = getSrcFromHost(btn,preferImageHost);
+	// if preferred source fails or is invalid, find the first valid image link
+	let i = 0;
+	while (src == '' && i < imageHosts.length) {
+		src = getSrcFromHost(btn,imageHosts[i]);
+		i++;
 	}
-	else return getSrc(btn,full);
+	// if no valid link found, log an error
+	if (src == '') console.error(`Could not find external image source for button: name = ${btn.name}; icon = ${btn.icon}`);
+	// return the link
+	return src;
+}
+// returns the image source link for the given button and image host name
+function getSrcFromHost(btn,host) {
+	let src = '';
+	// get the object key to use with the buttonList
+	if (host == 'local' || host == 'neocities' || host == 'github') key = 'src';
+	else key = host;
+	// get the button image link if one exists for the given host
+	if (key && btn[key] && btn[key] != undefined && btn[key] != ``) {
+		if (key == 'imgbb' && !btn.imgbb.includes('https:')) btn.imgbb = 'https://i.ibb.co/' + btn.imgbb;
+		if (key == 'imgur' && !btn.imgur.includes('https:')) btn.imgur = 'https://i.imgur.com/' + btn.imgur;
+		src += btn[key];
+	}
+	// if a link has been found
+	if (src != '') {
+		if (key == 'src') {
+			let name = srcFormat(btn.name);
+			// if button's name is referenced in source link, insert it
+			src = src.replace(`%name`,name);
+			// if any of button's altNames are referenced in source link, insert them
+			src = insertAltNames(btn,src,true);
+			// if button has a non-standard palette, include modifier
+			if (btn.palette && btn.palette.toLowerCase() != 'standard') src = src.replace('.png','_'+btn.palette.replaceAll(' ','_')+'.png');
+		}
+	}
+	if (host == 'neocities' && src != '') src = 'https://idbuttons.neocities.org' + src;
+	else if (host == 'github' && src != '') src = 'https://github.com/fluffmoth/idbuttons/tree/main/public' + src;
+	return src;
+}
+// returns the local image source for the given button
+// if none available, tries external sources
+function getLocalSrc(btn) {
+	let src = getSrcFromHost(btn,'local');
+	if (src == '') src = getSrc(btn);
+	return src;
 }
 
 // if any of button's altNames are referenced in alt text, insert them

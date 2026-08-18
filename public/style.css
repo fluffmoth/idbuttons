@@ -116,6 +116,26 @@ hr { border: none; border-top: 1px var(--boxborder) solid; }
 }
 
 /***********************************************/
+/* IMAGE HOST SETUP */
+#image-host-section { position: absolute; top: 5px; left: 5px; }
+#image-host-section > .wrapper { position: relative; }
+#image-host-section #host-info {
+	position: absolute;
+	top: calc(100% + 5px);
+	border: 1px var(--boxborder) solid;
+	background: var(--tablerow2);
+	width: min(90vw, 22em);
+	padding: .4em .6em;
+}
+#image-host-section #host-info p {
+	margin-top: .5em; margin-bottom: .25em;
+}
+#image-host-section #host-info button { color: var(--link); }
+/* dropdown options intended only to be run on localhost */
+#image-host .local-only { display: none; }
+#image-host.localhost .local-only { display: initial; }
+
+/***********************************************/
 /* FILTERS */
 
 #filter-buttons {
