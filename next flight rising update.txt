@@ -1,113 +1,18 @@
-LAST POST - 2/11/24 NEXT POST - after 2/25/24
+LAST POST - 8/18/26 NEXT POST - after 9/1/26
 
 @pinglist-4936
-hey! it's been a super long time, have a few updates.
-
-been moving more things over to the website from the spreadsheet! also a square button shape option has been added to the maker, if that's of interest to anyone. fair warning, it has to invent the 4 missing pixels to fill in the icon corners.
-
-the database also supports imgbb links now, and will prioritize them over imgur when available! there's also a fancy dropdown at the top left to pick your own preferred image host for the generated codes. it will still use the default if there isn't a valid link for that host yet. if you don't know what host you want, just leave it on the default and i'll choose for you :>
 
 
 -----
 [size=4][b]NEW BUTTONS[/b][/size]
 -----
-New pixel art: Elder Scrolls, Homestuck, Minecraft, Among Us
-[img alt="Elder Scrolls: Morrowind"]https://i.imgur.com/yhIlDb9.png[/img] [img alt="Elder Scrolls: Morrowind"]https://i.imgur.com/laCFoeQ.png[/img]
-[img alt="Elder Scrolls: Oblivion"]https://i.imgur.com/Zzz5bZC.png[/img] [img alt="Elder Scrolls: Oblivion"]https://i.imgur.com/exSn8Jy.png[/img]
-[img alt="Elder Scrolls: Skyrim"]https://i.ibb.co/x8DSZVcD/Skyrim.png[/img] [img alt="Elder Scrolls: Skyrim"]https://i.ibb.co/spQdgPLF/Skyrim-alt.png[/img]
-[img alt="Homestuck"]https://i.imgur.com/xGX9zKi.png[/img] [img alt="Homestuck"]https://i.imgur.com/khqUCfF.png[/img] [img alt="Homestuck"]https://i.imgur.com/oV4Dk17.png[/img]
-[img alt="Minecraft"]https://i.ibb.co/5g922Zc9/Minecraft.png[/img] [img alt="Minecraft"]https://i.ibb.co/KprDsqp0/Minecraft-dirt.png[/img] [img alt="Minecraft"]https://i.imgur.com/ey1wQX6.png[/img] [img alt="Minecraft: Hardcore"]https://i.imgur.com/L5gwwwL.png[/img]
-[img alt="Among Us"]https://i.ibb.co/DHCvmsLc/Among-Us.png[/img]
 
-Melanie Martinez (Crybaby album art by mistymourning)
-[img alt="Melanie Martinez (Crybaby)"]https://i.imgur.com/Mx7Yk9W.png[/img] [img alt="Melanie Stan (Crybaby)"]https://i.imgur.com/bhJBDxc.png[/img]
-[img alt="Melanie Martinez: Crybaby"]https://i.imgur.com/crnrB6l.png[/img] [img alt="Melanie Martinez: Portals"]https://i.imgur.com/YskaYt6.png[/img]
-
-Stock the Pond buttons (by skeletonsynth & myself)
-[img alt="Stock the Pond (Water drop)"]https://i.imgur.com/HBX7aU9.png[/img] [img alt="Free Pond Stock (Water drop)"]https://i.imgur.com/zlhBgY8.png[/img] [img alt="Pond Stock (Water drop)"]https://i.imgur.com/l6IiwuF.png[/img]
-[img alt="Pond Dragon (Water drop)"]https://i.imgur.com/8uJ1Fp8.png[/img] [img alt="Pond Pair (Water drop)"]https://i.imgur.com/UdV7Y2r.png[/img]
-[img alt="Stock the Pond (Water drop on pastel rainbow)"]https://i.imgur.com/Buk7tqJ.png[/img] [img alt="Pond Stock (Water drop on pastel rainbow)"]https://i.imgur.com/wle5C1h.png[/img] [img alt="Pond Dragon (Water drop on pastel rainbow)"]https://i.imgur.com/Jr2iUcO.png[/img]
-
-[b]ALTERHUMAN[/b]
-New flags added, plus kingender flag buttons have been properly labeled and standardized (mistook it for a pastel background, that's my bad!)
-[img alt="Alterhuman"]https://i.ibb.co/wNypvDF7/Alterhuman.png[/img] [img alt="Alterhuman"]https://i.ibb.co/svfg5ttB/Alterhuman-arrow.png[/img] [img alt="Alterhuman"]https://i.ibb.co/YFhBgjsG/Alterhuman-unity.png[/img] [img alt="Alterhuman"]https://i.ibb.co/5gsFYW2G/Alterhuman-star.png[/img] [img alt="Alterhuman"]https://i.ibb.co/DfRjGZ11/Alterhuman-star-rainbow.png[/img] [img alt="Alterhuman (Kingender)"]https://i.ibb.co/Z6YSvkxS/Alterhuman-kingender.png[/img] [img alt="Alterhuman (Otherhearted)"]https://i.ibb.co/wrdG7cFZ/Alterhuman-heart.png[/img]
-Nonhuman/Non-human
-[img alt="Non-human"]https://i.ibb.co/5XJ5RF2v/Non-human.png[/img] [img alt="Non-human"]https://i.ibb.co/jkpFW7BP/Non-human-alterhuman.png[/img] [img alt="Non-human"]https://i.ibb.co/gZTrB7bn/Non-human-otherkin.png[/img] [img alt="Non-human"]https://i.ibb.co/YTQZDNDs/Non-human-therian.png[/img]
-[img alt="Nonhuman"]https://i.ibb.co/FSQb9y4/Nonhuman.png[/img] [img alt="Nonhuman"]https://i.ibb.co/gF3g4xxQ/Nonhuman-alterhuman.png[/img] [img alt="Nonhuman"]https://i.ibb.co/SXX2PPMb/Nonhuman-otherkin.png[/img] [img alt="Nonhuman"]https://i.ibb.co/YFCHrHSR/Nonhuman-therian.png[/img]
-Therian
-[img alt="Therian"]https://i.ibb.co/MDh6Ch7w/Therian.png[/img] [img alt="Therian"]https://i.ibb.co/93ZwT5jH/Therian-unity.png[/img] [img alt="Therian"]https://i.ibb.co/cKHsPS2P/Therian-star.png[/img]
-Otherkin, including sunset flag
-[img alt="Otherkin"]https://i.ibb.co/YFjhSfd5/Otherkin-flag-star.png[/img] [img alt="Otherkin"]https://i.ibb.co/mr0kD7Ms/Otherkin-flag.png[/img] [img alt="Otherkin"]https://i.ibb.co/TMbz45MW/Otherkin-unity.png[/img] [img alt="Otherkin"]https://i.ibb.co/fVfPRF3b/Otherkin-rainbow.png[/img] [img alt="Otherkin"]https://i.ibb.co/tTBb3JWG/Otherkin.png[/img]
-Otherhearted/Synpath
-[img alt="Otherhearted"]https://i.ibb.co/sd07mgSq/Otherhearted.png[/img] [img alt="Otherhearted"]https://i.ibb.co/zH5NtrTk/Otherhearted-sepia.png[/img] [img alt="Otherhearted"]https://i.ibb.co/PvcnyzYz/Otherhearted-rainbow.png[/img]
-[img alt="Other-hearted"]https://i.ibb.co/yj46Ds2/Other-hearted.png[/img] [img alt="Other-hearted"]https://i.ibb.co/273mjp1V/Other-hearted-sepia.png[/img] [img alt="Other-hearted"]https://i.ibb.co/bRPFjPfB/Other-hearted-rainbow.png[/img]
-[img alt="Synpath"]https://i.ibb.co/p61JJYN4/Synpath.png[/img] [img alt="Synpath"]https://i.ibb.co/j9DFVGR8/Synpath-sepia.png[/img] [img alt="Synpath"]https://i.ibb.co/6J18XdJz/Synpath-rainbow.png[/img]
-[img alt="Animalhearted"]https://i.ibb.co/5hB3mjLW/Animalhearted.png[/img] [img alt="Animalhearted"]https://i.ibb.co/Q7PHBhVN/Animalhearted-sepia.png[/img] [img alt="Animalhearted"]https://i.ibb.co/ntLjyqn/Animalhearted-rainbow.png[/img]
-[img alt="Concepthearted"]https://i.ibb.co/B2HZxVVK/Concepthearted.png[/img] [img alt="Concepthearted"]https://i.ibb.co/HDKWCgzH/Concepthearted-sepia.png[/img] [img alt="Concepthearted"]https://i.ibb.co/Cpn63xg6/Concepthearted-rainbow.png[/img]
-Dogkin/Dog Therian
-[img alt="Dog Therian"]https://i.ibb.co/NBWMT61/Dog-Therian.png[/img] [img alt="Dog Therian"]https://i.ibb.co/cM43x00/Dog-Therian-flag.png[/img]
-[img alt="Dogkin"]https://i.ibb.co/27NXjhGN/Dogkin-flag.png[/img] [img alt="Dogkin"]https://i.ibb.co/mC9cNjCx/Dogkin.png[/img] [img alt="Dogkin"]https://i.ibb.co/YxCP6Tm/Dogkin-rainbow.png[/img] [img alt="Dogkin (Kingender)"]https://i.ibb.co/gbMSsDWX/Dogkin-kingender.png[/img]
-Elfkin/Elvenkin
-[img alt="Elfkin"]https://i.ibb.co/qMhRTnnZ/Elfkin-flag.png[/img] [img alt="Elfkin"]https://i.ibb.co/KcqyY2zy/Elfkin-rainbow.png[/img] [img alt="Elfkin"]https://i.ibb.co/WNjxVrRr/Elfkin.png[/img]
-[img alt="Elvenkin"]https://i.ibb.co/XfQq7mhr/Elvenkin-flag.png[/img] [img alt="Elvenkin"]https://i.ibb.co/Y75Wh8ZM/Elvenkin.png[/img] [img alt="Elvenkin"]https://i.ibb.co/Y75Wh8ZM/Elvenkin.png[/img]
-Angelkin
-[img alt="Angelkin"]https://i.ibb.co/CrF6ZDH/Angelkin-flag.png[/img]
-
-Updated & rehosted nest network buttons
-[url=https://www1.flightrising.com/forums/drw/3366526/1][img alt="Nest Network: Arcane"]https://i.ibb.co/cKZKHng3/Nest-Network-Arcane.png[/img][/url] [img alt="Nest Renter: Arcane"]https://i.ibb.co/gLYmVLhr/Nest-Renter-Arcane.png[/img]
-[url=https://www1.flightrising.com/forums/drw/3366526/1][img alt="Nest Network: Earth"]https://i.ibb.co/Kz9CQNXv/Nest-Network-Earth.png[/img][/url] [img alt="Nest Renter: Earth"]https://i.ibb.co/nsRzf3j3/Nest-Renter-Earth.png[/img]
-[url=https://www1.flightrising.com/forums/drw/3366526/1][img alt="Nest Network: Fire"]https://i.ibb.co/cVnkkbF/Nest-Network-Fire.png[/img][/url] [img alt="Nest Renter: Fire"]https://i.ibb.co/JwvJbp0D/Nest-Renter-Fire.png[/img]
-[url=https://www1.flightrising.com/forums/drw/3366526/1][img alt="Nest Network: Ice"]https://i.ibb.co/HDGwmjHz/Nest-Network-Ice.png[/img][/url] [img alt="Nest Renter: Ice"]https://i.ibb.co/BKqxxf5f/Nest-Renter-Ice.png[/img]
-[url=https://www1.flightrising.com/forums/drw/3366526/1][img alt="Nest Network: Light"]https://i.ibb.co/3yGNTdtJ/Nest-Network-Light.png[/img][/url] [img alt="Nest Renter: Light"]https://i.ibb.co/B5Qf6H7c/Nest-Renter-Light.png[/img]
-[url=https://www1.flightrising.com/forums/drw/3366526/1][img alt="Nest Network: Lightning"]https://i.ibb.co/QvVXbk9y/Nest-Network-Lightning.png[/img][/url] [img alt="Nest Renter: Lightning"]https://i.ibb.co/4Q6M6Qq/Nest-Renter-Lightning.png[/img]
-[url=https://www1.flightrising.com/forums/drw/3366526/1][img alt="Nest Network: Nature"]https://i.ibb.co/yFB1MZt6/Nest-Network-Nature.png[/img][/url] [img alt="Nest Renter: Nature"]https://i.ibb.co/yncDkN3d/Nest-Renter-Nature.png[/img]
-[url=https://www1.flightrising.com/forums/drw/3366526/1][img alt="Nest Network: Plague"]https://i.ibb.co/5x1NN2sx/Nest-Network-Plague.png[/img][/url] [img alt="Nest Renter: Plague"]https://i.ibb.co/My8gnJnc/Nest-Renter-Plague.png[/img]
-[url=https://www1.flightrising.com/forums/drw/3366526/1][img alt="Nest Network: Shadow"]https://i.ibb.co/LzrtP1Xv/Nest-Network-Shadow.png[/img][/url] [img alt="Nest Renter: Shadow"]https://i.ibb.co/cXhX0Dw6/Nest-Renter-Shadow.png[/img]
-[url=https://www1.flightrising.com/forums/drw/3366526/1][img alt="Nest Network: Water"]https://i.ibb.co/qL0rQp79/Nest-Network-Water.png[/img][/url] [img alt="Nest Renter: Water"]https://i.ibb.co/xqmtHp46/Nest-Renter-Water.png[/img]
-[url=https://www1.flightrising.com/forums/drw/3366526/1][img alt="Nest Network: Wind"]https://i.ibb.co/gZhJ83wc/Nest-Network-Wind.png[/img][/url] [img alt="Nest Renter: Wind"]https://i.ibb.co/BVdhKsnK/Nest-Renter-Wind.png[/img]
+??
 
 
 -----
 [size=4][b]POSTED IN THE FORUM[/b][/size]
-Not yet featured in an official pinglist update, but you've seen these if you've been following the thread!
+Not previously added to the masterlists or featured in an official pinglist update, but you've seen these if you've been following the thread!
 -----
 
-Auroracore, Jungle Grunge (by StormHeart413)
-[img alt="Auroracore"]https://i.ibb.co/G4GCnjhN/Auroracore.png[/img] [img alt="Jungle Grunge"]https://i.ibb.co/pr4GTXJg/Jungle-Grunge.png[/img]
-
-The Mandela Catalogue, Petscop, Battle for Dream Island, Embears, MLP (by bxsmxth)
-[img alt="Mandela Catalogue (333)"]https://i.imgur.com/CS9T7Ea.png[/img] [img alt="Petscop"]https://i.imgur.com/miuyrCw.png[/img] [img alt="Battle for Dream Island"]https://i.imgur.com/FW6TEMu.png[/img]
-[img alt="Embears"]https://i.imgur.com/hUg2J5H.png[/img] [img alt="My Little Pony"]https://i.imgur.com/uYbY5L9.png[/img] [img alt="My Little Pony: Friendship is Magic"]https://i.imgur.com/MKyLIHi.png[/img]
-
-Indonesia (by bxsmxth)
-[img alt="Indonesia"]https://i.imgur.com/I3ANxLd.png[/img] [img alt="Indonesian"]https://i.imgur.com/Q6aMNpW.png[/img]
-
-Thief I + II games, Friday Night Funkin', Sly Cooper (by mistymourning)
-[img alt="Thief I & II"]https://i.imgur.com/NeWvGQZ.png[/img] [img alt="Friday Night Funkin' (FNF)"]https://i.imgur.com/HBObMfl.png[/img] [img alt="Friday Night Funkin' Mods (FNF)"]https://i.imgur.com/fn9iiu7.png[/img]
-[img alt="Sly Cooper"]https://i.imgur.com/khGBXxj.png[/img]
-
-Daft Punk (by WyggleWyrm)
-[img alt="Daft Punk"]https://i.imgur.com/xqiLt8p.png[/img]
-
-Roles: False God/Prophet, Archivist (by bxsmxth)
-[img alt="Archivist"]https://i.imgur.com/7PEdzMP.png[/img]
-[img alt="False God"]https://i.imgur.com/UpRqbXr.png[/img] [img alt="Prophet"]https://i.imgur.com/ZiQ2OA3.png[/img] [img alt="False Prophet"]https://i.imgur.com/YWGxF8a.png[/img]
-
-Special IDs (by HGBells)
-[img alt="Cyclops ID"]https://i.imgur.com/72X2ERP.png[/img] [img alt="Prime ID"]https://i.imgur.com/PU3e8b3.png[/img] [img alt="Cyclops Prime ID"]https://i.imgur.com/LKAITmq.png[/img]
-
-Undertides (by bxsmxth)
-[img alt="Undertide"]https://i.imgur.com/fhe5js6.png[/img] [img alt="Undertide Fan"]https://i.imgur.com/Iauu1Ro.png[/img] [img alt="Undertide Lair"]https://i.imgur.com/X29nWrP.png[/img] [img alt="Undertide Monolair"]https://i.imgur.com/2cQQXlC.png[/img]
-
-Ferrets (by bxsmxth)
-[img]https://i.imgur.com/OmKGclM.png[/img] [img]https://i.imgur.com/5Kh7HL4.png[/img] [img]https://i.imgur.com/L8DrPly.png[/img] [img]https://i.imgur.com/ozPLnsk.png[/img]
-
-Self-shipper/Yumeshipper (by vampirologist)
-[img alt="Self-Shipper"]https://i.ibb.co/xqbwKGdQ/Self-Shipper.png[/img] [img alt="Self-Shipper"]https://i.ibb.co/1YZhJzRt/Self-Shipper-pink.png[/img] [img alt="Yumeshipper"]https://i.ibb.co/pBSXD9Jw/Yumeshipper.png[/img] [img alt="Yumejoshi"]https://i.ibb.co/yBRWkmSV/Yumejoshi.png[/img] [img alt="Yumedanshi"]https://i.ibb.co/ZpymZNtt/Yumedanshi.png[/img]
-
-Gender:
-Heliogender, Luxumbra, Somnigender (by GhostCorgi)
-[img alt="Heliogender"]https://i.ibb.co/ZzWxBKMQ/Heliogender.png[/img] [img alt="Luxumbra"]https://i.ibb.co/Myr3DcbB/Luxumbra.png[/img] [img alt="Somnigender"]https://i.ibb.co/XrQW3Btv/Somnigender.png[/img] [img alt="Somnigender"]https://i.ibb.co/k2DPjwP3/Somnigender-dreams.png[/img]
-
-Aegoromantic (by bxsmxth)
-[img alt="Aegoromantic"]https://i.imgur.com/ygAg5M3.png[/img]
+?? (by ??)
