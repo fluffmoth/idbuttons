@@ -24866,7 +24866,7 @@ const alterhumanList = [
 		imgbb: `Z6YSvkxS/Alterhuman-kingender.png`, // imgbb link
 		imgur: `KYYbV7r.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		tags: ahmData.alterhuman.tags.concat([`kingender`]), // tags for search/filtering
 		info: ahmData.alterhuman.info, // optional extra info
 		icon: `Kingender flag` // description of the flag/icon
 	},
@@ -25319,7 +25319,7 @@ const alterhumanList = [
 		imgbb: `https://i.ibb.co/gbMSsDWX/Dogkin-kingender.png`, // imgbb link
 		imgur: `https://i.imgur.com/fbd8YfS.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.animalkin.tags.concat([`dog`,`canine`]), // tags for search/filtering
+		tags: ahmData.animalkin.tags.concat([`dog`,`canine`,`kingender`]), // tags for search/filtering
 		info: `Dog ${otherkinLink}` + ahmData.canine.info, // optional extra info
 		icon: `Kingender flag` // description of the flag/icon
 	},
@@ -25847,7 +25847,9 @@ const alterhumanList = [
 alterhumanList.forEach((item)=>{
 	if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/alterhuman/%name.png`; }
 	else if (!item.src.includes('/')) { item.src = `/buttons/alterhuman/` + item.src; }
-	if (typeof item.alt == 'undefined' && item.icon.toLowerCase().includes(`kingender`)) { item.alt = `%name (Kingender)`; }
+	if (typeof item.alt == 'undefined' && item.icon.toLowerCase().includes(`kingender`)) {
+		item.alt = `%name (Kingender)`;
+	}
 });
 
 const otherList = [
