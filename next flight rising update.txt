@@ -5,7 +5,7 @@ hey! it's been a super long time, have a few updates.
 
 been moving more things over to the website from the spreadsheet! also a square button shape option has been added to the maker, if that's of interest to anyone. fair warning, it has to invent the 4 missing pixels to fill in the icon corners.
 
-the database also supports imgbb links now, and will prioritize them over imgur when available. hopefully gonna let people choose their own preferred host in the future!
+the database also supports imgbb links now, and will prioritize them over imgur when available! there's also a fancy dropdown at the top left to pick your own preferred image host for the generated codes. it will still use the default if there isn't a valid link for that host yet. if you don't know what host you want, just leave it on the default and i'll choose for you :>
 
 
 -----
@@ -28,17 +28,30 @@ Stock the Pond buttons (by skeletonsynth & myself)
 [img alt="Pond Dragon (Water drop)"]https://i.imgur.com/8uJ1Fp8.png[/img] [img alt="Pond Pair (Water drop)"]https://i.imgur.com/UdV7Y2r.png[/img]
 [img alt="Stock the Pond (Water drop on pastel rainbow)"]https://i.imgur.com/Buk7tqJ.png[/img] [img alt="Pond Stock (Water drop on pastel rainbow)"]https://i.imgur.com/wle5C1h.png[/img] [img alt="Pond Dragon (Water drop on pastel rainbow)"]https://i.imgur.com/Jr2iUcO.png[/img]
 
-Alterhuman:
+[b]ALTERHUMAN[/b]
 New flags added, plus kingender flag buttons have been properly labeled and standardized (mistook it for a pastel background, that's my bad!)
-[img alt="Alterhuman"]https://i.ibb.co/wNypvDF7/Alterhuman.png[/img] [img alt="Alterhuman"]https://i.ibb.co/YFhBgjsG/Alterhuman-unity.png[/img] [img alt="Alterhuman"]https://i.ibb.co/5gsFYW2G/Alterhuman-star.png[/img] [img alt="Alterhuman"]https://i.ibb.co/DfRjGZ11/Alterhuman-star-rainbow.png[/img] [img alt="Alterhuman (Kingender)"]https://i.ibb.co/Z6YSvkxS/Alterhuman-kingender.png[/img] [img alt="Alterhuman (Otherhearted)"]https://i.ibb.co/wrdG7cFZ/Alterhuman-heart.png[/img]
-Therian, including new therian symbol (hopefully more readable?? it's very difficult)
+[img alt="Alterhuman"]https://i.ibb.co/wNypvDF7/Alterhuman.png[/img] [img alt="Alterhuman"]https://i.ibb.co/svfg5ttB/Alterhuman-arrow.png[/img] [img alt="Alterhuman"]https://i.ibb.co/YFhBgjsG/Alterhuman-unity.png[/img] [img alt="Alterhuman"]https://i.ibb.co/5gsFYW2G/Alterhuman-star.png[/img] [img alt="Alterhuman"]https://i.ibb.co/DfRjGZ11/Alterhuman-star-rainbow.png[/img] [img alt="Alterhuman (Kingender)"]https://i.ibb.co/Z6YSvkxS/Alterhuman-kingender.png[/img] [img alt="Alterhuman (Otherhearted)"]https://i.ibb.co/wrdG7cFZ/Alterhuman-heart.png[/img]
+Nonhuman/Non-human
+[img alt="Non-human"]https://i.ibb.co/5XJ5RF2v/Non-human.png[/img] [img alt="Non-human"]https://i.ibb.co/jkpFW7BP/Non-human-alterhuman.png[/img] [img alt="Non-human"]https://i.ibb.co/gZTrB7bn/Non-human-otherkin.png[/img] [img alt="Non-human"]https://i.ibb.co/YTQZDNDs/Non-human-therian.png[/img]
+[img alt="Nonhuman"]https://i.ibb.co/FSQb9y4/Nonhuman.png[/img] [img alt="Nonhuman"]https://i.ibb.co/gF3g4xxQ/Nonhuman-alterhuman.png[/img] [img alt="Nonhuman"]https://i.ibb.co/SXX2PPMb/Nonhuman-otherkin.png[/img] [img alt="Nonhuman"]https://i.ibb.co/YFCHrHSR/Nonhuman-therian.png[/img]
+Therian
 [img alt="Therian"]https://i.ibb.co/MDh6Ch7w/Therian.png[/img] [img alt="Therian"]https://i.ibb.co/93ZwT5jH/Therian-unity.png[/img] [img alt="Therian"]https://i.ibb.co/cKHsPS2P/Therian-star.png[/img]
+Otherkin, including sunset flag
+[img alt="Otherkin"]https://i.ibb.co/YFjhSfd5/Otherkin-flag-star.png[/img] [img alt="Otherkin"]https://i.ibb.co/mr0kD7Ms/Otherkin-flag.png[/img] [img alt="Otherkin"]https://i.ibb.co/TMbz45MW/Otherkin-unity.png[/img] [img alt="Otherkin"]https://i.ibb.co/fVfPRF3b/Otherkin-rainbow.png[/img] [img alt="Otherkin"]https://i.ibb.co/tTBb3JWG/Otherkin.png[/img]
 Otherhearted/Synpath
 [img alt="Otherhearted"]https://i.ibb.co/sd07mgSq/Otherhearted.png[/img] [img alt="Otherhearted"]https://i.ibb.co/zH5NtrTk/Otherhearted-sepia.png[/img] [img alt="Otherhearted"]https://i.ibb.co/PvcnyzYz/Otherhearted-rainbow.png[/img]
 [img alt="Other-hearted"]https://i.ibb.co/yj46Ds2/Other-hearted.png[/img] [img alt="Other-hearted"]https://i.ibb.co/273mjp1V/Other-hearted-sepia.png[/img] [img alt="Other-hearted"]https://i.ibb.co/bRPFjPfB/Other-hearted-rainbow.png[/img]
 [img alt="Synpath"]https://i.ibb.co/p61JJYN4/Synpath.png[/img] [img alt="Synpath"]https://i.ibb.co/j9DFVGR8/Synpath-sepia.png[/img] [img alt="Synpath"]https://i.ibb.co/6J18XdJz/Synpath-rainbow.png[/img]
 [img alt="Animalhearted"]https://i.ibb.co/5hB3mjLW/Animalhearted.png[/img] [img alt="Animalhearted"]https://i.ibb.co/Q7PHBhVN/Animalhearted-sepia.png[/img] [img alt="Animalhearted"]https://i.ibb.co/ntLjyqn/Animalhearted-rainbow.png[/img]
 [img alt="Concepthearted"]https://i.ibb.co/B2HZxVVK/Concepthearted.png[/img] [img alt="Concepthearted"]https://i.ibb.co/HDKWCgzH/Concepthearted-sepia.png[/img] [img alt="Concepthearted"]https://i.ibb.co/Cpn63xg6/Concepthearted-rainbow.png[/img]
+Dogkin/Dog Therian
+[img alt="Dog Therian"]https://i.ibb.co/NBWMT61/Dog-Therian.png[/img] [img alt="Dog Therian"]https://i.ibb.co/cM43x00/Dog-Therian-flag.png[/img]
+[img alt="Dogkin"]https://i.ibb.co/27NXjhGN/Dogkin-flag.png[/img] [img alt="Dogkin"]https://i.ibb.co/mC9cNjCx/Dogkin.png[/img] [img alt="Dogkin"]https://i.ibb.co/YxCP6Tm/Dogkin-rainbow.png[/img] [img alt="Dogkin (Kingender)"]https://i.ibb.co/gbMSsDWX/Dogkin-kingender.png[/img]
+Elfkin/Elvenkin
+[img alt="Elfkin"]https://i.ibb.co/qMhRTnnZ/Elfkin-flag.png[/img] [img alt="Elfkin"]https://i.ibb.co/KcqyY2zy/Elfkin-rainbow.png[/img] [img alt="Elfkin"]https://i.ibb.co/WNjxVrRr/Elfkin.png[/img]
+[img alt="Elvenkin"]https://i.ibb.co/XfQq7mhr/Elvenkin-flag.png[/img] [img alt="Elvenkin"]https://i.ibb.co/Y75Wh8ZM/Elvenkin.png[/img] [img alt="Elvenkin"]https://i.ibb.co/Y75Wh8ZM/Elvenkin.png[/img]
+Angelkin
+[img alt="Angelkin"]https://i.ibb.co/CrF6ZDH/Angelkin-flag.png[/img]
 
 Updated & rehosted nest network buttons
 [url=https://www1.flightrising.com/forums/drw/3366526/1][img alt="Nest Network: Arcane"]https://i.ibb.co/cKZKHng3/Nest-Network-Arcane.png[/img][/url] [img alt="Nest Renter: Arcane"]https://i.ibb.co/gLYmVLhr/Nest-Renter-Arcane.png[/img]
@@ -96,5 +109,5 @@ Gender:
 Heliogender, Luxumbra, Somnigender (by GhostCorgi)
 [img alt="Heliogender"]https://i.ibb.co/ZzWxBKMQ/Heliogender.png[/img] [img alt="Luxumbra"]https://i.ibb.co/Myr3DcbB/Luxumbra.png[/img] [img alt="Somnigender"]https://i.ibb.co/XrQW3Btv/Somnigender.png[/img] [img alt="Somnigender"]https://i.ibb.co/k2DPjwP3/Somnigender-dreams.png[/img]
 
-Aegoromantic
-[img alt="Aegoromantic"]https://i.imgur.com/ygAg5M3.png[/img] (by bxsmxth)
+Aegoromantic (by bxsmxth)
+[img alt="Aegoromantic"]https://i.imgur.com/ygAg5M3.png[/img]

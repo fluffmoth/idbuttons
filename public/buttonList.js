@@ -21442,7 +21442,7 @@ const gamesList = [
 		imgur: `8GgdVkW.png`, // imgur link
 		tags: [`interests`,`fandom`,`game`,`video game`,`nintendo`,`rpg`,`tcg`,`card game`,`movie`,`television`,`animation`,`anime`], // tags for search/filtering
 		info: `<a href="?tags=interests,nintendo">Nintendo</a> <a href="?tags=interests,television">TV</a>, <a href="?tags=interests,video game">video game</a>, and <a href="?tags=interests,tcg">TCG</a> series`, // optional extra info
-		icon: `Pokéball` // description of the flag/icon
+		icon: `Pokeball` // description of the flag/icon
 	},
 	{
 		name: `Just Shapes & Beats`, // display name
@@ -24761,19 +24761,29 @@ const otherkinLink = `<a href="?tags=otherkin,!gender,!orientation">otherkin</a>
 const therianLink = `<a href="?tags=therian|therianthropy,!gender,!orientation">therian</a>`;
 const ahmData = {
 	alterhuman: {
-		tags: [`alterhumanity`],
+		tags: [`alterhuman`,`alterhumanity`],
 		info: `Umbrella term for <a href="?tags=alterhuman,!gender,!orientation">non-human identities</a>, including ${otherkinLink}, <a href="?tags=otherhearted|other-hearted,!gender,!orientation">other-hearted</a>, and ${therianLink}.`,
 	},
 	otherkin: {
 		tags: [`alterhuman`,`otherkin`,`kin`],
+		info: `Someone who identifies as something non-human. Subset of ${alterhumanLink}.`,
+	},
+	kintype: {
+		info: `The non-human entity an ${otherkinLink} individual identifies as.`,
 	},
 	kith: {
 		tags: [`alterhuman`,`otherheart`,`otherhearted`,`other-heart`,`other-hearted`,`kith`,`otherkith`,`synpath`],
 		info: `Someone who identifies with, not as, something non-human. Subset of ${alterhumanLink}.`,
 	},
+	kithtype: {
+		info: `The non-human entity an <a href="?tags=otherhearted|other-hearted|otherkith|synpath">otherhearted/otherkith/synpath</a> individual identifies with.`,
+	},
 	animalhearted: {
 		tags: [`animal-hearted`,`animalkin`,`animal`,`therian`],
 		info: `<a href="?tags=otherhearted">Otherhearted</a> individual with a strong connection to a non-human animal species. Subset of ${alterhumanLink}.`,
+	},
+	animalkin: {
+		tags: [`alterhuman`,`otherkin`,`animalkin`,`animal`,`therian`],
 	},
 	concepthearted: {
 		tags: [`concept-hearted`,`conceptkin`],
@@ -24781,19 +24791,23 @@ const ahmData = {
 	},
 	therian: {
 		tags: [`alterhuman`,`therian`,`therianthrope`,`therianthropy`],
+		simpleTags: [`therian`,`therianthrope`,`therianthropy`],
 		info: `Someone who identifies as a real species of animal. Subset of ${alterhumanLink}.`,
+	},
+	constelic: {
+		tags: [`alterhuman`],
+		info: `Term for someone who collects ${alterhumanLink} identities.`,
+	},
+	///// KINTYPES etc
+	canine: {
+		info: ` (other <a href="?tags=alterhuman,canine">canine alterhuman buttons</a> here)`,
+	},
+	elfkin: {
+		tags: [`elf`,`elven`,`elfkind`,`elvenkind`],
+		info: `Elven ${otherkinLink} (other <a href="?tags=alterhuman,elf">elf alterhuman buttons</a> here)`,
 	},
 }
 const alterhumanList = [
-	{
-		name: `Vampirekin`, // display name
-		src: `/buttons/alterhuman/%name_Blood.png`, // local image source
-		imgbb: `tp0K38Gd/Vampirekin-Blood.png`, // imgbb link
-		imgur: `NONEehH.png`, // imgur link
-		tags: [`alterhuman`,`otherkin`,`vampire`,`blood`], // tags for search/filtering
-		info: `Vampire ${otherkinLink}`, // optional extra info
-		icon: `Blood drop` // description of the flag/icon
-	},
 	{
 		name: `Alterhuman`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
@@ -24806,9 +24820,9 @@ const alterhumanList = [
 	{
 		name: `Alterhuman`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_arrow.png`, // local image source
-		imgbb: `RT4GCHQK/Alterhuman-arrow.png`, // imgbb link
-		imgur: `SRJKHTt.png`, // imgur link
+		src: `%name_arrow.png`, // local image source
+		imgbb: `https://i.ibb.co/svfg5ttB/Alterhuman-arrow.png`, // imgbb link
+		imgur: `https://i.imgur.com/9jOcsZP.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
 		info: ahmData.alterhuman.info, // optional extra info
@@ -24817,7 +24831,7 @@ const alterhumanList = [
 	{
 		name: `Alterhuman`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_star.png`, // local image source
+		src: `%name_star.png`, // local image source
 		imgbb: `5gsFYW2G/Alterhuman-star.png`, // imgbb link
 		imgur: `GdVZ87H.png`, // imgur link
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
@@ -24827,7 +24841,7 @@ const alterhumanList = [
 	{
 		name: `Alterhuman`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_star_rainbow.png`, // local image source
+		src: `%name_star_rainbow.png`, // local image source
 		imgbb: `DfRjGZ11/Alterhuman-star-rainbow.png`, // imgbb link
 		imgur: `VSr1Vbo.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -24838,7 +24852,7 @@ const alterhumanList = [
 	{
 		name: `Alterhuman`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_unity.png`, // local image source
+		src: `%name_unity.png`, // local image source
 		imgbb: `YFhBgjsG/Alterhuman-unity.png`, // imgbb link
 		imgur: `eRr2ScT.png`, // imgur link
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
@@ -24848,7 +24862,7 @@ const alterhumanList = [
 	{
 		name: `Alterhuman`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_kingender.png`, // local image source
+		src: `%name_kingender.png`, // local image source
 		imgbb: `Z6YSvkxS/Alterhuman-kingender.png`, // imgbb link
 		imgur: `KYYbV7r.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -24858,15 +24872,106 @@ const alterhumanList = [
 	},
 	{
 		name: `Alterhuman`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_otherkin.png`, // local image source
+		imgbb: `https://i.ibb.co/pvPgbv72/Alterhuman-otherkin.png`, // imgbb link
+		imgur: `https://i.imgur.com/s9zliaA.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		info: ahmData.alterhuman.info, // optional extra info
+		icon: `Otherkin flag` // description of the flag/icon
+	},
+	{
+		name: `Alterhuman`, // display name
 		alt: `%name (Otherhearted)`,
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_heart.png`, // local image source
+		src: `%name_heart.png`, // local image source
 		imgbb: `wrdG7cFZ/Alterhuman-heart.png`, // imgbb link
 		imgur: `YRaRu8z.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
 		info: ahmData.alterhuman.info, // optional extra info
 		icon: `Otherhearted flag` // description of the flag/icon
+	},
+	{
+		name: `Otherkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_flag_star.png`, // local image source
+		imgbb: `https://i.ibb.co/YFjhSfd5/Otherkin-flag-star.png`, // imgbb link
+		imgur: `https://i.imgur.com/lcef6vu.png`, // imgur link
+		tags: ahmData.otherkin.tags, // tags for search/filtering
+		info: ahmData.otherkin.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Otherkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/mr0kD7Ms/Otherkin-flag.png`, // imgbb link
+		imgur: `https://i.imgur.com/pDmUZR4.png`, // imgur link
+		tags: ahmData.otherkin.tags, // tags for search/filtering
+		info: ahmData.otherkin.info, // optional extra info
+		icon: `flag (blank)` // description of the flag/icon
+	},
+	{
+		name: `Otherkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/tTBb3JWG/Otherkin.png`, // imgbb link
+		imgur: `https://i.imgur.com/yvMj9jM.png`, // imgur link
+		tags: ahmData.otherkin.tags, // tags for search/filtering
+		info: ahmData.otherkin.info, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Otherkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/fVfPRF3b/Otherkin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/2SL9DLK.png`, // imgur link
+		tags: ahmData.otherkin.tags, // tags for search/filtering
+		info: ahmData.otherkin.info, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Kintype`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/5XQmPdjQ/Kintype-flag.png`, // imgbb link
+		imgur: `https://i.imgur.com/8K9pGrm.png`, // imgur link
+		tags: ahmData.otherkin.tags, // tags for search/filtering
+		info: ahmData.kintype.info, // optional extra info
+		icon: `Otherkin flag` // description of the flag/icon
+	},
+	{
+		name: `Kintype`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/b5TDgTFb/Kintype.png`, // imgbb link
+		imgur: `https://i.imgur.com/OvVVyfp.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags, // tags for search/filtering
+		info: ahmData.kintype.info, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Kintype`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/HLXn2Rhf/Kintype-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/Y3rkGX3.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags, // tags for search/filtering
+		info: ahmData.kintype.info, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Otherkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_unity.png`, // local image source
+		imgbb: `https://i.ibb.co/TMbz45MW/Otherkin-unity.png`, // imgbb link
+		imgur: `https://i.imgur.com/Dnm4AF2.png`, // imgur link
+		tags: ahmData.otherkin.tags, // tags for search/filtering
+		info: ahmData.otherkin.info, // optional extra info
+		icon: `Non-human unity flag` // description of the flag/icon
 	},
 	{
 		name: `Therian`, // display name
@@ -24880,7 +24985,7 @@ const alterhumanList = [
 	{
 		name: `Therian`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_unity.png`, // local image source
+		src: `%name_unity.png`, // local image source
 		imgbb: `93ZwT5jH/Therian-unity.png`, // imgbb link
 		imgur: `c3JYTF8.png`, // imgur link
 		tags: ahmData.therian.tags, // tags for search/filtering
@@ -24890,7 +24995,7 @@ const alterhumanList = [
 	{
 		name: `Therian`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_star.png`, // local image source
+		src: `%name_star.png`, // local image source
 		imgbb: `cKHsPS2P/Therian-star.png`, // imgbb link
 		imgur: `QetF0Qf.png`, // imgur link
 		tags: ahmData.therian.tags, // tags for search/filtering
@@ -24909,7 +25014,7 @@ const alterhumanList = [
 	{
 		name: `Otherhearted`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_sepia.png`, // local image source
+		src: `%name_sepia.png`, // local image source
 		imgbb: `zH5NtrTk/Otherhearted-sepia.png`, // imgbb link
 		imgur: `peMRWtf.png`, // imgur link
 		tags: ahmData.kith.tags, // tags for search/filtering
@@ -24919,7 +25024,7 @@ const alterhumanList = [
 	{
 		name: `Otherhearted`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_rainbow.png`, // local image source
+		src: `%name_rainbow.png`, // local image source
 		imgbb: `PvcnyzYz/Otherhearted-rainbow.png`, // imgbb link
 		imgur: `xcPVtv6.png`, // imgur link
 		tags: ahmData.kith.tags, // tags for search/filtering
@@ -24939,7 +25044,7 @@ const alterhumanList = [
 	{
 		name: `Other-hearted`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_sepia.png`, // local image source
+		src: `%name_sepia.png`, // local image source
 		imgbb: `273mjp1V/Other-hearted-sepia.png`, // imgbb link
 		imgur: `yNTd8XY.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -24950,7 +25055,7 @@ const alterhumanList = [
 	{
 		name: `Other-hearted`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_rainbow.png`, // local image source
+		src: `%name_rainbow.png`, // local image source
 		imgbb: `bRPFjPfB/Other-hearted-rainbow.png`, // imgbb link
 		imgur: `ikWFY0D.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -24970,7 +25075,7 @@ const alterhumanList = [
 	{
 		name: `Synpath`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_sepia.png`, // local image source
+		src: `%name_sepia.png`, // local image source
 		imgbb: `j9DFVGR8/Synpath-sepia.png`, // imgbb link
 		imgur: `DutgaYH.png`, // imgur link
 		tags: ahmData.kith.tags, // tags for search/filtering
@@ -24980,12 +25085,74 @@ const alterhumanList = [
 	{
 		name: `Synpath`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_rainbow.png`, // local image source
+		src: `%name_rainbow.png`, // local image source
 		imgbb: `6J18XdJz/Synpath-rainbow.png`, // imgbb link
 		imgur: `quj7hVA.png`, // imgur link
 		tags: ahmData.kith.tags, // tags for search/filtering
 		info: ahmData.kith.info, // optional extra info
 		icon: `symbol (rainbow)` // description of the flag/icon
+	},
+	{
+		name: `Kithtype`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/NdQBZSvC/Kithtype.png`, // imgbb link
+		imgur: `https://i.imgur.com/INQNiD5.png`, // imgur link
+		tags: ahmData.kith.tags, // tags for search/filtering
+		info: ahmData.kithtype.info, // optional extra info
+		icon: `Otherkith flag` // description of the flag/icon
+	},
+	{
+		name: `Kithtype`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_sepia.png`, // local image source
+		imgbb: `https://i.ibb.co/HfWS9mL2/Kithtype-sepia.png`, // imgbb link
+		imgur: `https://i.imgur.com/c3ZhH7f.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.kith.tags, // tags for search/filtering
+		info: ahmData.kithtype.info, // optional extra info
+		icon: `Otherkith symbol` // description of the flag/icon
+	},
+	{
+		name: `Kithtype`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/kgs0sRgM/Kithtype-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/JoQKTXn.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.kith.tags, // tags for search/filtering
+		info: ahmData.kithtype.info, // optional extra info
+		icon: `Otherkith symbol (rainbow)` // description of the flag/icon
+	},
+	{
+		name: `Hearttype`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/v4WnGJ6d/Hearttype.png`, // imgbb link
+		imgur: `https://i.imgur.com/kTJaRtJ.png`, // imgur link
+		tags: ahmData.kith.tags, // tags for search/filtering
+		info: ahmData.kithtype.info, // optional extra info
+		icon: `Otherhearted flag` // description of the flag/icon
+	},
+	{
+		name: `Hearttype`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_sepia.png`, // local image source
+		imgbb: `https://i.ibb.co/WvWPRQfH/Hearttype-sepia.png`, // imgbb link
+		imgur: `https://i.imgur.com/6X6ygfB.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.kith.tags, // tags for search/filtering
+		info: ahmData.kithtype.info, // optional extra info
+		icon: `Otherhearted symbol` // description of the flag/icon
+	},
+	{
+		name: `Hearttype`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/mkXzPFN/Hearttype-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/35Hy3ST.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.kith.tags, // tags for search/filtering
+		info: ahmData.kithtype.info, // optional extra info
+		icon: `Otherhearted symbol (rainbow)` // description of the flag/icon
 	},
 	{
 		name: `Animalhearted`, // display name
@@ -24999,7 +25166,7 @@ const alterhumanList = [
 	{
 		name: `Animalhearted`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_sepia.png`, // local image source
+		src: `%name_sepia.png`, // local image source
 		imgbb: `Q7PHBhVN/Animalhearted-sepia.png`, // imgbb link
 		imgur: `hi9JMdC.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -25010,7 +25177,7 @@ const alterhumanList = [
 	{
 		name: `Animalhearted`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_rainbow.png`, // local image source
+		src: `%name_rainbow.png`, // local image source
 		imgbb: `ntLjyqn/Animalhearted-rainbow.png`, // imgbb link
 		imgur: `Wwh8P6B.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -25030,7 +25197,7 @@ const alterhumanList = [
 	{
 		name: `Concepthearted`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_sepia.png`, // local image source
+		src: `%name_sepia.png`, // local image source
 		imgbb: `HDKWCgzH/Concepthearted-sepia.png`, // imgbb link
 		imgur: `k0oA9NF.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -25041,7 +25208,7 @@ const alterhumanList = [
 	{
 		name: `Concepthearted`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/alterhuman/%name_rainbow.png`, // local image source
+		src: `%name_rainbow.png`, // local image source
 		imgbb: `Cpn63xg6/Concepthearted-rainbow.png`, // imgbb link
 		imgur: `SU9ZDuG.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -25049,10 +25216,620 @@ const alterhumanList = [
 		info: ahmData.concepthearted.info, // optional extra info
 		icon: `Otherhearted symbol (rainbow)` // description of the flag/icon
 	},
+	{
+		name: `Constelic`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_star.png`, // local image source
+		imgbb: `https://i.ibb.co/HLzpzYHj/Constelic-star.png`, // imgbb link
+		imgur: `https://imgur.com/0ebNQGI.png`, // imgur link
+		tags: ahmData.constelic.tags, // tags for search/filtering
+		info: ahmData.constelic.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Constelic`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/PZ0kjKGJ/Constelic.png`, // imgbb link
+		imgur: `https://imgur.com/GDzfD78.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.constelic.tags, // tags for search/filtering
+		info: ahmData.constelic.info, // optional extra info
+		icon: `flag (no symbol)` // description of the flag/icon
+	},
+	{
+		name: `Constelic`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_alt_star.png`, // local image source
+		imgbb: `https://i.ibb.co/BHPt6gqX/Constelic-alt-star.png`, // imgbb link
+		imgur: `https://imgur.com/QedLVT0.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.constelic.tags, // tags for search/filtering
+		info: ahmData.constelic.info, // optional extra info
+		icon: `flag alt` // description of the flag/icon
+	},
+	{
+		name: `Constelic`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_alt.png`, // local image source
+		imgbb: `https://i.ibb.co/YFGKkBQc/Constelic-alt.png`, // imgbb link
+		imgur: `https://imgur.com/oAeN1PQ.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.constelic.tags, // tags for search/filtering
+		info: ahmData.constelic.info, // optional extra info
+		icon: `flag alt (no symbol)` // description of the flag/icon
+	},
+	////////////////////////////////// SPECIFIC KINTYPES ///////////////////////////////////
+	{
+		name: `Vampirekin`, // display name
+		src: `%name_Blood.png`, // local image source
+		imgbb: `tp0K38Gd/Vampirekin-Blood.png`, // imgbb link
+		imgur: `NONEehH.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`vampire`,`mythkin`]), // tags for search/filtering
+		info: `Vampire ${otherkinLink}`, // optional extra info
+		icon: `Blood drop` // description of the flag/icon
+	},
+	{
+		name: `Vampirekin`, // display name
+		src: `%name_Bat.png`, // local image source
+		imgbb: `https://i.ibb.co/r2zrXR7C/Vampirekin-Bat.png`, // imgbb link
+		imgur: `https://i.imgur.com/u7OYglJ.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags.concat([`vampire`,`mythkin`]), // tags for search/filtering
+		info: `Vampire ${otherkinLink}`, // optional extra info
+		icon: `Bat` // description of the flag/icon
+	},
+	{
+		name: `Vampirekin`, // display name
+		imgbb: `https://i.ibb.co/7J3PdLcj/Vampirekin.png`, // imgbb link
+		imgur: `https://i.imgur.com/LmMfriJ.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`vampire`,`mythkin`]), // tags for search/filtering
+		info: `Vampire ${otherkinLink}`, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Dogkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/mC9cNjCx/Dogkin.png`, // imgbb link
+		imgur: `https://i.imgur.com/m3eBLoW.png`, // imgur link
+		tags: ahmData.animalkin.tags.concat([`dog`,`canine`]), // tags for search/filtering
+		info: `Dog ${otherkinLink}` + ahmData.canine.info, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Dogkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/YxCP6Tm/Dogkin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/WGrte4y.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.animalkin.tags.concat([`dog`,`canine`]), // tags for search/filtering
+		info: `Dog ${otherkinLink}` + ahmData.canine.info, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Dogkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_kingender.png`, // local image source
+		imgbb: `https://i.ibb.co/gbMSsDWX/Dogkin-kingender.png`, // imgbb link
+		imgur: `https://i.imgur.com/fbd8YfS.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.animalkin.tags.concat([`dog`,`canine`]), // tags for search/filtering
+		info: `Dog ${otherkinLink}` + ahmData.canine.info, // optional extra info
+		icon: `Kingender flag` // description of the flag/icon
+	},
+	{
+		name: `Dogkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/27NXjhGN/Dogkin-flag.png`, // imgbb link
+		imgur: `https://i.imgur.com/lDRfiSF.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.animalkin.tags.concat([`dog`,`canine`]), // tags for search/filtering
+		info: `Dog ${otherkinLink}` + ahmData.canine.info, // optional extra info
+		icon: `Caninekin flag` // description of the flag/icon
+	},
+	{
+		name: `Dog Therian`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/NBWMT61/Dog-Therian.png`, // imgbb link
+		imgur: `https://i.imgur.com/dxhfnRO.png`, // imgur link
+		tags: ahmData.therian.tags.concat([`canine`,`dog`]), // tags for search/filtering
+		info: `Dog ${therianLink}` + ahmData.canine.info, // optional extra info
+		icon: `Therian symbol` // description of the flag/icon
+	},
+	{
+		name: `Dog Therian`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/cM43x00/Dog-Therian-flag.png`, // imgbb link
+		imgur: `https://i.imgur.com/ta0W4Xj.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.therian.tags.concat([`canine`,`dog`]), // tags for search/filtering
+		info: `Dog ${therianLink}` + ahmData.canine.info, // optional extra info
+		icon: `Canine therian flag` // description of the flag/icon
+	},
+	{
+		name: `Alienkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/5XqkJfvt/Alienkin.png`, // imgbb link
+		imgur: `https://i.imgur.com/rkLgzXf.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`alien`]), // tags for search/filtering
+		info: `Alien ${otherkinLink}`, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Alienkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/S4W7h9DK/Alienkin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/yCsfagy.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags.concat([`alien`]), // tags for search/filtering
+		info: `Alien ${otherkinLink}`, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Divinekin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/0yfmj1HC/Divinekin.png`, // imgbb link
+		imgur: `https://i.imgur.com/JNNsLHA.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`divine`,`god`,`deity`,`divinity`]), // tags for search/filtering
+		info: `Divine ${otherkinLink}`, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Divinekin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/nqW7nJpg/Divinekin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/MGxDhHJ.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags.concat([`divine`,`god`,`deity`,`divinity`]), // tags for search/filtering
+		info: `Divine ${otherkinLink}`, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Dragonkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/B2LgXpG5/Dragonkin.png`, // imgbb link
+		imgur: `https://i.imgur.com/pI1B97L.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`mythkin`,`dragon`]), // tags for search/filtering
+		info: `Dragon ${otherkinLink}`, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Dragonkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/VYjxNYJL/Dragonkin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/opVsJqe.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags.concat([`mythkin`,`dragon`]), // tags for search/filtering
+		info: `Dragon ${otherkinLink}`, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Pokekin`, // display name
+		altNames: [`Pokékin`],
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/nN09Hywk/Pokekin.png`, // imgbb link
+		imgur: `https://i.imgur.com/NX2q5kw.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags.concat([`pokemon`,`pokémon`]), // tags for search/filtering
+		info: `Pokémon ${otherkinLink}`, // optional extra info
+		icon: `Pokeball` // description of the flag/icon
+	},
+	{
+		name: `Pokemon Kin`, // display name
+		altNames: [`Pokékin`],
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/mVWx5FKm/Pokemon-Kin.png`, // imgbb link
+		imgur: `https://i.imgur.com/tZQ0VBu.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`pokemon`,`pokémon`,`pokekin`,`pokékin`]), // tags for search/filtering
+		info: `Pokémon ${otherkinLink}`, // optional extra info
+		icon: `Pokeball` // description of the flag/icon
+	},
+	{
+		name: `Elfkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/qMhRTnnZ/Elfkin-flag.png`, // imgbb link
+		imgur: `https://i.imgur.com/6gULK1c.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
+		info: ahmData.elfkin.info, // optional extra info
+		icon: `Otherkin flag` // description of the flag/icon
+	},
+	{
+		name: `Elfkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/WNjxVrRr/Elfkin.png`, // imgbb link
+		imgur: `https://i.imgur.com/Lal2DbN.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
+		info: ahmData.elfkin.info, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Elfkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/KcqyY2zy/Elfkin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/loIu81S.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
+		info: ahmData.elfkin.info, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Elvenkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/XfQq7mhr/Elvenkin-flag.png`, // imgbb link
+		imgur: `https://i.imgur.com/jsFhq0M.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
+		info: ahmData.elfkin.info, // optional extra info
+		icon: `Otherkin flag` // description of the flag/icon
+	},
+	{
+		name: `Elvenkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Y75Wh8ZM/Elvenkin.png`, // imgbb link
+		imgur: `https://i.imgur.com/KTBs8IW.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
+		info: ahmData.elfkin.info, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Elvenkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/0V9HgRKn/Elvenkin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/s3e4mOp.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
+		info: ahmData.elfkin.info, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Bloodelfkin`, // display name
+		altNames: [`Blood Elf kin`],
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/r2py6bFg/Bloodelfkin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/k47b9Dk.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags,`blood elf`), // tags for search/filtering
+		info: `Blood Elf ${ahmData.elfkin.info}`, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Nightelfkin`, // display name
+		altNames: [`Night Elf kin`],
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/b53r3CVB/Nightelfkin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/biSJt4i.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags,`night elf`), // tags for search/filtering
+		info: `Night Elf ${ahmData.elfkin.info}`, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Conceptkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/5VC5YDc/Conceptkin-flag.png`, // imgbb link
+		imgur: `https://i.imgur.com/IOyMfEC.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`concept`]), // tags for search/filtering
+		info: `An individual who is ${otherkinLink} with an abstract concept.`, // optional extra info
+		icon: `Otherkin flag` // description of the flag/icon
+	},
+	{
+		name: `Conceptkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Kx2Nq8X3/Conceptkin.png`, // imgbb link
+		imgur: `https://i.imgur.com/pSl5eBg.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`concept`]), // tags for search/filtering
+		info: `An individual who is ${otherkinLink} with an abstract concept.`, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Conceptkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/ZPHfVSV/Conceptkin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/G0iQYvq.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`concept`]), // tags for search/filtering
+		info: `An individual who is ${otherkinLink} with an abstract concept.`, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Objectkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/DDZKPCqB/Objectkin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/QvlMVha.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`object`]), // tags for search/filtering
+		info: `An individual who is ${otherkinLink} with an object/type of object.`, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `OC Kin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/CpBf9dWh/OC-Kin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/70pBAfz.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`oc`,`original character`]), // tags for search/filtering
+		info: `An individual who is ${otherkinLink} with an original character.`, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Angelkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/CrF6ZDH/Angelkin-flag.png`, // imgbb link
+		imgur: `https://i.imgur.com/U6h6eP1.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`angel`]), // tags for search/filtering
+		info: `Angel ${otherkinLink}`, // optional extra info
+		icon: `Otherkin flag` // description of the flag/icon
+	},
+	{
+		name: `Angelkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_Alderangelos.png`, // local image source
+		imgbb: `https://i.ibb.co/QqydsGj/Angelkin-Alderangelos.png`, // imgbb link
+		imgur: `https://i.imgur.com/05lHsUM.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags.concat([`angel`]), // tags for search/filtering
+		info: `Angel ${otherkinLink}`, // optional extra info
+		icon: `Alderangelos flag` // description of the flag/icon
+	},
+	{
+		name: `Faerykin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/PzZV76LS/Faerykin-flag.png`, // imgbb link
+		imgur: `https://i.imgur.com/lI6eHpY.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`mythkin`,`fairy`,`faerie`,`faery`,`fairykin`]), // tags for search/filtering
+		info: `Faery ${otherkinLink}`, // optional extra info
+		icon: `Otherkin flag` // description of the flag/icon
+	},
+	{
+		name: `Faerykin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/zTpM7WST/Faerykin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/PnslhTH.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags.concat([`mythkin`,`fairy`,`faerie`,`faery`,`fairykin`]), // tags for search/filtering
+		info: `Faery ${otherkinLink}`, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Mythkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/fVkWPkRK/Mythkin-flag.png`, // imgbb link
+		imgur: `https://i.imgur.com/55LDnRC.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`mythical`,`myth`]), // tags for search/filtering
+		info: `Mythical ${otherkinLink} (more <a href="?tags=alterhuman,myth|mythical|mythkin">mythical alterhuman buttons</a> here)`, // optional extra info
+		icon: `Otherkin flag` // description of the flag/icon
+	},
+	{
+		name: `Mythkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/tT7BTrBj/Mythkin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/TdCJPGC.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags.concat([`mythical`,`myth`]), // tags for search/filtering
+		info: `Mythical ${otherkinLink}`, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Non-human`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/5XJ5RF2v/Non-human.png`, // imgbb link
+		imgur: `https://i.imgur.com/ePbkGIA.png`, // imgur link
+		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Non-human`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_otherkin.png`, // local image source
+		imgbb: `https://i.ibb.co/gZTrB7bn/Non-human-otherkin.png`, // imgbb link
+		imgur: `https://i.imgur.com/qTY49KF.png`, // imgur link
+		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
+		icon: `Otherkin flag` // description of the flag/icon
+	},
+	{
+		name: `Non-human`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_therian.png`, // local image source
+		imgbb: `https://i.ibb.co/YTQZDNDs/Non-human-therian.png`, // imgbb link
+		imgur: `https://i.imgur.com/sKClqy5.png`, // imgur link
+		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
+		icon: `Therian symbol` // description of the flag/icon
+	},
+	{
+		name: `Non-human`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_alterhuman.png`, // local image source
+		imgbb: `https://i.ibb.co/jkpFW7BP/Non-human-alterhuman.png`, // imgbb link
+		imgur: `https://i.imgur.com/eTvCFKy.png`, // imgur link
+		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
+		icon: `Alterhuman flag` // description of the flag/icon
+	},
+	{
+		name: `Nonhuman`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/FSQb9y4/Nonhuman.png`, // imgbb link
+		imgur: `https://i.imgur.com/zd2GXf3.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Nonhuman`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_otherkin.png`, // local image source
+		imgbb: `https://i.ibb.co/SXX2PPMb/Nonhuman-otherkin.png`, // imgbb link
+		imgur: `https://i.imgur.com/kSJ8XN6.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
+		icon: `Otherkin flag` // description of the flag/icon
+	},
+	{
+		name: `Nonhuman`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_therian.png`, // local image source
+		imgbb: `https://i.ibb.co/YFCHrHSR/Nonhuman-therian.png`, // imgbb link
+		imgur: `https://i.imgur.com/mEpEKW6.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
+		icon: `Therian symbol` // description of the flag/icon
+	},
+	{
+		name: `Nonhuman`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_alterhuman.png`, // local image source
+		imgbb: `https://i.ibb.co/gF3g4xxQ/Nonhuman-alterhuman.png`, // imgbb link
+		imgur: `https://i.imgur.com/SH3Nqqo.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
+		icon: `Alterhuman flag` // description of the flag/icon
+	},
+	{
+		name: `Robotkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/ks7pJTbw/Robotkin-flag.png`, // imgbb link
+		imgur: `https://i.imgur.com/DKz1FZ0.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`robot`]), // tags for search/filtering
+		info: `Robot ${otherkinLink}`, // optional extra info
+		icon: `Otherkin flag` // description of the flag/icon
+	},
+	{
+		name: `Robotkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/1JqjPzCn/Robotkin.png`, // imgbb link
+		imgur: `https://i.imgur.com/SF8bDSw.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`robot`]), // tags for search/filtering
+		info: `Robot ${otherkinLink}`, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Robotkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/Rp3NwqCK/Robotkin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/r5JEfN3.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`robot`]), // tags for search/filtering
+		info: `Robot ${otherkinLink}`, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Spiderkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Q7SqJS2Q/Spiderkin.png`, // imgbb link
+		imgur: `https://i.imgur.com/K6zd49z.png`, // imgur link
+		tags: ahmData.animalkin.tags.concat([`arachnid`,`spider`]), // tags for search/filtering
+		info: `Spider ${otherkinLink}`, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Werewolfkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/WpNDjHP9/Werewolfkin.png`, // imgbb link
+		imgur: `https://i.imgur.com/mxZJBlR.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`mythkin`,`werewolf`]), // tags for search/filtering
+		info: `Werewolf ${otherkinLink}`, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Werewolfkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_sepia.png`, // local image source
+		imgbb: `https://i.ibb.co/SDL5rJQY/Werewolfkin-sepia.png`, // imgbb link
+		imgur: `https://i.imgur.com/PDKwpJG.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`mythkin`,`werewolf`]), // tags for search/filtering
+		info: `Werewolf ${otherkinLink}`, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Werewolfkin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: `https://i.ibb.co/VY5QMFfx/Werewolfkin-rainbow.png`, // imgbb link
+		imgur: `https://i.imgur.com/T7XhnRp.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`mythkin`,`werewolf`]), // tags for search/filtering
+		info: `Werewolf ${otherkinLink}`, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: `Spacekind`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/hRqrTktx/Spacekind.png`, // imgbb link
+		imgur: `https://i.imgur.com/sg0ki88.png`, // imgur link
+		tags: ahmData.otherkin.tags.concat([`spacekin`,`space`,`alien`,`alienkin`]), // tags for search/filtering
+		info: `Space/alien ${otherkinLink}`, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Star Wars Kin`, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_spacekind.png`, // local image source
+		imgbb: `https://i.ibb.co/LbfNTts/Star-Wars-Kin-Spacekind.png`, // imgbb link
+		imgur: `https://i.imgur.com/FETC8wd.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags.concat([`spacekind`,`alien`,`alienkin`,`star wars`,`fictionkin`]), // tags for search/filtering
+		info: `Star Wars related ${otherkinLink}`, // optional extra info
+		icon: `Spacekind flag` // description of the flag/icon
+	},
+	/*
+	{
+		name: ``, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: ``, // imgbb link
+		imgur: ``, // imgur link
+		tags: ahmData.otherkin.tags.concat([]), // tags for search/filtering
+		info: `${otherkinLink}`, // optional extra info
+		icon: `Otherkin flag` // description of the flag/icon
+	},
+	{
+		name: ``, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: ``, // imgur link
+		tags: ahmData.otherkin.tags.concat([]), // tags for search/filtering
+		info: `${otherkinLink}`, // optional extra info
+		icon: `Sepia 7-pointed star` // description of the flag/icon
+	},
+	{
+		name: ``, // display name
+		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
+		src: `%name_rainbow.png`, // local image source
+		imgbb: ``, // imgbb link
+		imgur: ``, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.otherkin.tags.concat([]), // tags for search/filtering
+		info: `${otherkinLink}`, // optional extra info
+		icon: `Rainbow 7-pointed star` // description of the flag/icon
+	},
+	*/
 ]
 // assign default values
 alterhumanList.forEach((item)=>{
 	if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/alterhuman/%name.png`; }
+	else if (!item.src.includes('/')) { item.src = `/buttons/alterhuman/` + item.src; }
 	if (typeof item.alt == 'undefined' && item.icon.toLowerCase().includes(`kingender`)) { item.alt = `%name (Kingender)`; }
 });
 
