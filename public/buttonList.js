@@ -16183,7 +16183,6 @@ const subspeciesList = [
 		imgur: `PscmJNo.png`, // imgur link
 		tags: [`flight rising`,`subspecies`], // tags for search/filtering
 		info: subspeciesData.subspeciesInfo, // optional extra info
-		link: `https://www1.flightrising.com/forums/drs/2986480`, // optional URL the button should link to
 		icon: `Sun wheel` // description of the flag/icon
 	},
 	{
@@ -20669,6 +20668,82 @@ const interestsList = [
 		icon: `logo (floral circle)` // description of the flag/icon
 	},
 	{
+		name: `Applegeeks`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/nN48ZQFv/Applegeeks.png`, // imgbb link
+		imgur: `https://i.imgur.com/Kolslmz.png`, // imgur link
+		tags: interestsData.webcomic.tags, // tags for search/filtering
+		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Applegeeks`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/dwPmvFQ4/Applegeeks-Asmodaeus-Aqua-png.png`, // imgbb link
+		imgur: `https://i.imgur.com/5zN7xHR.png`, // imgur link
+		tags: interestsData.webcomic.tags, // tags for search/filtering
+		palette: `Asmodaeus Aqua`, // palette of button base
+		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Applegeeks`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name_alt.png`, // local image source
+		imgbb: `https://i.ibb.co/s98hvFrX/Applegeeks-alt.png`, // imgbb link
+		imgur: `https://i.imgur.com/PCt2KLn.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: interestsData.webcomic.tags, // tags for search/filtering
+		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
+		icon: `logo 2` // description of the flag/icon
+	},
+	{
+		name: `Applegeeks`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name_alt.png`, // local image source
+		imgbb: `https://i.ibb.co/F4gvm3jv/Applegeeks-alt-Asmodaeus-Aqua.png`, // imgbb link
+		imgur: `https://i.imgur.com/eYzkqB3.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: interestsData.webcomic.tags, // tags for search/filtering
+		palette: `Asmodaeus Aqua`, // palette of button base
+		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
+		icon: `logo 2` // description of the flag/icon
+	},
+	{
+		name: `Mac Hall`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/ZRZSSLRQ/Mac-Hall.png`, // imgbb link
+		imgur: `https://i.imgur.com/JRBdY3B.png`, // imgur link
+		tags: interestsData.webcomic.tags, // tags for search/filtering
+		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Mac Hall`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/zVDR4T9x/Mac-Hall-Asmodaeus-Red.png`, // imgbb link
+		imgur: `https://i.imgur.com/KTnOqm6.png`, // imgur link
+		tags: interestsData.webcomic.tags, // tags for search/filtering
+		palette: `Asmodaeus Red`, // palette of button base
+		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `MegaTokyo`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/3mFtb9kp/Megatokyo.png`, // imgbb link
+		imgur: `https://i.imgur.com/x05jbJn.png`, // imgur link
+		tags: interestsData.webcomic.tags, // tags for search/filtering
+		palette: `Standard`, // palette of button base
+		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
 		name: `Trigun`, // display name
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name.png`, // local image source
@@ -22034,7 +22109,7 @@ const homestuckList = [
 			<a href="?tags=homestuck,aspect|derse|prospit">aspects/moons</a>,
 			<a href="?tags=homestuck,hemospectrum">hemospectrum</a>,
 			<a href="?tags=homestuck,quadrant">quadrants</a>`, // optional extra info
-		icon: `Spiral logo` // description of the flag/icon
+		icon: `Sburb spirograph` // description of the flag/icon
 	},
 	{
 		name: `Homestuck`, // display name
@@ -24393,6 +24468,13 @@ const dietList = [
 	
 ]
 
+const usaLink = `<a href="?tags=country|nationality|culture,usa">USA</a>`;
+const cultureData = {
+	usaState: {
+		tags: [`state`,`culture`,`united states`,`usa`,`america`,`american`], // tags for search/filtering
+		info: `State in the ${usaLink}`, // optional extra info
+	},
+}
 const cultureList = [
 	{
 		name: `Indonesian`, // display name
@@ -24407,7 +24489,7 @@ const cultureList = [
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		imgbb: `https://i.ibb.co/Cpt6XFB2/Aboriginal.png`, // imgbb link
 		imgur: `https://i.imgur.com/9NDeDIH.png`, // imgur link
-		tags: [`nationality`,`culture`,`australia`,`australian`], // tags for search/filtering
+		tags: [`nationality`,`culture`,`australia`,`australian`,`indigenous`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -24454,6 +24536,160 @@ const cultureList = [
 		tags: [`nationality`,`culture`,`armenia`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
+	{
+		name: `Australian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/5WkxDstW/Australian.png`, // imgbb link
+		imgur: `https://i.imgur.com/Bb9XFYa.png`, // imgur link
+		tags: [`nationality`,`culture`,`australia`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Australian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/culture/%name_SH.png`, // local image source
+		imgbb: `https://i.ibb.co/XrcNdKcG/Australian-SH.png`, // imgbb link
+		imgur: `https://i.imgur.com/ojrxkKW.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`nationality`,`culture`,`australia`], // tags for search/filtering
+		icon: `Australian Southern Horizon flag` // description of the flag/icon
+	},
+	{
+		name: `Australian`, // display name
+		alt: `Aboriginal Australian`,
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/culture/%name_Aboriginal.png`, // local image source
+		imgbb: `https://i.ibb.co/4x5Wngn/Australian-Aboriginal.png`, // imgbb link
+		imgur: `https://i.imgur.com/as7zRnL.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`nationality`,`culture`,`australia`,`aboriginal`,`indigenous`], // tags for search/filtering
+		icon: `Aboriginal Australian flag` // description of the flag/icon
+	},
+	{
+		name: `Austrian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/x8H1KX6F/Austrian.png`, // imgbb link
+		imgur: `https://imgur.com/GfjhtW9.png`, // imgur link
+		tags: [`nationality`,`culture`,`austria`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Bedouin`, // display name
+		altNames: [`Beduin`,`Bedu`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/fG1WvnVC/Bedouin.png`, // imgbb link
+		imgur: `https://i.imgur.com/EtsWlfZ.png`, // imgur link
+		tags: [`culture`,`arab`,`middle east`,`africa`], // tags for search/filtering
+		icon: `Color - Forest green` // description of the flag/icon
+	},
+	{
+		name: `Belarusian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/V0b05cV2/Belarusian.png`, // imgbb link
+		imgur: `https://i.imgur.com/MYYd1km.png`, // imgur link
+		tags: [`nationality`,`culture`,`belarus`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Belgian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/DfHJC53G/Belgian.png`, // imgbb link
+		imgur: `https://i.imgur.com/lWHeF6j.png`, // imgur link
+		tags: [`nationality`,`culture`,`belgium`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Brazilian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/4wfGxSy1/Brazilian.png`, // imgbb link
+		imgur: `https://i.imgur.com/FE9pJK1.png`, // imgur link
+		tags: [`nationality`,`culture`,`brazil`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `British`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/8gXfhXRJ/British.png`, // imgbb link
+		imgur: `https://i.imgur.com/BS4vqBB.png`, // imgur link
+		tags: [`nationality`,`culture`,`britain`,`uk`,`great britain`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Bulgarian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/hF5j5vsk/Bulgarian.png`, // imgbb link
+		imgur: `https://i.imgur.com/7TjhJCc.png`, // imgur link
+		tags: [`nationality`,`culture`,`bulgaria`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Californian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/5q34fH7/Californian.png`, // imgbb link
+		imgur: `https://i.imgur.com/sdaikfV.png`, // imgur link
+		tags: cultureData.usaState.tags.concat([`california`]), // tags for search/filtering
+		info: cultureData.usaState.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Canadian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/3y5xHKXJ/Canadian.png`, // imgbb link
+		imgur: `https://i.imgur.com/wh3Tiip.png`, // imgur link
+		tags: [`nationality`,`culture`,`canada`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Cascadian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/G32vmkjj/Cascadian.png`, // imgbb link
+		imgur: `https://i.imgur.com/CdBXQ2t.png`, // imgur link
+		tags: [`culture`,`cascadia`,`pacific northwest`,`pnw`,`usa`,`united states`,`america`,`american`,`canada`,`canadian`,`oregon`,`washington`,`british columbia`], // tags for search/filtering
+		info: `<a href="?tags=country|nationality|culture">Culture/nationality</a> (Pacific Northwest region of ${usaLink}/<a href="?tags=country|nationality|culture,canada">Canada</a>)`, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Chinese`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/5Wxqwv6Q/Chinese.png`, // imgbb link
+		imgur: `https://i.imgur.com/GIJjY9o.png`, // imgur link
+		tags: [`nationality`,`culture`,`china`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Colombian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/p7k4yrB/Colombian.png`, // imgbb link
+		imgur: `https://i.imgur.com/125nq1m.png`, // imgur link
+		tags: [`nationality`,`culture`,`columbia`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Coloradan`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		altNames: [`Coloradoan`], // optional alternate names, for search algorithms
+		imgbb: `https://i.ibb.co/whY5nwdD/Coloradan.png`, // imgbb link
+		imgur: `https://i.imgur.com/m0Fu9aI.png`, // imgur link
+		tags: cultureData.usaState.tags.concat([`colorado`]), // tags for search/filtering
+		info: cultureData.usaState.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Croatian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/xtGLHNp5/Croatian.png`, // imgbb link
+		imgur: `https://i.imgur.com/NRb96NJ.png`, // imgur link
+		tags: [`nationality`,`culture`,`croatia`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Cuban`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/twtbRRQv/Cuban.png`, // imgbb link
+		imgur: `https://i.imgur.com/ay4nb7T.png`, // imgur link
+		tags: [`nationality`,`culture`,`cuba`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
 	/*
 	{
 		name: ``, // display name
@@ -24472,7 +24708,6 @@ const cultureList = [
 		imgbb: `https://i.ibb.co/5h6Czdcn/Indonesia.png`, // imgbb link
 		imgur: `I3ANxLd.png`, // imgur link
 		tags: [`country`,`culture`,`indonesian`], // tags for search/filtering
-		info: `<a href="?tags=country|nationality|culture">Culture/nationality</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 
