@@ -1721,9 +1721,22 @@ const genderButtonList = [
 	},
 	{
 		name: `Termcollector`, // display name
-		alt: `%name`,
 		altNames: [`Termhoarder`,`Ravenhoarder`], // optional alternate names, for search algorithms
-		imgur: `XibRJY8.png`, // imgur link
+		src: `/buttons/LGBT/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/99nzv5s4/Termcollector.png`, // imgbb link
+		imgur: `https://i.imgur.com/EoMlgG1.png`, // imgur link
+		tags: [`gender`,`orientation`,`pronoun`,`hoarder`,`collector`,`label collector`,`multipronoun`,`multipronomial`], // tags for search/filtering
+		info: `Someone who <a href="?tags=label collector">collects</a> labels to describe their gender and orientation
+			(aka <a href="?tags=ravenhoarder">Ravenhoarder</a>)`, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Termcollector`, // display name
+		altNames: [`Termhoarder`,`Ravenhoarder`], // optional alternate names, for search algorithms
+		src: `/buttons/LGBT/%name_ravenhoarder.png`, // local image source
+		imgbb: `https://i.ibb.co/ZpgZ1QS1/Termcollector-ravenhoarder.png`, // imgbb link
+		imgur: `https://i.imgur.com/wDzAVrc.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`orientation`,`pronoun`,`hoarder`,`collector`,`label collector`,`multipronoun`,`multipronomial`], // tags for search/filtering
 		info: `Someone who <a href="?tags=label collector">collects</a> labels to describe their gender and orientation
 			(aka <a href="?tags=ravenhoarder">Ravenhoarder</a>)`, // optional extra info
@@ -7254,7 +7267,9 @@ const neoPronounList = [
 	},
 	{
 		name: `Falconhoarder`, // display name
-		imgur: `4dTaAUn.png`, // imgur link
+		src: `/buttons/pronouns/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/xq0f1VWH/Falconhoarder.png`, // imgbb link
+		imgur: `https://i.imgur.com/KJnvtOH.png`, // imgur link
 		tags: [`pronoun`,`neopronoun`,`hoarder`,`collector`,`label collector`,`term collector`,`multipronoun`,`multipronomial`,`pronounfluid`], // tags for search/filtering
 		info: `Someone whose pronouns are fluid who <a href="?tags=pronoun,label collector">collects</a> pronouns to describe themself`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -24382,25 +24397,92 @@ const cultureList = [
 	{
 		name: `Indonesian`, // display name
 		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
-		alt: `%name`,
-		src: `/buttons/countries/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/RTPm3jqm/Indonesian.png`, // imgbb link
 		imgur: `Q6aMNpW.png`, // imgur link
 		tags: [`nationality`,`culture`,`indonesia`], // tags for search/filtering
-		info: `<a href="?tags=country|nationality|culture">Culture/nationality</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
+		name: `Aboriginal`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Cpt6XFB2/Aboriginal.png`, // imgbb link
+		imgur: `https://i.imgur.com/9NDeDIH.png`, // imgur link
+		tags: [`nationality`,`culture`,`australia`,`australian`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Albanian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/ynVLcLNk/Albanian.png`, // imgbb link
+		imgur: `https://i.imgur.com/rfVIItz.png`, // imgur link
+		tags: [`nationality`,`culture`,`albania`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `American`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/xn4CX7B/American.png`, // imgbb link
+		imgur: `https://i.imgur.com/NlmYDAS.png`, // imgur link
+		tags: [`nationality`,`culture`,`america`,`usa`,`united states`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Anishinaabe`, // display name
+		altNames: [`Anishinabe`,`Anicinape`,`Nishnaabe`,`Neshnabé`,`Anishinaabeg`,`Anishinabek`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/0yRWpXgg/Anishinaabe.png`, // imgbb link
+		imgur: `https://i.imgur.com/ejVN1wW.png`, // imgur link
+		tags: [`nationality`,`culture`,`indigenous`,`native american`,`american indian`,`first nations`,`ojibwe`,`odawa`,`potawatomi`,`mississaugas`,`nipissing`,`algonquin`], // tags for search/filtering
+		icon: `symbol` // description of the flag/icon
+	},
+	{
+		name: `Anishinaabe`, // display name
+		altNames: [`Anishinabe`,`Anicinape`,`Nishnaabe`,`Neshnabé`,`Anishinaabeg`,`Anishinabek`], // optional alternate names, for search algorithms
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/culture/%name_red.png`, // local image source
+		imgbb: `https://i.ibb.co/TMMkzyvS/Anishinaabe-red.png`, // imgbb link
+		imgur: `https://i.imgur.com/a6y1JMy.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`nationality`,`culture`,`indigenous`,`native american`,`american indian`,`first nations`,`ojibwe`,`odawa`,`potawatomi`,`mississaugas`,`nipissing`,`algonquin`], // tags for search/filtering
+		icon: `symbol (red)` // description of the flag/icon
+	},
+	{
+		name: `Armenian`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/fYLMhwwx/Armenian.png`, // imgbb link
+		imgur: `https://i.imgur.com/xP3lF1a.png`, // imgur link
+		tags: [`nationality`,`culture`,`armenia`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	/*
+	{
+		name: ``, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: ``, // imgur link
+		tags: [`nationality`,`culture`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	*/
+	
+	////////////////////
+	{
 		name: `Indonesia`, // display name
 		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
-		alt: `%name`,
-		src: `/buttons/countries/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/5h6Czdcn/Indonesia.png`, // imgbb link
 		imgur: `I3ANxLd.png`, // imgur link
-		tags: [`country`,`culture`,`indonesia`], // tags for search/filtering
+		tags: [`country`,`culture`,`indonesian`], // tags for search/filtering
 		info: `<a href="?tags=country|nationality|culture">Culture/nationality</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 
 ]
+// assign default values
+cultureList.forEach((item)=>{
+	if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/culture/%name.png`; }
+	else if (!item.src.includes('/')) { item.src = `/buttons/culture/` + item.src; }
+	if (typeof item.info == 'undefined' || item.info == ``) { item.info = `<a href="?tags=country|nationality|culture">Culture/nationality</a>`; }
+});
 
 const timezoneList = [
 	{
