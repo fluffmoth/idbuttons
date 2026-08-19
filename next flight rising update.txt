@@ -2,6 +2,7 @@ LAST POST - 8/18/26 NEXT POST - after 9/1/26
 
 @pinglist-4936
 
+button maker now has a dropdown for the plain color gradients!
 
 -----
 [size=4][b]NEW BUTTONS[/b][/size]

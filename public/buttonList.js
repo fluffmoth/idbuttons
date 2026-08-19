@@ -272,7 +272,7 @@ const genderButtonList = [
 		imgur: `LEpJMnn.png`, // imgur link
 		tags: [`gender`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `Female`, // display name
@@ -280,7 +280,7 @@ const genderButtonList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel pink` // description of the flag/icon
+		icon: `Gradient: Pastel pink` // description of the flag/icon
 	},
 	{
 		name: `Femil`, // display name
@@ -467,7 +467,7 @@ const genderButtonList = [
 		imgur: `S1cx8ZZ.png`, // imgur link
 		tags: [`gender`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `Male`, // display name
@@ -1723,8 +1723,8 @@ const genderButtonList = [
 		name: `Termcollector`, // display name
 		altNames: [`Termhoarder`,`Ravenhoarder`], // optional alternate names, for search algorithms
 		src: `/buttons/LGBT/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/99nzv5s4/Termcollector.png`, // imgbb link
-		imgur: `https://i.imgur.com/EoMlgG1.png`, // imgur link
+		imgbb: `99nzv5s4/Termcollector.png`, // imgbb link
+		imgur: `EoMlgG1.png`, // imgur link
 		tags: [`gender`,`orientation`,`pronoun`,`hoarder`,`collector`,`label collector`,`multipronoun`,`multipronomial`], // tags for search/filtering
 		info: `Someone who <a href="?tags=label collector">collects</a> labels to describe their gender and orientation
 			(aka <a href="?tags=ravenhoarder">Ravenhoarder</a>)`, // optional extra info
@@ -1734,8 +1734,8 @@ const genderButtonList = [
 		name: `Termcollector`, // display name
 		altNames: [`Termhoarder`,`Ravenhoarder`], // optional alternate names, for search algorithms
 		src: `/buttons/LGBT/%name_ravenhoarder.png`, // local image source
-		imgbb: `https://i.ibb.co/ZpgZ1QS1/Termcollector-ravenhoarder.png`, // imgbb link
-		imgur: `https://i.imgur.com/wDzAVrc.png`, // imgur link
+		imgbb: `ZpgZ1QS1/Termcollector-ravenhoarder.png`, // imgbb link
+		imgur: `wDzAVrc.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`orientation`,`pronoun`,`hoarder`,`collector`,`label collector`,`multipronoun`,`multipronomial`], // tags for search/filtering
 		info: `Someone who <a href="?tags=label collector">collects</a> labels to describe their gender and orientation
@@ -5773,126 +5773,126 @@ const heButtonList = [
 		imgur: `7ntZZGM.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `Fnrx3wS.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Brown` // description of the flag/icon
+		icon: `Gradient: Brown` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `cHa0MYt.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `bnaSbHl.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Green` // description of the flag/icon
+		icon: `Gradient: Green` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `zoO3i8B.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`magenta`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Magenta` // description of the flag/icon
+		icon: `Gradient: Magenta` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `HkhtXgT.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Orange` // description of the flag/icon
+		icon: `Gradient: Orange` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `e7lpONG.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `OETsgJU.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Purple` // description of the flag/icon
+		icon: `Gradient: Purple` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `gr9ITQ9.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Darker green` // description of the flag/icon
+		icon: `Gradient: Darker green` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `yG0Lt9s.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Red` // description of the flag/icon
+		icon: `Gradient: Red` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `aPfqvmf.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`blue`,`teal`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Teal` // description of the flag/icon
+		icon: `Gradient: Teal` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `fhL4EEQ.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - White` // description of the flag/icon
+		icon: `Gradient: White` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `skcJPHK.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Yellow` // description of the flag/icon
+		icon: `Gradient: Yellow` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `7426BcM.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel blue` // description of the flag/icon
+		icon: `Gradient: Pastel blue` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `u82kOBZ.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel green` // description of the flag/icon
+		icon: `Gradient: Pastel green` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `CISPrku.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel pink` // description of the flag/icon
+		icon: `Gradient: Pastel pink` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `Ylbhatd.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel purple` // description of the flag/icon
+		icon: `Gradient: Pastel purple` // description of the flag/icon
 	},
 	{
 		name: `He/Him`, // display name
 		imgur: `m3TbcZw.png`, // imgur link
 		tags: [`pronoun`,`he/him`,`he`,`him`,`single pronoun`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel yellow` // description of the flag/icon
+		icon: `Gradient: Pastel yellow` // description of the flag/icon
 	}
 ]
 
@@ -6078,126 +6078,126 @@ const sheButtonList = [
 		imgur: `JrZGMGx.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `ZbNAjCO.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `7ng4vvu.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Brown` // description of the flag/icon
+		icon: `Gradient: Brown` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `Wn94zHr.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Green` // description of the flag/icon
+		icon: `Gradient: Green` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `hdWqAOO.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`magenta`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Magenta` // description of the flag/icon
+		icon: `Gradient: Magenta` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `opcExsG.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Orange` // description of the flag/icon
+		icon: `Gradient: Orange` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `5BsilZ9.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `z8s5c34.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Purple` // description of the flag/icon
+		icon: `Gradient: Purple` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `CpFdYgG.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Darker green` // description of the flag/icon
+		icon: `Gradient: Darker green` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `UdqWUDw.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Red` // description of the flag/icon
+		icon: `Gradient: Red` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `Gbwcg3q.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`blue`,`teal`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Teal` // description of the flag/icon
+		icon: `Gradient: Teal` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `Hfp00Bl.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - White` // description of the flag/icon
+		icon: `Gradient: White` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `KNdRBxl.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Yellow` // description of the flag/icon
+		icon: `Gradient: Yellow` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `6Fjd4rG.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel blue` // description of the flag/icon
+		icon: `Gradient: Pastel blue` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `l7Ge01H.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel green` // description of the flag/icon
+		icon: `Gradient: Pastel green` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `ytkEBod.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel pink` // description of the flag/icon
+		icon: `Gradient: Pastel pink` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `LJfZA40.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel purple` // description of the flag/icon
+		icon: `Gradient: Pastel purple` // description of the flag/icon
 	},
 	{
 		name: `She/Her`, // display name
 		imgur: `hHi8SF1.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`she/her`,`she`,`her`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel yellow` // description of the flag/icon
+		icon: `Gradient: Pastel yellow` // description of the flag/icon
 	}
 ]
 
@@ -6449,126 +6449,126 @@ const theyButtonList = [
 		imgur: `zLwbKxI.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `4lcODb6.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `e6j8mZD.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Brown` // description of the flag/icon
+		icon: `Gradient: Brown` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `DXdxEAP.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Green` // description of the flag/icon
+		icon: `Gradient: Green` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `J8zFKyY.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`magenta`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Magenta` // description of the flag/icon
+		icon: `Gradient: Magenta` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `YGiNtwx.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Orange` // description of the flag/icon
+		icon: `Gradient: Orange` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `Tlmcw5e.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `CQ7Bbrl.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Purple` // description of the flag/icon
+		icon: `Gradient: Purple` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `Xb6XvIZ.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Darker green` // description of the flag/icon
+		icon: `Gradient: Darker green` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `B1sj0ZR.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Red` // description of the flag/icon
+		icon: `Gradient: Red` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `uY2YPWr.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`blue`,`teal`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Teal` // description of the flag/icon
+		icon: `Gradient: Teal` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `qCVFNJp.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - White` // description of the flag/icon
+		icon: `Gradient: White` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `rz8JPgx.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Yellow` // description of the flag/icon
+		icon: `Gradient: Yellow` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `etYYz4O.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel blue` // description of the flag/icon
+		icon: `Gradient: Pastel blue` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `etYYz4O.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel green` // description of the flag/icon
+		icon: `Gradient: Pastel green` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `MZSEWS2.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel pink` // description of the flag/icon
+		icon: `Gradient: Pastel pink` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `LEz8dcm.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel purple` // description of the flag/icon
+		icon: `Gradient: Pastel purple` // description of the flag/icon
 	},
 	{
 		name: `They/Them`, // display name
 		imgur: `fE0vSYy.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`they`,`them`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel yellow` // description of the flag/icon
+		icon: `Gradient: Pastel yellow` // description of the flag/icon
 	}
 ]
 
@@ -6593,7 +6593,7 @@ const neoPronounList = [
 		imgur: `hKpYQI6.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`black`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black and red` // description of the flag/icon
+		icon: `Gradient: Black and red` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
@@ -6656,112 +6656,112 @@ const neoPronounList = [
 		imgur: `oq8LyLj.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `X2otc9f.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `TplBH9F.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Green` // description of the flag/icon
+		icon: `Gradient: Green` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `Xl90kNU.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`magenta`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Magenta` // description of the flag/icon
+		icon: `Gradient: Magenta` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `uaNc4Ph.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Orange` // description of the flag/icon
+		icon: `Gradient: Orange` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `8JUZVfh.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `oK2VVlE.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Purple` // description of the flag/icon
+		icon: `Gradient: Purple` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `arDReIy.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Red` // description of the flag/icon
+		icon: `Gradient: Red` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `0eGuNQX.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`teal`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Teal` // description of the flag/icon
+		icon: `Gradient: Teal` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `IShXLSw.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Yellow` // description of the flag/icon
+		icon: `Gradient: Yellow` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `rcU94xz.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Darker green` // description of the flag/icon
+		icon: `Gradient: Darker green` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `ov8ay5N.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`pastel`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel blue` // description of the flag/icon
+		icon: `Gradient: Pastel blue` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `AT3eNmS.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`pastel`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel green` // description of the flag/icon
+		icon: `Gradient: Pastel green` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `koH0cYu.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`pastel`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel pink` // description of the flag/icon
+		icon: `Gradient: Pastel pink` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `6FcAWuk.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`pastel`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel purple` // description of the flag/icon
+		icon: `Gradient: Pastel purple` // description of the flag/icon
 	},
 	{
 		name: `It/Its`, // display name
 		imgur: `VgttwJU.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`it`,`its`,`color`,`pastel`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel yellow` // description of the flag/icon
+		icon: `Gradient: Pastel yellow` // description of the flag/icon
 	},
 	
 	// other neos
@@ -6773,7 +6773,7 @@ const neoPronounList = [
 		imgur: `3EbTOR0.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`electro`,`electroself`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel purple` // description of the flag/icon
+		icon: `Gradient: Pastel purple` // description of the flag/icon
 	},
 	{
 		name: `Electroself`, // display name
@@ -6806,7 +6806,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`feline`,`cat`,`cats`,`catself`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `Cat/Cats`, // display name
@@ -6817,7 +6817,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`feline`,`cat`,`cats`,`catself`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `Cat/Catself`, // display name
@@ -6871,7 +6871,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ae`,`aer`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `Ae/Aer`, // display name
@@ -6886,7 +6886,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ae`,`aer`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `Ae/Aer`, // display name
@@ -6922,7 +6922,7 @@ const neoPronounList = [
 		imgur: `15pGtgT.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`dog`,`bone`,`bones`,`boneself`,`color`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - White` // description of the flag/icon
+		icon: `Gradient: White` // description of the flag/icon
 	},
 	{
 		name: `Boo/Booself`, // display name
@@ -6930,14 +6930,14 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`boo`,`boos`,`booself`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `Boo/Booself`, // display name
 		imgur: `208ry1b.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`boo`,`boos`,`booself`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Purple` // description of the flag/icon
+		icon: `Gradient: Purple` // description of the flag/icon
 	},
 	{
 		name: `Bun/Bunself`, // display name
@@ -7012,7 +7012,7 @@ const neoPronounList = [
 	},
 	{
 		name: `Dei/Deir`, // display name
-		imgur: `Qi04eUT.png`, // imgur link
+		imgur: `ddKLXQ0.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`dei`,`deir`,`deiself`,`nonbinary`,`gender flag`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Nonbinary flag` // description of the flag/icon
@@ -7052,7 +7052,7 @@ const neoPronounList = [
 		imgur: `4jswogN.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`deity`,`deitys`,`deityself`,`color`,`brown`,`black`,`sepia`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Sepia and black` // description of the flag/icon
+		icon: `Gradient: Sepia and black` // description of the flag/icon
 	},
 	{
 		name: `Dino/Dinoself`, // display name
@@ -7088,7 +7088,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ei`,`eim`,`spivak`,`color`,`pink`], // tags for search/filtering
 		info: `Form of <a href="?tags=pronoun,spivak">Spivak pronoun</a>`, // optional extra info
-		icon: `Color - Pastel pink` // description of the flag/icon
+		icon: `Gradient: Pastel pink` // description of the flag/icon
 	},
 	{
 		name: `El/Elks`, // display name
@@ -7268,8 +7268,8 @@ const neoPronounList = [
 	{
 		name: `Falconhoarder`, // display name
 		src: `/buttons/pronouns/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/xq0f1VWH/Falconhoarder.png`, // imgbb link
-		imgur: `https://i.imgur.com/KJnvtOH.png`, // imgur link
+		imgbb: `xq0f1VWH/Falconhoarder.png`, // imgbb link
+		imgur: `KJnvtOH.png`, // imgur link
 		tags: [`pronoun`,`neopronoun`,`hoarder`,`collector`,`label collector`,`term collector`,`multipronoun`,`multipronomial`,`pronounfluid`], // tags for search/filtering
 		info: `Someone whose pronouns are fluid who <a href="?tags=pronoun,label collector">collects</a> pronouns to describe themself`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -7356,7 +7356,7 @@ const neoPronounList = [
 		imgur: `FFrPWu3.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`glo`,`glow`,`gloself`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `Glo/Gloself`, // display name
@@ -7364,7 +7364,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`glo`,`glow`,`gloself`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Purple` // description of the flag/icon
+		icon: `Gradient: Purple` // description of the flag/icon
 	},
 	{
 		name: `God/Godself`, // display name
@@ -7380,14 +7380,14 @@ const neoPronounList = [
 		imgur: `gREMaby.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`gore`,`gor`,`gores`,`color`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Red` // description of the flag/icon
+		icon: `Gradient: Red` // description of the flag/icon
 	},
 	{
 		name: `Gut/Guts`, // display name
 		imgur: `Lt4vO6o.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`gut`,`guts`,`color`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Red` // description of the flag/icon
+		icon: `Gradient: Red` // description of the flag/icon
 	},
 	{
 		name: `Howl/Howls`, // display name
@@ -7433,7 +7433,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ip`,`ips`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel Blue` // description of the flag/icon
+		icon: `Gradient: Pastel Blue` // description of the flag/icon
 	},
 	{
 		name: `Ip/Ips`, // display name
@@ -7441,7 +7441,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ip`,`ips`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel Green` // description of the flag/icon
+		icon: `Gradient: Pastel Green` // description of the flag/icon
 	},
 	{
 		name: `Ip/Ips`, // display name
@@ -7449,7 +7449,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ip`,`ips`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel Pink` // description of the flag/icon
+		icon: `Gradient: Pastel Pink` // description of the flag/icon
 	},
 	{
 		name: `Ip/Ips`, // display name
@@ -7457,7 +7457,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ip`,`ips`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel Purple` // description of the flag/icon
+		icon: `Gradient: Pastel Purple` // description of the flag/icon
 	},
 	{
 		name: `Ip/Ips`, // display name
@@ -7465,7 +7465,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ip`,`ips`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel Yellow` // description of the flag/icon
+		icon: `Gradient: Pastel Yellow` // description of the flag/icon
 	},
 	{
 		name: `Ix/Ixs`, // display name
@@ -7473,7 +7473,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ix`,`ixs`,`color`,`blue`], // tags for search/filtering
 		info: `Gender-neutral pronouns created by replacing the "t" in it/its with an "x"`, // optional extra info
-		icon: `Color - Pastel blue` // description of the flag/icon
+		icon: `Gradient: Pastel blue` // description of the flag/icon
 	},
 	{
 		name: `Ix/Ixs`, // display name
@@ -7481,7 +7481,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ix`,`ixs`,`color`,`green`], // tags for search/filtering
 		info: `Gender-neutral pronouns created by replacing the "t" in it/its with an "x"`, // optional extra info
-		icon: `Color - Pastel green` // description of the flag/icon
+		icon: `Gradient: Pastel green` // description of the flag/icon
 	},
 	{
 		name: `Ix/Ixs`, // display name
@@ -7489,7 +7489,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ix`,`ixs`,`color`,`pink`], // tags for search/filtering
 		info: `Gender-neutral pronouns created by replacing the "t" in it/its with an "x"`, // optional extra info
-		icon: `Color - Pastel pink` // description of the flag/icon
+		icon: `Gradient: Pastel pink` // description of the flag/icon
 	},
 	{
 		name: `Ix/Ixs`, // display name
@@ -7497,7 +7497,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ix`,`ixs`,`color`,`purple`], // tags for search/filtering
 		info: `Gender-neutral pronouns created by replacing the "t" in it/its with an "x"`, // optional extra info
-		icon: `Color - Pastel purple` // description of the flag/icon
+		icon: `Gradient: Pastel purple` // description of the flag/icon
 	},
 	{
 		name: `Ix/Ixs`, // display name
@@ -7505,7 +7505,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ix`,`ixs`,`color`,`yellow`], // tags for search/filtering
 		info: `Gender-neutral pronouns created by replacing the "t" in it/its with an "x"`, // optional extra info
-		icon: `Color - Pastel yellow` // description of the flag/icon
+		icon: `Gradient: Pastel yellow` // description of the flag/icon
 	},
 	{
 		name: `Ix/Ixs`, // display name
@@ -7629,7 +7629,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`moth`,`moths`,`mothself`,`insect`,`bug`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Yellow` // description of the flag/icon
+		icon: `Gradient: Yellow` // description of the flag/icon
 	},
 	{
 		name: `Nameself`, // display name
@@ -7914,7 +7914,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`pig`,`pigs`,`pigself`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `Pig/Pigs`, // display name
@@ -7922,7 +7922,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`pig`,`pigs`,`pigself`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Green` // description of the flag/icon
+		icon: `Gradient: Green` // description of the flag/icon
 	},
 	{
 		name: `Pig/Pigs`, // display name
@@ -7930,7 +7930,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`pig`,`pigs`,`pigself`,`color`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Orange` // description of the flag/icon
+		icon: `Gradient: Orange` // description of the flag/icon
 	},
 	{
 		name: `Pig/Pigs`, // display name
@@ -7938,7 +7938,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`pig`,`pigs`,`pigself`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `Pig/Pigs`, // display name
@@ -7946,7 +7946,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`pig`,`pigs`,`pigself`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Purple` // description of the flag/icon
+		icon: `Gradient: Purple` // description of the flag/icon
 	},
 	{
 		name: `Pig/Pigs`, // display name
@@ -7954,7 +7954,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`pig`,`pigs`,`pigself`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Yellow` // description of the flag/icon
+		icon: `Gradient: Yellow` // description of the flag/icon
 	},
 	{
 		name: `PNC`, // display name
@@ -7978,7 +7978,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`prox`,`proxs`,`proxself`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `Prox/Proxself`, // display name
@@ -8186,7 +8186,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`sie`,`hir`,`hirs`,`hirself`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `Sie/Hir`, // display name
@@ -8194,7 +8194,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`sie`,`hir`,`hirs`,`hirself`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `Sie/Hir`, // display name
@@ -8202,7 +8202,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`sie`,`hir`,`hirs`,`hirself`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Green` // description of the flag/icon
+		icon: `Gradient: Green` // description of the flag/icon
 	},
 	{
 		name: `Sie/Hir`, // display name
@@ -8210,7 +8210,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`sie`,`hir`,`hirs`,`hirself`,`color`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Orange` // description of the flag/icon
+		icon: `Gradient: Orange` // description of the flag/icon
 	},
 	{
 		name: `Sie/Hir`, // display name
@@ -8218,7 +8218,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`sie`,`hir`,`hirs`,`hirself`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel blue` // description of the flag/icon
+		icon: `Gradient: Pastel blue` // description of the flag/icon
 	},
 	{
 		name: `Sie/Hir`, // display name
@@ -8226,7 +8226,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`sie`,`hir`,`hirs`,`hirself`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `Sie/Hir`, // display name
@@ -8234,7 +8234,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`sie`,`hir`,`hirs`,`hirself`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Purple` // description of the flag/icon
+		icon: `Gradient: Purple` // description of the flag/icon
 	},
 	{
 		name: `Sie/Hir`, // display name
@@ -8242,7 +8242,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`sie`,`hir`,`hirs`,`hirself`,`color`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Red` // description of the flag/icon
+		icon: `Gradient: Red` // description of the flag/icon
 	},
 	{
 		name: `Sie/Hir`, // display name
@@ -8250,7 +8250,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`sie`,`hir`,`hirs`,`hirself`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Yellow` // description of the flag/icon
+		icon: `Gradient: Yellow` // description of the flag/icon
 	},
 	{
 		name: `Sie/Mer`, // display name
@@ -8286,7 +8286,7 @@ const neoPronounList = [
 		imgur: `duj7f6Z.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`nounself`,`sloth`,`sloths`,`slothself`,`color`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Red` // description of the flag/icon
+		icon: `Gradient: Red` // description of the flag/icon
 	},
 	{
 		name: `Sol/Sun`, // display name
@@ -8589,7 +8589,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`xe`,`xem`,`xyr`,`xemself`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `Xe/Xem`, // display name
@@ -8597,14 +8597,14 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`xe`,`xem`,`xyr`,`xemself`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Yellow` // description of the flag/icon
+		icon: `Gradient: Yellow` // description of the flag/icon
 	},
 	{
 		name: `Xe/Xir`, // display name
 		imgur: `bp4pxBb.png`, // imgur link
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`xe`,`xir`,`xirs`,`xirself`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `Xey/Xem`, // display name
@@ -8641,7 +8641,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`xey`,`xem`,`xyr`,`xemself`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `Xey/Xem`, // display name
@@ -8649,7 +8649,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`xey`,`xem`,`xyr`,`xemself`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `Xey/Xem`, // display name
@@ -8657,7 +8657,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`xey`,`xem`,`xyr`,`xemself`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel purple` // description of the flag/icon
+		icon: `Gradient: Pastel purple` // description of the flag/icon
 	},
 	{
 		name: `Xy/Xem/Xyr`, // display name
@@ -8746,7 +8746,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`ze`,`zir`,`zirs`,`zirself`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `Zhey/Zhem`, // display name
@@ -8775,7 +8775,7 @@ const neoPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`neopronoun`,`zie`,`hir`,`hirs`,`hirself`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel blue` // description of the flag/icon
+		icon: `Gradient: Pastel blue` // description of the flag/icon
 	},
 	{
 		name: `Zie/Hir`, // display name
@@ -8959,7 +8959,7 @@ const anyNoPronounList = [
 		imgur: `4ZomXZJ.png`, // imgur link
 		tags: [`pronoun`,`any pronouns`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `Any Pronoun`, // display name
@@ -8967,7 +8967,7 @@ const anyNoPronounList = [
 		imgur: `Hzn4l2m.png`, // imgur link
 		tags: [`pronoun`,`any pronouns`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `Any Pronoun`, // display name
@@ -8975,7 +8975,7 @@ const anyNoPronounList = [
 		imgur: `NDhietw.png`, // imgur link
 		tags: [`pronoun`,`any pronouns`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Green` // description of the flag/icon
+		icon: `Gradient: Green` // description of the flag/icon
 	},
 	{
 		name: `Any Pronoun`, // display name
@@ -8983,7 +8983,7 @@ const anyNoPronounList = [
 		imgur: `oN1KKWC.png`, // imgur link
 		tags: [`pronoun`,`any pronouns`,`color`,`magenta`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Magenta` // description of the flag/icon
+		icon: `Gradient: Magenta` // description of the flag/icon
 	},
 	{
 		name: `Any Pronoun`, // display name
@@ -8991,7 +8991,7 @@ const anyNoPronounList = [
 		imgur: `QdoT0pT.png`, // imgur link
 		tags: [`pronoun`,`any pronouns`,`color`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Orange` // description of the flag/icon
+		icon: `Gradient: Orange` // description of the flag/icon
 	},
 	{
 		name: `Any Pronoun`, // display name
@@ -8999,7 +8999,7 @@ const anyNoPronounList = [
 		imgur: `6QshkdT.png`, // imgur link
 		tags: [`pronoun`,`any pronouns`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `Any Pronoun`, // display name
@@ -9007,7 +9007,7 @@ const anyNoPronounList = [
 		imgur: `ytBMHt0.png`, // imgur link
 		tags: [`pronoun`,`any pronouns`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Purple` // description of the flag/icon
+		icon: `Gradient: Purple` // description of the flag/icon
 	},
 	{
 		name: `Any Pronoun`, // display name
@@ -9015,7 +9015,7 @@ const anyNoPronounList = [
 		imgur: `9mo43PR.png`, // imgur link
 		tags: [`pronoun`,`any pronouns`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Darker green` // description of the flag/icon
+		icon: `Gradient: Darker green` // description of the flag/icon
 	},
 	{
 		name: `Any Pronoun`, // display name
@@ -9023,7 +9023,7 @@ const anyNoPronounList = [
 		imgur: `5xSB9vt.png`, // imgur link
 		tags: [`pronoun`,`any pronouns`,`color`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Red` // description of the flag/icon
+		icon: `Gradient: Red` // description of the flag/icon
 	},
 	{
 		name: `Any Pronoun`, // display name
@@ -9031,7 +9031,7 @@ const anyNoPronounList = [
 		imgur: `NqiwUTz.png`, // imgur link
 		tags: [`pronoun`,`any pronouns`,`color`,`teal`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Light teal` // description of the flag/icon
+		icon: `Gradient: Light teal` // description of the flag/icon
 	},
 	{
 		name: `Any Pronoun`, // display name
@@ -9039,7 +9039,7 @@ const anyNoPronounList = [
 		imgur: `UmVMKoH.png`, // imgur link
 		tags: [`pronoun`,`any pronouns`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Yellow` // description of the flag/icon
+		icon: `Gradient: Yellow` // description of the flag/icon
 	},
 	
 	// None - gender
@@ -9087,77 +9087,77 @@ const anyNoPronounList = [
 		imgur: `zOT9E44.png`, // imgur link
 		tags: [`pronoun`,`none`,`no`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `No Pronouns`, // display name
 		imgur: `iOnCs6L.png`, // imgur link
 		tags: [`pronoun`,`none`,`no`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `No Pronouns`, // display name
 		imgur: `jIQKHDc.png`, // imgur link
 		tags: [`pronoun`,`none`,`no`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Green` // description of the flag/icon
+		icon: `Gradient: Green` // description of the flag/icon
 	},
 	{
 		name: `No Pronouns`, // display name
 		imgur: `r4MerCG.png`, // imgur link
 		tags: [`pronoun`,`none`,`no`,`color`,`magenta`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Magenta` // description of the flag/icon
+		icon: `Gradient: Magenta` // description of the flag/icon
 	},
 	{
 		name: `No Pronouns`, // display name
 		imgur: `1DPzYFq.png`, // imgur link
 		tags: [`pronoun`,`none`,`no`,`color`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Orange` // description of the flag/icon
+		icon: `Gradient: Orange` // description of the flag/icon
 	},
 	{
 		name: `No Pronouns`, // display name
 		imgur: `dbFDXgv.png`, // imgur link
 		tags: [`pronoun`,`none`,`no`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `No Pronouns`, // display name
 		imgur: `n0Zizo1.png`, // imgur link
 		tags: [`pronoun`,`none`,`no`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Purple` // description of the flag/icon
+		icon: `Gradient: Purple` // description of the flag/icon
 	},
 	{
 		name: `No Pronouns`, // display name
 		imgur: `lfHUuOC.png`, // imgur link
 		tags: [`pronoun`,`none`,`no`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Darker green` // description of the flag/icon
+		icon: `Gradient: Darker green` // description of the flag/icon
 	},
 	{
 		name: `No Pronouns`, // display name
 		imgur: `rTXuDLN.png`, // imgur link
 		tags: [`pronoun`,`none`,`no`,`color`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Red` // description of the flag/icon
+		icon: `Gradient: Red` // description of the flag/icon
 	},
 	{
 		name: `No Pronouns`, // display name
 		imgur: `GgSeUoa.png`, // imgur link
 		tags: [`pronoun`,`none`,`no`,`color`,`teal`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Teal` // description of the flag/icon
+		icon: `Gradient: Teal` // description of the flag/icon
 	},
 	{
 		name: `No Pronouns`, // display name
 		imgur: `cwKyfCF.png`, // imgur link
 		tags: [`pronoun`,`none`,`no`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Yellow` // description of the flag/icon
+		icon: `Gradient: Yellow` // description of the flag/icon
 	},
 	
 	// Ask - gender
@@ -9253,77 +9253,77 @@ const anyNoPronounList = [
 		imgur: `nfRDPZu.png`, // imgur link
 		tags: [`pronoun`,`ask`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `Ask Pronouns`, // display name
 		imgur: `yfRhY0e.png`, // imgur link
 		tags: [`pronoun`,`ask`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `Ask Pronouns`, // display name
 		imgur: `BagyhSQ.png`, // imgur link
 		tags: [`pronoun`,`ask`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Green` // description of the flag/icon
+		icon: `Gradient: Green` // description of the flag/icon
 	},
 	{
 		name: `Ask Pronouns`, // display name
 		imgur: `O3QVUe8.png`, // imgur link
 		tags: [`pronoun`,`ask`,`color`,`purple`,`magenta`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Magenta` // description of the flag/icon
+		icon: `Gradient: Magenta` // description of the flag/icon
 	},
 	{
 		name: `Ask Pronouns`, // display name
 		imgur: `8u087pe.png`, // imgur link
 		tags: [`pronoun`,`ask`,`color`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Orange` // description of the flag/icon
+		icon: `Gradient: Orange` // description of the flag/icon
 	},
 	{
 		name: `Ask Pronouns`, // display name
 		imgur: `nmQXe6k.png`, // imgur link
 		tags: [`pronoun`,`ask`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `Ask Pronouns`, // display name
 		imgur: `ZiUkPL6.png`, // imgur link
 		tags: [`pronoun`,`ask`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Purple` // description of the flag/icon
+		icon: `Gradient: Purple` // description of the flag/icon
 	},
 	{
 		name: `Ask Pronouns`, // display name
 		imgur: `XqEVAOh.png`, // imgur link
 		tags: [`pronoun`,`ask`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Darker green` // description of the flag/icon
+		icon: `Gradient: Darker green` // description of the flag/icon
 	},
 	{
 		name: `Ask Pronouns`, // display name
 		imgur: `0LKC3Xd.png`, // imgur link
 		tags: [`pronoun`,`ask`,`color`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Red` // description of the flag/icon
+		icon: `Gradient: Red` // description of the flag/icon
 	},
 	{
 		name: `Ask Pronouns`, // display name
 		imgur: `Sl8eOLF.png`, // imgur link
 		tags: [`pronoun`,`ask`,`color`,`teal`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Teal` // description of the flag/icon
+		icon: `Gradient: Teal` // description of the flag/icon
 	},
 	{
 		name: `Ask Pronouns`, // display name
 		imgur: `oZbJyTP.png`, // imgur link
 		tags: [`pronoun`,`ask`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Yellow` // description of the flag/icon
+		icon: `Gradient: Yellow` // description of the flag/icon
 	}
 ]
 
@@ -9461,7 +9461,7 @@ const spanishPronounList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`pronoun`,`single pronoun`,`spanish`,`ella`,`color`,`green`], // tags for search/filtering
 		info: `Spanish language pronouns`, // optional extra info
-		icon: `Color - Green` // description of the flag/icon
+		icon: `Gradient: Green` // description of the flag/icon
 	}
 ]
 
@@ -9541,7 +9541,7 @@ const mixedPronounList = [
 		imgur: `BZDB3bS.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`it`,`its`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Green` // description of the flag/icon
+		icon: `Gradient: Green` // description of the flag/icon
 	},
 	{
 		name: `He/It`, // display name
@@ -9555,7 +9555,7 @@ const mixedPronounList = [
 		imgur: `f4iXRVq.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`it`,`its`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Yellow` // description of the flag/icon
+		icon: `Gradient: Yellow` // description of the flag/icon
 	},
 	{
 		name: `He/It/They`, // display name
@@ -9711,56 +9711,56 @@ const mixedPronounList = [
 		imgur: `BK6WYO2.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`she`,`her`,`they`,`them`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `He/She/They`, // display name
 		imgur: `F2u3PH0.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`she`,`her`,`they`,`them`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `He/She/They`, // display name
 		imgur: `nynm2Z4.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`she`,`her`,`they`,`them`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Green` // description of the flag/icon
+		icon: `Gradient: Green` // description of the flag/icon
 	},
 	{
 		name: `He/She/They`, // display name
 		imgur: `IqZu8ZG.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`she`,`her`,`they`,`them`,`color`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Orange` // description of the flag/icon
+		icon: `Gradient: Orange` // description of the flag/icon
 	},
 	{
 		name: `He/She/They`, // display name
 		imgur: `c4I4I47.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`she`,`her`,`they`,`them`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `He/She/They`, // display name
 		imgur: `o2nagQx.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`she`,`her`,`they`,`them`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Purple` // description of the flag/icon
+		icon: `Gradient: Purple` // description of the flag/icon
 	},
 	{
 		name: `He/She/They`, // display name
 		imgur: `2VdnabI.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`she`,`her`,`they`,`them`,`color`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Red` // description of the flag/icon
+		icon: `Gradient: Red` // description of the flag/icon
 	},
 	{
 		name: `He/She/They`, // display name
 		imgur: `eWEZJkG.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`she`,`her`,`they`,`them`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Yellow` // description of the flag/icon
+		icon: `Gradient: Yellow` // description of the flag/icon
 	},
 	{
 		name: `He/They`, // display name
@@ -9879,56 +9879,56 @@ const mixedPronounList = [
 		imgur: `Qpv2mvo.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`they`,`them`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `He/They`, // display name
 		imgur: `qjPdVei.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`they`,`them`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `He/They`, // display name
 		imgur: `It0R1xG.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`they`,`them`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel blue` // description of the flag/icon
+		icon: `Gradient: Pastel blue` // description of the flag/icon
 	},
 	{
 		name: `He/They`, // display name
 		imgur: `PN5e1KU.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`they`,`them`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel green` // description of the flag/icon
+		icon: `Gradient: Pastel green` // description of the flag/icon
 	},
 	{
 		name: `He/They`, // display name
 		imgur: `WmLCsXL.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`they`,`them`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel pink` // description of the flag/icon
+		icon: `Gradient: Pastel pink` // description of the flag/icon
 	},
 	{
 		name: `He/They`, // display name
 		imgur: `nej6cGW.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`they`,`them`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel purple` // description of the flag/icon
+		icon: `Gradient: Pastel purple` // description of the flag/icon
 	},
 	{
 		name: `He/They`, // display name
 		imgur: `a24f2Oy.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`they`,`them`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel yellow` // description of the flag/icon
+		icon: `Gradient: Pastel yellow` // description of the flag/icon
 	},
 	{
 		name: `He/They`, // display name
 		imgur: `kcQQAM4.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`he`,`him`,`they`,`them`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `He/They`, // display name
@@ -10026,7 +10026,7 @@ const mixedPronounList = [
 		imgur: `sopvTVM.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`it`,`its`,`they`,`them`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `Pronounfluid`, // display name
@@ -10278,56 +10278,56 @@ const mixedPronounList = [
 		imgur: `or7Yz8j.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`she`,`her`,`they`,`them`,`color`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `She/They`, // display name
 		imgur: `SdzxIEQ.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`she`,`her`,`they`,`them`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `She/They`, // display name
 		imgur: `S59aFC6.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`she`,`her`,`they`,`them`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel blue` // description of the flag/icon
+		icon: `Gradient: Pastel blue` // description of the flag/icon
 	},
 	{
 		name: `She/They`, // display name
 		imgur: `cT5wndb.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`she`,`her`,`they`,`them`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel green` // description of the flag/icon
+		icon: `Gradient: Pastel green` // description of the flag/icon
 	},
 	{
 		name: `She/They`, // display name
 		imgur: `xm5ofH1.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`she`,`her`,`they`,`them`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel pink` // description of the flag/icon
+		icon: `Gradient: Pastel pink` // description of the flag/icon
 	},
 	{
 		name: `She/They`, // display name
 		imgur: `opMOYhY.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`she`,`her`,`they`,`them`,`color`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel purple` // description of the flag/icon
+		icon: `Gradient: Pastel purple` // description of the flag/icon
 	},
 	{
 		name: `She/They`, // display name
 		imgur: `SfN2VDO.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`she`,`her`,`they`,`them`,`color`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pastel yellow` // description of the flag/icon
+		icon: `Gradient: Pastel yellow` // description of the flag/icon
 	},
 	{
 		name: `She/They`, // display name
 		imgur: `I7a1ndF.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`she`,`her`,`they`,`them`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `She/They/It`, // display name
@@ -10469,21 +10469,21 @@ const mixedPronounList = [
 		imgur: `3WsiOWj.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`they`,`them`,`it`,`its`,`color`,`magenta`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Magenta` // description of the flag/icon
+		icon: `Gradient: Magenta` // description of the flag/icon
 	},
 	{
 		name: `They/It`, // display name
 		imgur: `PeZ9lo5.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`they`,`them`,`it`,`its`,`color`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Darker green` // description of the flag/icon
+		icon: `Gradient: Darker green` // description of the flag/icon
 	},
 	{
 		name: `They/It`, // display name
 		imgur: `WycGQ48.png`, // imgur link
 		tags: [`pronoun`,`mixed pronouns`,`they`,`them`,`it`,`its`,`color`,`teal`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Teal` // description of the flag/icon
+		icon: `Gradient: Teal` // description of the flag/icon
 	},
 	{
 		name: `They/It/Xe`, // display name
@@ -10868,22 +10868,22 @@ const FINList = [
 		name: `Likes Females`, // display name
 		imgur: `xBNYQVB.png`, // imgur link
 		tags: [`orientation`,`FIN attraction`,`color`,`pink`], // tags for search/filtering
-		info: `NOTE: This was made for dragon bios, please don't use it to be transphobic`, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		info: `NOTE: This was made for dragon bios, please don't use it to be transphobic!`, // optional extra info
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `Likes Girls`, // display name
 		imgur: `f6m1unl.png`, // imgur link
 		tags: [`orientation`,`FIN attraction`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `Likes Women`, // display name
 		imgur: `HpBYoOt.png`, // imgur link
 		tags: [`orientation`,`FIN attraction`,`color`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Pink` // description of the flag/icon
+		icon: `Gradient: Pink` // description of the flag/icon
 	},
 	{
 		name: `Lunaric`, // display name
@@ -11110,15 +11110,15 @@ const MINList = [
 		imgur: `eyoqnq8.png`, // imgur link
 		tags: [`orientation`,`MIN attraction`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `Likes Males`, // display name
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgur: `ZwraZT7.png`, // imgur link
 		tags: [`orientation`,`MIN attraction`,`color`,`blue`], // tags for search/filtering
-		info: `NOTE: This was made for dragon bios, please don't use it to be transphobic`, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		info: `NOTE: This was made for dragon bios, please don't use it to be transphobic!`, // optional extra info
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `Likes Men`, // display name
@@ -11126,7 +11126,7 @@ const MINList = [
 		imgur: `jvMIcKR.png`, // imgur link
 		tags: [`orientation`,`MIN attraction`,`color`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Color - Blue` // description of the flag/icon
+		icon: `Gradient: Blue` // description of the flag/icon
 	},
 	{
 		name: `Marsic`, // display name
@@ -11608,7 +11608,7 @@ const mSpecList = [
 		imgur: `1U4ItGh.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`multisexual`,`m-spec`,`fin attraction`,`bisexual`,`biromantic`,`bi`], // tags for search/filtering
-		info: `NOTE: This was made for dragon bios, please don't use it to be transphobic`, // optional extra info
+		info: `NOTE: This was made for dragon bios, please don't use it to be transphobic!`, // optional extra info
 		icon: `Bi flag` // description of the flag/icon
 	},
 	{
@@ -11617,7 +11617,7 @@ const mSpecList = [
 		imgur: `B0O8ino.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`multisexual`,`m-spec`,`min attraction`,`bisexual`,`biromantic`,`bi`], // tags for search/filtering
-		info: `NOTE: This was made for dragon bios, please don't use it to be transphobic`, // optional extra info
+		info: `NOTE: This was made for dragon bios, please don't use it to be transphobic!`, // optional extra info
 		icon: `Bi flag` // description of the flag/icon
 	},
 	{
@@ -12207,8 +12207,8 @@ const aroAceList = [
 		name: `Aegoromantic`, // display name
 		altNames: [`Anegoromantic`,`Autochorisromantic`], // optional alternate names, for search algorithms
 		src: `/buttons/orientation/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/vCc3vsS9/Aegoromantic.png`, // imgbb link
-		imgur: `https://i.imgur.com/ygAg5M3.png`, // imgur link
+		imgbb: `vCc3vsS9/Aegoromantic.png`, // imgbb link
+		imgur: `ygAg5M3.png`, // imgur link
 		tags: [`orientation`,`a-spec`,`aro spectrum`,`aromantic`,`aro`], // tags for search/filtering
 		info: `<a href="?tags=orientation,aro spectrum">Aro spectrum</a> identity referring to individuals who experience a disconnect between themselves and the subject of attraction`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -14946,155 +14946,155 @@ const FRnestNetwork = [
 	{
 		name: `Nest Network`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/cKZKHng3/Nest-Network-Arcane.png`, // imgbb link
-		imgur: `https://i.imgur.com/qvono2h.png`, // imgur link
+		imgbb: `cKZKHng3/Nest-Network-Arcane.png`, // imgbb link
+		imgur: `qvono2h.png`, // imgur link
 		icon: `Arcane flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Network`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/Kz9CQNXv/Nest-Network-Earth.png`, // imgbb link
-		imgur: `https://i.imgur.com/57dfZnt.png`, // imgur link
+		imgbb: `Kz9CQNXv/Nest-Network-Earth.png`, // imgbb link
+		imgur: `57dfZnt.png`, // imgur link
 		icon: `Earth flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Network`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/cVnkkbF/Nest-Network-Fire.png`, // imgbb link
-		imgur: `https://i.imgur.com/KoCi0qP.png`, // imgur link
+		imgbb: `cVnkkbF/Nest-Network-Fire.png`, // imgbb link
+		imgur: `KoCi0qP.png`, // imgur link
 		icon: `Fire flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Network`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/HDGwmjHz/Nest-Network-Ice.png`, // imgbb link
-		imgur: `https://i.imgur.com/DeeWrqO.png`, // imgur link
+		imgbb: `HDGwmjHz/Nest-Network-Ice.png`, // imgbb link
+		imgur: `DeeWrqO.png`, // imgur link
 		icon: `Ice flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Network`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/3yGNTdtJ/Nest-Network-Light.png`, // imgbb link
-		imgur: `https://i.imgur.com/3vzI42r.png`, // imgur link
+		imgbb: `3yGNTdtJ/Nest-Network-Light.png`, // imgbb link
+		imgur: `3vzI42r.png`, // imgur link
 		icon: `Light flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Network`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/QvVXbk9y/Nest-Network-Lightning.png`, // imgbb link
-		imgur: `https://i.imgur.com/f5dILbZ.png`, // imgur link
+		imgbb: `QvVXbk9y/Nest-Network-Lightning.png`, // imgbb link
+		imgur: `f5dILbZ.png`, // imgur link
 		icon: `Lightning flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Network`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/yFB1MZt6/Nest-Network-Nature.png`, // imgbb link
-		imgur: `https://i.imgur.com/7A7hG3b.png`, // imgur link
+		imgbb: `yFB1MZt6/Nest-Network-Nature.png`, // imgbb link
+		imgur: `7A7hG3b.png`, // imgur link
 		icon: `Nature flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Network`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/5x1NN2sx/Nest-Network-Plague.png`, // imgbb link
-		imgur: `https://i.imgur.com/KDjMOco.png`, // imgur link
+		imgbb: `5x1NN2sx/Nest-Network-Plague.png`, // imgbb link
+		imgur: `KDjMOco.png`, // imgur link
 		icon: `Plague flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Network`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/LzrtP1Xv/Nest-Network-Shadow.png`, // imgbb link
-		imgur: `https://i.imgur.com/w1kEzK3.png`, // imgur link
+		imgbb: `LzrtP1Xv/Nest-Network-Shadow.png`, // imgbb link
+		imgur: `w1kEzK3.png`, // imgur link
 		icon: `Shadow flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Network`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/qL0rQp79/Nest-Network-Water.png`, // imgbb link
-		imgur: `https://i.imgur.com/p4FQvqs.png`, // imgur link
+		imgbb: `qL0rQp79/Nest-Network-Water.png`, // imgbb link
+		imgur: `p4FQvqs.png`, // imgur link
 		icon: `Water flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Network`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/gZhJ83wc/Nest-Network-Wind.png`, // imgbb link
-		imgur: `https://i.imgur.com/sGVC3qx.png`, // imgur link
+		imgbb: `gZhJ83wc/Nest-Network-Wind.png`, // imgbb link
+		imgur: `sGVC3qx.png`, // imgur link
 		icon: `Wind flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Renter`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/gLYmVLhr/Nest-Renter-Arcane.png`, // imgbb link
-		imgur: `https://i.imgur.com/VLZA0ka.png`, // imgur link
+		imgbb: `gLYmVLhr/Nest-Renter-Arcane.png`, // imgbb link
+		imgur: `VLZA0ka.png`, // imgur link
 		icon: `Arcane flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Renter`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/nsRzf3j3/Nest-Renter-Earth.png`, // imgbb link
-		imgur: `https://i.imgur.com/UpLdShk.png`, // imgur link
+		imgbb: `nsRzf3j3/Nest-Renter-Earth.png`, // imgbb link
+		imgur: `UpLdShk.png`, // imgur link
 		icon: `Earth flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Renter`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/JwvJbp0D/Nest-Renter-Fire.png`, // imgbb link
-		imgur: `https://i.imgur.com/CAs3Hn3.png`, // imgur link
+		imgbb: `JwvJbp0D/Nest-Renter-Fire.png`, // imgbb link
+		imgur: `CAs3Hn3.png`, // imgur link
 		icon: `Fire flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Renter`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/BKqxxf5f/Nest-Renter-Ice.png`, // imgbb link
-		imgur: `https://i.imgur.com/rj69VdS.png`, // imgur link
+		imgbb: `BKqxxf5f/Nest-Renter-Ice.png`, // imgbb link
+		imgur: `rj69VdS.png`, // imgur link
 		icon: `Ice flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Renter`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/B5Qf6H7c/Nest-Renter-Light.png`, // imgbb link
-		imgur: `https://i.imgur.com/67QvxLm.png`, // imgur link
+		imgbb: `B5Qf6H7c/Nest-Renter-Light.png`, // imgbb link
+		imgur: `67QvxLm.png`, // imgur link
 		icon: `Light flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Renter`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/4Q6M6Qq/Nest-Renter-Lightning.png`, // imgbb link
-		imgur: `https://i.imgur.com/cWWd7gG.png`, // imgur link
+		imgbb: `4Q6M6Qq/Nest-Renter-Lightning.png`, // imgbb link
+		imgur: `cWWd7gG.png`, // imgur link
 		icon: `Lightning flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Renter`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/yncDkN3d/Nest-Renter-Nature.png`, // imgbb link
-		imgur: `https://i.imgur.com/xyTCUVX.png`, // imgur link
+		imgbb: `yncDkN3d/Nest-Renter-Nature.png`, // imgbb link
+		imgur: `xyTCUVX.png`, // imgur link
 		icon: `Nature flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Renter`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/My8gnJnc/Nest-Renter-Plague.png`, // imgbb link
-		imgur: `https://i.imgur.com/mRvCuvt.png`, // imgur link
+		imgbb: `My8gnJnc/Nest-Renter-Plague.png`, // imgbb link
+		imgur: `mRvCuvt.png`, // imgur link
 		icon: `Plague flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Renter`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/cXhX0Dw6/Nest-Renter-Shadow.png`, // imgbb link
-		imgur: `https://i.imgur.com/teAygQW.png`, // imgur link
+		imgbb: `cXhX0Dw6/Nest-Renter-Shadow.png`, // imgbb link
+		imgur: `teAygQW.png`, // imgur link
 		icon: `Shadow flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Renter`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/xqmtHp46/Nest-Renter-Water.png`, // imgbb link
-		imgur: `https://i.imgur.com/A6Cbaxa.png`, // imgur link
+		imgbb: `xqmtHp46/Nest-Renter-Water.png`, // imgbb link
+		imgur: `A6Cbaxa.png`, // imgur link
 		icon: `Water flight` // description of the flag/icon
 	},
 	{
 		name: `Nest Renter`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/BVdhKsnK/Nest-Renter-Wind.png`, // imgbb link
-		imgur: `https://i.imgur.com/3yTZqvH.png`, // imgur link
+		imgbb: `BVdhKsnK/Nest-Renter-Wind.png`, // imgbb link
+		imgur: `3yTZqvH.png`, // imgur link
 		icon: `Wind flight` // description of the flag/icon
 	},
 ]
@@ -20671,8 +20671,8 @@ const interestsList = [
 		name: `Applegeeks`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/nN48ZQFv/Applegeeks.png`, // imgbb link
-		imgur: `https://i.imgur.com/Kolslmz.png`, // imgur link
+		imgbb: `nN48ZQFv/Applegeeks.png`, // imgbb link
+		imgur: `Kolslmz.png`, // imgur link
 		tags: interestsData.webcomic.tags, // tags for search/filtering
 		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20681,8 +20681,8 @@ const interestsList = [
 		name: `Applegeeks`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/dwPmvFQ4/Applegeeks-Asmodaeus-Aqua-png.png`, // imgbb link
-		imgur: `https://i.imgur.com/5zN7xHR.png`, // imgur link
+		imgbb: `dwPmvFQ4/Applegeeks-Asmodaeus-Aqua-png.png`, // imgbb link
+		imgur: `5zN7xHR.png`, // imgur link
 		tags: interestsData.webcomic.tags, // tags for search/filtering
 		palette: `Asmodaeus Aqua`, // palette of button base
 		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
@@ -20692,8 +20692,8 @@ const interestsList = [
 		name: `Applegeeks`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name_alt.png`, // local image source
-		imgbb: `https://i.ibb.co/s98hvFrX/Applegeeks-alt.png`, // imgbb link
-		imgur: `https://i.imgur.com/PCt2KLn.png`, // imgur link
+		imgbb: `s98hvFrX/Applegeeks-alt.png`, // imgbb link
+		imgur: `PCt2KLn.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: interestsData.webcomic.tags, // tags for search/filtering
 		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
@@ -20703,8 +20703,8 @@ const interestsList = [
 		name: `Applegeeks`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name_alt.png`, // local image source
-		imgbb: `https://i.ibb.co/F4gvm3jv/Applegeeks-alt-Asmodaeus-Aqua.png`, // imgbb link
-		imgur: `https://i.imgur.com/eYzkqB3.png`, // imgur link
+		imgbb: `F4gvm3jv/Applegeeks-alt-Asmodaeus-Aqua.png`, // imgbb link
+		imgur: `eYzkqB3.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: interestsData.webcomic.tags, // tags for search/filtering
 		palette: `Asmodaeus Aqua`, // palette of button base
@@ -20715,8 +20715,8 @@ const interestsList = [
 		name: `Mac Hall`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/ZRZSSLRQ/Mac-Hall.png`, // imgbb link
-		imgur: `https://i.imgur.com/JRBdY3B.png`, // imgur link
+		imgbb: `ZRZSSLRQ/Mac-Hall.png`, // imgbb link
+		imgur: `JRBdY3B.png`, // imgur link
 		tags: interestsData.webcomic.tags, // tags for search/filtering
 		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -20725,8 +20725,8 @@ const interestsList = [
 		name: `Mac Hall`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/zVDR4T9x/Mac-Hall-Asmodaeus-Red.png`, // imgbb link
-		imgur: `https://i.imgur.com/KTnOqm6.png`, // imgur link
+		imgbb: `zVDR4T9x/Mac-Hall-Asmodaeus-Red.png`, // imgbb link
+		imgur: `KTnOqm6.png`, // imgur link
 		tags: interestsData.webcomic.tags, // tags for search/filtering
 		palette: `Asmodaeus Red`, // palette of button base
 		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
@@ -20736,8 +20736,8 @@ const interestsList = [
 		name: `MegaTokyo`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/3mFtb9kp/Megatokyo.png`, // imgbb link
-		imgur: `https://i.imgur.com/x05jbJn.png`, // imgur link
+		imgbb: `3mFtb9kp/Megatokyo.png`, // imgbb link
+		imgur: `x05jbJn.png`, // imgur link
 		tags: interestsData.webcomic.tags, // tags for search/filtering
 		palette: `Standard`, // palette of button base
 		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
@@ -24386,7 +24386,7 @@ const dietList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`diet`,`eats`], // tags for search/filtering
 		info: `<a href="?tags=diet">Dietary</a> preference.`, // optional extra info
-		icon: `Color - Black` // description of the flag/icon
+		icon: `Gradient: Black` // description of the flag/icon
 	},
 	{
 		name: `Herbivore`, // display name
@@ -24479,7 +24479,7 @@ const cultureList = [
 	{
 		name: `Indonesian`, // display name
 		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/RTPm3jqm/Indonesian.png`, // imgbb link
+		imgbb: `RTPm3jqm/Indonesian.png`, // imgbb link
 		imgur: `Q6aMNpW.png`, // imgur link
 		tags: [`nationality`,`culture`,`indonesia`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
@@ -24487,24 +24487,24 @@ const cultureList = [
 	{
 		name: `Aboriginal`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/Cpt6XFB2/Aboriginal.png`, // imgbb link
-		imgur: `https://i.imgur.com/9NDeDIH.png`, // imgur link
+		imgbb: `Cpt6XFB2/Aboriginal.png`, // imgbb link
+		imgur: `9NDeDIH.png`, // imgur link
 		tags: [`nationality`,`culture`,`australia`,`australian`,`indigenous`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Albanian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/ynVLcLNk/Albanian.png`, // imgbb link
-		imgur: `https://i.imgur.com/rfVIItz.png`, // imgur link
+		imgbb: `ynVLcLNk/Albanian.png`, // imgbb link
+		imgur: `rfVIItz.png`, // imgur link
 		tags: [`nationality`,`culture`,`albania`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `American`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/xn4CX7B/American.png`, // imgbb link
-		imgur: `https://i.imgur.com/NlmYDAS.png`, // imgur link
+		imgbb: `xn4CX7B/American.png`, // imgbb link
+		imgur: `NlmYDAS.png`, // imgur link
 		tags: [`nationality`,`culture`,`america`,`usa`,`united states`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
@@ -24512,8 +24512,8 @@ const cultureList = [
 		name: `Anishinaabe`, // display name
 		altNames: [`Anishinabe`,`Anicinape`,`Nishnaabe`,`Neshnabé`,`Anishinaabeg`,`Anishinabek`], // optional alternate names, for search algorithms
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/0yRWpXgg/Anishinaabe.png`, // imgbb link
-		imgur: `https://i.imgur.com/ejVN1wW.png`, // imgur link
+		imgbb: `0yRWpXgg/Anishinaabe.png`, // imgbb link
+		imgur: `ejVN1wW.png`, // imgur link
 		tags: [`nationality`,`culture`,`indigenous`,`native american`,`american indian`,`first nations`,`ojibwe`,`odawa`,`potawatomi`,`mississaugas`,`nipissing`,`algonquin`], // tags for search/filtering
 		icon: `symbol` // description of the flag/icon
 	},
@@ -24522,8 +24522,8 @@ const cultureList = [
 		altNames: [`Anishinabe`,`Anicinape`,`Nishnaabe`,`Neshnabé`,`Anishinaabeg`,`Anishinabek`], // optional alternate names, for search algorithms
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/culture/%name_red.png`, // local image source
-		imgbb: `https://i.ibb.co/TMMkzyvS/Anishinaabe-red.png`, // imgbb link
-		imgur: `https://i.imgur.com/a6y1JMy.png`, // imgur link
+		imgbb: `TMMkzyvS/Anishinaabe-red.png`, // imgbb link
+		imgur: `a6y1JMy.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`nationality`,`culture`,`indigenous`,`native american`,`american indian`,`first nations`,`ojibwe`,`odawa`,`potawatomi`,`mississaugas`,`nipissing`,`algonquin`], // tags for search/filtering
 		icon: `symbol (red)` // description of the flag/icon
@@ -24531,16 +24531,16 @@ const cultureList = [
 	{
 		name: `Armenian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/fYLMhwwx/Armenian.png`, // imgbb link
-		imgur: `https://i.imgur.com/xP3lF1a.png`, // imgur link
+		imgbb: `fYLMhwwx/Armenian.png`, // imgbb link
+		imgur: `xP3lF1a.png`, // imgur link
 		tags: [`nationality`,`culture`,`armenia`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Australian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/5WkxDstW/Australian.png`, // imgbb link
-		imgur: `https://i.imgur.com/Bb9XFYa.png`, // imgur link
+		imgbb: `5WkxDstW/Australian.png`, // imgbb link
+		imgur: `Bb9XFYa.png`, // imgur link
 		tags: [`nationality`,`culture`,`australia`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
@@ -24548,8 +24548,8 @@ const cultureList = [
 		name: `Australian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/culture/%name_SH.png`, // local image source
-		imgbb: `https://i.ibb.co/XrcNdKcG/Australian-SH.png`, // imgbb link
-		imgur: `https://i.imgur.com/ojrxkKW.png`, // imgur link
+		imgbb: `XrcNdKcG/Australian-SH.png`, // imgbb link
+		imgur: `ojrxkKW.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`nationality`,`culture`,`australia`], // tags for search/filtering
 		icon: `Australian Southern Horizon flag` // description of the flag/icon
@@ -24559,8 +24559,8 @@ const cultureList = [
 		alt: `Aboriginal Australian`,
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/culture/%name_Aboriginal.png`, // local image source
-		imgbb: `https://i.ibb.co/4x5Wngn/Australian-Aboriginal.png`, // imgbb link
-		imgur: `https://i.imgur.com/as7zRnL.png`, // imgur link
+		imgbb: `4x5Wngn/Australian-Aboriginal.png`, // imgbb link
+		imgur: `as7zRnL.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`nationality`,`culture`,`australia`,`aboriginal`,`indigenous`], // tags for search/filtering
 		icon: `Aboriginal Australian flag` // description of the flag/icon
@@ -24568,7 +24568,7 @@ const cultureList = [
 	{
 		name: `Austrian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/x8H1KX6F/Austrian.png`, // imgbb link
+		imgbb: `x8H1KX6F/Austrian.png`, // imgbb link
 		imgur: `https://imgur.com/GfjhtW9.png`, // imgur link
 		tags: [`nationality`,`culture`,`austria`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
@@ -24577,56 +24577,56 @@ const cultureList = [
 		name: `Bedouin`, // display name
 		altNames: [`Beduin`,`Bedu`], // optional alternate names, for search algorithms
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/fG1WvnVC/Bedouin.png`, // imgbb link
-		imgur: `https://i.imgur.com/EtsWlfZ.png`, // imgur link
+		imgbb: `fG1WvnVC/Bedouin.png`, // imgbb link
+		imgur: `EtsWlfZ.png`, // imgur link
 		tags: [`culture`,`arab`,`middle east`,`africa`], // tags for search/filtering
-		icon: `Color - Forest green` // description of the flag/icon
+		icon: `Gradient: Forest green` // description of the flag/icon
 	},
 	{
 		name: `Belarusian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/V0b05cV2/Belarusian.png`, // imgbb link
-		imgur: `https://i.imgur.com/MYYd1km.png`, // imgur link
+		imgbb: `V0b05cV2/Belarusian.png`, // imgbb link
+		imgur: `MYYd1km.png`, // imgur link
 		tags: [`nationality`,`culture`,`belarus`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Belgian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/DfHJC53G/Belgian.png`, // imgbb link
-		imgur: `https://i.imgur.com/lWHeF6j.png`, // imgur link
+		imgbb: `DfHJC53G/Belgian.png`, // imgbb link
+		imgur: `lWHeF6j.png`, // imgur link
 		tags: [`nationality`,`culture`,`belgium`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Brazilian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/4wfGxSy1/Brazilian.png`, // imgbb link
-		imgur: `https://i.imgur.com/FE9pJK1.png`, // imgur link
+		imgbb: `4wfGxSy1/Brazilian.png`, // imgbb link
+		imgur: `FE9pJK1.png`, // imgur link
 		tags: [`nationality`,`culture`,`brazil`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `British`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/8gXfhXRJ/British.png`, // imgbb link
-		imgur: `https://i.imgur.com/BS4vqBB.png`, // imgur link
+		imgbb: `8gXfhXRJ/British.png`, // imgbb link
+		imgur: `BS4vqBB.png`, // imgur link
 		tags: [`nationality`,`culture`,`britain`,`uk`,`great britain`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Bulgarian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/hF5j5vsk/Bulgarian.png`, // imgbb link
-		imgur: `https://i.imgur.com/7TjhJCc.png`, // imgur link
+		imgbb: `hF5j5vsk/Bulgarian.png`, // imgbb link
+		imgur: `7TjhJCc.png`, // imgur link
 		tags: [`nationality`,`culture`,`bulgaria`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Californian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/5q34fH7/Californian.png`, // imgbb link
-		imgur: `https://i.imgur.com/sdaikfV.png`, // imgur link
+		imgbb: `5q34fH7/Californian.png`, // imgbb link
+		imgur: `sdaikfV.png`, // imgur link
 		tags: cultureData.usaState.tags.concat([`california`]), // tags for search/filtering
 		info: cultureData.usaState.info, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -24634,16 +24634,16 @@ const cultureList = [
 	{
 		name: `Canadian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/3y5xHKXJ/Canadian.png`, // imgbb link
-		imgur: `https://i.imgur.com/wh3Tiip.png`, // imgur link
+		imgbb: `3y5xHKXJ/Canadian.png`, // imgbb link
+		imgur: `wh3Tiip.png`, // imgur link
 		tags: [`nationality`,`culture`,`canada`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Cascadian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/G32vmkjj/Cascadian.png`, // imgbb link
-		imgur: `https://i.imgur.com/CdBXQ2t.png`, // imgur link
+		imgbb: `G32vmkjj/Cascadian.png`, // imgbb link
+		imgur: `CdBXQ2t.png`, // imgur link
 		tags: [`culture`,`cascadia`,`pacific northwest`,`pnw`,`usa`,`united states`,`america`,`american`,`canada`,`canadian`,`oregon`,`washington`,`british columbia`], // tags for search/filtering
 		info: `<a href="?tags=country|nationality|culture">Culture/nationality</a> (Pacific Northwest region of ${usaLink}/<a href="?tags=country|nationality|culture,canada">Canada</a>)`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -24651,16 +24651,16 @@ const cultureList = [
 	{
 		name: `Chinese`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/5Wxqwv6Q/Chinese.png`, // imgbb link
-		imgur: `https://i.imgur.com/GIJjY9o.png`, // imgur link
+		imgbb: `5Wxqwv6Q/Chinese.png`, // imgbb link
+		imgur: `GIJjY9o.png`, // imgur link
 		tags: [`nationality`,`culture`,`china`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Colombian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/p7k4yrB/Colombian.png`, // imgbb link
-		imgur: `https://i.imgur.com/125nq1m.png`, // imgur link
+		imgbb: `p7k4yrB/Colombian.png`, // imgbb link
+		imgur: `125nq1m.png`, // imgur link
 		tags: [`nationality`,`culture`,`columbia`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
@@ -24668,8 +24668,8 @@ const cultureList = [
 		name: `Coloradan`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		altNames: [`Coloradoan`], // optional alternate names, for search algorithms
-		imgbb: `https://i.ibb.co/whY5nwdD/Coloradan.png`, // imgbb link
-		imgur: `https://i.imgur.com/m0Fu9aI.png`, // imgur link
+		imgbb: `whY5nwdD/Coloradan.png`, // imgbb link
+		imgur: `m0Fu9aI.png`, // imgur link
 		tags: cultureData.usaState.tags.concat([`colorado`]), // tags for search/filtering
 		info: cultureData.usaState.info, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -24677,16 +24677,16 @@ const cultureList = [
 	{
 		name: `Croatian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/xtGLHNp5/Croatian.png`, // imgbb link
-		imgur: `https://i.imgur.com/NRb96NJ.png`, // imgur link
+		imgbb: `xtGLHNp5/Croatian.png`, // imgbb link
+		imgur: `NRb96NJ.png`, // imgur link
 		tags: [`nationality`,`culture`,`croatia`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Cuban`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/twtbRRQv/Cuban.png`, // imgbb link
-		imgur: `https://i.imgur.com/ay4nb7T.png`, // imgur link
+		imgbb: `twtbRRQv/Cuban.png`, // imgbb link
+		imgur: `ay4nb7T.png`, // imgur link
 		tags: [`nationality`,`culture`,`cuba`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
@@ -24705,7 +24705,7 @@ const cultureList = [
 	{
 		name: `Indonesia`, // display name
 		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/5h6Czdcn/Indonesia.png`, // imgbb link
+		imgbb: `5h6Czdcn/Indonesia.png`, // imgbb link
 		imgur: `I3ANxLd.png`, // imgur link
 		tags: [`country`,`culture`,`indonesian`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
@@ -25138,8 +25138,8 @@ const alterhumanList = [
 		name: `Alterhuman`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
 		src: `%name_arrow.png`, // local image source
-		imgbb: `https://i.ibb.co/svfg5ttB/Alterhuman-arrow.png`, // imgbb link
-		imgur: `https://i.imgur.com/9jOcsZP.png`, // imgur link
+		imgbb: `svfg5ttB/Alterhuman-arrow.png`, // imgbb link
+		imgur: `9jOcsZP.png`, // imgur link
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
 		info: ahmData.alterhuman.info, // optional extra info
 		icon: `flag (arrow)` // description of the flag/icon
@@ -25191,8 +25191,8 @@ const alterhumanList = [
 		name: `Alterhuman`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_otherkin.png`, // local image source
-		imgbb: `https://i.ibb.co/pvPgbv72/Alterhuman-otherkin.png`, // imgbb link
-		imgur: `https://i.imgur.com/s9zliaA.png`, // imgur link
+		imgbb: `pvPgbv72/Alterhuman-otherkin.png`, // imgbb link
+		imgur: `s9zliaA.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
 		info: ahmData.alterhuman.info, // optional extra info
@@ -25214,8 +25214,8 @@ const alterhumanList = [
 		name: `Otherkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_flag_star.png`, // local image source
-		imgbb: `https://i.ibb.co/YFjhSfd5/Otherkin-flag-star.png`, // imgbb link
-		imgur: `https://i.imgur.com/lcef6vu.png`, // imgur link
+		imgbb: `YFjhSfd5/Otherkin-flag-star.png`, // imgbb link
+		imgur: `lcef6vu.png`, // imgur link
 		tags: ahmData.otherkin.tags, // tags for search/filtering
 		info: ahmData.otherkin.info, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -25224,8 +25224,8 @@ const alterhumanList = [
 		name: `Otherkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/mr0kD7Ms/Otherkin-flag.png`, // imgbb link
-		imgur: `https://i.imgur.com/pDmUZR4.png`, // imgur link
+		imgbb: `mr0kD7Ms/Otherkin-flag.png`, // imgbb link
+		imgur: `pDmUZR4.png`, // imgur link
 		tags: ahmData.otherkin.tags, // tags for search/filtering
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		info: ahmData.otherkin.info, // optional extra info
@@ -25234,8 +25234,8 @@ const alterhumanList = [
 	{
 		name: `Otherkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/tTBb3JWG/Otherkin.png`, // imgbb link
-		imgur: `https://i.imgur.com/yvMj9jM.png`, // imgur link
+		imgbb: `tTBb3JWG/Otherkin.png`, // imgbb link
+		imgur: `yvMj9jM.png`, // imgur link
 		tags: ahmData.otherkin.tags, // tags for search/filtering
 		info: ahmData.otherkin.info, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
@@ -25244,8 +25244,8 @@ const alterhumanList = [
 		name: `Otherkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/fVfPRF3b/Otherkin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/2SL9DLK.png`, // imgur link
+		imgbb: `fVfPRF3b/Otherkin-rainbow.png`, // imgbb link
+		imgur: `2SL9DLK.png`, // imgur link
 		tags: ahmData.otherkin.tags, // tags for search/filtering
 		info: ahmData.otherkin.info, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
@@ -25254,8 +25254,8 @@ const alterhumanList = [
 		name: `Kintype`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/5XQmPdjQ/Kintype-flag.png`, // imgbb link
-		imgur: `https://i.imgur.com/8K9pGrm.png`, // imgur link
+		imgbb: `5XQmPdjQ/Kintype-flag.png`, // imgbb link
+		imgur: `8K9pGrm.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags, // tags for search/filtering
 		info: ahmData.kintype.info, // optional extra info
@@ -25264,8 +25264,8 @@ const alterhumanList = [
 	{
 		name: `Kintype`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/b5TDgTFb/Kintype.png`, // imgbb link
-		imgur: `https://i.imgur.com/OvVVyfp.png`, // imgur link
+		imgbb: `b5TDgTFb/Kintype.png`, // imgbb link
+		imgur: `OvVVyfp.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags, // tags for search/filtering
 		info: ahmData.kintype.info, // optional extra info
@@ -25275,8 +25275,8 @@ const alterhumanList = [
 		name: `Kintype`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/HLXn2Rhf/Kintype-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/Y3rkGX3.png`, // imgur link
+		imgbb: `HLXn2Rhf/Kintype-rainbow.png`, // imgbb link
+		imgur: `Y3rkGX3.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags, // tags for search/filtering
 		info: ahmData.kintype.info, // optional extra info
@@ -25286,8 +25286,8 @@ const alterhumanList = [
 		name: `Otherkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_unity.png`, // local image source
-		imgbb: `https://i.ibb.co/TMbz45MW/Otherkin-unity.png`, // imgbb link
-		imgur: `https://i.imgur.com/Dnm4AF2.png`, // imgur link
+		imgbb: `TMbz45MW/Otherkin-unity.png`, // imgbb link
+		imgur: `Dnm4AF2.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags, // tags for search/filtering
 		info: ahmData.otherkin.info, // optional extra info
@@ -25415,8 +25415,8 @@ const alterhumanList = [
 	{
 		name: `Kithtype`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/NdQBZSvC/Kithtype.png`, // imgbb link
-		imgur: `https://i.imgur.com/INQNiD5.png`, // imgur link
+		imgbb: `NdQBZSvC/Kithtype.png`, // imgbb link
+		imgur: `INQNiD5.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.kith.tags, // tags for search/filtering
 		info: ahmData.kithtype.info, // optional extra info
@@ -25426,8 +25426,8 @@ const alterhumanList = [
 		name: `Kithtype`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_sepia.png`, // local image source
-		imgbb: `https://i.ibb.co/HfWS9mL2/Kithtype-sepia.png`, // imgbb link
-		imgur: `https://i.imgur.com/c3ZhH7f.png`, // imgur link
+		imgbb: `HfWS9mL2/Kithtype-sepia.png`, // imgbb link
+		imgur: `c3ZhH7f.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.kith.tags, // tags for search/filtering
 		info: ahmData.kithtype.info, // optional extra info
@@ -25437,8 +25437,8 @@ const alterhumanList = [
 		name: `Kithtype`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/kgs0sRgM/Kithtype-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/JoQKTXn.png`, // imgur link
+		imgbb: `kgs0sRgM/Kithtype-rainbow.png`, // imgbb link
+		imgur: `JoQKTXn.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.kith.tags, // tags for search/filtering
 		info: ahmData.kithtype.info, // optional extra info
@@ -25447,8 +25447,8 @@ const alterhumanList = [
 	{
 		name: `Hearttype`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/v4WnGJ6d/Hearttype.png`, // imgbb link
-		imgur: `https://i.imgur.com/kTJaRtJ.png`, // imgur link
+		imgbb: `v4WnGJ6d/Hearttype.png`, // imgbb link
+		imgur: `kTJaRtJ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.kith.tags, // tags for search/filtering
 		info: ahmData.kithtype.info, // optional extra info
@@ -25458,8 +25458,8 @@ const alterhumanList = [
 		name: `Hearttype`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_sepia.png`, // local image source
-		imgbb: `https://i.ibb.co/WvWPRQfH/Hearttype-sepia.png`, // imgbb link
-		imgur: `https://i.imgur.com/6X6ygfB.png`, // imgur link
+		imgbb: `WvWPRQfH/Hearttype-sepia.png`, // imgbb link
+		imgur: `6X6ygfB.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.kith.tags, // tags for search/filtering
 		info: ahmData.kithtype.info, // optional extra info
@@ -25469,8 +25469,8 @@ const alterhumanList = [
 		name: `Hearttype`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/mkXzPFN/Hearttype-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/35Hy3ST.png`, // imgur link
+		imgbb: `mkXzPFN/Hearttype-rainbow.png`, // imgbb link
+		imgur: `35Hy3ST.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.kith.tags, // tags for search/filtering
 		info: ahmData.kithtype.info, // optional extra info
@@ -25542,7 +25542,7 @@ const alterhumanList = [
 		name: `Constelic`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_star.png`, // local image source
-		imgbb: `https://i.ibb.co/HLzpzYHj/Constelic-star.png`, // imgbb link
+		imgbb: `HLzpzYHj/Constelic-star.png`, // imgbb link
 		imgur: `https://imgur.com/0ebNQGI.png`, // imgur link
 		tags: ahmData.constelic.tags, // tags for search/filtering
 		info: ahmData.constelic.info, // optional extra info
@@ -25551,7 +25551,7 @@ const alterhumanList = [
 	{
 		name: `Constelic`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/PZ0kjKGJ/Constelic.png`, // imgbb link
+		imgbb: `PZ0kjKGJ/Constelic.png`, // imgbb link
 		imgur: `https://imgur.com/GDzfD78.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.constelic.tags, // tags for search/filtering
@@ -25562,7 +25562,7 @@ const alterhumanList = [
 		name: `Constelic`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_alt_star.png`, // local image source
-		imgbb: `https://i.ibb.co/BHPt6gqX/Constelic-alt-star.png`, // imgbb link
+		imgbb: `BHPt6gqX/Constelic-alt-star.png`, // imgbb link
 		imgur: `https://imgur.com/QedLVT0.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.constelic.tags, // tags for search/filtering
@@ -25573,7 +25573,7 @@ const alterhumanList = [
 		name: `Constelic`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_alt.png`, // local image source
-		imgbb: `https://i.ibb.co/YFGKkBQc/Constelic-alt.png`, // imgbb link
+		imgbb: `YFGKkBQc/Constelic-alt.png`, // imgbb link
 		imgur: `https://imgur.com/oAeN1PQ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.constelic.tags, // tags for search/filtering
@@ -25593,8 +25593,8 @@ const alterhumanList = [
 	{
 		name: `Vampirekin`, // display name
 		src: `%name_Bat.png`, // local image source
-		imgbb: `https://i.ibb.co/r2zrXR7C/Vampirekin-Bat.png`, // imgbb link
-		imgur: `https://i.imgur.com/u7OYglJ.png`, // imgur link
+		imgbb: `r2zrXR7C/Vampirekin-Bat.png`, // imgbb link
+		imgur: `u7OYglJ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`vampire`,`mythkin`]), // tags for search/filtering
 		info: `Vampire ${otherkinLink}`, // optional extra info
@@ -25602,8 +25602,8 @@ const alterhumanList = [
 	},
 	{
 		name: `Vampirekin`, // display name
-		imgbb: `https://i.ibb.co/7J3PdLcj/Vampirekin.png`, // imgbb link
-		imgur: `https://i.imgur.com/LmMfriJ.png`, // imgur link
+		imgbb: `7J3PdLcj/Vampirekin.png`, // imgbb link
+		imgur: `LmMfriJ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`vampire`,`mythkin`]), // tags for search/filtering
 		info: `Vampire ${otherkinLink}`, // optional extra info
@@ -25612,8 +25612,8 @@ const alterhumanList = [
 	{
 		name: `Dogkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/mC9cNjCx/Dogkin.png`, // imgbb link
-		imgur: `https://i.imgur.com/m3eBLoW.png`, // imgur link
+		imgbb: `mC9cNjCx/Dogkin.png`, // imgbb link
+		imgur: `m3eBLoW.png`, // imgur link
 		tags: ahmData.animalkin.tags.concat([`dog`,`canine`]), // tags for search/filtering
 		info: `Dog ${otherkinLink}` + ahmData.canine.info, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
@@ -25622,8 +25622,8 @@ const alterhumanList = [
 		name: `Dogkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/YxCP6Tm/Dogkin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/WGrte4y.png`, // imgur link
+		imgbb: `YxCP6Tm/Dogkin-rainbow.png`, // imgbb link
+		imgur: `WGrte4y.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.animalkin.tags.concat([`dog`,`canine`]), // tags for search/filtering
 		info: `Dog ${otherkinLink}` + ahmData.canine.info, // optional extra info
@@ -25633,8 +25633,8 @@ const alterhumanList = [
 		name: `Dogkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_kingender.png`, // local image source
-		imgbb: `https://i.ibb.co/gbMSsDWX/Dogkin-kingender.png`, // imgbb link
-		imgur: `https://i.imgur.com/fbd8YfS.png`, // imgur link
+		imgbb: `gbMSsDWX/Dogkin-kingender.png`, // imgbb link
+		imgur: `fbd8YfS.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.animalkin.tags.concat([`dog`,`canine`,`kingender`]), // tags for search/filtering
 		info: `Dog ${otherkinLink}` + ahmData.canine.info, // optional extra info
@@ -25644,8 +25644,8 @@ const alterhumanList = [
 		name: `Dogkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/27NXjhGN/Dogkin-flag.png`, // imgbb link
-		imgur: `https://i.imgur.com/lDRfiSF.png`, // imgur link
+		imgbb: `27NXjhGN/Dogkin-flag.png`, // imgbb link
+		imgur: `lDRfiSF.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.animalkin.tags.concat([`dog`,`canine`]), // tags for search/filtering
 		info: `Dog ${otherkinLink}` + ahmData.canine.info, // optional extra info
@@ -25654,8 +25654,8 @@ const alterhumanList = [
 	{
 		name: `Dog Therian`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/NBWMT61/Dog-Therian.png`, // imgbb link
-		imgur: `https://i.imgur.com/dxhfnRO.png`, // imgur link
+		imgbb: `NBWMT61/Dog-Therian.png`, // imgbb link
+		imgur: `dxhfnRO.png`, // imgur link
 		tags: ahmData.therian.tags.concat([`canine`,`dog`]), // tags for search/filtering
 		info: `Dog ${therianLink}` + ahmData.canine.info, // optional extra info
 		icon: `Therian symbol` // description of the flag/icon
@@ -25664,8 +25664,8 @@ const alterhumanList = [
 		name: `Dog Therian`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/cM43x00/Dog-Therian-flag.png`, // imgbb link
-		imgur: `https://i.imgur.com/ta0W4Xj.png`, // imgur link
+		imgbb: `cM43x00/Dog-Therian-flag.png`, // imgbb link
+		imgur: `ta0W4Xj.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.therian.tags.concat([`canine`,`dog`]), // tags for search/filtering
 		info: `Dog ${therianLink}` + ahmData.canine.info, // optional extra info
@@ -25674,8 +25674,8 @@ const alterhumanList = [
 	{
 		name: `Alienkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/5XqkJfvt/Alienkin.png`, // imgbb link
-		imgur: `https://i.imgur.com/rkLgzXf.png`, // imgur link
+		imgbb: `5XqkJfvt/Alienkin.png`, // imgbb link
+		imgur: `rkLgzXf.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat([`alien`]), // tags for search/filtering
 		info: `Alien ${otherkinLink}`, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
@@ -25684,8 +25684,8 @@ const alterhumanList = [
 		name: `Alienkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/S4W7h9DK/Alienkin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/yCsfagy.png`, // imgur link
+		imgbb: `S4W7h9DK/Alienkin-rainbow.png`, // imgbb link
+		imgur: `yCsfagy.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`alien`]), // tags for search/filtering
 		info: `Alien ${otherkinLink}`, // optional extra info
@@ -25694,8 +25694,8 @@ const alterhumanList = [
 	{
 		name: `Divinekin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/0yfmj1HC/Divinekin.png`, // imgbb link
-		imgur: `https://i.imgur.com/JNNsLHA.png`, // imgur link
+		imgbb: `0yfmj1HC/Divinekin.png`, // imgbb link
+		imgur: `JNNsLHA.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat([`divine`,`god`,`deity`,`divinity`]), // tags for search/filtering
 		info: `Divine ${otherkinLink}`, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
@@ -25704,8 +25704,8 @@ const alterhumanList = [
 		name: `Divinekin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/nqW7nJpg/Divinekin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/MGxDhHJ.png`, // imgur link
+		imgbb: `nqW7nJpg/Divinekin-rainbow.png`, // imgbb link
+		imgur: `MGxDhHJ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`divine`,`god`,`deity`,`divinity`]), // tags for search/filtering
 		info: `Divine ${otherkinLink}`, // optional extra info
@@ -25714,8 +25714,8 @@ const alterhumanList = [
 	{
 		name: `Dragonkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/B2LgXpG5/Dragonkin.png`, // imgbb link
-		imgur: `https://i.imgur.com/pI1B97L.png`, // imgur link
+		imgbb: `B2LgXpG5/Dragonkin.png`, // imgbb link
+		imgur: `pI1B97L.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat([`mythkin`,`dragon`]), // tags for search/filtering
 		info: `Dragon ${otherkinLink}`, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
@@ -25724,8 +25724,8 @@ const alterhumanList = [
 		name: `Dragonkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/VYjxNYJL/Dragonkin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/opVsJqe.png`, // imgur link
+		imgbb: `VYjxNYJL/Dragonkin-rainbow.png`, // imgbb link
+		imgur: `opVsJqe.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`mythkin`,`dragon`]), // tags for search/filtering
 		info: `Dragon ${otherkinLink}`, // optional extra info
@@ -25735,8 +25735,8 @@ const alterhumanList = [
 		name: `Pokekin`, // display name
 		altNames: [`Pokékin`],
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/nN09Hywk/Pokekin.png`, // imgbb link
-		imgur: `https://i.imgur.com/NX2q5kw.png`, // imgur link
+		imgbb: `nN09Hywk/Pokekin.png`, // imgbb link
+		imgur: `NX2q5kw.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`pokemon`,`pokémon`]), // tags for search/filtering
 		info: `Pokémon ${otherkinLink}`, // optional extra info
@@ -25746,8 +25746,8 @@ const alterhumanList = [
 		name: `Pokemon Kin`, // display name
 		altNames: [`Pokékin`],
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/mVWx5FKm/Pokemon-Kin.png`, // imgbb link
-		imgur: `https://i.imgur.com/tZQ0VBu.png`, // imgur link
+		imgbb: `mVWx5FKm/Pokemon-Kin.png`, // imgbb link
+		imgur: `tZQ0VBu.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat([`pokemon`,`pokémon`,`pokekin`,`pokékin`]), // tags for search/filtering
 		info: `Pokémon ${otherkinLink}`, // optional extra info
 		icon: `Pokeball` // description of the flag/icon
@@ -25756,8 +25756,8 @@ const alterhumanList = [
 		name: `Elfkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/qMhRTnnZ/Elfkin-flag.png`, // imgbb link
-		imgur: `https://i.imgur.com/6gULK1c.png`, // imgur link
+		imgbb: `qMhRTnnZ/Elfkin-flag.png`, // imgbb link
+		imgur: `6gULK1c.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
 		info: ahmData.elfkin.info, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
@@ -25765,8 +25765,8 @@ const alterhumanList = [
 	{
 		name: `Elfkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/WNjxVrRr/Elfkin.png`, // imgbb link
-		imgur: `https://i.imgur.com/Lal2DbN.png`, // imgur link
+		imgbb: `WNjxVrRr/Elfkin.png`, // imgbb link
+		imgur: `Lal2DbN.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
 		info: ahmData.elfkin.info, // optional extra info
@@ -25776,8 +25776,8 @@ const alterhumanList = [
 		name: `Elfkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/KcqyY2zy/Elfkin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/loIu81S.png`, // imgur link
+		imgbb: `KcqyY2zy/Elfkin-rainbow.png`, // imgbb link
+		imgur: `loIu81S.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
 		info: ahmData.elfkin.info, // optional extra info
@@ -25787,8 +25787,8 @@ const alterhumanList = [
 		name: `Elvenkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/XfQq7mhr/Elvenkin-flag.png`, // imgbb link
-		imgur: `https://i.imgur.com/jsFhq0M.png`, // imgur link
+		imgbb: `XfQq7mhr/Elvenkin-flag.png`, // imgbb link
+		imgur: `jsFhq0M.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
 		info: ahmData.elfkin.info, // optional extra info
@@ -25797,8 +25797,8 @@ const alterhumanList = [
 	{
 		name: `Elvenkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/Y75Wh8ZM/Elvenkin.png`, // imgbb link
-		imgur: `https://i.imgur.com/KTBs8IW.png`, // imgur link
+		imgbb: `Y75Wh8ZM/Elvenkin.png`, // imgbb link
+		imgur: `KTBs8IW.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
 		info: ahmData.elfkin.info, // optional extra info
@@ -25808,8 +25808,8 @@ const alterhumanList = [
 		name: `Elvenkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/0V9HgRKn/Elvenkin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/s3e4mOp.png`, // imgur link
+		imgbb: `0V9HgRKn/Elvenkin-rainbow.png`, // imgbb link
+		imgur: `s3e4mOp.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
 		info: ahmData.elfkin.info, // optional extra info
@@ -25820,8 +25820,8 @@ const alterhumanList = [
 		altNames: [`Blood Elf kin`],
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/r2py6bFg/Bloodelfkin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/k47b9Dk.png`, // imgur link
+		imgbb: `r2py6bFg/Bloodelfkin-rainbow.png`, // imgbb link
+		imgur: `k47b9Dk.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags,`blood elf`), // tags for search/filtering
 		info: `Blood Elf ${ahmData.elfkin.info}`, // optional extra info
@@ -25832,8 +25832,8 @@ const alterhumanList = [
 		altNames: [`Night Elf kin`],
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/b53r3CVB/Nightelfkin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/biSJt4i.png`, // imgur link
+		imgbb: `b53r3CVB/Nightelfkin-rainbow.png`, // imgbb link
+		imgur: `biSJt4i.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags,`night elf`), // tags for search/filtering
 		info: `Night Elf ${ahmData.elfkin.info}`, // optional extra info
@@ -25843,8 +25843,8 @@ const alterhumanList = [
 		name: `Conceptkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/5VC5YDc/Conceptkin-flag.png`, // imgbb link
-		imgur: `https://i.imgur.com/IOyMfEC.png`, // imgur link
+		imgbb: `5VC5YDc/Conceptkin-flag.png`, // imgbb link
+		imgur: `IOyMfEC.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat([`concept`]), // tags for search/filtering
 		info: `An individual who is ${otherkinLink} with an abstract concept.`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
@@ -25852,8 +25852,8 @@ const alterhumanList = [
 	{
 		name: `Conceptkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/Kx2Nq8X3/Conceptkin.png`, // imgbb link
-		imgur: `https://i.imgur.com/pSl5eBg.png`, // imgur link
+		imgbb: `Kx2Nq8X3/Conceptkin.png`, // imgbb link
+		imgur: `pSl5eBg.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`concept`]), // tags for search/filtering
 		info: `An individual who is ${otherkinLink} with an abstract concept.`, // optional extra info
@@ -25863,8 +25863,8 @@ const alterhumanList = [
 		name: `Conceptkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/ZPHfVSV/Conceptkin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/G0iQYvq.png`, // imgur link
+		imgbb: `ZPHfVSV/Conceptkin-rainbow.png`, // imgbb link
+		imgur: `G0iQYvq.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`concept`]), // tags for search/filtering
 		info: `An individual who is ${otherkinLink} with an abstract concept.`, // optional extra info
@@ -25874,8 +25874,8 @@ const alterhumanList = [
 		name: `Objectkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/DDZKPCqB/Objectkin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/QvlMVha.png`, // imgur link
+		imgbb: `DDZKPCqB/Objectkin-rainbow.png`, // imgbb link
+		imgur: `QvlMVha.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat([`object`]), // tags for search/filtering
 		info: `An individual who is ${otherkinLink} with an object/type of object.`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
@@ -25884,8 +25884,8 @@ const alterhumanList = [
 		name: `OC Kin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/CpBf9dWh/OC-Kin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/70pBAfz.png`, // imgur link
+		imgbb: `CpBf9dWh/OC-Kin-rainbow.png`, // imgbb link
+		imgur: `70pBAfz.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat([`oc`,`original character`]), // tags for search/filtering
 		info: `An individual who is ${otherkinLink} with an original character.`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
@@ -25894,8 +25894,8 @@ const alterhumanList = [
 		name: `Angelkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/CrF6ZDH/Angelkin-flag.png`, // imgbb link
-		imgur: `https://i.imgur.com/U6h6eP1.png`, // imgur link
+		imgbb: `CrF6ZDH/Angelkin-flag.png`, // imgbb link
+		imgur: `U6h6eP1.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat([`angel`]), // tags for search/filtering
 		info: `Angel ${otherkinLink}`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
@@ -25904,8 +25904,8 @@ const alterhumanList = [
 		name: `Angelkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_Alderangelos.png`, // local image source
-		imgbb: `https://i.ibb.co/QqydsGj/Angelkin-Alderangelos.png`, // imgbb link
-		imgur: `https://i.imgur.com/05lHsUM.png`, // imgur link
+		imgbb: `QqydsGj/Angelkin-Alderangelos.png`, // imgbb link
+		imgur: `05lHsUM.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`angel`]), // tags for search/filtering
 		info: `Angel ${otherkinLink}`, // optional extra info
@@ -25915,8 +25915,8 @@ const alterhumanList = [
 		name: `Faerykin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/PzZV76LS/Faerykin-flag.png`, // imgbb link
-		imgur: `https://i.imgur.com/lI6eHpY.png`, // imgur link
+		imgbb: `PzZV76LS/Faerykin-flag.png`, // imgbb link
+		imgur: `lI6eHpY.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat([`mythkin`,`fairy`,`faerie`,`faery`,`fairykin`]), // tags for search/filtering
 		info: `Faery ${otherkinLink}`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
@@ -25925,8 +25925,8 @@ const alterhumanList = [
 		name: `Faerykin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/zTpM7WST/Faerykin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/PnslhTH.png`, // imgur link
+		imgbb: `zTpM7WST/Faerykin-rainbow.png`, // imgbb link
+		imgur: `PnslhTH.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`mythkin`,`fairy`,`faerie`,`faery`,`fairykin`]), // tags for search/filtering
 		info: `Faery ${otherkinLink}`, // optional extra info
@@ -25936,8 +25936,8 @@ const alterhumanList = [
 		name: `Mythkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/fVkWPkRK/Mythkin-flag.png`, // imgbb link
-		imgur: `https://i.imgur.com/55LDnRC.png`, // imgur link
+		imgbb: `fVkWPkRK/Mythkin-flag.png`, // imgbb link
+		imgur: `55LDnRC.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat([`mythical`,`myth`]), // tags for search/filtering
 		info: `Mythical ${otherkinLink} (more <a href="?tags=alterhuman,myth|mythical|mythkin">mythical alterhuman buttons</a> here)`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
@@ -25946,8 +25946,8 @@ const alterhumanList = [
 		name: `Mythkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/tT7BTrBj/Mythkin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/TdCJPGC.png`, // imgur link
+		imgbb: `tT7BTrBj/Mythkin-rainbow.png`, // imgbb link
+		imgur: `TdCJPGC.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`mythical`,`myth`]), // tags for search/filtering
 		info: `Mythical ${otherkinLink}`, // optional extra info
@@ -25956,8 +25956,8 @@ const alterhumanList = [
 	{
 		name: `Non-human`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/5XJ5RF2v/Non-human.png`, // imgbb link
-		imgur: `https://i.imgur.com/ePbkGIA.png`, // imgur link
+		imgbb: `5XJ5RF2v/Non-human.png`, // imgbb link
+		imgur: `ePbkGIA.png`, // imgur link
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -25966,8 +25966,8 @@ const alterhumanList = [
 		name: `Non-human`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_otherkin.png`, // local image source
-		imgbb: `https://i.ibb.co/gZTrB7bn/Non-human-otherkin.png`, // imgbb link
-		imgur: `https://i.imgur.com/qTY49KF.png`, // imgur link
+		imgbb: `gZTrB7bn/Non-human-otherkin.png`, // imgbb link
+		imgur: `qTY49KF.png`, // imgur link
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
@@ -25976,8 +25976,8 @@ const alterhumanList = [
 		name: `Non-human`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_therian.png`, // local image source
-		imgbb: `https://i.ibb.co/YTQZDNDs/Non-human-therian.png`, // imgbb link
-		imgur: `https://i.imgur.com/sKClqy5.png`, // imgur link
+		imgbb: `YTQZDNDs/Non-human-therian.png`, // imgbb link
+		imgur: `sKClqy5.png`, // imgur link
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
 		icon: `Therian symbol` // description of the flag/icon
@@ -25986,8 +25986,8 @@ const alterhumanList = [
 		name: `Non-human`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_alterhuman.png`, // local image source
-		imgbb: `https://i.ibb.co/jkpFW7BP/Non-human-alterhuman.png`, // imgbb link
-		imgur: `https://i.imgur.com/eTvCFKy.png`, // imgur link
+		imgbb: `jkpFW7BP/Non-human-alterhuman.png`, // imgbb link
+		imgur: `eTvCFKy.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
@@ -25996,8 +25996,8 @@ const alterhumanList = [
 	{
 		name: `Nonhuman`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/FSQb9y4/Nonhuman.png`, // imgbb link
-		imgur: `https://i.imgur.com/zd2GXf3.png`, // imgur link
+		imgbb: `FSQb9y4/Nonhuman.png`, // imgbb link
+		imgur: `zd2GXf3.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
@@ -26007,8 +26007,8 @@ const alterhumanList = [
 		name: `Nonhuman`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_otherkin.png`, // local image source
-		imgbb: `https://i.ibb.co/SXX2PPMb/Nonhuman-otherkin.png`, // imgbb link
-		imgur: `https://i.imgur.com/kSJ8XN6.png`, // imgur link
+		imgbb: `SXX2PPMb/Nonhuman-otherkin.png`, // imgbb link
+		imgur: `kSJ8XN6.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
@@ -26018,8 +26018,8 @@ const alterhumanList = [
 		name: `Nonhuman`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_therian.png`, // local image source
-		imgbb: `https://i.ibb.co/YFCHrHSR/Nonhuman-therian.png`, // imgbb link
-		imgur: `https://i.imgur.com/mEpEKW6.png`, // imgur link
+		imgbb: `YFCHrHSR/Nonhuman-therian.png`, // imgbb link
+		imgur: `mEpEKW6.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
@@ -26029,8 +26029,8 @@ const alterhumanList = [
 		name: `Nonhuman`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_alterhuman.png`, // local image source
-		imgbb: `https://i.ibb.co/gF3g4xxQ/Nonhuman-alterhuman.png`, // imgbb link
-		imgur: `https://i.imgur.com/SH3Nqqo.png`, // imgur link
+		imgbb: `gF3g4xxQ/Nonhuman-alterhuman.png`, // imgbb link
+		imgur: `SH3Nqqo.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.alterhuman.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
@@ -26040,8 +26040,8 @@ const alterhumanList = [
 		name: `Robotkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/ks7pJTbw/Robotkin-flag.png`, // imgbb link
-		imgur: `https://i.imgur.com/DKz1FZ0.png`, // imgur link
+		imgbb: `ks7pJTbw/Robotkin-flag.png`, // imgbb link
+		imgur: `DKz1FZ0.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat([`robot`]), // tags for search/filtering
 		info: `Robot ${otherkinLink}`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
@@ -26049,8 +26049,8 @@ const alterhumanList = [
 	{
 		name: `Robotkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/1JqjPzCn/Robotkin.png`, // imgbb link
-		imgur: `https://i.imgur.com/SF8bDSw.png`, // imgur link
+		imgbb: `1JqjPzCn/Robotkin.png`, // imgbb link
+		imgur: `SF8bDSw.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`robot`]), // tags for search/filtering
 		info: `Robot ${otherkinLink}`, // optional extra info
@@ -26060,8 +26060,8 @@ const alterhumanList = [
 		name: `Robotkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/Rp3NwqCK/Robotkin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/r5JEfN3.png`, // imgur link
+		imgbb: `Rp3NwqCK/Robotkin-rainbow.png`, // imgbb link
+		imgur: `r5JEfN3.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`robot`]), // tags for search/filtering
 		info: `Robot ${otherkinLink}`, // optional extra info
@@ -26070,8 +26070,8 @@ const alterhumanList = [
 	{
 		name: `Spiderkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/Q7SqJS2Q/Spiderkin.png`, // imgbb link
-		imgur: `https://i.imgur.com/K6zd49z.png`, // imgur link
+		imgbb: `Q7SqJS2Q/Spiderkin.png`, // imgbb link
+		imgur: `K6zd49z.png`, // imgur link
 		tags: ahmData.animalkin.tags.concat([`arachnid`,`spider`]), // tags for search/filtering
 		info: `Spider ${otherkinLink}`, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
@@ -26079,8 +26079,8 @@ const alterhumanList = [
 	{
 		name: `Werewolfkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/WpNDjHP9/Werewolfkin.png`, // imgbb link
-		imgur: `https://i.imgur.com/mxZJBlR.png`, // imgur link
+		imgbb: `WpNDjHP9/Werewolfkin.png`, // imgbb link
+		imgur: `mxZJBlR.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat([`mythkin`,`werewolf`]), // tags for search/filtering
 		info: `Werewolf ${otherkinLink}`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -26089,8 +26089,8 @@ const alterhumanList = [
 		name: `Werewolfkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_sepia.png`, // local image source
-		imgbb: `https://i.ibb.co/SDL5rJQY/Werewolfkin-sepia.png`, // imgbb link
-		imgur: `https://i.imgur.com/PDKwpJG.png`, // imgur link
+		imgbb: `SDL5rJQY/Werewolfkin-sepia.png`, // imgbb link
+		imgur: `PDKwpJG.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`mythkin`,`werewolf`]), // tags for search/filtering
 		info: `Werewolf ${otherkinLink}`, // optional extra info
@@ -26100,8 +26100,8 @@ const alterhumanList = [
 		name: `Werewolfkin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_rainbow.png`, // local image source
-		imgbb: `https://i.ibb.co/VY5QMFfx/Werewolfkin-rainbow.png`, // imgbb link
-		imgur: `https://i.imgur.com/T7XhnRp.png`, // imgur link
+		imgbb: `VY5QMFfx/Werewolfkin-rainbow.png`, // imgbb link
+		imgur: `T7XhnRp.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`mythkin`,`werewolf`]), // tags for search/filtering
 		info: `Werewolf ${otherkinLink}`, // optional extra info
@@ -26110,8 +26110,8 @@ const alterhumanList = [
 	{
 		name: `Spacekind`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/hRqrTktx/Spacekind.png`, // imgbb link
-		imgur: `https://i.imgur.com/sg0ki88.png`, // imgur link
+		imgbb: `hRqrTktx/Spacekind.png`, // imgbb link
+		imgur: `sg0ki88.png`, // imgur link
 		tags: ahmData.otherkin.tags.concat([`spacekin`,`space`,`alien`,`alienkin`]), // tags for search/filtering
 		info: `Space/alien ${otherkinLink}`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -26120,8 +26120,8 @@ const alterhumanList = [
 		name: `Star Wars Kin`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_spacekind.png`, // local image source
-		imgbb: `https://i.ibb.co/LbfNTts/Star-Wars-Kin-Spacekind.png`, // imgbb link
-		imgur: `https://i.imgur.com/FETC8wd.png`, // imgur link
+		imgbb: `LbfNTts/Star-Wars-Kin-Spacekind.png`, // imgbb link
+		imgur: `FETC8wd.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: ahmData.otherkin.tags.concat([`spacekind`,`alien`,`alienkin`,`star wars`,`fictionkin`]), // tags for search/filtering
 		info: `Star Wars related ${otherkinLink}`, // optional extra info
@@ -26269,8 +26269,8 @@ const otherList = [
 		name: `Namehoarder`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/other/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/7xvzz92w/Namehoarder.png`, // imgbb link
-		imgur: `https://i.imgur.com/SPDNTEg.png`, // imgur link
+		imgbb: `7xvzz92w/Namehoarder.png`, // imgbb link
+		imgur: `SPDNTEg.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: otherData.namehoarder.tags, // tags for search/filtering
 		info: otherData.namehoarder.info, // optional extra info
@@ -26280,8 +26280,8 @@ const otherList = [
 		name: `Name Collector`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/other/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/jkyxGyZp/Name-Collector.png`, // imgbb link
-		imgur: `https://i.imgur.com/QGCAmUe.png`, // imgur link
+		imgbb: `jkyxGyZp/Name-Collector.png`, // imgbb link
+		imgur: `QGCAmUe.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: otherData.namehoarder.tags, // tags for search/filtering
 		info: otherData.namehoarder.info, // optional extra info
@@ -26291,8 +26291,8 @@ const otherList = [
 		name: `Kestrelhoarder`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/other/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/W1TTXSt/Kestrelhoarder.png`, // imgbb link
-		imgur: `https://i.imgur.com/xeB6TCd.png`, // imgur link
+		imgbb: `W1TTXSt/Kestrelhoarder.png`, // imgbb link
+		imgur: `xeB6TCd.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: otherData.namehoarder.tags, // tags for search/filtering
 		info: otherData.namehoarder.info, // optional extra info
@@ -26302,8 +26302,8 @@ const otherList = [
 		name: `Namefluid`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/other/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/x8qyx2Kz/Namefluid.png`, // imgbb link
-		imgur: `https://i.imgur.com/3tCfldh.png`, // imgur link
+		imgbb: `x8qyx2Kz/Namefluid.png`, // imgbb link
+		imgur: `3tCfldh.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: otherData.namefluid.tags, // tags for search/filtering
 		info: otherData.namefluid.info, // optional extra info
@@ -26313,8 +26313,8 @@ const otherList = [
 		name: `Namefluid`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/other/%name_blank.png`, // local image source
-		imgbb: `https://i.ibb.co/dsFDpnjw/Namefluid-blank.png`, // imgbb link
-		imgur: `https://i.imgur.com/W4iiLcR.png`, // imgur link
+		imgbb: `dsFDpnjw/Namefluid-blank.png`, // imgbb link
+		imgur: `W4iiLcR.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: otherData.namefluid.tags, // tags for search/filtering
 		info: otherData.namefluid.info, // optional extra info
@@ -26324,8 +26324,8 @@ const otherList = [
 		name: `Nomifluid`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/other/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/84SpX0Tq/Nomifluid.png`, // imgbb link
-		imgur: `https://i.imgur.com/DQDE7qG.png`, // imgur link
+		imgbb: `84SpX0Tq/Nomifluid.png`, // imgbb link
+		imgur: `DQDE7qG.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: otherData.namefluid.tags, // tags for search/filtering
 		info: otherData.namefluid.info, // optional extra info
@@ -26335,8 +26335,8 @@ const otherList = [
 		name: `Nomifluid`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		src: `/buttons/other/%name_blank.png`, // local image source
-		imgbb: `https://i.ibb.co/20mNPSB4/Nomifluid-blank.png`, // imgbb link
-		imgur: `https://i.imgur.com/zlW03le.png`, // imgur link
+		imgbb: `20mNPSB4/Nomifluid-blank.png`, // imgbb link
+		imgur: `zlW03le.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: otherData.namefluid.tags, // tags for search/filtering
 		info: otherData.namefluid.info, // optional extra info
@@ -27353,7 +27353,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Royal_Blue.png`, // local image source
 		imgur: `3ez4JaH.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`gold`,`yellow`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`gold`,`yellow`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal blue` // description of the flag/icon
 	},
@@ -27362,7 +27362,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Royal_Blue.png`, // local image source
 		imgur: `t9Buybm.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`gold`,`yellow`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`gold`,`yellow`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal blue` // description of the flag/icon
 	},
@@ -27371,7 +27371,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Royal_Blue.png`, // local image source
 		imgur: `xmggXe9.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`gold`,`yellow`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`gold`,`yellow`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal blue` // description of the flag/icon
 	},
@@ -27380,7 +27380,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Royal_Blue.png`, // local image source
 		imgur: `QtRqhvG.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`gold`,`yellow`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`gold`,`yellow`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal blue` // description of the flag/icon
 	},
@@ -27389,7 +27389,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Royal_Blue.png`, // local image source
 		imgur: `SHWmmdq.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`blue`,`yellow`,`gold`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`blue`,`yellow`,`gold`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal blue` // description of the flag/icon
 	},
@@ -27398,7 +27398,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/heart/Royal_Blue.png`, // local image source
 		imgur: `eZVoi3F.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`gold`,`yellow`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`gold`,`yellow`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal blue` // description of the flag/icon
 	},
@@ -27407,7 +27407,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Royal_Red.png`, // local image source
 		imgur: `5aoEhkF.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`gold`,`yellow`,`red`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`gold`,`yellow`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal red` // description of the flag/icon
 	},
@@ -27416,7 +27416,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Royal_Red.png`, // local image source
 		imgur: `XKvGyZA.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`gold`,`yellow`,`red`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`gold`,`yellow`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal red` // description of the flag/icon
 	},
@@ -27425,7 +27425,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Royal_Red.png`, // local image source
 		imgur: `f5myaTT.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`gold`,`yellow`,`red`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`gold`,`yellow`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal red` // description of the flag/icon
 	},
@@ -27434,7 +27434,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Royal_Red.png`, // local image source
 		imgur: `tYPcLE2.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`gold`,`yellow`,`red`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`gold`,`yellow`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal red` // description of the flag/icon
 	},
@@ -27443,7 +27443,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Royal_Red.png`, // local image source
 		imgur: `V0E0iDg.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`red`,`yellow`,`gold`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`red`,`yellow`,`gold`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal red` // description of the flag/icon
 	},
@@ -27452,7 +27452,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/heart/Royal_Red.png`, // local image source
 		imgur: `N9tFB4M.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`gold`,`yellow`,`red`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`gold`,`yellow`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal red` // description of the flag/icon
 	},
@@ -27461,7 +27461,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Royal_Green.png`, // local image source
 		imgur: `uoLEYh9.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`gold`,`yellow`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`gold`,`yellow`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal green` // description of the flag/icon
 	},
@@ -27470,7 +27470,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Royal_Green.png`, // local image source
 		imgur: `D1ZT2eM.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`gold`,`yellow`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`gold`,`yellow`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal green` // description of the flag/icon
 	},
@@ -27479,7 +27479,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Royal_Green.png`, // local image source
 		imgur: `oV87kXr.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`gold`,`yellow`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`gold`,`yellow`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal green` // description of the flag/icon
 	},
@@ -27488,7 +27488,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Royal_Green.png`, // local image source
 		imgur: `JRFV2q0.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`gold`,`yellow`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`gold`,`yellow`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal green` // description of the flag/icon
 	},
@@ -27497,7 +27497,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Royal_Green.png`, // local image source
 		imgur: `G3p8xKp.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`green`,`yellow`,`gold`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`green`,`yellow`,`gold`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal green` // description of the flag/icon
 	},
@@ -27506,7 +27506,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/heart/Royal_Green.png`, // local image source
 		imgur: `XbBcFBd.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`gold`,`yellow`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`gold`,`yellow`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal green` // description of the flag/icon
 	},
@@ -27515,7 +27515,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Royal_Purple.png`, // local image source
 		imgur: `MEADGEy.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`gold`,`yellow`,`purple`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`gold`,`yellow`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal purple` // description of the flag/icon
 	},
@@ -27524,7 +27524,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Royal_Purple.png`, // local image source
 		imgur: `bq1jZRi.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`gold`,`yellow`,`purple`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`gold`,`yellow`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal purple` // description of the flag/icon
 	},
@@ -27533,7 +27533,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Royal_Purple.png`, // local image source
 		imgur: `oG0S8gJ.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`gold`,`yellow`,`purple`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`gold`,`yellow`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal purple` // description of the flag/icon
 	},
@@ -27542,7 +27542,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Royal_Purple.png`, // local image source
 		imgur: `8CJA9xf.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`gold`,`yellow`,`purple`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`gold`,`yellow`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal purple` // description of the flag/icon
 	},
@@ -27551,7 +27551,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Royal_Purple.png`, // local image source
 		imgur: `AhKgTAa.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`purple`,`yellow`,`gold`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`purple`,`yellow`,`gold`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal purple` // description of the flag/icon
 	},
@@ -27560,7 +27560,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/heart/Royal_Purple.png`, // local image source
 		imgur: `QAqQfsD.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`gold`,`yellow`,`purple`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`gold`,`yellow`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Royal purple` // description of the flag/icon
 	},
@@ -27569,7 +27569,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Gilded_Black.png`, // local image source
 		imgur: `kelBl7o.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`gold`,`yellow`,`black`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`gold`,`yellow`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Gilded black` // description of the flag/icon
 	},
@@ -27578,7 +27578,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Gilded_Black.png`, // local image source
 		imgur: `d3tnv4q.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`gold`,`yellow`,`black`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`gold`,`yellow`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Gilded black` // description of the flag/icon
 	},
@@ -27587,7 +27587,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Gilded_Black.png`, // local image source
 		imgur: `oscuf1q.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`gold`,`yellow`,`black`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`gold`,`yellow`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Gilded black` // description of the flag/icon
 	},
@@ -27596,7 +27596,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Gilded_Black.png`, // local image source
 		imgur: `zEYhJg6.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`gold`,`yellow`,`black`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`gold`,`yellow`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Gilded black` // description of the flag/icon
 	},
@@ -27605,7 +27605,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Gilded_Black.png`, // local image source
 		imgur: `foi4h4O.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`black`,`yellow`,`gold`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`black`,`yellow`,`gold`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Gilded black` // description of the flag/icon
 	},
@@ -27614,7 +27614,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/heart/Gilded_Black.png`, // local image source
 		imgur: `aI2fs8s.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`gold`,`yellow`,`black`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`gold`,`yellow`,`black`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Gilded black` // description of the flag/icon
 	},
@@ -27623,7 +27623,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Heavenly_White.png`, // local image source
 		imgur: `pgTKJ0E.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Heavenly white` // description of the flag/icon
 	},
@@ -27632,7 +27632,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Heavenly_White.png`, // local image source
 		imgur: `mju6dVx.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Heavenly white` // description of the flag/icon
 	},
@@ -27641,7 +27641,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Heavenly_White.png`, // local image source
 		imgur: `Zun68kg.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Heavenly white` // description of the flag/icon
 	},
@@ -27650,7 +27650,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Heavenly_White.png`, // local image source
 		imgur: `sGVktoE.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Heavenly white` // description of the flag/icon
 	},
@@ -27659,7 +27659,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Heavenly_White.png`, // local image source
 		imgur: `jbWqmkP.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`white`,`yellow`,`gold`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`white`,`yellow`,`gold`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Heavenly white` // description of the flag/icon
 	},
@@ -27668,7 +27668,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/heart/Heavenly_White.png`, // local image source
 		imgur: `Mz9r4ZO.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`gold`,`yellow`,`white`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`gold`,`yellow`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Heavenly white` // description of the flag/icon
 	},
@@ -27677,7 +27677,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Heavenly_Gold.png`, // local image source
 		imgur: `AXmfHrg.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Heavenly gold` // description of the flag/icon
 	},
@@ -27686,7 +27686,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Heavenly_Gold.png`, // local image source
 		imgur: `W1Hwd30.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Heavenly gold` // description of the flag/icon
 	},
@@ -27695,7 +27695,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Heavenly_Gold.png`, // local image source
 		imgur: `vB25SAA.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Heavenly gold` // description of the flag/icon
 	},
@@ -27704,7 +27704,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Heavenly_Gold.png`, // local image source
 		imgur: `aZVKgCG.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`gold`,`yellow`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Heavenly gold` // description of the flag/icon
 	},
@@ -27713,7 +27713,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Heavenly_Gold.png`, // local image source
 		imgur: `GHHzXFd.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`white`,`yellow`,`gold`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`white`,`yellow`,`gold`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Heavenly gold` // description of the flag/icon
 	},
@@ -27722,7 +27722,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-18`, // date this button was first added to the masterlist
 		src: `/bases/heart/Heavenly_Gold.png`, // local image source
 		imgur: `wuFP6mD.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`gold`,`yellow`,`white`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`gold`,`yellow`,`white`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Heavenly gold` // description of the flag/icon
 	},
@@ -27732,7 +27732,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Arcane.png`, // local image source
 		imgur: `NBxKmU1.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`arcane`,`pink`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`arcane`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Arcane pink` // description of the flag/icon
 	},
@@ -27741,7 +27741,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Beastclans.png`, // local image source
 		imgur: `IyR3sMs.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`beastclans`,`brown`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`beastclans`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Beastclans brown` // description of the flag/icon
 	},
@@ -27750,7 +27750,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Earth.png`, // local image source
 		imgur: `DGZ2v3j.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`earth`,`brown`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`earth`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Earth brown` // description of the flag/icon
 	},
@@ -27759,7 +27759,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Fire.png`, // local image source
 		imgur: `vh4ox5C.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`fire`,`orange`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`fire`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Fire orange` // description of the flag/icon
 	},
@@ -27768,7 +27768,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Ice.png`, // local image source
 		imgur: `p2CVd0r.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`ice`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`ice`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Ice blue` // description of the flag/icon
 	},
@@ -27777,7 +27777,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Light.png`, // local image source
 		imgur: `GI41mwp.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`light`,`yellow`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`light`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Light yellow` // description of the flag/icon
 	},
@@ -27786,7 +27786,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Lightning.png`, // local image source
 		imgur: `4UYdO3k.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`lightning`,`aqua`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`lightning`,`aqua`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Lightning aqua` // description of the flag/icon
 	},
@@ -27795,7 +27795,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Nature.png`, // local image source
 		imgur: `5D8Oksx.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`nature`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`nature`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Nature green` // description of the flag/icon
 	},
@@ -27804,7 +27804,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Plague.png`, // local image source
 		imgur: `QuQAkWz.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`plague`,`red`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`plague`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plague red` // description of the flag/icon
 	},
@@ -27813,7 +27813,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Shadow.png`, // local image source
 		imgur: `7p2gsBC.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`shadow`,`purple`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`shadow`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Shadow purple` // description of the flag/icon
 	},
@@ -27822,7 +27822,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Unaligned.png`, // local image source
 		imgur: `E0gA3Cw.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`unaligned flight`,`gray`,`grey`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`unaligned flight`,`gray`,`grey`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Unaligned gray` // description of the flag/icon
 	},
@@ -27831,7 +27831,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Water.png`, // local image source
 		imgur: `pXtdlZe.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`water`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`water`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Water blue` // description of the flag/icon
 	},
@@ -27840,7 +27840,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Wind.png`, // local image source
 		imgur: `uBGrPKt.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`wind`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`wind`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Wind green` // description of the flag/icon
 	},
@@ -27849,7 +27849,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		src: `/bases/star_outline/Sunshine.png`, // local image source
 		imgur: `zUdzhwc.png`, // imgur link
-		tags: [`button base`,`icon base`,`star outline`,`star`,`sunshine`,`yellow`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`star outline`,`star`,`sunshine`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Sunshine yellow` // description of the flag/icon
 	},
@@ -27860,7 +27860,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Arcane.png`, // local image source
 		imgur: `B0HdDzY.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`arcane`,`pink`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`arcane`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Arcane pink` // description of the flag/icon
 	},
@@ -27869,7 +27869,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Beastclans.png`, // local image source
 		imgur: `MCjQTkg.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`beastclans`,`brown`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`beastclans`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Beastclans brown` // description of the flag/icon
 	},
@@ -27878,7 +27878,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Earth.png`, // local image source
 		imgur: `3t3TEgV.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`earth`,`brown`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`earth`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Earth brown` // description of the flag/icon
 	},
@@ -27887,7 +27887,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Fire.png`, // local image source
 		imgur: `F8mP7z3.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`fire`,`orange`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`fire`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Fire orange` // description of the flag/icon
 	},
@@ -27896,7 +27896,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Ice.png`, // local image source
 		imgur: `iLuxsZC.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`ice`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`ice`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Ice blue` // description of the flag/icon
 	},
@@ -27905,7 +27905,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Light.png`, // local image source
 		imgur: `OLodY6T.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`light`,`yellow`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`light`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Light yellow` // description of the flag/icon
 	},
@@ -27914,7 +27914,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Lightning.png`, // local image source
 		imgur: `bB909ao.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`lightning`,`aqua`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`lightning`,`aqua`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Lightning aqua` // description of the flag/icon
 	},
@@ -27923,7 +27923,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Nature.png`, // local image source
 		imgur: `lKZIrRD.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`nature`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`nature`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Nature green` // description of the flag/icon
 	},
@@ -27932,7 +27932,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Plague.png`, // local image source
 		imgur: `KWSbTLI.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`plague`,`red`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`plague`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plague red` // description of the flag/icon
 	},
@@ -27941,7 +27941,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Shadow.png`, // local image source
 		imgur: `kYhrgCo.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`shadow`,`purple`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`shadow`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Shadow purple` // description of the flag/icon
 	},
@@ -27950,7 +27950,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Unaligned.png`, // local image source
 		imgur: `Zbxt6Cb.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`unaligned flight`,`gray`,`grey`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`unaligned flight`,`gray`,`grey`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Unaligned gray` // description of the flag/icon
 	},
@@ -27959,7 +27959,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Water.png`, // local image source
 		imgur: `f9wnSPq.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`water`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`water`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Water blue` // description of the flag/icon
 	},
@@ -27968,7 +27968,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Wind.png`, // local image source
 		imgur: `vNJhUu2.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`wind`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`wind`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Wind green` // description of the flag/icon
 	},
@@ -27977,7 +27977,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_sm/Sunshine.png`, // local image source
 		imgur: `5PUhznU.png`, // imgur link
-		tags: [`button base`,`icon base`,`small sharp star`,`star`,`sunshine`,`yellow`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`small sharp star`,`star`,`sunshine`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Sunshine yellow` // description of the flag/icon
 	},
@@ -27988,7 +27988,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Arcane.png`, // local image source
 		imgur: `SUL2ELI.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`arcane`,`pink`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`arcane`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Arcane pink` // description of the flag/icon
 	},
@@ -27997,7 +27997,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Beastclans.png`, // local image source
 		imgur: `DkGBdEU.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`beastclans`,`brown`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`beastclans`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Beastclans brown` // description of the flag/icon
 	},
@@ -28006,7 +28006,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Earth.png`, // local image source
 		imgur: `CRuOEpz.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`earth`,`brown`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`earth`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Earth brown` // description of the flag/icon
 	},
@@ -28015,7 +28015,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Fire.png`, // local image source
 		imgur: `WCy5aB1.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`fire`,`orange`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`fire`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Fire orange` // description of the flag/icon
 	},
@@ -28024,7 +28024,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Ice.png`, // local image source
 		imgur: `i8A8uiP.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`ice`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`ice`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Ice blue` // description of the flag/icon
 	},
@@ -28033,7 +28033,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Light.png`, // local image source
 		imgur: `wFxlZkm.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`light`,`yellow`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`light`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Light yellow` // description of the flag/icon
 	},
@@ -28042,7 +28042,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Lightning.png`, // local image source
 		imgur: `o3NIabj.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`lightning`,`aqua`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`lightning`,`aqua`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Lightning aqua` // description of the flag/icon
 	},
@@ -28051,7 +28051,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Nature.png`, // local image source
 		imgur: `4JSe0wG.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`nature`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`nature`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Nature green` // description of the flag/icon
 	},
@@ -28060,7 +28060,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Plague.png`, // local image source
 		imgur: `jWpV4qt.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`plague`,`red`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`plague`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plague red` // description of the flag/icon
 	},
@@ -28069,7 +28069,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Shadow.png`, // local image source
 		imgur: `BoFTKFJ.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`shadow`,`purple`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`shadow`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Shadow purple` // description of the flag/icon
 	},
@@ -28078,7 +28078,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Unaligned.png`, // local image source
 		imgur: `8qWEIFS.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`unaligned flight`,`gray`,`grey`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`unaligned flight`,`gray`,`grey`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Unaligned gray` // description of the flag/icon
 	},
@@ -28087,7 +28087,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Water.png`, // local image source
 		imgur: `B9blZRc.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`water`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`water`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Water blue` // description of the flag/icon
 	},
@@ -28096,7 +28096,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Wind.png`, // local image source
 		imgur: `gnioG8R.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`wind`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`wind`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Wind green` // description of the flag/icon
 	},
@@ -28105,7 +28105,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		src: `/bases/star_sharp_lg/Sunshine.png`, // local image source
 		imgur: `IN34Wqv.png`, // imgur link
-		tags: [`button base`,`icon base`,`large sharp star`,`star`,`sunshine`,`yellow`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`large sharp star`,`star`,`sunshine`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Sunshine yellow` // description of the flag/icon
 	},
@@ -28116,7 +28116,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Arcane.png`, // local image source
 		imgur: `CFvdlEr.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`arcane`,`pink`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`arcane`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Arcane pink` // description of the flag/icon
 	},
@@ -28125,7 +28125,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Beastclans.png`, // local image source
 		imgur: `7H9aLQ9.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`beastclans`,`brown`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`beastclans`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Beastclans brown` // description of the flag/icon
 	},
@@ -28134,7 +28134,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Earth.png`, // local image source
 		imgur: `1TmqeFN.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`earth`,`brown`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`earth`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Earth brown` // description of the flag/icon
 	},
@@ -28143,7 +28143,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Fire.png`, // local image source
 		imgur: `sNHHBze.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`fire`,`orange`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`fire`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Fire orange` // description of the flag/icon
 	},
@@ -28152,7 +28152,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Ice.png`, // local image source
 		imgur: `5HC4hPL.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`ice`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`ice`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Ice blue` // description of the flag/icon
 	},
@@ -28161,7 +28161,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Light.png`, // local image source
 		imgur: `ACMdITj.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`light`,`yellow`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`light`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Light yellow` // description of the flag/icon
 	},
@@ -28170,7 +28170,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Lightning.png`, // local image source
 		imgur: `k761lTy.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`lightning`,`aqua`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`lightning`,`aqua`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Lightning aqua` // description of the flag/icon
 	},
@@ -28179,7 +28179,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Nature.png`, // local image source
 		imgur: `ckqL9E9.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`nature`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`nature`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Nature green` // description of the flag/icon
 	},
@@ -28188,7 +28188,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Plague.png`, // local image source
 		imgur: `a9eZ8SE.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`plague`,`red`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`plague`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plague red` // description of the flag/icon
 	},
@@ -28197,7 +28197,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Shadow.png`, // local image source
 		imgur: `ngVgskv.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`shadow`,`purple`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`shadow`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Shadow purple` // description of the flag/icon
 	},
@@ -28206,7 +28206,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Unaligned.png`, // local image source
 		imgur: `fyMQ8nt.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`unaligned flight`,`gray`,`grey`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`unaligned flight`,`gray`,`grey`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Unaligned gray` // description of the flag/icon
 	},
@@ -28215,7 +28215,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Water.png`, // local image source
 		imgur: `i0y4jnX.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`water`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`water`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Water blue` // description of the flag/icon
 	},
@@ -28224,7 +28224,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Wind.png`, // local image source
 		imgur: `nmRAeYY.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`wind`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`wind`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Wind green` // description of the flag/icon
 	},
@@ -28233,7 +28233,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		src: `/bases/star_rounded/Sunshine.png`, // local image source
 		imgur: `PQjlUVn.png`, // imgur link
-		tags: [`button base`,`icon base`,`rounded star`,`star`,`sunshine`,`yellow`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`rounded star`,`star`,`sunshine`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Sunshine yellow` // description of the flag/icon
 	},
@@ -28244,7 +28244,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Arcane.png`, // local image source
 		imgur: `s0AD79X.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`arcane`,`pink`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`arcane`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Arcane pink` // description of the flag/icon
 	},
@@ -28253,7 +28253,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Beastclans.png`, // local image source
 		imgur: `JdF7oWB.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`beastclans`,`brown`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`beastclans`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Beastclans brown` // description of the flag/icon
 	},
@@ -28262,7 +28262,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Earth.png`, // local image source
 		imgur: `qthy6ZF.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`earth`,`brown`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`earth`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Earth brown` // description of the flag/icon
 	},
@@ -28271,7 +28271,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Fire.png`, // local image source
 		imgur: `hUUfip2.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`fire`,`orange`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`fire`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Fire orange` // description of the flag/icon
 	},
@@ -28280,7 +28280,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Ice.png`, // local image source
 		imgur: `QTtAsPF.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`ice`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`ice`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Ice blue` // description of the flag/icon
 	},
@@ -28289,7 +28289,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Light.png`, // local image source
 		imgur: `k2Akwdr.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`light`,`yellow`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`light`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Light yellow` // description of the flag/icon
 	},
@@ -28298,7 +28298,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Lightning.png`, // local image source
 		imgur: `qoC9kK2.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`lightning`,`aqua`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`lightning`,`aqua`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Lightning aqua` // description of the flag/icon
 	},
@@ -28307,7 +28307,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Nature.png`, // local image source
 		imgur: `pbZG2gZ.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`nature`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`nature`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Nature green` // description of the flag/icon
 	},
@@ -28316,7 +28316,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Plague.png`, // local image source
 		imgur: `aocfTZ9.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`plague`,`red`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`plague`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plague red` // description of the flag/icon
 	},
@@ -28325,7 +28325,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Shadow.png`, // local image source
 		imgur: `p1PHWh0.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`shadow`,`purple`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`shadow`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Shadow purple` // description of the flag/icon
 	},
@@ -28334,7 +28334,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Unaligned.png`, // local image source
 		imgur: `NgBz1cN.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`unaligned flight`,`gray`,`grey`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`unaligned flight`,`gray`,`grey`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Unaligned gray` // description of the flag/icon
 	},
@@ -28343,7 +28343,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Water.png`, // local image source
 		imgur: `DB6TF6e.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`water`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`water`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Water blue` // description of the flag/icon
 	},
@@ -28352,7 +28352,7 @@ const iconBasesList = [
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Wind.png`, // local image source
 		imgur: `lkqkNVb.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`wind`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`wind`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Wind green` // description of the flag/icon
 	},
@@ -28361,7 +28361,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		src: `/bases/stars_tiny/Sunshine.png`, // local image source
 		imgur: `j6FRao7.png`, // imgur link
-		tags: [`button base`,`icon base`,`tiny stars`,`star`,`sunshine`,`yellow`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`tiny stars`,`star`,`sunshine`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Sunshine yellow` // description of the flag/icon
 	},
@@ -28372,7 +28372,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-07`, // date this button was first added to the masterlist
 		src: `/bases/heart/Arcane.png`, // local image source
 		imgur: `yS52uFr.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`arcane`,`pink`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`arcane`,`pink`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Arcane pink` // description of the flag/icon
 	},
@@ -28381,7 +28381,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-07`, // date this button was first added to the masterlist
 		src: `/bases/heart/Beastclans.png`, // local image source
 		imgur: `8EpjzYz.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`beastclans`,`brown`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`beastclans`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Beastclans brown` // description of the flag/icon
 	},
@@ -28390,7 +28390,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-07`, // date this button was first added to the masterlist
 		src: `/bases/heart/Earth.png`, // local image source
 		imgur: `VLutcvh.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`earth`,`brown`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`earth`,`brown`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Earth brown` // description of the flag/icon
 	},
@@ -28399,7 +28399,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-07`, // date this button was first added to the masterlist
 		src: `/bases/heart/Fire.png`, // local image source
 		imgur: `qdOPqJ4.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`fire`,`orange`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`fire`,`orange`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Fire orange` // description of the flag/icon
 	},
@@ -28408,7 +28408,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-07`, // date this button was first added to the masterlist
 		src: `/bases/heart/Ice.png`, // local image source
 		imgur: `GL2m9fU.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`ice`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`ice`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Ice blue` // description of the flag/icon
 	},
@@ -28417,7 +28417,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-07`, // date this button was first added to the masterlist
 		src: `/bases/heart/Light.png`, // local image source
 		imgur: `KDb3P8r.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`light`,`yellow`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`light`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Light yellow` // description of the flag/icon
 	},
@@ -28426,7 +28426,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-07`, // date this button was first added to the masterlist
 		src: `/bases/heart/Lightning.png`, // local image source
 		imgur: `9qAqyI2.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`lightning`,`aqua`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`lightning`,`aqua`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Lightning aqua` // description of the flag/icon
 	},
@@ -28435,7 +28435,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-07`, // date this button was first added to the masterlist
 		src: `/bases/heart/Nature.png`, // local image source
 		imgur: `nryPpqp.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`nature`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`nature`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Nature green` // description of the flag/icon
 	},
@@ -28444,7 +28444,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-07`, // date this button was first added to the masterlist
 		src: `/bases/heart/Plague.png`, // local image source
 		imgur: `uiy2BV9.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`plague`,`red`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`plague`,`red`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plague red` // description of the flag/icon
 	},
@@ -28453,7 +28453,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-07`, // date this button was first added to the masterlist
 		src: `/bases/heart/Shadow.png`, // local image source
 		imgur: `ZrlhagE.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`shadow`,`purple`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`shadow`,`purple`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Shadow purple` // description of the flag/icon
 	},
@@ -28462,7 +28462,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-07`, // date this button was first added to the masterlist
 		src: `/bases/heart/Unaligned.png`, // local image source
 		imgur: `UeMw9yK.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`unaligned flight`,`gray`,`grey`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`unaligned flight`,`gray`,`grey`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Unaligned gray` // description of the flag/icon
 	},
@@ -28471,7 +28471,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-07`, // date this button was first added to the masterlist
 		src: `/bases/heart/Water.png`, // local image source
 		imgur: `oqghJKN.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`water`,`blue`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`water`,`blue`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Water blue` // description of the flag/icon
 	},
@@ -28480,7 +28480,7 @@ const iconBasesList = [
 		dateAdded: `2024-02-07`, // date this button was first added to the masterlist
 		src: `/bases/heart/Wind.png`, // local image source
 		imgur: `zSqgrbk.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`wind`,`green`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`wind`,`green`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Wind green` // description of the flag/icon
 	},
@@ -28489,11 +28489,135 @@ const iconBasesList = [
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		src: `/bases/heart/Sunshine.png`, // local image source
 		imgur: `QuS48cf.png`, // imgur link
-		tags: [`button base`,`icon base`,`heart`,`sunshine`,`yellow`], // tags for search/filtering
+		tags: [`button base`,`icon base`,`shape icon`,`heart`,`sunshine`,`yellow`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Sunshine yellow` // description of the flag/icon
 	}
 ]
+
+const iconColorBasesList = [
+	{
+		color: `Black`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `YFhNZHYF/Black.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Blue`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `MDp72VJh/Blue.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Pastel Blue`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `20KjdX5v/Pastel-Blue.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Green`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `Xrk1yLvF/Green.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Pastel Green`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `5hgxRVMx/Pastel-Green.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Darker Green`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `JRqXCtR6/Darker-Green.png`, // imgbb link
+		imgur: ``, // imgur link
+		tags: [`green`], // tags for search/filtering
+	},
+	{
+		color: `Forest Green`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `fdCfqBjL/Forest-Green.png`, // imgbb link
+		imgur: ``, // imgur link
+		tags: [`green`], // tags for search/filtering
+	},
+	{
+		color: `Magenta`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `twtymJmw/Magenta.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Orange`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `TDPRh1pM/Orange.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Pink`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `sdrF2Fsf/Pink.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Pastel Pink`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `0yy6hG3D/Pastel-Pink.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Purple`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `nMZ6spVG/Purple.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Pastel Purple`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `WmL7fKP/Pastel-Purple.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Red`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `b569HPLR/Red.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Teal`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `hxf8RcMz/Teal.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `White`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `Gvqqgn6L/White.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Yellow`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `1JrKPpLp/Yellow.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+	{
+		color: `Pastel Yellow`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `zHJbpXWf/Pastel-Yellow.png`, // imgbb link
+		imgur: ``, // imgur link
+	},
+]
+// assign default values
+iconColorBasesList.forEach((item)=>{
+	item.name = `Color Gradient`;
+	if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/bases/gradient/${item.color.replaceAll(' ','_')}.png`; }
+	else if (!item.src.includes('/')) { item.src = `/bases/gradient/` + item.src; }
+	if (typeof item.icon == 'undefined' || item.icon == ``) { item.icon = `${item.color}`; }
+	if (typeof item.tags == 'undefined') item.tags = [];
+	
+	item.tags = item.tags.concat([`button base`,`icon base`,`gradient`]);
+	if (item.color.includes(' ')) item.tags = item.tags.concat(item.color.split(' '));
+});
 
 // combine all lists into master list
 let arr = [];
@@ -28545,5 +28669,5 @@ const buttonList = arr.concat(
 	
 	buttons2List,
 	
-	paletteBasesList, paletteSquareBasesList, iconBasesList
+	paletteBasesList, paletteSquareBasesList, iconBasesList, iconColorBasesList
 );

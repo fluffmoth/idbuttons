@@ -305,10 +305,11 @@ const filterList = [
 	{ label: `Button Bases`, tags: `button base`,
 		children: [
 			{ label: `Palette Bases`, tags: `palette button base` },
-			{ label: `Shape Icons`, tags: `icon base`,
+			{ label: `Icon Bases`, tags: `icon base`,
 				children: [
 					{ label: `Hearts`, tags: `heart` },
-					{ label: `Stars`, tags: `star` }
+					{ label: `Stars`, tags: `star` },
+					{ label: `Color Gradients`, tags: `gradient` }
 				]
 			},
 			{ label: `Colors`, tags: ``,

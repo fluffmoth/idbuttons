@@ -419,6 +419,7 @@ function adjustIconText(btn) {
 		) {
 			txt = generateIconText(btn);
 			txt = txt.replace(/color - /gi,'');
+			txt = txt.replace(/gradient: /gi,'');
 		}
 	}
 	else if (btn.iconBase) txt = btn.iconBase.name + ' ' + btn.iconBase.icon;
