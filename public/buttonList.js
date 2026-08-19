@@ -4,7 +4,7 @@
 	{
 		name: ``, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		//src: `/buttons/FR/subspecies/%name.png`, // local image source
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgbb: ``, // imgbb link
 		imgur: ``, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -25852,6 +25852,16 @@ alterhumanList.forEach((item)=>{
 	}
 });
 
+otherData = {
+	namehoarder: {
+		tags: [`label collector`,`name`,`hoarder`,`collector`,`namehoarder`,`namecollector`,`kestrelhoarder`,`kestrelcollector`],
+		info: `Someone who uses, collects, or hoards <a href="?tags=name,label collector">multiple names</a> for themself (more <a href="?tags=label collector">label collector buttons</a> here)`,
+	},
+	namefluid: {
+		tags: [`label collector`,`name`,`fluid`,`genderfluid`,`namefluid`,`nomifluid`,`abronominal`],
+		info: `Someone who is fluid between <a href="?tags=name,label collector">multiple names</a>`,
+	}
+}
 const otherList = [
 	{
 		name: `Young Adult`, // display name
@@ -25937,7 +25947,84 @@ const otherList = [
 		tags: [`his dark materials`,`daemons`,`daemon`,`daemonism`,`daemian`,`fantasy`,`spiritual`,`spirituality`,`multiplicity`,`plural`], // tags for search/filtering
 		info: `Someone who practices <a href="?tags=daemonism">Daemonism</a>`, // optional extra info
 		icon: `Dust` // description of the flag/icon
-	}
+	},
+	{
+		name: `Namehoarder`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/other/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/7xvzz92w/Namehoarder.png`, // imgbb link
+		imgur: `https://i.imgur.com/SPDNTEg.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: otherData.namehoarder.tags, // tags for search/filtering
+		info: otherData.namehoarder.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Name Collector`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/other/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/jkyxGyZp/Name-Collector.png`, // imgbb link
+		imgur: `https://i.imgur.com/QGCAmUe.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: otherData.namehoarder.tags, // tags for search/filtering
+		info: otherData.namehoarder.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Kestrelhoarder`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/other/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/W1TTXSt/Kestrelhoarder.png`, // imgbb link
+		imgur: `https://i.imgur.com/xeB6TCd.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: otherData.namehoarder.tags, // tags for search/filtering
+		info: otherData.namehoarder.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Namefluid`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/other/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/x8qyx2Kz/Namefluid.png`, // imgbb link
+		imgur: `https://i.imgur.com/3tCfldh.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: otherData.namefluid.tags, // tags for search/filtering
+		info: otherData.namefluid.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Namefluid`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/other/%name_blank.png`, // local image source
+		imgbb: `https://i.ibb.co/dsFDpnjw/Namefluid-blank.png`, // imgbb link
+		imgur: `https://i.imgur.com/W4iiLcR.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: otherData.namefluid.tags, // tags for search/filtering
+		info: otherData.namefluid.info, // optional extra info
+		icon: `flag (blank)` // description of the flag/icon
+	},
+	{
+		name: `Nomifluid`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/other/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/84SpX0Tq/Nomifluid.png`, // imgbb link
+		imgur: `https://i.imgur.com/DQDE7qG.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: otherData.namefluid.tags, // tags for search/filtering
+		info: otherData.namefluid.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Nomifluid`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		src: `/buttons/other/%name_blank.png`, // local image source
+		imgbb: `https://i.ibb.co/20mNPSB4/Nomifluid-blank.png`, // imgbb link
+		imgur: `https://i.imgur.com/zlW03le.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: otherData.namefluid.tags, // tags for search/filtering
+		info: otherData.namefluid.info, // optional extra info
+		icon: `flag (blank)` // description of the flag/icon
+	},
 ]
 
 ///////////////////////////////////////////////////////
