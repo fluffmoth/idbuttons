@@ -2,8 +2,10 @@ LAST POST - 8/18/26 NEXT POST - after 9/1/26
 
 @pinglist-4936
 
-button maker now has a dropdown for the plain color gradients!
+button maker now has a dropdown for the plain color gradients! there's also a bit more kerning (to make things narrower and more even!)
 
+also added support for the following characters! they don't look the best in this style but I know they're useful.
+Ā Ä Ō Ö Ø Æ ā ä ō ö ø æ
 -----
 [size=4][b]NEW BUTTONS[/b][/size]
 -----
