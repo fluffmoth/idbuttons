@@ -28,6 +28,14 @@
 		exclusive: `` // optional - who can use an exclusive identity
 */
 
+function mergeArr(list) {
+	let arr = [];
+	list.forEach((item)=>{
+		arr = arr.concat(item);
+	});
+	return [...new Set(arr)];
+}
+
 const genderButtonList = [
 	{
 		name: `A-Faunic`, // display name
@@ -870,8 +878,8 @@ const genderButtonList = [
 		name: `Two Spirit`, // display name
 		altNames: [`Two Spirited`,`Indigiqueer`], // optional alternate names, for search algorithms
 		imgur: `FqB1Zrz.png`, // imgur link
-		tags: [`gender`,`orientation`,`third gender`,`indigenous`,`native`,`north american`,`native american`,`first nations`], // tags for search/filtering
-		info: `Umbrella term for gender/orientation identities only understood within the framework of a North American Indigenous culture`, // optional extra info
+		tags: [`gender`,`orientation`,`third gender`,`indigenous`,`native`,`north american`,`native american`,`first nations`,`american indian`], // tags for search/filtering
+		info: `Umbrella term for gender/orientation identities only understood within the framework of a North American <a href="?tags=indigenous">indigenous</a> culture`, // optional extra info
 		icon: `flag`, // description of the flag/icon
 		exclusive: `Indigenous North Americans` // optional - who can use an exclusive identity
 	},
@@ -881,8 +889,8 @@ const genderButtonList = [
 		imgur: `t9miC8h.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		inMakerIcons: false, // whether this button should be included in the button maker icon list
-		tags: [`gender`,`orientation`,`third gender`,`indigenous`,`native`,`north american`,`native american`,`first nations`], // tags for search/filtering
-		info: `Umbrella term for gender/orientation identities only understood within the framework of a North American Indigenous culture`, // optional extra info
+		tags: [`gender`,`orientation`,`third gender`,`indigenous`,`native`,`north american`,`native american`,`first nations`,`american indian`], // tags for search/filtering
+		info: `Umbrella term for gender/orientation identities only understood within the framework of a North American <a href="?tags=indigenous">indigenous</a> culture`, // optional extra info
 		icon: `flag`, // description of the flag/icon
 		exclusive: `Indigenous North Americans` // optional - who can use an exclusive identity
 	},
@@ -16202,7 +16210,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `qeXDB0s.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16213,7 +16221,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `XIXYVoK.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16224,7 +16232,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `YCnjUH5.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16235,7 +16243,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `fl1vQaT.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16246,7 +16254,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `J4kxjL7.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16257,7 +16265,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `4sozEUF.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16268,7 +16276,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `FL1wyM1.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16279,7 +16287,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `yqLTJex.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16290,7 +16298,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `v47gd8v.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16301,7 +16309,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `QDPdL8l.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16312,7 +16320,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `ruEalML.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16324,7 +16332,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `9sPfid0.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`,`generation`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16336,7 +16344,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `WPgFFUE.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`,`generation`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16348,7 +16356,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `7MOF9Sc.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`,`generation`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16360,7 +16368,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `88th5Lc.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`,`generation`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16372,7 +16380,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `kSQZv48.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`,`generation`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16384,7 +16392,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `9dGDGLt.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`,`generation`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16396,7 +16404,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `b7CUW6Z.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`,`generation`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16408,7 +16416,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `9ktzx07.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`,`generation`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16420,7 +16428,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `GHMvISB.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`,`generation`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -16432,7 +16440,7 @@ const subspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `w8BabGw.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: subspeciesData.archangels.tags.concat([`lineage extras`,`generation`]), // tags for search/filtering
+		tags: mergeArr([subspeciesData.archangels.tags,[`lineage extras`,`generation`]]), // tags for search/filtering
 		info: subspeciesData.archangels.info, // optional extra info
 		link: subspeciesData.archangels.link, // optional URL the button should link to
 		icon: `Archangels feather` // description of the flag/icon
@@ -19264,7 +19272,7 @@ const healthList = [
 		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `p6JrpYpq/Alcoholism.png`, // imgbb
 		imgur: `Ypi5mR3.png`, // imgur link
-		tags: healthData.addiction.tags.concat([`alcohol`]), // tags for search/filtering
+		tags: mergeArr([healthData.addiction.tags,[`alcohol`]]), // tags for search/filtering
 		info: healthData.addiction.info, // optional extra info
 		icon: `Awareness ribbon` // description of the flag/icon
 	},
@@ -20612,7 +20620,7 @@ const interestsList = [
 		alt: `Webtoon: %name`,
 		src: `/buttons/interests/%name.png`, // local image source
 		imgur: `yqVpjAe.png`, // imgur link
-		tags: interestsData.webcomic.tags.concat([`webtoon`]), // tags for search/filtering
+		tags: mergeArr([interestsData.webcomic.tags,[`webtoon`]]), // tags for search/filtering
 		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
 		icon: `` // description of the flag/icon
 	},
@@ -20623,7 +20631,7 @@ const interestsList = [
 		src: `/buttons/interests/%name.png`, // local image source
 		imgur: `DZ2YoZw.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: interestsData.webcomic.tags.concat([`webtoon`]), // tags for search/filtering
+		tags: mergeArr([interestsData.webcomic.tags,[`webtoon`]]), // tags for search/filtering
 		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
 		icon: `` // description of the flag/icon
 	},
@@ -20633,7 +20641,7 @@ const interestsList = [
 		alt: `Webtoon: %name`,
 		src: `/buttons/interests/%name.png`, // local image source
 		imgur: `8qUqXAk.png`, // imgur link
-		tags: interestsData.webcomic.tags.concat([`webtoon`]), // tags for search/filtering
+		tags: mergeArr([interestsData.webcomic.tags,[`webtoon`]]), // tags for search/filtering
 		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
 		icon: `Pink sunset` // description of the flag/icon
 	},
@@ -20643,7 +20651,7 @@ const interestsList = [
 		alt: `Webtoon: %name`,
 		src: `/buttons/interests/%name.png`, // local image source
 		imgur: `FdRgAys.png`, // imgur link
-		tags: interestsData.webcomic.tags.concat([`webtoon`]), // tags for search/filtering
+		tags: mergeArr([interestsData.webcomic.tags,[`webtoon`]]), // tags for search/filtering
 		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
 		icon: `Grim Reaper shirt X` // description of the flag/icon
 	},
@@ -20654,7 +20662,7 @@ const interestsList = [
 		src: `/buttons/interests/%name.png`, // local image source
 		imgur: `EOVKisq.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: interestsData.webcomic.tags.concat([`webtoon`]), // tags for search/filtering
+		tags: mergeArr([interestsData.webcomic.tags,[`webtoon`]]), // tags for search/filtering
 		info: `<a href="?tags=interests,webcomic">Webcomic</a>`, // optional extra info
 		icon: `Grim Reaper shirt X` // description of the flag/icon
 	},
@@ -24474,6 +24482,12 @@ const cultureData = {
 		tags: [`state`,`culture`,`united states`,`usa`,`america`,`american`], // tags for search/filtering
 		info: `State in the ${usaLink}`, // optional extra info
 	},
+	fnat: {
+		tags: [`nationality`,`culture`,`indigenous`,`canada`,`canadian`,`canadian indian`,`autochtone`],
+	},
+	natAm: {
+		tags: [`nationality`,`culture`,`indigenous`,`native american`,`american indian`,`united states`,`usa`,`america`,`american`],
+	}
 }
 const cultureList = [
 	{
@@ -24514,7 +24528,7 @@ const cultureList = [
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		imgbb: `0yRWpXgg/Anishinaabe.png`, // imgbb link
 		imgur: `ejVN1wW.png`, // imgur link
-		tags: [`nationality`,`culture`,`indigenous`,`native american`,`american indian`,`first nations`,`ojibwe`,`odawa`,`potawatomi`,`mississaugas`,`nipissing`,`algonquin`], // tags for search/filtering
+		tags: mergeArr([cultureData.natAm.tags,cultureData.fnat.tags,[`ojibwe`,`odawa`,`potawatomi`,`mississaugas`,`nipissing`,`algonquin`]]), // tags for search/filtering
 		icon: `symbol` // description of the flag/icon
 	},
 	{
@@ -24627,7 +24641,7 @@ const cultureList = [
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		imgbb: `5q34fH7/Californian.png`, // imgbb link
 		imgur: `sdaikfV.png`, // imgur link
-		tags: cultureData.usaState.tags.concat([`california`]), // tags for search/filtering
+		tags: mergeArr([cultureData.usaState.tags,[`california`]]), // tags for search/filtering
 		info: cultureData.usaState.info, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
@@ -24670,7 +24684,7 @@ const cultureList = [
 		altNames: [`Coloradoan`], // optional alternate names, for search algorithms
 		imgbb: `whY5nwdD/Coloradan.png`, // imgbb link
 		imgur: `m0Fu9aI.png`, // imgur link
-		tags: cultureData.usaState.tags.concat([`colorado`]), // tags for search/filtering
+		tags: mergeArr([cultureData.usaState.tags,[`colorado`]]), // tags for search/filtering
 		info: cultureData.usaState.info, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
@@ -24690,10 +24704,190 @@ const cultureList = [
 		tags: [`nationality`,`culture`,`cuba`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
+	{
+		name: `Cypriot`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/mrmQTQNy/Cypriot.png`, // imgbb link
+		imgur: `https://i.imgur.com/zaehd5u.png`, // imgur link
+		tags: [`nationality`,`culture`,`cyprus`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Czech`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/1G8DTcgq/Czech.png`, // imgbb link
+		imgur: `https://i.imgur.com/n3XdSHq.png`, // imgur link
+		tags: [`nationality`,`culture`,`Czech Republic`,`Czechia`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Danish`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/rKqt4j1D/Danish.png`, // imgbb link
+		imgur: `https://i.imgur.com/ckAgcPc.png`, // imgur link
+		tags: [`nationality`,`culture`,`denmark`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Dutch`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/8DkqQ3kK/Dutch.png`, // imgbb link
+		imgur: `https://i.imgur.com/JrEJc4j.png`, // imgur link
+		tags: [`nationality`,`culture`,`netherlands`,`holland`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `English`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/p6Zy9bFS/English.png`, // imgbb link
+		imgur: `https://i.imgur.com/ISyTGXM.png`, // imgur link
+		tags: [`nationality`,`culture`,`england`,`britain`,`british`,`uk`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Estonian`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/S4Vx76JQ/Estonian.png`, // imgbb link
+		imgur: `https://i.imgur.com/8VNo9V1.png`, // imgur link
+		tags: [`nationality`,`culture`,`estonia`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `European`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/zhMBN86V/European.png`, // imgbb link
+		imgur: `https://i.imgur.com/oeFk1xC.png`, // imgur link
+		tags: [`nationality`,`culture`,`europe`,`eu`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Filipino`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/v6FmrFhV/Filipino.png`, // imgbb link
+		imgur: `https://i.imgur.com/gMDuKVs.png`, // imgur link
+		tags: [`nationality`,`culture`,`philippines`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Finnish`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/fYLK9fM9/Finnish.png`, // imgbb link
+		imgur: `https://i.imgur.com/HouhGS9.png`, // imgur link
+		tags: [`nationality`,`culture`,`finland`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `First Nations`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		src: `%name_directions_symbol.png`, // local image source
+		imgbb: `https://i.ibb.co/4gJRHkX7/First-Nations-directions-symbol.png`, // imgbb link
+		imgur: `https://i.imgur.com/gNVTFm4.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: cultureData.fnat.tags, // tags for search/filtering
+		icon: `Four directions symbol` // description of the flag/icon
+	},
+	{
+		name: `First Nations`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		src: `%name_directions.png`, // local image source
+		imgbb: `https://i.ibb.co/SwdNdG9n/First-Nations-directions.png`, // imgbb link
+		imgur: `https://i.imgur.com/MelXTK6.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: cultureData.fnat.tags, // tags for search/filtering
+		icon: `Four directions flag` // description of the flag/icon
+	},
+	{
+		name: `First Nations`, // display name
+		alt: `%name: Gay Pride`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		src: `%name_directions_pride.png`, // local image source
+		imgbb: `https://i.ibb.co/Txj7YsXC/First-Nations-directions-pride.png`, // imgbb link
+		imgur: `https://i.imgur.com/YJsDN6Y.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: mergeArr([cultureData.fnat.tags,[`pride`,`gay`]]), // tags for search/filtering
+		icon: `Four directions gay pride flag` // description of the flag/icon
+	},
+	{
+		name: `First Nations`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		src: `%name_blue.png`, // local image source
+		imgbb: `https://i.ibb.co/Qj1Bm2Hp/First-Nations-blue.png`, // imgbb link
+		imgur: `https://i.imgur.com/5v5knBG.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: cultureData.fnat.tags, // tags for search/filtering
+		icon: `Gradient: Blue` // description of the flag/icon
+	},
+	{
+		name: `First Nations`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		src: `%name_orange.png`, // local image source
+		imgbb: `https://i.ibb.co/jk6mF0p8/First-Nations-orange.png`, // imgbb link
+		imgur: `https://i.imgur.com/EK8dhk0.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: cultureData.fnat.tags, // tags for search/filtering
+		icon: `Gradient: Orange` // description of the flag/icon
+	},
+	{
+		name: `French`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/zTs273yB/French.png`, // imgbb link
+		imgur: `https://i.imgur.com/ExZ9JCk.png`, // imgur link
+		tags: [`nationality`,`culture`,`france`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `German`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Hpq7g9zG/German.png`, // imgbb link
+		imgur: `https://i.imgur.com/TB6EYwU.png`, // imgur link
+		tags: [`nationality`,`culture`,`germany`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Greek`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/KxTcKLJ0/Greek.png`, // imgbb link
+		imgur: `https://i.imgur.com/Da5UPof.png`, // imgur link
+		tags: [`nationality`,`culture`,`greece`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Hawaiian`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/t9cPL8d/Hawaiian.png`, // imgbb link
+		imgur: `https://i.imgur.com/fqRBC9C.png`, // imgur link
+		tags: mergeArr([cultureData.usaState.tags,cultureData.natAm.tags,[`hawaii`]]),
+		info: cultureData.usaState.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Hungarian`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/tp0BNXcV/Hungarian.png`, // imgbb link
+		imgur: `https://i.imgur.com/HkP1Kx1.png`, // imgur link
+		tags: [`nationality`,`culture`,`hungaria`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Icelandic`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Y7wqJfkr/Icelandic.png`, // imgbb link
+		imgur: `https://i.imgur.com/Y86p3P3.png`, // imgur link
+		tags: [`nationality`,`culture`,`iceland`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Indian`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/qM8nnDTt/Indian.png`, // imgbb link
+		imgur: `https://i.imgur.com/BWs5gMJ.png`, // imgur link
+		tags: [`nationality`,`culture`,`india`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
 	/*
 	{
 		name: ``, // display name
-		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
 		imgbb: ``, // imgbb link
 		imgur: ``, // imgur link
 		tags: [`nationality`,`culture`], // tags for search/filtering
@@ -25077,11 +25271,11 @@ const alterhumanLink = `<a href="?tags=alterhuman,!gender,!orientation">alterhum
 const otherkinLink = `<a href="?tags=otherkin,!gender,!orientation">otherkin</a>`;
 const therianLink = `<a href="?tags=therian|therianthropy,!gender,!orientation">therian</a>`;
 const ahmData = {
-	alterhuman: {
+	ah: {
 		tags: [`alterhuman`,`alterhumanity`],
 		info: `Umbrella term for <a href="?tags=alterhuman,!gender,!orientation">non-human identities</a>, including ${otherkinLink}, <a href="?tags=otherhearted|other-hearted,!gender,!orientation">other-hearted</a>, and ${therianLink}.`,
 	},
-	otherkin: {
+	ok: {
 		tags: [`alterhuman`,`otherkin`,`kin`],
 		info: `Someone who identifies as something non-human. Subset of ${alterhumanLink}.`,
 	},
@@ -25130,8 +25324,8 @@ const alterhumanList = [
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
 		imgbb: `wNypvDF7/Alterhuman.png`, // imgbb link
 		imgur: `7jiGFkF.png`, // imgur link
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
-		info: ahmData.alterhuman.info, // optional extra info
+		tags: ahmData.ah.tags, // tags for search/filtering
+		info: ahmData.ah.info, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -25140,8 +25334,8 @@ const alterhumanList = [
 		src: `%name_arrow.png`, // local image source
 		imgbb: `svfg5ttB/Alterhuman-arrow.png`, // imgbb link
 		imgur: `9jOcsZP.png`, // imgur link
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
-		info: ahmData.alterhuman.info, // optional extra info
+		tags: ahmData.ah.tags, // tags for search/filtering
+		info: ahmData.ah.info, // optional extra info
 		icon: `flag (arrow)` // description of the flag/icon
 	},
 	{
@@ -25151,8 +25345,8 @@ const alterhumanList = [
 		imgbb: `5gsFYW2G/Alterhuman-star.png`, // imgbb link
 		imgur: `GdVZ87H.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
-		info: ahmData.alterhuman.info, // optional extra info
+		tags: ahmData.ah.tags, // tags for search/filtering
+		info: ahmData.ah.info, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
 	},
 	{
@@ -25162,8 +25356,8 @@ const alterhumanList = [
 		imgbb: `DfRjGZ11/Alterhuman-star-rainbow.png`, // imgbb link
 		imgur: `VSr1Vbo.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
-		info: ahmData.alterhuman.info, // optional extra info
+		tags: ahmData.ah.tags, // tags for search/filtering
+		info: ahmData.ah.info, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
 	{
@@ -25172,8 +25366,8 @@ const alterhumanList = [
 		src: `%name_unity.png`, // local image source
 		imgbb: `YFhBgjsG/Alterhuman-unity.png`, // imgbb link
 		imgur: `eRr2ScT.png`, // imgur link
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
-		info: ahmData.alterhuman.info, // optional extra info
+		tags: ahmData.ah.tags, // tags for search/filtering
+		info: ahmData.ah.info, // optional extra info
 		icon: `Non-human unity flag` // description of the flag/icon
 	},
 	{
@@ -25183,8 +25377,8 @@ const alterhumanList = [
 		imgbb: `Z6YSvkxS/Alterhuman-kingender.png`, // imgbb link
 		imgur: `KYYbV7r.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.alterhuman.tags.concat([`kingender`]), // tags for search/filtering
-		info: ahmData.alterhuman.info, // optional extra info
+		tags: mergeArr([ahmData.ah.tags,[`kingender`]]), // tags for search/filtering
+		info: ahmData.ah.info, // optional extra info
 		icon: `Kingender flag` // description of the flag/icon
 	},
 	{
@@ -25194,8 +25388,8 @@ const alterhumanList = [
 		imgbb: `pvPgbv72/Alterhuman-otherkin.png`, // imgbb link
 		imgur: `s9zliaA.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
-		info: ahmData.alterhuman.info, // optional extra info
+		tags: ahmData.ah.tags, // tags for search/filtering
+		info: ahmData.ah.info, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
 	},
 	{
@@ -25206,8 +25400,8 @@ const alterhumanList = [
 		imgbb: `wrdG7cFZ/Alterhuman-heart.png`, // imgbb link
 		imgur: `YRaRu8z.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
-		info: ahmData.alterhuman.info, // optional extra info
+		tags: ahmData.ah.tags, // tags for search/filtering
+		info: ahmData.ah.info, // optional extra info
 		icon: `Otherhearted flag` // description of the flag/icon
 	},
 	{
@@ -25216,8 +25410,8 @@ const alterhumanList = [
 		src: `%name_flag_star.png`, // local image source
 		imgbb: `YFjhSfd5/Otherkin-flag-star.png`, // imgbb link
 		imgur: `lcef6vu.png`, // imgur link
-		tags: ahmData.otherkin.tags, // tags for search/filtering
-		info: ahmData.otherkin.info, // optional extra info
+		tags: ahmData.ok.tags, // tags for search/filtering
+		info: ahmData.ok.info, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -25226,9 +25420,9 @@ const alterhumanList = [
 		src: `%name_flag.png`, // local image source
 		imgbb: `mr0kD7Ms/Otherkin-flag.png`, // imgbb link
 		imgur: `pDmUZR4.png`, // imgur link
-		tags: ahmData.otherkin.tags, // tags for search/filtering
+		tags: ahmData.ok.tags, // tags for search/filtering
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		info: ahmData.otherkin.info, // optional extra info
+		info: ahmData.ok.info, // optional extra info
 		icon: `flag (blank)` // description of the flag/icon
 	},
 	{
@@ -25236,8 +25430,8 @@ const alterhumanList = [
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		imgbb: `tTBb3JWG/Otherkin.png`, // imgbb link
 		imgur: `yvMj9jM.png`, // imgur link
-		tags: ahmData.otherkin.tags, // tags for search/filtering
-		info: ahmData.otherkin.info, // optional extra info
+		tags: ahmData.ok.tags, // tags for search/filtering
+		info: ahmData.ok.info, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
 	},
 	{
@@ -25246,8 +25440,8 @@ const alterhumanList = [
 		src: `%name_rainbow.png`, // local image source
 		imgbb: `fVfPRF3b/Otherkin-rainbow.png`, // imgbb link
 		imgur: `2SL9DLK.png`, // imgur link
-		tags: ahmData.otherkin.tags, // tags for search/filtering
-		info: ahmData.otherkin.info, // optional extra info
+		tags: ahmData.ok.tags, // tags for search/filtering
+		info: ahmData.ok.info, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
 	{
@@ -25257,7 +25451,7 @@ const alterhumanList = [
 		imgbb: `5XQmPdjQ/Kintype-flag.png`, // imgbb link
 		imgur: `8K9pGrm.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags, // tags for search/filtering
+		tags: ahmData.ok.tags, // tags for search/filtering
 		info: ahmData.kintype.info, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
 	},
@@ -25267,7 +25461,7 @@ const alterhumanList = [
 		imgbb: `b5TDgTFb/Kintype.png`, // imgbb link
 		imgur: `OvVVyfp.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags, // tags for search/filtering
+		tags: ahmData.ok.tags, // tags for search/filtering
 		info: ahmData.kintype.info, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
 	},
@@ -25278,7 +25472,7 @@ const alterhumanList = [
 		imgbb: `HLXn2Rhf/Kintype-rainbow.png`, // imgbb link
 		imgur: `Y3rkGX3.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags, // tags for search/filtering
+		tags: ahmData.ok.tags, // tags for search/filtering
 		info: ahmData.kintype.info, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -25289,8 +25483,8 @@ const alterhumanList = [
 		imgbb: `TMbz45MW/Otherkin-unity.png`, // imgbb link
 		imgur: `Dnm4AF2.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags, // tags for search/filtering
-		info: ahmData.otherkin.info, // optional extra info
+		tags: ahmData.ok.tags, // tags for search/filtering
+		info: ahmData.ok.info, // optional extra info
 		icon: `Non-human unity flag` // description of the flag/icon
 	},
 	{
@@ -25481,7 +25675,7 @@ const alterhumanList = [
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
 		imgbb: `5hB3mjLW/Animalhearted.png`, // imgbb link
 		imgur: `V00GVPN.png`, // imgur link
-		tags: ahmData.kith.tags.concat(ahmData.animalhearted.tags), // tags for search/filtering
+		tags: mergeArr([ahmData.kith.tags,ahmData.animalhearted.tags]), // tags for search/filtering
 		info: ahmData.animalhearted.info, // optional extra info
 		icon: `Otherhearted flag` // description of the flag/icon
 	},
@@ -25492,7 +25686,7 @@ const alterhumanList = [
 		imgbb: `Q7PHBhVN/Animalhearted-sepia.png`, // imgbb link
 		imgur: `hi9JMdC.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.kith.tags.concat(ahmData.animalhearted.tags), // tags for search/filtering
+		tags: mergeArr([ahmData.kith.tags,ahmData.animalhearted.tags]), // tags for search/filtering
 		info: ahmData.animalhearted.info, // optional extra info
 		icon: `Otherhearted symbol` // description of the flag/icon
 	},
@@ -25503,7 +25697,7 @@ const alterhumanList = [
 		imgbb: `ntLjyqn/Animalhearted-rainbow.png`, // imgbb link
 		imgur: `Wwh8P6B.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.kith.tags.concat(ahmData.animalhearted.tags), // tags for search/filtering
+		tags: mergeArr([ahmData.kith.tags,ahmData.animalhearted.tags]), // tags for search/filtering
 		info: ahmData.animalhearted.info, // optional extra info
 		icon: `Otherhearted symbol (rainbow)` // description of the flag/icon
 	},
@@ -25512,7 +25706,7 @@ const alterhumanList = [
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
 		imgbb: `B2HZxVVK/Concepthearted.png`, // imgbb link
 		imgur: `MvUGOsj.png`, // imgur link
-		tags: ahmData.kith.tags.concat(ahmData.concepthearted.tags), // tags for search/filtering
+		tags: mergeArr([ahmData.kith.tags,ahmData.concepthearted.tags]), // tags for search/filtering
 		info: ahmData.concepthearted.info, // optional extra info
 		icon: `Otherhearted flag` // description of the flag/icon
 	},
@@ -25523,7 +25717,7 @@ const alterhumanList = [
 		imgbb: `HDKWCgzH/Concepthearted-sepia.png`, // imgbb link
 		imgur: `k0oA9NF.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.kith.tags.concat(ahmData.concepthearted.tags), // tags for search/filtering
+		tags: mergeArr([ahmData.kith.tags,ahmData.concepthearted.tags]), // tags for search/filtering
 		info: ahmData.concepthearted.info, // optional extra info
 		icon: `Otherhearted symbol` // description of the flag/icon
 	},
@@ -25534,7 +25728,7 @@ const alterhumanList = [
 		imgbb: `Cpn63xg6/Concepthearted-rainbow.png`, // imgbb link
 		imgur: `SU9ZDuG.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.kith.tags.concat(ahmData.concepthearted.tags), // tags for search/filtering
+		tags: mergeArr([ahmData.kith.tags,ahmData.concepthearted.tags]), // tags for search/filtering
 		info: ahmData.concepthearted.info, // optional extra info
 		icon: `Otherhearted symbol (rainbow)` // description of the flag/icon
 	},
@@ -25586,7 +25780,7 @@ const alterhumanList = [
 		src: `%name_Blood.png`, // local image source
 		imgbb: `tp0K38Gd/Vampirekin-Blood.png`, // imgbb link
 		imgur: `NONEehH.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`vampire`,`mythkin`]), // tags for search/filtering
+		tags: mergeArr([ahmData.ok.tags,[`vampire`,`mythkin`]]), // tags for search/filtering
 		info: `Vampire ${otherkinLink}`, // optional extra info
 		icon: `Blood drop` // description of the flag/icon
 	},
@@ -25596,7 +25790,7 @@ const alterhumanList = [
 		imgbb: `r2zrXR7C/Vampirekin-Bat.png`, // imgbb link
 		imgur: `u7OYglJ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`vampire`,`mythkin`]), // tags for search/filtering
+		tags: mergeArr([ahmData.ok.tags,[`vampire`,`mythkin`]]), // tags for search/filtering
 		info: `Vampire ${otherkinLink}`, // optional extra info
 		icon: `Bat` // description of the flag/icon
 	},
@@ -25605,7 +25799,7 @@ const alterhumanList = [
 		imgbb: `7J3PdLcj/Vampirekin.png`, // imgbb link
 		imgur: `LmMfriJ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`vampire`,`mythkin`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`vampire`,`mythkin`]), // tags for search/filtering
 		info: `Vampire ${otherkinLink}`, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
 	},
@@ -25676,7 +25870,7 @@ const alterhumanList = [
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		imgbb: `5XqkJfvt/Alienkin.png`, // imgbb link
 		imgur: `rkLgzXf.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`alien`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`alien`]), // tags for search/filtering
 		info: `Alien ${otherkinLink}`, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
 	},
@@ -25687,7 +25881,7 @@ const alterhumanList = [
 		imgbb: `S4W7h9DK/Alienkin-rainbow.png`, // imgbb link
 		imgur: `yCsfagy.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`alien`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`alien`]), // tags for search/filtering
 		info: `Alien ${otherkinLink}`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -25696,7 +25890,7 @@ const alterhumanList = [
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		imgbb: `0yfmj1HC/Divinekin.png`, // imgbb link
 		imgur: `JNNsLHA.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`divine`,`god`,`deity`,`divinity`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`divine`,`god`,`deity`,`divinity`]), // tags for search/filtering
 		info: `Divine ${otherkinLink}`, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
 	},
@@ -25707,7 +25901,7 @@ const alterhumanList = [
 		imgbb: `nqW7nJpg/Divinekin-rainbow.png`, // imgbb link
 		imgur: `MGxDhHJ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`divine`,`god`,`deity`,`divinity`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`divine`,`god`,`deity`,`divinity`]), // tags for search/filtering
 		info: `Divine ${otherkinLink}`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -25716,7 +25910,7 @@ const alterhumanList = [
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		imgbb: `B2LgXpG5/Dragonkin.png`, // imgbb link
 		imgur: `pI1B97L.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`mythkin`,`dragon`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`mythkin`,`dragon`]), // tags for search/filtering
 		info: `Dragon ${otherkinLink}`, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
 	},
@@ -25727,7 +25921,7 @@ const alterhumanList = [
 		imgbb: `VYjxNYJL/Dragonkin-rainbow.png`, // imgbb link
 		imgur: `opVsJqe.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`mythkin`,`dragon`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`mythkin`,`dragon`]), // tags for search/filtering
 		info: `Dragon ${otherkinLink}`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -25738,7 +25932,7 @@ const alterhumanList = [
 		imgbb: `nN09Hywk/Pokekin.png`, // imgbb link
 		imgur: `NX2q5kw.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`pokemon`,`pokémon`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`pokemon`,`pokémon`]), // tags for search/filtering
 		info: `Pokémon ${otherkinLink}`, // optional extra info
 		icon: `Pokeball` // description of the flag/icon
 	},
@@ -25748,7 +25942,7 @@ const alterhumanList = [
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		imgbb: `mVWx5FKm/Pokemon-Kin.png`, // imgbb link
 		imgur: `tZQ0VBu.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`pokemon`,`pokémon`,`pokekin`,`pokékin`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`pokemon`,`pokémon`,`pokekin`,`pokékin`]), // tags for search/filtering
 		info: `Pokémon ${otherkinLink}`, // optional extra info
 		icon: `Pokeball` // description of the flag/icon
 	},
@@ -25758,7 +25952,7 @@ const alterhumanList = [
 		src: `%name_flag.png`, // local image source
 		imgbb: `qMhRTnnZ/Elfkin-flag.png`, // imgbb link
 		imgur: `6gULK1c.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
+		tags: ahmData.ok.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
 		info: ahmData.elfkin.info, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
 	},
@@ -25768,7 +25962,7 @@ const alterhumanList = [
 		imgbb: `WNjxVrRr/Elfkin.png`, // imgbb link
 		imgur: `Lal2DbN.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
+		tags: ahmData.ok.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
 		info: ahmData.elfkin.info, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
 	},
@@ -25779,7 +25973,7 @@ const alterhumanList = [
 		imgbb: `KcqyY2zy/Elfkin-rainbow.png`, // imgbb link
 		imgur: `loIu81S.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
+		tags: ahmData.ok.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
 		info: ahmData.elfkin.info, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -25790,7 +25984,7 @@ const alterhumanList = [
 		imgbb: `XfQq7mhr/Elvenkin-flag.png`, // imgbb link
 		imgur: `jsFhq0M.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
+		tags: ahmData.ok.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
 		info: ahmData.elfkin.info, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
 	},
@@ -25800,7 +25994,7 @@ const alterhumanList = [
 		imgbb: `Y75Wh8ZM/Elvenkin.png`, // imgbb link
 		imgur: `KTBs8IW.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
+		tags: ahmData.ok.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
 		info: ahmData.elfkin.info, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
 	},
@@ -25811,7 +26005,7 @@ const alterhumanList = [
 		imgbb: `0V9HgRKn/Elvenkin-rainbow.png`, // imgbb link
 		imgur: `s3e4mOp.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
+		tags: ahmData.ok.tags.concat(ahmData.elfkin.tags), // tags for search/filtering
 		info: ahmData.elfkin.info, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -25823,7 +26017,7 @@ const alterhumanList = [
 		imgbb: `r2py6bFg/Bloodelfkin-rainbow.png`, // imgbb link
 		imgur: `k47b9Dk.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags,`blood elf`), // tags for search/filtering
+		tags: ahmData.ok.tags.concat(ahmData.elfkin.tags,`blood elf`), // tags for search/filtering
 		info: `Blood Elf ${ahmData.elfkin.info}`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -25835,7 +26029,7 @@ const alterhumanList = [
 		imgbb: `b53r3CVB/Nightelfkin-rainbow.png`, // imgbb link
 		imgur: `biSJt4i.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat(ahmData.elfkin.tags,`night elf`), // tags for search/filtering
+		tags: ahmData.ok.tags.concat(ahmData.elfkin.tags,`night elf`), // tags for search/filtering
 		info: `Night Elf ${ahmData.elfkin.info}`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -25845,7 +26039,7 @@ const alterhumanList = [
 		src: `%name_flag.png`, // local image source
 		imgbb: `5VC5YDc/Conceptkin-flag.png`, // imgbb link
 		imgur: `IOyMfEC.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`concept`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`concept`]), // tags for search/filtering
 		info: `An individual who is ${otherkinLink} with an abstract concept.`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
 	},
@@ -25855,7 +26049,7 @@ const alterhumanList = [
 		imgbb: `Kx2Nq8X3/Conceptkin.png`, // imgbb link
 		imgur: `pSl5eBg.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`concept`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`concept`]), // tags for search/filtering
 		info: `An individual who is ${otherkinLink} with an abstract concept.`, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
 	},
@@ -25866,7 +26060,7 @@ const alterhumanList = [
 		imgbb: `ZPHfVSV/Conceptkin-rainbow.png`, // imgbb link
 		imgur: `G0iQYvq.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`concept`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`concept`]), // tags for search/filtering
 		info: `An individual who is ${otherkinLink} with an abstract concept.`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -25876,7 +26070,7 @@ const alterhumanList = [
 		src: `%name_rainbow.png`, // local image source
 		imgbb: `DDZKPCqB/Objectkin-rainbow.png`, // imgbb link
 		imgur: `QvlMVha.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`object`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`object`]), // tags for search/filtering
 		info: `An individual who is ${otherkinLink} with an object/type of object.`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -25886,7 +26080,7 @@ const alterhumanList = [
 		src: `%name_rainbow.png`, // local image source
 		imgbb: `CpBf9dWh/OC-Kin-rainbow.png`, // imgbb link
 		imgur: `70pBAfz.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`oc`,`original character`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`oc`,`original character`]), // tags for search/filtering
 		info: `An individual who is ${otherkinLink} with an original character.`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -25896,7 +26090,7 @@ const alterhumanList = [
 		src: `%name_flag.png`, // local image source
 		imgbb: `CrF6ZDH/Angelkin-flag.png`, // imgbb link
 		imgur: `U6h6eP1.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`angel`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`angel`]), // tags for search/filtering
 		info: `Angel ${otherkinLink}`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
 	},
@@ -25907,7 +26101,7 @@ const alterhumanList = [
 		imgbb: `QqydsGj/Angelkin-Alderangelos.png`, // imgbb link
 		imgur: `05lHsUM.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`angel`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`angel`]), // tags for search/filtering
 		info: `Angel ${otherkinLink}`, // optional extra info
 		icon: `Alderangelos flag` // description of the flag/icon
 	},
@@ -25917,7 +26111,7 @@ const alterhumanList = [
 		src: `%name_flag.png`, // local image source
 		imgbb: `PzZV76LS/Faerykin-flag.png`, // imgbb link
 		imgur: `lI6eHpY.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`mythkin`,`fairy`,`faerie`,`faery`,`fairykin`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`mythkin`,`fairy`,`faerie`,`faery`,`fairykin`]), // tags for search/filtering
 		info: `Faery ${otherkinLink}`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
 	},
@@ -25928,7 +26122,7 @@ const alterhumanList = [
 		imgbb: `zTpM7WST/Faerykin-rainbow.png`, // imgbb link
 		imgur: `PnslhTH.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`mythkin`,`fairy`,`faerie`,`faery`,`fairykin`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`mythkin`,`fairy`,`faerie`,`faery`,`fairykin`]), // tags for search/filtering
 		info: `Faery ${otherkinLink}`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -25938,7 +26132,7 @@ const alterhumanList = [
 		src: `%name_flag.png`, // local image source
 		imgbb: `fVkWPkRK/Mythkin-flag.png`, // imgbb link
 		imgur: `55LDnRC.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`mythical`,`myth`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`mythical`,`myth`]), // tags for search/filtering
 		info: `Mythical ${otherkinLink} (more <a href="?tags=alterhuman,myth|mythical|mythkin">mythical alterhuman buttons</a> here)`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
 	},
@@ -25949,7 +26143,7 @@ const alterhumanList = [
 		imgbb: `tT7BTrBj/Mythkin-rainbow.png`, // imgbb link
 		imgur: `TdCJPGC.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`mythical`,`myth`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`mythical`,`myth`]), // tags for search/filtering
 		info: `Mythical ${otherkinLink}`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -25958,7 +26152,7 @@ const alterhumanList = [
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		imgbb: `5XJ5RF2v/Non-human.png`, // imgbb link
 		imgur: `ePbkGIA.png`, // imgur link
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		tags: ahmData.ah.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
@@ -25968,7 +26162,7 @@ const alterhumanList = [
 		src: `%name_otherkin.png`, // local image source
 		imgbb: `gZTrB7bn/Non-human-otherkin.png`, // imgbb link
 		imgur: `qTY49KF.png`, // imgur link
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		tags: ahmData.ah.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
 	},
@@ -25978,7 +26172,7 @@ const alterhumanList = [
 		src: `%name_therian.png`, // local image source
 		imgbb: `YTQZDNDs/Non-human-therian.png`, // imgbb link
 		imgur: `sKClqy5.png`, // imgur link
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		tags: ahmData.ah.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
 		icon: `Therian symbol` // description of the flag/icon
 	},
@@ -25989,7 +26183,7 @@ const alterhumanList = [
 		imgbb: `jkpFW7BP/Non-human-alterhuman.png`, // imgbb link
 		imgur: `eTvCFKy.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		tags: ahmData.ah.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
 		icon: `Alterhuman flag` // description of the flag/icon
 	},
@@ -25999,7 +26193,7 @@ const alterhumanList = [
 		imgbb: `FSQb9y4/Nonhuman.png`, // imgbb link
 		imgur: `zd2GXf3.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		tags: ahmData.ah.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
@@ -26010,7 +26204,7 @@ const alterhumanList = [
 		imgbb: `SXX2PPMb/Nonhuman-otherkin.png`, // imgbb link
 		imgur: `kSJ8XN6.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		tags: ahmData.ah.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
 	},
@@ -26021,7 +26215,7 @@ const alterhumanList = [
 		imgbb: `YFCHrHSR/Nonhuman-therian.png`, // imgbb link
 		imgur: `mEpEKW6.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		tags: ahmData.ah.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
 		icon: `Therian symbol` // description of the flag/icon
 	},
@@ -26032,7 +26226,7 @@ const alterhumanList = [
 		imgbb: `gF3g4xxQ/Nonhuman-alterhuman.png`, // imgbb link
 		imgur: `SH3Nqqo.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.alterhuman.tags, // tags for search/filtering
+		tags: ahmData.ah.tags, // tags for search/filtering
 		info: `Someone with a non-human identity (${alterhumanLink})`, // optional extra info
 		icon: `Alterhuman flag` // description of the flag/icon
 	},
@@ -26042,7 +26236,7 @@ const alterhumanList = [
 		src: `%name_flag.png`, // local image source
 		imgbb: `ks7pJTbw/Robotkin-flag.png`, // imgbb link
 		imgur: `DKz1FZ0.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`robot`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`robot`]), // tags for search/filtering
 		info: `Robot ${otherkinLink}`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
 	},
@@ -26052,7 +26246,7 @@ const alterhumanList = [
 		imgbb: `1JqjPzCn/Robotkin.png`, // imgbb link
 		imgur: `SF8bDSw.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`robot`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`robot`]), // tags for search/filtering
 		info: `Robot ${otherkinLink}`, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
 	},
@@ -26063,7 +26257,7 @@ const alterhumanList = [
 		imgbb: `Rp3NwqCK/Robotkin-rainbow.png`, // imgbb link
 		imgur: `r5JEfN3.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`robot`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`robot`]), // tags for search/filtering
 		info: `Robot ${otherkinLink}`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -26081,7 +26275,7 @@ const alterhumanList = [
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		imgbb: `WpNDjHP9/Werewolfkin.png`, // imgbb link
 		imgur: `mxZJBlR.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`mythkin`,`werewolf`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`mythkin`,`werewolf`]), // tags for search/filtering
 		info: `Werewolf ${otherkinLink}`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
@@ -26092,7 +26286,7 @@ const alterhumanList = [
 		imgbb: `SDL5rJQY/Werewolfkin-sepia.png`, // imgbb link
 		imgur: `PDKwpJG.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`mythkin`,`werewolf`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`mythkin`,`werewolf`]), // tags for search/filtering
 		info: `Werewolf ${otherkinLink}`, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
 	},
@@ -26103,7 +26297,7 @@ const alterhumanList = [
 		imgbb: `VY5QMFfx/Werewolfkin-rainbow.png`, // imgbb link
 		imgur: `T7XhnRp.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`mythkin`,`werewolf`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`mythkin`,`werewolf`]), // tags for search/filtering
 		info: `Werewolf ${otherkinLink}`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
@@ -26112,7 +26306,7 @@ const alterhumanList = [
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		imgbb: `hRqrTktx/Spacekind.png`, // imgbb link
 		imgur: `sg0ki88.png`, // imgur link
-		tags: ahmData.otherkin.tags.concat([`spacekin`,`space`,`alien`,`alienkin`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`spacekin`,`space`,`alien`,`alienkin`]), // tags for search/filtering
 		info: `Space/alien ${otherkinLink}`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
@@ -26123,7 +26317,7 @@ const alterhumanList = [
 		imgbb: `LbfNTts/Star-Wars-Kin-Spacekind.png`, // imgbb link
 		imgur: `FETC8wd.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([`spacekind`,`alien`,`alienkin`,`star wars`,`fictionkin`]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`spacekind`,`alien`,`alienkin`,`star wars`,`fictionkin`]), // tags for search/filtering
 		info: `Star Wars related ${otherkinLink}`, // optional extra info
 		icon: `Spacekind flag` // description of the flag/icon
 	},
@@ -26134,7 +26328,7 @@ const alterhumanList = [
 		src: `%name_flag.png`, // local image source
 		imgbb: ``, // imgbb link
 		imgur: ``, // imgur link
-		tags: ahmData.otherkin.tags.concat([]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([]), // tags for search/filtering
 		info: `${otherkinLink}`, // optional extra info
 		icon: `Otherkin flag` // description of the flag/icon
 	},
@@ -26143,7 +26337,7 @@ const alterhumanList = [
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		imgbb: ``, // imgbb link
 		imgur: ``, // imgur link
-		tags: ahmData.otherkin.tags.concat([]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([]), // tags for search/filtering
 		info: `${otherkinLink}`, // optional extra info
 		icon: `Sepia 7-pointed star` // description of the flag/icon
 	},
@@ -26154,7 +26348,7 @@ const alterhumanList = [
 		imgbb: ``, // imgbb link
 		imgur: ``, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ahmData.otherkin.tags.concat([]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([]), // tags for search/filtering
 		info: `${otherkinLink}`, // optional extra info
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
