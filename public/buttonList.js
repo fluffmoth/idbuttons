@@ -21115,7 +21115,84 @@ const interestsList = [
 		info: `<a href="?tags=interests,horror">Horror</a> <a href="?tags=interests,movie">movie</a> series`, // optional extra info
 		icon: `Jigsaw` // description of the flag/icon
 	},
+	{
+		name: `Gravity Falls`, // display name
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/FQh8JNz.png`, // imgur link
+		tags: [`interests`,`fandom`,`television`,`animation`], // tags for search/filtering
+		info: `<a href="?tags=interests,animation">Animated</a> children's <a href="?tags=interests,television">TV</a> series`, // optional extra info
+		icon: `Gravity Falls book` // description of the flag/icon
+	},
 	
+	{
+		name: `JoJo's Bizarre Adventure`, // display name
+		altNames: [`JJBA`],
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/exwSuNC.png`, // imgur link
+		tags: [`interests`,`fandom`,`manga`,`anime`,`animation`,`television`], // tags for search/filtering
+		info: `<a href="?tags=interests,manga">Manga</a>/<a href="?tags=interests,anime">anime</a>`, // optional extra info
+		icon: `Jojo's star` // description of the flag/icon
+	},
+	{
+		name: `JoJo's`, // display name
+		altNames: [`JoJo's Bizarre Adventure`,`JJBA`],
+		alt: `%altNames0`,
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/AA5vFi5.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`manga`,`anime`,`animation`,`television`], // tags for search/filtering
+		info: `<a href="?tags=interests,manga">Manga</a>/<a href="?tags=interests,anime">anime</a>`, // optional extra info
+		icon: `Jojo's star` // description of the flag/icon
+	},
+	{
+		name: `JoJo's Bizarre Adventure`, // display name
+		altNames: [`JJBA`],
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name_2.png`, // local image source
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/VxZxtCZ.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`interests`,`fandom`,`manga`,`anime`,`animation`,`television`], // tags for search/filtering
+		info: `<a href="?tags=interests,manga">Manga</a>/<a href="?tags=interests,anime">anime</a>`, // optional extra info
+		icon: `Jojo's star alt` // description of the flag/icon
+	},
+	{
+		name: `Hunter x Hunter`, // display name
+		altNames: [`HxH`,`HunterxHunter`],
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/B771gaJ.png`, // imgur link
+		tags: [`interests`,`fandom`,`manga`,`anime`,`animation`,`television`], // tags for search/filtering
+		info: `<a href="?tags=interests,manga">Manga</a>/<a href="?tags=interests,anime">anime</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Naruto`, // display name
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/BXvcePR.png`, // imgur link
+		tags: [`interests`,`fandom`,`manga`,`anime`,`animation`,`television`], // tags for search/filtering
+		info: `<a href="?tags=interests,manga">Manga</a>/<a href="?tags=interests,anime">anime</a>`, // optional extra info
+		icon: `Leaf headband` // description of the flag/icon
+	},
+	{
+		name: `Anime`, // display name
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/qeWy3Ik.png`, // imgur link
+		tags: [`interests`,`fandom`,`anime`,`animation`,`television`], // tags for search/filtering
+		info: `<a href="?tags=interests,anime">Anime</a>`, // optional extra info
+		icon: `Naruto leaf headband` // description of the flag/icon
+	},
 	/*
 	{
 		name: ``, // display name

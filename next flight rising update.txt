@@ -2,7 +2,7 @@ LAST POST - 8/18/26 NEXT POST - after 9/1/26
 
 @pinglist-4936
 
-button maker now has a dropdown for the plain color gradients! there's also a bit more kerning (to make things narrower and more even!)
+the [url=https://idbuttons.neocities.org/maker/]button maker[/url] now has a dropdown for the plain color gradients! there's also a bit more kerning (to make things narrower and more even)
 
 also added support for the following characters! they don't look the best in this style, but I know they're sometimes necessary :'>
 Ā Ä É Ō Ö Ø Æ
@@ -15,6 +15,10 @@ Webcomics (icons by springb0nnie, modified a bit to show up clearer on the stand
 [img alt="Applegeeks"]https://i.ibb.co/nN48ZQFv/Applegeeks.png[/img] [img alt="Applegeeks"]https://i.ibb.co/dwPmvFQ4/Applegeeks-Asmodaeus-Aqua-png.png[/img] [img alt="Applegeeks"]https://i.ibb.co/s98hvFrX/Applegeeks-alt.png[/img] [img alt="Applegeeks"]https://i.ibb.co/F4gvm3jv/Applegeeks-alt-Asmodaeus-Aqua.png[/img]
 [img alt="Mac Hall"]https://i.ibb.co/ZRZSSLRQ/Mac-Hall.png[/img] [img alt="Mac Hall"]https://i.ibb.co/zVDR4T9x/Mac-Hall-Asmodaeus-Red.png[/img]
 [img alt="MegaTokyo"]https://i.ibb.co/3mFtb9kp/Megatokyo.png[/img]
+
+Adjusted icons
+[img alt="Gravity Falls"]https://i.imgur.com/FQh8JNz.png[/img]
+[img alt="JoJo's Bizarre Adventure"]https://i.imgur.com/exwSuNC.png[/img] [img alt="JoJo's"]https://i.imgur.com/AA5vFi5.png[/img]
 
 [b]GAMES[/b]
 [img alt="Cat Cafe Manager"]https://i.imgur.com/Yh1sjaI.png[/img]
