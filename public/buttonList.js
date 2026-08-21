@@ -22444,7 +22444,6 @@ const gamesList = [
 ]
 // assign default values
 gamesList.forEach((item)=>{
-		item.src = `/buttons/interests/games/%name.png`;
 	if ((typeof item.src == 'undefined' || item.src == ``) && (typeof item.imgbb != 'undefined' && item.imgbb != ``)) {
 		item.src = `/buttons/interests/games/%name.png`;
 	}
