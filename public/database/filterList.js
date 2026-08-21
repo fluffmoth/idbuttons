@@ -141,7 +141,6 @@ const filterList = [
 			{ label: `Queerplatonic`, tags: `relationship|relationship style|orientation,queerplatonic` }
 		]
 	},
-	{ label: `Religion`, tags: `religion` },
 	{ label: `Alterhuman/Otherkin`, tags: `alterhuman|otherkin|therian,!gender,!orientation` ,
 		children: [
 			{ label: `Otherkin`, tags: `otherkin` },
@@ -161,6 +160,9 @@ const filterList = [
 		]
 	},
 	{ label: `Dietary Info`, tags: `diet` },
+	{ label: `Cultures & Nationalities`, tags: `country|nationality|culture` },
+	{ label: `Religion`, tags: `religion` },
+	{ label: `Politics`, tags: `politics|political` },
 	{ label: `Fandoms & Interests`, tags: `interests|fandom`,
 		children: [
 			{ label: `Genres`, tags: ``,
@@ -220,6 +222,7 @@ const filterList = [
 			},
 			{ label: `Breeds`, tags: ``,
 				children: [
+					{ label: `All`, tags: `dragon breed` },
 					{ label: `Modern`, tags: ``,
 						children: [
 							{ label: `Bogsneak`, tags: `bogsneak` },
@@ -246,11 +249,13 @@ const filterList = [
 							{ label: `Aether`, tags: `aether` },
 							{ label: `Auraboa`, tags: `auraboa` },
 							{ label: `Banescale`, tags: `banescale` },
+							{ label: `Chorus`, tags: `chorus` },
 							{ label: `Cirrus`, tags: `cirrus` },
 							{ label: `Dusthide`, tags: `dusthide` },
 							{ label: `Everlux`, tags: `everlux` },
 							{ label: `Gaoler`, tags: `gaoler` },
 							{ label: `Sandsurge`, tags: `sandsurge` },
+							{ label: `Thorntail`, tags: `thorntail` },
 							{ label: `Undertide`, tags: `undertide` },
 							{ label: `Veilspun`, tags: `veilspun` }
 						]
@@ -274,7 +279,6 @@ const filterList = [
 			{ label: `Exalting`, tags: `exalting` }
 		]
 	},
-	{ label: `Cultures & Nationalities`, tags: `country|nationality|culture` },
 	{ label: `Time Zones`, tags: `time zone` ,
 		children: [
 			{ label: `Standard`, tags: `!flight rising` },
