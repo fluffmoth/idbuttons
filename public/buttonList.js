@@ -21130,6 +21130,13 @@ const interestsList = [
 	*/
 ]
 
+const gamesData = {};
+(()=>{
+	gamesData.fireEmblem = {
+		tags: [`interests`,`fandom`,`game`,`video game`,`nintendo`,`fire emblem`,`rpg`],
+		info: `<a href="?tags=interests,video game">Video game</a> in the <a href="?tags=interests,fire emblem">Fire Emblem</a> series`,
+	};
+})();
 const gamesList = [
 	{
 		name: `Gamer`, // display name
@@ -22367,6 +22374,61 @@ const gamesList = [
 		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
 	},
+	{
+		name: `Fire Emblem`, // display name
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/BjiOxvu.png`, // imgur link
+		tags: gamesData.fireEmblem.tags, // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a> (more <a href="?tags=fire emblem">Fire Emblem buttons</a>)`, // optional extra info
+		icon: `Fire Emblem: The Binding Blade logo` // description of the flag/icon
+	},
+	{
+		name: `Fire Emblem Engage`, // display name
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/hey3SCl.png`, // imgur link
+		tags: gamesData.fireEmblem.tags, // tags for search/filtering
+		info: gamesData.fireEmblem.info, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Fire Emblem: The Binding Blade`, // display name
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/VVcHIia.png`, // imgur link
+		tags: gamesData.fireEmblem.tags, // tags for search/filtering
+		info: gamesData.fireEmblem.info, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Fire Emblem: Three Houses`, // display name
+		altNames: [`Fire Emblem: 3 Houses`],
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/1bFsd2E.png`, // imgur link
+		tags: gamesData.fireEmblem.tags, // tags for search/filtering
+		info: gamesData.fireEmblem.info, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Fire Emblem Fates`, // display name
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/zgCzAAx.png`, // imgur link
+		tags: gamesData.fireEmblem.tags, // tags for search/filtering
+		info: gamesData.fireEmblem.info, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Fire Emblem Awakening`, // display name
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/oPHJqhj.png`, // imgur link
+		tags: gamesData.fireEmblem.tags, // tags for search/filtering
+		info: gamesData.fireEmblem.info, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
 	/*
 	{
 		name: ``, // display name
@@ -22382,6 +22444,7 @@ const gamesList = [
 ]
 // assign default values
 gamesList.forEach((item)=>{
+		item.src = `/buttons/interests/games/%name.png`;
 	if ((typeof item.src == 'undefined' || item.src == ``) && (typeof item.imgbb != 'undefined' && item.imgbb != ``)) {
 		item.src = `/buttons/interests/games/%name.png`;
 	}

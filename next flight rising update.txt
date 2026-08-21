@@ -4,12 +4,13 @@ LAST POST - 8/18/26 NEXT POST - after 9/1/26
 
 button maker now has a dropdown for the plain color gradients! there's also a bit more kerning (to make things narrower and more even!)
 
-also added support for the following characters! they don't look the best in this style but I know they're useful.
-Ā Ä É Ō Ö Ø Æ ā ä é ō ö ø æ
+also added support for the following characters! they don't look the best in this style, but I know they're sometimes necessary :'>
+Ā Ä É Ō Ö Ø Æ
+ā ä é ō ö ø æ
+
 -----
 [size=4][b]NEW BUTTONS[/b][/size]
 -----
-
 Webcomics (icons by springb0nnie, modified a bit to show up clearer on the standard palette)
 [img alt="Applegeeks"]https://i.ibb.co/nN48ZQFv/Applegeeks.png[/img] [img alt="Applegeeks"]https://i.ibb.co/dwPmvFQ4/Applegeeks-Asmodaeus-Aqua-png.png[/img] [img alt="Applegeeks"]https://i.ibb.co/s98hvFrX/Applegeeks-alt.png[/img] [img alt="Applegeeks"]https://i.ibb.co/F4gvm3jv/Applegeeks-alt-Asmodaeus-Aqua.png[/img]
 [img alt="Mac Hall"]https://i.ibb.co/ZRZSSLRQ/Mac-Hall.png[/img] [img alt="Mac Hall"]https://i.ibb.co/zVDR4T9x/Mac-Hall-Asmodaeus-Red.png[/img]
@@ -32,7 +33,6 @@ Indigenous/native peoples
 [size=4][b]POSTED IN THE FORUM[/b][/size]
 Not previously added to the masterlists or featured in an official pinglist update, but you've seen these if you've been following the thread!
 -----
-
 Namehoarder/Namecollector/Kestrelhoarder
 [img alt="Namehoarder"]https://i.ibb.co/7xvzz92w/Namehoarder.png[/img] [img alt="Name Collector"]https://i.ibb.co/jkyxGyZp/Name-Collector.png[/img] [img alt="Kestrelhoarder"]https://i.ibb.co/W1TTXSt/Kestrelhoarder.png[/img]
 Namefluid/Nomifluid
@@ -44,3 +44,7 @@ Yenish/Jenische
 Thorntails (by kenzieishungry)
 [img alt="Thorntail"]https://i.imgur.com/Z0rEJ8O.png[/img] [img alt="Thorntail Fan"]https://i.ibb.co/Nq8By7b/Thorntail-Fan.png[/img] [img alt="Thorntail Lair"]https://i.imgur.com/FyxXqF9.png[/img] [img alt="Thorntail Monolair"]https://i.imgur.com/GIcOWtN.png[/img]
 [img alt="Thorntail Kin"]https://i.imgur.com/0jGYuoK.png[/img]
+
+Fire Emblem (by milkywaydotmoe)
+[img alt="Fire Emblem"]https://i.imgur.com/BjiOxvu.png[/img] [img alt="Fire Emblem Awakening"]https://i.imgur.com/oPHJqhj.png[/img] [img alt="Fire Emblem Engage"]https://i.imgur.com/hey3SCl.png[/img]
+[img alt="Fire Emblem Fates"]https://i.imgur.com/zgCzAAx.png[/img] [img alt="Fire Emblem: The Binding Blade"]https://i.imgur.com/VVcHIia.png[/img] [img alt="Fire Emblem: Three Houses"]https://i.imgur.com/1bFsd2E.png[/img]
