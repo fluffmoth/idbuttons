@@ -21186,7 +21186,7 @@ const interestsList = [
 	{
 		name: `Anime`, // display name
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		src: `/buttons/interests/%name.png`, // local image source
+		src: `/buttons/interests/%name_Naruto.png`, // local image source
 		imgbb: ``, // imgbb link
 		imgur: `https://i.imgur.com/qeWy3Ik.png`, // imgur link
 		tags: [`interests`,`fandom`,`anime`,`animation`,`television`], // tags for search/filtering
