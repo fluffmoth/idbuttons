@@ -1,5 +1,3 @@
-Eventually make sure to add this person's:
-https://docs.google.com/spreadsheets/d/1UKTT5vFYIQAZHjJk55k2NJSLA8DNE3GbsIjsD4bt1Mw
-
-NOTES:
-better filter dropdown icons
+BUTTON COUNT:
+01 Jun 2026: 2,712
+21 Aug 2026: 3,263
