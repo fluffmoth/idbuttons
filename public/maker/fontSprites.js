@@ -1,29 +1,28 @@
 const fontSpriteData = {
 	regular: {
 		A: {kern: {T:-1}},
-		'Ā': {kern: {T:-1}},
-		'Æ': {width: 8},
 		B: {kern: {',':-1,';':-1,'I':-1}},
 		C: {kern: {T:-1,',':-1,';':-1}},
 		D: {kern: {',':-1,';':-1}},
 		E: {width: 4},
-		F: {width: 4, kern: {A:-1,a:-1,J:-1,j:-1,'Ā':-1,'ā':-1,'Æ':-1,'æ':-1,',':-1,';':-1,'.':-1,'/':-1,'_':-1}},
+		F: {width: 4, kern: {A:-1,a:-1,J:-1,j:-1,'Ā':-1,'ā':-1,'Æ':-1,'æ':-1,',':-1,';':-1,'.':-1,'/':-1,'_':-1,'-':-1,'<':-1}},
 		G: {kern: {T:-1,',':-1,';':-1}},
 		I: {width: 3},
-		J: {kern: {J:-1,j:-1,T:-1,'Æ':-1,'æ':-1,',':-1,';':-1}},
-		L: {width: 4, kern: {T:-1,' T':-1,V:-1,v:-1,Y:-1,'*':-1,'^':-1,"'":-1,'"':-1,'\\':-1}},
+		J: {kern: {J:-1,j:-1,T:-1,'É':-1,'é':-1,'Æ':-1,'æ':-1,',':-1,';':-1,'-':-1,'<':-1}},
+		L: {width: 4, kern: {T:-1,' T':-1,V:-1,v:-1,Y:-1,'*':-1,'^':-1,"'":-1,'"':-1,'-':-1,'\\':-1,'<':-1}},
 		O: {kern: {T:-1,',':-1,';':-1}},
 		P: {width: 4, kern: {',':-1,';':-1,'/':-1,'_':-1}},
 		Q: {kern: {T:-1}},
-		R: {kern: {C:-1,c:-1,G:-1,g:-1,I:-1,i:-1,J:-1,j:-1,O:-1,Q:-1,q:-1,S:-1,T:-1,t:-1,U:-1,u:-1,V:-1,v:-1,Y:-1,y:-1,"'":-1,'\\':-1}},
+		R: {kern: {C:-1,c:-1,G:-1,g:-1,I:-1,i:-1,J:-1,j:-1,O:-1,Q:-1,q:-1,S:-1,T:-1,t:-1,U:-1,u:-1,V:-1,v:-1,Y:-1,y:-1,"'":-1,'\\':-1,'-':-1,'<':-1}},
 		S: {width: 4, kern: {T:-1,',':-1,';':-1}},
-		T: {kern: {A:-1,a:-1,C:-1,c:-1,G:-1,g:-1,J:-1,j:-1,O:-1,o:-1,Q:-1,q:-1,T:-1,'Ā':-1,'ā':-1,'Æ':-1,'æ':-1,'Ō':-1,'ō':-1,',':-1,';':-1,'.':-1,'-':-1,'/':-1,'_':-1}},
+		T: {kern: {A:-1,a:-1,C:-1,c:-1,G:-1,g:-1,J:-1,j:-1,O:-1,o:-1,Q:-1,q:-1,T:-1,'Ā':-1,'ā':-1,'É':-1,'é':-1,'Ō':-1,'ō':-1,'Æ':-1,'æ':-1,',':-1,';':-1,'.':-1,'-':-1,'/':-1,'_':-1,'+':-1,'-':-1,'=':-1,'~':-1,'<':-1}},
 		V: {kern: {',':-1,';':-1,'_':-1}},
 		W: {kern: {',':-1,';':-1}},
 		Y: {kern: {',':-1,';':-1}},
 		Z: {width: 4},
-		'ā': {kern: {T:-1}},
-		'æ': {width: 6},
+		'Ā': {kern: {T:-1}},
+		'É': {width: 4, kern: {T:-1}},
+		'Æ': {width: 8},
 		b: {kern: {',':-1,';':-1}},
 		c: {kern: {T:-1,',':-1,';':-1}},
 		d: {kern: {',':-1,';':-1}},
@@ -31,7 +30,7 @@ const fontSpriteData = {
 		f: {width: 3, kern: {J:-1,j:-1,',':-1,';':-1}},
 		g: {kern: {T:-1,',':-1,';':-1}},
 		i: {width: 1},
-		j: {kern: {J:-1,j:-1,'Æ':-1,'æ':-1}},
+		j: {kern: {J:-1,j:-1,'É':-1,'é':-1,'Æ':-1,'æ':-1}},
 		k: {kern: {',':-1,';':-1}},
 		l: {width: 3, kern: {T:-1,V:-1,v:-1,Y:-1,y:-1,'*':-1,'^':-1,"'":-1,'"':-1}},
 		o: {kern: {T:-1,',':-1,';':-1}},
@@ -40,17 +39,21 @@ const fontSpriteData = {
 		t: {width: 3, kern: {J:-1,j:-1,'Ā':-1,'ā':-1,'Ō':-1,'ō':-1}},
 		v: {kern: {',':-1,';':-1,'.':-1,'/':-1,'_':-1}},
 		z: {width: 3},
-		1: {width: 3},
+		'ā': {kern: {T:-1}},
+		'é': {width: 3, kern: {T:-1}},
+		'æ': {width: 6},
+		1: {width: 3, kern: {'<':-1}},
+		2: {kern: {'<':-1}},
 		4: {width: 5, kern: {'_':-1}},
-		7: {kern: {'_':-1}},
+		7: {kern: {'_':-1,'<':-1}},
 		',': {width: 2},
-		';': {width: 2},
+		';': {width: 2, kern: {T:-1}},
 		'?': {width: 4},
 		'"': {width: 3},
 		'_': {width: 5, kern: {T:-1,V:-1}},
 		'-': {width: 3, kern: {T:-1}},
-		'+': {width: 3},
-		'=': {width: 4},
+		'+': {width: 3, kern: {T:-1}},
+		'=': {width: 4, kern: {T:-1}},
 		'/': {width: 3, kern: {i:1}},
 		'\\': {width: 3, kern: {T:-1}},
 		'(': {width: 2},
@@ -61,20 +64,17 @@ const fontSpriteData = {
 		'}': {width: 3},
 		'*': {width: 3},
 		'^': {width: 3},
-		'~': {width: 6},
+		'~': {width: 6, kern: {T:-1}},
 		'&': {width: 5},
 		'%': {width: 5},
 		'<': {width: 4},
-		'>': {width: 4},
+		'>': {width: 4, kern: {T:-1,7:-1}},
 		'#': {width: 6},
 		'$': {width: 4},
 		'¿': {width: 4},
 		' ': {width: 1}
 	},
 	narrow: {
-		'ā': {kern: {T:-1}},
-		'ō': {kern: {T:-1}},
-		'æ': {width: 4},
 		b: {kern: {',':-1,';':-1}},
 		c: {kern: {',':-1,';':-1}},
 		d: {kern: {',':-1,';':-1}},
@@ -90,6 +90,10 @@ const fontSpriteData = {
 		s: {width: 2},
 		t: {kern: {'Ā':-1,'ā':-1,'Æ':-1,'æ':-1,'Ō':-1,'ō':-1,',':-1,';':-1,'-':-1}},
 		z: {width: 2},
+		'ā': {kern: {T:-1}},
+		'é': {width: 2},
+		'ō': {kern: {T:-1}},
+		'æ': {width: 4},
 		1: {width: 2},
 		'.': {width: 1},
 		',': {width: 2},
@@ -115,8 +119,8 @@ const fontSpriteData = {
 
 // note: space at the end
 const fontSpriteList = `
-	ABCDEFGHIJKLMNOPQRSTUVWXYZĀÄŌÖØÆ
-	abcdefghijklmnopqrstuvwxyzāäōöøæ
+	ABCDEFGHIJKLMNOPQRSTUVWXYZĀÄÉŌÖØÆ
+	abcdefghijklmnopqrstuvwxyzāäéōöøæ
 	0123456789
 	.,;!?:'"_-+=/\\()[]{}*^~&%<>#|$¡¿ 
 `
@@ -126,11 +130,11 @@ fontSpriteImg.src = `/maker/fontSprites.png`;
 
 // return bool - whether character is lowercase
 function charIsLower(char) {
-	return char.match(/[a-z]|ā|ä|ō|ö|ø|æ/g) != null;
+	return char.match(/[a-z]|ā|ä|é|ō|ö|ø|æ/g) != null;
 }
 // return bool - whether character is lowercase
 function charIsUpper(char) {
-	return char.match(/[A-Z]|Ā|Ä|Ō|Ö|Ø|Æ/g) != null;
+	return char.match(/[A-Z]|Ā|Ä|É|Ō|Ö|Ø|Æ/g) != null;
 }
 
 function getKernChar(char) {
@@ -154,7 +158,6 @@ function getFontSpriteDataOriginal(char,style) {
 // optional style - 'regular' 'narrow'
 function getFontSpriteData(char,style) {
 	if (fontSpriteList.includes(char)) {
-		console.log(char,style,getFontSpriteX(char,style));
 		return {
 			x:getFontSpriteX(char,style),
 			y:getFontSpriteY(char,style),
