@@ -2722,7 +2722,9 @@ const xenogenderList = [
 	},
 	{
 		name: `Guardiangender`, // display name
-		imgur: `qyqpUbB.png`, // imgur link
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/wrpPWg0X/Guardiangender.png`, // imgbb link
+		imgur: `https://i.imgur.com/CW9uAig.png`, // imgur link
 		tags: [`gender`,`xenogender`,`fictigender`,`mythogender`,`dragongender`,`flight rising`,`Guardian`], // tags for search/filtering
 		info: `<a href="?tags=gender,dragongender">Dragongender</a> related to the
 			<a href="?tags=flight rising">Flight Rising</a> Guardian breed`, // optional extra info
@@ -2746,7 +2748,9 @@ const xenogenderList = [
 	},
 	{
 		name: `Nocturnegender`, // display name
-		imgur: `7FhPtqM.png`, // imgur link
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/pZ3jKAr.png`, // imgur link
 		tags: [`gender`,`xenogender`,`fictigender`,`mythogender`,`dragongender`,`flight rising`,`Nocturne`], // tags for search/filtering
 		info: `<a href="?tags=gender,dragongender">Dragongender</a> related to the
 			<a href="?tags=flight rising">Flight Rising</a> Nocturne breed`, // optional extra info
@@ -14868,88 +14872,50 @@ const FRList = [
 
 const FRbreeds = [
 	{
-		name: `Sandsurge`, // display name
-		breed: `Sandsurge`,
-		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `ao60Xvj.png`, // imgur link
+		name: `Aberration`, // display name
+		breed: `Aberration`,
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/4gWGFWD4/Aberration.png`, // imgbb link
+		imgur: `https://i.imgur.com/vtyPlmA.png`, // imgur link
 	},
 	{
-		name: `Sandsurge Fan`, // display name
-		breed: `Sandsurge`,
-		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `G9NqG7W.png`, // imgur link
+		name: `Aberration Fan`, // display name
+		breed: `Aberration`,
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/p6dCdgxp/Aberration-Fan.png`, // imgbb link
+		imgur: `https://i.imgur.com/LuCTWib.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
 	},
 	{
-		name: `Sandsurge Monolair`, // display name
-		breed: `Sandsurge`,
-		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `nSH5ZRM.png`, // imgur link
+		name: `Aberration Monolair`, // display name
+		breed: `Aberration`,
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/mFGmJg4N/Aberration-Monolair.png`, // imgbb link
+		imgur: `https://i.imgur.com/istzT63.png`, // imgur link
 		tags: [`monolair`], // tags for search/filtering
 	},
 	{
-		name: `Thorntail`, // display name
-		breed: `Thorntail`,
-		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `https://i.imgur.com/Z0rEJ8O.png`, // imgur link
+		name: `Auraboa`, // display name
+		breed: `Auraboa`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/qFXtSgMw/Auraboa.png`, // imgbb link
+		imgur: `https://i.imgur.com/pDzaGBz.png`, // imgur link
 	},
 	{
-		name: `Thorntail Fan`, // display name
-		breed: `Thorntail`,
-		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/Nq8By7b/Thorntail-Fan.png`, // imgbb link
-		imgur: `https://i.imgur.com/yqlSuP2.png`, // imgur link
+		name: `Auraboa Fan`, // display name
+		breed: `Auraboa`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/LDfF1VFf/Auraboa-Fan.png`, // imgbb link
+		imgur: `https://i.imgur.com/7jaRBoJ.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
 	},
 	{
-		name: `Thorntail Monolair`, // display name
-		breed: `Thorntail`,
-		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `https://i.imgur.com/GIcOWtN.png`, // imgur link
+		name: `Auraboa Monolair`, // display name
+		breed: `Auraboa`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/v4xGnTL3/Auraboa-Monolair.png`, // imgbb link
+		imgur: `https://i.imgur.com/OHU7f5k.png`, // imgur link
 		tags: [`monolair`], // tags for search/filtering
-	},
-	{
-		name: `Thorntail Lair`, // display name
-		breed: `Thorntail`,
-		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `https://i.imgur.com/FyxXqF9.png`, // imgur link
-		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`lair`], // tags for search/filtering
-	},
-	{
-		name: `Undertide`, // display name
-		breed: `Undertide`,
-		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `fhe5js6.png`, // imgur link
-	},
-	{
-		name: `Undertide Fan`, // display name
-		breed: `Undertide`,
-		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `Iauu1Ro.png`, // imgur link
-	},
-	{
-		name: `Undertide Monolair`, // display name
-		breed: `Undertide`,
-		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `2cQQXlC.png`, // imgur link
-		tags: [`monolair`], // tags for search/filtering
-	},
-	{
-		name: `Undertide Lair`, // display name
-		breed: `Undertide`,
-		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `X29nWrP.png`, // imgur link
-		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`lair`], // tags for search/filtering
 	},
 	{
 		name: `Aether`, // display name
@@ -14974,6 +14940,7 @@ const FRbreeds = [
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
 		imgbb: `https://i.ibb.co/VW5fvzYP/Aether-Fan.png`, // imgbb link
 		imgur: `https://i.imgur.com/3M48cU6.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
 	},
 	{
 		name: `Aether Monolair`, // display name
@@ -14984,46 +14951,25 @@ const FRbreeds = [
 		tags: [`monolair`], // tags for search/filtering
 	},
 	{
-		name: `Aberration`, // display name
-		breed: `Aberration`,
-		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `https://i.imgur.com/vtyPlmA.png`, // imgur link
-	},
-	{
-		name: `Aberration Fan`, // display name
-		breed: `Aberration`,
-		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `https://i.imgur.com/LuCTWib.png`, // imgur link
-	},
-	{
-		name: `Aberration Monolair`, // display name
-		breed: `Aberration`,
-		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/mFGmJg4N/Aberration-Monolair.png`, // imgbb link
-		imgur: `https://i.imgur.com/istzT63.png`, // imgur link
-		tags: [`monolair`], // tags for search/filtering
-	},
-	{
 		name: `Banescale`, // display name
 		breed: `Banescale`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/GfVrm6P4/Banescale.png`, // imgbb link
 		imgur: `https://i.imgur.com/e8ui075.png`, // imgur link
 	},
 	{
 		name: `Banescale Fan`, // display name
 		breed: `Banescale`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/GvQpZdFP/Banescale-Fan.png`, // imgbb link
 		imgur: `https://i.imgur.com/IPMR18o.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
 	},
 	{
 		name: `Banescale Monolair`, // display name
 		breed: `Banescale`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/hxvDx3Fb/Banescale-Monolair.png`, // imgbb link
 		imgur: `https://i.imgur.com/tDV6HEW.png`, // imgur link
 		tags: [`monolair`], // tags for search/filtering
 	},
@@ -15031,43 +14977,77 @@ const FRbreeds = [
 		name: `Bogsneak`, // display name
 		breed: `Bogsneak`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/1YvY1pRR/Bogsneak.png`, // imgbb link
 		imgur: `https://i.imgur.com/pVrKniy.png`, // imgur link
 	},
 	{
 		name: `Bogsneak Fan`, // display name
 		breed: `Bogsneak`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/xqBmyfhK/Bogsneak-Fan.png`, // imgbb link
 		imgur: `https://i.imgur.com/5DjYECS.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
 	},
 	{
 		name: `Bogsneak Monolair`, // display name
 		breed: `Bogsneak`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/qLgkB2CM/Bogsneak-Monolair.png`, // imgbb link
 		imgur: `https://i.imgur.com/SzRnMWY.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Chorus`, // display name
+		breed: `Chorus`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/LzX7cZMp/Chorus.png`, // imgbb link
+		imgur: `https://i.imgur.com/BWXjwaN.png`, // imgur link
+	},
+	{
+		name: `Chorus Fan`, // display name
+		breed: `Chorus`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/938075j5/Chorus-Fan.png`, // imgbb link
+		imgur: `https://i.imgur.com/S0lOFG0.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Chorus Lair`, // display name
+		breed: `Chorus`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/1GrxZR2d/Chorus-Lair.png`, // imgbb link
+		imgur: `https://i.imgur.com/e7GHtN0.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`lair`], // tags for search/filtering
+	},
+	{
+		name: `Chorus Monolair`, // display name
+		breed: `Chorus`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/rKzYwhMG/Mono-Lair.png`, // imgbb link
+		imgur: `https://i.imgur.com/8X7FDEg.png`, // imgur link
 		tags: [`monolair`], // tags for search/filtering
 	},
 	{
 		name: `Coatl`, // display name
 		breed: `Coatl`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/chX5FVDr/Coatl.png`, // imgbb link
 		imgur: `https://i.imgur.com/fD64ZUR.png`, // imgur link
 	},
 	{
 		name: `Coatl Fan`, // display name
 		breed: `Coatl`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/TDHf5sYt/Coatl-Fan.png`, // imgbb link
 		imgur: `https://i.imgur.com/7vhtsnW.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
 	},
 	{
 		name: `Coatl Monolair`, // display name
 		breed: `Coatl`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/V0kkw9K8/Coatl-Monolair.png`, // imgbb link
 		imgur: `https://i.imgur.com/oVtZtZu.png`, // imgur link
 		tags: [`monolair`], // tags for search/filtering
 	},
@@ -15075,21 +15055,22 @@ const FRbreeds = [
 		name: `Fae`, // display name
 		breed: `Fae`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/dJzDz3QY/Fae.png`, // imgbb link
 		imgur: `https://i.imgur.com/I9phJiK.png`, // imgur link
 	},
 	{
 		name: `Fae Fan`, // display name
 		breed: `Fae`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/BKGztQqP/Fae-Fan.png`, // imgbb link
 		imgur: `https://i.imgur.com/Z0dFFal.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
 	},
 	{
 		name: `Fae Monolair`, // display name
 		breed: `Fae`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/gMN1t7rQ/Fae-Monolair.png`, // imgbb link
 		imgur: `https://i.imgur.com/TclvZTc.png`, // imgur link
 		tags: [`monolair`], // tags for search/filtering
 	},
@@ -15097,21 +15078,22 @@ const FRbreeds = [
 		name: `Gaoler`, // display name
 		breed: `Gaoler`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/21RmqKXD/Gaoler.png`, // imgbb link
 		imgur: `https://i.imgur.com/aaiUix2.png`, // imgur link
 	},
 	{
 		name: `Gaoler Fan`, // display name
 		breed: `Gaoler`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/rfdXZFtM/Gaoler-Fan.png`, // imgbb link
 		imgur: `https://i.imgur.com/Zzse366.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
 	},
 	{
 		name: `Gaoler Monolair`, // display name
 		breed: `Gaoler`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/VW0tMJGT/Gaoler-Monolair.png`, // imgbb link
 		imgur: `https://i.imgur.com/VSjdyEh.png`, // imgur link
 		tags: [`monolair`], // tags for search/filtering
 	},
@@ -15119,29 +15101,393 @@ const FRbreeds = [
 		name: `Guardian`, // display name
 		breed: `Guardian`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `https://i.imgur.com/hrSE73S.png`, // imgur link
+		imgbb: `https://i.ibb.co/Kxg2wvGB/Guardian.png`, // imgbb link
+		imgur: `https://i.imgur.com/Bz3EoW1.png`, // imgur link
 	},
 	{
 		name: `Guardian Fan`, // display name
 		breed: `Guardian`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: `https://i.imgur.com/7osWSYn.png`, // imgur link
+		imgbb: `https://i.ibb.co/VKj6C7M/Guardian-Fan.png`, // imgbb link
+		imgur: `https://i.imgur.com/OpsLoYj.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
 	},
 	{
 		name: `Guardian Monolair`, // display name
 		breed: `Guardian`,
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/1YjJv0pD/Guardian-Monolair.png`, // imgbb link
+		imgur: `https://i.imgur.com/q46111p.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Imperial`, // display name
+		breed: `Imperial`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/v6WdLY9Q/Imperial.png`, // imgbb link
+		imgur: `https://i.imgur.com/MQ4VcK7.png`, // imgur link
+	},
+	{
+		name: `Imperial Fan`, // display name
+		breed: `Imperial`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/JjMwqtnw/Imperial-Fan.png`, // imgbb link
+		imgur: `https://i.imgur.com/oHNkS7n.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Imperial Monolair`, // display name
+		breed: `Imperial`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
 		imgbb: ``, // imgbb link
-		imgur: `https://i.imgur.com/mAbMZdw.png`, // imgur link
+		imgur: `https://i.imgur.com/VM1BEqj.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Mirror`, // display name
+		breed: `Mirror`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/zHj2rzWN/Mirror.png`, // imgbb link
+		imgur: `https://i.imgur.com/QyoBFxn.png`, // imgur link
+	},
+	{
+		name: `Mirror Fan`, // display name
+		breed: `Mirror`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/1Y54T7Bx/Mirror-Fan.png`, // imgbb link
+		imgur: `https://i.imgur.com/l1L89uY.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Mirror Monolair`, // display name
+		breed: `Mirror`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/j9KWtRmP/Mirror-Monolair.png`, // imgbb link
+		imgur: `https://i.imgur.com/GNomfSZ.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Nocturne`, // display name
+		breed: `Nocturne`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/fwpxbjS/Nocturne.png`, // imgbb link
+		imgur: `https://i.imgur.com/ZmYSvEA.png`, // imgur link
+	},
+	{
+		name: `Nocturne Fan`, // display name
+		breed: `Nocturne`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/ksB5GQhC/Nocturne-Fan.png`, // imgbb link
+		imgur: `https://i.imgur.com/SAmqO79.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Nocturne Monolair`, // display name
+		breed: `Nocturne`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/rfd9GLyk/Nocturne-Monolair.png`, // imgbb link
+		imgur: `https://i.imgur.com/yOYOife.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Obelisk`, // display name
+		breed: `Obelisk`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/IgLoMVu.png`, // imgur link
+	},
+	{
+		name: `Obelisk Fan`, // display name
+		breed: `Obelisk`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/koYElU5.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Obelisk Monolair`, // display name
+		breed: `Obelisk`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/EXMUuEe.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Pearlcatcher`, // display name
+		breed: `Pearlcatcher`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/J0VJtXh.png`, // imgur link
+	},
+	{
+		name: `Pearlcatcher Fan`, // display name
+		breed: `Pearlcatcher`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/LlFDIDf.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Pearlcatcher Monolair`, // display name
+		breed: `Pearlcatcher`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/bhmsLDb.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Ridgeback`, // display name
+		breed: `Ridgeback`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/22evmnb.png`, // imgur link
+	},
+	{
+		name: `Ridgeback Fan`, // display name
+		breed: `Ridgeback`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/c0xaGCd.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Ridgeback Monolair`, // display name
+		breed: `Ridgeback`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/IK7zaAG.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Sandsurge`, // display name
+		breed: `Sandsurge`,
+		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/G3F4tk1K/Sandsurge.png`, // imgbb link
+		imgur: `ao60Xvj.png`, // imgur link
+	},
+	{
+		name: `Sandsurge Fan`, // display name
+		breed: `Sandsurge`,
+		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/vngVDsY/Sandsurge-Fan.png`, // imgbb link
+		imgur: `G9NqG7W.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Sandsurge Monolair`, // display name
+		breed: `Sandsurge`,
+		dateAdded: `2025-11-12`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/6Jm1W79b/Sandsurge-Monolair.png`, // imgbb link
+		imgur: `nSH5ZRM.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Skydancer`, // display name
+		breed: `Skydancer`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/GHiDarO.png`, // imgur link
+	},
+	{
+		name: `Skydancer Fan`, // display name
+		breed: `Skydancer`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/auS5qBH.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Skydancer Monolair`, // display name
+		breed: `Skydancer`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/ksQQuK7.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Snapper`, // display name
+		breed: `Snapper`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/B83SgEH.png`, // imgur link
+	},
+	{
+		name: `Snapper Fan`, // display name
+		breed: `Snapper`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/FUyX5Pi.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Snapper Monolair`, // display name
+		breed: `Snapper`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/6Rir26r.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Spiral`, // display name
+		breed: `Spiral`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/2eDtvZS.png`, // imgur link
+	},
+	{
+		name: `Spiral Fan`, // display name
+		breed: `Spiral`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/hJeH12I.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Spiral Monolair`, // display name
+		breed: `Spiral`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/7p0PH2J.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Thorntail`, // display name
+		breed: `Thorntail`,
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/BKwCnrPH/Thorntail.png`, // imgbb link
+		imgur: `https://i.imgur.com/Z0rEJ8O.png`, // imgur link
+	},
+	{
+		name: `Thorntail Fan`, // display name
+		breed: `Thorntail`,
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Nq8By7b/Thorntail-Fan.png`, // imgbb link
+		imgur: `https://i.imgur.com/yqlSuP2.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Thorntail Monolair`, // display name
+		breed: `Thorntail`,
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/QvqDNDfq/Thorntail-Monolair.png`, // imgbb link
+		imgur: `https://i.imgur.com/GIcOWtN.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Thorntail Lair`, // display name
+		breed: `Thorntail`,
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Jj8F39GP/Thorntail-Lair.png`, // imgbb link
+		imgur: `https://i.imgur.com/FyxXqF9.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`lair`], // tags for search/filtering
+	},
+	{
+		name: `Tundra`, // display name
+		breed: `Tundra`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/xlJfgCt.png`, // imgur link
+	},
+	{
+		name: `Tundra Fan`, // display name
+		breed: `Tundra`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/ApxfhWe.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Tundra Monolair`, // display name
+		breed: `Tundra`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/G8WVgfS.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Undertide`, // display name
+		breed: `Undertide`,
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/tw9bHjPq/Undertide.png`, // imgbb link
+		imgur: `fhe5js6.png`, // imgur link
+	},
+	{
+		name: `Undertide Fan`, // display name
+		breed: `Undertide`,
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/s9YxsJvg/Undertide-Fan.png`, // imgbb link
+		imgur: `Iauu1Ro.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Undertide Monolair`, // display name
+		breed: `Undertide`,
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/23X3N6Fc/Undertide-Monolair.png`, // imgbb link
+		imgur: `2cQQXlC.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Undertide Lair`, // display name
+		breed: `Undertide`,
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/99H8GtVb/Undertide-Lair.png`, // imgbb link
+		imgur: `X29nWrP.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`lair`], // tags for search/filtering
+	},
+	{
+		name: `Veilspun`, // display name
+		breed: `Veilspun`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/lvNmyEi.png`, // imgur link
+	},
+	{
+		name: `Veilspun Fan`, // display name
+		breed: `Veilspun`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/gWg1WHB.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Veilspun Monolair`, // display name
+		breed: `Veilspun`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/WzoS6h7.png`, // imgur link
+		tags: [`monolair`], // tags for search/filtering
+	},
+	{
+		name: `Wildclaw`, // display name
+		breed: `Wildclaw`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/3BQENe8.png`, // imgur link
+	},
+	{
+		name: `Wildclaw Fan`, // display name
+		breed: `Wildclaw`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/QSe6tSa.png`, // imgur link
+		tags: [`fan`], // tags for search/filtering
+	},
+	{
+		name: `Wildclaw Monolair`, // display name
+		breed: `Wildclaw`,
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: `https://i.imgur.com/uA6zZnz.png`, // imgur link
 		tags: [`monolair`], // tags for search/filtering
 	},
 	/*
 	{
 		name: ``, // display name
 		breed: ``,
-		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
 		imgbb: ``, // imgbb link
 		imgur: ``, // imgur link
 		tags: [`monolair`], // tags for search/filtering
@@ -15168,7 +15514,7 @@ FRbreeds.forEach((item)=>{
 			item.info = `<a href="?tags=flight rising">Flight Rising</a> lair focused on ${breedLink} dragons`;
 		}
 		else {
-			item.info = `${breedLink} dragon breed on <a href="?tags=flight rising">Flight Rising</a>`;
+			item.info = `${breedLink} dragon <a href="?tags=flight rising,dragon breed">breed</a> on <a href="?tags=flight rising">Flight Rising</a>`;
 		}
 	}
 	
@@ -22454,7 +22800,7 @@ const gamesList = [
 	{
 		name: `Fire Emblem`, // display name
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/JW6mJ1LP/Fire-Emblem.png`, // imgbb link
 		imgur: `https://i.imgur.com/BjiOxvu.png`, // imgur link
 		tags: gamesData.fireEmblem.tags, // tags for search/filtering
 		info: `<a href="?tags=interests,video game">Video game</a> (more <a href="?tags=fire emblem">Fire Emblem buttons</a>)`, // optional extra info
@@ -22463,7 +22809,7 @@ const gamesList = [
 	{
 		name: `Fire Emblem Engage`, // display name
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/2fdh6w2/Fire-Emblem-Engage.png`, // imgbb link
 		imgur: `https://i.imgur.com/hey3SCl.png`, // imgur link
 		tags: gamesData.fireEmblem.tags, // tags for search/filtering
 		info: gamesData.fireEmblem.info, // optional extra info
@@ -22472,7 +22818,7 @@ const gamesList = [
 	{
 		name: `Fire Emblem: The Binding Blade`, // display name
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/jPbh8rNj/Fire-Emblem-The-Binding-Blade.png`, // imgbb link
 		imgur: `https://i.imgur.com/VVcHIia.png`, // imgur link
 		tags: gamesData.fireEmblem.tags, // tags for search/filtering
 		info: gamesData.fireEmblem.info, // optional extra info
@@ -22482,7 +22828,7 @@ const gamesList = [
 		name: `Fire Emblem: Three Houses`, // display name
 		altNames: [`Fire Emblem: 3 Houses`],
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/rK0r7GdT/Fire-Emblem-Three-Houses.png`, // imgbb link
 		imgur: `https://i.imgur.com/1bFsd2E.png`, // imgur link
 		tags: gamesData.fireEmblem.tags, // tags for search/filtering
 		info: gamesData.fireEmblem.info, // optional extra info
@@ -22491,7 +22837,7 @@ const gamesList = [
 	{
 		name: `Fire Emblem Fates`, // display name
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/TDfrQqsn/Fire-Emblem-Fates.png`, // imgbb link
 		imgur: `https://i.imgur.com/zgCzAAx.png`, // imgur link
 		tags: gamesData.fireEmblem.tags, // tags for search/filtering
 		info: gamesData.fireEmblem.info, // optional extra info
@@ -22500,7 +22846,7 @@ const gamesList = [
 	{
 		name: `Fire Emblem Awakening`, // display name
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/sd26hZKG/Fire-Emblem-Awakening.png`, // imgbb link
 		imgur: `https://i.imgur.com/oPHJqhj.png`, // imgur link
 		tags: gamesData.fireEmblem.tags, // tags for search/filtering
 		info: gamesData.fireEmblem.info, // optional extra info
@@ -24950,6 +25296,7 @@ const cultureData = {};
 	};
 	cultureData.yenish = { // Roma/Romani
 		tags: [`culture`,`europe`,`european`,`yenish`,`jenische`,`germany`,`austria`,`switzerland`,`luxembourg`,`belgium`,`france`],
+		info: `European ${cultureData.link.toLowerCase()} (more <a href="?tags=yenish|jenische">Yenish buttons</a>)`, // optional extra info
 	};
 })();
 const cultureList = [
@@ -25677,12 +26024,57 @@ const cultureList = [
 	},
 	{
 		name: `Yenish`, // display name
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		src: `%name_hedgehog.png`, // local image source
+		imgbb: `https://i.ibb.co/3YG4Cz8R/Yenish-hedgehog.png`, // imgbb link
+		imgur: `https://i.imgur.com/HBc0m6u.png`, // imgur link
+		tags: cultureData.yenish.tags, // tags for search/filtering
+		info: cultureData.yenish.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Yenish`, // display name
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		src: `%name_wheel_2.png`, // local image source
+		imgbb: `https://i.ibb.co/VY0Hhtg6/Yenish-wheel-2.png`, // imgbb link
+		imgur: `https://i.imgur.com/S29E3M8.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: cultureData.yenish.tags, // tags for search/filtering
+		info: cultureData.yenish.info, // optional extra info
+		icon: `flag (wheel)` // description of the flag/icon
+	},
+	{
+		name: `Jenische`, // display name
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		src: `%name_wheel_2.png`, // local image source
+		imgbb: `https://i.ibb.co/JRyc0nMz/Jenische-wheel-2.png`, // imgbb link
+		imgur: `https://i.imgur.com/WRWdaS8.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: cultureData.yenish.tags, // tags for search/filtering
+		info: cultureData.yenish.info, // optional extra info
+		icon: `flag (wheel)` // description of the flag/icon
+	},
+	{
+		name: `Jenische`, // display name
+		dateAdded: `2026-08-22`, // date this button was first added to the masterlist
+		src: `%name_hedgehog.png`, // local image source
+		imgbb: `https://i.ibb.co/nqYLGhnq/Jenische-hedgehog.png`, // imgbb link
+		imgur: `https://i.imgur.com/0wX81O7.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: cultureData.yenish.tags, // tags for search/filtering
+		info: cultureData.yenish.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Yenish`, // display name
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
 		src: `%name_wheel.png`, // local image source
 		imgbb: `https://i.ibb.co/r248hMxz/Yenish-wheel.png`, // imgbb link
 		imgur: `https://i.imgur.com/N8cKFjC.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: cultureData.yenish.tags, // tags for search/filtering
-		icon: `flag (wheel)` // description of the flag/icon
+		info: cultureData.yenish.info, // optional extra info
+		icon: `flag alt (wheel)` // description of the flag/icon
 	},
 	{
 		name: `Yenish`, // display name
@@ -25691,7 +26083,8 @@ const cultureList = [
 		imgur: `https://i.imgur.com/BODlhdC.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: cultureData.yenish.tags, // tags for search/filtering
-		icon: `flag` // description of the flag/icon
+		info: cultureData.yenish.info, // optional extra info
+		icon: `flag alt` // description of the flag/icon
 	},
 	{
 		name: `Jenische`, // display name
@@ -25701,7 +26094,8 @@ const cultureList = [
 		imgur: `https://i.imgur.com/9hcAzqH.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: cultureData.yenish.tags, // tags for search/filtering
-		icon: `flag (wheel)` // description of the flag/icon
+		info: cultureData.yenish.info, // optional extra info
+		icon: `flag alt (wheel)` // description of the flag/icon
 	},
 	{
 		name: `Jenische`, // display name
@@ -25710,7 +26104,8 @@ const cultureList = [
 		imgur: `https://i.imgur.com/09Vw1Gg.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: cultureData.yenish.tags, // tags for search/filtering
-		icon: `flag` // description of the flag/icon
+		info: cultureData.yenish.info, // optional extra info
+		icon: `flag alt` // description of the flag/icon
 	},
 	/*
 	{
@@ -27153,7 +27548,7 @@ const alterhumanList = [
 		name: `Thorntail Kin`, // display name
 		altNames: [`Thorntailkin`],
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
+		imgbb: `https://i.ibb.co/DHgTCqcv/Thorntail-Kin.png`, // imgbb link
 		imgur: `https://i.imgur.com/0jGYuoK.png`, // imgur link
 		tags: ahmData.ok.tags.concat([`flight rising`,`thorntail`,`dragon`,`dragonkin`]), // tags for search/filtering
 		info: `Flight Rising <a href="?tags=flight rising,thorntail">Thorntail</a> breed ${otherkinLink}`, // optional extra info
