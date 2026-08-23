@@ -138,6 +138,7 @@ function newButtonRow(b) {
 		// if button is not a palette base
 		else {
 			if (b.iconBase) editLinkIcon = `${b.iconBase.name},icon:${b.iconBase.icon}`;
+			else if (specialIcons.includes(b.icon)) editLinkIcon = b.name;
 			else editLinkIcon = `${b.name},icon:${b.icon}`;
 			// if it's not an icon base
 			if (!b.tags.includes('icon base')) editLinkText = b.name;

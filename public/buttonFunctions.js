@@ -116,16 +116,28 @@ function getButton(name,icon,params) {
 	function isIconMatch(b) { return !icon || b.icon.toLowerCase() === icon; }
 	
 	if (name) {
-		btn = buttonList.find(b =>
+		// get all buttons matching name (and icon, if given)
+		let options = buttonList.filter(b =>
 			b.name.toLowerCase() == name
 			&& isIconMatch(b)
 			&& isPaletteMatch(b)
 		);
+		if (options.length == 1) {
+			btn = options[0];
+		} else if (options.length > 1) {
+			let bestIcon = options.find(b => specialIcons.includes(b.icon));
+			if (bestIcon) btn = bestIcon;
+			else btn = options[0];
+		}
+		
 		// if button not found matching name and icon, check if button exists with 'buttonname buttonicon' matching provided name or icon
-		if (!btn) btn = buttonList.find(b =>
-			(b.name + ' ' + b.icon).toLowerCase() === (name || icon)
-			&& isPaletteMatch(b)
-		);
+		if (!btn) {
+			btn = buttonList.find(b =>
+				(b.name + ' ' + b.icon).toLowerCase() === (name || icon)
+				&& isPaletteMatch(b)
+			);
+			if (btn) console.log('buttonname buttonicon match');
+		}
 		
 		// if name not found and altNames parameter either not set or true, check altNames
 		if (!btn && (params.altNames == undefined || params.altNames == true)) {
@@ -409,34 +421,28 @@ function adjustText(txt) {
 // returns adjusted text
 function adjustIconText(btn) {
 	let txt = ``;
-	if (btn.icon && btn.icon != '') {
-		if (
-			!btn.icon.startsWith('flag') ||
-			!btn.icon.startsWith('alt flag') ||
-			!btn.icon.startsWith('logo') ||
-			!btn.icon.startsWith('icon') ||
-			!btn.icon.startsWith('symbol') 
-		) {
-			txt = generateIconText(btn);
-			txt = txt.replace(/color - /gi,'');
-			txt = txt.replace(/gradient: /gi,'');
-		}
+	if (btn.icon && btn.icon != '' && !isSpecial(btn)) {
+		txt = generateIconText(btn);
+		txt = txt.replace(/color - /gi,'');
+		txt = txt.replace(/gradient: /gi,'');
 	}
 	else if (btn.iconBase) txt = btn.iconBase.name + ' ' + btn.iconBase.icon;
 	return txt;
+}
+
+// special icons that need to be combined with the button name
+const specialIcons = ['flag','logo','icon','symbol'];
+function isSpecial(btn) {
+	let special = false;
+	specialIcons.forEach((str)=>{ if (btn.icon.startsWith(str)) special = true; });
+	return special;
 }
 
 // generate button icon text to display
 function generateIconText(btn) {
 	if (!btn.icon && btn.iconBase) return `${btn.iconBase.name} (${btn.iconBase.icon})`;
 	else if (btn.icon) {
-		if (
-			btn.icon.startsWith('flag') ||
-			btn.icon.startsWith('alt flag') ||
-			btn.icon.startsWith('logo') ||
-			btn.icon.startsWith('icon') ||
-			btn.icon.startsWith('symbol') 
-		) return `${btn.name} ${btn.icon}`;
+		if (isSpecial(btn)) return `${btn.name} ${btn.icon}`;
 		else return btn.icon;
 	}
 	else return ``;
