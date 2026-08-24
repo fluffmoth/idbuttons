@@ -160,7 +160,12 @@ const filterList = [
 		]
 	},
 	{ label: `Dietary Info`, tags: `diet` },
-	{ label: `Cultures & Nationalities`, tags: `country|nationality|culture` },
+	{ label: `Cultures & Nationalities`, tags: `culture`,
+		children: [
+			{ label: `Nationalities/Cultures`, tags: `nationality|culture` },
+			{ label: `Countries/Regions`, tags: `country|region` },
+		]
+	},
 	{ label: `Religion`, tags: `religion` },
 	{ label: `Politics`, tags: `politics|political` },
 	{ label: `Fandoms & Interests`, tags: `interests|fandom`,
