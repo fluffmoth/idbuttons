@@ -508,6 +508,7 @@ function setIconSelection(name,update) {
 function setText(name) {
 	console.log('Updating canvas text area');
 	
+	name = name.replaceAll('<3','♥');
 	maker.text.cur = name;
 	
 	// get button with given name and (optional) icon
