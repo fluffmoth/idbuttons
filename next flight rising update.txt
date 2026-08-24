@@ -14,7 +14,7 @@ i've added a more explicit [url=https://idbuttons.neocities.org/license/]licensi
 
 
 -----
-[size=4][b]GENERAL UPDATES[/b][/size]
+[size=4][b]BUTTON MAKER[/b][/size]
 -----
 
 the [url=https://idbuttons.neocities.org/maker/]button maker[/url] now has a dropdown for the plain color gradient icons! there's also a bit more font kerning (to make things narrower and more even)
@@ -22,6 +22,9 @@ the [url=https://idbuttons.neocities.org/maker/]button maker[/url] now has a dro
 added support for the following characters! they don't look the best in this style, but I know they're sometimes necessary :'>
 Ā Ä É Ō Ö Ø Æ
 ā ä é ō ö ø æ
+
+also support for these guys, which nobody asked for but hey. why not. also made <3 converts to ♥, do we like this?
+� ♫ ♪ ♩ ♥ ♡ ★
 
 
 -----
@@ -40,6 +43,8 @@ Adjusted icons
 [img alt="Cat Cafe Manager"]https://i.ibb.co/bMK9JpPD/Cat-Cafe-Manager.png[/img]
 Persona 3/4/5 (icons by milkywaydotmoe)
 [img alt="Persona 3"]https://i.ibb.co/4g5CPgqZ/Persona-3.png[/img] [img alt="Persona 4"]https://i.ibb.co/S4MQC7Jc/Persona-4.png[/img] [img alt="Persona 5"]https://i.ibb.co/mrx1v7x4/Persona-5.png[/img]
+Peak
+[img alt="Peak"]https://i.ibb.co/4ZRnWfqn/Peak.png[/img]
 New Icons
 [img alt="Mass Effect"]https://i.ibb.co/KxfWWQGC/Mass-Effect.png[/img] [img alt="Mass Effect"]https://i.ibb.co/vv41C8BZ/Mass-Effect-SA.png[/img] [img alt="Mass Effect"]https://i.ibb.co/HDLDG0R4/Mass-Effect-SA-Earth.png[/img]
 [img alt="Rhythm Heaven"]https://i.ibb.co/qMKb5ctv/Rhythm-Heaven.png[/img] [img alt="Rhythm Tengoku"]https://i.ibb.co/KCH3Cn7/Rhythm-Tengoku.png[/img] [img alt="Rhythm Paradise"]https://i.ibb.co/V0LS0B1C/Rhythm-Paradise.png[/img]
@@ -47,6 +52,7 @@ New Icons
 [img alt="Undertale"]https://i.ibb.co/C3pQqjyv/Undertale-Dog.png[/img]
 
 [b]NATIONS/CULTURES[/b]
+[img alt="Chechen"]https://i.ibb.co/Lds2HWY6/Chechen.png[/img][img alt="Türkiye"]https://i.ibb.co/fVJG44TL/T-rkiye.png[/img][img alt="Turkey"]https://i.ibb.co/B2GVrnyP/Turkey.png[/img]
 Plain four directions symbol icon
 [img alt="First Nations"]https://i.ibb.co/4gJRHkX7/First-Nations-directions-symbol.png[/img] [img alt="Native American"]https://i.ibb.co/S8dY3cD/Native-American-directions-symbol.png[/img]
 Navajo/Diné, Cheyenne, Native Hawaiian/Kanaka Maoli
