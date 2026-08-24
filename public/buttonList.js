@@ -22175,7 +22175,7 @@ const gamesList = [
 		name: `Deltarune`, // display name
 		altNames: [`Delta Rune`], // optional alternate names, for search algorithms
 		dateAdded: `2026-08-23`, // date this button was first added to the masterlist
-		src: `undertale/%name.png`, // local image source
+		src: `/buttons/interests/games/undertale/%name.png`, // local image source
 		imgbb: `https://i.ibb.co/hF9V8MRQ/Deltarune.png`, // imgbb link
 		imgur: `https://i.imgur.com/z4Cpzcq.png`, // imgur link
 		tags: gamesData.deltarune.tags, // tags for search/filtering
@@ -22186,7 +22186,7 @@ const gamesList = [
 		name: `Deltarune`, // display name
 		altNames: [`Delta Rune`], // optional alternate names, for search algorithms
 		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
-		src: `undertale/%name_heart.png`, // local image source
+		src: `/buttons/interests/games/undertale/%name_heart.png`, // local image source
 		imgbb: `https://i.ibb.co/GhjXVVR/Deltarune-heart.png`, // imgbb link
 		imgur: `https://i.imgur.com/3CS7jbK.png`, // imgur link
 		tags: [`deltarune`], // tags for search/filtering
@@ -22197,7 +22197,7 @@ const gamesList = [
 		name: `Deltarune`, // display name
 		altNames: [`Delta Rune`], // optional alternate names, for search algorithms
 		dateAdded: `2026-08-23`, // date this button was first added to the masterlist
-		src: `undertale/%name_Kris.png`, // local image source
+		src: `/buttons/interests/games/undertale/%name_Kris.png`, // local image source
 		imgbb: `https://i.ibb.co/n8LQswp0/Deltarune-Kris.png`, // imgbb link
 		imgur: `https://i.imgur.com/XbnA6VS.png`, // imgur link
 		tags: [`deltarune`], // tags for search/filtering
@@ -22208,7 +22208,7 @@ const gamesList = [
 		name: `Deltarune`, // display name
 		altNames: [`Delta Rune`], // optional alternate names, for search algorithms
 		dateAdded: `2026-08-23`, // date this button was first added to the masterlist
-		src: `undertale/%name_Kris_2.png`, // local image source
+		src: `/buttons/interests/games/undertale/%name_Kris_2.png`, // local image source
 		imgbb: `https://i.ibb.co/ccD6Kb21/Deltarune-Kris-2.png`, // imgbb link
 		imgur: `https://i.imgur.com/R29pkCz.png`, // imgur link
 		tags: [`deltarune`], // tags for search/filtering
@@ -22219,7 +22219,7 @@ const gamesList = [
 		name: `Deltarune`, // display name
 		altNames: [`Delta Rune`], // optional alternate names, for search algorithms
 		dateAdded: `2026-08-23`, // date this button was first added to the masterlist
-		src: `undertale/%name_Spamton.png`, // local image source
+		src: `/buttons/interests/games/undertale/%name_Spamton.png`, // local image source
 		imgbb: `https://i.ibb.co/hn8Yw33/Deltarune-Spamton.png`, // imgbb link
 		imgur: `https://i.imgur.com/Wr2whd0.png`, // imgur link
 		tags: [`deltarune`], // tags for search/filtering
@@ -22229,7 +22229,7 @@ const gamesList = [
 	{
 		name: `Spamton`, // display name
 		dateAdded: `2026-08-23`, // date this button was first added to the masterlist
-		src: `undertale/%name.png`, // local image source
+		src: `/buttons/interests/games/undertale/%name.png`, // local image source
 		imgbb: `https://i.ibb.co/RT70Jc0V/Spamton.png`, // imgbb link
 		imgur: `https://i.imgur.com/FvPUMQj.png`, // imgur link
 		tags: [`deltarune`], // tags for search/filtering
@@ -22240,7 +22240,7 @@ const gamesList = [
 		name: `Deltarune`, // display name
 		altNames: [`Delta Rune`], // optional alternate names, for search algorithms
 		dateAdded: `2026-08-23`, // date this button was first added to the masterlist
-		src: `undertale/%name_Susie.png`, // local image source
+		src: `/buttons/interests/games/undertale/%name_Susie.png`, // local image source
 		imgbb: `https://i.ibb.co/gFdg7kf3/Deltarune-Susie.png`, // imgbb link
 		imgur: `https://i.imgur.com/9I3i0K6.png`, // imgur link
 		tags: [`deltarune`], // tags for search/filtering
@@ -22250,7 +22250,7 @@ const gamesList = [
 	{
 		name: `Undertale`, // display name
 		dateAdded: `2026-08-23`, // date this button was first added to the masterlist
-		src: `undertale/%name.png`, // local image source
+		src: `/buttons/interests/games/undertale/%name.png`, // local image source
 		imgbb: `https://i.ibb.co/FkxTgFFZ/Undertale.png`, // imgbb link
 		imgur: `https://i.imgur.com/iCdHkp8.png`, // imgur link
 		tags: gamesData.vGame.tags.concat([`rpg`]), // tags for search/filtering
@@ -22260,7 +22260,7 @@ const gamesList = [
 	{
 		name: `Undertale`, // display name
 		dateAdded: `2026-08-23`, // date this button was first added to the masterlist
-		src: `undertale/%name_Dog.png`, // local image source
+		src: `/buttons/interests/games/undertale/%name_Dog.png`, // local image source
 		imgbb: `https://i.ibb.co/C3pQqjyv/Undertale-Dog.png`, // imgbb link
 		imgur: `https://i.imgur.com/JEwCkOq.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -22271,7 +22271,7 @@ const gamesList = [
 	{
 		name: `Undertale`, // display name
 		dateAdded: `2026-08-23`, // date this button was first added to the masterlist
-		src: `undertale/%name_Flowey.png`, // local image source
+		src: `/buttons/interests/games/undertale/%name_Flowey.png`, // local image source
 		imgbb: `https://i.ibb.co/pvZYNqdn/Undertale-Flowey.png`, // imgbb link
 		imgur: `https://i.imgur.com/y3Sds4h.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -22283,7 +22283,7 @@ const gamesList = [
 		name: `Undertale/Deltarune`, // display name
 		altNames: [`UTDR`],
 		dateAdded: `2026-08-23`, // date this button was first added to the masterlist
-		src: `undertale/%name.png`, // local image source
+		src: `/buttons/interests/games/undertale/%name.png`, // local image source
 		imgbb: `https://i.ibb.co/3m0bxFn5/Undertale-Deltarune.png`, // imgbb link
 		imgur: `https://i.imgur.com/EZFG3Mp.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
