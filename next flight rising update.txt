@@ -1,12 +1,28 @@
 LAST POST - 8/18/26 NEXT POST - after 9/1/26
 
 @pinglist-4936
+-----
+[size=4][b]CREDITS NOMINATIONS[/b][/size]
+-----
+my credits/special thanks have gotten out of date while i've been offline! if there's anyone you guys feel deserves special thanks for contributing significantly to this project in any way, please let me know either privately or here in the forum. there's also a [url=https://idbuttons.neocities.org/credits/]credit/thanks page[/url] on the database site now!
+
+
+-----
+[size=4][b]USAGE LICENSE[/b][/size]
+-----
+i've added a more explicit [url=https://idbuttons.neocities.org/license/]licensing agreement[/url] for the button assets - basically a share-alike system. anyone can use the buttons for free without credit. if you use my button bases or fonts to create custom stuff, you have to be okay with people using the stuff you make too, unless you ask me first. for most purposes i'll say yes, so don't worry! i just want to solidify my legal right to continue acting as an archivist for the database collection, and your legal right to keep using the buttons on websites/profiles/etc.
+
+
+-----
+[size=4][b]GENERAL UPDATES[/b][/size]
+-----
 
 the [url=https://idbuttons.neocities.org/maker/]button maker[/url] now has a dropdown for the plain color gradient icons! there's also a bit more font kerning (to make things narrower and more even)
 
-added maker font support for the following characters! they don't look the best in this style, but I know they're sometimes necessary :'>
+added support for the following characters! they don't look the best in this style, but I know they're sometimes necessary :'>
 Ā Ä É Ō Ö Ø Æ
 ā ä é ō ö ø æ
+
 
 -----
 [size=4][b]NEW BUTTONS[/b][/size]
@@ -18,24 +34,26 @@ Webcomics (icons by springb0nnie, modified a bit to show up clearer on the stand
 
 Adjusted icons
 [img alt="Gravity Falls"]https://i.imgur.com/FQh8JNz.png[/img]
-[img alt="JoJo's Bizarre Adventure"]https://i.imgur.com/exwSuNC.png[/img] [img alt="JoJo's"]https://i.imgur.com/AA5vFi5.png[/img]
+[img alt="JoJo's Bizarre Adventure"]https://i.ibb.co/hRmfH5Kk/Jo-Jo-s-Bizarre-Adventure.png[/img] [img alt="JoJo's Bizarre Adventure"]https://i.ibb.co/zcLGFSG/Jo-Jo-s.png[/img]
 
 [b]GAMES[/b]
-[img alt="Cat Cafe Manager"]https://i.imgur.com/Yh1sjaI.png[/img]
+[img alt="Cat Cafe Manager"]https://i.ibb.co/bMK9JpPD/Cat-Cafe-Manager.png[/img]
 Persona 3/4/5 (icons by milkywaydotmoe)
-[img alt="Persona 3"]https://i.imgur.com/n8AHoa0.png[/img] [img alt="Persona 4"]https://i.imgur.com/nAMmsCW.png[/img] [img alt="Persona 5"]https://i.imgur.com/K0ARFfm.png[/img]
+[img alt="Persona 3"]https://i.ibb.co/4g5CPgqZ/Persona-3.png[/img] [img alt="Persona 4"]https://i.ibb.co/S4MQC7Jc/Persona-4.png[/img] [img alt="Persona 5"]https://i.ibb.co/mrx1v7x4/Persona-5.png[/img]
 New Icons
 [img alt="Mass Effect"]https://i.ibb.co/KxfWWQGC/Mass-Effect.png[/img] [img alt="Mass Effect"]https://i.ibb.co/vv41C8BZ/Mass-Effect-SA.png[/img] [img alt="Mass Effect"]https://i.ibb.co/HDLDG0R4/Mass-Effect-SA-Earth.png[/img]
-[img alt="Rhythm Heaven"]https://i.ibb.co/qMKb5ctv/Rhythm-Heaven.png[/img] [img alt="Rhythm Tengoku"]https://i.ibb.co/NgvtJqpP/Rhythm-Tengoku.png[/img] [img alt="Rhythm Paradise"]https://i.ibb.co/V0LS0B1C/Rhythm-Paradise.png[/img]
+[img alt="Rhythm Heaven"]https://i.ibb.co/qMKb5ctv/Rhythm-Heaven.png[/img] [img alt="Rhythm Tengoku"]https://i.ibb.co/KCH3Cn7/Rhythm-Tengoku.png[/img] [img alt="Rhythm Paradise"]https://i.ibb.co/V0LS0B1C/Rhythm-Paradise.png[/img]
+[img alt="Deltarune"]https://i.ibb.co/hF9V8MRQ/Deltarune.png[/img] [img alt="Deltarune"]https://i.ibb.co/n8LQswp0/Deltarune-Kris.png[/img] [img alt="Deltarune"]https://i.ibb.co/ccD6Kb21/Deltarune-Kris-2.png[/img] [img alt="Deltarune"]https://i.ibb.co/hn8Yw33/Deltarune-Spamton.png[/img]
+[img alt="Undertale"]https://i.ibb.co/C3pQqjyv/Undertale-Dog.png[/img]
 
 [b]NATIONS/CULTURES[/b]
 Plain four directions symbol icon
 [img alt="First Nations"]https://i.ibb.co/4gJRHkX7/First-Nations-directions-symbol.png[/img] [img alt="Native American"]https://i.ibb.co/S8dY3cD/Native-American-directions-symbol.png[/img]
 Navajo/Diné, Cheyenne, Native Hawaiian/Kanaka Maoli
-[img alt="Navajo"]https://i.ibb.co/DHqCbrhf/Navajo.png[/img] [img alt="Diné"]https://i.ibb.co/KxQdyCDy/Din.png[/img] [img alt="Navajo"]https://i.ibb.co/yFbYQ533/Navajo-simple.png[/img] [img alt="Diné"]https://i.ibb.co/BHZvRcc4/Din-simple.png[/img]
+[img alt="Navajo"]https://i.ibb.co/DHqCbrhf/Navajo.png[/img] [img alt="Diné"]https://i.ibb.co/KxQdyCDy/Din.png[/img] [img alt="Navajo"]https://i.ibb.co/yFbYQ533/Navajo-simple.png[/img] [img alt="Diné"]https://i.ibb.co/fYWk5P87/Din-simple.png[/img]
 [img alt="Cheyenne"]https://i.ibb.co/3YVR96JY/Cheyenne.png[/img] [img alt="Hawaiian Native"]https://i.ibb.co/Ymz4q0L/Hawaiian-Native.png[/img] [img alt="Kanaka Maoli"]https://i.ibb.co/93zCZHkx/Kanaka-Maoli.png[/img]
 Māori
-[img alt="Aotearoa"]https://i.ibb.co/xt3s9W85/Aotearoa.png[/img]
+[img alt="Aotearoa"]https://i.ibb.co/0kVyqqF/Aotearoa.png[/img]
 
 
 
@@ -56,17 +74,17 @@ Thorntails (by kenzieishungry)
 [img alt="Thorntail"]https://i.ibb.co/BKwCnrPH/Thorntail.png[/img] [img alt="Thorntail Fan"]https://i.ibb.co/Nq8By7b/Thorntail-Fan.png[/img] [img alt="Thorntail Lair"]https://i.ibb.co/Jj8F39GP/Thorntail-Lair.png[/img][img alt="Thorntail Monolair"]https://i.ibb.co/QvqDNDfq/Thorntail-Monolair.png[/img]
 [img alt="Thorntail Kin"]https://i.ibb.co/DHgTCqcv/Thorntail-Kin.png[/img]
 
-Auraboas (by SakraKaine)
-[img alt="Auraboa"]https://i.ibb.co/TxrHZxt9/Auraboa.png[/img] [img alt="Auraboa Fan"]https://i.ibb.co/xtKsgBdC/Auraboa-Fan.png[/img] [img alt="Auraboa Monolair"]https://i.ibb.co/9mKVX7tb/Auraboa-Monolair.png[/img]
-
 Choruses
 [img alt="Chorus"]https://i.ibb.co/LzX7cZMp/Chorus.png[/img] [img alt="Chorus Fan"]https://i.ibb.co/938075j5/Chorus-Fan.png[/img] [img alt="Chorus Lair"]https://i.ibb.co/1GrxZR2d/Chorus-Lair.png[/img] [img alt="Chorus Monolair"]https://i.ibb.co/rKzYwhMG/Mono-Lair.png[/img]
 
 New icons for existing breeds
-[img alt="Nocturne"]https://i.ibb.co/fwpxbjS/Nocturne.png[/img] [img alt="Nocturne Fan"]https://i.ibb.co/ksB5GQhC/Nocturne-Fan.png[/img] [img alt="Nocturne Monolair"]https://i.ibb.co/rfd9GLyk/Nocturne-Monolair.png[/img] [img alt="Nocturnegender"]https://i.imgur.com/pZ3jKAr.png[/img]
-[img alt="Obelisk"]https://i.imgur.com/IgLoMVu.png[/img] [img alt="Obelisk Fan"]https://i.imgur.com/koYElU5.png[/img] [img alt="Obelisk Monolair"]https://i.imgur.com/EXMUuEe.png[/img]
+[img alt="Nocturne"]https://i.ibb.co/fwpxbjS/Nocturne.png[/img] [img alt="Nocturne Fan"]https://i.ibb.co/ksB5GQhC/Nocturne-Fan.png[/img] [img alt="Nocturne Monolair"]https://i.ibb.co/rfd9GLyk/Nocturne-Monolair.png[/img] [img alt="Nocturnegender"]https://i.ibb.co/pjyzsQf9/Nocturnegender.png[/img]
+[img alt="Obelisk"]https://i.ibb.co/DgTN69Jb/Obelisk.png[/img] [img alt="Obelisk Fan"]https://i.ibb.co/vx5Wmnj2/Obelisk-Fan.png[/img] [img alt="Obelisk Monolair"]https://i.ibb.co/Rnsd6BN/Obelisk-Monolair.png[/img]
 [img alt="Guardian"]https://i.ibb.co/Kxg2wvGB/Guardian.png[/img] [img alt="Guardian Fan"]https://i.ibb.co/VKj6C7M/Guardian-Fan.png[/img] [img alt="Guardian Monolair"]https://i.ibb.co/1YjJv0pD/Guardian-Monolair.png[/img] [img alt="Guardiangender"]https://i.ibb.co/wrpPWg0X/Guardiangender.png[/img]
 [img alt="Auraboa"]https://i.ibb.co/qFXtSgMw/Auraboa.png[/img] [img alt="Auraboa Fan"]https://i.ibb.co/LDfF1VFf/Auraboa-Fan.png[/img] [img alt="Auraboa Monolair"]https://i.ibb.co/v4xGnTL3/Auraboa-Monolair.png[/img]
 
 Fire Emblem (by milkywaydotmoe)
 [img alt="Fire Emblem"]https://i.ibb.co/JW6mJ1LP/Fire-Emblem.png[/img] [img alt="Fire Emblem Awakening"]https://i.ibb.co/sd26hZKG/Fire-Emblem-Awakening.png[/img] [img alt="Fire Emblem Engage"]https://i.ibb.co/2fdh6w2/Fire-Emblem-Engage.png[/img] [img alt="Fire Emblem Fates"]https://i.ibb.co/TDfrQqsn/Fire-Emblem-Fates.png[/img] [img alt="Fire Emblem: The Binding Blade"]https://i.ibb.co/jPbh8rNj/Fire-Emblem-The-Binding-Blade.png[/img] [img alt="Fire Emblem: Three Houses"]https://i.ibb.co/rK0r7GdT/Fire-Emblem-Three-Houses.png[/img]
+
+Undertale Flowey icon (by RaptorFury)
+[img alt="Undertale"]https://i.ibb.co/pvZYNqdn/Undertale-Flowey.png[/img]
