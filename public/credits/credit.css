@@ -1,0 +1,21 @@
+.credits-list {
+	max-width: 700px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	justify-content: center;
+}
+
+main > section {
+	max-width: 800px;
+	padding: 1em 1.5em;
+	margin: 0 auto;
+}
+
+#special-thanks {
+	background: var(--tablerow2);
+	border: 1px var(--boxborder) solid;
+}
+
+h2:first-child { margin-top: 0; }

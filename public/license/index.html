@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>credits & license</title>
+		
+		<!--base stylesheet-->
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<!--license page stylesheet-->
+		<link href="license.css" rel="stylesheet" type="text/css" media="all">
+		
+		<!--buttons functions-->
+		<script src="/buttonFunctions.js"></script>
+	</head>
+	
+	<body>
+		
+		<!-- page color theme selection -->
+		<select type="submit" name="theme" id="theme" onchange="setPageTheme(this.value);">
+			<label class="sr-only" for="theme">Page theme:</label>
+			<option>Page theme</option>
+			<option value="light">light</option>
+			<option value="dark">dark</option>
+		</select>
+		
+		<header>
+			<h1><a href="/database">tiny identity buttons</a></h1>
+		</header>
+		
+		<nav>
+			<p><a href="/database">database</a> | <a href="/maker">button maker</a> | <a href="/credits">credits</a></p>
+		</nav>
+		
+		<hr>
+		
+		<main>
+			<h2>licensing</h2>
+			
+			<section id="philosophy">
+				<h3>copyleft & archive philosophy</h3>
+				<p>I view this as a community resource, which I serve as the primary curator and archivist. I want anyone to be able to use the buttons on their profiles, webpages, etc for free, for any reason, without being required to ask permission or provide credit.</p>
+				<p>I want to retain the legal right to archive any new buttons people make using my work, and to modify those buttons if needed to maintain consistency of font, palette, art style, etc within the collection. I also want to be able to delete buttons from the archive if I no longer want to personally host them for any reason.</p>
+				<p>Any rules I'm laying out are meant to achieve these goals!</p>
+			</section>
+			
+			<section id="details">
+				<h3>license details</h3>
+				<p>License date: August 8th, 2026</p>
+				<p>The buttons, font, icons, and palettes ("Assets") are copyrighted by fluffmoth, June 24 2018 to the present.</p>
+				<p>The Assets are free to redistribute and display anywhere, by anyone, with <b>or</b> without credit.</p>
+				<p>The Assets are distributed under a "share-alike" condition. You may modify the Assets or use them to create derivative works, such as custom buttons and other images. These derivative works <strong>must</strong> be shared under the same agreement. That means if you make your own buttons using the Assets, they also must be free for anyone to redistribute, display, or modify without credit.</p>
+				<p>You need permission to use the Assets to create works under a different license (e.g. if you always want to be credited, or if you don't want people to repost or edit your work.) This is what lets me maintain this archive without having to do a lot of coordination about it!</p>
+				<p>You <strong>may</strong> receive compensation, such as money or in-game currencies, as a one-time payment in exchange for the labor of fulfilling a button request. However, the end product must be shared under the same license (share-alike).</p>
+			</section>
+			
+			<section id="examples">
+				<h3>examples</h3>
+				<p>Acceptable use examples:
+					<ul>
+						<li>Downloading a button from this site and rehosting it on your own website</li>
+						<li>Copying link codes for a button and adding it to a forum post, signature, or profile page</li>
+						<li>Making your own button using the button maker page and using it elsewhere on the web</li>
+						<li>Using any part of the font or images in your own free-use share-alike software or artwork</li>
+						<li>Accepting one-time payment or tips for making buttons for someone else, as long as the finished work is free for anyone to use without credit once finished</li>
+					</ul>
+				</p>
+				<p>Examples requiring permission first:
+					<ul>
+						<li>Making buttons that you don't want anyone else to use</li>
+						<li>Making buttons that people must credit you for when reposting</li>
+						<li>Making buttons that people must pay you to use</li>
+						<li>Making buttons that people must ask your permission to edit (e.g. changing colors, altering pixel art, adding new text)</li>
+						<li>Using images or fonts from this site in a software, website, or any other work that is not distributed under a share-alike license (e.g. proprietary software)</li>
+					</ul>
+				</p>
+			</section>
+			<p><a href="/database">return home</a></p>
+		</main>
+		
+		<script>
+			// set page color theme
+			setPageTheme();
+		</script>
+	</body>
+</html>

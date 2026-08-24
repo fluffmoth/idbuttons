@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>credits & license</title>
+		
+		<!--base stylesheet-->
+		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+		<!--credit page stylesheet-->
+		<link href="credit.css" rel="stylesheet" type="text/css" media="all">
+		
+		<!--buttons functions-->
+		<script src="/buttonFunctions.js"></script>
+	</head>
+	
+	<body>
+		
+		<!-- page color theme selection -->
+		<select type="submit" name="theme" id="theme" onchange="setPageTheme(this.value);">
+			<label class="sr-only" for="theme">Page theme:</label>
+			<option>Page theme</option>
+			<option value="light">light</option>
+			<option value="dark">dark</option>
+		</select>
+		
+		<header>
+			<h1><a href="/database">tiny identity buttons</a></h1>
+		</header>
+		
+		<nav>
+			<p><a href="/database">database</a> | <a href="/maker">button maker</a> | <a href="/license">license</a></p>
+		</nav>
+		
+		<hr>
+		
+		<main>
+			
+			<section id="credits">
+				<h2>credits</h2>
+				<p>I made the original buttons as a set of around 30 pronoun and gender buttons for the profiles of my dragons on Flight Rising. I posted them in the forums for others to use, thinking maybe a few people would find it useful. I started getting requests for more flags, and then things that weren't gender/pronoun related. Other people started stepping in to host buttons, create new icons, design color palettes, and generate images with custom text. Things got out of hand and now here we are!</p>
+				<p>This project wouldn't have become what it is without the contributions of so many different people, and the support and encouragement of the community. Thank you all!</p>
+			</section>
+			
+			<section id="special-thanks">
+				<h2>special thanks</h2>
+				<p>I'd like to offer special recognition to the following individuals who have contributed an exceptional amount of work to this project: maintaining the forum thread, fulfilling requests, creating custom pixel art, making suggestions, and managing the mess when image hosts have suddenly gone down over the years. I appreciate you all very much.</p>
+				<div class="credits-list">
+					<a class="btn" href="https://www1.flightrising.com/clan-profile/197813" class="bbcode_url">chorderaos</a>
+					<a class="btn" href="https://www1.flightrising.com/clan-profile/562134" class="bbcode_url">naughtnilus</a>
+					<a class="btn" href="https://www1.flightrising.com/clan-profile/575523" class="bbcode_url">woodlands</a>
+					<a class="btn" href="https://www1.flightrising.com/clan-profile/58298" class="bbcode_url">LovecoreBats</a>
+					<a class="btn" href="https://www1.flightrising.com/clan-profile/248174" class="bbcode_url">ElectricBorealis</a>
+					<a class="btn" href="https://www1.flightrising.com/clan-profile/382100" class="bbcode_url">Oakhearted</a>
+					<a class="btn" href="https://www1.flightrising.com/clan-profile/556112" class="bbcode_url">pocketbrows</a>
+					<a class="btn" href="https://www1.flightrising.com/clan-profile/395687" class="bbcode_url">crytype</a>
+					<a class="btn" href="https://www1.flightrising.com/clan-profile/151215" class="bbcode_url">DreaminqHeart</a>
+					<a class="btn" href="https://www1.flightrising.com/clan-profile/112202" class="bbcode_url">Notabilia</a>
+					<a class="btn" href="https://www1.flightrising.com/clan-profile/506521" class="bbcode_url">Fractee</a>
+					<a class="btn" href="https://www1.flightrising.com/clan-profile/545357" class="bbcode_url">SakraKaine</a>
+					<a class="btn" href="https://www1.flightrising.com/clan-profile/200948" class="bbcode_url">idlewildly</a>
+				</div>
+			</section>
+		</main>
+		
+		<script>
+			// set page color theme
+			setPageTheme();
+		</script>
+	</body>
+</html>
