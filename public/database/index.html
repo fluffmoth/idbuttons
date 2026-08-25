@@ -46,9 +46,16 @@
 			<button class="btn" onclick="document.getElementById('host-info').classList.toggle('hidden');">?</button>
 			<div id="host-info" class="hidden">
 				This sets the preferred external image source used in generated BBCode and HTML code.
-				<p>I recommend using the default, but feel free to pick something else if you know what you're doing!
-				<p>If a button doesn't have a valid link for the source you chose, it will always use the default.
-				<p><button onclick="document.getElementById('host-info').classList.toggle('hidden');">[close]</button></p>
+				<p>I recommend using the default, but feel free to pick something else if you know what you're doing!</p>
+				<p>If a button doesn't have a valid link for the source you chose, it will always use the default.</p>
+				<p>Look for the icons to see which hosts a button has been uploaded to.</p>
+				<p><strong>Available Hosts:</strong>
+						<br><img src="/favicons/imgbb.png" alt=""> Imgbb (current default)
+						<br><img src="/favicons/imgur.png" alt=""> Imgur (broken in the UK)
+						<br><img src="/favicons/favicon.png" alt=""> Neocities (other Neocities sites only)
+						<br><img src="/favicons/postimg.png" alt=""> Postimg (broken on Flight Rising)
+				</p>
+				<p><button class="btn" onclick="document.getElementById('host-info').classList.toggle('hidden');">close</button></p>
 			</div>
 		</div></div>
 		
@@ -111,6 +118,7 @@
 				<th class="icon-col">Icon</th>
 				<th class="bbCode-col">BBCode</th>
 				<th class="htmlCode-col">HTML Code</th>
+				<th class="info-col">Hosts</th>
 				<th class="info-col">Info</th>
 			</tr>
 			<!-- sample row -->
