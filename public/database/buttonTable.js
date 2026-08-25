@@ -194,11 +194,21 @@ function newButtonRow(b) {
 	// add bbCode textarea to column
 	htmlCol.appendChild(htmlTxt);
 	
+	// hosts column
+	var hostCol = row.insertCell();
+	hostCol.classList.add('host-col');
+	// if button has info, put it in the info section
+	if (b.src && b.src != '') hostCol.innerHTML = '<img src="/favicons/favicon.png" alt="neocities" title="neocities">';
+	if (b.imgur && b.imgur != '') hostCol.innerHTML += '<img src="/favicons/imgur.png" alt="imgur" title="imgur">';
+	if (b.imgbb && b.imgbb != '') hostCol.innerHTML += '<img src="/favicons/imgbb.png" alt="imgbb" title="imgbb">';
+	if (b.postimg && b.postimg != '') hostCol.innerHTML += '<img src="/favicons/postimg.png" alt="postimg" title="postimg">';
+	
 	// info column
-	var infoCol = row.insertCell(6);
+	var infoCol = row.insertCell();
 	infoCol.classList.add('info-col');
 	// if button has info, put it in the info section
 	if (b.info) infoCol.innerHTML = b.info;
+	
 	
 	// make text areas select all on click
 	row.querySelectorAll('textarea').forEach((t) => {
