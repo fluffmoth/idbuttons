@@ -19868,7 +19868,7 @@ const religionList = [
 		name: `Jewish`, // display name
 		dateAdded: `2024-01-18`, // date this button was first added to the masterlist
 		altNames: [`Judaism`,`Jew`], // optional alternate names, for search algorithms
-		imgbb: `jZQbpB55/Jewish.png`, // imgbb link
+		imgbb: `https://i.ibb.co/yc5hBhZ7/Jewish.png`, // imgbb link
 		imgur: `ehCjVGy.png`, // imgur link
 		postimg: `https://i.postimg.cc/jq8jn0RD/Jewish.png`, // postimg link
 		tags: [`religion`,`culture`,`ethnicity`], // tags for search/filtering
@@ -19966,13 +19966,111 @@ politicsList.forEach((item)=>{
 	item.info += politicsDisclaimer;
 });
 
+const musicData = {};
+(()=>{
+	musicData.artist = {};
+	musicData.artist.tags = [`interests`,`fandom`,`music`,`music artist`];
+	musicData.band = {};
+	musicData.band.tags = musicData.artist.tags.concat([`music artist`,`band`]);
+	musicData.band.link = `<a href="?tags=interests,music artist">Band</a>`;
+	musicData.band.linkLC = musicData.band.link.toLowerCase();
+	musicData.kpop = {};
+	musicData.kpop.tags = [`k-pop`,`korean`];
+	musicData.kpop.bandTags = musicData.band.tags.concat(musicData.kpop.tags);
+	musicData.kpop.link = `<a href="?tags=k-pop">K-pop</a>`;
+	musicData.kpop.bandInf = `${musicData.kpop.link} ${musicData.band.linkLC}`;
+})();
+console.log(musicData.kpop.bandTags,musicData.kpop.bandInf);
 const musicList = [
+	{
+		name: `SEVENTEEN`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/NdKkxyR9/Seventeen.png`, // imgbb link
+		imgur: `https://i.imgur.com/yYSar5r.png`, // imgur link
+		tags: musicData.kpop.bandTags, // tags for search/filtering
+		info: musicData.kpop.bandInf, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `SEVENTEEN`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		src: `%name_dark.png`,
+		imgbb: `https://i.ibb.co/TqWjRJCR/Seventeen-dark.png`, // imgbb link
+		imgur: `https://i.imgur.com/NiDLyXV.png`, // imgur link
+		inFRPost: false,
+		tags: musicData.kpop.bandTags, // tags for search/filtering
+		info: musicData.kpop.bandInf, // optional extra info
+		icon: `logo (dark)` // description of the flag/icon
+	},
+	{
+		name: `ENHYPEN`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Rxc5xNf/ENHYPEN.png`, // imgbb link
+		imgur: `https://i.imgur.com/eUcsGjL.png`, // imgur link
+		tags: musicData.kpop.bandTags, // tags for search/filtering
+		info: musicData.kpop.bandInf, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `BigBang`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/5xCdKh89/Big-Bang.png`, // imgbb link
+		imgur: `https://i.imgur.com/kNBrjK9.png`, // imgur link
+		tags: musicData.kpop.bandTags.concat(`made`), // tags for search/filtering
+		info: musicData.kpop.bandInf, // optional extra info
+		icon: `MADE album` // description of the flag/icon
+	},
+	{
+		name: `XLOV`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/PsR2b0MY/Xlov.png`, // imgbb link
+		imgur: `https://i.imgur.com/arMqX7g.png`, // imgur link
+		tags: musicData.kpop.bandTags, // tags for search/filtering
+		info: musicData.kpop.bandInf, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `ATEEZ`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/gZGNPMX2/Ateez.png`, // imgbb link
+		imgur: `https://i.imgur.com/STb1mSP.png`, // imgur link
+		tags: musicData.kpop.bandTags, // tags for search/filtering
+		info: musicData.kpop.bandInf, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Stray Kids`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/7JL7jD5x/Stray-Kids.png`, // imgbb link
+		imgur: `https://i.imgur.com/DIE1IdZ.png`, // imgur link
+		tags: musicData.kpop.bandTags, // tags for search/filtering
+		info: musicData.kpop.bandInf, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `BTS`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/qMmLXwTz/BTS.png`, // imgbb link
+		imgur: `https://i.imgur.com/7ICNP8X.png`, // imgur link
+		tags: musicData.kpop.bandTags, // tags for search/filtering
+		info: musicData.kpop.bandInf, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `TXT`, // display name
+		altNames: [`TOMORROW X TOGETHER`],
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/rKB9wMxy/Tx-T.png`, // imgbb link
+		imgur: `https://i.imgur.com/Dk0mWJ3.png`, // imgur link
+		tags: musicData.kpop.bandTags, // tags for search/filtering
+		info: musicData.kpop.bandInf, // optional extra info
+		icon: `The Dream Chapter: STAR album` // description of the flag/icon
+	},
 	{
 		name: `Melanie Martinez`, // display name
 		dateAdded: `2025-11-03`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `Mx7Yk9W.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`melanie martinez`], // tags for search/filtering
+		tags: musicData.artist.tags.concat([`melanie martinez`]), // tags for search/filtering
 		info: `<a href="?tags=interests,music artist">Music artist</a> (more Melanie buttons <a href="?tags=interests,melanie martinez">here</a>)`, // optional extra info
 		icon: `Crybaby` // description of the flag/icon
 	},
@@ -19991,7 +20089,6 @@ const musicList = [
 		altNames: [`Crybaby`], // optional alternate names, for search algorithms
 		alt: `%name`,
 		dateAdded: `2025-11-03`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `crnrB6l.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`melanie martinez`], // tags for search/filtering
@@ -20003,7 +20100,7 @@ const musicList = [
 		altNames: [`Portals`], // optional alternate names, for search algorithms
 		alt: `%name`,
 		dateAdded: `2025-11-03`, // date this button was first added to the masterlist
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: ``, // imgbb link
 		imgur: `YskaYt6.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`melanie martinez`], // tags for search/filtering
@@ -20014,18 +20111,16 @@ const musicList = [
 	{
 		name: `Nine Inch Nails`, // display name
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `K8iQrK1.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`], // tags for search/filtering
-		info: ``, // optional extra info
+		tags: musicData.band.tags.concat([`rock`,`industrial`]), // tags for search/filtering
+		info: `${musicData.band.link}`, // optional extra info
 		icon: `logo` // description of the flag/icon
 	},
 	{
 		name: `Miracle Musical`, // display name
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `anFqDoZ.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`tally hall`], // tags for search/filtering
+		tags: musicData.artist.tags.concat([`tally hall`]), // tags for search/filtering
 		info: `<a href="?tags=interests,music artist">Music artist</a>. Side project by <a href="?tags=interests,tally hall">Tally Hall</a> (more Miracle Musical buttons <a href="?tags=interests,miracle musical">here</a>)`, // optional extra info
 		icon: `Hawaii Part II album` // description of the flag/icon
 	},
@@ -20033,7 +20128,6 @@ const musicList = [
 		name: `Miracle Musical: Hawaii Part II`, // display name
 		dateAdded: `2024-02-10`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `oTw6Y28.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`miracle musical`,`tally hall`], // tags for search/filtering
@@ -20044,9 +20138,8 @@ const musicList = [
 		name: `Jack Stauber`, // display name
 		altNames: [`Jack Stauber's Micropop`], // optional alternate names, for search algorithms
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `92gO9MS.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`synth`,`pop`], // tags for search/filtering
+		tags: musicData.artist.tags.concat([`synth`,`pop`]), // tags for search/filtering
 		info: `<a href="?tags=interests,music artist">Music artist</a>`, // optional extra info
 		icon: `Music notes` // description of the flag/icon
 	},
@@ -20054,10 +20147,9 @@ const musicList = [
 		name: `Tally Hall`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `sGPdmfH.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`alternative`,`alt`,`rock`,`pop`,`fabloo`], // tags for search/filtering
-		info: `American indie rock <a href="?tags=interests,music artist">band</a>`, // optional extra info
+		tags: musicData.band.tags.concat([`alt`,`rock`,`pop`,`fabloo`]), // tags for search/filtering
+		info: `American indie rock ${musicData.band.linkLC}`, // optional extra info
 		icon: `Good & Evil album` // description of the flag/icon
 	},
 	{
@@ -20065,7 +20157,6 @@ const musicList = [
 		altNames: [`Good & Evil`,`Good and Evil`], // optional alternate names, for search algorithms
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `qqmbLIS.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`tally hall`], // tags for search/filtering
@@ -20077,10 +20168,10 @@ const musicList = [
 		altNames: [`Tupperware Remix Party`], // optional alternate names, for search algorithms
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/pNrK6dr/TWRP.png`, // imgbb link
 		imgur: `Tug9vXl.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`electronic`,`rock`], // tags for search/filtering
-		info: `Electronic rock <a href="?tags=interests,music artist">band</a>, formerly named Tupperware Remix Party`, // optional extra info
+		tags: musicData.band.tags.concat([`electronic`,`rock`,`synth`]), // tags for search/filtering
+		info: `Electronic rock ${musicData.band.linkLC}, formerly named Tupperware Remix Party`, // optional extra info
 		icon: `Rainbow music notes` // description of the flag/icon
 	},
 	{
@@ -20088,9 +20179,9 @@ const musicList = [
 		altNames: [`21 Pilots`], // optional alternate names, for search algorithms
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/4nssvmbp/Twenty-One-Pilots.png`, // imgbb link
 		imgur: `UFNuPA7.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`alternative`,`alt`,`rock`], // tags for search/filtering
+		tags: musicData.band.tags.concat([`alternative`,`alt`,`rock`]), // tags for search/filtering
 		info: `Alt rock <a href="?tags=interests,music artist">music duo</a>`, // optional extra info
 		icon: `Dark music notes` // description of the flag/icon
 	},
@@ -20098,9 +20189,8 @@ const musicList = [
 		name: `Perturbator`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `cjtnrTH.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`electronic`,`darksynth`,`synthwave`], // tags for search/filtering
+		tags: musicData.artist.tags.concat([`electronic`,`darksynth`,`synthwave`]), // tags for search/filtering
 		info: `Electronic <a href="?tags=interests,music artist">music artist</a>`, // optional extra info
 		icon: `Lustful Sacraments album` // description of the flag/icon
 	},
@@ -20108,19 +20198,17 @@ const musicList = [
 		name: `Daft Punk`, // display name
 		dateAdded: `2025-11-03`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `xqiLt8p.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`electronic`,`random access memories`], // tags for search/filtering
+		tags: musicData.band.tags.concat([`electronic`,`random access memories`]), // tags for search/filtering
 		info: `Electronic <a href="?tags=interests,music artist">music artist</a>`, // optional extra info
 		icon: `Random Access Memories album` // description of the flag/icon
 	},
 	{
 		name: `Lemon Demon`, // display name
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `f4eTEPu.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`spirit phone`], // tags for search/filtering
-		info: `<a href="?tags=interests,music artist">Music artist</a> (more Lemon Demon buttons <a href="?tags=interests,lemon demon">here</a>)`, // optional extra info
+		tags: musicData.band.tags, // tags for search/filtering
+		info: `${musicData.band.link} (more Lemon Demon buttons <a href="?tags=interests,lemon demon">here</a>)`, // optional extra info
 		icon: `logo` // description of the flag/icon
 	},
 	{
@@ -20129,8 +20217,8 @@ const musicList = [
 		src: `/buttons/interests/music/%name_SP.png`, // local image source
 		imgur: `GewEBZr.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`fandom`,`music`,`music artist`,`spirit phone`], // tags for search/filtering
-		info: `<a href="?tags=interests,music artist">Music artist</a>`, // optional extra info
+		tags: musicData.band.tags.concat([`spirit phone`]), // tags for search/filtering
+		info: `${musicData.band.link}`, // optional extra info
 		icon: `Spirit Phone album` // description of the flag/icon
 	},
 	{
@@ -20139,7 +20227,6 @@ const musicList = [
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
 		alt: `%name`,
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `Dyvd2cz.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`lemon demon`,`spirit phone`], // tags for search/filtering
@@ -20149,9 +20236,8 @@ const musicList = [
 	{
 		name: `Green Day`, // display name
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `yMX9ImD.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`american idiot`], // tags for search/filtering
+		tags: musicData.band.tags.concat([`american idiot`]), // tags for search/filtering
 		info: `<a href="?tags=interests,music artist">Music artist</a> (more Green Day buttons <a href="?tags=interests,green day">here</a>)`, // optional extra info
 		icon: `American Idiot album` // description of the flag/icon
 	},
@@ -20171,7 +20257,6 @@ const musicList = [
 		altNames: [`American Idiot`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `tOubCEn.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`green day`], // tags for search/filtering
@@ -20183,7 +20268,6 @@ const musicList = [
 		altNames: [`Saviors`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-23`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `vIcOvNw.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`green day`], // tags for search/filtering
@@ -20195,7 +20279,6 @@ const musicList = [
 		altNames: [`21st Century Breakdown`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-23`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `4Dp6QUX.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`green day`], // tags for search/filtering
@@ -20207,7 +20290,6 @@ const musicList = [
 		altNames: [`¡Uno!`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-23`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `bfRUXWo.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`green day`], // tags for search/filtering
@@ -20219,7 +20301,6 @@ const musicList = [
 		altNames: [`¡Dos!`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-23`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `UlIE7vi.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`green day`], // tags for search/filtering
@@ -20231,7 +20312,6 @@ const musicList = [
 		altNames: [`¡Tré!`,`¡Tre!`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-23`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `lAXPUDk.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`green day`], // tags for search/filtering
@@ -20243,7 +20323,6 @@ const musicList = [
 		altNames: [`Nimrod`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-23`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `6jjJFyk.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`green day`], // tags for search/filtering
@@ -20255,7 +20334,6 @@ const musicList = [
 		altNames: [`Dookie`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-23`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `WTbv2GE.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`green day`], // tags for search/filtering
@@ -20267,7 +20345,6 @@ const musicList = [
 		altNames: [`Kerplunk`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-23`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `s1CzkMN.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`green day`], // tags for search/filtering
@@ -20279,7 +20356,6 @@ const musicList = [
 		altNames: [`Shenanigans`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-23`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `FX7mikN.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`green day`], // tags for search/filtering
@@ -20291,7 +20367,6 @@ const musicList = [
 		altNames: [`Warning`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-23`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `uy691U7.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`green day`], // tags for search/filtering
@@ -20303,7 +20378,6 @@ const musicList = [
 		altNames: [`1,039/Smoothed Out Slappy Hours`,`Smoothed Out Slappy Hours`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-23`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `IzSvLN7.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`green day`], // tags for search/filtering
@@ -20313,49 +20387,47 @@ const musicList = [
 	{
 		name: `Mother Mother`, // display name
 		dateAdded: `2024-01-21`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `2HmvnYE.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`o my heart`], // tags for search/filtering
-		info: `<a href="?tags=interests,music artist">Music artist</a>`, // optional extra info
+		tags: musicData.band.tags.concat([`o my heart`]), // tags for search/filtering
+		info: `${musicData.band.link}`, // optional extra info
 		icon: `O My Heart album` // description of the flag/icon
 	},
 	{
 		name: `Heilung`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/NgY0z3Ss/Heilung.png`, // imgbb link
 		imgur: `0L6Cwis.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`folk`,`viking`], // tags for search/filtering
-		info: `European folk <a href="?tags=interests,music artist">music group</a>`, // optional extra info
+		tags: musicData.band.tags.concat([`folk`,`viking`]), // tags for search/filtering
+		info: `European folk ${musicData.band.linkLC}`, // optional extra info
 		icon: `Music notes` // description of the flag/icon
 	},
 	{
 		name: `Ghost`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/SwR7GGzB/Ghost.png`, // imgbb link
 		imgur: `hNpGoBq.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`rock`], // tags for search/filtering
-		info: `Swedish rock <a href="?tags=interests,music artist">band</a>`, // optional extra info
+		tags: musicData.band.tags.concat([`rock`]), // tags for search/filtering
+		info: `Swedish rock ${musicData.band.linkLC}`, // optional extra info
 		icon: `Inverted cross` // description of the flag/icon
 	},
 	{
 		name: `Gorillaz`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/k662k0FD/Gorillaz.png`, // imgbb link
 		imgur: `U5FwfXV.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`alternative`,`rock`,`alt`], // tags for search/filtering
-		info: `Alt rock virtual <a href="?tags=interests,music artist">band</a>`, // optional extra info
+		tags: musicData.band.tags.concat([`alternative`,`rock`,`alt`]), // tags for search/filtering
+		info: `Alt rock virtual ${musicData.band.linkLC}`, // optional extra info
 		icon: `Red music notes` // description of the flag/icon
 	},
 	{
 		name: `Carpenter Brut`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `JHpvnR9.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`electronic`,`darksynth`,`synthwave`], // tags for search/filtering
+		tags: musicData.artist.tags.concat([`electronic`,`darksynth`,`synthwave`]), // tags for search/filtering
 		info: `<a href="?tags=interests,darksynth">Darksynth</a> electronic <a href="?tags=interests,music artist">music artist</a>`, // optional extra info
 		icon: `Solid black` // description of the flag/icon
 	},
@@ -20363,9 +20435,9 @@ const musicList = [
 		name: `Chonny Jash`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: ``, // imgbb link
 		imgur: `9v53g7m.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`tally hall`], // tags for search/filtering
+		tags: musicData.artist.tags.concat([`tally hall`]), // tags for search/filtering
 		info: `Independent <a href="?tags=interests,music artist">singer/songwriter</a> known for <a href="?tags=tally hall">Tally Hall</a> covers`, // optional extra info
 		icon: `Solid black` // description of the flag/icon
 	},
@@ -20373,9 +20445,9 @@ const musicList = [
 		name: `Michael Jackson`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/MFmmb4S/Michael-Jackson.png`, // imgbb link
 		imgur: `o1H8UmF.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`], // tags for search/filtering
+		tags: musicData.artist.tags.concat([`pop`]), // tags for search/filtering
 		info: `<a href="?tags=interests,music artist">Music artist</a>`, // optional extra info
 		icon: `Music notes` // description of the flag/icon
 	},
@@ -20383,10 +20455,10 @@ const musicList = [
 		name: `Moonwalker`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/wZm42Dgz/Moonwalker.png`, // imgbb link
 		imgur: `9tL1FD7.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`fandom`,`music`,`michael jackson`], // tags for search/filtering
+		tags: musicData.artist.tags.concat([`michael jackson`]), // tags for search/filtering
 		info: `<a href="?tags=michael jackson">Michael Jackson</a> fan`, // optional extra info
 		icon: `Music notes` // description of the flag/icon
 	},
@@ -20394,19 +20466,17 @@ const musicList = [
 		name: `Rammstein`, // display name
 		dateAdded: `2024-01-24`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `kUyAb6e.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`], // tags for search/filtering
-		info: `<a href="?tags=interests,music artist">Music artist</a>`, // optional extra info
+		tags: musicData.band.tags.concat([`metal`,`industrial`]), // tags for search/filtering
+		info: `Industrial metal ${musicData.band.linkLC}`, // optional extra info
 		icon: `R logo (white on black)` // description of the flag/icon
 	},
 	{
 		name: `Hozier`, // display name
 		dateAdded: `2024-01-24`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `0joprHD.png`, // imgur link
-		tags: [`interests`,`fandom`,`music`,`music artist`,`music album`], // tags for search/filtering
+		tags: musicData.artist.tags.concat([`music album`]), // tags for search/filtering
 		info: `<a href="?tags=interests,music artist">Music artist</a> (more Hozier buttons <a href="?tags=interests,hozier">here</a>)`, // optional extra info
 		icon: `Hozier album` // description of the flag/icon
 	},
@@ -20416,7 +20486,7 @@ const musicList = [
 		src: `/buttons/interests/music/%name_WB.png`, // local image source
 		imgur: `5tZgQJJ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`fandom`,`music`,`music artist`,`wasteland baby`], // tags for search/filtering
+		tags: musicData.artist.tags.concat([`wasteland baby`]), // tags for search/filtering
 		info: `<a href="?tags=interests,music artist">Music artist</a> (more Hozier buttons <a href="?tags=interests,hozier">here</a>)`, // optional extra info
 		icon: `Wasteland Baby album` // description of the flag/icon
 	},
@@ -20426,7 +20496,7 @@ const musicList = [
 		src: `/buttons/interests/music/%name_UR.png`, // local image source
 		imgur: `f7Vox40.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`fandom`,`music`,`music artist`,`unreal unearth`], // tags for search/filtering
+		tags: musicData.artist.tags.concat([`unreal unearth`]), // tags for search/filtering
 		info: `<a href="?tags=interests,music artist">Music artist</a> (more Hozier buttons <a href="?tags=interests,hozier">here</a>)`, // optional extra info
 		icon: `Unreal Unearth album` // description of the flag/icon
 	},
@@ -20435,7 +20505,6 @@ const musicList = [
 		altNames: [`Wasteland Baby`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-24`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `EOCjMre.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`hozier`], // tags for search/filtering
@@ -20447,7 +20516,6 @@ const musicList = [
 		altNames: [`Unreal Unearth`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-24`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `cD6frA2.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`fandom`,`music`,`music album`,`hozier`], // tags for search/filtering
@@ -20460,7 +20528,7 @@ const musicList = [
 		name: `Music`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/CpjfCwHz/Music.png`, // imgbb link
 		imgur: `jo4fU6U.png`, // imgur link
 		tags: [`interests`,`music`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a>`, // optional extra info
@@ -20470,7 +20538,7 @@ const musicList = [
 		name: `Eclectic`, // display name
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name music`,
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/HDPkYR1w/Eclectic.png`, // imgbb link
 		imgur: `iTC51rT.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`eclectic`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20481,7 +20549,7 @@ const musicList = [
 		altNames: [`Eclectic Taste`], // optional alternate names, for search algorithms
 		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
 		alt: `%name`,
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/kg9tM67Q/Eclectic-Music-Taste.png`, // imgbb link
 		imgur: `ePwMD5G.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`music`,`genre`,`eclectic`], // tags for search/filtering
@@ -20492,7 +20560,6 @@ const musicList = [
 		name: `Ambience`, // display name
 		dateAdded: `2024-01-25`, // date this button was first added to the masterlist
 		alt: `%name music`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `b480W4V.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`interests`,`music`,`genre`,`ambient`], // tags for search/filtering
@@ -20503,7 +20570,6 @@ const musicList = [
 		name: `Ambient`, // display name
 		dateAdded: `2024-01-25`, // date this button was first added to the masterlist
 		alt: `%name music`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `H2FX9EM.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`ambience`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20513,7 +20579,6 @@ const musicList = [
 		name: `Dark Ambience`, // display name
 		dateAdded: `2024-01-25`, // date this button was first added to the masterlist
 		alt: `%name music`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		imgur: `lK49NBA.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`ambient`,`ambience`], // tags for search/filtering
@@ -20524,7 +20589,6 @@ const musicList = [
 		name: `Dark Ambient`, // display name
 		dateAdded: `2024-01-25`, // date this button was first added to the masterlist
 		alt: `%name music`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `PGATNcz.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`ambient`,`ambience`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20534,7 +20598,6 @@ const musicList = [
 		name: `Phonk`, // display name
 		dateAdded: `2024-01-25`, // date this button was first added to the masterlist
 		alt: `%name music`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `uknfa1f.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`hip hop`,`trap`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20544,7 +20607,6 @@ const musicList = [
 		name: `Pop Rock`, // display name
 		dateAdded: `2024-01-25`, // date this button was first added to the masterlist
 		alt: `%name music`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `iEMVVh2.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`pop`,`rock`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20554,7 +20616,6 @@ const musicList = [
 		name: `Pop`, // display name
 		dateAdded: `2024-01-25`, // date this button was first added to the masterlist
 		alt: `%name music`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `piL5tLz.png`, // imgur link
 		tags: [`interests`,`music`,`genre`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20564,7 +20625,6 @@ const musicList = [
 		name: `Romantic`, // display name
 		dateAdded: `2024-01-25`, // date this button was first added to the masterlist
 		alt: `%name music`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `67FRvK6.png`, // imgur link
 		tags: [`interests`,`music`,`genre`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20574,7 +20634,6 @@ const musicList = [
 		name: `Disco`, // display name
 		dateAdded: `2024-02-09`, // date this button was first added to the masterlist
 		alt: `%name music`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `jC5Du6O.png`, // imgur link
 		tags: [`interests`,`music`,`genre`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20583,7 +20642,7 @@ const musicList = [
 	{
 		name: `Synthwave`, // display name
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: ``, // imgbb link
 		imgur: `LDkMPPP.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`aesthetic`,`vaporwave`,`retro`,`electronic`], // tags for search/filtering
 		info: `Electronic <a href="?tags=interests,music">music</a> <a href="?tags=music,genre">genre</a>
@@ -20594,7 +20653,6 @@ const musicList = [
 		name: `Darksynth`, // display name
 		dateAdded: `2025-11-03`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `wtr3Voz.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`aesthetic`,`vaporwave`,`synthwave`,`retro`,`electronic`], // tags for search/filtering
 		info: `Subgenre of <a href="?tags=synthwave">synthwave</a> with a darker sound`, // optional extra info
@@ -20605,7 +20663,7 @@ const musicList = [
 		altNames: [`Electronic Dance Music`], // optional alternate names, for search algorithms
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
 		alt: `%name (%altNames0)`,
-		//src: `/buttons/interests/music/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/rG1bWPY7/EDM.png`, // imgbb link
 		imgur: `xRQQ7rT.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`electronic`,`dance`,`rave`], // tags for search/filtering
 		info: `Electronic <a href="?tags=interests,music">music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20615,7 +20673,6 @@ const musicList = [
 		name: `Kalimba`, // display name
 		dateAdded: `2024-01-24`, // date this button was first added to the masterlist
 		alt: `%name`,
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `G2FwKaA.png`, // imgur link
 		tags: [`interests`,`music`,`musical instrument`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Musical</a> <a href="?tags=musical instrument">instrument</a>`, // optional extra info
@@ -20624,7 +20681,6 @@ const musicList = [
 	{
 		name: `Classical`, // display name
 		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `ZhnO9yr.png`, // imgur link
 		tags: [`interests`,`music`,`genre`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20633,7 +20689,6 @@ const musicList = [
 	{
 		name: `Electronic`, // display name
 		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `NaGfCgq.png`, // imgur link
 		tags: [`interests`,`music`,`genre`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20642,7 +20697,6 @@ const musicList = [
 	{
 		name: `Emo`, // display name
 		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `3U79VnS.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`fashion`,`subculture`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a> and fashion subculture`, // optional extra info
@@ -20651,7 +20705,6 @@ const musicList = [
 	{
 		name: `Folk Punk`, // display name
 		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `k19P7h1.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`folk`,`punk`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20660,7 +20713,6 @@ const musicList = [
 	{
 		name: `Indie Folk`, // display name
 		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `QDBz03v.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`indie`,`folk`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20669,7 +20721,6 @@ const musicList = [
 	{
 		name: `Industrial`, // display name
 		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `SZfmfRv.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`electronic`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20678,7 +20729,6 @@ const musicList = [
 	{
 		name: `Metalhead`, // display name
 		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `mmoRz30.png`, // imgur link
 		tags: [`interests`,`music`,`metal`,`heavy metal`,`rock`], // tags for search/filtering
 		info: `Participant in <a href="?tags=interests,music,metal|heavy metal">heavy metal</a> music subculture`, // optional extra info
@@ -20687,7 +20737,6 @@ const musicList = [
 	{
 		name: `Midwest Emo`, // display name
 		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `PjhDNyG.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`indie`,`emo`,`math rock`,`rock`], // tags for search/filtering
 		info: `<a href="?tags=interests,emo">Emo</a> music subgenre`, // optional extra info
@@ -20696,7 +20745,6 @@ const musicList = [
 	{
 		name: `Rock`, // display name
 		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `jdiT3bZ.png`, // imgur link
 		tags: [`interests`,`music`,`genre`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
@@ -20705,13 +20753,18 @@ const musicList = [
 	{
 		name: `Trip Hop`, // display name
 		dateAdded: `2026-08-06`, // date this button was first added to the masterlist
-		src: `/buttons/interests/music/%name.png`, // local image source
 		imgur: `Ab8SxQk.png`, // imgur link
 		tags: [`interests`,`music`,`genre`,`hip hop`,`electronic`], // tags for search/filtering
 		info: `<a href="?tags=interests,music">Music</a> <a href="?tags=music,genre">genre</a>`, // optional extra info
 		icon: `Music notes` // description of the flag/icon
 	}
 ]
+// assign default values
+musicList.forEach((item)=>{
+	if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/interests/music/%name.png`; }
+	else if (!item.src.includes('/')) { item.src = `/buttons/interests/music/` + item.src; }
+	item.tags.push(`interests`,`music`);
+});
 
 const interestsData = {};
 (()=>{
@@ -25684,6 +25737,8 @@ const cultureData = {};
 (()=>{
 	cultureData.link = `<a href="?tags=nationality|culture">Culture/nationality</a>`;
 	cultureData.locationLink = `<a href="?tags=country|region">Country/region</a>`;
+	cultureData.countryLink = `<a href="?tags=country|region">Country/nation</a>`;
+	cultureData.regionLink = `<a href="?tags=country|region">Region</a>`;
 	cultureData.indig = { // Indigenous/Native
 		tags: [`nationality`,`culture`,`indigenous`,`native`],
 	};
@@ -25732,14 +25787,6 @@ const cultureData = {};
 })();
 const cultureList = [
 	{
-		name: `Indonesian`, // display name
-		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
-		imgbb: `RTPm3jqm/Indonesian.png`, // imgbb link
-		imgur: `Q6aMNpW.png`, // imgur link
-		tags: [`nationality`,`culture`,`indonesia`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
 		name: `Aboriginal`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		imgbb: `Cpt6XFB2/Aboriginal.png`, // imgbb link
@@ -25758,6 +25805,14 @@ const cultureList = [
 		icon: `Aboriginal Australian flag` // description of the flag/icon
 	},
 	{
+		name: `Afghan`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Kzs5Np6y/Afghan.png`, // imgbb link
+		imgur: `https://i.imgur.com/eLBupKp.png`, // imgur link
+		tags: [`nationality`,`culture`,`afghani`,`afghanistan`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
 		name: `Albanian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		imgbb: `ynVLcLNk/Albanian.png`, // imgbb link
@@ -25766,11 +25821,27 @@ const cultureList = [
 		icon: `flag` // description of the flag/icon
 	},
 	{
-		name: `American`, // display name
-		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `xn4CX7B/American.png`, // imgbb link
-		imgur: `NlmYDAS.png`, // imgur link
-		tags: [`nationality`,`culture`,`america`,`usa`,`united states`], // tags for search/filtering
+		name: `Algerian`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/mF2Gr0C1/Algerian.png`, // imgbb link
+		imgur: `https://i.imgur.com/ECLny0W.png`, // imgur link
+		tags: [`nationality`,`culture`,`algeria`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Andorran`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Q7CFgBsJ/Andorran.png`, // imgbb link
+		imgur: `https://i.imgur.com/00UF2hR.png`, // imgur link
+		tags: [`nationality`,`culture`,`andorra`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Angolan`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/DDt58XTF/Angolan.png`, // imgbb link
+		imgur: ``, // imgur link
+		tags: [`nationality`,`culture`,`angola`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -25792,6 +25863,49 @@ const cultureList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`nationality`,`culture`,`indigenous`,`native american`,`american indian`,`first nations`,`ojibwe`,`odawa`,`potawatomi`,`mississaugas`,`nipissing`,`algonquin`], // tags for search/filtering
 		icon: `symbol (red)` // description of the flag/icon
+	},
+	{
+		name: `Antigua and Barbuda`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/SLj7zPK/Antigua-and-Barbuda.png`, // imgbb link
+		imgur: `https://i.imgur.com/gq8o1Zq.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`culture`,`country`,`location`,`antigua and barbuda`,`antiguan`,`barbudan`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Antiguan`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/wrwGM8Pj/Antiguan.png`, // imgbb link
+		imgur: `https://i.imgur.com/rK28yT5.png`, // imgur link
+		tags: [`nationality`,`culture`,`antigua`,`antigua and barbuda`,`antiguan and barbudan`], // tags for search/filtering
+		icon: `Antigua and Barbuda flag` // description of the flag/icon
+	},
+	{
+		name: `Barbudan`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/KcH9T9P6/Barbudan.png`, // imgbb link
+		imgur: `https://i.imgur.com/7UEL9dN.png`, // imgur link
+		tags: [`nationality`,`culture`,`barbuda`,`antigua and barbuda`,`antiguan and barbudan`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Barbudan`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		src: `%name_AAB.png`,
+		imgbb: `https://i.ibb.co/S7W5nTXN/Barbudan-AAB.png`, // imgbb link
+		imgur: `https://i.imgur.com/D8kALPu.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`nationality`,`culture`,`barbuda`,`antigua and barbuda`,`antiguan and barbudan`], // tags for search/filtering
+		icon: `Antigua and Barbuda flag` // description of the flag/icon
+	},
+	{
+		name: `Arab`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/RpX5WVcT/Arab.png`, // imgbb link
+		imgur: `https://i.imgur.com/ggRr75i.png`, // imgur link
+		tags: [`culture`,`ethnicity`,`arabic`,`middle east`,`swana`], // tags for search/filtering
+		icon: `Gradient: Forest green` // description of the flag/icon
 	},
 	{
 		name: `Armenian`, // display name
@@ -25857,6 +25971,64 @@ const cultureList = [
 		icon: `flag` // description of the flag/icon
 	},
 	{
+		name: `Azerbaijani`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/5W7z0x1d/Azerbaijani.png`, // imgbb link
+		imgur: `https://i.imgur.com/Rf8aJpu.png`, // imgur link
+		tags: [`nationality`,`culture`,`azerbaijan`,`azeri`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Azeri`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/1fwm6hP2/Azeri.png`, // imgbb link
+		imgur: `https://i.imgur.com/rjZN8gO.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`nationality`,`culture`,`azerbaijan`,`azerbaijani`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Bahamian`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/CsvwJttg/Bahamian.png`, // imgbb link
+		imgur: `https://i.imgur.com/4UEZaL6.png`, // imgur link
+		tags: [`nationality`,`culture`,`bahamas`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Bahraini`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/jZWVK1jq/Bahraini.png`, // imgbb link
+		imgur: `https://i.imgur.com/GI6EeEB.png`, // imgur link
+		tags: [`nationality`,`culture`,`bahrain`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Bangladeshi`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/jk3y05BZ/Bangladeshi.png`, // imgbb link
+		imgur: `https://i.imgur.com/5Gx8RGR.png`, // imgur link
+		tags: [`nationality`,`culture`,`bangladesh`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Barbadian`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/YFnKs4W5/Barbadian.png`, // imgbb link
+		imgur: `https://i.imgur.com/Inmge9p.png`, // imgur link
+		tags: [`nationality`,`culture`,`barbados`,`bajan`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Bajan`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/mYQSKq1/Bajan.png`, // imgbb link
+		imgur: `https://i.imgur.com/HLEM310.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`nationality`,`culture`,`barbados`,`barbadian`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
 		name: `Bedouin`, // display name
 		altNames: [`Beduin`,`Bedu`], // optional alternate names, for search algorithms
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
@@ -25882,6 +26054,50 @@ const cultureList = [
 		icon: `flag` // description of the flag/icon
 	},
 	{
+		name: `Belizean`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/kV7ZcZtX/Belizean.png`, // imgbb link
+		imgur: `https://i.imgur.com/GIoJ9Bd.png`, // imgur link
+		tags: [`nationality`,`culture`,`belize`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Beninese`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/B2rCR5KJ/Beninese.png`, // imgbb link
+		imgur: `https://i.imgur.com/f0H9L56.png`, // imgur link
+		tags: [`nationality`,`culture`,`benin`,`beninois`,`beninoise`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Beninois`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/CpMGPqJs/Beninois.png`, // imgbb link
+		imgur: `https://i.imgur.com/YMxaw5P.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`nationality`,`culture`,`benin`,`beninese`,`beninoise`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Beninoise`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/FLdhFcys/Beninoise.png`, // imgbb link
+		imgur: `https://i.imgur.com/ZAfutd2.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`nationality`,`culture`,`benin`,`beninese`,`beninois`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	/*
+	{
+		name: ``, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: ``, // imgur link
+		tags: [`nationality`,`culture`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	*/
+	{
 		name: `Brazilian`, // display name
 		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
 		imgbb: `4wfGxSy1/Brazilian.png`, // imgbb link
@@ -25895,14 +26111,6 @@ const cultureList = [
 		imgbb: `8LQKBSbP/Brazil.png`, // imgbb link
 		imgur: `vxAPOGB.png`, // imgur link
 		tags: [`culture`,`country`,`location`,`brazilian`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `British`, // display name
-		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
-		imgbb: `8gXfhXRJ/British.png`, // imgbb link
-		imgur: `BS4vqBB.png`, // imgur link
-		tags: [`nationality`,`culture`,`britain`,`uk`,`great britain`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -26048,11 +26256,27 @@ const cultureList = [
 		icon: `flag` // description of the flag/icon
 	},
 	{
+		name: `Emirati`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/DH9vpj70/Emirati.png`, // imgbb link
+		imgur: `https://i.imgur.com/DFRx9bt.png`, // imgur link
+		tags: [`nationality`,`culture`,`uae`,`united arab emirates`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Egyptian`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/KjyTksV9/Egyptian.png`, // imgbb link
+		imgur: `https://i.imgur.com/rSxGY2W.png`, // imgur link
+		tags: [`nationality`,`culture`,`egypt`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
 		name: `English`, // display name
 		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
 		imgbb: `p6Zy9bFS/English.png`, // imgbb link
 		imgur: `ISyTGXM.png`, // imgur link
-		tags: [`nationality`,`culture`,`england`,`britain`,`british`,`uk`], // tags for search/filtering
+		tags: [`nationality`,`culture`,`england`,`britain`,`british`,`uk`,`united kingdom`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -26078,14 +26302,6 @@ const cultureList = [
 		imgur: `Wr2oiYF.png`, // imgur link
 		tags: [`culture`,`country`,`location`,`eu`], // tags for search/filtering
 		icon: `European Union flag` // description of the flag/icon
-	},
-	{
-		name: `Filipino`, // display name
-		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
-		imgbb: `v6FmrFhV/Filipino.png`, // imgbb link
-		imgur: `gMDuKVs.png`, // imgur link
-		tags: [`nationality`,`culture`,`philippines`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Finnish`, // display name
@@ -26195,15 +26411,6 @@ const cultureList = [
 		icon: `Hawaiian flag` // description of the flag/icon
 	},
 	{
-		name: `Kanaka Maoli`, // display name
-		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
-		imgbb: `93zCZHkx/Kanaka-Maoli.png`, // imgbb link
-		imgur: `DBG090D.png`, // imgur link
-		tags: mergeArr([cultureData.natAm.tags,[`hawaii`,`hawaiian`]]),
-		info: `Native <a href="?tags=hawaii">Hawaiian</a>`, // optional extra info
-		icon: `Hawaiian flag` // description of the flag/icon
-	},
-	{
 		name: `Hungarian`, // display name
 		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
 		imgbb: `tp0BNXcV/Hungarian.png`, // imgbb link
@@ -26233,6 +26440,30 @@ const cultureList = [
 		imgbb: `hnBW6ST/India.png`, // imgbb link
 		imgur: `HaWmcwq.png`, // imgur link
 		tags: [`culture`,`country`,`location`,`indian`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Indonesian`, // display name
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		imgbb: `RTPm3jqm/Indonesian.png`, // imgbb link
+		imgur: `Q6aMNpW.png`, // imgur link
+		tags: [`nationality`,`culture`,`indonesia`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Indonesia`, // display name
+		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
+		imgbb: `5h6Czdcn/Indonesia.png`, // imgbb link
+		imgur: `I3ANxLd.png`, // imgur link
+		tags: [`culture`,`country`,`location`,`indonesian`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Iraqi`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/zVGNmd02/Iraqi.png`, // imgbb link
+		imgur: `https://i.imgur.com/hz9exhn.png`, // imgur link
+		tags: [`nationality`,`culture`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -26268,6 +26499,23 @@ const cultureList = [
 		icon: `flag` // description of the flag/icon
 	},
 	{
+		name: `Jordanian`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/yFFpXyF6/Jordanian.png`, // imgbb link
+		imgur: `https://i.imgur.com/9rYG7V5.png`, // imgur link
+		tags: [`nationality`,`culture`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Kanaka Maoli`, // display name
+		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
+		imgbb: `93zCZHkx/Kanaka-Maoli.png`, // imgbb link
+		imgur: `DBG090D.png`, // imgur link
+		tags: mergeArr([cultureData.natAm.tags,[`hawaii`,`hawaiian`]]),
+		info: `Native <a href="?tags=hawaii">Hawaiian</a>`, // optional extra info
+		icon: `Hawaiian flag` // description of the flag/icon
+	},
+	{
 		name: `Korean`, // display name
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
 		imgbb: `wNz1JcMn/Korean.png`, // imgbb link
@@ -26281,6 +26529,14 @@ const cultureList = [
 		imgbb: `RTh510TY/Korea.png`, // imgbb link
 		imgur: `hUVaDDl.png`, // imgur link
 		tags: [`culture`,`country`,`location`,`korean`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Kuwaiti`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/C38Rr93p/Kuwaiti.png`, // imgbb link
+		imgur: `https://i.imgur.com/c5Vr5kC.png`, // imgur link
+		tags: [`nationality`,`culture`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -26312,7 +26568,7 @@ const cultureList = [
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
 		imgbb: `TMvKkCh1/Luxembourger.png`, // imgbb link
 		imgur: `ydEuw5M.png`, // imgur link
-		tags: [`nationality`,`culture`,`luxembourg`], // tags for search/filtering
+		tags: [`nationality`,`culture`,`luxembourg`,`luxembourgish`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -26403,7 +26659,7 @@ const cultureList = [
 		name: `Native American`, // display name
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
 		src: `%name_blue.png`, // local image source
-		imgbb: `KxkmNH5D/Native-American-blue.png`, // imgbb link
+		imgbb: `https://i.ibb.co/nNCrsgK8/Native-American-blue.png`, // imgbb link
 		imgur: `3O4lrn6.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: cultureData.natAm.tags, // tags for search/filtering
@@ -26479,6 +26735,14 @@ const cultureList = [
 		icon: `New Zealand flag` // description of the flag/icon
 	},
 	{
+		name: `New Zealand`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/8LhF64fG/New-Zealand.png`, // imgbb link
+		imgur: `https://i.imgur.com/2UtJfEe.png`, // imgur link
+		tags: [`country`,`culture`,`location`,`new zealander`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
 		name: `Norwegian`, // display name
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
 		imgbb: `ycZ00ZV4/Norwegian.png`, // imgbb link
@@ -26495,6 +26759,30 @@ const cultureList = [
 		icon: `flag` // description of the flag/icon
 	},
 	{
+		name: `Palestine`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/zTYy3Cxk/Palestine.png`, // imgbb link
+		imgur: `https://imgur.com/BuQ5Bk2.png`, // imgur link
+		tags: [`country`,`culture`,`location`,`palestinian`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Filipino`, // display name
+		dateAdded: `2026-08-20`, // date this button was first added to the masterlist
+		imgbb: `v6FmrFhV/Filipino.png`, // imgbb link
+		imgur: `gMDuKVs.png`, // imgur link
+		tags: [`nationality`,`culture`,`philippines`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Philippines`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Hf2yHkzZ/Philippines.png`, // imgbb link
+		imgur: `https://i.imgur.com/4mB7eUb.png`, // imgur link
+		tags: [`country`,`culture`,`location`,`filipino`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
 		name: `Polish`, // display name
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
 		imgbb: `jZR33KXy/Polish.png`, // imgbb link
@@ -26503,11 +26791,35 @@ const cultureList = [
 		icon: `flag` // description of the flag/icon
 	},
 	{
+		name: `Poland`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/5xRM5pL5/Poland.png`, // imgbb link
+		imgur: `https://i.imgur.com/ft4x9ir.png`, // imgur link
+		tags: [`country`,`culture`,`location`,`polish`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
 		name: `Portuguese`, // display name
 		dateAdded: `2026-08-21`, // date this button was first added to the masterlist
 		imgbb: `SwjnRzcT/Portuguese.png`, // imgbb link
 		imgur: `HymO0Fu.png`, // imgur link
 		tags: [`nationality`,`culture`,`portugal`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Portugal`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/F4ZYKDZQ/Portugal.png`, // imgbb link
+		imgur: `https://i.imgur.com/kFw1BRk.png`, // imgur link
+		tags: [`country`,`culture`,`location`,`portuguese`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Qatari`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/r2PXyTFc/Qatari.png`, // imgbb link
+		imgur: `https://i.imgur.com/fPRnav9.png`, // imgur link
+		tags: [`nationality`,`culture`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -26535,6 +26847,319 @@ const cultureList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: cultureData.romani.tags, // tags for search/filtering
 		icon: `Romani flag` // description of the flag/icon
+	},
+	{
+		name: `Romanian`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `YBps7s2y/Romanian.png`, // imgbb link
+		imgur: `fCJ4byc.png`, // imgur link
+		tags: [`nationality`,`culture`,`romania`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Russian`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `CKpqzZf0/Russian.png`, // imgbb link
+		imgur: `koJv3g8.png`, // imgur link
+		tags: [`nationality`,`culture`,`russia`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Russia`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/nqNsqqmJ/Russia.png`, // imgbb link
+		imgur: `https://i.imgur.com/Le7HFmb.png`, // imgur link
+		tags: [`country`,`culture`,`location`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Saudi`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/7tgdCLvv/Saudi.png`, // imgbb link
+		imgur: `https://i.imgur.com/uwivQ2K.png`, // imgur link
+		tags: [`nationality`,`culture`,`saudi arabi`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Scottish`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `gZf6t6LN/Scottish.png`, // imgbb link
+		imgur: `leo4ZYP.png`, // imgur link
+		tags: [`nationality`,`culture`,`scotland`,`britain`,`uk`,`united kingdom`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Scotland`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/vxbWc5QZ/Scotland.png`, // imgbb link
+		imgur: `https://i.imgur.com/1DAujhr.png`, // imgur link
+		tags: [`country`,`culture`,`location`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Saami`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `QFwZkyCH/Saami.png`, // imgbb link
+		imgur: `zQPURsb.png`, // imgur link
+		tags: cultureData.sami.tags.concat([`nationality`]), // tags for search/filtering
+		info: cultureData.sami.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Sami`, // display name
+		altNames: [`Sámi`],
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `RTt6rStx/Sami.png`, // imgbb link
+		imgur: `IYppbad.png`, // imgur link
+		tags: cultureData.sami.tags.concat([`nationality`]), // tags for search/filtering
+		info: cultureData.sami.info, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Sapmi`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `TM8znDxF/Sapmi.png`, // imgbb link
+		imgur: `ZmpKeHV.png`, // imgur link
+		tags: cultureData.sami.tags.concat([`location`,`region`]), // tags for search/filtering
+		info: `Fennoscandian cultural ${cultureData.regionLink.toLowerCase()} traditionally inhabited by the <a href="?tags=sami|saami">Sámi people</a>`, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Sakha`, // display name
+		altNames: [`Sakha Republic`],
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `67CcQNd9/Sakha.png`, // imgbb link
+		imgur: `SetYGtL.png`, // imgur link
+		tags: [`location`,`region`,`culture`,`russia`,`russian`], // tags for search/filtering
+		info: cultureData.russia.regionInfo, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Yakut`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `RTMCm57V/Yakut.png`, // imgbb link
+		imgur: `ydpZVzg.png`, // imgur link
+		tags: [`nationality`,`culture`,`sakha republic`,`sakha`], // tags for search/filtering
+		info: cultureData.russia.regionInfo, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Serbian`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `ch9hZPnz/Serbian.png`, // imgbb link
+		imgur: `BjBTiLS.png`, // imgur link
+		tags: [`nationality`,`culture`,`serbia`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Slovakian`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `FqgtVK5B/Slovakian.png`, // imgbb link
+		imgur: `B9LRNuA.png`, // imgur link
+		tags: [`nationality`,`culture`,`slovakia`,`slovak republic`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Slovakia`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/0jNTwF4b/Slovakia.png`, // imgbb link
+		imgur: `https://i.imgur.com/LrbMPA4.png`, // imgur link
+		tags: [`country`,`culture`,`location`,`slovakian`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Slovene`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `mrsYHG7D/Slovene.png`, // imgbb link
+		imgur: `VMtzuuy.png`, // imgur link
+		tags: [`nationality`,`culture`,`slovenia`,`republic of slovenia`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `South African`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `gZGpgQ0q/South-African.png`, // imgbb link
+		imgur: `0sk2hls.png`, // imgur link
+		tags: [`nationality`,`culture`,`south africa`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Spanish`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `SXbRvPbj/Spanish.png`, // imgbb link
+		imgur: `ZZjBGKI.png`, // imgur link
+		tags: [`nationality`,`culture`,`spain`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Spain`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Kjs7jKrj/Spain.png`, // imgbb link
+		imgur: `https://i.imgur.com/Wu7BJWz.png`, // imgur link
+		tags: [`country`,`culture`,`location`,`spanish`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Swedish`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `z9qH9md/Swedish.png`, // imgbb link
+		imgur: `eqbW1c0.png`, // imgur link
+		tags: [`nationality`,`culture`,`sweden`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Swiss`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `HpKknY5T/Swiss.png`, // imgbb link
+		imgur: `qJwhW1t.png`, // imgur link
+		tags: [`nationality`,`culture`,`switzerland`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Switzerland`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/JjLT7GJs/Switzerland.png`, // imgbb link
+		imgur: `https://i.imgur.com/FyfSjDp.png`, // imgur link
+		tags: [`country`,`culture`,`location`,`swiss`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Taiwanese`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `p6PLx4MF/Taiwanese.png`, // imgbb link
+		imgur: `tTOMNqT.png`, // imgur link
+		tags: [`nationality`,`culture`,`taiwan`,`china`,`chinese`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Syrian`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/b511wh8h/Syrian.png`, // imgbb link
+		imgur: `https://i.imgur.com/MUgeoO5.png`, // imgur link
+		tags: [`nationality`,`culture`,`syria`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Thai`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `1f3YXGvf/Thai.png`, // imgbb link
+		imgur: `G1Q7oI8.png`, // imgur link
+		tags: [`nationality`,`culture`,`thailand`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Turkish`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `CpvrX5vj/Turkish.png`, // imgbb link
+		imgur: `JDcLBdb.png`, // imgur link
+		tags: [`nationality`,`culture`,`turkey`,`turkiye`,`türkiye`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Türkiye`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `fVJG44TL/T-rkiye.png`, // imgbb link
+		imgur: `EQf4iEX.png`, // imgur link
+		tags: [`country`,`culture`,`location`,`turkey`,`turkish`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Turkey`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `B2GVrnyP/Turkey.png`, // imgbb link
+		imgur: `kkHBrBp.png`, // imgur link
+		tags: [`country`,`culture`,`location`,`türkiye`,`turkish`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `British`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `8gXfhXRJ/British.png`, // imgbb link
+		imgur: `BS4vqBB.png`, // imgur link
+		tags: [`nationality`,`culture`,`britain`,`uk`,`united kingdom`,`great britain`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `United Kingdom`, // display name
+		altNames: [`UK`],
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/tw5dwghy/United-Kingdom.png`, // imgbb link
+		imgur: `https://i.imgur.com/5Nc3x2J.png`, // imgur link
+		tags: [`country`,`culture`,`location`,`british`,`britain`,`great britain`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `American`, // display name
+		dateAdded: `2026-08-19`, // date this button was first added to the masterlist
+		imgbb: `xn4CX7B/American.png`, // imgbb link
+		imgur: `NlmYDAS.png`, // imgur link
+		tags: [`nationality`,`culture`,`america`,`usa`,`united states`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `USA`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/6JwKKLvW/USA.png`, // imgbb link
+		imgur: `https://i.imgur.com/2SPT1Mh.png`, // imgur link
+		tags: [`country`,`culture`,`location`,`united states`,`american`,`america`], // tags for search/filtering
+		info: `${cultureData.countryLink} (more <a href="?tags=usa|united states|american">US</a> buttons)`,
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Ukranian`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `53VZGpZ/Ukranian.png`, // imgbb link
+		imgur: `WAkWK5y.png`, // imgur link
+		tags: [`nationality`,`culture`,`ukraine`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Uruguayan`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `1JfTR2JV/Uruguayan.png`, // imgbb link
+		imgur: `86RPjSi.png`, // imgur link
+		tags: [`nationality`,`culture`,`uruguay`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Venezulean`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `WNX6Gyyv/Venezulean.png`, // imgbb link
+		imgur: `tEDMGJE.png`, // imgur link
+		tags: [`nationality`,`culture`,`venezuela`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Vietnamese`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `d0b9pjNS/Vietnamese.png`, // imgbb link
+		imgur: `WwInvLz.png`, // imgur link
+		tags: [`nationality`,`culture`,`vietnam`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Vietnam`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/216Pj8WD/Vietnam.png`, // imgbb link
+		imgur: `https://i.imgur.com/PjXuqxj.png`, // imgur link
+		tags: [`country`,`culture`,`location`,`vietnamese`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Welsh`, // display name
+		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
+		imgbb: `d0WY7qQv/Welsh.png`, // imgbb link
+		imgur: `JgxEVfT.png`, // imgur link
+		tags: [`nationality`,`culture`,`wales`,`britain`,`uk`,`united kingdom`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Yemeni`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/nNX2HYrT/Yemeni.png`, // imgbb link
+		imgur: `https://i.imgur.com/gVe9wDY.png`, // imgur link
+		tags: [`nationality`,`culture`,`yemen`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Yenish`, // display name
@@ -26621,241 +27246,15 @@ const cultureList = [
 		info: cultureData.yenish.info, // optional extra info
 		icon: `flag alt` // description of the flag/icon
 	},
-	{
-		name: `Romanian`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `YBps7s2y/Romanian.png`, // imgbb link
-		imgur: `fCJ4byc.png`, // imgur link
-		tags: [`nationality`,`culture`,`romania`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Russian`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `CKpqzZf0/Russian.png`, // imgbb link
-		imgur: `koJv3g8.png`, // imgur link
-		tags: [`nationality`,`culture`,`russia`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Saami`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `QFwZkyCH/Saami.png`, // imgbb link
-		imgur: `zQPURsb.png`, // imgur link
-		tags: cultureData.sami.tags.concat([`nationality`]), // tags for search/filtering
-		info: cultureData.sami.info, // optional extra info
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Sami`, // display name
-		altNames: [`Sámi`],
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `RTt6rStx/Sami.png`, // imgbb link
-		imgur: `IYppbad.png`, // imgur link
-		tags: cultureData.sami.tags.concat([`nationality`]), // tags for search/filtering
-		info: cultureData.sami.info, // optional extra info
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Sapmi`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `TM8znDxF/Sapmi.png`, // imgbb link
-		imgur: `ZmpKeHV.png`, // imgur link
-		tags: cultureData.sami.tags.concat([`location`,`region`]), // tags for search/filtering
-		info: `Fennoscandian cultural ${cultureData.locationLink.toLowerCase()} traditionally inhabited by the <a href="?tags=sami|saami">Sámi people</a>`, // optional extra info
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Sakha`, // display name
-		altNames: [`Sakha Republic`],
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `67CcQNd9/Sakha.png`, // imgbb link
-		imgur: `SetYGtL.png`, // imgur link
-		tags: [`location`,`region`,`culture`,`russia`,`russian`], // tags for search/filtering
-		info: cultureData.russia.regionInfo, // optional extra info
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Yakut`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `RTMCm57V/Yakut.png`, // imgbb link
-		imgur: `ydpZVzg.png`, // imgur link
-		tags: [`nationality`,`culture`,`sakha republic`,`sakha`], // tags for search/filtering
-		info: cultureData.russia.regionInfo, // optional extra info
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Scottish`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `gZf6t6LN/Scottish.png`, // imgbb link
-		imgur: `leo4ZYP.png`, // imgur link
-		tags: [`nationality`,`culture`,`scotland`,`britain`,`uk`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Serbian`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `ch9hZPnz/Serbian.png`, // imgbb link
-		imgur: `BjBTiLS.png`, // imgur link
-		tags: [`nationality`,`culture`,`serbia`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Slovakian`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `FqgtVK5B/Slovakian.png`, // imgbb link
-		imgur: `B9LRNuA.png`, // imgur link
-		tags: [`nationality`,`culture`,`slovakia`,`slovak republic`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Slovene`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `mrsYHG7D/Slovene.png`, // imgbb link
-		imgur: `VMtzuuy.png`, // imgur link
-		tags: [`nationality`,`culture`,`slovenia`,`republic of slovenia`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `South African`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `gZGpgQ0q/South-African.png`, // imgbb link
-		imgur: `0sk2hls.png`, // imgur link
-		tags: [`nationality`,`culture`,`south africa`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Spanish`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `SXbRvPbj/Spanish.png`, // imgbb link
-		imgur: `ZZjBGKI.png`, // imgur link
-		tags: [`nationality`,`culture`,`spain`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Swedish`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `z9qH9md/Swedish.png`, // imgbb link
-		imgur: `eqbW1c0.png`, // imgur link
-		tags: [`nationality`,`culture`,`sweden`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Swiss`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `HpKknY5T/Swiss.png`, // imgbb link
-		imgur: `qJwhW1t.png`, // imgur link
-		tags: [`nationality`,`culture`,`switzerland`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Taiwanese`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `p6PLx4MF/Taiwanese.png`, // imgbb link
-		imgur: `tTOMNqT.png`, // imgur link
-		tags: [`nationality`,`culture`,`taiwan`,`china`,`chinese`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Thai`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `1f3YXGvf/Thai.png`, // imgbb link
-		imgur: `G1Q7oI8.png`, // imgur link
-		tags: [`nationality`,`culture`,`thailand`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Turkish`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `CpvrX5vj/Turkish.png`, // imgbb link
-		imgur: `JDcLBdb.png`, // imgur link
-		tags: [`nationality`,`culture`,`turkey`,`turkiye`,`türkiye`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Türkiye`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `fVJG44TL/T-rkiye.png`, // imgbb link
-		imgur: `EQf4iEX.png`, // imgur link
-		tags: [`country`,`culture`,`location`,`turkey`,`turkish`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Turkey`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `B2GVrnyP/Turkey.png`, // imgbb link
-		imgur: `kkHBrBp.png`, // imgur link
-		tags: [`country`,`culture`,`location`,`türkiye`,`turkish`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Ukranian`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `53VZGpZ/Ukranian.png`, // imgbb link
-		imgur: `WAkWK5y.png`, // imgur link
-		tags: [`nationality`,`culture`,`ukraine`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Uruguayan`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `1JfTR2JV/Uruguayan.png`, // imgbb link
-		imgur: `86RPjSi.png`, // imgur link
-		tags: [`nationality`,`culture`,`uruguay`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Venezulean`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `WNX6Gyyv/Venezulean.png`, // imgbb link
-		imgur: `tEDMGJE.png`, // imgur link
-		tags: [`nationality`,`culture`,`venezuela`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Vietnamese`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `d0b9pjNS/Vietnamese.png`, // imgbb link
-		imgur: `WwInvLz.png`, // imgur link
-		tags: [`nationality`,`culture`,`vietnam`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	{
-		name: `Welsh`, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: `d0WY7qQv/Welsh.png`, // imgbb link
-		imgur: `JgxEVfT.png`, // imgur link
-		tags: [`nationality`,`culture`,`wales`,`britain`,`uk`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	/*
-	{
-		name: ``, // display name
-		dateAdded: `2026-08-24`, // date this button was first added to the masterlist
-		imgbb: ``, // imgbb link
-		imgur: ``, // imgur link
-		tags: [`nationality`,`culture`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-	*/
-	
-	////////////////////
-	{
-		name: `Indonesia`, // display name
-		dateAdded: `2025-11-04`, // date this button was first added to the masterlist
-		imgbb: `5h6Czdcn/Indonesia.png`, // imgbb link
-		imgur: `I3ANxLd.png`, // imgur link
-		tags: [`culture`,`country`,`location`,`indonesian`], // tags for search/filtering
-		icon: `flag` // description of the flag/icon
-	},
-
 ]
 // assign default values
 cultureList.forEach((item)=>{
 	if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/culture/%name.png`; }
 	else if (!item.src.includes('/')) { item.src = `/buttons/culture/` + item.src; }
 	if (typeof item.info == 'undefined' || item.info == ``) {
-		if (item.tags.includes('location')) item.info = cultureData.locationLink; 
+		if (item.tags.includes('country')) item.info = cultureData.countryLink;
+		else if (item.tags.includes('region')) item.info = cultureData.regionLink;
+		else if (item.tags.includes('location')) item.info = cultureData.locationLink;
 		else item.info = cultureData.link; 
 	}
 });
@@ -27392,6 +27791,17 @@ const alterhumanList = [
 		icon: `Rainbow 7-pointed star` // description of the flag/icon
 	},
 	{
+		name: `Otherkin`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		palette: `Asmodaeus Purple`,
+		imgbb: `https://i.ibb.co/jZW5pKsr/Otherkin-Asmodaeus-Purple.png`, // imgbb link
+		imgur: `https://i.imgur.com/a3iw3tT.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.ok.tags, // tags for search/filtering
+		info: ahmData.ok.info, // optional extra info
+		icon: `Asmodaeus Purple 7-pointed star` // description of the flag/icon
+	},
+	{
 		name: `Kintype`, // display name
 		dateAdded: `2026-08-18`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
@@ -27501,6 +27911,17 @@ const alterhumanList = [
 		tags: ahmData.kith.tags, // tags for search/filtering
 		info: ahmData.kith.info, // optional extra info
 		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Otherhearted`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		palette: `Asmodaeus Purple`,
+		imgbb: `https://i.ibb.co/0pz9Szfd/Otherhearted-Asmodaeus-Purple.png`, // imgbb link
+		imgur: `https://i.imgur.com/VbbaJoB.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.kith.tags, // tags for search/filtering
+		info: ahmData.kith.info, // optional extra info
+		icon: `Asmodaeus Purple otherhearted symbol` // description of the flag/icon
 	},
 	{
 		name: `Other-hearted`, // display name
@@ -27723,11 +28144,22 @@ const alterhumanList = [
 	},
 	////////////////////////////////// SPECIFIC KINTYPES ///////////////////////////////////
 	{
+		name: `Fictionkin`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		palette: `Asmodaeus Purple`,
+		imgbb: `https://i.ibb.co/cSW7hfyW/Fictionkin-Asmodaeus-Purple.png`, // imgbb link
+		imgur: `https://i.imgur.com/hX9hwwF.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: ahmData.ok.tags.concat([`fictionkin`]), // tags for search/filtering
+		info: ahmData.ok.info, // optional extra info
+		icon: `Asmodaeus Purple 7-pointed star` // description of the flag/icon
+	},
+	{
 		name: `Vampirekin`, // display name
 		src: `%name_Blood.png`, // local image source
 		imgbb: `tp0K38Gd/Vampirekin-Blood.png`, // imgbb link
 		imgur: `NONEehH.png`, // imgur link
-		tags: mergeArr([ahmData.ok.tags,[`vampire`,`mythkin`]]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`vampire`,`mythkin`]), // tags for search/filtering
 		info: `Vampire ${otherkinLink}`, // optional extra info
 		icon: `Blood drop` // description of the flag/icon
 	},
@@ -27737,7 +28169,7 @@ const alterhumanList = [
 		imgbb: `r2zrXR7C/Vampirekin-Bat.png`, // imgbb link
 		imgur: `u7OYglJ.png`, // imgur link
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: mergeArr([ahmData.ok.tags,[`vampire`,`mythkin`]]), // tags for search/filtering
+		tags: ahmData.ok.tags.concat([`vampire`,`mythkin`]), // tags for search/filtering
 		info: `Vampire ${otherkinLink}`, // optional extra info
 		icon: `Bat` // description of the flag/icon
 	},

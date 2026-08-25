@@ -16,14 +16,13 @@ i've added a more explicit [url=https://idbuttons.neocities.org/license/]licensi
 -----
 [size=4][b]BUTTON MAKER[/b][/size]
 -----
-
 the [url=https://idbuttons.neocities.org/maker/]button maker[/url] now has a dropdown for the plain color gradient icons! there's also a bit more font kerning (to make things narrower and more even)
 
 added support for the following characters! they don't look the best in this style, but I know they're sometimes necessary :'>
 Ā Ä É Ō Ö Ø Æ
 ā ä é ō ö ø æ
 
-also support for these guys, which nobody asked for but hey. why not. also made <3 converts to ♥, do we like this?
+also support for these guys, which nobody asked for but hey. why not. also made <3 convert automatically to ♥, do we like this? <3 in this font doesn't really look like a heart anyway so....
 � ♫ ♪ ♩ ♥ ♡ ★
 
 
@@ -31,36 +30,38 @@ also support for these guys, which nobody asked for but hey. why not. also made 
 [size=4][b]NEW BUTTONS[/b][/size]
 -----
 Webcomics (icons by springb0nnie, modified a bit to show up clearer on the standard palette)
-[img alt="Applegeeks"]https://i.ibb.co/nN48ZQFv/Applegeeks.png[/img] [img alt="Applegeeks"]https://i.ibb.co/dwPmvFQ4/Applegeeks-Asmodaeus-Aqua-png.png[/img] [img alt="Applegeeks"]https://i.ibb.co/s98hvFrX/Applegeeks-alt.png[/img] [img alt="Applegeeks"]https://i.ibb.co/F4gvm3jv/Applegeeks-alt-Asmodaeus-Aqua.png[/img]
-[img alt="Mac Hall"]https://i.ibb.co/ZRZSSLRQ/Mac-Hall.png[/img] [img alt="Mac Hall"]https://i.ibb.co/zVDR4T9x/Mac-Hall-Asmodaeus-Red.png[/img]
+[img alt="Applegeeks"]https://i.ibb.co/nN48ZQFv/Applegeeks.png[/img][img alt="Applegeeks"]https://i.ibb.co/dwPmvFQ4/Applegeeks-Asmodaeus-Aqua-png.png[/img][img alt="Applegeeks"]https://i.ibb.co/s98hvFrX/Applegeeks-alt.png[/img][img alt="Applegeeks"]https://i.ibb.co/F4gvm3jv/Applegeeks-alt-Asmodaeus-Aqua.png[/img]
+[img alt="Mac Hall"]https://i.ibb.co/ZRZSSLRQ/Mac-Hall.png[/img][img alt="Mac Hall"]https://i.ibb.co/zVDR4T9x/Mac-Hall-Asmodaeus-Red.png[/img]
 [img alt="MegaTokyo"]https://i.ibb.co/3mFtb9kp/Megatokyo.png[/img]
+
+K-pop bands (icons by Anky, modified a bit for the standard palette)
+[img alt="BTS"]https://i.ibb.co/qMmLXwTz/BTS.png[/img][img alt="ENHYPEN"]https://i.ibb.co/Rxc5xNf/ENHYPEN.png[/img][img alt="SEVENTEEN"]https://i.ibb.co/NdKkxyR9/Seventeen.png[/img][img alt="SEVENTEEN"]https://i.ibb.co/TqWjRJCR/Seventeen-dark.png[/img][img alt="ATEEZ"]https://i.ibb.co/gZGNPMX2/Ateez.png[/img][img alt="BigBang"]https://i.ibb.co/5xCdKh89/Big-Bang.png[/img][img alt="Stray Kids"]https://i.ibb.co/7JL7jD5x/Stray-Kids.png[/img][img alt="TXT"]https://i.ibb.co/rKB9wMxy/Tx-T.png[/img][img alt="XLOV"]https://i.ibb.co/PsR2b0MY/Xlov.png[/img]
 
 Adjusted icons
 [img alt="Gravity Falls"]https://i.imgur.com/FQh8JNz.png[/img]
-[img alt="JoJo's Bizarre Adventure"]https://i.ibb.co/hRmfH5Kk/Jo-Jo-s-Bizarre-Adventure.png[/img] [img alt="JoJo's Bizarre Adventure"]https://i.ibb.co/zcLGFSG/Jo-Jo-s.png[/img]
+[img alt="JoJo's Bizarre Adventure"]https://i.ibb.co/hRmfH5Kk/Jo-Jo-s-Bizarre-Adventure.png[/img][img alt="JoJo's Bizarre Adventure"]https://i.ibb.co/zcLGFSG/Jo-Jo-s.png[/img]
 
 [b]GAMES[/b]
 [img alt="Cat Cafe Manager"]https://i.ibb.co/bMK9JpPD/Cat-Cafe-Manager.png[/img]
 Persona 3/4/5 (icons by milkywaydotmoe)
-[img alt="Persona 3"]https://i.ibb.co/4g5CPgqZ/Persona-3.png[/img] [img alt="Persona 4"]https://i.ibb.co/S4MQC7Jc/Persona-4.png[/img] [img alt="Persona 5"]https://i.ibb.co/mrx1v7x4/Persona-5.png[/img]
+[img alt="Persona 3"]https://i.ibb.co/4g5CPgqZ/Persona-3.png[/img][img alt="Persona 4"]https://i.ibb.co/S4MQC7Jc/Persona-4.png[/img][img alt="Persona 5"]https://i.ibb.co/mrx1v7x4/Persona-5.png[/img]
 Peak
 [img alt="Peak"]https://i.ibb.co/4ZRnWfqn/Peak.png[/img]
 New Icons
-[img alt="Mass Effect"]https://i.ibb.co/KxfWWQGC/Mass-Effect.png[/img] [img alt="Mass Effect"]https://i.ibb.co/vv41C8BZ/Mass-Effect-SA.png[/img] [img alt="Mass Effect"]https://i.ibb.co/HDLDG0R4/Mass-Effect-SA-Earth.png[/img]
-[img alt="Rhythm Heaven"]https://i.ibb.co/qMKb5ctv/Rhythm-Heaven.png[/img] [img alt="Rhythm Tengoku"]https://i.ibb.co/KCH3Cn7/Rhythm-Tengoku.png[/img] [img alt="Rhythm Paradise"]https://i.ibb.co/V0LS0B1C/Rhythm-Paradise.png[/img]
-[img alt="Deltarune"]https://i.ibb.co/hF9V8MRQ/Deltarune.png[/img] [img alt="Deltarune"]https://i.ibb.co/n8LQswp0/Deltarune-Kris.png[/img] [img alt="Deltarune"]https://i.ibb.co/ccD6Kb21/Deltarune-Kris-2.png[/img] [img alt="Deltarune"]https://i.ibb.co/hn8Yw33/Deltarune-Spamton.png[/img]
+[img alt="Mass Effect"]https://i.ibb.co/KxfWWQGC/Mass-Effect.png[/img][img alt="Mass Effect"]https://i.ibb.co/vv41C8BZ/Mass-Effect-SA.png[/img][img alt="Mass Effect"]https://i.ibb.co/HDLDG0R4/Mass-Effect-SA-Earth.png[/img]
+[img alt="Rhythm Heaven"]https://i.ibb.co/qMKb5ctv/Rhythm-Heaven.png[/img][img alt="Rhythm Tengoku"]https://i.ibb.co/KCH3Cn7/Rhythm-Tengoku.png[/img][img alt="Rhythm Paradise"]https://i.ibb.co/V0LS0B1C/Rhythm-Paradise.png[/img]
+[img alt="Deltarune"]https://i.ibb.co/hF9V8MRQ/Deltarune.png[/img][img alt="Deltarune"]https://i.ibb.co/n8LQswp0/Deltarune-Kris.png[/img][img alt="Deltarune"]https://i.ibb.co/ccD6Kb21/Deltarune-Kris-2.png[/img][img alt="Deltarune"]https://i.ibb.co/hn8Yw33/Deltarune-Spamton.png[/img]
 [img alt="Undertale"]https://i.ibb.co/C3pQqjyv/Undertale-Dog.png[/img]
 
 [b]NATIONS/CULTURES[/b]
-[img alt="Chechen"]https://i.ibb.co/Lds2HWY6/Chechen.png[/img][img alt="Türkiye"]https://i.ibb.co/fVJG44TL/T-rkiye.png[/img][img alt="Turkey"]https://i.ibb.co/B2GVrnyP/Turkey.png[/img]
+[img alt="Afghan"]https://i.ibb.co/Kzs5Np6y/Afghan.png[/img][img alt="Algerian"]https://i.ibb.co/mF2Gr0C1/Algerian.png[/img][img alt="Andorran"]https://i.ibb.co/Q7CFgBsJ/Andorran.png[/img][img alt="Angolan"]https://i.ibb.co/DDt58XTF/Angolan.png[/img][img alt="Antiguan"]https://i.ibb.co/wrwGM8Pj/Antiguan.png[/img][img alt="Barbudan"]https://i.ibb.co/S7W5nTXN/Barbudan-AAB.png[/img][img alt="Barbudan"]https://i.ibb.co/KcH9T9P6/Barbudan.png[/img][img alt="Azerbaijani"]https://i.ibb.co/5W7z0x1d/Azerbaijani.png[/img][img alt="Azeri"]https://i.ibb.co/1fwm6hP2/Azeri.png[/img][img alt="Bahamian"]https://i.ibb.co/CsvwJttg/Bahamian.png[/img][img alt="Bahraini"]https://i.ibb.co/jZWVK1jq/Bahraini.png[/img][img alt="Bangladeshi"]https://i.ibb.co/jk3y05BZ/Bangladeshi.png[/img][img alt="Barbadian"]https://i.ibb.co/YFnKs4W5/Barbadian.png[/img][img alt="Bajan"]https://i.ibb.co/mYQSKq1/Bajan.png[/img][img alt="Belizean"]https://i.ibb.co/kV7ZcZtX/Belizean.png[/img][img alt="Beninese"]https://i.ibb.co/B2rCR5KJ/Beninese.png[/img][img alt="Beninois"]https://i.ibb.co/CpMGPqJs/Beninois.png[/img][img alt="Beninoise"]https://i.ibb.co/FLdhFcys/Beninoise.png[/img][img alt="Chechen"]https://i.ibb.co/Lds2HWY6/Chechen.png[/img][img alt="Türkiye"]https://i.ibb.co/fVJG44TL/T-rkiye.png[/img][img alt="Turkey"]https://i.ibb.co/B2GVrnyP/Turkey.png[/img]
 Plain four directions symbol icon
-[img alt="First Nations"]https://i.ibb.co/4gJRHkX7/First-Nations-directions-symbol.png[/img] [img alt="Native American"]https://i.ibb.co/S8dY3cD/Native-American-directions-symbol.png[/img]
+[img alt="First Nations"]https://i.ibb.co/4gJRHkX7/First-Nations-directions-symbol.png[/img][img alt="Native American"]https://i.ibb.co/S8dY3cD/Native-American-directions-symbol.png[/img]
 Navajo/Diné, Cheyenne, Native Hawaiian/Kanaka Maoli
-[img alt="Navajo"]https://i.ibb.co/DHqCbrhf/Navajo.png[/img] [img alt="Diné"]https://i.ibb.co/KxQdyCDy/Din.png[/img] [img alt="Navajo"]https://i.ibb.co/yFbYQ533/Navajo-simple.png[/img] [img alt="Diné"]https://i.ibb.co/fYWk5P87/Din-simple.png[/img]
-[img alt="Cheyenne"]https://i.ibb.co/3YVR96JY/Cheyenne.png[/img] [img alt="Hawaiian Native"]https://i.ibb.co/Ymz4q0L/Hawaiian-Native.png[/img] [img alt="Kanaka Maoli"]https://i.ibb.co/93zCZHkx/Kanaka-Maoli.png[/img]
+[img alt="Navajo"]https://i.ibb.co/DHqCbrhf/Navajo.png[/img][img alt="Diné"]https://i.ibb.co/KxQdyCDy/Din.png[/img][img alt="Navajo"]https://i.ibb.co/yFbYQ533/Navajo-simple.png[/img][img alt="Diné"]https://i.ibb.co/fYWk5P87/Din-simple.png[/img]
+[img alt="Cheyenne"]https://i.ibb.co/3YVR96JY/Cheyenne.png[/img][img alt="Hawaiian Native"]https://i.ibb.co/Ymz4q0L/Hawaiian-Native.png[/img][img alt="Kanaka Maoli"]https://i.ibb.co/93zCZHkx/Kanaka-Maoli.png[/img]
 Māori
 [img alt="Aotearoa"]https://i.ibb.co/0kVyqqF/Aotearoa.png[/img]
-
 
 
 -----
@@ -68,29 +69,35 @@ Māori
 Not previously added to the masterlists or featured in an official pinglist update, but you've seen these if you've been following the thread!
 -----
 Namehoarder/Namecollector/Kestrelhoarder
-[img alt="Namehoarder"]https://i.ibb.co/7xvzz92w/Namehoarder.png[/img] [img alt="Name Collector"]https://i.ibb.co/jkyxGyZp/Name-Collector.png[/img] [img alt="Kestrelhoarder"]https://i.ibb.co/W1TTXSt/Kestrelhoarder.png[/img]
+[img alt="Namehoarder"]https://i.ibb.co/7xvzz92w/Namehoarder.png[/img][img alt="Name Collector"]https://i.ibb.co/jkyxGyZp/Name-Collector.png[/img][img alt="Kestrelhoarder"]https://i.ibb.co/W1TTXSt/Kestrelhoarder.png[/img]
 Namefluid/Nomifluid
-[img alt="Namefluid"]https://i.ibb.co/x8qyx2Kz/Namefluid.png[/img] [img alt="Namefluid"]https://i.ibb.co/dsFDpnjw/Namefluid-blank.png[/img] [img alt="Nomifluid"]https://i.ibb.co/84SpX0Tq/Nomifluid.png[/img] [img alt="Nomifluid"]https://i.ibb.co/20mNPSB4/Nomifluid-blank.png[/img]
+[img alt="Namefluid"]https://i.ibb.co/x8qyx2Kz/Namefluid.png[/img][img alt="Namefluid"]https://i.ibb.co/dsFDpnjw/Namefluid-blank.png[/img][img alt="Nomifluid"]https://i.ibb.co/84SpX0Tq/Nomifluid.png[/img][img alt="Nomifluid"]https://i.ibb.co/20mNPSB4/Nomifluid-blank.png[/img]
 
 Yenish/Jenische
-[img alt="Yenish"]https://i.ibb.co/3YG4Cz8R/Yenish-hedgehog.png[/img] [img alt="Yenish"]https://i.ibb.co/VY0Hhtg6/Yenish-wheel-2.png[/img] [img alt="Jenische"]https://i.ibb.co/nqYLGhnq/Jenische-hedgehog.png[/img] [img alt="Jenische"]https://i.ibb.co/JRyc0nMz/Jenische-wheel-2.png[/img]
-[img alt="Yenish"]https://i.ibb.co/r248hMxz/Yenish-wheel.png[/img] [img alt="Yenish"]https://i.ibb.co/BKZqSHVc/Yenish.png[/img] [img alt="Jenische"]https://i.ibb.co/WWDpLBWh/Jenische-wheel.png[/img] [img alt="Jenische"]https://i.ibb.co/FLrcqv5N/Jenische.png[/img]
+[img alt="Yenish"]https://i.ibb.co/3YG4Cz8R/Yenish-hedgehog.png[/img][img alt="Yenish"]https://i.ibb.co/VY0Hhtg6/Yenish-wheel-2.png[/img][img alt="Jenische"]https://i.ibb.co/nqYLGhnq/Jenische-hedgehog.png[/img][img alt="Jenische"]https://i.ibb.co/JRyc0nMz/Jenische-wheel-2.png[/img]
+[img alt="Yenish"]https://i.ibb.co/r248hMxz/Yenish-wheel.png[/img][img alt="Yenish"]https://i.ibb.co/BKZqSHVc/Yenish.png[/img][img alt="Jenische"]https://i.ibb.co/WWDpLBWh/Jenische-wheel.png[/img][img alt="Jenische"]https://i.ibb.co/FLrcqv5N/Jenische.png[/img]
+
+Arab countries (by MrChill)
+[img alt="Arab"]https://i.ibb.co/RpX5WVcT/Arab.png[/img][img alt="Bahraini"]https://i.ibb.co/jZWVK1jq/Bahraini.png[/img][img alt="Egyptian"]https://i.ibb.co/KjyTksV9/Egyptian.png[/img][img alt="Emirati"]https://i.ibb.co/DH9vpj70/Emirati.png[/img][img alt="Iraqi"]https://i.ibb.co/zVGNmd02/Iraqi.png[/img][img alt="Jordanian"]https://i.ibb.co/yFFpXyF6/Jordanian.png[/img][img alt="Kuwaiti"]https://i.ibb.co/C38Rr93p/Kuwaiti.png[/img][img alt="Qatari"]https://i.ibb.co/r2PXyTFc/Qatari.png[/img]
 
 Thorntails (by kenzieishungry)
-[img alt="Thorntail"]https://i.ibb.co/BKwCnrPH/Thorntail.png[/img] [img alt="Thorntail Fan"]https://i.ibb.co/Nq8By7b/Thorntail-Fan.png[/img] [img alt="Thorntail Lair"]https://i.ibb.co/Jj8F39GP/Thorntail-Lair.png[/img][img alt="Thorntail Monolair"]https://i.ibb.co/QvqDNDfq/Thorntail-Monolair.png[/img]
+[img alt="Thorntail"]https://i.ibb.co/BKwCnrPH/Thorntail.png[/img][img alt="Thorntail Fan"]https://i.ibb.co/Nq8By7b/Thorntail-Fan.png[/img][img alt="Thorntail Lair"]https://i.ibb.co/Jj8F39GP/Thorntail-Lair.png[/img][img alt="Thorntail Monolair"]https://i.ibb.co/QvqDNDfq/Thorntail-Monolair.png[/img]
 [img alt="Thorntail Kin"]https://i.ibb.co/DHgTCqcv/Thorntail-Kin.png[/img]
 
 Choruses
-[img alt="Chorus"]https://i.ibb.co/LzX7cZMp/Chorus.png[/img] [img alt="Chorus Fan"]https://i.ibb.co/938075j5/Chorus-Fan.png[/img] [img alt="Chorus Lair"]https://i.ibb.co/1GrxZR2d/Chorus-Lair.png[/img] [img alt="Chorus Monolair"]https://i.ibb.co/rKzYwhMG/Mono-Lair.png[/img]
+[img alt="Chorus"]https://i.ibb.co/LzX7cZMp/Chorus.png[/img][img alt="Chorus Fan"]https://i.ibb.co/938075j5/Chorus-Fan.png[/img][img alt="Chorus Lair"]https://i.ibb.co/1GrxZR2d/Chorus-Lair.png[/img][img alt="Chorus Monolair"]https://i.ibb.co/rKzYwhMG/Mono-Lair.png[/img]
 
 New icons for existing breeds
-[img alt="Nocturne"]https://i.ibb.co/fwpxbjS/Nocturne.png[/img] [img alt="Nocturne Fan"]https://i.ibb.co/ksB5GQhC/Nocturne-Fan.png[/img] [img alt="Nocturne Monolair"]https://i.ibb.co/rfd9GLyk/Nocturne-Monolair.png[/img] [img alt="Nocturnegender"]https://i.ibb.co/pjyzsQf9/Nocturnegender.png[/img]
-[img alt="Obelisk"]https://i.ibb.co/DgTN69Jb/Obelisk.png[/img] [img alt="Obelisk Fan"]https://i.ibb.co/vx5Wmnj2/Obelisk-Fan.png[/img] [img alt="Obelisk Monolair"]https://i.ibb.co/Rnsd6BN/Obelisk-Monolair.png[/img]
-[img alt="Guardian"]https://i.ibb.co/Kxg2wvGB/Guardian.png[/img] [img alt="Guardian Fan"]https://i.ibb.co/VKj6C7M/Guardian-Fan.png[/img] [img alt="Guardian Monolair"]https://i.ibb.co/1YjJv0pD/Guardian-Monolair.png[/img] [img alt="Guardiangender"]https://i.ibb.co/wrpPWg0X/Guardiangender.png[/img]
-[img alt="Auraboa"]https://i.ibb.co/qFXtSgMw/Auraboa.png[/img] [img alt="Auraboa Fan"]https://i.ibb.co/LDfF1VFf/Auraboa-Fan.png[/img] [img alt="Auraboa Monolair"]https://i.ibb.co/v4xGnTL3/Auraboa-Monolair.png[/img]
+[img alt="Nocturne"]https://i.ibb.co/fwpxbjS/Nocturne.png[/img][img alt="Nocturne Fan"]https://i.ibb.co/ksB5GQhC/Nocturne-Fan.png[/img][img alt="Nocturne Monolair"]https://i.ibb.co/rfd9GLyk/Nocturne-Monolair.png[/img][img alt="Nocturnegender"]https://i.ibb.co/pjyzsQf9/Nocturnegender.png[/img]
+[img alt="Obelisk"]https://i.ibb.co/DgTN69Jb/Obelisk.png[/img][img alt="Obelisk Fan"]https://i.ibb.co/vx5Wmnj2/Obelisk-Fan.png[/img][img alt="Obelisk Monolair"]https://i.ibb.co/Rnsd6BN/Obelisk-Monolair.png[/img]
+[img alt="Guardian"]https://i.ibb.co/Kxg2wvGB/Guardian.png[/img][img alt="Guardian Fan"]https://i.ibb.co/VKj6C7M/Guardian-Fan.png[/img][img alt="Guardian Monolair"]https://i.ibb.co/1YjJv0pD/Guardian-Monolair.png[/img][img alt="Guardiangender"]https://i.ibb.co/wrpPWg0X/Guardiangender.png[/img]
+[img alt="Auraboa"]https://i.ibb.co/qFXtSgMw/Auraboa.png[/img][img alt="Auraboa Fan"]https://i.ibb.co/LDfF1VFf/Auraboa-Fan.png[/img][img alt="Auraboa Monolair"]https://i.ibb.co/v4xGnTL3/Auraboa-Monolair.png[/img]
 
 Fire Emblem (by milkywaydotmoe)
-[img alt="Fire Emblem"]https://i.ibb.co/JW6mJ1LP/Fire-Emblem.png[/img] [img alt="Fire Emblem Awakening"]https://i.ibb.co/sd26hZKG/Fire-Emblem-Awakening.png[/img] [img alt="Fire Emblem Engage"]https://i.ibb.co/2fdh6w2/Fire-Emblem-Engage.png[/img] [img alt="Fire Emblem Fates"]https://i.ibb.co/TDfrQqsn/Fire-Emblem-Fates.png[/img] [img alt="Fire Emblem: The Binding Blade"]https://i.ibb.co/jPbh8rNj/Fire-Emblem-The-Binding-Blade.png[/img] [img alt="Fire Emblem: Three Houses"]https://i.ibb.co/rK0r7GdT/Fire-Emblem-Three-Houses.png[/img]
+[img alt="Fire Emblem"]https://i.ibb.co/JW6mJ1LP/Fire-Emblem.png[/img][img alt="Fire Emblem Awakening"]https://i.ibb.co/sd26hZKG/Fire-Emblem-Awakening.png[/img][img alt="Fire Emblem Engage"]https://i.ibb.co/2fdh6w2/Fire-Emblem-Engage.png[/img][img alt="Fire Emblem Fates"]https://i.ibb.co/TDfrQqsn/Fire-Emblem-Fates.png[/img][img alt="Fire Emblem: The Binding Blade"]https://i.ibb.co/jPbh8rNj/Fire-Emblem-The-Binding-Blade.png[/img][img alt="Fire Emblem: Three Houses"]https://i.ibb.co/rK0r7GdT/Fire-Emblem-Three-Houses.png[/img]
 
 Undertale Flowey icon (by RaptorFury)
 [img alt="Undertale"]https://i.ibb.co/pvZYNqdn/Undertale-Flowey.png[/img]
+
+Asmodaeus Purple alterhumans + matching 7-pointed star (by Ness97)
+[img alt="Otherkin"]https://i.ibb.co/jZW5pKsr/Otherkin-Asmodaeus-Purple.png[/img][img alt="Fictionkin"]https://i.ibb.co/cSW7hfyW/Fictionkin-Asmodaeus-Purple.png[/img][img alt="Otherhearted"]https://i.ibb.co/0pz9Szfd/Otherhearted-Asmodaeus-Purple.png[/img]
