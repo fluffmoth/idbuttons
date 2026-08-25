@@ -19345,7 +19345,7 @@ const healthList = [
 		imgur: `ZuBLVsz.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Raynaud's`, // display name
@@ -19354,7 +19354,7 @@ const healthList = [
 		imgur: `6uWaxP9.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Allergies`, // display name
@@ -19364,7 +19364,7 @@ const healthList = [
 		imgur: `0ElGPSd.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Anemic`, // display name
@@ -19375,7 +19375,7 @@ const healthList = [
 		imgur: `lsvYQnp.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Arthritis`, // display name
@@ -19385,7 +19385,7 @@ const healthList = [
 		imgur: `LUABqhg.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Arthritis`, // display name
@@ -19406,7 +19406,7 @@ const healthList = [
 		imgur: `mRmIDl9.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`,`respiratory`,`lungs`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Cancer Survivor`, // display name
@@ -19416,7 +19416,7 @@ const healthList = [
 		imgur: `b9kiMNi.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`,`cancer`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Carpal Tunnel`, // display name
@@ -19426,7 +19426,7 @@ const healthList = [
 		imgur: `W9xcxgQ.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Celiac`, // display name
@@ -19437,7 +19437,7 @@ const healthList = [
 		imgur: `UdYC8mK.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`,`digestive`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Chronic Illness`, // display name
@@ -19468,7 +19468,7 @@ const healthList = [
 		imgur: `E7c0NAU.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`,`chronic illness`,`pain`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Chronic Fatigue Syndrome`, // display name
@@ -19479,7 +19479,7 @@ const healthList = [
 		imgur: `YoQhgKu.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`,`chronic illness`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Chronic Fatigue`, // display name
@@ -19489,7 +19489,7 @@ const healthList = [
 		imgur: `75JySJB.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`,`chronic illness`,`chronic fatigue syndrome`,`cfs`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Crohn's`, // display name
@@ -19499,7 +19499,7 @@ const healthList = [
 		imgur: `XDIaMUK.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`,`crohn's disease`,`digestive`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Crohn's Disease`, // display name
@@ -19510,7 +19510,7 @@ const healthList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`health`,`disorders`,`medical`,`physical health`,`digestive`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Cystic Fibrosis`, // display name
@@ -19520,7 +19520,7 @@ const healthList = [
 		imgur: `hgMy2e2.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Diabetic`, // display name
@@ -19543,7 +19543,7 @@ const healthList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Dwarfism`, // display name
@@ -19554,7 +19554,7 @@ const healthList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`health`,`disorders`,`medical`,`physical health`,`little person`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Dwarfism`, // display name
@@ -19575,7 +19575,7 @@ const healthList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`health`,`disorders`,`medical`,`physical health`,`dwarfism`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Little Person`, // display name
@@ -19595,7 +19595,7 @@ const healthList = [
 		imgur: `3z1ctUT.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Dysphagia`, // display name
@@ -19605,7 +19605,18 @@ const healthList = [
 		imgur: `tPteOrx.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`,`digestive`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `Dysphagia`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		src: `/buttons/health/%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/99R3yP7W/Dysphagia-flag.png`, // imgbb
+		imgur: `https://i.imgur.com/LamBbYB.png`, // imgur link
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`health`,`disorders`,`medical`,`physical health`,`digestive`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Ehlers-Danlos`, // display name
@@ -19626,7 +19637,7 @@ const healthList = [
 		imgur: `k7p86mU.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`,], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Epilepsy`, // display name
@@ -19636,7 +19647,7 @@ const healthList = [
 		imgur: `XHzjiUj.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`,`seizures`,`epileptic`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Epilepsy`, // display name
@@ -19658,7 +19669,7 @@ const healthList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`health`,`disorders`,`medical`,`physical health`,`seizures`,`epilepsy`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Fibromyalgia`, // display name
@@ -19668,7 +19679,7 @@ const healthList = [
 		imgur: `KuCQKoZ.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`,`chronic illness`,`chronic pain`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `GERD`, // display name
@@ -19690,7 +19701,7 @@ const healthList = [
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`health`,`disorders`,`medical`,`physical health`,`heart`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Heart Disease`, // display name
@@ -19700,7 +19711,7 @@ const healthList = [
 		imgur: `JiM3F0R.png`, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`,`heart`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Seizures`, // display name
@@ -19730,7 +19741,7 @@ const healthList = [
 		imgur: `BsnXCRp.png`, // imgur link
 		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Deaf/HoH`, // display name
@@ -19752,7 +19763,7 @@ const healthList = [
 		imgur: `qQCMQhg.png`, // imgur link
 		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`,`deaf`,`hard of hearing`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Hard of Hearing`, // display name
@@ -19774,7 +19785,7 @@ const healthList = [
 		imgur: `WtQy0hm.png`, // imgur link
 		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`,`deaf`,`hard of hearing`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	
 	{
@@ -19785,7 +19796,7 @@ const healthList = [
 		imgur: `kkX9BAR.png`, // imgur link
 		tags: healthData.addiction.tags, // tags for search/filtering
 		info: healthData.addiction.info, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Addiction`, // display name
@@ -19805,7 +19816,7 @@ const healthList = [
 		imgur: `xCcxExW.png`, // imgur link
 		tags: healthData.addiction.tags, // tags for search/filtering
 		info: healthData.addiction.info, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Recovering Addict`, // display name
@@ -19825,7 +19836,7 @@ const healthList = [
 		imgur: `wZfnewE.png`, // imgur link
 		tags: healthData.addiction.tags, // tags for search/filtering
 		info: healthData.addiction.info, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	{
 		name: `Sober`, // display name
@@ -19843,21 +19854,30 @@ const healthList = [
 		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `p6JrpYpq/Alcoholism.png`, // imgbb
 		imgur: `Ypi5mR3.png`, // imgur link
-		tags: mergeArr([healthData.addiction.tags,[`alcohol`]]), // tags for search/filtering
+		tags: mergeArr([healthData.addiction.tags,[`alcohol`,`alcoholilc`]]), // tags for search/filtering
 		info: healthData.addiction.info, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
+	},
+	{
+		name: `PCOS`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/BKPmnQ22/PCOS.png`, // imgbb
+		imgur: `https://i.imgur.com/apOT2qc.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `flag` // description of the flag/icon
 	},
 	
 	/*
 	{
 		name: ``, // display name
-		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
 		//src: `/buttons/health/%name.png`, // local image source
 		imgbb: ``, // imgbb
 		imgur: ``, // imgur link
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `Awareness ribbon` // description of the flag/icon
+		icon: `awareness ribbon` // description of the flag/icon
 	},
 	*/
 ]
@@ -19980,7 +20000,6 @@ const musicData = {};
 	musicData.kpop.link = `<a href="?tags=k-pop">K-pop</a>`;
 	musicData.kpop.bandInf = `${musicData.kpop.link} ${musicData.band.linkLC}`;
 })();
-console.log(musicData.kpop.bandTags,musicData.kpop.bandInf);
 const musicList = [
 	{
 		name: `SEVENTEEN`, // display name
@@ -21641,11 +21660,29 @@ const interestsList = [
 		info: `<a href="?tags=interests,toys">Toy</a> car brand`, // optional extra info
 		icon: `Black and white checker` // description of the flag/icon
 	},
+	{
+		name: `Space`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Ldc8Bb5r/Space.png`, // imgbb link
+		imgur: `https://i.imgur.com/NJu27LI.png`, // imgur link
+		tags: [`interests`,`space`,`astronomy`,`astronomer`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Galaxy` // description of the flag/icon
+	},
+	{
+		name: `Space Lover`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Wq6j5Vs/Space-Lover.png`, // imgbb link
+		imgur: `https://i.imgur.com/VMzaTHb.png`, // imgur link
+		tags: [`interests`,`space`,`astronomy`,`astronomer`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Galaxy` // description of the flag/icon
+	},
 	/*
 	{
 		name: ``, // display name
-		dateAdded: `2026-08-23`, // date this button was first added to the masterlist
-		//src: `/buttons/interests/transformers/%name.png`, // local image source
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		//src: `/buttons/interests/%name.png`, // local image source
 		imgbb: ``, // imgbb link
 		imgur: ``, // imgur link
 		tags: [`interests`,`fandom`], // tags for search/filtering
@@ -22561,17 +22598,6 @@ const gamesList = [
 		icon: `logo` // description of the flag/icon
 	},
 	{
-		name: `Pokemon`, // display name
-		altNames: [`Pokémon`], // optional alternate names, for search algorithms
-		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
-		alt: `%altNames0`,
-		imgbb: `4ZP8LP94/Pokemon.png`, // imgbb link
-		imgur: `8GgdVkW.png`, // imgur link
-		tags: animeData.anime.tags.concat([`game`,`video game`,`nintendo`,`rpg`,`tcg`,`card game`,`movie`]), // tags for search/filtering
-		info: `<a href="?tags=interests,nintendo">Nintendo</a> <a href="?tags=interests,television">TV</a>, <a href="?tags=interests,video game">video game</a>, and <a href="?tags=interests,tcg">TCG</a> series`, // optional extra info
-		icon: `Pokeball` // description of the flag/icon
-	},
-	{
 		name: `Just Shapes & Beats`, // display name
 		altNames: [`Just Shapes and Beats`,`JS&B`], // optional alternate names, for search algorithms
 		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
@@ -23277,6 +23303,219 @@ gamesList.forEach((item)=>{
 	if (typeof item.imgbb != 'undefined' && item.imgbb != ``) {
 		if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/interests/games/%name.png`; }
 		else if (!item.src.includes('/')) { item.src = `/buttons/interests/games/` + item.src; }
+	}
+});
+
+const pkmnData = {};
+(()=>{
+	pkmnData.link = `<a href="?tags=pokemon|pokémon">Pokémon</a>`;
+})()
+const pokemonList = [
+	{
+		name: `Pokémon`, // display name
+		altNames: [`Pokemon`], // optional alternate names, for search algorithms
+		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
+		imgbb: `4ZP8LP94/Pokemon.png`, // imgbb link
+		imgur: `8GgdVkW.png`, // imgur link
+		tags: animeData.anime.tags.concat([`game`,`video game`,`nintendo`,`rpg`,`tcg`,`card game`,`movie`]), // tags for search/filtering
+		info: `<a href="?tags=interests,nintendo">Nintendo</a> <a href="?tags=interests,television">TV</a>, <a href="?tags=interests,video game">video game</a>, and <a href="?tags=interests,tcg">TCG</a> series (more <a href="?tags=pokemon|pokémon">Pokémon buttons here</a>)`, // optional extra info
+		icon: `Pokeball` // description of the flag/icon
+	},
+	{
+		name: `Bug Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/sc43bSW/Bug-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/ddH0OPt.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Bug`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Nnnhxm0q/Bug.png`, // imgbb link
+		imgur: `https://i.imgur.com/ofLNPji.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Fairy Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/tMbGYkpG/Fairy-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/dr2QoIr.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Fairy`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/t6ZC2Nv/Fairy.png`, // imgbb link
+		imgur: `https://i.imgur.com/ZTEcPba.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Grass Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/B2pkrNDR/Grass-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/ciMD5kB.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Grass`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/fYyhJyRj/Grass.png`, // imgbb link
+		imgur: `https://i.imgur.com/TAPGqAC.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Dragon Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/twSfWWBY/Dragon-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/UmUDhoG.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Dragon`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/vxGx4RG4/Dragon.png`, // imgbb link
+		imgur: `https://i.imgur.com/xxY005C.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Psychic Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/RTZt2MhY/Psychic-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/hyfjhNU.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Psychic`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/zTwKbHWQ/Psychic.png`, // imgbb link
+		imgur: `https://i.imgur.com/lOqO7b1.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Normal Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/C5cR0rvx/Normal-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/kHirHkn.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Normal`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/mVwYtcjb/Normal.png`, // imgbb link
+		imgur: `https://i.imgur.com/cRMMRNa.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Ghost Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/XZHbp2c8/Ghost-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/1TxeBS8.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Ghost`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/G1qWmRB/Ghost.png`, // imgbb link
+		imgur: `https://i.imgur.com/3UXRLtn.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Ground Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/spcjzZZM/Ground-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/S2lCrBB.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Ground`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/wZZ0bsYh/Ground.png`, // imgbb link
+		imgur: `https://i.imgur.com/7UGEFxc.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Steel Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Xr1VBYLK/Steel-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/DWJsFjI.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Steel`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/MkNbP0rn/Steel.png`, // imgbb link
+		imgur: `https://i.imgur.com/sidROSc.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Fighting Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/1GwxRWL0/Fighting-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/hOevQyM.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Fighting`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/DPBc3gjR/Fighting.png`, // imgbb link
+		imgur: `https://i.imgur.com/9BMrAK3.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	/*
+	{
+		name: `Name Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: ``, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: ``, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: ``, // imgbb link
+		imgur: ``, // imgur link
+		tags: [`type`], // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	*/
+	
+];
+// assign default values
+pokemonList.forEach((item)=>{
+	if (typeof item.imgbb != 'undefined' && item.imgbb != ``) {
+		if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/interests/games/pokemon/%name.png`; }
+		else if (!item.src.includes('/')) { item.src = `/buttons/interests/games/pokemon/` + item.src; }
+	}
+	item.tags.push(`pokemon`,`pokémon`);
+	if (typeof item.info == 'undefined' || item.info == ``) item.info = pkmnData.link;
+	if (item.tags.includes('type')) {
+		item.info += ' type';
+		if (item.icon.includes('S/V')) {
+			item.icon = item.name.replaceAll(' Type','') + ` Type ${item.icon}`;
+			item.info += ' (Scarlet/Violet icon)';
+		}
 	}
 });
 
@@ -31233,7 +31472,7 @@ const buttonList = arr.concat(
 	religionList,
 	politicsList,
 	musicList,
-	gamesList, finalFantasyList,
+	gamesList, finalFantasyList, pokemonList,
 	animeMangaList,
 	interestsList, homestuckList,
 	softwareList,
