@@ -434,7 +434,8 @@ function adjustIconText(btn) {
 const specialIcons = ['flag','logo','icon','symbol'];
 function isSpecial(btn) {
 	let special = false;
-	specialIcons.forEach((str)=>{ if (btn.icon.startsWith(str)) special = true; });
+	if (btn.icon == 'awareness ribbon') special = true;
+	else specialIcons.forEach((str)=>{ if (btn.icon.startsWith(str)) special = true; });
 	return special;
 }
 
