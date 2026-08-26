@@ -18949,7 +18949,7 @@ const nonspecificSubspeciesList = [
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `94SLaCO.png`,
-		tags: [`flight rising`,`non-specific subspecies`,`deity`,`god`], // tags for search/filtering
+		tags: [`flight rising`,`non-specific subspecies`,`role`,`deity`,`god`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Rainbow star` // description of the flag/icon
 	},
@@ -19078,7 +19078,7 @@ const nonspecificSubspeciesList = [
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `rXfMawG.png`,
-		tags: [`flight rising`,`non-specific subspecies`,`god`], // tags for search/filtering
+		tags: [`flight rising`,`non-specific subspecies`,`role`,`god`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Rainbow eyes` // description of the flag/icon
 	},
@@ -19088,7 +19088,7 @@ const nonspecificSubspeciesList = [
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
 		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
 		imgur: `EvKPwXj.png`,
-		tags: [`flight rising`,`non-specific subspecies`,`deity`,`god`], // tags for search/filtering
+		tags: [`flight rising`,`non-specific subspecies`,`role`,`deity`,`god`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Rainbow eyes` // description of the flag/icon
 	},
@@ -19098,7 +19098,7 @@ const nonspecificSubspeciesList = [
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
 		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
 		imgur: `aOXaMoK.png`,
-		tags: [`flight rising`,`non-specific subspecies`,`deity`,`god`], // tags for search/filtering
+		tags: [`flight rising`,`non-specific subspecies`,`role`,`deity`,`god`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Rainbow eyes` // description of the flag/icon
 	},
@@ -19109,7 +19109,7 @@ const nonspecificSubspeciesList = [
 		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
 		imgur: `c9HxJj8.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`flight rising`,`non-specific subspecies`,`deity`,`god`], // tags for search/filtering
+		tags: [`flight rising`,`non-specific subspecies`,`role`,`deity`,`god`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Rainbow eyes` // description of the flag/icon
 	},
@@ -19118,7 +19118,7 @@ const nonspecificSubspeciesList = [
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `ibzwkqb.png`,
-		tags: [`flight rising`,`subspecies`,`non-specific subspecies`], // tags for search/filtering
+		tags: [`flight rising`,`non-specific subspecies`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Orange eyes` // description of the flag/icon
 	},
@@ -19159,7 +19159,7 @@ const nonspecificSubspeciesList = [
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgur: `6M37GtV.png`,
 		tags: [`flight rising`,`subspecies`,`non-specific subspecies`], // tags for search/filtering
-		info: ``, // optional extra info
+		info: `Non-specific ` + subspeciesData.subspeciesInfo + ` (more <a href="?tags=flight rising,shade">Shade buttons</a>)`, // optional extra info
 		icon: `Black eyes` // description of the flag/icon
 	},
 	{
@@ -19169,7 +19169,7 @@ const nonspecificSubspeciesList = [
 		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
 		imgur: `7gG7GtN.png`,
 		tags: [`flight rising`,`non-specific subspecies`,`shade`], // tags for search/filtering
-		info: ``, // optional extra info
+		info: `Non-specific ` + subspeciesData.subspeciesInfo, // optional extra info
 		icon: `Black eyes` // description of the flag/icon
 	},
 	{
@@ -19179,7 +19179,7 @@ const nonspecificSubspeciesList = [
 		src: `/buttons/FR/subspecies/%altNames0.png`, // local image source
 		imgur: `TjuNXO1.png`,
 		tags: [`flight rising`,`non-specific subspecies`,`shade`], // tags for search/filtering
-		info: ``, // optional extra info
+		info: `Non-specific ` + subspeciesData.subspeciesInfo, // optional extra info
 		icon: `Black eyes` // description of the flag/icon
 	},
 	{
@@ -19190,7 +19190,7 @@ const nonspecificSubspeciesList = [
 		imgur: `4MIh7Vl.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`non-specific subspecies`,`shade`], // tags for search/filtering
-		info: ``, // optional extra info
+		info: `Non-specific ` + subspeciesData.subspeciesInfo, // optional extra info
 		icon: `Black eyes` // description of the flag/icon
 	},
 ]
