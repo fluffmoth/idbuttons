@@ -16237,11 +16237,13 @@ const subspeciesList = [
 	},
 	{
 		name: `Dreameater`, // display name
-		imgur: `L4AxxvS.png`,
+		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/ZzVZ3Bwk/Dreameater.png`,
+		imgur: `https://i.imgur.com/udK25B7.png`,
 		tags: [`flight rising`,`subspecies`,`shadow flight`], // tags for search/filtering
 		info: `Flight Rising Shadow <a href="?tags=flight rising,subspecies,!subspecies extras">subspecies</a>`, // optional extra info
 		link: `https://www1.flightrising.com/forums/drs/1924900`, // optional URL the button should link to
-		icon: `Bird skull` // description of the flag/icon
+		icon: `Purple bird skull` // description of the flag/icon
 	},
 	{
 		name: `Drink Dragons`, // display name
@@ -25194,8 +25196,8 @@ const aestheticList = [
 	{
 		name: `Vulture Culture`, // display name
 		dateAdded: `2026-08-23`, // date this button was first added to the masterlist
-		imgbb: `TMLpYGzT/Vulture-Culture.png`,
-		imgur: `ZqTATLu.png`,
+		imgbb: `https://i.ibb.co/VYn9s1qx/Vulture-Culture.png`,
+		imgur: `https://i.imgur.com/1H3KGIT.png`,
 		tags: [`aesthetic`,`subculture`,`taxidermy`,`taxidermist`], // tags for search/filtering
 		info: `<a href="?tags=aesthetic">Aesthetic</a>/subculture centered on the ethically sourced collection of animal remains`, // optional extra info
 		icon: `Bird skull` // description of the flag/icon
