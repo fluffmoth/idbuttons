@@ -19867,7 +19867,24 @@ const healthList = [
 		info: ``, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
-	
+	{
+		name: `Schizotypal`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/9mt3fpvF/Schizotypal.png`, // imgbb
+		imgur: `https://i.imgur.com/e2eCtsU.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`mental health`,`neurodivergence`,`neurodivergent`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Neurodiversity infinity` // description of the flag/icon
+	},
+	{
+		name: `Schizophrenic`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/PsNP9nHn/Schizophrenic.png`, // imgbb
+		imgur: `https://i.imgur.com/Mhbczj2.png`, // imgur link
+		tags: [`health`,`disorders`,`medical`,`mental health`,`neurodivergence`,`neurodivergent`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Neurodiversity infinity` // description of the flag/icon
+	},
 	/*
 	{
 		name: ``, // display name
@@ -23481,6 +23498,153 @@ const pokemonList = [
 		tags: [`type`], // tags for search/filtering
 		icon: `S/V` // description of the flag/icon
 	},
+	{
+		name: `Fire Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/DPphZGT3/Fire-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/1Y6YB6p.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Fire`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/pvpPXxPM/Fire.png`, // imgbb link
+		imgur: `https://i.imgur.com/yX9mjWR.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Flying Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/j978bkNh/Flying-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/MzBo3uf.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Flying`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/B5SzjtM9/Flying.png`, // imgbb link
+		imgur: `https://i.imgur.com/YOoZNqm.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Ice Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/RkFJy88M/Ice-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/T5xXKI4.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Ice`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/mVNDPcC6/Ice.png`, // imgbb link
+		imgur: `https://i.imgur.com/laLFy77.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Electric Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/ynpt9pDb/Electric-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/RYNp9IU.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Electric`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/bjdjKnRf/Electric.png`, // imgbb link
+		imgur: `https://i.imgur.com/S8NuoqT.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Rock Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Y4R8Rv82/Rock-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/s8WK67l.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Rock`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/FbDfSGmS/Rock.png`, // imgbb link
+		imgur: `https://i.imgur.com/Kl1nQy7.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Dark Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/0yPS3Yqt/Dark-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/OHYCzsc.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Dark`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Q7R2TFgW/Dark.png`, // imgbb link
+		imgur: `https://i.imgur.com/mEavQzd.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Water Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/dJ3WZRQL/Water-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/t5lMzkr.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Water`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/XfSz2bYf/Water.png`, // imgbb link
+		imgur: `https://i.imgur.com/k51dHGH.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Poison Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/6cWg9H34/Poison-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/GjBy7EL.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `Poison`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/dwh0pwBP/Poison.png`, // imgbb link
+		imgur: `https://i.imgur.com/9qMMuqX.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `??? Type`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		src: `Unknown_Type.png`,
+		imgbb: `https://i.ibb.co/xq2R1zwY/Unknown-Type.png`, // imgbb link
+		imgur: `https://i.imgur.com/x5BNjd0.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
+	{
+		name: `???`, // display name
+		altNames: [`Unknown`],
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		src: `Unknown.png`,
+		imgbb: `https://i.ibb.co/dwnZ7zHp/Unknown.png`, // imgbb link
+		imgur: `https://i.imgur.com/5BcYWfV.png`, // imgur link
+		tags: [`type`], // tags for search/filtering
+		icon: `S/V` // description of the flag/icon
+	},
 	/*
 	{
 		name: `Name Type`, // display name
@@ -26210,6 +26374,14 @@ const cultureList = [
 		icon: `flag` // description of the flag/icon
 	},
 	{
+		name: `Austria`, // display name
+		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/27Tp6Jpq/Austria.png`, // imgbb link
+		imgur: `https://i.imgur.com/s8CePYi.png`, // imgur link
+		tags: [`culture`,`country`,`location`,`austrian`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
 		name: `Azerbaijani`, // display name
 		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
 		imgbb: `https://i.ibb.co/5W7z0x1d/Azerbaijani.png`, // imgbb link
@@ -26620,6 +26792,14 @@ const cultureList = [
 		imgbb: `Hpq7g9zG/German.png`, // imgbb link
 		imgur: `TB6EYwU.png`, // imgur link
 		tags: [`nationality`,`culture`,`germany`], // tags for search/filtering
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Germany`, // display name
+		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/7xdqvdw5/Germany.png`, // imgbb link
+		imgur: `https://i.imgur.com/ZbOwdAe.png`, // imgur link
+		tags: [`nationality`,`culture`,`german`], // tags for search/filtering
 		icon: `flag` // description of the flag/icon
 	},
 	{
