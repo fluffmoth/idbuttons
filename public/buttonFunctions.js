@@ -562,7 +562,8 @@ function getSrcFromHost(btn,host) {
 	// get the button image link if one exists for the given host
 	if (key && btn[key] && btn[key] != undefined && btn[key] != ``) {
 		if (key == 'imgbb' && !btn.imgbb.includes('https:')) btn.imgbb = 'https://i.ibb.co/' + btn.imgbb;
-		if (key == 'imgur' && !btn.imgur.includes('https:')) btn.imgur = 'https://i.imgur.com/' + btn.imgur;
+		else if (key == 'imgur' && !btn.imgur.includes('https:')) btn.imgur = 'https://i.imgur.com/' + btn.imgur;
+		else if (key == 'postimg' && !btn.postimg.includes('https:')) btn.postimg = 'https://i.postimg.cc/' + btn.postimg;
 		src += btn[key];
 	}
 	// if a link has been found
