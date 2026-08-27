@@ -1,16 +1,24 @@
 LAST POST - 8/18/26 NEXT POST - after 9/1/26
 
 @pinglist-4936
+bunch of things for today!
+
 -----
 [size=4][b]CREDITS NOMINATIONS[/b][/size]
 -----
-my credits/special thanks have gotten out of date while i've been offline! if there's anyone you guys feel deserves special thanks for contributing significantly to this project in any way, please let me know either privately or here in the forum. there's also a [url=https://idbuttons.neocities.org/credits/]credit/thanks page[/url] on the database site now!
+my credits list has gotten out of date while i've been offline! if there's anyone you guys feel deserves special thanks for contributing significantly to this project in any way, please let me know either privately or here in the forum. there's also a [url=https://idbuttons.neocities.org/credits/]credit/thanks page[/url] on the database site now!
 
 
 -----
 [size=4][b]USAGE LICENSE[/b][/size]
 -----
 i've added a more explicit [url=https://idbuttons.neocities.org/license/]licensing agreement[/url] for the button assets - basically a share-alike system. anyone can use the buttons for free without credit. if you use my button bases or fonts to create custom stuff, you have to be okay with people using the stuff you make too, unless you ask me first. for most purposes i'll say yes, so don't worry! i just want to solidify my legal right to continue acting as an archivist for the database collection, and your legal right to keep using the buttons on websites/profiles/etc.
+
+
+-----
+[size=4][b]WEBSITE DATABASE[/b][/size]
+-----
+[url=https://idbuttons.neocities.org/database/]database table[/url] now includes a section showing which image hosts are available for each button! eventually might make it so you can click those to switch the host for that button's code copy section, but for now you can still use the universal host dropdown at the top left
 
 
 -----
@@ -39,10 +47,11 @@ K-pop bands (icons by Anky, modified a bit for the standard palette)
 
 Adjusted icons
 [img alt="Gravity Falls"]https://i.imgur.com/FQh8JNz.png[/img]
-[img alt="JoJo's Bizarre Adventure"]https://i.ibb.co/hRmfH5Kk/Jo-Jo-s-Bizarre-Adventure.png[/img][img alt="JoJo's Bizarre Adventure"]https://i.ibb.co/zcLGFSG/Jo-Jo-s.png[/img]
 
 [b]GAMES[/b]
 [img alt="Cat Cafe Manager"]https://i.ibb.co/bMK9JpPD/Cat-Cafe-Manager.png[/img]
+[img alt="Outlast"]https://i.imgur.com/Fjw9SDP.png[/img][img alt="Outlast II"]https://i.imgur.com/xMHhEjU.png[/img][img alt="Outlast Trials"]https://i.imgur.com/UD3itDM.png[/img]
+[img alt="Starfinder"]https://i.ibb.co/gZD4NrGZ/Starfinder.png[/img][img alt="Starfinder 1e"]https://i.ibb.co/wFDYH6nh/Starfinder-1e.png[/img][img alt="Starfinder"]https://i.ibb.co/nN8PVRm2/Starfinder-2.png[/img][img alt="Starfinder 2e"]https://i.ibb.co/p6704XNV/Starfinder-2e.png[/img]
 Persona 3/4/5 (icons by milkywaydotmoe)
 [img alt="Persona 3"]https://i.ibb.co/4g5CPgqZ/Persona-3.png[/img][img alt="Persona 4"]https://i.ibb.co/S4MQC7Jc/Persona-4.png[/img][img alt="Persona 5"]https://i.ibb.co/mrx1v7x4/Persona-5.png[/img]
 Peak
@@ -52,6 +61,7 @@ New Icons
 [img alt="Rhythm Heaven"]https://i.ibb.co/qMKb5ctv/Rhythm-Heaven.png[/img][img alt="Rhythm Tengoku"]https://i.ibb.co/KCH3Cn7/Rhythm-Tengoku.png[/img][img alt="Rhythm Paradise"]https://i.ibb.co/V0LS0B1C/Rhythm-Paradise.png[/img]
 [img alt="Deltarune"]https://i.ibb.co/hF9V8MRQ/Deltarune.png[/img][img alt="Deltarune"]https://i.ibb.co/n8LQswp0/Deltarune-Kris.png[/img][img alt="Deltarune"]https://i.ibb.co/ccD6Kb21/Deltarune-Kris-2.png[/img][img alt="Deltarune"]https://i.ibb.co/hn8Yw33/Deltarune-Spamton.png[/img]
 [img alt="Undertale"]https://i.ibb.co/C3pQqjyv/Undertale-Dog.png[/img]
+[img alt="Terraria"]https://i.ibb.co/5hZVTGVJ/Terraria.png[/img][img alt="Terraria"]https://i.ibb.co/DDbS1fCZ/Terraria-corruption.png[/img][img alt="Terraria"]https://i.ibb.co/r2ZTV246/Terraria-crimson.png[/img][img alt="Terraria"]https://i.ibb.co/JWR1kNbS/Terraria-hallow.png[/img]
 
 [b]NATIONS/CULTURES[/b]
 [img alt="Afghan"]https://i.ibb.co/Kzs5Np6y/Afghan.png[/img][img alt="Algerian"]https://i.ibb.co/mF2Gr0C1/Algerian.png[/img][img alt="Andorran"]https://i.ibb.co/Q7CFgBsJ/Andorran.png[/img][img alt="Angolan"]https://i.ibb.co/DDt58XTF/Angolan.png[/img][img alt="Antiguan"]https://i.ibb.co/wrwGM8Pj/Antiguan.png[/img][img alt="Barbudan"]https://i.ibb.co/S7W5nTXN/Barbudan-AAB.png[/img][img alt="Barbudan"]https://i.ibb.co/KcH9T9P6/Barbudan.png[/img][img alt="Azerbaijani"]https://i.ibb.co/5W7z0x1d/Azerbaijani.png[/img][img alt="Azeri"]https://i.ibb.co/1fwm6hP2/Azeri.png[/img][img alt="Bahamian"]https://i.ibb.co/CsvwJttg/Bahamian.png[/img][img alt="Bahraini"]https://i.ibb.co/jZWVK1jq/Bahraini.png[/img][img alt="Bangladeshi"]https://i.ibb.co/jk3y05BZ/Bangladeshi.png[/img][img alt="Barbadian"]https://i.ibb.co/YFnKs4W5/Barbadian.png[/img][img alt="Bajan"]https://i.ibb.co/mYQSKq1/Bajan.png[/img][img alt="Belizean"]https://i.ibb.co/kV7ZcZtX/Belizean.png[/img][img alt="Beninese"]https://i.ibb.co/B2rCR5KJ/Beninese.png[/img][img alt="Beninois"]https://i.ibb.co/CpMGPqJs/Beninois.png[/img][img alt="Beninoise"]https://i.ibb.co/FLdhFcys/Beninoise.png[/img][img alt="Chechen"]https://i.ibb.co/Lds2HWY6/Chechen.png[/img][img alt="Türkiye"]https://i.ibb.co/fVJG44TL/T-rkiye.png[/img][img alt="Turkey"]https://i.ibb.co/B2GVrnyP/Turkey.png[/img]
@@ -72,6 +82,10 @@ Magnus Archives entities (by myself and Ness97)
 Jobs/roles
 [img alt="Observer"]https://i.ibb.co/1YVVFQFn/Observer.png[/img][img alt="Voidwalker"]https://i.ibb.co/vxCngvkq/Voidwalker.png[/img]
 
+[emoji=everlux happy size=2]
+Everlux
+[img alt="Everlux"]https://i.ibb.co/FRZMgSD/Everlux.png[/img][img alt="Everlux Fan"]https://i.ibb.co/6cCWhjML/Everlux-Fan.png[/img][img alt="Everlux Monolair"]https://i.ibb.co/WWNbqZZ7/Everlux-Monolair.png[/img]
+
 
 -----
 [size=4][b]POSTED IN THE FORUM[/b][/size]
@@ -82,23 +96,21 @@ Namehoarder/Namecollector/Kestrelhoarder
 Namefluid/Nomifluid
 [img alt="Namefluid"]https://i.ibb.co/x8qyx2Kz/Namefluid.png[/img][img alt="Namefluid"]https://i.ibb.co/dsFDpnjw/Namefluid-blank.png[/img][img alt="Nomifluid"]https://i.ibb.co/84SpX0Tq/Nomifluid.png[/img][img alt="Nomifluid"]https://i.ibb.co/20mNPSB4/Nomifluid-blank.png[/img]
 
+[b]Nationalities/cultures:[/b]
 Yenish/Jenische
 [img alt="Yenish"]https://i.ibb.co/3YG4Cz8R/Yenish-hedgehog.png[/img][img alt="Yenish"]https://i.ibb.co/VY0Hhtg6/Yenish-wheel-2.png[/img][img alt="Jenische"]https://i.ibb.co/nqYLGhnq/Jenische-hedgehog.png[/img][img alt="Jenische"]https://i.ibb.co/JRyc0nMz/Jenische-wheel-2.png[/img]
 [img alt="Yenish"]https://i.ibb.co/r248hMxz/Yenish-wheel.png[/img][img alt="Yenish"]https://i.ibb.co/BKZqSHVc/Yenish.png[/img][img alt="Jenische"]https://i.ibb.co/WWDpLBWh/Jenische-wheel.png[/img][img alt="Jenische"]https://i.ibb.co/FLrcqv5N/Jenische.png[/img]
-
 Arab countries (by MrChill)
 [img alt="Arab"]https://i.ibb.co/RpX5WVcT/Arab.png[/img][img alt="Bahraini"]https://i.ibb.co/jZWVK1jq/Bahraini.png[/img][img alt="Egyptian"]https://i.ibb.co/KjyTksV9/Egyptian.png[/img][img alt="Emirati"]https://i.ibb.co/DH9vpj70/Emirati.png[/img][img alt="Iraqi"]https://i.ibb.co/zVGNmd02/Iraqi.png[/img][img alt="Jordanian"]https://i.ibb.co/yFFpXyF6/Jordanian.png[/img][img alt="Kuwaiti"]https://i.ibb.co/C38Rr93p/Kuwaiti.png[/img][img alt="Qatari"]https://i.ibb.co/r2PXyTFc/Qatari.png[/img]
-
 Germany, Austria (by Ness97)
 [img alt="Germany"]https://i.ibb.co/7xdqvdw5/Germany.png[/img][img alt="Austria"]https://i.ibb.co/27Tp6Jpq/Austria.png[/img]
 
+[b]Dragon Breeds:[/b]
 Thorntails (by kenzieishungry)
 [img alt="Thorntail"]https://i.ibb.co/BKwCnrPH/Thorntail.png[/img][img alt="Thorntail Fan"]https://i.ibb.co/Nq8By7b/Thorntail-Fan.png[/img][img alt="Thorntail Lair"]https://i.ibb.co/Jj8F39GP/Thorntail-Lair.png[/img][img alt="Thorntail Monolair"]https://i.ibb.co/QvqDNDfq/Thorntail-Monolair.png[/img]
 [img alt="Thorntail Kin"]https://i.ibb.co/DHgTCqcv/Thorntail-Kin.png[/img]
-
 Choruses
 [img alt="Chorus"]https://i.ibb.co/LzX7cZMp/Chorus.png[/img][img alt="Chorus Fan"]https://i.ibb.co/938075j5/Chorus-Fan.png[/img][img alt="Chorus Lair"]https://i.ibb.co/1GrxZR2d/Chorus-Lair.png[/img][img alt="Chorus Monolair"]https://i.ibb.co/rKzYwhMG/Mono-Lair.png[/img]
-
 New icons for existing breeds
 [img alt="Nocturne"]https://i.ibb.co/fwpxbjS/Nocturne.png[/img][img alt="Nocturne Fan"]https://i.ibb.co/ksB5GQhC/Nocturne-Fan.png[/img][img alt="Nocturne Monolair"]https://i.ibb.co/rfd9GLyk/Nocturne-Monolair.png[/img][img alt="Nocturnegender"]https://i.ibb.co/pjyzsQf9/Nocturnegender.png[/img]
 [img alt="Obelisk"]https://i.ibb.co/DgTN69Jb/Obelisk.png[/img][img alt="Obelisk Fan"]https://i.ibb.co/vx5Wmnj2/Obelisk-Fan.png[/img][img alt="Obelisk Monolair"]https://i.ibb.co/Rnsd6BN/Obelisk-Monolair.png[/img]
@@ -108,8 +120,19 @@ New icons for existing breeds
 Fire Emblem (by milkywaydotmoe)
 [img alt="Fire Emblem"]https://i.ibb.co/JW6mJ1LP/Fire-Emblem.png[/img][img alt="Fire Emblem Awakening"]https://i.ibb.co/sd26hZKG/Fire-Emblem-Awakening.png[/img][img alt="Fire Emblem Engage"]https://i.ibb.co/2fdh6w2/Fire-Emblem-Engage.png[/img][img alt="Fire Emblem Fates"]https://i.ibb.co/TDfrQqsn/Fire-Emblem-Fates.png[/img][img alt="Fire Emblem: The Binding Blade"]https://i.ibb.co/jPbh8rNj/Fire-Emblem-The-Binding-Blade.png[/img][img alt="Fire Emblem: Three Houses"]https://i.ibb.co/rK0r7GdT/Fire-Emblem-Three-Houses.png[/img]
 
-Undertale Flowey icon (by RaptorFury)
+new Jojo's icons
+[img alt="JoJo's Bizarre Adventure"]https://i.ibb.co/hRmfH5Kk/Jo-Jo-s-Bizarre-Adventure.png[/img][img alt="JoJo's Bizarre Adventure"]https://i.ibb.co/zcLGFSG/Jo-Jo-s.png[/img]
+
+Malevolent podcast
+[img alt="Malevolent"]https://i.ibb.co/vFbJnMn/Malevolent.png[/img]
+
+Music: Femtanyl, Mili
+[img alt="Femtanyl"]https://i.ibb.co/8D5VMcnH/Femtanyl.png[/img][img alt="Mili"]https://i.ibb.co/35t08R5N/Mili.png[/img][img alt="Mili"]https://i.ibb.co/7JpQbyD1/Mili-red.png[/img]
+
+new Undertale/Deltarune icons (by RaptorFury)
 [img alt="Undertale"]https://i.ibb.co/pvZYNqdn/Undertale-Flowey.png[/img]
+[img alt="Deltarune"]https://i.ibb.co/JjF7nCXJ/Deltarune-ch2.png[/img][img alt="Deltarune"]https://i.ibb.co/BKFRCy4g/Deltarune-Queen.png[/img][img alt="Deltarune"]https://i.ibb.co/9HGcDjvk/Deltarune-Tenna.png[/img][img alt="Deltarune"]https://i.ibb.co/hRnHVHLY/Deltarune-TV.png[/img]
+[img alt="Deltarune"]https://i.ibb.co/1yH2VQV/Deltarune-Flowery.png[/img][img alt="Deltarune"]https://i.ibb.co/3PxDMjt/Deltarune-Aqua.png[/img][img alt="Deltarune"]https://i.ibb.co/2YMhtNPn/Deltarune-Seth.png[/img][img alt="Deltarune"]https://i.ibb.co/7JPGF8MQ/Deltarune-Green.png[/img][img alt="Deltarune"]https://i.ibb.co/mrJRjH4X/Deltarune-Orange.png[/img][img alt="Deltarune"]https://i.ibb.co/YqhnnXF/Deltarune-Yellow.png[/img][img alt="Deltarune"]https://i.ibb.co/kVBC9Dzb/Deltarune-Blue.png[/img]
 
 Asmodaeus Purple alterhumans + matching 7-pointed star (by Ness97)
 [img alt="Otherkin"]https://i.ibb.co/jZW5pKsr/Otherkin-Asmodaeus-Purple.png[/img][img alt="Fictionkin"]https://i.ibb.co/cSW7hfyW/Fictionkin-Asmodaeus-Purple.png[/img][img alt="Otherhearted"]https://i.ibb.co/0pz9Szfd/Otherhearted-Asmodaeus-Purple.png[/img]
@@ -117,8 +140,8 @@ Asmodaeus Purple alterhumans + matching 7-pointed star (by Ness97)
 Space (by Ness97)
 [img alt="Space"]https://i.ibb.co/Ldc8Bb5r/Space.png[/img][img alt="Space Lover"]https://i.ibb.co/Wq6j5Vs/Space-Lover.png[/img]
 
+[b]Health[/b]
 Dysphagia & PCOS flags (by Ness97)
 [img alt="Dysphagia"]https://i.ibb.co/99R3yP7W/Dysphagia-flag.png[/img][img alt="PCOS"]https://i.ibb.co/BKPmnQ22/PCOS.png[/img]
-
 Schizophrenic/Schizotypal (by Ness97)
 [img alt="Schizophrenic"]https://i.ibb.co/PsNP9nHn/Schizophrenic.png[/img][img alt="Schizotypal"]https://i.ibb.co/9mt3fpvF/Schizotypal.png[/img]
