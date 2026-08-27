@@ -20,6 +20,8 @@ i've added a more explicit [url=https://idbuttons.neocities.org/license/]licensi
 -----
 [url=https://idbuttons.neocities.org/database/]database table[/url] now includes a section showing which image hosts are available for each button! eventually might make it so you can click those to switch the host for that button's code copy section, but for now you can still use the universal host dropdown at the top left
 
+i've also moved a ton more buttons over there - about 1,000 in the last month, including all the video games and countries! most of them have been rehosted off imgur, and i've cleaned up any icon or font inconsistencies :>
+
 
 -----
 [size=4][b]BUTTON MAKER[/b][/size]

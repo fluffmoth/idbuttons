@@ -22263,6 +22263,12 @@ const gamesData = {};
 	gamesData.terraria = {
 		info: `<a href="?tags=interests,video game">Video game</a> (more <a href="?tags=terraria">Terraria</a> buttons)`,
 	}
+	gamesData.warhammer = {
+		link: `<a href="?tags=warhammer">Warhammer</a>`,
+		tags: ["interests","fandom","game","warhammer","miniature wargame","wargame","tabletop"],
+		altNames: [`Warhammer 40k`,`Warhammer 40,000`,`Warhammer 40000`],
+	}
+	gamesData.warhammer.info = `<a href="?tags=interests,game,tabletop">Tabletop</a> miniature wargame (more ${gamesData.warhammer.link} buttons)`;
 })();
 const gamesList = [
 	{
@@ -23739,7 +23745,7 @@ const gamesList = [
 	},
 	{
 		name: `Starfinder 2e`, // display name
-		altNames: ["Starfinder 2","Starfinder 2nd Edition","Starfinder Second Edition"],
+		altNames: [`Starfinder 2`,`Starfinder 2nd Edition`,`Starfinder Second Edition`],
 		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
 		imgbb: `https://i.ibb.co/p6704XNV/Starfinder-2e.png`,
 		imgur: `https://i.imgur.com/DCoel5y.png`,
@@ -23755,7 +23761,7 @@ const gamesList = [
 		imgbb: `https://i.ibb.co/5hZVTGVJ/Terraria.png`,
 		imgur: `https://i.imgur.com/PqhfiCL.png`,
 		postimg: `https://i.postimg.cc/3w13XTT8/Terraria.png`,
-		tags: gamesData.vGame.tags.concat(["terraria"]), // tags for search/filtering
+		tags: gamesData.vGame.tags.concat([`terraria`]), // tags for search/filtering
 		info: gamesData.terraria.info, // optional extra info
 		icon: `logo` // description of the flag/icon
 	},
@@ -23766,7 +23772,7 @@ const gamesList = [
 		imgur: `https://i.imgur.com/9i06dxq.png`,
 		postimg: `https://i.postimg.cc/xj7FF4jX/Terraria-Melee.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ["terraria"], // tags for search/filtering
+		tags: [`terraria`], // tags for search/filtering
 		info: `<a href="?tags=terraria">Terraria</a> weapon type`, // optional extra info
 		icon: `icon` // description of the flag/icon
 	},
@@ -23777,7 +23783,7 @@ const gamesList = [
 		imgur: `https://i.imgur.com/MY3oo0S.png`,
 		postimg: `https://i.postimg.cc/VsTHHVsd/Terraria-Ranged.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ["terraria"], // tags for search/filtering
+		tags: [`terraria`], // tags for search/filtering
 		info: `<a href="?tags=terraria">Terraria</a> weapon type`, // optional extra info
 		icon: `icon` // description of the flag/icon
 	},
@@ -23788,7 +23794,7 @@ const gamesList = [
 		imgur: `https://i.imgur.com/6mhV0CK.png`,
 		postimg: `https://i.postimg.cc/rytvckP0/Terraria-Calamity-Mod.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: gamesData.vGame.tags.concat(["terraria","mod"]), // tags for search/filtering
+		tags: gamesData.vGame.tags.concat([`terraria`,`mod`]), // tags for search/filtering
 		info: `<a href="?tags=terraria">Terraria</a> mod`, // optional extra info
 		icon: `logo` // description of the flag/icon
 	},
@@ -23800,7 +23806,7 @@ const gamesList = [
 		imgur: `https://i.imgur.com/pVkPQqF.png`,
 		postimg: `https://i.postimg.cc/QMmjQ33h/Terraria-corruption.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ["terraria","biome","corruption"], // tags for search/filtering
+		tags: [`terraria`,`biome`,`corruption`], // tags for search/filtering
 		info: gamesData.terraria.info, // optional extra info
 		icon: `Corruption biome` // description of the flag/icon
 	},
@@ -23812,7 +23818,7 @@ const gamesList = [
 		imgur: `https://i.imgur.com/SrGMxoN.png`,
 		postimg: `https://i.postimg.cc/TP0TV66G/Terraria-crimson.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ["terraria","biome","crimson"], // tags for search/filtering
+		tags: [`terraria`,`biome`,`crimson`], // tags for search/filtering
 		info: gamesData.terraria.info, // optional extra info
 		icon: `Crimson biome` // description of the flag/icon
 	},
@@ -23824,9 +23830,85 @@ const gamesList = [
 		imgur: `https://i.imgur.com/z7bTD9o.png`,
 		postimg: `https://i.postimg.cc/jjcRHbbR/Terraria-hallow.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: ["terraria","biome","hallow"], // tags for search/filtering
+		tags: [`terraria`,`biome`,`hallow`], // tags for search/filtering
 		info: gamesData.terraria.info, // optional extra info
 		icon: `Hallow biome` // description of the flag/icon
+	},
+	{
+		name: `Valorant`, // display name
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/hxqj98tB/Valorant.png`,
+		imgur: `https://i.imgur.com/kmHnlgc.png`,
+		postimg: `https://i.postimg.cc/KYLwyXQ2/Valorant.png`,
+		tags: gamesData.vGame.tags.concat([`fps`]), // tags for search/filtering
+		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Vampire: The Masquerade`, // display name
+		altNames: [`Vampire The Masquerade`,`VtM`],
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/pjVxQjhS/Vampire-The-Masquerade.png`,
+		imgur: `https://i.imgur.com/YzsnMVk.png`,
+		postimg: `https://i.postimg.cc/T1ynZxqy/Vampire-The-Masquerade.png`,
+		tags: gamesData.ttrpg.tags.concat([`horror`,`world of darkness`]), // tags for search/filtering
+		info: gamesData.ttrpg.link, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Wizard101`, // display name
+		altNames: [`Wizard 101`],
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/4gnh980P/Wizard101.png`,
+		imgur: `https://i.imgur.com/jROOgKR.png`,
+		postimg: `https://i.postimg.cc/LXfM8YTH/Wizard101.png`,
+		tags: gamesData.vGame.tags.concat([`mmo`,`mmorpg`,`fantasy`]), // tags for search/filtering
+		info: `<a href="?tags=mmorpg">MMORPG</a> <a href="?tags=interests,video game">video game</a>`, // optional extra info
+		icon: `logo spiral` // description of the flag/icon
+	},
+	{
+		name: `World of Warcraft`, // display name
+		altNames: [`WoW`],
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/jPGtvNJ7/World-of-Warcraft.png`,
+		imgur: `https://i.imgur.com/QiBUfoO.png`,
+		postimg: `https://i.postimg.cc/KjBtG24T/World-of-Warcraft.png`,
+		tags: gamesData.vGame.tags.concat([`mmo`,`mmorpg`,`fantasy`]), // tags for search/filtering
+		info: `<a href="?tags=mmorpg">MMORPG</a> <a href="?tags=interests,video game">video game</a> (more <a href="?tags=world of warcraft">WoW</a> buttons)`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `World of Warcraft: Alliance`, // display name
+		altNames: [`Alliance`],
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Df1frcqp/World-of-Warcraft-Alliance.png`,
+		imgur: `https://i.imgur.com/Srp8D6R.png`,
+		postimg: `https://i.postimg.cc/sx75jr17/World-of-Warcraft-Alliance.png`,
+		tags: [`world of warcraft`,`wow`], // tags for search/filtering
+		info: `<a href="?tags=world of warcraft">WoW</a> faction`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `World of Warcraft: Evoker`, // display name
+		altNames: [`Horde`],
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/svQxwdY7/World-of-Warcraft-Evoker.png`,
+		imgur: `https://i.imgur.com/fInfgFn.png`,
+		postimg: `https://i.postimg.cc/QC1c83V5/World-of-Warcraft-Evoker.png`,
+		tags: [`world of warcraft`,`wow`], // tags for search/filtering
+		info: `<a href="?tags=world of warcraft">WoW</a> class`, // optional extra info
+		icon: `symbol` // description of the flag/icon
+	},
+	{
+		name: `World of Warcraft: Horde`, // display name
+		altNames: [`Horde`],
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/BmvNv9z/World-of-Warcraft-Horde.png`,
+		imgur: `https://i.imgur.com/yoPbFcz.png`,
+		postimg: `https://i.postimg.cc/QC1c83VW/World-of-Warcraft-Horde.png`,
+		tags: [`world of warcraft`,`wow`], // tags for search/filtering
+		info: `<a href="?tags=world of warcraft">WoW</a> faction`, // optional extra info
+		icon: `logo` // description of the flag/icon
 	},
 	/*
 	{
@@ -23848,6 +23930,101 @@ gamesList.forEach((item)=>{
 		if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/interests/games/%name.png`; }
 		else if (!item.src.includes('/')) { item.src = `/buttons/interests/games/` + item.src; }
 	}
+});
+
+warhammerList = [
+	{
+		name: `Warhammer`, // display name
+		altNames: gamesData.warhammer.altNames,
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/vvP3yCJy/Warhammer.png`,
+		imgur: `https://i.imgur.com/O4y3VES.png`,
+		postimg: `https://i.postimg.cc/597XCDq1/Warhammer.png`,
+		tags: gamesData.warhammer.tags, // tags for search/filtering
+		info: gamesData.warhammer.info, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Warhammer`, // display name
+		altNames: gamesData.warhammer.altNames,
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		src: `%name_blue.png`, // local image source
+		imgbb: `https://i.ibb.co/vxssnLLk/Warhammer-blue.png`,
+		imgur: `https://i.imgur.com/8v87W4g.png`,
+		postimg: `https://i.postimg.cc/Pf3Cw0zd/Warhammer-blue.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: gamesData.warhammer.tags, // tags for search/filtering
+		info: gamesData.warhammer.info, // optional extra info
+		icon: `logo (blue)` // description of the flag/icon
+	},
+	{
+		name: `Warhammer: Chaos`, // display name
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/SDmsqb76/Warhammer-Chaos.png`,
+		imgur: `https://i.imgur.com/wFBfiKU.png`,
+		postimg: `https://i.postimg.cc/4NYmbwwM/Warhammer-Chaos.png`,
+		tags: [`warhammer`,`chaos`], // tags for search/filtering
+		info: gamesData.warhammer.link + " Chaos God", // optional extra info
+		icon: `Star of Chaos` // description of the flag/icon
+	},
+	{
+		name: `Warhammer: Khorne`, // display name
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/1Gj7h7Gh/Warhammer-Khorne.png`,
+		imgur: `https://i.imgur.com/c5FqHd7.png`,
+		postimg: `https://i.postimg.cc/658yLzzF/Warhammer-Khorne.png`,
+		tags: [`warhammer`,`chaos god`,`khorne`], // tags for search/filtering
+		info: gamesData.warhammer.link + " Chaos God", // optional extra info
+		icon: `Mark of Khorne` // description of the flag/icon
+	},
+	{
+		name: `Warhammer: Nurgle`, // display name
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/rRB94T0H/Warhammer-Nurgle.png`,
+		imgur: `https://i.imgur.com/hOMFYBX.png`,
+		postimg: `https://i.postimg.cc/pXmpYkk4/Warhammer-Nurgle.png`,
+		tags: [`warhammer`,`chaos god`,`nurgle`], // tags for search/filtering
+		info: gamesData.warhammer.link + " Chaos God", // optional extra info
+		icon: `Mark of Nurgle` // description of the flag/icon
+	},
+	{
+		name: `Warhammer: Slaanesh`, // display name
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/svy8CBbK/Warhammer-Slaanesh.png`,
+		imgur: `https://i.imgur.com/f3xErH1.png`,
+		postimg: `https://i.postimg.cc/7Y5fMXXp/Warhammer-Slaanesh.png`,
+		tags: [`warhammer`,`chaos god`,`slaanesh`], // tags for search/filtering
+		info: gamesData.warhammer.link + " Chaos God", // optional extra info
+		icon: `Mark of Slaanesh` // description of the flag/icon
+	},
+	{
+		name: `Warhammer: Tzeentch`, // display name
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/0VJZ2VxN/Warhammer-Tzeentch.png`,
+		imgur: `https://i.imgur.com/R0o4VQ6.png`,
+		postimg: `https://i.postimg.cc/8kK76xBN/Warhammer-Tzeentch.png`,
+		tags: [`warhammer`,`chaos god`,`tzeentch`], // tags for search/filtering
+		info: gamesData.warhammer.link + " Chaos God", // optional extra info
+		icon: `Mark of Tzeentch` // description of the flag/icon
+	},
+	/*
+	{
+		name: ``, // display name
+		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
+		src: `%name.png`, // local image source
+		imgbb: ``,
+		imgur: ``,
+		postimg: ``,
+		tags: [`warhammer`], // tags for search/filtering
+		info: gamesData.warhammer.link, // optional extra info
+		icon: `` // description of the flag/icon
+	},
+	*/
+]
+// assign default values
+warhammerList.forEach((item)=>{
+	if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/interests/games/warhammer/%name.png`; }
+	else if (!item.src.includes('/')) { item.src = `/buttons/interests/games/warhammer/` + item.src; }
 });
 
 const utDrList = [
@@ -32237,7 +32414,7 @@ const buttonList = arr.concat(
 	religionList,
 	politicsList,
 	musicList,
-	gamesList, finalFantasyList, pokemonList, utDrList,
+	gamesList, finalFantasyList, pokemonList, utDrList, warhammerList,
 	animeMangaList,
 	interestsList, homestuckList, tmaList,
 	softwareList,
