@@ -87,7 +87,7 @@ Jobs/roles
 
 [emoji=everlux happy size=2]
 Everlux
-[img alt="Everlux"]https://i.ibb.co/FRZMgSD/Everlux.png[/img][img alt="Everlux Fan"]https://i.ibb.co/6cCWhjML/Everlux-Fan.png[/img][img alt="Everlux Monolair"]https://i.ibb.co/WWNbqZZ7/Everlux-Monolair.png[/img]
+[img alt="Everlux"]https://i.ibb.co/cSKFGDfV/Everlux.png[/img][img alt="Everlux Fan"]https://i.ibb.co/7Nyzv5gR/Everlux-Fan.png[/img][img alt="Everlux Monolair"]https://i.ibb.co/KpmXFmVm/Everlux-Monolair.png[/img]
 
 
 -----

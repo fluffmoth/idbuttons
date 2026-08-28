@@ -15127,23 +15127,26 @@ const FRbreeds = [
 		name: `Everlux`, // display name
 		breed: `Everlux`,
 		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
-		imgbb: `FRZMgSD/Everlux.png`,
-		imgur: `1QQfTjQ.png`,
+		imgbb: `https://i.ibb.co/cSKFGDfV/Everlux.png`,
+		imgur: `https://i.imgur.com/OjpAzUJ.png`,
+		postimg: `https://i.postimg.cc/x8YbT68f/Everlux.png`,
 	},
 	{
 		name: `Everlux Fan`, // display name
 		breed: `Everlux`,
 		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
-		imgbb: `6cCWhjML/Everlux-Fan.png`,
-		imgur: `2Mwpx9z.png`,
+		imgbb: `https://i.ibb.co/7Nyzv5gR/Everlux-Fan.png`,
+		imgur: `https://i.imgur.com/YuQ7FWH.png`,
+		postimg: `https://i.postimg.cc/8cDrPZck/Everlux-Fan.png`,
 		tags: [`fan`], // tags for search/filtering
 	},
 	{
 		name: `Everlux Monolair`, // display name
 		breed: `Everlux`,
 		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
-		imgbb: `WWNbqZZ7/Everlux-Monolair.png`,
-		imgur: `pcuMzER.png`,
+		imgbb: `https://i.ibb.co/KpmXFmVm/Everlux-Monolair.png`,
+		imgur: `https://i.imgur.com/XIK7Ukx.png`,
+		postimg: `https://i.postimg.cc/1XPN5vX5/Everlux-Monolair.png`,
 		tags: [`monolair`], // tags for search/filtering
 	},
 	{
@@ -15838,7 +15841,7 @@ const FRnestNetwork = [
 FRnestNetwork.forEach((item)=>{
 	let flight = item.icon.replaceAll(' flight','');
 	item.tags = [`flight rising`,`breeding`,`nest network`,flight.toLowerCase() + ' flight'];
-	item.info = FRdata.nestNet.info;
+	item.info = FRdata.nestNet.info + ` for the <a href="?tags=` + item.icon + `">` + item.icon + `</a>`;
 	if (item.name == 'Nest Network') item.link = FRdata.nestNet.link;
 	if (typeof item.alt == 'undefined') { item.alt = `%name: ` + flight; }
 	if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/FR/nestnetwork/%name_` + flight + `.png`; }
