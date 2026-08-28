@@ -262,7 +262,8 @@ const filterList = [
 							{ label: `Sandsurge`, tags: `sandsurge` },
 							{ label: `Thorntail`, tags: `thorntail` },
 							{ label: `Undertide`, tags: `undertide` },
-							{ label: `Veilspun`, tags: `veilspun` }
+							{ label: `Veilspun`, tags: `veilspun` },
+							{ label: `Vigil`, tags: `vigil` },
 						]
 					}
 				]
@@ -281,7 +282,9 @@ const filterList = [
 					{ label: `Other`, tags: `!gene rarity,!color pattern` }
 				]
 			},
-			{ label: `Exalting`, tags: `exalting` }
+			{ label: `Exalting`, tags: `exalting` },
+			{ label: `Breeding`, tags: `breeding` },
+			{ label: `Dominance`, tags: `dominance` },
 		]
 	},
 	{ label: `Time Zones`, tags: `time zone` ,
