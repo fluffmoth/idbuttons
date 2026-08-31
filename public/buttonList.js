@@ -2149,9 +2149,9 @@ const genderButtonList = [
 	{
 		name: `Feminec`, // display name
 		src: `/buttons/gender/%name.png`,
-		imgbb: `https://i.ibb.co/PvSp0rCW/Feminec.png`,
-		imgur: `https://i.imgur.com/gA7SpKl.png`,
-		postimg: `https://i.postimg.cc/FsRfKdG9/Feminec.png`,
+		imgbb: `PvSp0rCW/Feminec.png`,
+		imgur: `gA7SpKl.png`,
+		postimg: `FsRfKdG9/Feminec.png`,
 		tags: [`gender`,`male`,`masculine`,`feminine`,`gnc`,`gender non-conforming`], // tags for search/filtering
 		info: `A <a href="?tags=gender,male">male</a> gender that is deeply tied to feminine <a href="?tags=gender,gnc">gender non-conformity</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -13848,9 +13848,9 @@ const FRList = [
 		altNames: [`Can Breed`], // optional alternate names, for search algorithms
 		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
 		src: `/buttons/FR/breeding/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/gMY7WRB8/Will-Breed.png`,
+		imgbb: `gMY7WRB8/Will-Breed.png`,
 		imgur: `7gibfJe.png`,
-		postimg: `https://i.postimg.cc/4x86nQbC/Will-Breed.png`,
+		postimg: `4x86nQbC/Will-Breed.png`,
 		tags: [`flight rising`,`breeding`,`breedable`,`will stud`], // tags for search/filtering
 		info: `Available to breed (for breeding sims like <a href="?tags=flight rising">Flight Rising</a>)`, // optional extra info
 		icon: `Green checkmark` // description of the flag/icon
@@ -13860,9 +13860,9 @@ const FRList = [
 		altNames: [`Can't Breed`], // optional alternate names, for search algorithms
 		dateAdded: `2025-10-31`, // date this button was first added to the masterlist
 		src: `/buttons/FR/breeding/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/8LzTz1K0/Won-t-Breed.png`,
+		imgbb: `8LzTz1K0/Won-t-Breed.png`,
 		imgur: `p6CYc1v.png`,
-		postimg: `https://i.postimg.cc/dVW2DjmP/Won-t-Breed.png`,
+		postimg: `dVW2DjmP/Won-t-Breed.png`,
 		tags: [`flight rising`,`breeding`,`not breedable`,`won't stud`], // tags for search/filtering
 		info: `Not available to breed (for breeding sims like <a href="?tags=flight rising">Flight Rising</a>)`, // optional extra info
 		icon: `Red X` // description of the flag/icon
@@ -13871,9 +13871,9 @@ const FRList = [
 		name: `Will Stud`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
 		src: `/buttons/FR/breeding/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/9913Ny5S/Will-Stud.png`,
-		imgur: `https://i.imgur.com/RK4bSlo.png`,
-		postimg: `https://i.postimg.cc/BnhTtBcG/Will-Stud.png`,
+		imgbb: `9913Ny5S/Will-Stud.png`,
+		imgur: `RK4bSlo.png`,
+		postimg: `BnhTtBcG/Will-Stud.png`,
 		tags: [`flight rising`,`breeding`,`breedable`,`will breed`], // tags for search/filtering
 		info: `Available to breed (for breeding sims like <a href="?tags=flight rising">Flight Rising</a>)`, // optional extra info
 		icon: `Green checkmark` // description of the flag/icon
@@ -13882,9 +13882,9 @@ const FRList = [
 		name: `Won't Stud`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
 		src: `/buttons/FR/breeding/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/9kDm1NsP/Won-t-Stud.png`,
-		imgur: `https://i.imgur.com/ZM72Hxv.png`,
-		postimg: `https://i.postimg.cc/vZPrDtLw/Won-t-Stud.png`,
+		imgbb: `9kDm1NsP/Won-t-Stud.png`,
+		imgur: `ZM72Hxv.png`,
+		postimg: `vZPrDtLw/Won-t-Stud.png`,
 		tags: [`flight rising`,`breeding`,`not breedable`,`won't breed`], // tags for search/filtering
 		info: `Not available to breed (for breeding sims like <a href="?tags=flight rising">Flight Rising</a>)`, // optional extra info
 		icon: `Red X` // description of the flag/icon
@@ -15127,26 +15127,26 @@ const FRbreeds = [
 		name: `Everlux`, // display name
 		breed: `Everlux`,
 		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/cSKFGDfV/Everlux.png`,
-		imgur: `https://i.imgur.com/OjpAzUJ.png`,
-		postimg: `https://i.postimg.cc/x8YbT68f/Everlux.png`,
+		imgbb: `cSKFGDfV/Everlux.png`,
+		imgur: `OjpAzUJ.png`,
+		postimg: `x8YbT68f/Everlux.png`,
 	},
 	{
 		name: `Everlux Fan`, // display name
 		breed: `Everlux`,
 		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/7Nyzv5gR/Everlux-Fan.png`,
-		imgur: `https://i.imgur.com/YuQ7FWH.png`,
-		postimg: `https://i.postimg.cc/8cDrPZck/Everlux-Fan.png`,
+		imgbb: `7Nyzv5gR/Everlux-Fan.png`,
+		imgur: `YuQ7FWH.png`,
+		postimg: `8cDrPZck/Everlux-Fan.png`,
 		tags: [`fan`], // tags for search/filtering
 	},
 	{
 		name: `Everlux Monolair`, // display name
 		breed: `Everlux`,
 		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/KpmXFmVm/Everlux-Monolair.png`,
-		imgur: `https://i.imgur.com/XIK7Ukx.png`,
-		postimg: `https://i.postimg.cc/1XPN5vX5/Everlux-Monolair.png`,
+		imgbb: `KpmXFmVm/Everlux-Monolair.png`,
+		imgur: `XIK7Ukx.png`,
+		postimg: `1XPN5vX5/Everlux-Monolair.png`,
 		tags: [`monolair`], // tags for search/filtering
 	},
 	{
@@ -21165,6 +21165,9 @@ musicList.forEach((item)=>{
 
 const interestsData = {};
 (()=>{
+	interestsData.movie = {
+		tags: [`interests`,`fandom`,`movie`,`film`],
+	};
 	interestsData.tv = {
 		tags: [`interests`,`fandom`,`television`,`tv`,`show`,`series`],
 	};
@@ -21175,11 +21178,29 @@ const interestsData = {};
 		link: `<a href="?tags=transformers">Transformers</a>`,
 		tags: interestsData.tv.tags.concat([`transformers`,`comic`,`toys`,`animation`,`robots`]),
 	};
-	interestsData.webcomic = {
-		tags: [`interests`,`fandom`,`webcomic`,`comic`],
-	};
 	interestsData.selfship = {
 		tags: [`interests`,`fandom`,`shipping`,`selfship`,`selfshipper`,`self ship`,`self shipper`,`yumeship`,`yumeshipper`],
+	};
+	// MOVIES
+	interestsData.movie = {
+		tags: [`interests`,`fandom`,`movie`,`film`],
+	};
+	interestsData.disney = {
+		tags: interestsData.movie.tags.concat([`disney`,`walt disney`,`animation`]),
+	};
+	// COMICS
+	interestsData.comic = {
+		tags: [`interests`,`fandom`,`comic`],
+	};
+	interestsData.webcomic = {
+		tags: interestsData.comic.tags.concat([`webcomic`]),
+	};
+	interestsData.marvel = {
+		tags: interestsData.comic.tags.concat([`marvel`,`marvel comics`,`mcu`,`superhero`]),
+		link: `<a href="?tags=marvel|marvel comics|mcu">Marvel Comics</a>`,
+	};
+	interestsData.mcu = {
+		tags: mergeArr(interestsData.marvel.tags,interestsData.movie.tags),
 	};
 })();
 const interestsList = [
@@ -21343,98 +21364,11 @@ const interestsList = [
 	{
 		name: `Good Omens`, // display name
 		dateAdded: `2024-02-15`, // date this button was first added to the masterlist
-		alt: `%name`,
+		src: `/buttons/interests/%name.png`, // local image source
 		imgur: `njCJq66.png`,
-		tags: interestsData.tv.tags.concat([`fantasy`,`book`,`neil gaiman`]), // tags for search/filtering
+		tags: interestsData.tv.tags.concat([`fantasy`,`book`,`neil gaiman`,`terry pratchett`]), // tags for search/filtering
 		info: `Comedic fantasy <a href="?tags=interests,book">novel</a>/<a href="?tags=interests,television|tv">TV show</a>`, // optional extra info
 		icon: `Black/white wings` // description of the flag/icon
-	},
-	{
-		name: `Warriors`, // display name
-		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
-		//src: `/buttons/interests/books/%name.png`, // local image source
-		imgur: `J94Ephk.png`,
-		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`], // tags for search/filtering
-		info: `<a href="?tags=interests,book">Book</a> series about feral cats (more <a href="?tags=interests,warrior cats">Warriors buttons</a>)`, // optional extra info
-		icon: `Warriors clan icon` // description of the flag/icon
-	},
-	{
-		name: `Warrior Cats`, // display name
-		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
-		//src: `/buttons/interests/books/%name.png`, // local image source
-		imgur: `yP1Dk4Q.png`,
-		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`fandom`,`book`,`cats`,`warriors`], // tags for search/filtering
-		info: `<a href="?tags=interests,book">Book</a> series about feral cats (more <a href="?tags=interests,warrior cats">Warriors buttons</a>)`, // optional extra info
-		icon: `Warriors clan icon` // description of the flag/icon
-	},
-	{
-		name: `Warriors: Riverclan`, // display name
-		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
-		//src: `/buttons/interests/books/%name.png`, // local image source
-		imgur: `FcevfEX.png`,
-		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`,`warriors`,`clan`], // tags for search/filtering
-		info: `<a href="?tags=interests,warrior cats">Warriors</a> clan`, // optional extra info
-		icon: `Warriors clan icon` // description of the flag/icon
-	},
-	{
-		name: `Warriors: Shadowclan`, // display name
-		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
-		src: `/buttons/interests/books/%name.png`, // local image source
-		imgur: `4nrkVd7.png`,
-		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`,`warriors`,`clan`], // tags for search/filtering
-		info: `<a href="?tags=interests,warrior cats">Warriors</a> clan`, // optional extra info
-		icon: `Warriors clan icon` // description of the flag/icon
-	},
-	{
-		name: `Warriors: Skyclan`, // display name
-		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
-		//src: `/buttons/interests/books/%name.png`, // local image source
-		imgur: `i91ubAy.png`,
-		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`,`warriors`,`clan`], // tags for search/filtering
-		info: `<a href="?tags=interests,warrior cats">Warriors</a> clan`, // optional extra info
-		icon: `Warriors clan icon` // description of the flag/icon
-	},
-	{
-		name: `Warriors: Starclan`, // display name
-		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
-		src: `/buttons/interests/books/%name.png`, // local image source
-		imgur: `V03wlrQ.png`,
-		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`,`warriors`,`clan`], // tags for search/filtering
-		info: `<a href="?tags=interests,warrior cats">Warriors</a> clan`, // optional extra info
-		icon: `Warriors clan icon` // description of the flag/icon
-	},
-	{
-		name: `Warriors: Thunderclan`, // display name
-		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
-		src: `/buttons/interests/books/%name.png`, // local image source
-		imgur: `wUxwHw9.png`,
-		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`,`warriors`,`clan`], // tags for search/filtering
-		info: `<a href="?tags=interests,warrior cats">Warriors</a> clan`, // optional extra info
-		icon: `Warriors clan icon` // description of the flag/icon
-	},
-	{
-		name: `Warriors: Windclan`, // display name
-		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
-		alt: `%name`,
-		src: `/buttons/interests/books/%name.png`, // local image source
-		imgur: `EDZaEls.png`,
-		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`interests`,`fandom`,`book`,`cat`,`cats`,`warrior cats`,`warriors`,`clan`], // tags for search/filtering
-		info: `<a href="?tags=interests,warrior cats">Warriors</a> clan`, // optional extra info
-		icon: `Warriors clan icon` // description of the flag/icon
 	},
 	{
 		name: `Sanrio`, // display name
@@ -21951,19 +21885,243 @@ const interestsList = [
 		info: `<a href="?tags=interests,horror">Horror</a> <a href="?tags=interests,podcast">podcast</a>`, // optional extra info
 		icon: `Yellow eye` // description of the flag/icon
 	},
+	{
+		name: `Disney`, // display name
+		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: `Zz8n3kr1/Disney.png`,
+		imgur: `6GgJTy2.png`,
+		postimg: `Kc3GtMXg/Disney.png`,
+		tags: interestsData.disney.tags, // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Pixar`, // display name
+		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: `Qv0drmpX/Pixar.png`,
+		imgur: `wBaHyU5.png`,
+		postimg: `sfGj5hFY/Pixar.png`,
+		tags: interestsData.disney.tags, // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Doctor Who`, // display name
+		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: `fVcL3pt9/Doctor-Who.png`,
+		imgur: `DjxOmUH.png`,
+		postimg: `HW8YbyGb/Doctor-Who.png`,
+		tags: [`interests`,`fandom`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `TARDIS` // description of the flag/icon
+	},
+	{
+		name: `DC Comics`, // display name
+		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: `B28pfzQn/DC-Comics.png`,
+		imgur: `1llHbd9.png`,
+		postimg: `SQYScM08/DC-Comics.png`,
+		tags: [`interests`,`fandom`,`comic`,`superhero`,`dc`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Marvel`, // display name
+		altNames: [`Marvel Comics`],
+		alt: `%altNames0`,
+		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: `MkR7XCWv/Marvel.png`,
+		imgur: `kVKlyFF.png`,
+		postimg: `gcLz3Z9v/Marvel.png`,
+		tags: interestsData.marvel.tags, // tags for search/filtering
+		info: interestsData.marvel.link, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `MCU`, // display name
+		altNames: [`Marvel Cinematic Universe`],
+		alt: `%altNames0`,
+		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: `tpvbMcJ8/MCU.png`,
+		imgur: `ejQymaI.png`,
+		postimg: `Df4v1XVQ/MCU.png`,
+		tags: interestsData.mcu.tags, // tags for search/filtering
+		info: interestsData.marvel.link + ` cinematic universe`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Avengers`, // display name
+		altNames: [`The Avengers`],
+		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: `5X09wvwc/Avengers.png`,
+		imgur: `xpHQ2VI.png`,
+		postimg: `ryRV5r6d/Avengers.png`,
+		tags: interestsData.marvel.tags.concat([`movie`]), // tags for search/filtering
+		info: interestsData.marvel.link + ` superhero team and movie series`, // optional extra info
+		icon: `logo` // description of the flag/icon
+	},
+	{
+		name: `Avengers`, // display name
+		altNames: [`The Avengers`],
+		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name_alt.png`, // local image source
+		imgbb: `sp39G2Sz/Avengers-alt.png`,
+		imgur: `8s8jJES.png`,
+		postimg: `Kc3GtMXM/Avengers-alt.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: interestsData.marvel.tags.concat([`movie`]), // tags for search/filtering
+		info: interestsData.marvel.link + ` superhero team and movie series`, // optional extra info
+		icon: `logo (simple)` // description of the flag/icon
+	},
+	{
+		name: `Venom`, // display name
+		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/cKpMzcgD/Venom.png`,
+		imgur: `https://i.imgur.com/UPLTMAL.png`,
+		postimg: `https://i.postimg.cc/MTCgxXp0/Venom.png`,
+		tags: interestsData.mcu.tags.concat([`venom`]), // tags for search/filtering
+		info: interestsData.marvel.link + ` character`, // optional extra info
+		icon: `Venom face` // description of the flag/icon
+	},
 	/*
 	{
 		name: ``, // display name
-		dateAdded: `2026-08-27`, // date this button was first added to the masterlist
-		//src: `/buttons/interests/%name.png`, // local image source
+		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
+		src: `/buttons/interests/%name.png`, // local image source
 		imgbb: ``,
 		imgur: ``,
+		postimg: ``,
 		tags: [`interests`,`fandom`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `` // description of the flag/icon
 	},
 	*/
 ]
+
+const booksData = {};
+(()=>{
+	booksData.tags = [`interests`,`fandom`,`book`];
+	booksData.link = `<a href="?tags=book">Book</a>`;
+	booksData.warriors = {
+		tags: [`interests`,`fandom`,`book`,`cat`,`warriors`,`warrior cats`],
+		clanTags: [`warriors`,`warrior cats`,`clan`],
+		link: `<a href="?tags=warriors|warrior cats">Warrior cats</a>`,
+	};
+	booksData.warriors.info = `<a href="?tags=interests,book">Book</a> series about feral cats (more ${booksData.warriors.link} buttons available)`;
+	booksData.warriors.clanInfo = booksData.warriors.link + ` clan`;
+})();
+const booksList = [
+	{
+		name: `Warriors`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		alt: `Warrior Cats`,
+		imgur: `w8ZxZrh.png`,
+		tags: booksData.warriors.tags, // tags for search/filtering
+		info: booksData.warriors.info, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warrior Cats`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		imgur: `yP1Dk4Q.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: booksData.warriors.tags, // tags for search/filtering
+		info: booksData.warriors.info, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warriors: Riverclan`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		imgur: `wDRSKTX.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: booksData.warriors.clanTags, // tags for search/filtering
+		info: booksData.warriors.clanInfo, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warriors: Shadowclan`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		imgur: `7HTKqt9.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: booksData.warriors.clanTags, // tags for search/filtering
+		info: booksData.warriors.clanInfo, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warriors: Skyclan`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		imgur: `bDHhtG9.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: booksData.warriors.clanTags, // tags for search/filtering
+		info: booksData.warriors.clanInfo, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warriors: Starclan`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		imgur: `V03wlrQ.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: booksData.warriors.clanTags, // tags for search/filtering
+		info: booksData.warriors.clanInfo, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warriors: Thunderclan`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		imgur: `VGR25iN.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: booksData.warriors.clanTags, // tags for search/filtering
+		info: booksData.warriors.clanInfo, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Warriors: Windclan`, // display name
+		dateAdded: `2025-11-11`, // date this button was first added to the masterlist
+		imgur: `EDZaEls.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: booksData.warriors.clanTags, // tags for search/filtering
+		info: booksData.warriors.clanInfo, // optional extra info
+		icon: `Warriors clan icon` // description of the flag/icon
+	},
+	{
+		name: `Wings of Fire`, // display name
+		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/bgknfWL3/Wings-of-Fire.png`,
+		imgur: `https://i.imgur.com/HTUpR65.png`,
+		postimg: `https://i.postimg.cc/7ZShyTPX/Wings-of-Fire.png`,
+		tags: booksData.tags.concat([`dragon`]), // tags for search/filtering
+		info: `<a href="?tags=interests,book">Book</a> series about dragons`, // optional extra info
+		icon: `Wings of Fire - Glory` // description of the flag/icon
+	},
+	/*
+	{
+		name: ``, // display name
+		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
+		src: `%name.png`, // local image source
+		imgbb: ``,
+		imgur: ``,
+		postimg: ``,
+		tags: booksData.tags, // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `` // description of the flag/icon
+	},
+	*/
+];
+// assign default values
+booksList.forEach((item)=>{
+	if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/interests/books/%name.png`; }
+	else if (!item.src.includes('/')) { item.src = `/buttons/interests/books/` + item.src; }
+	if (!item.info) item.info = booksData.link;
+	if (!item.tags) item.tags = booksData.tags;
+});
 
 const tmaList = [
 	{
@@ -22281,9 +22439,9 @@ const animeMangaList = [
 		name: `Blue Exorcist`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
 		src: `%name.png`, // local image source
-		imgbb: `https://i.ibb.co/Q7BYQ523/Blue-Exorcist.png`,
-		imgur: `https://i.imgur.com/q4dhzdQ.png`,
-		postimg: `https://i.postimg.cc/y8byNTsD/Blue-Exorcist.png`,
+		imgbb: `Q7BYQ523/Blue-Exorcist.png`,
+		imgur: `q4dhzdQ.png`,
+		postimg: `y8byNTsD/Blue-Exorcist.png`,
 		tags: animeData.animeManga.tags.concat([]), // tags for search/filtering
 		info: animeData.animeManga.link, // optional extra info
 		icon: `` // description of the flag/icon
@@ -22293,9 +22451,9 @@ const animeMangaList = [
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
 		palette: `Vergil Blue`, // palette of button base
 		src: `%name.png`, // local image source
-		imgbb: `https://i.ibb.co/2YZhk6x6/Blue-Exorcist-Vergil-Blue.png`,
-		imgur: `https://i.imgur.com/BxmXYJi.png`,
-		postimg: `https://i.postimg.cc/mg5yrSBt/Blue-Exorcist-Vergil-Blue.png`,
+		imgbb: `2YZhk6x6/Blue-Exorcist-Vergil-Blue.png`,
+		imgur: `BxmXYJi.png`,
+		postimg: `mg5yrSBt/Blue-Exorcist-Vergil-Blue.png`,
 		tags: animeData.animeManga.tags.concat([]), // tags for search/filtering
 		info: animeData.animeManga.link, // optional extra info
 		icon: `` // description of the flag/icon
@@ -24012,9 +24170,9 @@ const gamesList = [
 	{
 		name: `Guild Wars 2`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/m57Sxdy7/Guild-Wars-2.png`,
+		imgbb: `m57Sxdy7/Guild-Wars-2.png`,
 		imgur: `https://imgur.com/sJGAfBA.png`,
-		postimg: `https://i.postimg.cc/xCTsJ1B9/Guild-Wars-2.png`,
+		postimg: `xCTsJ1B9/Guild-Wars-2.png`,
 		tags: gamesData.vGame.tags.concat([`guild wars`,`mmo`,`mmorpg`]), // tags for search/filtering
 		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -24023,9 +24181,9 @@ const gamesList = [
 		name: `Guild Wars 2`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
 		palette: `Asmodaeus Red`,
-		imgbb: `https://i.ibb.co/LXKnWZrX/Guild-Wars-2-Asmodaeus-Red.png`,
+		imgbb: `LXKnWZrX/Guild-Wars-2-Asmodaeus-Red.png`,
 		imgur: `https://imgur.com/E5LtXL0.png`,
-		postimg: `https://i.postimg.cc/50NPY2Dx/Guild-Wars-2-Asmodaeus-Red.png`,
+		postimg: `50NPY2Dx/Guild-Wars-2-Asmodaeus-Red.png`,
 		tags: gamesData.vGame.tags.concat([`guild wars`,`mmo`,`mmorpg`]), // tags for search/filtering
 		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -24033,9 +24191,9 @@ const gamesList = [
 	{
 		name: `Burnout Paradise`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/20ZDdPBJ/Burnout-Paradise.png`,
-		imgur: `https://i.imgur.com/aovV4Ax.png`,
-		postimg: `https://i.postimg.cc/Ls64xG7M/Burnout-Paradise.png`,
+		imgbb: `20ZDdPBJ/Burnout-Paradise.png`,
+		imgur: `aovV4Ax.png`,
+		postimg: `Ls64xG7M/Burnout-Paradise.png`,
 		tags: gamesData.vGame.tags.concat([`racing`]), // tags for search/filtering
 		info: `<a href="?tags=interests,video game">Video game</a>`, // optional extra info
 		icon: `logo` // description of the flag/icon
@@ -25399,27 +25557,27 @@ const FFVIIlist = [
 	{
 		name: `Shinra`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/gLZPw5Cb/Shinra.png`,
-		imgur: `https://i.imgur.com/LlMKG37.png`,
-		postimg: `https://i.postimg.cc/QdBz8C1w/Shinra.png`,
+		imgbb: `gLZPw5Cb/Shinra.png`,
+		imgur: `LlMKG37.png`,
+		postimg: `QdBz8C1w/Shinra.png`,
 		tags: [`shinra`,`shin-ra`], // tags for search/filtering
 		icon: `Shinra logo` // description of the flag/icon
 	},
 	{
 		name: `Shinra Electric`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/p6tpDPKd/Shinra-Electric.png`,
-		imgur: `https://i.imgur.com/31JoB2X.png`,
-		postimg: `https://i.postimg.cc/9Q4km0y3/Shinra-Electric.png`,
+		imgbb: `p6tpDPKd/Shinra-Electric.png`,
+		imgur: `31JoB2X.png`,
+		postimg: `9Q4km0y3/Shinra-Electric.png`,
 		tags: [`shinra`,`shin-ra`], // tags for search/filtering
 		icon: `Shinra logo` // description of the flag/icon
 	},
 	{
 		name: `Shinra Power`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/h0Nbf2F/Shinra-Power.png`,
-		imgur: `https://i.imgur.com/tAeJSYc.png`,
-		postimg: `https://i.postimg.cc/P5L7XJY0/Shinra-Power.png`,
+		imgbb: `h0Nbf2F/Shinra-Power.png`,
+		imgur: `tAeJSYc.png`,
+		postimg: `P5L7XJY0/Shinra-Power.png`,
 		tags: [`shinra`,`shin-ra`], // tags for search/filtering
 		icon: `Shinra logo` // description of the flag/icon
 	},
@@ -25427,9 +25585,9 @@ const FFVIIlist = [
 		name: `Shinra Company`, // display name
 		altNames: [`Shinra Co`], // optional alternate names, for search algorithms
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/0VB1HqhZ/Shinra-Company.png`,
-		imgur: `https://i.imgur.com/amUcsbc.png`,
-		postimg: `https://i.postimg.cc/cLKzxCwV/Shinra-Company.png`,
+		imgbb: `0VB1HqhZ/Shinra-Company.png`,
+		imgur: `amUcsbc.png`,
+		postimg: `cLKzxCwV/Shinra-Company.png`,
 		tags: [`shinra`,`shin-ra`], // tags for search/filtering
 		icon: `Shinra logo` // description of the flag/icon
 	},
@@ -25437,9 +25595,9 @@ const FFVIIlist = [
 		name: `Shinra Research & Development`, // display name
 		altNames: [`Shinra Research and Development`], // optional alternate names, for search algorithms
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/Fb7Rwxv7/Shinra-Research-Development.pnghttps://i.postimg.cc/Jhd4yPhH/Shinra-Advanced-Weaponry.png`,
-		imgur: `https://i.imgur.com/qHvhk2H.png`,
-		postimg: `https://i.postimg.cc/mr62c8rc/Shinra-Research-Development.png`,
+		imgbb: `Fb7Rwxv7/Shinra-Research-Development.png`,
+		imgur: `qHvhk2H.png`,
+		postimg: `mr62c8rc/Shinra-Research-Development.png`,
 		tags: [`shinra`,`shin-ra`], // tags for search/filtering
 		info: `<a href="?tags=final fantasy,shinra">Shinra</a> division`, // optional extra info
 		icon: `Shinra R&D logo` // description of the flag/icon
@@ -25447,9 +25605,9 @@ const FFVIIlist = [
 	{
 		name: `Shinra Advanced Weaponry`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/PG0PZJcP/Shinra-Advanced-Weaponry.png`,
-		imgur: `https://i.imgur.com/7JZPJrp.png`,
-		postimg: `https://i.postimg.cc/Jhd4yPhH/Shinra-Advanced-Weaponry.png`,
+		imgbb: `PG0PZJcP/Shinra-Advanced-Weaponry.png`,
+		imgur: `7JZPJrp.png`,
+		postimg: `Jhd4yPhH/Shinra-Advanced-Weaponry.png`,
 		tags: [`shinra`,`shin-ra`], // tags for search/filtering
 		info: `<a href="?tags=final fantasy,shinra">Shinra</a> division`, // optional extra info
 		icon: `Shinra Advanced Weaponry logo` // description of the flag/icon
@@ -25457,9 +25615,9 @@ const FFVIIlist = [
 	{
 		name: `Shinra Urban Planning`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/97Pc98h/Shinra-Urban-Planning.png`,
-		imgur: `https://i.imgur.com/exi9Q3g.png`,
-		postimg: `https://i.postimg.cc/4N3LPP49/Shinra-Urban-Planning.png`,
+		imgbb: `97Pc98h/Shinra-Urban-Planning.png`,
+		imgur: `exi9Q3g.png`,
+		postimg: `4N3LPP49/Shinra-Urban-Planning.png`,
 		tags: [`shinra`,`shin-ra`], // tags for search/filtering
 		info: `<a href="?tags=final fantasy,shinra">Shinra</a> division`, // optional extra info
 		icon: `Shinra Urban Planning logo` // description of the flag/icon
@@ -25468,9 +25626,9 @@ const FFVIIlist = [
 		name: `Shinra Space & Aeronautics`, // display name
 		altNames: [`Shinra Space and Aeronautics`], // optional alternate names, for search algorithms
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/nFBFWNy/Shinra-Aero.png`,
-		imgur: `https://i.imgur.com/rDLBd8v.png`,
-		postimg: `https://i.postimg.cc/Fz6jDjG1/Shinra-Aero.png`,
+		imgbb: `nFBFWNy/Shinra-Aero.png`,
+		imgur: `rDLBd8v.png`,
+		postimg: `Fz6jDjG1/Shinra-Aero.png`,
 		tags: [`shinra`,`shin-ra`], // tags for search/filtering
 		info: `<a href="?tags=final fantasy,shinra">Shinra</a> division`, // optional extra info
 		icon: `Shinra Space & Aeronautics logo` // description of the flag/icon
@@ -25479,9 +25637,9 @@ const FFVIIlist = [
 		name: `Shinra Public Security Forces`, // display name
 		altNames: [`Shinra Security`], // optional alternate names, for search algorithms
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/HDpPT3db/Shinra-Public-Security-Forces.png`,
-		imgur: `https://i.imgur.com/oOhMQv2.png`,
-		postimg: `https://i.postimg.cc/MZntjT96/Shinra-Public-Security-Forces.png`,
+		imgbb: `HDpPT3db/Shinra-Public-Security-Forces.png`,
+		imgur: `oOhMQv2.png`,
+		postimg: `MZntjT96/Shinra-Public-Security-Forces.png`,
 		tags: [`shinra`,`shin-ra`], // tags for search/filtering
 		info: `<a href="?tags=final fantasy,shinra">Shinra</a> division`, // optional extra info
 		icon: `Shinra Security logo` // description of the flag/icon
@@ -25489,9 +25647,9 @@ const FFVIIlist = [
 	{
 		name: `Shinra SOLDIER`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/93VqRFNY/Shinra-SOLDIER.png`,
-		imgur: `https://i.imgur.com/x9gTVaq.png`,
-		postimg: `https://i.postimg.cc/7PXDbKQ8/Shinra-SOLDIER.png`,
+		imgbb: `93VqRFNY/Shinra-SOLDIER.png`,
+		imgur: `x9gTVaq.png`,
+		postimg: `7PXDbKQ8/Shinra-SOLDIER.png`,
 		tags: [`security`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Shinra SOLDIER logo` // description of the flag/icon
@@ -25499,9 +25657,9 @@ const FFVIIlist = [
 	{
 		name: `Avalanche`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/tMkNF9NQ/Avalanche.png`,
-		imgur: `https://i.imgur.com/aMS33NZ.png`,
-		postimg: `https://i.postimg.cc/66zwTMbk/Avalanche.png`,
+		imgbb: `tMkNF9NQ/Avalanche.png`,
+		imgur: `aMS33NZ.png`,
+		postimg: `66zwTMbk/Avalanche.png`,
 		info: `Eco-terrorist group`, // optional extra info
 		icon: `Avalanche logo` // description of the flag/icon
 	},
@@ -25509,9 +25667,9 @@ const FFVIIlist = [
 		name: `Avalanche`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
 		src: `%name_remake.png`,
-		imgbb: `https://i.ibb.co/cKmD8XB6/Avalanche-remake.png`,
-		imgur: `https://i.imgur.com/IbiXQZP.png`,
-		postimg: `https://i.postimg.cc/fW5Zk8g4/Avalanche-remake.png`,
+		imgbb: `cKmD8XB6/Avalanche-remake.png`,
+		imgur: `IbiXQZP.png`,
+		postimg: `fW5Zk8g4/Avalanche-remake.png`,
 		info: `Eco-terrorist group`, // optional extra info
 		icon: `Remake Avalanche logo` // description of the flag/icon
 	},
@@ -30315,9 +30473,9 @@ const otherList = [
 		name: `Daemonism`, // display name
 		dateAdded: `2025-11-03`, // date this button was first added to the masterlist
 		src: `/buttons/other/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/mCg1LVjY/Daemonism.png`,
-		imgur: `https://i.imgur.com/0fq8O4m.png`,
-		postimg: `https://i.postimg.cc/x843bTYM/Daemonism.png`,
+		imgbb: `mCg1LVjY/Daemonism.png`,
+		imgur: `0fq8O4m.png`,
+		postimg: `x843bTYM/Daemonism.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: otherData.daemonism.tags, // tags for search/filtering
 		info: otherData.daemonism.info, // optional extra info
@@ -30327,9 +30485,9 @@ const otherList = [
 		name: `Dæmonism`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
 		src: `/buttons/other/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/C55DtRHt/D-monism.png`,
-		imgur: `https://i.imgur.com/wLa1F5K.png`,
-		postimg: `https://i.postimg.cc/WzHwJbjM/Daemonism.png`,
+		imgbb: `C55DtRHt/D-monism.png`,
+		imgur: `wLa1F5K.png`,
+		postimg: `WzHwJbjM/Daemonism.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: otherData.daemonism.tags, // tags for search/filtering
 		info: otherData.daemonism.info, // optional extra info
@@ -30339,9 +30497,9 @@ const otherList = [
 		name: `Daemian`, // display name
 		dateAdded: `2025-11-03`, // date this button was first added to the masterlist
 		src: `/buttons/other/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/n8qdZxxC/Daemian.png`,
-		imgur: `https://i.imgur.com/3jQVwGw.png`,
-		postimg: `https://i.postimg.cc/pr6JnXxK/Daemian.png`,
+		imgbb: `n8qdZxxC/Daemian.png`,
+		imgur: `3jQVwGw.png`,
+		postimg: `pr6JnXxK/Daemian.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: otherData.daemonism.tags, // tags for search/filtering
 		info: otherData.daemonism.daemianInfo, // optional extra info
@@ -30351,9 +30509,9 @@ const otherList = [
 		name: `Dæmian`, // display name
 		dateAdded: `2026-08-28`, // date this button was first added to the masterlist
 		src: `/buttons/other/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/4w2Cz4zz/D-mian.png`,
-		imgur: `https://i.imgur.com/uYxuFbn.png`,
-		postimg: `https://i.postimg.cc/cCbB84ZY/Daemian.png`,
+		imgbb: `4w2Cz4zz/D-mian.png`,
+		imgur: `uYxuFbn.png`,
+		postimg: `cCbB84ZY/Daemian.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: otherData.daemonism.tags, // tags for search/filtering
 		info: otherData.daemonism.daemianInfo, // optional extra info
@@ -32752,6 +32910,7 @@ const buttonList = arr.concat(
 	musicList,
 	gamesList, finalFantasyList, FFVIIlist, pokemonList, utDrList, warhammerList,
 	animeMangaList,
+	booksList,
 	interestsList, homestuckList, tmaList,
 	softwareList,
 	programmingList,
