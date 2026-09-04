@@ -7,6 +7,7 @@
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
 		imgbb: ``,
 		imgur: ``,
+		postimg: ``,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`flight rising`,`lineage`,`lineage extras`,`generation`], // tags for search/filtering
 		info: subspeciesData.binaryBeasts.info, // optional extra info
@@ -36,6 +37,14 @@ function mergeArr(list) {
 	return [...new Set(arr)];
 }
 
+const genderData = {};
+(()=>{
+	genderData.color = {
+		link: `<a href="?tags=gender,colorgender">Colorgender</a>`,
+	};
+	genderData.color.info = `<a href="?tags=gender,xenogender">Xenogender</a> related to colors in general or a specific color
+			(<a href="?tags=gender,colorgender">more colorgenders</a>)`;
+})();
 const genderButtonList = [
 	{
 		name: `A-Faunic`, // display name
@@ -532,7 +541,10 @@ const genderButtonList = [
 	},
 	{
 		name: `Mulosian`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/Hy5QqN3/Mulosian.png`,
 		imgur: `Ik8AT0x.png`,
+		postimg: `https://i.postimg.cc/K8T6c34P/Mulosian.png`,
 		tags: [`gender`,`multigender`,`label collector`,`term collector`], // tags for search/filtering
 		info: `When someone has collected so many labels that they start to feel a disconnect to gender`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -631,7 +643,10 @@ const genderButtonList = [
 	{
 		name: `Nonbxnary`, // display name
 		altNames: [`Nxnbinary`], // optional alternate names, for search algorithms
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `MkGmYWbM/Nonbxnary.png`,
 		imgur: `z1YiGhB.png`,
+		postimg: `7PQMBBXw/Nonbxnary.png`,
 		tags: [`gender`,`nonbinary`,`agender`,`bigender`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,bigender">Bigender</a> that is both <a href="?tags=gender,nonbinary">nonbinary</a>
 			and <a href="?tags=gender,agender">agender</a>`, // optional extra info
@@ -944,7 +959,9 @@ const genderButtonList = [
 		name: `Abigender`, // display name
 		altNames: [`Biagender`,`Bxgender`,`Librabigender`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/67V2Fms2/Abigender.png`,
 		imgur: `FZpFTwH.png`,
+		postimg: `https://i.postimg.cc/Jz7XMZpK/Abigender.png`,
 		tags: [`gender`,`multigender`,`agender`,`bigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,multigender">Multigender</a> that is both
 			<a href="?tags=gender,agender">agender</a> and <a href="?tags=gender,bigender">bigender</a>`, // optional extra info
@@ -953,7 +970,9 @@ const genderButtonList = [
 	{
 		name: `Bigender`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `Vpx50vXq/Bigender.png`,
 		imgur: `EEUHXHn.png`,
+		postimg: `tJy08q91/Bigender.png`,
 		tags: [`gender`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,multigender">Multigender</a> including two distinct gender identities`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -961,7 +980,9 @@ const genderButtonList = [
 	{
 		name: `Bigender`, // display name
 		src: `/buttons/gender/%name_2.png`, // local image source
+		imgbb: `zTz14ND3/Bigender-2.png`,
 		imgur: `o8iFymt.png`,
+		postimg: `Vv1y2fzJ/Bigender-2.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,multigender">Multigender</a> including two distinct gender identities`, // optional extra info
@@ -970,7 +991,9 @@ const genderButtonList = [
 	{
 		name: `Bigender`, // display name
 		src: `/buttons/gender/%name_3.png`, // local image source
+		imgbb: `GvF5SfSx/Bigender-3.png`,
 		imgur: `QskTQ0S.png`,
+		postimg: `tJy08q9n/Bigender-3.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,multigender">Multigender</a> including two distinct gender identities`, // optional extra info
@@ -978,14 +1001,20 @@ const genderButtonList = [
 	},
 	{
 		name: `Bxy`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `219SQZvY/Bxy.png`,
 		imgur: `LYk11D9.png`,
+		postimg: `v8SLPPXF/Bxy.png`,
 		tags: [`gender`,`multigender`,`male`,`agender`,`boy`,`bigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,bigender">Bigender</a> that is both male and <a href="?tags=gender,agender">agender</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Gxrl`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `4wMPhMBD/Gxrl.png`,
 		imgur: `i353V55.png`,
+		postimg: `05HdttZx/Gxrl.png`,
 		tags: [`gender`,`multigender`,`female`,`agender`,`girl`,`bigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,bigender">Bigender</a> that is both female and <a href="?tags=gender,agender">agender</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -993,7 +1022,10 @@ const genderButtonList = [
 	{
 		name: `Jackdawhoarder`, // display name
 		altNames: [`Jackdawcollector`], // optional alternate names, for search algorithms
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/bgd7W4n9/Jackdawhoarder.png`,
 		imgur: `nqJjxPC.png`,
+		postimg: `https://i.postimg.cc/bwn7YSdk/Jackdawhoarder.png`,
 		tags: [`gender`,`multigender`,`jackdaw`,`hoarder`,`collector`,`label collector`,`term collector`], // tags for search/filtering
 		info: `Someone who <a href="?tags=label collector">collects</a> gender identities`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1001,7 +1033,10 @@ const genderButtonList = [
 	{
 		name: `Oiaspec`, // display name
 		altNames: [`Omnigender Spectrum`], // optional alternate names, for search algorithms
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/gMHjHYgt/Oiaspec.png`,
 		imgur: `skWJqWf.png`,
+		postimg: `https://i.postimg.cc/Vktxs05W/Oiaspec.png`,
 		tags: [`gender`,`multigender`,`omnigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,omnigender">Omnigender</a> spectrum`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1009,21 +1044,30 @@ const genderButtonList = [
 	{
 		name: `Oingender`, // display name
 		altNames: [`Omnine In Nature`], // optional alternate names, for search algorithms
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/yBZ36LHD/Oingender.png`,
 		imgur: `o5FfN0V.png`,
+		postimg: `https://i.postimg.cc/htmk4Qh8/Oingender.png`,
 		tags: [`gender`,`multigender`,`omnigender`,`omnine`], // tags for search/filtering
 		info: `<a href="?tags=gender,omnigender">Omnine</a> in nature`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Omnigender`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/7xnqjXwx/Omnigender.png`,
 		imgur: `GsNtWcX.png`,
+		postimg: `https://i.postimg.cc/nhmyV9MY/Omnigender.png`,
 		tags: [`gender`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,multigender">Multigender</a> including every/almost every gender`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Panagender`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/wNqJv7sk/Panagender.png`,
 		imgur: `9nPAxGR.png`,
+		postimg: `https://i.postimg.cc/d1J3jKgH/Panagender.png`,
 		tags: [`gender`,`multigender`,`pangender`,`agender`], // tags for search/filtering
 		info: `<a href="?tags=gender,multigender">Multigender</a> that is both <a href="?tags=gender,pangender">pangender</a>
 			and <a href="?tags=gender,agender">agender</a>`, // optional extra info
@@ -1031,7 +1075,10 @@ const genderButtonList = [
 	},
 	{
 		name: `Pangender`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/cSmgC0gx/Pangender.png`,
 		imgur: `H5WeqZH.png`,
+		postimg: `https://i.postimg.cc/bJqr9j4V/Pangender.png`,
 		tags: [`gender`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,multigender">Multigender</a> including every gender`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1040,7 +1087,9 @@ const genderButtonList = [
 		name: `Polygender`, // display name
 		altNames: [`Multigender`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/BHX3b9CT/Polygender.png`,
 		imgur: `iFKTxjy.png`,
+		postimg: `https://i.postimg.cc/SxmP41FS/Polygender.png`,
 		tags: [`gender`,`multigender`], // tags for search/filtering
 		info: `Describes someone who has <a href="?tags=gender,multigender">multiple distinct genders</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1049,7 +1098,9 @@ const genderButtonList = [
 		name: `Polygender`, // display name
 		altNames: [`Multigender`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name_2.png`, // local image source
+		imgbb: `https://i.ibb.co/DPgjn8md/Polygender-2.png`,
 		imgur: `Mnk4d7f.png`,
+		postimg: `https://i.postimg.cc/W1syVYL2/Polygender-2.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`multigender`], // tags for search/filtering
 		info: `Describes someone who has <a href="?tags=gender,multigender">multiple distinct genders</a>`, // optional extra info
@@ -1093,6 +1144,8 @@ const genderButtonList = [
 	{
 		name: `Bigenderflux`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `fGVfz5K1/Bigenderflux.png`,
+		imgur: `https://i.imgur.com/BMgCP5W.png`,
 		postimg: `1tcD9Fyj/Bigenderflux.png`,
 		tags: [`gender`,`genderflux`,`multigender`,`bigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,bigender">Bigender</a> identity that
@@ -1293,7 +1346,10 @@ const genderButtonList = [
 	},
 	{
 		name: `Multiflux`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/chtp06GR/Multiflux.png`,
 		imgur: `ISaeN9q.png`,
+		postimg: `https://i.postimg.cc/rw4ByRzS/Multiflux.png`,
 		tags: [`gender`,`genderfluid`,`genderflux`,`multigender`], // tags for search/filtering
 		info: `Refers to someone who is <a href="?tags=gender,genderflux">genderflux</a> with multiple genders`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1317,7 +1373,10 @@ const genderButtonList = [
 	{
 		name: `Pangenderflux`, // display name
 		altNames: [`Panflux`], // optional alternate names, for search algorithms
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/tpgMvqh3/Pangenderflux.png`,
 		imgur: `NvHA5oG.png`,
+		postimg: `https://i.postimg.cc/KzmjDyC9/Pangenderflux.png`,
 		tags: [`gender`,`genderfluid`,`genderflux`,`pangender`,`panfluid`,`multigender`,`multiflux`], // tags for search/filtering
 		info: `Refers to someone who feels all genders with <a href="?tags=gender,genderflux">fluctuating intensity</a> or fluctuates between
 			<a href="?tags=gender,pangender">pangender</a> and bigender/monogender/agender`, // optional extra info
@@ -1332,14 +1391,20 @@ const genderButtonList = [
 	},
 	{
 		name: `Polyfluid`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/Pv5BCmtg/Polyfluid.png`,
 		imgur: `RHx3o4r.png`,
+		postimg: `https://i.postimg.cc/KzmjDyCW/Polyfluid.png`,
 		tags: [`gender`,`genderfluid`,`polygender`,`multigender`], // tags for search/filtering
 		info: `Combination of <a href="?tags=gender,multigender">polygender</a> and <a href="?tags=gender,genderfluid">genderfluid</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Polyflux`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/7tRj2rJb/Polyflux.png`,
 		imgur: `VhtlWEZ.png`,
+		postimg: `https://i.postimg.cc/0Q9j0qhF/Polyflux.png`,
 		tags: [`gender`,`genderfluid`,`genderflux`,`polygender`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,multigender">Multiple genders</a> which <a href="?tags=gender,genderflux">fluctuate</a> in intensity`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1997,7 +2062,10 @@ const genderButtonList = [
 	{
 		name: `Autigender`, // display name
 		altNames: [`Autisgender`,`Autismgender`], // optional alternate names, for search algorithms
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `kVBbXK4z/Autigender.png`,
 		imgur: `gUcD5bB.png`,
+		postimg: `nLPh8QWk/Autigender.png`,
 		tags: [`gender`,`neurogender`,`autism`,`autistic`,`neurodivergent`], // tags for search/filtering
 		info: `<a href="?tags=gender,neurogender">Neurogender</a> inherently linked to the experience of being autistic`, // optional extra info
 		icon: `flag`, // description of the flag/icon
@@ -2006,7 +2074,10 @@ const genderButtonList = [
 	{
 		name: `Autigender`, // display name
 		altNames: [`Autisgender`,`Autismgender`], // optional alternate names, for search algorithms
+		src: `/buttons/gender/%name_alt.png`, // local image source
+		imgbb: `FkBF3727/Autigender-alt.png`,
 		imgur: `FJ98AnN.png`,
+		postimg: `SKvx0zPd/Autigender-alt.png`,
 		tags: [`gender`,`neurogender`,`autism`,`autistic`,`neurodivergent`], // tags for search/filtering
 		info: `<a href="?tags=gender,neurogender">Neurogender</a> inherently linked to the experience of being autistic`, // optional extra info
 		icon: `flag alt 1`, // description of the flag/icon
@@ -2015,7 +2086,10 @@ const genderButtonList = [
 	{
 		name: `Autigender`, // display name
 		altNames: [`Autisgender`,`Autismgender`], // optional alternate names, for search algorithms
+		src: `/buttons/gender/%name_alt_2.png`, // local image source
+		imgbb: `GQ2RxWcH/Autigender-alt-2.png`,
 		imgur: `fdRjMqi.png`,
+		postimg: `hG5tF7Y0/Autigender-alt-2.png`,
 		tags: [`gender`,`neurogender`,`autism`,`autistic`,`neurodivergent`], // tags for search/filtering
 		info: `<a href="?tags=gender,neurogender">Neurogender</a> inherently linked to the experience of being autistic`, // optional extra info
 		icon: `flag alt 2`, // description of the flag/icon
@@ -2112,14 +2186,20 @@ const genderButtonList = [
 	},
 	{
 		name: `Axera`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `S4pGdKHY/Axera.png`,
 		imgur: `EOObjWW.png`,
+		postimg: `MZrbsstJ/Axera.png`,
 		tags: [`gender`,`agender`,`juxera`,`circa-binary`,`proximal`,`feminine`,`multigender`,`bigender`], // tags for search/filtering
 		info: `Combination of <a href="?tags=gender,agender">agender</a> and <a href="?tags=gender,juxera">juxera</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Axvir`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `zW5S5q46/Axvir.png`,
 		imgur: `FJ5EpY8.png`,
+		postimg: `9XNtxx13/Axvir.png`,
 		tags: [`gender`,`agender`,`proxvir`,`circa-binary`,`proximal`,`masculine`,`multigender`,`bigender`], // tags for search/filtering
 		info: `Combination of <a href="?tags=gender,agender">agender</a> and <a href="?tags=gender,proxvir">proxvir</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -2946,7 +3026,9 @@ const xenogenderList = [
 		name: `Gendersmoothie`, // display name
 		altNames: [`Smoothiegender`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/jkrmjbBY/Gendersmoothie.png`,
 		imgur: `kax9CzC.png`,
+		postimg: `https://i.postimg.cc/mkQdfCmz/Gendersmoothie.png`,
 		tags: [`gender`,`xenogender`,`gastrogender`,`food`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,gastrogender">Gastrogender</a> related to smoothies, and/or
 			<a href="?xenogender">xenogender</a> which blends multiple ingredients/genders together`, // optional extra info
@@ -3096,7 +3178,9 @@ const xenogenderList = [
 	{
 		name: `Alienbunnygender`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/GNwrMkC/Alienbunnygender.png`,
 		imgur: `Dlv1d0n.png`,
+		postimg: `https://i.postimg.cc/6p6ZtnMY/Alienbunnygender.png`,
 		tags: [`gender`,`xenogender`,`aliengender`,`bunnygender`,`alien`,`bunny`,`rabbit`,`space`,`bigender`,`multigender`], // tags for search/filtering
 		info: `Combination of <a href="?tags=gender,aliengender">aliengender</a> and <a href="?tags=gender,bungender">bungender</a>
 			(may be a <a href="?tags=gender,bigender">bigender</a> identity)`, // optional extra info
@@ -3180,7 +3264,10 @@ const xenogenderList = [
 	},
 	{
 		name: `Nyaliengender`, // display name
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `B5LWgKH4/Nyaliengender.png`,
 		imgur: `JTeQnuY.png`,
+		postimg: `1RYcWWBk/Nyaliengender.png`,
 		tags: [`gender`,`xenogender`,`aliengender`,`catgender`,`aliencatgender`,`cataliengender`,`alien`,`cat`,`space`,`bigender`,`multigender`], // tags for search/filtering
 		info: `Combination of <a href="?tags=gender,aliengender">aliengender</a> and <a href="?tags=gender,catgender">catgender</a>
 			(may be a <a href="?tags=gender,bigender">bigender</a> identity)`, // optional extra info
@@ -3399,36 +3486,45 @@ const xenogenderList = [
 	{
 		name: `Colorgender`, // display name
 		altNames: [`Colourgender`], // optional alternate names, for search algorithms
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/pBq5r6zx/Colorgender.png`,
 		imgur: `5yGEW0I.png`,
+		postimg: `https://i.postimg.cc/3wNY8x5H/Colorgender.png`,
 		tags: [`gender`,`xenogender`,`color`,`colour`], // tags for search/filtering
-		info: `<a href="?tags=gender,xenogender">Xenogender</a> related to colors in general or a specific color
-			(<a href="?tags=gender,colorgender">more colorgenders</a>)`, // optional extra info
+		info: genderData.color.info, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Colorgender`, // display name
 		altNames: [`Colourgender`], // optional alternate names, for search algorithms
+		src: `/buttons/gender/%name_2.png`, // local image source
+		imgbb: `https://i.ibb.co/6JVQ0Vz1/Colorgender-2.png`,
 		imgur: `ZPBrrBf.png`,
+		postimg: `https://i.postimg.cc/YS0MrCKB/Colorgender-2.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`xenogender`,`color`,`colour`], // tags for search/filtering
-		info: `<a href="?tags=gender,xenogender">Xenogender</a> related to colors in general or a specific color
-			(<a href="?tags=gender,colorgender">more colorgenders</a>)`, // optional extra info
+		info: genderData.color.info, // optional extra info
 		icon: `flag alt 1` // description of the flag/icon
 	},
 	{
 		name: `Colorgender`, // display name
 		altNames: [`Colourgender`], // optional alternate names, for search algorithms
+		src: `/buttons/gender/%name_3.png`, // local image source
+		imgbb: `https://i.ibb.co/wrzjcJ2x/Colorgender-3.png`,
 		imgur: `ZBfF1yE.png`,
+		postimg: `https://i.postimg.cc/8CcNpzQS/Colorgender-3.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`xenogender`,`color`,`colour`], // tags for search/filtering
-		info: `<a href="?tags=gender,xenogender">Xenogender</a> related to colors in general or a specific color
-			(<a href="?tags=gender,colorgender">more colorgenders</a>)`, // optional extra info
+		info: genderData.color.info, // optional extra info
 		icon: `flag alt 2` // description of the flag/icon
 	},
 	{
 		name: `Huegender`, // display name
 		altNames: [`Genderhue`], // optional alternate names, for search algorithms
+		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/7NgkmwT5/Huegender.png`,
 		imgur: `3hXFG4A.png`,
+		postimg: `https://i.postimg.cc/Sx9BQYjc/Huegender.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`hue`,`fluidflux`,`genderflux`,`genderfluid`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,fluidflux">Fluidflux</a> gender that is a mix of all <a href="?tags=gender,colorgender">colorgenders</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -3444,7 +3540,7 @@ const xenogenderList = [
 		name: `Neonic`, // display name
 		imgur: `MOa1z53.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`neon`], // tags for search/filtering
-		info: `<a href="?tags=gender,colorgender">Colorgender</a> related to neon colors`, // optional extra info
+		info: genderData.color.link + ` related to neon colors`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -3453,25 +3549,29 @@ const xenogenderList = [
 		altNames: [`Pastelcolorgender`], // optional alternate names, for search algorithms
 		imgur: `wbu9JNR.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`pastel`], // tags for search/filtering
-		info: `<a href="?tags=gender,colorgender">Colorgender</a> related to soft or pastel colors`, // optional extra info
+		info: genderData.color.link + ` related to soft or pastel colors`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Rainbowgender`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/f5qSXjg/Rainbowgender.png`,
 		imgur: `HD7k13P.png`,
+		postimg: `https://i.postimg.cc/SjFwcmv2/Rainbowgender.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`rainbow`,`multigender`], // tags for search/filtering
-		info: `<a href="?tags=gender,colorgender">Colorgender</a> related to the color spectrum as a whole,
+		info: genderData.color.link + ` related to the color spectrum as a whole,
 			or a <a href="?multigender">multigender</a> that is all colorgenders at once`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Rainbowgender`, // display name
 		src: `/buttons/gender/%name_2.png`, // local image source
+		imgbb: `https://i.ibb.co/R46vqkD1/Rainbowgender-2.png`,
 		imgur: `3uv4Yns.png`,
+		postimg: `https://i.postimg.cc/CdTWbwQZ/Rainbowgender-2.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`rainbow`,`multigender`], // tags for search/filtering
-		info: `<a href="?tags=gender,colorgender">Colorgender</a> related to the color spectrum as a whole,
+		info: genderData.color.link + ` related to the color spectrum as a whole,
 			or a <a href="?multigender">multigender</a> that is all colorgenders at once`, // optional extra info
 		icon: `flag alt` // description of the flag/icon
 	},
@@ -3480,7 +3580,7 @@ const xenogenderList = [
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `RCE3xcP.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`red`,`specific colorgender`], // tags for search/filtering
-		info: `<a href="?tags=gender,colorgender">Colorgender</a> related to the color red`, // optional extra info
+		info: genderData.color.link + ` related to the color red`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -3488,7 +3588,7 @@ const xenogenderList = [
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `fcfFHll.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`orange`,`specific colorgender`], // tags for search/filtering
-		info: `<a href="?tags=gender,colorgender">Colorgender</a> related to the color orange`, // optional extra info
+		info: genderData.color.link + ` related to the color orange`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -3496,7 +3596,7 @@ const xenogenderList = [
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `6suMdoV.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`yellow`,`specific colorgender`], // tags for search/filtering
-		info: `<a href="?tags=gender,colorgender">Colorgender</a> related to the color yellow`, // optional extra info
+		info: genderData.color.link + ` related to the color yellow`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -3504,7 +3604,7 @@ const xenogenderList = [
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `M8obeV3.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`green`,`specific colorgender`], // tags for search/filtering
-		info: `<a href="?tags=gender,colorgender">Colorgender</a> related to the color green`, // optional extra info
+		info: genderData.color.link + ` related to the color green`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -3512,7 +3612,7 @@ const xenogenderList = [
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `ycPa8nX.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`blue`,`specific colorgender`], // tags for search/filtering
-		info: `<a href="?tags=gender,colorgender">Colorgender</a> related to the color blue`, // optional extra info
+		info: genderData.color.link + ` related to the color blue`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -3520,7 +3620,7 @@ const xenogenderList = [
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `KchNsJO.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`teal`,`specific colorgender`], // tags for search/filtering
-		info: `<a href="?tags=gender,colorgender">Colorgender</a> related to the color teal`, // optional extra info
+		info: genderData.color.link + ` related to the color teal`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -3528,7 +3628,7 @@ const xenogenderList = [
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `Kdax0B3.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`indigo`,`specific colorgender`], // tags for search/filtering
-		info: `<a href="?tags=gender,colorgender">Colorgender</a> related to the color indigo`, // optional extra info
+		info: genderData.color.link + ` related to the color indigo`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -3536,7 +3636,7 @@ const xenogenderList = [
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `EpiNlL2.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`purple`,`specific colorgender`], // tags for search/filtering
-		info: `<a href="?tags=gender,colorgender">Colorgender</a> related to the color purple`, // optional extra info
+		info: genderData.color.link + ` related to the color purple`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -3544,7 +3644,7 @@ const xenogenderList = [
 		src: `/buttons/gender/%name.png`, // local image source
 		imgur: `JwNMWST.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`pink`,`specific colorgender`], // tags for search/filtering
-		info: `<a href="?tags=gender,colorgender">Colorgender</a> related to the color pink`, // optional extra info
+		info: genderData.color.link + ` related to the color pink`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	
@@ -10617,6 +10717,15 @@ const mixedPronounList = [
 
 //////////// ORIENTATION ////////////
 
+const orientData = {};
+(()=>{
+	orientData.bambi = {
+		info: ` person who prefers non-sexual physical affection over sexual acts.
+			May or may not be <a href="?tags=orientation,asexual">asexual</a>.
+			Equivalent terms for other sexualities <a href="?tags=orientation,bambi">here</a>.`,
+	}
+	orientData.bambi.aceInfo = orientData.bambi.info.replaceAll(`May or may not be <a href="?tags=orientation,asexual">asexual</a>.`,"");
+})();
 const orientationList = [
 	// unsorted
 	{
@@ -10868,7 +10977,10 @@ const FINList = [
 	},
 	{
 		name: `Axinitian`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `wFYWRRrk/Axinitian.png`,
 		imgur: `VO803jr.png`,
+		postimg: `FRnb6dPD/Axinitian.png`,
 		tags: [`orientation`,`FIN attraction`,`female`,`woman`,`girl`,`wlw`,`nonbinary`,`nblw`,`sapphic`,`lesbian`], // tags for search/filtering
 		info: `Both <a href="?tags=orientation,nblw">nblw</a> and <a href="?tags=orientation,wlw">wlw</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -10877,21 +10989,26 @@ const FINList = [
 		name: `Bambi Lesbian`, // display name
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgur: `uuNM3I7.png`,
-		tags: [`orientation`,`FIN attraction`,`female`,`woman`,`girl`,`wlw`,`sapphic`,`lesbian`,`bambi`], // tags for search/filtering
-		info: `A <a href="?tags=orientation,lesbian">lesbian</a> who prefers non-sexual physical affection over sexual acts.
-			May or may not also be <a href="?tags=orientation,asexual">asexual</a>`, // optional extra info
+		tags: [`orientation`,`FIN attraction`,`female`,`woman`,`girl`,`wlw`,`sapphic`,`lesbian`,`bambi`,`a-spec`,`asexual`,`ace spectrum`], // tags for search/filtering
+		info: `A <a href="?tags=orientation,lesbian">lesbian</a>` + orientData.bambi.info, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Butch`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `qMs1PHbJ/Butch.png`,
 		imgur: `4BheGMt.png`,
+		postimg: `43Y5SX6G/Butch.png`,
 		tags: [`gender`,`orientation`,`FIN attraction`,`female`,`woman`,`girl`,`masculine`,`wlw`,`sapphic`,`lesbian`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Butch`, // display name
+		src: `/buttons/orientation/%name_Lesbian.png`, // local image source
+		imgbb: `LzCLNthb/Butch-Lesbian.png`,
 		imgur: `qjWV0vY.png`,
+		postimg: `CKRNQwGY/Butch-Lesbian.png`,
 		tags: [`gender`,`orientation`,`FIN attraction`,`female`,`woman`,`girl`,`masculine`,`wlw`,`sapphic`,`lesbian`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Lesbian flag` // description of the flag/icon
@@ -10899,7 +11016,9 @@ const FINList = [
 	{
 		name: `Butch`, // display name
 		src: `/buttons/orientation/%name_Sapphic.png`, // local image source
+		imgbb: `h1VM1yJX/Butch-Sapphic.png`,
 		imgur: `9G9FdZD.png`,
+		postimg: `QMFbyjQ8/Butch-Sapphic.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`orientation`,`FIN attraction`,`female`,`woman`,`girl`,`masculine`,`wlw`,`sapphic`,`lesbian`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -10914,14 +11033,20 @@ const FINList = [
 	},
 	{
 		name: `Femme`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `nMGFVt4y/Femme.png`,
 		imgur: `C5EINjk.png`,
+		postimg: `QMFbyjQh/Femme.png`,
 		tags: [`gender`,`orientation`,`FIN attraction`,`female`,`woman`,`girl`,`feminine`,`wlw`,`sapphic`,`lesbian`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Femme`, // display name
+		src: `/buttons/orientation/%name_Lesbian.png`, // local image source
+		imgbb: `7x6hg7Bj/Femme-Lesbian.png`,
 		imgur: `XFWypK3.png`,
+		postimg: `g0xDTGVG/Femme-Lesbian.png`,
 		tags: [`gender`,`orientation`,`FIN attraction`,`female`,`woman`,`girl`,`feminine`,`wlw`,`sapphic`,`lesbian`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Lesbian flag` // description of the flag/icon
@@ -10947,7 +11072,10 @@ const FINList = [
 	},
 	{
 		name: `Lesboy`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `Vc4sq3cS/Lesboy.png`,
 		imgur: `YfrIG2B.png`,
+		postimg: `rmYGH0hN/Lesboy.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`orientation`,`FIN attraction`,`male`,`man`,`boy`,`masculine`,`wlw`,`sapphic`,`lesbian`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -11044,7 +11172,10 @@ const FINList = [
 	},
 	{
 		name: `Sapphic`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `v4bZ0zmf/Sapphic.png`,
 		imgur: `q3Me7tJ.png`,
+		postimg: `qMN92HYC/Sapphic.png`,
 		tags: [`orientation`,`FIN attraction`,`wlw`,`nblw`], // tags for search/filtering
 		info: `Refers to a woman/woman-aligned individual of any sexuality who is attracted to women/woman-aligned individuals
 			(<a href="?tags=orientation,wlw">wlw</a>)`, // optional extra info
@@ -11052,7 +11183,10 @@ const FINList = [
 	},
 	{
 		name: `Sapphic`, // display name
+		src: `/buttons/orientation/%name_Lesbian.png`, // local image source
+		imgbb: `NdVv23gq/Sapphic-Lesbian.png`,
 		imgur: `qN1OyUr.png`,
+		postimg: `C5z6Cbcv/Sapphic-Lesbian.png`,
 		tags: [`orientation`,`FIN attraction`,`wlw`,`nblw`,`lesbian`,`sapphic`], // tags for search/filtering
 		info: `Refers to a woman/woman-aligned individual of any sexuality who is attracted to women/woman-aligned individuals
 			(<a href="?tags=orientation,wlw">wlw</a>)`, // optional extra info
@@ -11060,7 +11194,10 @@ const FINList = [
 	},
 	{
 		name: `Sapphic`, // display name
+		src: `/buttons/orientation/%name_NB.png`, // local image source
+		imgbb: `vvH0Yx3J/Sapphic-NB.png`,
 		imgur: `zSxEqNq.png`,
+		postimg: `zXy9TYMh/Sapphic-NB.png`,
 		tags: [`orientation`,`FIN attraction`,`wlw`,`nblw`], // tags for search/filtering
 		info: `Refers to a woman/woman-aligned individual of any sexuality who is attracted to women/woman-aligned individuals
 			(<a href="?tags=orientation,wlw">wlw</a>)`, // optional extra info
@@ -11099,7 +11236,10 @@ const FINList = [
 	},
 	{
 		name: `WLW`, // display name
+		src: `/buttons/orientation/%name_Sapphic.png`, // local image source
+		imgbb: `ZzqRtd6Z/WLW-Sapphic.png`,
 		imgur: `VOooL3V.png`,
+		postimg: `ZKW16zgv/WLW-Sapphic.png`,
 		tags: [`orientation`,`FIN attraction`,`sapphic`], // tags for search/filtering
 		info: `<a href="?tags=orientation,wlw">Woman loving women</a> (woman who is attracted to women)`, // optional extra info
 		icon: `Sapphic flag` // description of the flag/icon
@@ -11110,14 +11250,20 @@ const FINList = [
 const MINList = [
 	{
 		name: `Achillean`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `PZ8mbQMm/Achillean.png`,
 		imgur: `CfyODjg.png`,
+		postimg: `26XdtbH6/Achillean.png`,
 		tags: [`orientation`,`MIN attraction`,`mlm`,`nblm`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Achillean`, // display name
+		src: `/buttons/orientation/%name_NB.png`, // local image source
+		imgbb: `nsdjFhS8/Achillean-NB.png`,
 		imgur: `ljeKbyM.png`,
+		postimg: `9MNPkRxR/Achillean-NB.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`MIN attraction`,`nblm`,`nonbinary`,`nonbinary achillean`,`nb achillean`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -11132,7 +11278,10 @@ const MINList = [
 	},
 	{
 		name: `Azurian`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `d4tH7gL3/Azurian.png`,
 		imgur: `Ix6qD5a.png`,
+		postimg: `cJTRyT74/Azurian.png`,
 		tags: [`orientation`,`MIN attraction`,`nblm`,`mlm`,`achillean`,`nb achillean`,`nonbinary`], // tags for search/filtering
 		info: `Refers to someone who is both <a href="?tags=orientation,nblm">nblm</a> and <a href="?tags=orientation,mlm">mlm</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -11141,54 +11290,84 @@ const MINList = [
 		name: `Bambi Gay`, // display name
 		altNames: [`Faline Turian`,`Bunny Gay`], // optional alternate names, for search algorithms
 		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `H3CtCvK/Bambi-Gay.png`,
 		imgur: `Wav8Hum.png`,
-		tags: [`orientation`,`MIN attraction`,`gay`,`mlm`,`nblm`,`achillean`,`bambi`], // tags for search/filtering
-		info: `A <a href="?tags=orientation,gay man">gay man</a>/<a href="?tags=orientation,achillean">achillean</a>
-			who prefers non-sexual physical affection over sexual acts.
-			May or may not also be <a href="?tags=orientation,asexual">asexual</a>`, // optional extra info
+		postimg: `Y9yNPGXj/Bambi-Gay.png`,
+		tags: [`orientation`,`MIN attraction`,`gay`,`mlm`,`nblm`,`achillean`,`bambi`,`a-spec`,`asexual`,`ace spectrum`], // tags for search/filtering
+		info: `A <a href="?tags=orientation,gay man">gay man</a>/<a href="?tags=orientation,achillean">achillean</a>` + orientData.bambi.info, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Bear`, // display name
-		imgur: `krh3gHf.png`,
-		tags: [`orientation`,`MIN attraction`,`mlm`,`gay man`,`male`,`man`,`boy`,`achillean`], // tags for search/filtering
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `ycZ7yyKs/Bear.png`,
+		imgur: `https://i.imgur.com/3pOdESR.png`,
+		postimg: `zXCZwRSP/Bear.png`,
+		tags: [`gender`,`orientation`,`MIN attraction`,`mlm`,`gay man`,`male`,`man`,`boy`,`achillean`], // tags for search/filtering
 		info: `Slang term for <a href="?tags=orientation,gay man|mlm">gay men/MLM</a> who embrace and subvert traditional masculinity
 			(often a larger man with a hairy body)`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
+		name: `Bear`, // display name
+		src: `/buttons/orientation/%name_blank.png`, // local image source
+		imgbb: `RkF9bKLL/Bear.png`,
+		imgur: `krh3gHf.png`,
+		postimg: `gJBy7XMc/Bear.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`gender`,`orientation`,`MIN attraction`,`mlm`,`gay man`,`male`,`man`,`boy`,`achillean`], // tags for search/filtering
+		info: `Slang term for <a href="?tags=orientation,gay man|mlm">gay men/MLM</a> who embrace and subvert traditional masculinity
+			(often a larger man with a hairy body)`, // optional extra info
+		icon: `flag (no paw)` // description of the flag/icon
+	},
+	{
 		name: `Cinthean`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `zWBB50bW/Cinthean.png`,
 		imgur: `Sw6IFQi.png`,
-		tags: [`orientation`,`MIN attraction`,`mlm`,`nblm`,`mlnb`,`nblnb`], // tags for search/filtering
-		info: `Refers to a man or man-aligned/unaligned nonbinary person who is attracted to men and man-aligned/unaligned nonbinary people`, // optional extra info
+		postimg: `4dFv0789/Cinthean.png`,
+		tags: [`orientation`,`MIN attraction`,`mlm`,`achillean`,`nblm`,`mlnb`,`nblnb`], // tags for search/filtering
+		info: `Refers to a man or man-aligned/unaligned nonbinary person who is attracted to men and man-aligned/unaligned nonbinary people (<a href="?tags=orientation,mlm">mlm</a>/<a href="?tags=orientation,nblm">nblm</a>, <a href="?tags=orientation,mlnb">mlnb</a>/<a href="?tags=orientation,nblnb">nblnb</a>)`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Diamondian`, // display name
 		altNames: [`Ametrinian`], // optional alternate names, for search algorithms
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `zhGFPTbH/Diamondian.png`,
 		imgur: `FeZfTC1.png`,
-		tags: [`orientation`,`MIN attraction`,`mlm`,`wlm`], // tags for search/filtering
+		postimg: `0QHG4MtG/Diamondian.png`,
+		tags: [`orientation`,`MIN attraction`,`mlm`,`achillean`,`wlm`], // tags for search/filtering
 		info: `Refers to someone who is both <a href="?tags=orientation,mlm">mlm</a> and <a href="?tags=orientation,wlm">wlm</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Gay`, // display name
+		src: `/buttons/orientation/%name_Cinthean.png`, // local image source
+		imgbb: `d0m5BPCV/Gay-Cinthean.png`,
 		imgur: `qUZsqkH.png`,
+		postimg: `PfMQmXvb/Gay-Cinthean.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`orientation`,`MIN attraction`,`cinthean`,`mlm`,`nblm`,`mlnb`,`nblnb`], // tags for search/filtering
+		tags: [`orientation`,`MIN attraction`,`cinthean`,`mlm`,`achillean`,`nblm`,`mlnb`,`nblnb`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Cinthean flag` // description of the flag/icon
 	},
 	{
 		name: `Gay`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `3yF4kPY9/Gay-gm.png`,
 		imgur: `o7ZCFYm.png`,
+		postimg: `Qtngz96B/Gay-gm.png`,
 		tags: [`orientation`,`MIN attraction`,`mlm`,`gay man`,`achillean`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Gay man flag` // description of the flag/icon
 	},
 	{
 		name: `Gay Man`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `CssrJHv0/Gay-Man.png`,
 		imgur: `Oo1lWlZ.png`,
+		postimg: `wvb5ryWB/Gay-Man.png`,
 		tags: [`orientation`,`MIN attraction`,`mlm`,`achillean`,`man`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -11228,14 +11407,20 @@ const MINList = [
 	},
 	{
 		name: `MLM`, // display name
+		src: `/buttons/orientation/%name_Achillean.png`, // local image source
+		imgbb: `Y4bBxcSk/MLM-Achillean.png`,
 		imgur: `ibjOZJ4.png`,
+		postimg: `W3fmyF9q/MLM-Achillean.png`,
 		tags: [`orientation`,`MIN attraction`,`achillean`], // tags for search/filtering
 		info: `<a href="?tags=orientation,mlm">Man loving men</a> (man who is attracted to men)`, // optional extra info
 		icon: `Achillean flag` // description of the flag/icon
 	},
 	{
 		name: `MLM`, // display name
+		src: `/buttons/orientation/%name_flag.png`, // local image source
+		imgbb: `zTwxQtd7/MLM-flag.png`,
 		imgur: `cidqaF2.png`,
+		postimg: `0yy5XfNX/MLM-flag.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`MIN attraction`,`achillean`], // tags for search/filtering
 		info: `<a href="?tags=orientation,mlm">Man loving men</a> (man who is attracted to men)`, // optional extra info
@@ -11243,14 +11428,20 @@ const MINList = [
 	},
 	{
 		name: `NB Achillean`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `8DJw61Dh/NB-Achillean.png`,
 		imgur: `liewRsN.png`,
+		postimg: `qMYDWBJG/NB-Achillean.png`,
 		tags: [`orientation`,`MIN attraction`,`mlm`,`nblm`,`achillean`], // tags for search/filtering
 		info: `Someone who is nonbinary and <a href="?tags=orientation,achillean">achillean</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `NB MLM`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `xtMSp8Sm/NB-MLM.png`,
 		imgur: `unrT9Hb.png`,
+		postimg: `4NM2j4fQ/NB-MLM.png`,
 		tags: [`orientation`,`MIN attraction`,`nonbinary`,`mlm`,`nblm`,`achillean`], // tags for search/filtering
 		info: `Someone who is nonbinary and <a href="?tags=orientation,mlm">mlm</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -11331,7 +11522,9 @@ const MINList = [
 	{
 		name: `Twink`, // display name
 		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `G4KxxG9T/Twink.png`,
 		imgur: `AwBw2B8.png`,
+		postimg: `PfMjGw9B/Twink.png`,
 		tags: [`gender`,`orientation`,`gay man`,`gay`,`male`,`man`,`boy`,`mlm`,`achillean`,`feminine`,`min attraction`], // tags for search/filtering
 		info: `Slang term for <a href="?tags=orientation,gay man|mlm">gay men/mlm</a> who are feminine and/or who have a slim/boyish appearance`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -11348,15 +11541,21 @@ const MINList = [
 	},
 	{
 		name: `Vespian`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `HTXnPkfC/Vespian.png`,
 		imgur: `jzgMtdV.png`,
-		tags: [`orientation`,`m-spec`,`MIN attraction`,`mlm`,`lesbian`], // tags for search/filtering
+		postimg: `TwHjsLkW/Vespian.png`,
+		tags: [`orientation`,`m-spec`,`MIN attraction`,`mlm`,`achillean`,`lesbian`], // tags for search/filtering
 		info: `Refers to someone who is both <a href="?tags=orientation,mlm">mlm</a> and a <a href="?tags=orientation,lesbian">lesbian</a>
 			(<a href="https://twitter.com/transdrogyne/status/1484388969508851712?s=20">Twitter info link</a>)`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Vincian`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `d4gD138H/Vincian.png`,
 		imgur: `ZxAR91S.png`,
+		postimg: `vBS7KgP4/Vincian.png`,
 		tags: [`orientation`,`MIN attraction`,`mlm`,`achillean`,`gay man`], // tags for search/filtering
 		info: `Synonym for <a href="?tags=orientation,achillean">achillean</a>/<a href="?tags=orientation,mlm">mlm</a>`, // optional extra info
 		icon: `Gay man flag` // description of the flag/icon
@@ -11372,7 +11571,10 @@ const MINList = [
 		name: `Turian`, // display name
 		altNames: [`Veldian`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `dJHTFdqz/Turian.png`,
 		imgur: `pbDiG1b.png`,
+		postimg: `RCTBrHy2/Turian.png`,
 		tags: [`gender`,`orientation`,`gay man`,`gay`,`male`,`man`,`boy`,`mlm`,`achillean`,`min attraction`], // tags for search/filtering
 		info: `A <a href="?tags=orientation,gay man">Gay man</a>/man-aligned individual, intended as the
 			<a href="?tags=orientation,mlm">mlm</a> equivalent to lesbian`, // optional extra info
@@ -11579,7 +11781,10 @@ const mSpecList = [
 	},
 	{
 		name: `Aventurian`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `DHv0cZFQ/Aventurian.png`,
 		imgur: `qxqH3xU.png`,
+		postimg: `MTr0LMsW/Aventurian.png`,
 		tags: [`orientation`,`multisexual`,`m-spec`], // tags for search/filtering
 		info: `Refers to someone who is <a href="?tags=orientation,nblnb">nblnb</a>, <a href="?tags=orientation,nblm">nblm</a>,
 			<a href="?tags=orientation,wlnb">wlnb</a> and <a href="?tags=orientation,wlm">wlm</a>
@@ -11622,17 +11827,23 @@ const mSpecList = [
 	},
 	{
 		name: `Bi-Lesbian`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `Kptng3bC/Bi-Lesbian.png`,
 		imgur: `v2jRt2Y.png`,
+		postimg: `T1LjvdSm/Bi-Lesbian.png`,
 		tags: [`orientation`,`multisexual`,`m-spec`,`bisexual`,`biromantic`,`bi`,`lesbian`,`sapphic`,`wlw`,`fin attraction`,`split attraction model`], // tags for search/filtering
 		info: `Someone who is both <a href="?tags=orientation,bi">bi</a> and a <a href="?tags=orientation,lesbian">lesbian</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Bi-Lesbian`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `5tfQBkS/Bi-Lesbian-alt.png`,
 		imgur: `wdiIDO3.png`,
+		postimg: `G2SPf8Mb/Bi-Lesbian-alt.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`multisexual`,`m-spec`,`bisexual`,`biromantic`,`bi`,`lesbian`,`sapphic`,`wlw`,`fin attraction`,`split attraction model`], // tags for search/filtering
-		info: `Refers to someone who is both <a href="?tags=orientation,bi">bi</a> and a <a href="?tags=orientation,lesbian">lesbian</a>`, // optional extra info
+		info: `Someone who is both <a href="?tags=orientation,bi">bi</a> and a <a href="?tags=orientation,lesbian">lesbian</a>`, // optional extra info
 		icon: `flag alt` // description of the flag/icon
 	},
 	{
@@ -11720,8 +11931,11 @@ const mSpecList = [
 	},
 	{
 		name: `Callistian`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `vCtDdQ3K/Callistian.png`,
 		imgur: `FD4Y9hX.png`,
-		tags: [`orientation`,`multisexual`,`m-spec`,`fin attraction`,`min attraction`,`nblw`,`wlw`,`nblm`,`wlm`], // tags for search/filtering
+		postimg: `tTmdcZr5/Callistian.png`,
+		tags: [`orientation`,`multisexual`,`m-spec`,`fin attraction`,`min attraction`,`nblw`,`wlw`,`sapphic`,`nblm`,`wlm`], // tags for search/filtering
 		info: `Refers to someone who is nonbinary and a woman who is attracted to men and women
 			(<a href="?tags=orientation,nblw">nblw</a>, <a href="?tags=orientation,wlw">wlw</a>,
 			<a href="?tags=orientation,nblm">nblm</a>, and <a href="?tags=orientation,wlm">wlm</a>)`, // optional extra info
@@ -11737,7 +11951,10 @@ const mSpecList = [
 	},
 	{
 		name: `Courscatian`, // display name
-		imgur: `k7tSSPQ.png`,
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `zVgHydJ2/Courscatian.png`,
+		imgur: `https://i.imgur.com/w7SZzJI.png`,
+		postimg: `xCFGZJsv/Courscatian.png`,
 		tags: [`orientation`,`multisexual`,`m-spec`,`fin attraction`,`min attraction`,`nin attraction`,`nblm`,`nblw`,`nblnb`,`mlw`,`mlm`,`achillean`,`mlnb`], // tags for search/filtering
 		info: `Refers to someone who is nonbinary and a man who is attracted to men, women, and nonbinary individuals
 			(<a href="?tags=orientation,nblm">nblm</a>, <a href="?tags=orientation,nblw">nblw</a>,
@@ -11747,8 +11964,11 @@ const mSpecList = [
 	},
 	{
 		name: `Iridian`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `0ygNP0Mv/Iridian.png`,
 		imgur: `J4i185A.png`,
-		tags: [`orientation`,`multisexual`,`m-spec`,`fin attraction`,`nin attraction`,`wlw`,`nblw`,`wlnb`,`nblnb`], // tags for search/filtering
+		postimg: `L5YkF97P/Iridian.png`,
+		tags: [`orientation`,`multisexual`,`m-spec`,`fin attraction`,`nin attraction`,`wlw`,`sapphic`,`nblw`,`wlnb`,`nblnb`], // tags for search/filtering
 		info: `Refers to someone who is nonbinary and a woman who is attracted to nonbinary individuals and women
 			(<a href="?tags=orientation,nblw">nblw</a>, <a href="?tags=orientation,wlw">wlw</a>,
 			<a href="?tags=orientation,nblnb">nblnb</a>, and <a href="?tags=orientation,wlnb">wlnb</a>)`, // optional extra info
@@ -11784,7 +12004,10 @@ const mSpecList = [
 	{
 		name: `Lapian`, // display name
 		altNames: [`Kyanitian`], // optional alternate names, for search algorithms
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `LhQ2GWcD/Lapian.png`,
 		imgur: `6OZkRHu.png`,
+		postimg: `C16C2Bvb/Lapian.png`,
 		tags: [`orientation`,`multisexual`,`m-spec`,`min attraction`,`fin attraction`,`nblm`,`nblw`,`mlm`,`achillean`,`mlw`], // tags for search/filtering
 		info: `Refers to someone who is nonbinary and a man who is attracted to men and women
 			(<a href="?tags=orientation,nblw">nblw</a>, <a href="?tags=orientation,mlw">mlw</a>,
@@ -11793,8 +12016,11 @@ const mSpecList = [
 	},
 	{
 		name: `Luminian`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `bM4w1Sdd/Luminian.png`,
 		imgur: `No6lSeE.png`,
-		tags: [`orientation`,`multisexual`,`m-spec`,`fin attraction`,`min attraction`,`nin attraction`,`wlw`,`nblw`,`wlnb`,`nblnb`,`wlm`,`nblm`], // tags for search/filtering
+		postimg: `XJDKPG2g/Luminian.png`,
+		tags: [`orientation`,`multisexual`,`m-spec`,`fin attraction`,`min attraction`,`nin attraction`,`wlw`,`sapphic`,`nblw`,`wlnb`,`nblnb`,`wlm`,`nblm`], // tags for search/filtering
 		info: `Refers to someone who is nonbinary and a woman who is attracted to nonbinary individuals, men, and women
 			(<a href="?tags=orientation,nblw">nblw</a>, <a href="?tags=orientation,wlw">wlw</a>,
 			<a href="?tags=orientation,nblnb">nblnb</a>, <a href="?tags=orientation,wlnb">wlnb</a>,
@@ -11869,7 +12095,10 @@ const mSpecList = [
 	},
 	{
 		name: `Opalian`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `1YDBVZzF/Opalian.png`,
 		imgur: `z7I7enI.png`,
+		postimg: `0QHG4MtD/Opalian.png`,
 		tags: [`orientation`,`multisexual`,`m-spec`,`min attraction`,`nin attraction`,`nblm`,`nblnb`,`mlm`,`achillean`,`mlnb`], // tags for search/filtering
 		info: `Refers to someone who is nonbinary and a man who is attracted to men and nonbinary individuals
 			(<a href="?tags=orientation,nblm">nblm</a>, <a href="?tags=orientation,mlm">mlm</a>,
@@ -11908,7 +12137,7 @@ const mSpecList = [
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgur: `sA4Kxoq.png`,
 		tags: [`orientation`,`multisexual`,`m-spec`,`pan`,`pansexual`,`panromantic`,`fluid`,`flux`], // tags for search/filtering
-		info: `<a href="?tags=orientation,fluid">Fluid</a> attraction to all genders`, // optional extra info
+		info: `<a href="?tags=orientation,fluid">fluid</a> attraction to all genders`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -11990,17 +12219,15 @@ const mSpecList = [
 		name: `Squirrel Bi`, // display name
 		altNames: [`Bambi Bi`], // optional alternate names, for search algorithms
 		imgur: `zsQyk7z.png`,
-		tags: [`orientation`,`multisexual`,`m-spec`,`bi`,`bisexual`,`biromantic`,`squirrel`,`bambi`], // tags for search/filtering
-		info: `A <a href="?tags=orientation,bi">bi</a> person who prefers non-sexual physical affection over sexual acts. Bi equivalent to
-			<a href="?tags=orientation,bambi">bambi gay/lesbian</a> and <a href="?tags=orientation,rat ace">rat ace</a>.
-			May or may not also be <a href="?tags=orientation,asexual">asexual</a>`, // optional extra info
+		tags: [`orientation`,`multisexual`,`m-spec`,`bi`,`bisexual`,`biromantic`,`squirrel`,`bambi`,`a-spec`,`asexual`,`ace spectrum`], // tags for search/filtering
+		info: `A <a href="?tags=orientation,bi">bi</a>` + orientData.bambi.info, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Fox Pan`, // display name
 		imgur: `lWNSaZu.png`,
-		tags: [`orientation`,`multisexual`,`m-spec`,`pan`,`pansexual`,`panromantic`], // tags for search/filtering
-		info: ``, // optional extra info
+		tags: [`orientation`,`multisexual`,`m-spec`,`pan`,`pansexual`,`panromantic`,`bambi`,`a-spec`,`asexual`,`ace spectrum`], // tags for search/filtering
+		info: `A <a href="?tags=orientation,pan">pan</a>` + orientData.bambi.info, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -12024,7 +12251,10 @@ const romanticList = [
 	},
 	{
 		name: `Abromantic`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `1tTgTxPr/Abromantic.png`,
 		imgur: `yi69eWF.png`,
+		postimg: `7PMpVLsW/Abromantic.png`,
 		tags: [`orientation`,`romantic orientation`,`fluid`], // tags for search/filtering
 		info: `Romantic orientation that is <a href="?tags=orientation,fluid">fluid</a>/changing over time`, // optional extra info
 		icon: `Abro flag` // description of the flag/icon
@@ -12123,7 +12353,9 @@ const romanticList = [
 	{
 		name: `Homoromantic`, // display name
 		src: `/buttons/orientation/%name_Cinthean.png`, // local image source
+		imgbb: `1f1q960v/Homoromantic-Cinthean.png`,
 		imgur: `i2WjpRY.png`,
+		postimg: `h4019DQb/Homoromantic-Cinthean.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`romantic orientation`,`gay`,`cinthean`,`mlm`,`mlnb`,`nblm`,`nblnb`,`achillean`,`min attraction`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -12236,11 +12468,11 @@ const aroAceList = [
 		name: `Rat Ace`, // display name
 		altNames: [`Rat Asexual`], // optional alternate names, for search algorithms
 		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `RTxr1fcN/Rat-Ace.png`,
+		imgur: `https://i.imgur.com/XtoF9ya.png`,
 		postimg: `HkzwDXsv/Rat-Ace.png`,
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`bambi`], // tags for search/filtering
-		info: `An <a href="?tags=orientation,ace spectrum">ace-spec</a> individual who prefers non-sexual physical affection
-			over sexual acts. Ace equivalent to
-			<a href="?tags=orientation,bambi">bambi gay/lesbian</a> and <a href="?tags=orientation,squirrel bi">squirrel bi</a>`, // optional extra info
+		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`bambi`,`a-spec`,`asexual`,`ace spectrum`], // tags for search/filtering
+		info: `An <a href="?tags=orientation,ace spectrum">ace-spec</a>` + orientData.bambi.aceInfo, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -12270,7 +12502,10 @@ const aroAceList = [
 	{
 		name: `Acespec`, // display name
 		altNames: [`Ace Spectrum`,`Asexual Spectrum`], // optional alternate names, for search algorithms
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `Y4BkKLW6/Acespec.png`,
 		imgur: `7Zid8hE.png`,
+		postimg: `mDxDWSH7/Acespec.png`,
 		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -12278,7 +12513,10 @@ const aroAceList = [
 	{
 		name: `Aegosexual`, // display name
 		altNames: [`Autochorissexual`,`Anegosexual`], // optional alternate names, for search algorithms
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `1G5dKBLL/Aegosexual.png`,
 		imgur: `fX0bVgZ.png`,
+		postimg: `HxGx1tyQ/Aegosexual.png`,
 		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`], // tags for search/filtering
 		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity referring to individuals who experience a disconnect between themselves and the subject of arousal`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -12286,7 +12524,10 @@ const aroAceList = [
 	{
 		name: `Aegosexual`, // display name
 		altNames: [`Autochorissexual`,`Anegosexual`], // optional alternate names, for search algorithms
+		src: `/buttons/orientation/%name_alt.png`, // local image source
+		imgbb: `Q7DDbYC7/Aegosexual-alt.png`,
 		imgur: `GZRjY5G.png`,
+		postimg: `wvKvYkmL/Aegosexual-alt.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`], // tags for search/filtering
 		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity referring to individuals who experience a disconnect between themselves and the subject of arousal`, // optional extra info
@@ -12298,6 +12539,7 @@ const aroAceList = [
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgbb: `vCc3vsS9/Aegoromantic.png`,
 		imgur: `ygAg5M3.png`,
+		postimg: `050NhD2D/Aegoromantic.png`,
 		tags: [`orientation`,`a-spec`,`aro spectrum`,`aromantic`,`aro`], // tags for search/filtering
 		info: `<a href="?tags=orientation,aro spectrum">Aro spectrum</a> identity referring to individuals who experience a disconnect between themselves and the subject of attraction`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -12311,7 +12553,10 @@ const aroAceList = [
 	},
 	{
 		name: `Autosexual`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `N2WGSn75/Autosexual.png`,
 		imgur: `wU4pPpO.png`,
+		postimg: `ydrhGgf1/Autosexual.png`,
 		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`], // tags for search/filtering
 		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity referring to individuals who
 			experience sexual attraction primarily or exclusively towards themself`, // optional extra info
@@ -12602,7 +12847,9 @@ const aroAceList = [
 	{
 		name: `Aroace`, // display name
 		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `SX68K0sN/Aroace.png`,
 		imgur: `hh5n4WA.png`,
+		postimg: `0QNJBjGf/Aroace.png`,
 		tags: [`orientation`,`a-spec`,`aroace spectrum`,`asexual`,`ace`,`aromantic`,`aro`], // tags for search/filtering
 		info: `Asexual and aromantic`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -12610,7 +12857,10 @@ const aroAceList = [
 	{
 		name: `Aroace`, // display name
 		alt: `%name`,
+		src: `/buttons/orientation/%name_split.png`, // local image source
+		imgbb: `My5SWRV6/Aroace-split.png`,
 		imgur: `XmHV7tO.png`,
+		postimg: `50Z8Gvxr/Aroace-split.png`,
 		tags: [`orientation`,`a-spec`,`aroace spectrum`,`asexual`,`ace`,`aromantic`,`aro`], // tags for search/filtering
 		info: `Asexual and aromantic`, // optional extra info
 		icon: `flags (split)` // description of the flag/icon
@@ -12618,7 +12868,9 @@ const aroAceList = [
 	{
 		name: `Aroace`, // display name
 		src: `/buttons/orientation/%name_2.png`, // local image source
+		imgbb: `qLL4TfQD/Aroace-2.png`,
 		imgur: `sHRdof7.png`,
+		postimg: `QtRcP5XP/Aroace-2.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`a-spec`,`aroace spectrum`,`asexual`,`ace`,`aromantic`,`aro`], // tags for search/filtering
 		info: `Asexual and aromantic`, // optional extra info
@@ -12629,7 +12881,9 @@ const aroAceList = [
 		alt: `Aroace Spectrum`,
 		altNames: [`Aroace Spectrum`], // optional alternate names, for search algorithms
 		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `Q3cK2R56/Aroace-spec.png`,
 		imgur: `7n4SvOB.png`,
+		postimg: `nzLQPrKG/Aroace-spec.png`,
 		tags: [`orientation`,`a-spec`,`aroace spectrum`,`aroace`,`asexual`,`ace`,`aromantic`,`aro`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Aroace flag` // description of the flag/icon
@@ -12638,7 +12892,9 @@ const aroAceList = [
 		name: `Aroace-spec`, // display name
 		altNames: [`Aroace Spectrum`], // optional alternate names, for search algorithms
 		src: `/buttons/orientation/%name_2.png`, // local image source
+		imgbb: `hRJMMhrf/Aroace-spec-alt.png`,
 		imgur: `v5wuD0n.png`,
+		postimg: `NM0rzF8x/Aroace-spec-alt.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`a-spec`,`aroace spectrum`,`aroace`,`asexual`,`ace`,`aromantic`,`aro`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -12788,15 +13044,33 @@ const aroAceList = [
 	},
 	{
 		name: `Aroflux`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `Fbp4Z1Ch/Aroflux.png`,
 		imgur: `GgXpBki.png`,
+		postimg: `XvkJ3WNs/Aroflux.png`,
 		tags: [`orientation`,`a-spec`,`aro spectrum`,`aromantic`,`aro`,`flux`,`fluid`], // tags for search/filtering
-		info: `Refers to someone whose romantic orientation <a href="?tags=orientation,aroflux">fluctuates</a> in intensity`, // optional extra info
+		info: `Refers to someone whose romantic orientation <a href="?tags=orientation,flux|fluid">fluctuates</a> in intensity`, // optional extra info
 		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Aroflux`, // display name
+		dateAdded: `2026-09-03`, // date this button was first added to the masterlist
+		src: `/buttons/orientation/%name_alt.png`, // local image source
+		imgbb: `zVTQmZqw/Aroflux-alt.png`,
+		imgur: `https://i.imgur.com/958BHpC.png`,
+		postimg: `ZqxRZmYf/Aroflux-alt.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`orientation`,`a-spec`,`aro spectrum`,`aromantic`,`aro`,`flux`,`fluid`], // tags for search/filtering
+		info: `Refers to someone whose romantic orientation <a href="?tags=orientation,flux|fluid">fluctuates</a> in intensity`, // optional extra info
+		icon: `flag alt` // description of the flag/icon
 	},
 	{
 		name: `Aromantic`, // display name
 		altNames: [`Aro`], // optional alternate names, for search algorithms
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `kVKB3dn7/Aromantic.png`,
 		imgur: `MtGlogH.png`,
+		postimg: `XNRpwQPQ/Aromantic.png`,
 		tags: [`orientation`,`a-spec`,`aro spectrum`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -12804,7 +13078,10 @@ const aroAceList = [
 	{
 		name: `Aromantic`, // display name
 		altNames: [`Aro`], // optional alternate names, for search algorithms
+		src: `/buttons/orientation/%name_alt.png`, // local image source
+		imgbb: `s943y5Jk/Aromantic-alt.png`,
 		imgur: `XMv1d0i.png`,
+		postimg: `nVyCv0W3/Aromantic-alt.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`a-spec`,`aro spectrum`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -12976,7 +13253,7 @@ const aroAceList = [
 		imgur: `zbJ0ERw.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`a-spec`,`aro spectrum`,`aromantic`,`aro`,`non-SAM`,`non-split attraction model`], // tags for search/filtering
-		info: `Someone on the <a href="?tags=orientation,aro spectrum">aro spectrum/a> who does not use the
+		info: `Someone on the <a href="?tags=orientation,aro spectrum">aro spectrum</a> who does not use the
 			<a href="?tags=orientation,split attraction model">split attraction model</a>`, // optional extra info
 		icon: `Non-SAM aro flag` // description of the flag/icon
 	},
@@ -21984,9 +22261,9 @@ const interestsList = [
 		name: `Venom`, // display name
 		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/cKpMzcgD/Venom.png`,
+		imgbb: `cKpMzcgD/Venom.png`,
 		imgur: `https://i.imgur.com/UPLTMAL.png`,
-		postimg: `https://i.postimg.cc/MTCgxXp0/Venom.png`,
+		postimg: `MTCgxXp0/Venom.png`,
 		tags: interestsData.mcu.tags.concat([`venom`]), // tags for search/filtering
 		info: interestsData.marvel.link + ` character`, // optional extra info
 		icon: `Venom face` // description of the flag/icon
@@ -22093,10 +22370,22 @@ const booksList = [
 	},
 	{
 		name: `Wings of Fire`, // display name
+		dateAdded: `2026-09-03`, // date this button was first added to the masterlist
+		imgbb: `Ng7dTmbT/Wings-of-Fire.png`,
+		imgur: `https://imgur.com/XxUzUWS.png`,
+		postimg: `ZnyVBVMM/Wings-of-Fire.png`,
+		tags: booksData.tags.concat([`dragon`]), // tags for search/filtering
+		info: `<a href="?tags=interests,book">Book</a> series about dragons`, // optional extra info
+		icon: `symbol` // description of the flag/icon
+	},
+	{
+		name: `Wings of Fire`, // display name
 		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/bgknfWL3/Wings-of-Fire.png`,
+		src: `%name_Glory`,
+		imgbb: `bgknfWL3/Wings-of-Fire.png`,
 		imgur: `https://i.imgur.com/HTUpR65.png`,
-		postimg: `https://i.postimg.cc/7ZShyTPX/Wings-of-Fire.png`,
+		postimg: `7ZShyTPX/Wings-of-Fire.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: booksData.tags.concat([`dragon`]), // tags for search/filtering
 		info: `<a href="?tags=interests,book">Book</a> series about dragons`, // optional extra info
 		icon: `Wings of Fire - Glory` // description of the flag/icon
