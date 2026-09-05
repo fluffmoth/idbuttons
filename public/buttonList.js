@@ -22381,7 +22381,7 @@ const booksList = [
 	{
 		name: `Wings of Fire`, // display name
 		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
-		src: `%name_Glory`,
+		src: `%name_Glory.png`,
 		imgbb: `bgknfWL3/Wings-of-Fire.png`,
 		imgur: `https://i.imgur.com/HTUpR65.png`,
 		postimg: `7ZShyTPX/Wings-of-Fire.png`,
