@@ -19567,18 +19567,27 @@ const nonspecificSubspeciesList = [
 
 //////////// OTHER ////////////
 
-const healthData = {
-	addiction: {
+const healthData = {};
+(()=>{
+	healthData.addiction = {
 		tags: [`health`,`medical`,`mental health`,`addiction`,`addict`,`sober`,`sobriety`],
 		info: `More addiction/sobriety buttons <a href="?tags=sobriety|addiction">here</a>`,
-	}
-}
+	};
+	healthData.nD = {
+		tags: [`health`,`disorders`,`medical`,`mental health`,`neurodivergence`,`neurodivergent`],
+	};
+	healthData.autism = {
+		tags: healthData.nD.tags.concat([`developmental`,`autism`]),
+	};
+	healthData.adhd = {
+		tags: healthData.nD.tags.concat([`developmental`,`adhd`]),
+	};
+})();
 const healthList = [
 	{
 		name: `Disabled`, // display name
 		altNames: [`Disability`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `V0wV86Jj/Disabled.png`,
 		imgur: `AaYNmEX.png`,
 		tags: [`disability`], // tags for search/filtering
@@ -19589,7 +19598,7 @@ const healthList = [
 		name: `Disabled`, // display name
 		altNames: [`Disability`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_alt.png`, // local image source
+		src: `%name_alt.png`, // local image source
 		imgbb: `HfQFfNSr/Disabled-alt.png`,
 		imgur: `bWeLCqf.png`,
 		tags: [`disability`], // tags for search/filtering
@@ -19600,7 +19609,7 @@ const healthList = [
 		name: `Disabled`, // display name
 		altNames: [`Disability`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_stripe.png`, // local image source
+		src: `%name_stripe.png`, // local image source
 		imgbb: `84rLV0z1/Disabled-stripe.png`,
 		imgur: `ed1cxgE.png`,
 		tags: [`disability`], // tags for search/filtering
@@ -19611,7 +19620,7 @@ const healthList = [
 		name: `Disabled`, // display name
 		altNames: [`Disability`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_ND.png`, // local image source
+		src: `%name_ND.png`, // local image source
 		imgbb: `jZyCY8rS/Disabled-ND.png`,
 		imgur: `Z33buiu.png`,
 		tags: [`disability`,`mental health`,`neurodiversity`,`neurodivergence`], // tags for search/filtering
@@ -19621,7 +19630,6 @@ const healthList = [
 	{
 		name: `Cane User`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `nMK9SwTj/Cane-User.png`,
 		imgur: `2Dp2REm.png`,
 		tags: [`disability`,`health`,`medical`,`assistive device`,`cane`], // tags for search/filtering
@@ -19631,7 +19639,7 @@ const healthList = [
 	{
 		name: `Cane User`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_alt.png`, // local image source
+		src: `%name_alt.png`, // local image source
 		imgbb: `3Y7fKX0N/Cane-User-alt.png`,
 		imgur: `W0Y9c9y.png`,
 		tags: [`disability`,`health`,`medical`,`assistive device`,`cane`], // tags for search/filtering
@@ -19641,7 +19649,7 @@ const healthList = [
 	{
 		name: `Cane User`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_handicap.png`, // local image source
+		src: `%name_handicap.png`, // local image source
 		imgbb: `vCQfN7b5/Cane-User-handicap.png`,
 		imgur: `5ouR6ge.png`,
 		tags: [`disability`,`health`,`medical`,`assistive device`,`cane`], // tags for search/filtering
@@ -19651,7 +19659,6 @@ const healthList = [
 	{
 		name: `Crutch User`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `SDRQ8qt6/Crutch-User.png`,
 		imgur: `9OfYE7K.png`,
 		tags: [`disability`,`health`,`medical`,`assistive device`,`crutch`], // tags for search/filtering
@@ -19661,7 +19668,7 @@ const healthList = [
 	{
 		name: `Crutch User`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_alt.png`, // local image source
+		src: `%name_alt.png`, // local image source
 		imgbb: `cKg53ZgV/Crutch-User-alt.png`,
 		imgur: `lPVSA0N.png`,
 		tags: [`disability`,`health`,`medical`,`assistive device`,`crutch`], // tags for search/filtering
@@ -19671,7 +19678,7 @@ const healthList = [
 	{
 		name: `Crutch User`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_handicap.png`, // local image source
+		src: `%name_handicap.png`, // local image source
 		imgbb: `hRVx555X/Crutch-User-handicap.png`,
 		imgur: `Dmf0ocA.png`,
 		tags: [`disability`,`health`,`medical`,`assistive device`,`crutch`], // tags for search/filtering
@@ -19681,7 +19688,6 @@ const healthList = [
 	{
 		name: `Walker User`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `84XgpBMZ/Walker-User.png`,
 		imgur: `TzxU10s.png`,
 		tags: [`disability`,`health`,`medical`,`assistive device`,`walker`], // tags for search/filtering
@@ -19691,7 +19697,7 @@ const healthList = [
 	{
 		name: `Walker User`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_alt.png`, // local image source
+		src: `%name_alt.png`, // local image source
 		imgbb: `NdLDPz4R/Walker-User-alt.png`,
 		imgur: `zDhXfK8.png`,
 		tags: [`disability`,`health`,`medical`,`assistive device`,`walker`], // tags for search/filtering
@@ -19701,7 +19707,7 @@ const healthList = [
 	{
 		name: `Walker User`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_handicap.png`, // local image source
+		src: `%name_handicap.png`, // local image source
 		imgbb: `HfJT0t8j/Walker-User-handicap.png`,
 		imgur: `UEn8QZ4.png`,
 		tags: [`disability`,`health`,`medical`,`assistive device`,`walker`], // tags for search/filtering
@@ -19711,7 +19717,6 @@ const healthList = [
 	{
 		name: `Wheelchair User`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `bj5Dp1rN/Wheelchair-User.png`,
 		imgur: `QBHEQiq.png`,
 		tags: [`disability`,`health`,`medical`,`assistive device`,`wheelchair`], // tags for search/filtering
@@ -19721,7 +19726,7 @@ const healthList = [
 	{
 		name: `Wheelchair User`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_alt.png`, // local image source
+		src: `%name_alt.png`, // local image source
 		imgbb: `Ps65HrMg/Wheelchair-User-alt.png`,
 		imgur: `z6J8rNu.png`,
 		tags: [`disability`,`health`,`medical`,`assistive device`,`wheelchair`], // tags for search/filtering
@@ -19731,7 +19736,7 @@ const healthList = [
 	{
 		name: `Wheelchair User`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_handicap.png`, // local image source
+		src: `%name_handicap.png`, // local image source
 		imgbb: `2YP6HsxX/Wheelchair-User-handicap.png`,
 		imgur: `euKkELX.png`,
 		tags: [`disability`,`health`,`medical`,`assistive device`,`wheelchair`], // tags for search/filtering
@@ -19742,7 +19747,6 @@ const healthList = [
 		name: `Hip Dysplasia`, // display name
 		altNames: [`Dysplasia`], // optional alternate names, for search algorithms
 		dateAdded: `2024-02-06`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgur: `wuBfXaP.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`hip`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -19752,7 +19756,6 @@ const healthList = [
 		name: `Highly Sensitive Person`, // display name
 		altNames: [`HSP`], // optional alternate names, for search algorithms
 		dateAdded: `2024-01-26`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgur: `F5b1qO2.png`,
 		tags: [`health`,`disorders`,`medical`,`mental health`,`neurodivergent`,`neurodiversity`,`sensitive`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -19761,7 +19764,7 @@ const healthList = [
 	{
 		name: `Sensitive`, // display name
 		dateAdded: `2024-01-26`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_HSP.png`, // local image source
+		src: `%name_HSP.png`, // local image source
 		imgur: `YHPKhPJ.png`,
 		tags: [`health`,`disorders`,`medical`,`mental health`,`neurodivergent`,`neurodiversity`,`hsp`,`highly sensitive person`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -19770,7 +19773,7 @@ const healthList = [
 	{
 		name: `Sensitive`, // display name
 		dateAdded: `2024-01-26`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_ND.png`, // local image source
+		src: `%name_ND.png`, // local image source
 		imgur: `tkzlTDu.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`health`,`disorders`,`neurodivergent`,`neurodiversity`,`medical`,`mental health`], // tags for search/filtering
@@ -19780,7 +19783,6 @@ const healthList = [
 	{
 		name: `Eczema`, // display name
 		dateAdded: `2024-01-24`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgur: `ZuBLVsz.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -19789,7 +19791,6 @@ const healthList = [
 	{
 		name: `Raynaud's`, // display name
 		dateAdded: `2024-01-24`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgur: `6uWaxP9.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
@@ -19798,7 +19799,6 @@ const healthList = [
 	{
 		name: `Allergies`, // display name
 		dateAdded: `2024-01-24`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `7T4MhSL/Allergies.png`,
 		imgur: `0ElGPSd.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
@@ -19809,7 +19809,6 @@ const healthList = [
 		name: `Anemic`, // display name
 		altNames: [`Anemia`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `LDmcMP0t/Anemic.png`,
 		imgur: `lsvYQnp.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
@@ -19819,7 +19818,6 @@ const healthList = [
 	{
 		name: `Arthritis`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `kg5zsM8s/Arthritis.png`,
 		imgur: `LUABqhg.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
@@ -19829,7 +19827,7 @@ const healthList = [
 	{
 		name: `Arthritis`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_alt.png`, // local image source
+		src: `%name_alt.png`, // local image source
 		imgbb: `nNKV00kq/Arthritis-alt.png`,
 		imgur: `M7PdLcP.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -19840,7 +19838,6 @@ const healthList = [
 	{
 		name: `Asthma`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `5NMLTRq/Asthma.png`,
 		imgur: `mRmIDl9.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`respiratory`,`lungs`], // tags for search/filtering
@@ -19850,7 +19847,6 @@ const healthList = [
 	{
 		name: `Cancer Survivor`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `Wp64ZbPn/Cancer-Survivor.png`,
 		imgur: `b9kiMNi.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`cancer`], // tags for search/filtering
@@ -19860,7 +19856,6 @@ const healthList = [
 	{
 		name: `Carpal Tunnel`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `qMq54F9k/Carpal-Tunnel.png`,
 		imgur: `W9xcxgQ.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
@@ -19871,7 +19866,6 @@ const healthList = [
 		name: `Celiac`, // display name
 		altNames: [`Celiac Disease`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `5hPv5cWT/Celiac.png`,
 		imgur: `UdYC8mK.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`digestive`], // tags for search/filtering
@@ -19881,7 +19875,6 @@ const healthList = [
 	{
 		name: `Chronic Illness`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `NgbmNyDT/Chronic-Illness.png`,
 		imgur: `D9xaprH.png`,
 		tags: [`health`,`disorders`,`disability`,`medical`,`physical health`,`chronic illness`], // tags for search/filtering
@@ -19891,7 +19884,7 @@ const healthList = [
 	{
 		name: `Chronic Illness`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_alt.png`, // local image source
+		src: `%name_alt.png`, // local image source
 		imgbb: `xKLL5QmS/Chronic-Illness-alt.png`,
 		imgur: `JNaCTSP.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -19902,7 +19895,6 @@ const healthList = [
 	{
 		name: `Chronic Pain`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `jvxkL5r0/Chronic-Pain.png`,
 		imgur: `E7c0NAU.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`chronic illness`,`pain`], // tags for search/filtering
@@ -19913,7 +19905,6 @@ const healthList = [
 		name: `Chronic Fatigue Syndrome`, // display name
 		altNames: [`CFS`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `21Y5jrBZ/Chronic-Fatigue-Syndrome.png`,
 		imgur: `YoQhgKu.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`chronic illness`], // tags for search/filtering
@@ -19923,7 +19914,6 @@ const healthList = [
 	{
 		name: `Chronic Fatigue`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `BVqt1Rnq/Chronic-Fatigue.png`,
 		imgur: `75JySJB.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`chronic illness`,`chronic fatigue syndrome`,`cfs`], // tags for search/filtering
@@ -19933,7 +19923,6 @@ const healthList = [
 	{
 		name: `Crohn's`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `tT5pdbWt/Crohn-s.png`,
 		imgur: `XDIaMUK.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`crohn's disease`,`digestive`], // tags for search/filtering
@@ -19943,7 +19932,6 @@ const healthList = [
 	{
 		name: `Crohn's Disease`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `LXhFzkxD/Crohn-s-Disease.png`,
 		imgur: `PaZ8Ob5.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -19954,7 +19942,6 @@ const healthList = [
 	{
 		name: `Cystic Fibrosis`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `nsfV4Fyp/Cystic-Fibrosis.png`,
 		imgur: `hgMy2e2.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
@@ -19965,7 +19952,6 @@ const healthList = [
 		name: `Diabetic`, // display name
 		altNames: [`Diabetes`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `JRFv01SG/Diabetic.png`,
 		imgur: `B7aT9QH.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
@@ -19976,7 +19962,7 @@ const healthList = [
 		name: `Diabetic`, // display name
 		altNames: [`Diabetes`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_ribbon.png`, // local image source
+		src: `%name_ribbon.png`, // local image source
 		imgbb: `sv0JXgCR/Diabetic-ribbon.png`,
 		imgur: `uVi0BlM.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -19987,7 +19973,6 @@ const healthList = [
 	{
 		name: `Dwarfism`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `L2kLCn5/Dwarfism.png`,
 		imgur: `dOFzJJj.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -19998,7 +19983,7 @@ const healthList = [
 	{
 		name: `Dwarfism`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_flag.png`, // local image source
+		src: `%name_flag.png`, // local image source
 		imgbb: `zVcBfNkT/Dwarfism-flag.png`,
 		imgur: `COtddf2.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`little person`], // tags for search/filtering
@@ -20008,7 +19993,6 @@ const healthList = [
 	{
 		name: `Little Person`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `JwFWmhGp/Little-Person.png`,
 		imgur: `YozP8Ml.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -20019,7 +20003,7 @@ const healthList = [
 	{
 		name: `Little Person`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_flag.png`, // local image source
+		src: `%name_flag.png`, // local image source
 		imgbb: `60MJzfrC/Little-Person-flag.png`,
 		imgur: `jF8IBPC.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`dwarfism`], // tags for search/filtering
@@ -20029,7 +20013,6 @@ const healthList = [
 	{
 		name: `Dysautonomia`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `HftTV3DX/Dysautonomia.png`,
 		imgur: `3z1ctUT.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
@@ -20039,7 +20022,6 @@ const healthList = [
 	{
 		name: `Dysphagia`, // display name
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `YTp7G3yV/Dysphagia.png`,
 		imgur: `tPteOrx.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`digestive`], // tags for search/filtering
@@ -20049,7 +20031,7 @@ const healthList = [
 	{
 		name: `Dysphagia`, // display name
 		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_flag.png`, // local image source
+		src: `%name_flag.png`, // local image source
 		imgbb: `99R3yP7W/Dysphagia-flag.png`,
 		imgur: `LamBbYB.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -20061,7 +20043,6 @@ const healthList = [
 		name: `Ehlers-Danlos`, // display name
 		altNames: [`EDS`,`Ehlers-Danlos Syndrome`],
 		dateAdded: `2026-08-11`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `gLJZ2b41/Ehlers-Danlos.png`,
 		imgur: `6Ef6hwD.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
@@ -20071,7 +20052,6 @@ const healthList = [
 	{
 		name: `Endometriosis`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `4gdcyPwW/Endometriosis.png`,
 		imgur: `k7p86mU.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,], // tags for search/filtering
@@ -20081,7 +20061,6 @@ const healthList = [
 	{
 		name: `Epilepsy`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `MxGt5yWh/Epilepsy.png`,
 		imgur: `XHzjiUj.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`seizures`,`epileptic`], // tags for search/filtering
@@ -20091,7 +20070,7 @@ const healthList = [
 	{
 		name: `Epilepsy`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_alt.png`, // local image source
+		src: `%name_alt.png`, // local image source
 		imgbb: `TM06kmw2/Epilepsy-alt.png`,
 		imgur: `6TblA8K.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -20102,7 +20081,6 @@ const healthList = [
 	{
 		name: `Epileptic`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `CsXVMZD0/Epileptic.png`,
 		imgur: `P5OVHxF.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -20113,7 +20091,6 @@ const healthList = [
 	{
 		name: `Fibromyalgia`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `SwcBCtj8/Fibromyalgia.png`,
 		imgur: `KuCQKoZ.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`chronic illness`,`chronic pain`], // tags for search/filtering
@@ -20124,7 +20101,6 @@ const healthList = [
 		name: `GERD`, // display name
 		altNames: [`Gastroesophageal Reflux Disease`],
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `ympWhpBx/GERD.png`,
 		imgur: `4bCo5Hl.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`digestive`], // tags for search/filtering
@@ -20134,7 +20110,6 @@ const healthList = [
 	{
 		name: `Heart Condition`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `WNtnySyz/Heart-Condition.png`,
 		imgur: `C93BkRv.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
@@ -20145,7 +20120,6 @@ const healthList = [
 	{
 		name: `Heart Disease`, // display name
 		dateAdded: `2026-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `4gwJWD8S/Heart-Disease.png`,
 		imgur: `JiM3F0R.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`heart`], // tags for search/filtering
@@ -20155,7 +20129,6 @@ const healthList = [
 	{
 		name: `Seizures`, // display name
 		dateAdded: `2024-01-28`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `9HW14v8b/Seizures.png`,
 		imgur: `rkIGzm1.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`,`seizure`], // tags for search/filtering
@@ -20165,7 +20138,6 @@ const healthList = [
 	{
 		name: `Deaf`, // display name
 		dateAdded: `2024-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `wF6tFGZz/Deaf.png`,
 		imgur: `X4sD3Je.png`,
 		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`], // tags for search/filtering
@@ -20175,7 +20147,7 @@ const healthList = [
 	{
 		name: `Deaf`, // display name
 		dateAdded: `2024-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_ribbon.png`, // local image source
+		src: `%name_ribbon.png`, // local image source
 		imgbb: `67BNPs7c/Deaf-ribbon.png`,
 		imgur: `BsnXCRp.png`,
 		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`], // tags for search/filtering
@@ -20186,7 +20158,6 @@ const healthList = [
 		name: `Deaf/HoH`, // display name
 		altNames: [`Deaf/Hard of Hearing`],
 		dateAdded: `2024-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `S42qXqqQ/Deaf-Ho-H.png`,
 		imgur: `BMCrAie.png`,
 		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`,`deaf`,`hard of hearing`], // tags for search/filtering
@@ -20197,7 +20168,7 @@ const healthList = [
 		name: `Deaf/HoH`, // display name
 		altNames: [`Deaf/Hard of Hearing`],
 		dateAdded: `2024-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_ribbon.png`, // local image source
+		src: `%name_ribbon.png`, // local image source
 		imgbb: `mCykJN8k/Deaf-Ho-H-ribbon.png`,
 		imgur: `qQCMQhg.png`,
 		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`,`deaf`,`hard of hearing`], // tags for search/filtering
@@ -20208,7 +20179,6 @@ const healthList = [
 		name: `Hard of Hearing`, // display name
 		altNames: [`HoH`],
 		dateAdded: `2024-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `QjHddK9y/Hard-of-Hearing.png`,
 		imgur: `KsM0wY2.png`,
 		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`,`deaf`,`hard of hearing`], // tags for search/filtering
@@ -20219,7 +20189,7 @@ const healthList = [
 		name: `Hard of Hearing`, // display name
 		altNames: [`HoH`],
 		dateAdded: `2024-08-12`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_ribbon.png`, // local image source
+		src: `%name_ribbon.png`, // local image source
 		imgbb: `qMXJJFcs/Hard-of-Hearing-ribbon.png`,
 		imgur: `WtQy0hm.png`,
 		tags: [`disability`,`disorders`,`medical`,`physical health`,`auditory`,`deaf`,`hard of hearing`], // tags for search/filtering
@@ -20230,7 +20200,7 @@ const healthList = [
 	{
 		name: `Addiction`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_ribbon.png`, // local image source
+		src: `%name_ribbon.png`, // local image source
 		imgbb: `KpcHVZbc/Addiction-ribbon.png`,
 		imgur: `kkX9BAR.png`,
 		tags: healthData.addiction.tags, // tags for search/filtering
@@ -20240,7 +20210,6 @@ const healthList = [
 	{
 		name: `Addiction`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `hJyG4nMD/Addiction.png`,
 		imgur: `M5Aalhy.png`,
 		tags: healthData.addiction.tags, // tags for search/filtering
@@ -20250,7 +20219,7 @@ const healthList = [
 	{
 		name: `Recovering Addict`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_ribbon.png`, // local image source
+		src: `%name_ribbon.png`, // local image source
 		imgbb: `3myxvF3x/Recovering-Addict-ribbon.png`,
 		imgur: `xCcxExW.png`,
 		tags: healthData.addiction.tags, // tags for search/filtering
@@ -20260,7 +20229,6 @@ const healthList = [
 	{
 		name: `Recovering Addict`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `3m1tyx0m/Recovering-Addict.png`,
 		imgur: `hv72R25.png`,
 		tags: healthData.addiction.tags, // tags for search/filtering
@@ -20270,7 +20238,7 @@ const healthList = [
 	{
 		name: `Sober`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_ribbon.png`, // local image source
+		src: `%name_ribbon.png`, // local image source
 		imgbb: `6RHD79nC/Sober-ribbon.png`,
 		imgur: `wZfnewE.png`,
 		tags: healthData.addiction.tags, // tags for search/filtering
@@ -20280,7 +20248,6 @@ const healthList = [
 	{
 		name: `Sober`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `21Vv17s8/Sober.png`,
 		imgur: `G1bs4hU.png`,
 		tags: healthData.addiction.tags, // tags for search/filtering
@@ -20290,7 +20257,6 @@ const healthList = [
 	{
 		name: `Alcoholism`, // display name
 		dateAdded: `2026-08-14`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `p6JrpYpq/Alcoholism.png`,
 		imgur: `Ypi5mR3.png`,
 		tags: mergeArr([healthData.addiction.tags,[`alcohol`,`alcoholilc`]]), // tags for search/filtering
@@ -20300,7 +20266,6 @@ const healthList = [
 	{
 		name: `PCOS`, // display name
 		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `BKPmnQ22/PCOS.png`,
 		imgur: `apOT2qc.png`,
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
@@ -20310,7 +20275,6 @@ const healthList = [
 	{
 		name: `Schizotypal`, // display name
 		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `5XwY38kM/Schizotypal.png`,
 		imgur: `LdKm4JZ.png`,
 		tags: [`health`,`disorders`,`medical`,`mental health`,`personality disorder`,`spd`], // tags for search/filtering
@@ -20320,7 +20284,7 @@ const healthList = [
 	{
 		name: `Schizotypal`, // display name
 		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_ND.png`, // local image source
+		src: `%name_ND.png`, // local image source
 		imgbb: `9mt3fpvF/Schizotypal.png`,
 		imgur: `e2eCtsU.png`,
 		tags: [`health`,`disorders`,`medical`,`mental health`,`personality disorder`,`spd`,`neurodivergence`,`neurodivergent`], // tags for search/filtering
@@ -20330,7 +20294,6 @@ const healthList = [
 	{
 		name: `Schizophrenic`, // display name
 		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name.png`, // local image source
 		imgbb: `bRvbpnvt/Schizophrenic.png`,
 		imgur: `wbvK3HZ.png`,
 		tags: [`health`,`disorders`,`medical`,`mental health`,`schizophrenia`], // tags for search/filtering
@@ -20340,33 +20303,137 @@ const healthList = [
 	{
 		name: `Schizophrenic`, // display name
 		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
-		src: `/buttons/health/%name_ND.png`, // local image source
+		src: `%name_ND.png`, // local image source
 		imgbb: `PsNP9nHn/Schizophrenic.png`,
 		imgur: `Mhbczj2.png`,
 		tags: [`health`,`disorders`,`medical`,`mental health`,`schizophrenia`,`neurodivergence`,`neurodivergent`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Neurodiversity infinity` // description of the flag/icon
 	},
+	{
+		name: `ADD`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/tMMfQj9g/ADD.png`,
+		imgur: `https://i.imgur.com/OPlf76y.png`,
+		postimg: `https://i.postimg.cc/0NYw9NQ3/ADD.png`,
+		tags: healthData.adhd.tags, // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Neurodiversity infinity` // description of the flag/icon
+	},
+	{
+		name: `ADHD`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/9kYFc9P1/ADHD.png`,
+		imgur: `https://i.imgur.com/gUe2de3.png`,
+		postimg: `https://i.postimg.cc/hGWmFmDK/ADHD.png`,
+		tags: healthData.adhd.tags, // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Neurodiversity infinity` // description of the flag/icon
+	},
+	{
+		name: `ADHD`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/HTHQtdDW/ADHD-flag.png`,
+		imgur: `https://i.imgur.com/DoQJ9XF.png`,
+		postimg: `https://i.postimg.cc/g0VZG0J1/ADHD-flag.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: healthData.adhd.tags, // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `ADHD`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_butterfly.png`, // local image source
+		imgbb: `https://i.ibb.co/qM3YmB7V/ADHD-butterfly.png`,
+		imgur: `https://i.imgur.com/N2r2kW8.png`,
+		postimg: `https://i.postimg.cc/Lst1msXw/ADHD-butterfly.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: healthData.adhd.tags, // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `flag (butterfly)` // description of the flag/icon
+	},
+	{
+		name: `Autistic`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/6cj5kQjt/Autistic.png`,
+		imgur: `https://i.imgur.com/G8AyR6r.png`,
+		postimg: `https://i.postimg.cc/VvC1cJsF/Autistic.png`,
+		tags: healthData.autism.tags, // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Neurodiversity infinity` // description of the flag/icon
+	},
+	{
+		name: `Auttie`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/TsV6TCr/Auttie.png`,
+		imgur: `https://i.imgur.com/5Q9j6nF.png`,
+		postimg: `https://i.postimg.cc/KjMFy1cD/Auttie.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`autism`,`autistic`], // tags for search/filtering
+		info: `Nickname for <a href="?tags=autism">autistic</a> people`, // optional extra info
+		icon: `Neurodiversity infinity` // description of the flag/icon
+	},
+	{
+		name: `Aspie`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/WNSvWk0p/Aspie.png`,
+		imgur: `https://i.imgur.com/OnYplFN.png`,
+		postimg: `https://i.postimg.cc/qq30dNBL/Aspie.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: [`autism`,`autistic`,`asperger's`], // tags for search/filtering
+		info: `Nickname for <a href="?tags=autism">autistic</a> people (based on Asperger's Syndrome)`, // optional extra info
+		icon: `Neurodiversity infinity` // description of the flag/icon
+	},
+	{
+		name: `AuDHD`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/kgrmf6rQ/Au-DHD.png`,
+		imgur: `https://i.imgur.com/ypcKWM0.png`,
+		postimg: `https://i.postimg.cc/bNPNjRbz/Au-DHD.png`,
+		tags: healthData.autism.tags.concat([`adhd`]), // tags for search/filtering
+		info: `Describes the combined experience of having autism and ADHD`, // optional extra info
+		icon: `Neurodiversity infinity` // description of the flag/icon
+	},
+	{
+		name: `AuDHD`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/39Nfyh8n/Au-DHD-flag.png`,
+		imgur: `https://i.imgur.com/bCuiqGR.png`,
+		postimg: `https://i.postimg.cc/Yq7qwxgr/Au-DHD-flag.png`,
+		inFRPost: false, // whether this button should be included in the FR masterlist
+		tags: healthData.autism.tags.concat([`adhd`]), // tags for search/filtering
+		info: `Describes the combined experience of having both autism and ADHD`, // optional extra info
+		icon: `ADHD flag` // description of the flag/icon
+	},
 	/*
 	{
 		name: ``, // display name
-		dateAdded: `2026-08-25`, // date this button was first added to the masterlist
-		//src: `/buttons/health/%name.png`, // local image source
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		//src: `%name.png`, // local image source
 		imgbb: ``,
 		imgur: ``,
+		postimg: ``,
 		tags: [`health`,`disorders`,`medical`,`physical health`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `awareness ribbon` // description of the flag/icon
 	},
 	*/
 ]
+// assign default values
+healthList.forEach((item)=>{
+	if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/health/%name.png`; }
+	else if (!item.src.includes('/')) { item.src = `/buttons/health/` + item.src; }
+});
 
 const systemList = [
 	{
 		name: `Alter`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_star.png`, // local image source
-		imgbb: `HfNxdqZF/Alter-star.png`,
+		imgbb: `https://i.ibb.co/wNpKyC2d/Alter-star.png`,
 		imgur: `qjk5EY4.png`,
 		postimg: `TPSNymX1/Alter-star.png`,
 		tags: [`did`,`osdd`,`headmate`], // tags for search/filtering
@@ -20374,11 +20441,106 @@ const systemList = [
 		icon: `Pastel star` // description of the flag/icon
 	},
 	{
+		name: `System Alter`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/LX5tycD3/System-Alter.png`,
+		imgur: `https://i.imgur.com/JiVZDdG.png`,
+		postimg: `https://i.postimg.cc/zXWbCjZQ/System-Alter.png`,
+		tags: [`did`,`osdd`,`headmate`,`alter`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Dissociation multicolor` // description of the flag/icon
+	},
+	{
+		name: `System Alter`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_and.png`, // local image source
+		imgbb: `https://i.ibb.co/tTqPxC5c/System-Alter-and.png`,
+		imgur: `https://i.imgur.com/0g9tDKz.png`,
+		postimg: `https://i.postimg.cc/TYmLV9MF/System-Alter-and.png`,
+		tags: [`did`,`osdd`,`headmate`,`alter`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Plural &` // description of the flag/icon
+	},
+	{
+		name: `System Alter`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/qYh8kbcS/System-Alter-flag.png`,
+		imgur: `https://i.imgur.com/oFyJJxL.png`,
+		postimg: `https://i.postimg.cc/ZK3B8ctg/System-Alter-flag.png`,
+		tags: [`did`,`osdd`,`headmate`,`alter`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `System flag` // description of the flag/icon
+	},
+	{
+		name: `System Host`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/5WfbtqGR/System-Host.png`,
+		imgur: `https://i.imgur.com/pBi4xQl.png`,
+		postimg: `https://i.postimg.cc/65R2r0xJ/System-Host.png`,
+		tags: [`did`,`osdd`,`headmate`,`alter`,`host`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Dissociation multicolor` // description of the flag/icon
+	},
+	{
+		name: `System Host`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_and.png`, // local image source
+		imgbb: `https://i.ibb.co/jP5S2bbt/System-Host-and.png`,
+		imgur: `https://i.imgur.com/1bSJVgF.png`,
+		postimg: `https://i.postimg.cc/7Y7G3Vrr/System-Host-and.png`,
+		tags: [`did`,`osdd`,`headmate`,`alter`,`host`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Plural &` // description of the flag/icon
+	},
+	{
+		name: `System Host`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/gb9t71xT/System-Host-flag.png`,
+		imgur: `https://i.imgur.com/nob45LW.png`,
+		postimg: `https://i.postimg.cc/c4YgRmy5/System-Host-flag.png`,
+		tags: [`did`,`osdd`,`headmate`,`alter`,`host`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `System flag` // description of the flag/icon
+	},
+	{
+		name: `Headmate`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/gLNWRPCL/Headmate.png`,
+		imgur: `https://i.imgur.com/uqhcO75.png`,
+		postimg: `https://i.postimg.cc/3J1fxKyj/Headmate.png`,
+		tags: [`did`,`osdd`,`alter`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Dissociation multicolor` // description of the flag/icon
+	},
+	{
+		name: `Headmate`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_and.png`, // local image source
+		imgbb: `https://i.ibb.co/Df6L2J2H/Headmate-and.png`,
+		imgur: `https://i.imgur.com/ddqh02Z.png`,
+		postimg: `https://i.postimg.cc/gkst2Ywq/Headmate-and.png`,
+		tags: [`did`,`osdd`,`alter`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Plural &` // description of the flag/icon
+	},
+	{
+		name: `Headmate`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/jkqvmfMH/Headmate-flag.png`,
+		imgur: `https://i.imgur.com/dxRoDDW.png`,
+		postimg: `https://i.postimg.cc/BQp7nq8B/Headmate-flag.png`,
+		tags: [`did`,`osdd`,`alter`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `System flag` // description of the flag/icon
+	},
+	{
 		name: `Headmate`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_star.png`, // local image source
-		imgbb: ``,
-		imgbb: `qGh8jkg/Headmate.png`,
+		imgbb: `https://i.ibb.co/7tshdFCR/Headmate-star.png`,
 		imgur: `YzoYSnY.png`,
 		postimg: `6qVZXs0Q/Headmate.png`,
 		tags: [`did`,`osdd`,`alter`], // tags for search/filtering
@@ -20388,7 +20550,7 @@ const systemList = [
 	{
 		name: `OSDD-1B`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
-		imgbb: `cXFkGsNZ/OSDD-1B.png`,
+		imgbb: `https://i.ibb.co/BH88hHRK/OSDD-1B.png`,
 		imgur: `MtNlSI4.png`,
 		postimg: `cLWvS5gL/OSDD-1B.png`,
 		tags: [`osdd`], // tags for search/filtering
@@ -20399,18 +20561,18 @@ const systemList = [
 		name: `OSDD-1B`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `Q7fYX9KT/OSDD-1-B-and.png`,
+		imgbb: `https://i.ibb.co/LXZ2FJyt/OSDD-1-B-and.png`,
 		imgur: `x3fTXXj.png`,
 		postimg: `T3xK6HLP/OSDD-1B-and.png`,
 		tags: [`osdd`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `System &` // description of the flag/icon
+		icon: `Plural &` // description of the flag/icon
 	},
 	{
 		name: `OSDD-1B`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `ksRQv7kc/OSDD-1-B-flag.png`,
+		imgbb: `https://i.ibb.co/Q7tHRX8C/OSDD-1-B-flag.png`,
 		imgur: `urhsAAL.png`,
 		postimg: `LsdmzqSG/OSDD-1B-flag.png`,
 		tags: [`osdd`], // tags for search/filtering
@@ -20421,17 +20583,17 @@ const systemList = [
 		name: `DID System`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_&.png`, // local image source
-		imgbb: `TjjcpJ5/DID-System.png`,
+		imgbb: `https://i.ibb.co/TBFv56pd/DID-System.png`,
 		imgur: `ElKYM7J.png`,
 		postimg: `PqGdmLHc/DID-System.png`,
 		tags: [`did`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `System &` // description of the flag/icon
+		icon: `Plural &` // description of the flag/icon
 	},
 	{
 		name: `DID System`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
-		imgbb: `Y7q3mbrG/DID-System.png`,
+		imgbb: `https://i.ibb.co/5XGfS8yn/DID-System.png`,
 		postimg: `1zxypgSd/DID-System.png`,
 		imgur: `BZnhUNi.png`,
 		tags: [`did`], // tags for search/filtering
@@ -20442,7 +20604,7 @@ const systemList = [
 		name: `DID System`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `670Qjz8z/DID-System-flag.png`,
+		imgbb: `https://i.ibb.co/3ymkMd5c/DID-System-flag.png`,
 		imgur: `kAof1pc.png`,
 		postimg: `bvXqQGPW/DID-System-flag.png`,
 		tags: [`did`], // tags for search/filtering
@@ -20452,7 +20614,7 @@ const systemList = [
 	{
 		name: `Dissociative`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
-		imgbb: `pjhBGB2w/Dissociative.png`,
+		imgbb: `https://i.ibb.co/DfzHKsq9/Dissociative.png`,
 		imgur: `HslJD2N.png`,
 		postimg: `MG43cR8X/Dissociative.png`,
 		tags: [`dissociation`], // tags for search/filtering
@@ -20463,7 +20625,7 @@ const systemList = [
 		name: `Dissociative`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_ribbon.png`, // local image source
-		imgbb: `LDrNn9Tp/Dissociative-ribbon.png`,
+		imgbb: `https://i.ibb.co/0pVbZ1r6/Dissociative-ribbon.png`,
 		imgur: `faKBo3F.png`,
 		postimg: `g05twRPJ/Dissociative-ribbon.png`,
 		tags: [`dissociation`], // tags for search/filtering
@@ -20473,7 +20635,7 @@ const systemList = [
 	{
 		name: `System`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
-		imgbb: `8LrLLTLT/System.png`,
+		imgbb: `https://i.ibb.co/60SXrCXc/System.png`,
 		imgur: `oRkijoy.png`,
 		postimg: `286WttZM/System.png`,
 		tags: [`did`,`osdd`], // tags for search/filtering
@@ -20484,28 +20646,206 @@ const systemList = [
 		name: `System`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `cS49ZZRx/System-and.png`,
+		imgbb: `https://i.ibb.co/4gNR2mhM/System-and.png`,
 		imgur: `4xqaZpf.png`,
 		postimg: `m2D9nnHn/System-and.png`,
 		tags: [`did`,`osdd`], // tags for search/filtering
 		info: ``, // optional extra info
-		icon: `System &` // description of the flag/icon
+		icon: `Plural &` // description of the flag/icon
 	},
 	{
 		name: `System`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `3yvFsSSL/System-flag.png`,
+		imgbb: `https://i.ibb.co/JFgLRDH6/System-flag.png`,
 		imgur: `z0ukAzB.png`,
 		postimg: `FsRS66Lq/System-flag.png`,
 		tags: [`did`,`osdd`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
+	{
+		name: `Fictive`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/SDr3vYk1/Fictive.png`,
+		imgur: `https://i.imgur.com/7NmvzxK.png`,
+		postimg: `https://i.postimg.cc/DZ5nc9jY/Fictive.png`,
+		tags: [`alter`,`headmate`,`introject`], // tags for search/filtering
+		info: ` based on a <a href="?tags=fictive">fictional source</a>`, // optional extra info
+		icon: `Dissociation multicolor` // description of the flag/icon
+	},
+	{
+		name: `Fictive`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_and.png`, // local image source
+		imgbb: `https://i.ibb.co/ZpjL2VxJ/Fictive-and.png`,
+		imgur: `https://i.imgur.com/4HOEJot.png`,
+		postimg: `https://i.postimg.cc/ZRj4LG7g/Fictive-and.png`,
+		tags: [`alter`,`headmate`,`introject`], // tags for search/filtering
+		info: ` based on a <a href="?tags=fictive">fictional source</a>`, // optional extra info
+		icon: `Plural &` // description of the flag/icon
+	},
+	{
+		name: `Fictive`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_system_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/Wpkf6WWf/Fictive-system-flag.png`,
+		imgur: `https://i.imgur.com/ffVTict.png`,
+		postimg: `https://i.postimg.cc/bJLpR7C5/Fictive-system-flag.png`,
+		tags: [`alter`,`headmate`,`introject`], // tags for search/filtering
+		info: ` based on a <a href="?tags=fictive">fictional source</a>`, // optional extra info
+		icon: `System flag` // description of the flag/icon
+	},
+	{
+		name: `Fictive`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/fzn45qh4/Fictive-flag.png`,
+		imgur: `https://i.imgur.com/iO5oBex.png`,
+		postimg: `https://i.postimg.cc/JnKMQf69/Fictive-flag.png`,
+		tags: [`alter`,`headmate`,`introject`], // tags for search/filtering
+		info: ` based on a <a href="?tags=fictive">fictional source</a>`, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Fictive`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_flag_2.png`, // local image source
+		imgbb: `https://i.ibb.co/6RkCJfnS/Fictive-flag-2.png`,
+		imgur: `https://i.imgur.com/PGn7OQn.png`,
+		postimg: `https://i.postimg.cc/bJLpR7CB/Fictive-flag-2.png`,
+		tags: [`alter`,`headmate`,`introject`], // tags for search/filtering
+		info: ` based on a <a href="?tags=fictive">fictional source</a>`, // optional extra info
+		icon: `flag alt` // description of the flag/icon
+	},
+	{
+		name: `Fictive-Heavy System`, // display name
+		altNames: [`Fictive-Heavy`],
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/352SS147/Fictive-Heavy-System.png`,
+		imgur: `https://i.imgur.com/DqTaghs.png`,
+		postimg: `https://i.postimg.cc/y8VqLQRn/Fictive-Heavy-System.png`,
+		tags: [`fictive`], // tags for search/filtering
+		info: `<a href="?tags=system">System</a> with a large number of <a href="?tags=fictive">fictives</a>`, // optional extra info
+		icon: `Dissociation multicolor` // description of the flag/icon
+	},
+	{
+		name: `Fictive-Heavy System`, // display name
+		altNames: [`Fictive-Heavy`],
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_and.png`, // local image source
+		imgbb: `https://i.ibb.co/C35MRQM8/Fictive-Heavy-System-and.png`,
+		imgur: `https://i.imgur.com/guTHexU.png`,
+		postimg: `https://i.postimg.cc/QdXLf47f/Fictive-Heavy-System-and.png`,
+		tags: [`fictive`], // tags for search/filtering
+		info: `<a href="?tags=system">System</a> with a large number of <a href="?tags=fictive">fictives</a>`, // optional extra info
+		icon: `Plural &` // description of the flag/icon
+	},
+	{
+		name: `Fictive-Heavy System`, // display name
+		altNames: [`Fictive-Heavy`],
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_system_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/HfQVznHG/Fictive-Heavy-System-system-flag.png`,
+		imgur: `https://i.imgur.com/UTCJMtj.png`,
+		postimg: `https://i.postimg.cc/y8VqLQRv/Fictive-Heavy-System-system-flag.png`,
+		tags: [`fictive`], // tags for search/filtering
+		info: `<a href="?tags=system">System</a> with a large number of <a href="?tags=fictive">fictives</a>`, // optional extra info
+		icon: `System flag` // description of the flag/icon
+	},
+	{
+		name: `Fictive-Heavy System`, // display name
+		altNames: [`Fictive-Heavy`],
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/cc3QRhYG/Fictive-Heavy-System-flag.png`,
+		imgur: `https://i.imgur.com/KoydA5p.png`,
+		postimg: `https://i.postimg.cc/4xJCWLcP/Fictive-Heavy-System-flag.png`,
+		tags: [`fictive`], // tags for search/filtering
+		info: `<a href="?tags=system">System</a> with a large number of <a href="?tags=fictive">fictives</a>`, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Endo System`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_and.png`, // local image source
+		imgbb: `https://i.ibb.co/TQnNhbL/Endo-System-and.png`,
+		imgur: `https://i.imgur.com/odw26C3.png`,
+		postimg: `https://i.postimg.cc/J4KKLMtn/Endo-System-and.png`,
+		tags: [`endogenic`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Plural &` // description of the flag/icon
+	},
+	{
+		name: `Endogenic`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_and.png`, // local image source
+		imgbb: `https://i.ibb.co/nshC7qfC/Endogenic-and.png`,
+		imgur: `https://i.imgur.com/YcI0Mew.png`,
+		postimg: `https://i.postimg.cc/kXwwmqD5/Endogenic-and.png`,
+		tags: [`endogenic`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Plural &` // description of the flag/icon
+	},
+	{
+		name: `Parogenic`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_and.png`, // local image source
+		imgbb: `https://i.ibb.co/pv5f7Mpv/Parogenic-and.png`,
+		imgur: `https://i.imgur.com/6Fese5v.png`,
+		postimg: `https://i.postimg.cc/SNVVhkjR/Parogenic-and.png`,
+		tags: [`endogenic`,`parogenic`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Plural &` // description of the flag/icon
+	},
+	{
+		name: `Parogenic`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/39f7V2pT/Parogenic-flag.png`,
+		imgur: `https://i.imgur.com/6mkfuIj.png`,
+		postimg: `https://i.postimg.cc/5NppVbjj/Parogenic-flag.png`,
+		tags: [`endogenic`,`parogenic`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Parogenic Plural`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_and.png`, // local image source
+		imgbb: `https://i.ibb.co/ccGB8dk2/Parogenic-Plural-and.png`,
+		imgur: `https://i.imgur.com/ZIG0rXL.png`,
+		postimg: `https://i.postimg.cc/fT55NDkV/Parogenic-Plural-and.png`,
+		tags: [`endogenic`,`parogenic`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Plural &` // description of the flag/icon
+	},
+	{
+		name: `Soulbond`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_flag.png`, // local image source
+		imgbb: `https://i.ibb.co/wNf5Jzfb/Soulbond-flag.png`,
+		imgur: `https://i.imgur.com/eSokEpO.png`,
+		postimg: `https://i.postimg.cc/9QMbXKqV/Soulbond-flag.png`,
+		tags: [`endogenic`,`headmate`,`soulbond`,`walk-in`,`fictive`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Soulbond`, // display name
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
+		src: `%name_and.png`, // local image source
+		imgbb: `https://i.ibb.co/4wPcNNq0/Soulbond-and.png`,
+		imgur: `https://i.imgur.com/ALxwFx3.png`,
+		postimg: `https://i.postimg.cc/L8XD4wZ2/Soulbond-and.png`,
+		tags: [`endogenic`,`headmate`,`soulbond`,`walk-in`,`fictive`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Plural &` // description of the flag/icon
+	},
 	/*
 	{
 		name: ``, // display name
-		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
+		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name.png`, // local image source
 		imgbb: ``,
 		imgur: ``,
@@ -20516,20 +20856,25 @@ const systemList = [
 	},
 	*/
 ]
-endoDisclaimer = `(NOTE: please don't message me about discourse. It's none of my business.)`;
+endoDisclaimer = `(NOTE: please don't message me about system discourse.)`;
 // assign default values
 systemList.forEach((item)=>{
 	if (typeof item.src == 'undefined' || item.src == ``) { item.src = `/buttons/health/systems/%name.png`; }
 	else if (!item.src.includes('/')) { item.src = `/buttons/health/systems/` + item.src; }
 	
-	item.tags.push(`health`,`mental health`,`system`,`multiple`,`multiplicity`);
+	item.tags.push(`system`,`multiple`,`multiplicity`,`plural`,`plurality`);
 	if (item.tags.includes('did')) item.tags.push('dissociation','dissociative','dissociative identity disorder');
 	else if (item.tags.includes('osdd')) item.tags.push('dissociation','dissociative');
 	
-	if ((!item.info || item.info == '') && (item.tags.includes('alter') || item.tags.includes('headmate'))) {
-		item.info = `<a href="?tags=system,alter|headmate">Member</a> of a <a href="?tags=system">system</a>`;
+	if (item.tags.includes('alter') || item.tags.includes('headmate')) {
+		if (!item.info) item.info = '';
+		item.info = `<a href="?tags=system,alter|headmate">Member</a> of a <a href="?tags=system">system</a>` + item.info;
 	}
-	if (item.tags.includes('endogenic')) { item.info += ' ' + endoDisclaimer; }
+	if (item.tags.includes('endogenic')) {
+		item.info += ' ' + endoDisclaimer;
+		item.inFRPost = false;
+	}
+	else item.tags.push(`health`,`mental health`);
 });
 
 const religionDisclaimer = `NOTE: Some sites, <a href="https://www1.flightrising.com/forums/cc/3078623/158#post_55981807">e.g. Flight Rising</a>, restrict religious content. Use caution.`;
