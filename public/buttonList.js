@@ -20393,7 +20393,7 @@ const healthList = [
 		imgur: `https://i.imgur.com/ypcKWM0.png`,
 		postimg: `https://i.postimg.cc/bNPNjRbz/Au-DHD.png`,
 		tags: healthData.autism.tags.concat([`adhd`]), // tags for search/filtering
-		info: `Describes the combined experience of having autism and ADHD`, // optional extra info
+		info: `Describes the combined experience of having both autism and ADHD`, // optional extra info
 		icon: `Neurodiversity infinity` // description of the flag/icon
 	},
 	{
