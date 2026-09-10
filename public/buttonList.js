@@ -11354,7 +11354,7 @@ const MINList = [
 	},
 	{
 		name: `Gay`, // display name
-		src: `/buttons/orientation/%name.png`, // local image source
+		src: `/buttons/orientation/%name_gm.png`, // local image source
 		imgbb: `3yF4kPY9/Gay-gm.png`,
 		imgur: `o7ZCFYm.png`,
 		postimg: `Qtngz96B/Gay-gm.png`,
