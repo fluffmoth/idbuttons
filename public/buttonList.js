@@ -7889,7 +7889,6 @@ const neoPronounList = [
 	{
 		name: `Neopronouns`, // display name
 		altNames: [`Neopronoun`], // optional alternate names, for search algorithms
-		alt: `Neopronouns (Neopronoun flag)`,
 		src: `/buttons/pronouns/%name.png`, // local image source
 		imgbb: `j90z2yFF/Neopronouns.png`,
 		imgur: `RbkQks3.png`,
@@ -7900,7 +7899,6 @@ const neoPronounList = [
 	{
 		name: `Neopronouns`, // display name
 		altNames: [`Neopronoun`], // optional alternate names, for search algorithms
-		alt: `Neopronouns (Neopronoun flag)`,
 		src: `/buttons/pronouns/%name_2.png`, // local image source
 		imgbb: `Y4dbGKZR/Neopronouns-2.png`,
 		imgur: `U6S2sqL.png`,
@@ -10719,6 +10717,14 @@ const mixedPronounList = [
 
 const orientData = {};
 (()=>{
+	orientData.ace = {
+		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`],
+	}
+	orientData.grayAce = {
+		tags: orientData.ace.tags.concat([`gray`,`grey`,`graysexual`,`greysexual`,`gray ace`,`grey ace`,`gray asexual`,`grey asexual`]),
+		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity that isn't purely asexual
+			(aka <a href="?tags=orientation,graysexual|greysexual">graysexual</a>)`,
+	}
 	orientData.bambi = {
 		info: ` person who prefers non-sexual physical affection over sexual acts.
 			May or may not be <a href="?tags=orientation,asexual">asexual</a>.
@@ -12471,7 +12477,7 @@ const aroAceList = [
 		imgbb: `RTxr1fcN/Rat-Ace.png`,
 		imgur: `https://i.imgur.com/XtoF9ya.png`,
 		postimg: `HkzwDXsv/Rat-Ace.png`,
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`bambi`,`a-spec`,`asexual`,`ace spectrum`], // tags for search/filtering
+		tags: orientData.ace.tags.concat([`bambi`,`a-spec`,`asexual`,`ace spectrum`]), // tags for search/filtering
 		info: `An <a href="?tags=orientation,ace spectrum">ace-spec</a>` + orientData.bambi.aceInfo, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
@@ -12479,7 +12485,7 @@ const aroAceList = [
 		name: `Aceallo`, // display name
 		altNames: [`Alloroace`], // optional alternate names, for search algorithms
 		imgur: `C3cxerg.png`,
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`alloace`,`alloromantic`,`split attraction model`], // tags for search/filtering
+		tags: orientData.ace.tags.concat([`alloace`,`alloromantic`,`split attraction model`]), // tags for search/filtering
 		info: `Asexual/ace-spec and alloromantic (same as <a href="?tags=orientation,alloace">alloace</a>)`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
@@ -12488,14 +12494,14 @@ const aroAceList = [
 		altNames: [`Alloroace`], // optional alternate names, for search algorithms
 		imgur: `4chwrKV.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`aceallo`,`alloromantic`,`split attraction model`], // tags for search/filtering
+		tags: orientData.ace.tags.concat([`aceallo`,`alloromantic`,`split attraction model`]), // tags for search/filtering
 		info: `Asexual/ace-spec and alloromantic (same as <a href="?tags=orientation,aceallo">aceallo</a>)`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Aceflux`, // display name
 		imgur: `gIjq5Q3.png`,
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`flux`,`fluid`], // tags for search/filtering
+		tags: orientData.ace.tags.concat([`flux`,`fluid`]), // tags for search/filtering
 		info: `Refers to someone whose sexual orientation <a href="?tags=orientation,aceflux">fluctuates</a> in intensity`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
@@ -12547,7 +12553,17 @@ const aroAceList = [
 	{
 		name: `Asexual`, // display name
 		imgur: `tyEuRXe.png`,
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`ace`], // tags for search/filtering
+		tags: orientData.ace.tags, // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `flag` // description of the flag/icon
+	},
+	{
+		name: `Hetero Ace`, // display name
+		src: `/buttons/orientation/%name.png`, // local image source
+		imgbb: `https://i.ibb.co/zWf90NCv/Hetero-Ace.png`,
+		imgur: `https://i.imgur.com/fMAHqYF.png`,
+		postimg: `https://i.postimg.cc/25yXK4bm/Hetero-Ace.png`,
+		tags: orientData.ace.tags.concat([`straight`,`hetero`,`heteroromantic`]), // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
@@ -12573,14 +12589,14 @@ const aroAceList = [
 	{
 		name: `Cupiosexual`, // display name
 		imgur: `mNwQLuY.png`,
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`cupio`], // tags for search/filtering
+		tags: orientData.ace.tags.concat([`cupio`]), // tags for search/filtering
 		info: `Refers to <a href="?tags=orientation,asexual">asexual</a> individuals who desire sexual relationships`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Demisexual`, // display name
 		imgur: `H0t7Ypl.png`,
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`demi`], // tags for search/filtering
+		tags: orientData.ace.tags.concat([`demi`]), // tags for search/filtering
 		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity referring to someone who only experiences
 			sexual attraction towards those they are deeply connected/bonded to`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -12589,7 +12605,7 @@ const aroAceList = [
 		name: `Fictosexual`, // display name
 		altNames: [`Fictisexual`,`Fictonsexual`], // optional alternate names, for search algorithms
 		imgur: `fRmh0SH.png`,
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`fiction`], // tags for search/filtering
+		tags: orientData.ace.tags.concat([`fiction`]), // tags for search/filtering
 		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity referring to someone who experiences
 			exclusive sexual attraction towards fictional characters or whose sexuality is influenced by fictional characters`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -12606,18 +12622,16 @@ const aroAceList = [
 		name: `Gray Ace`, // display name
 		imgur: `vZmPWxA.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`graysexual`,`gray asexual`], // tags for search/filtering
-		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity that isn't purely asexual
-			(aka <a href="?tags=orientation,graysexual|greysexual">graysexual</a>)`, // optional extra info
+		tags: orientData.grayAce.tags, // tags for search/filtering
+		info: orientData.grayAce.info, // optional extra info
 		icon: `Asexual flag` // description of the flag/icon
 	},
 	{
 		name: `Gray Ace`, // display name
 		imgur: `nafQSbU.png`,
 		inMakerIcons: false, // whether this button should be included in the button maker icon list
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`graysexual`,`gray asexual`], // tags for search/filtering
-		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity that isn't purely asexual
-			(aka <a href="?tags=orientation,graysexual|greysexual">graysexual</a>)`, // optional extra info
+		tags: orientData.grayAce.tags, // tags for search/filtering
+		info: orientData.grayAce.info, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -12625,36 +12639,32 @@ const aroAceList = [
 		imgur: `Zs4VhSn.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		inMakerIcons: false, // whether this button should be included in the button maker icon list
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`graysexual`,`gray ace`], // tags for search/filtering
-		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity that isn't purely asexual
-			(aka <a href="?tags=orientation,graysexual|greysexual">graysexual</a>)`, // optional extra info
+		tags: orientData.grayAce.tags, // tags for search/filtering
+		info: orientData.grayAce.info, // optional extra info
 		icon: `Asexual flag` // description of the flag/icon
 	},
 	{
 		name: `Gray Asexual`, // display name
 		imgur: `FXwV0CB.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`graysexual`,`demisexual`,`gray ace`], // tags for search/filtering
-		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity that isn't purely asexual
-			(aka <a href="?tags=orientation,graysexual|greysexual">graysexual</a>)`, // optional extra info
+		tags: orientData.grayAce.tags.concat([`demisexual`]), // tags for search/filtering
+		info: orientData.grayAce.info, // optional extra info
 		icon: `Demisexual flag` // description of the flag/icon
 	},
 	{
 		name: `Gray Asexual`, // display name
 		imgur: `GFeO9bR.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`graysexual`,`gray ace`], // tags for search/filtering
-		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity that isn't purely asexual
-			(aka <a href="?tags=orientation,graysexual|greysexual">graysexual</a>)`, // optional extra info
+		tags: orientData.grayAce.tags, // tags for search/filtering
+		info: orientData.grayAce.info, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
 		name: `Grey Ace`, // display name
 		imgur: `AmvLGM3.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`greysexual`,`grey asexual`], // tags for search/filtering
-		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity that isn't purely asexual
-			(aka <a href="?tags=orientation,graysexual|greysexual">greysexual</a>)`, // optional extra info
+		tags: orientData.grayAce.tags, // tags for search/filtering
+		info: orientData.grayAce.info, // optional extra info
 		icon: `Asexual flag` // description of the flag/icon
 	},
 	{
@@ -12662,9 +12672,8 @@ const aroAceList = [
 		imgur: `Kl8oFx0.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		inMakerIcons: false, // whether this button should be included in the button maker icon list
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`greysexual`,`grey asexual`], // tags for search/filtering
-		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity that isn't purely asexual
-			(aka <a href="?tags=orientation,graysexual|greysexual">greysexual</a>)`, // optional extra info
+		tags: orientData.grayAce.tags, // tags for search/filtering
+		info: orientData.grayAce.info, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -12672,9 +12681,8 @@ const aroAceList = [
 		imgur: `Gbh2hO5.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		inMakerIcons: false, // whether this button should be included in the button maker icon list
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`greysexual`,`grey ace`], // tags for search/filtering
-		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity that isn't purely asexual
-			(aka <a href="?tags=orientation,graysexual|greysexual">greysexual</a>)`, // optional extra info
+		tags: orientData.grayAce.tags, // tags for search/filtering
+		info: orientData.grayAce.info, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -12691,7 +12699,7 @@ const aroAceList = [
 		name: `Non-SAM Ace`, // display name
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgur: `4wImV8O.png`,
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`non-SAM`,`non-split attraction model`], // tags for search/filtering
+		tags: orientData.ace.tags.concat([`non-SAM`,`non-split attraction model`]), // tags for search/filtering
 		info: `Someone on the <a href="?tags=orientation,ace spectrum">asexual spectrum</a> who does not use the
 			<a href="?tags=orientation,split attraction model">split attraction model</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -12754,7 +12762,7 @@ const aroAceList = [
 		altNames: [`Encephalosexual`], // optional alternate names, for search algorithms
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgur: `u5Tep6R.png`,
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`demisexual`,`demi`], // tags for search/filtering
+		tags: orientData.ace.tags.concat([`demisexual`,`demi`]), // tags for search/filtering
 		info: `<a href="?tags=orientation,ace spectrum">Ace spectrum</a> identity referring to individuals who don't experience
 			sexual attraction without an intellectual bond/mental attraction`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -12999,9 +13007,9 @@ const aroAceList = [
 		altNames: [`Grey Aroace`], // optional alternate names, for search algorithms
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgur: `StW0alt.png`,
-		tags: [`orientation`,`a-spec`,`aroace spectrum`,`aroace`,`asexual`,`ace`,`aromantic`,`aro`,`gray asexual`,`graysexual`,`gray aromantic`,`grayromantic`], // tags for search/filtering
-		info: `<a href="?tags=orientation,graysexual|greysexual">Graysexual</a> and
-			<a href="?tags=orientation,grayromantic|greyromantic">grayromantic</a>`, // optional extra info
+		tags: orientData.grayAce.tags.concat([`aroace spectrum`,`aroace`,`aromantic`,`aro`,`gray aromantic`,`grayromantic`]), // tags for search/filtering
+		info: `<a href="?tags=orientation,graysexual|greysexual">Gray ace</a> and
+			<a href="?tags=orientation,grayromantic|greyromantic">gray aro</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -13337,7 +13345,7 @@ const aroAceList = [
 		name: `Cupiosexual/Alloromantic`, // display name
 		imgur: `HSlGSwr.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`cupiosexual`,`cupio`,`alloromantic`,`split attraction model`], // tags for search/filtering
+		tags: orientData.ace.tags.concat([`cupiosexual`,`cupio`,`alloromantic`,`split attraction model`]), // tags for search/filtering
 		info: `<a href="?tags=orientation,cupiosexual">Cupiosexual</a> and <a href="?tags=orientation,alloromantic">alloromantic</a>`, // optional extra info
 		icon: `flags (split)` // description of the flag/icon
 	},
@@ -13345,7 +13353,7 @@ const aroAceList = [
 		name: `Demisexual/Alloromantic`, // display name
 		imgur: `iahwukg.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`orientation`,`a-spec`,`ace spectrum`,`asexual`,`ace`,`demisexual`,`demi`,`alloromantic`,`split attraction model`], // tags for search/filtering
+		tags: orientData.ace.tags.concat([`demisexual`,`demi`,`alloromantic`,`split attraction model`]), // tags for search/filtering
 		info: `<a href="?tags=orientation,demisexual">Demisexual</a> and <a href="?tags=orientation,alloromantic">alloromantic</a>`, // optional extra info
 		icon: `flags (split)` // description of the flag/icon
 	},
@@ -13361,8 +13369,8 @@ const aroAceList = [
 		name: `Gray Ace/Alloromantic`, // display name
 		imgur: `Ul5DB41.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
-		tags: [`orientation`,`a-spec`,`split attraction model`,`ace spectrum`,`graysexual`,`gray ace`,`alloromantic`], // tags for search/filtering
-		info: `<a href="?tags=orientation,graysexual|greysexual">Graysexual</a> and <a href="?tags=orientation,alloromantic">alloromantic</a>`, // optional extra info
+		tags: orientData.grayAce.tags.concat([`split attraction model`,`alloromantic`]), // tags for search/filtering
+		info: `<a href="?tags=orientation,graysexual|greysexual">Gray ace</a> and <a href="?tags=orientation,alloromantic">alloromantic</a>`, // optional extra info
 		icon: `flags (split)` // description of the flag/icon
 	},
 	{
@@ -13443,8 +13451,8 @@ const aroAceList = [
 		name: `Grace/Aromantic`, // display name
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgur: `FCwMdg0.png`,
-		tags: [`orientation`,`a-spec`,`split attraction model`,`aroace spectrum`,`aromantic`,`aro`,`ace`,`asexual`,`graysexual`,`gray asexual`,`gray ace`], // tags for search/filtering
-		info: `<a href="?tags=orientation,graysexual|greysexual">Graysexual</a> and aromantic`, // optional extra info
+		tags: orientData.grayAce.tags.concat([`split attraction model`,`aroace spectrum`,`aromantic`,`aro`]), // tags for search/filtering
+		info: `<a href="?tags=orientation,graysexual|greysexual">Gray ace</a> and aromantic`, // optional extra info
 		icon: `flags (split)` // description of the flag/icon
 	},
 	{

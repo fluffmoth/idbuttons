@@ -460,18 +460,21 @@ function adjustIconBaseName(btn) {
 function setAltText(btn) {
 	// if alt txt hasn't already been set
 	if (!btn.altTextSet) {
+		console.log(btn.name);
 		// if alt text not already set
 		if (!btn.alt || btn.alt == ``) {
 			btn.alt = btn.name;
 			// if subspecies, note at end of alt text
-			if (btn.tags.includes('flight rising') && btn.tags.includes('subspecies') && !btn.tags.includes('non-specific subspecies')) btn.alt += ` (Subspecies)`
-			else if (btn.tags.includes('flight rising') && btn.tags.includes('lineage') && !btn.tags.includes('generation')) btn.alt += ` (Lineage)`
-			// if button uses a default icon base
-			else if (btn.iconBase) btn.alt += ' (' + btn.iconBase.icon + ' ' + adjustIconBaseName(btn).toLowerCase() + ')';
-			// otherwise if button icon is not basic flag or logo, add icon text to end of alt text
-			else if (!btn.icon == 'flag' && !btn.icon == 'logo') {
-				btn.alt += ` (${adjustIconText(btn)})`;
+			if (btn.tags.includes('flight rising') && btn.tags.includes('subspecies') && !btn.tags.includes('non-specific subspecies')) btn.alt += ` (Subspecies)`;
+			else if (btn.tags.includes('flight rising') && btn.tags.includes('lineage') && !btn.tags.includes('generation')) btn.alt += ` (Lineage)`;
+			// otherwise if it's a flag pronoun button, add icon text to end of alt text
+			else if (
+				btn.tags.includes(`pronoun`) && btn.icon.includes(`flag`)
+				&& !btn.icon.toLowerCase().includes("neopronoun flag") && !btn.name.toLowerCase().includes("neopronoun")
+			) {
+				btn.alt += ` (${adjustIconText(btn).replaceAll(" flag","")})`;
 			}
+			console.log(btn.name,btn.name.toLowerCase().includes("neopronoun"));
 		}
 		else {
 			// replace button name references with the name
