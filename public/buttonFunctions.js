@@ -460,7 +460,6 @@ function adjustIconBaseName(btn) {
 function setAltText(btn) {
 	// if alt txt hasn't already been set
 	if (!btn.altTextSet) {
-		console.log(btn.name);
 		// if alt text not already set
 		if (!btn.alt || btn.alt == ``) {
 			btn.alt = btn.name;
@@ -474,7 +473,6 @@ function setAltText(btn) {
 			) {
 				btn.alt += ` (${adjustIconText(btn).replaceAll(" flag","")})`;
 			}
-			console.log(btn.name,btn.name.toLowerCase().includes("neopronoun"));
 		}
 		else {
 			// replace button name references with the name
