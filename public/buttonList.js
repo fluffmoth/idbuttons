@@ -3915,7 +3915,7 @@ const xenogenderList = [
 		name: `Medigender`, // display name
 		imgur: `NeKZ1A1.png`,
 		tags: [`gender`,`xenogender`,`aesthetigender`,`medical`,`medicine`,`hospital`,`medcoric`,`medicalcore`,`nurse`], // tags for search/filtering
-		info: `<a href="?tags=gender,aesthetigender">Aesthetigender</a> related to medicalcore, hospitals, nurses, and medicine`, // optional extra info
+		info: `<a href="?tags=gender,aesthetigender">Aesthetigender</a> related to <a href="?tags=medicalcore">medicalcore</a>, hospitals, nurses, and medicine`, // optional extra info
 		icon: `flag` // description of the flag/icon
 	},
 	{
@@ -26535,6 +26535,16 @@ const aestheticList = [
 		imgur: `TfeviN2.png`,
 		tags: [`aesthetic`,`academia`,`academic`,`books`], // tags for search/filtering
 		info: `<a href="?tags=aesthetic">Aesthetic</a>`, // optional extra info
+		icon: `Dark book pile` // description of the flag/icon
+	},
+	{
+		name: `Light Academia`, // display name
+		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/tMM4mV4x/Light-Academia.png`,
+		imgur: `https://i.imgur.com/LRJK4Dh.png`,
+		postimg: `https://i.postimg.cc/bwbwBbj3/Light-Academia.png`,
+		tags: [`aesthetic`,`academia`,`academic`,`books`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a>`, // optional extra info
 		icon: `Book pile` // description of the flag/icon
 	},
 	{
@@ -26920,13 +26930,115 @@ const aestheticList = [
 		info: `<a href="?tags=aesthetic">Aesthetic</a> related to plague doctors`, // optional extra info
 		icon: `Plague doctor` // description of the flag/icon
 	},
+	{
+		name: `Kidcore`, // display name
+		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/cSy3SVsT/Kidcore.png`,
+		imgur: `https://i.imgur.com/echRchh.png`,
+		postimg: `https://i.postimg.cc/FHmHwzs1/Kidcore.png`,
+		tags: [`aesthetic`,`core`,`kid`,`child`,`fashion`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> and <a href="?tags=fashion">fashion</a> style`, // optional extra info
+		icon: `Toy blocks` // description of the flag/icon
+	},
+	{
+		name: `Liminal Space`, // display name
+		altNames: [`Liminality`,`Liminalcore`,`Liminal Aesthetic`,`Anemoiacore`],
+		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/tppswhqx/Liminal-Space.png`,
+		imgur: `https://i.imgur.com/fsKmPCy.png`,
+		postimg: `https://i.postimg.cc/SRpBjXPF/Liminal-Space.png`,
+		tags: [`aesthetic`,`horror`,`backrooms`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> relating to empty transitional areas`, // optional extra info
+		icon: `Empty hallway` // description of the flag/icon
+	},
+	{
+		name: `Lisafrankcore`, // display name
+		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/cK4n53LH/Lisafrankcore.png`,
+		imgur: `https://i.imgur.com/5UADvEl.png`,
+		postimg: `https://i.postimg.cc/t4P4MPHB/Lisafrankcore.png`,
+		tags: [`aesthetic`,`core`,`lisa frank`,`neon`,`colorful`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> relating to <a href="?tags=lisa frank">Lisa Frank</a?'s artwork`, // optional extra info
+		icon: `Neon leopard spots` // description of the flag/icon
+	},
+	{
+		name: `Lisa Frank`, // display name
+		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/cGM4X2j/Lisa-Frank.png`,
+		imgur: `https://i.imgur.com/K3kAV7g.png`,
+		postimg: `https://i.postimg.cc/cLYLbYND/Lisa-Frank.png`,
+		tags: [`aesthetic`,`neon`,`colorful`], // tags for search/filtering
+		info: `Artist known for colorful children's illustrations.`, // optional extra info
+		icon: `Neon leopard spots` // description of the flag/icon
+	},
+	{
+		name: `Lovecore`, // display name
+		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/Q3vjB8pW/Lovecore.png`,
+		imgur: `https://i.imgur.com/TILWDJ2.png`,
+		postimg: `https://i.postimg.cc/NGm2K5Fy/Lovecore.png`,
+		tags: [`aesthetic`,`core`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a>`, // optional extra info
+		icon: `Candy hearts` // description of the flag/icon
+	},
+	{
+		name: `Medicore`, // display name
+		altNames: [`Medicalcore`],
+		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/XrtPgRMH/Medicore.png`,
+		imgur: `https://i.imgur.com/U5WwSyj.png`,
+		postimg: `https://i.postimg.cc/MTt45WKx/Medicore.png`,
+		tags: [`aesthetic`,`core`,`medical`,`hospital`,`nurse`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> related to medical care and equipment`, // optional extra info
+		icon: `Syringe` // description of the flag/icon
+	},
+	{
+		name: `Medieval`, // display name
+		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/DHYLHv7c/Medieval.png`,
+		imgur: `https://i.imgur.com/uO0z8IN.png`,
+		postimg: `https://i.postimg.cc/bwzncpzp/Medieval.png`,
+		tags: [`aesthetic`,`medieval`,`dark ages`], // tags for search/filtering
+		icon: `Crown` // description of the flag/icon
+	},
+	{
+		name: `Medieval Fantasy`, // display name
+		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/BVDcq9Vc/Medieval-Fantasy.png`,
+		imgur: `https://i.imgur.com/Qcw2VE9.png`,
+		postimg: `https://i.postimg.cc/6p9ZJt9w/Medieval-Fantasy.png`,
+		tags: [`aesthetic`,`medieval`,`dark ages`,`fantasy`], // tags for search/filtering
+		icon: `Crown` // description of the flag/icon
+	},
+	{
+		name: `Medievalcore`, // display name
+		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/BVFDNXTC/Medievalcore.png`,
+		imgur: `https://i.imgur.com/KSvpdn1.png`,
+		postimg: `https://i.postimg.cc/W12ZLT2s/Medievalcore.png`,
+		tags: [`aesthetic`,`core`,`medieval`,`dark ages`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a>`, // optional extra info
+		icon: `Crown` // description of the flag/icon
+	},
+	{
+		name: `Menhera`, // display name
+		altNames: [`Menheracore`,`Yami Kawaii`],
+		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
+		imgbb: `https://i.ibb.co/G4gQWNmL/Menhera.png`,
+		imgur: `https://i.imgur.com/aBzXjY8.png`,
+		postimg: `https://i.postimg.cc/02mgR1Vw/Menhera.png`,
+		tags: [`aesthetic`,`fashion`,`medical`,`medicalcore`,`medicore`,`mental health`], // tags for search/filtering
+		info: `<a href="?tags=aesthetic">Aesthetic</a> relating to mental illness`, // optional extra info
+		icon: `Bandaged heart` // description of the flag/icon
+	},
 	/*
 	{
 		name: ``, // display name
-		dateAdded: `2026-08-23`, // date this button was first added to the masterlist
-		//src: `/buttons/aesthetic/%name.png`, // local image source
+		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
+		src: `%name.png`, // local image source
 		imgbb: ``,
 		imgur: ``,
+		postimg: ``,
 		tags: [`aesthetic`], // tags for search/filtering
 		info: `<a href="?tags=aesthetic">Aesthetic</a>`, // optional extra info
 		icon: `` // description of the flag/icon
