@@ -542,9 +542,9 @@ const genderButtonList = [
 	{
 		name: `Mulosian`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/Hy5QqN3/Mulosian.png`,
+		imgbb: `Hy5QqN3/Mulosian.png`,
 		imgur: `Ik8AT0x.png`,
-		postimg: `https://i.postimg.cc/K8T6c34P/Mulosian.png`,
+		postimg: `K8T6c34P/Mulosian.png`,
 		tags: [`gender`,`multigender`,`label collector`,`term collector`], // tags for search/filtering
 		info: `When someone has collected so many labels that they start to feel a disconnect to gender`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -959,9 +959,9 @@ const genderButtonList = [
 		name: `Abigender`, // display name
 		altNames: [`Biagender`,`Bxgender`,`Librabigender`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/67V2Fms2/Abigender.png`,
+		imgbb: `67V2Fms2/Abigender.png`,
 		imgur: `FZpFTwH.png`,
-		postimg: `https://i.postimg.cc/Jz7XMZpK/Abigender.png`,
+		postimg: `Jz7XMZpK/Abigender.png`,
 		tags: [`gender`,`multigender`,`agender`,`bigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,multigender">Multigender</a> that is both
 			<a href="?tags=gender,agender">agender</a> and <a href="?tags=gender,bigender">bigender</a>`, // optional extra info
@@ -1023,9 +1023,9 @@ const genderButtonList = [
 		name: `Jackdawhoarder`, // display name
 		altNames: [`Jackdawcollector`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/bgd7W4n9/Jackdawhoarder.png`,
+		imgbb: `bgd7W4n9/Jackdawhoarder.png`,
 		imgur: `nqJjxPC.png`,
-		postimg: `https://i.postimg.cc/bwn7YSdk/Jackdawhoarder.png`,
+		postimg: `bwn7YSdk/Jackdawhoarder.png`,
 		tags: [`gender`,`multigender`,`jackdaw`,`hoarder`,`collector`,`label collector`,`term collector`], // tags for search/filtering
 		info: `Someone who <a href="?tags=label collector">collects</a> gender identities`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1034,9 +1034,9 @@ const genderButtonList = [
 		name: `Oiaspec`, // display name
 		altNames: [`Omnigender Spectrum`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/gMHjHYgt/Oiaspec.png`,
+		imgbb: `gMHjHYgt/Oiaspec.png`,
 		imgur: `skWJqWf.png`,
-		postimg: `https://i.postimg.cc/Vktxs05W/Oiaspec.png`,
+		postimg: `Vktxs05W/Oiaspec.png`,
 		tags: [`gender`,`multigender`,`omnigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,omnigender">Omnigender</a> spectrum`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1045,9 +1045,9 @@ const genderButtonList = [
 		name: `Oingender`, // display name
 		altNames: [`Omnine In Nature`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/yBZ36LHD/Oingender.png`,
+		imgbb: `yBZ36LHD/Oingender.png`,
 		imgur: `o5FfN0V.png`,
-		postimg: `https://i.postimg.cc/htmk4Qh8/Oingender.png`,
+		postimg: `htmk4Qh8/Oingender.png`,
 		tags: [`gender`,`multigender`,`omnigender`,`omnine`], // tags for search/filtering
 		info: `<a href="?tags=gender,omnigender">Omnine</a> in nature`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1055,9 +1055,9 @@ const genderButtonList = [
 	{
 		name: `Omnigender`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/7xnqjXwx/Omnigender.png`,
+		imgbb: `7xnqjXwx/Omnigender.png`,
 		imgur: `GsNtWcX.png`,
-		postimg: `https://i.postimg.cc/nhmyV9MY/Omnigender.png`,
+		postimg: `nhmyV9MY/Omnigender.png`,
 		tags: [`gender`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,multigender">Multigender</a> including every/almost every gender`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1065,9 +1065,9 @@ const genderButtonList = [
 	{
 		name: `Panagender`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/wNqJv7sk/Panagender.png`,
+		imgbb: `wNqJv7sk/Panagender.png`,
 		imgur: `9nPAxGR.png`,
-		postimg: `https://i.postimg.cc/d1J3jKgH/Panagender.png`,
+		postimg: `d1J3jKgH/Panagender.png`,
 		tags: [`gender`,`multigender`,`pangender`,`agender`], // tags for search/filtering
 		info: `<a href="?tags=gender,multigender">Multigender</a> that is both <a href="?tags=gender,pangender">pangender</a>
 			and <a href="?tags=gender,agender">agender</a>`, // optional extra info
@@ -1076,9 +1076,9 @@ const genderButtonList = [
 	{
 		name: `Pangender`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/cSmgC0gx/Pangender.png`,
+		imgbb: `cSmgC0gx/Pangender.png`,
 		imgur: `H5WeqZH.png`,
-		postimg: `https://i.postimg.cc/bJqr9j4V/Pangender.png`,
+		postimg: `bJqr9j4V/Pangender.png`,
 		tags: [`gender`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,multigender">Multigender</a> including every gender`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1087,9 +1087,9 @@ const genderButtonList = [
 		name: `Polygender`, // display name
 		altNames: [`Multigender`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/BHX3b9CT/Polygender.png`,
+		imgbb: `BHX3b9CT/Polygender.png`,
 		imgur: `iFKTxjy.png`,
-		postimg: `https://i.postimg.cc/SxmP41FS/Polygender.png`,
+		postimg: `SxmP41FS/Polygender.png`,
 		tags: [`gender`,`multigender`], // tags for search/filtering
 		info: `Describes someone who has <a href="?tags=gender,multigender">multiple distinct genders</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1098,9 +1098,9 @@ const genderButtonList = [
 		name: `Polygender`, // display name
 		altNames: [`Multigender`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name_2.png`, // local image source
-		imgbb: `https://i.ibb.co/DPgjn8md/Polygender-2.png`,
+		imgbb: `DPgjn8md/Polygender-2.png`,
 		imgur: `Mnk4d7f.png`,
-		postimg: `https://i.postimg.cc/W1syVYL2/Polygender-2.png`,
+		postimg: `W1syVYL2/Polygender-2.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`multigender`], // tags for search/filtering
 		info: `Describes someone who has <a href="?tags=gender,multigender">multiple distinct genders</a>`, // optional extra info
@@ -1145,7 +1145,7 @@ const genderButtonList = [
 		name: `Bigenderflux`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
 		imgbb: `fGVfz5K1/Bigenderflux.png`,
-		imgur: `https://i.imgur.com/BMgCP5W.png`,
+		imgur: `BMgCP5W.png`,
 		postimg: `1tcD9Fyj/Bigenderflux.png`,
 		tags: [`gender`,`genderflux`,`multigender`,`bigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,bigender">Bigender</a> identity that
@@ -1347,9 +1347,9 @@ const genderButtonList = [
 	{
 		name: `Multiflux`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/chtp06GR/Multiflux.png`,
+		imgbb: `chtp06GR/Multiflux.png`,
 		imgur: `ISaeN9q.png`,
-		postimg: `https://i.postimg.cc/rw4ByRzS/Multiflux.png`,
+		postimg: `rw4ByRzS/Multiflux.png`,
 		tags: [`gender`,`genderfluid`,`genderflux`,`multigender`], // tags for search/filtering
 		info: `Refers to someone who is <a href="?tags=gender,genderflux">genderflux</a> with multiple genders`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1374,9 +1374,9 @@ const genderButtonList = [
 		name: `Pangenderflux`, // display name
 		altNames: [`Panflux`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/tpgMvqh3/Pangenderflux.png`,
+		imgbb: `tpgMvqh3/Pangenderflux.png`,
 		imgur: `NvHA5oG.png`,
-		postimg: `https://i.postimg.cc/KzmjDyC9/Pangenderflux.png`,
+		postimg: `KzmjDyC9/Pangenderflux.png`,
 		tags: [`gender`,`genderfluid`,`genderflux`,`pangender`,`panfluid`,`multigender`,`multiflux`], // tags for search/filtering
 		info: `Refers to someone who feels all genders with <a href="?tags=gender,genderflux">fluctuating intensity</a> or fluctuates between
 			<a href="?tags=gender,pangender">pangender</a> and bigender/monogender/agender`, // optional extra info
@@ -1392,9 +1392,9 @@ const genderButtonList = [
 	{
 		name: `Polyfluid`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/Pv5BCmtg/Polyfluid.png`,
+		imgbb: `Pv5BCmtg/Polyfluid.png`,
 		imgur: `RHx3o4r.png`,
-		postimg: `https://i.postimg.cc/KzmjDyCW/Polyfluid.png`,
+		postimg: `KzmjDyCW/Polyfluid.png`,
 		tags: [`gender`,`genderfluid`,`polygender`,`multigender`], // tags for search/filtering
 		info: `Combination of <a href="?tags=gender,multigender">polygender</a> and <a href="?tags=gender,genderfluid">genderfluid</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -1402,9 +1402,9 @@ const genderButtonList = [
 	{
 		name: `Polyflux`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/7tRj2rJb/Polyflux.png`,
+		imgbb: `7tRj2rJb/Polyflux.png`,
 		imgur: `VhtlWEZ.png`,
-		postimg: `https://i.postimg.cc/0Q9j0qhF/Polyflux.png`,
+		postimg: `0Q9j0qhF/Polyflux.png`,
 		tags: [`gender`,`genderfluid`,`genderflux`,`polygender`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,multigender">Multiple genders</a> which <a href="?tags=gender,genderflux">fluctuate</a> in intensity`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -3026,9 +3026,9 @@ const xenogenderList = [
 		name: `Gendersmoothie`, // display name
 		altNames: [`Smoothiegender`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/jkrmjbBY/Gendersmoothie.png`,
+		imgbb: `jkrmjbBY/Gendersmoothie.png`,
 		imgur: `kax9CzC.png`,
-		postimg: `https://i.postimg.cc/mkQdfCmz/Gendersmoothie.png`,
+		postimg: `mkQdfCmz/Gendersmoothie.png`,
 		tags: [`gender`,`xenogender`,`gastrogender`,`food`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,gastrogender">Gastrogender</a> related to smoothies, and/or
 			<a href="?xenogender">xenogender</a> which blends multiple ingredients/genders together`, // optional extra info
@@ -3178,9 +3178,9 @@ const xenogenderList = [
 	{
 		name: `Alienbunnygender`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/GNwrMkC/Alienbunnygender.png`,
+		imgbb: `GNwrMkC/Alienbunnygender.png`,
 		imgur: `Dlv1d0n.png`,
-		postimg: `https://i.postimg.cc/6p6ZtnMY/Alienbunnygender.png`,
+		postimg: `6p6ZtnMY/Alienbunnygender.png`,
 		tags: [`gender`,`xenogender`,`aliengender`,`bunnygender`,`alien`,`bunny`,`rabbit`,`space`,`bigender`,`multigender`], // tags for search/filtering
 		info: `Combination of <a href="?tags=gender,aliengender">aliengender</a> and <a href="?tags=gender,bungender">bungender</a>
 			(may be a <a href="?tags=gender,bigender">bigender</a> identity)`, // optional extra info
@@ -3487,9 +3487,9 @@ const xenogenderList = [
 		name: `Colorgender`, // display name
 		altNames: [`Colourgender`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/pBq5r6zx/Colorgender.png`,
+		imgbb: `pBq5r6zx/Colorgender.png`,
 		imgur: `5yGEW0I.png`,
-		postimg: `https://i.postimg.cc/3wNY8x5H/Colorgender.png`,
+		postimg: `3wNY8x5H/Colorgender.png`,
 		tags: [`gender`,`xenogender`,`color`,`colour`], // tags for search/filtering
 		info: genderData.color.info, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -3498,9 +3498,9 @@ const xenogenderList = [
 		name: `Colorgender`, // display name
 		altNames: [`Colourgender`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name_2.png`, // local image source
-		imgbb: `https://i.ibb.co/6JVQ0Vz1/Colorgender-2.png`,
+		imgbb: `6JVQ0Vz1/Colorgender-2.png`,
 		imgur: `ZPBrrBf.png`,
-		postimg: `https://i.postimg.cc/YS0MrCKB/Colorgender-2.png`,
+		postimg: `YS0MrCKB/Colorgender-2.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`xenogender`,`color`,`colour`], // tags for search/filtering
 		info: genderData.color.info, // optional extra info
@@ -3510,9 +3510,9 @@ const xenogenderList = [
 		name: `Colorgender`, // display name
 		altNames: [`Colourgender`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name_3.png`, // local image source
-		imgbb: `https://i.ibb.co/wrzjcJ2x/Colorgender-3.png`,
+		imgbb: `wrzjcJ2x/Colorgender-3.png`,
 		imgur: `ZBfF1yE.png`,
-		postimg: `https://i.postimg.cc/8CcNpzQS/Colorgender-3.png`,
+		postimg: `8CcNpzQS/Colorgender-3.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`xenogender`,`color`,`colour`], // tags for search/filtering
 		info: genderData.color.info, // optional extra info
@@ -3522,9 +3522,9 @@ const xenogenderList = [
 		name: `Huegender`, // display name
 		altNames: [`Genderhue`], // optional alternate names, for search algorithms
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/7NgkmwT5/Huegender.png`,
+		imgbb: `7NgkmwT5/Huegender.png`,
 		imgur: `3hXFG4A.png`,
-		postimg: `https://i.postimg.cc/Sx9BQYjc/Huegender.png`,
+		postimg: `Sx9BQYjc/Huegender.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`hue`,`fluidflux`,`genderflux`,`genderfluid`,`multigender`], // tags for search/filtering
 		info: `<a href="?tags=gender,fluidflux">Fluidflux</a> gender that is a mix of all <a href="?tags=gender,colorgender">colorgenders</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -3555,9 +3555,9 @@ const xenogenderList = [
 	{
 		name: `Rainbowgender`, // display name
 		src: `/buttons/gender/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/f5qSXjg/Rainbowgender.png`,
+		imgbb: `f5qSXjg/Rainbowgender.png`,
 		imgur: `HD7k13P.png`,
-		postimg: `https://i.postimg.cc/SjFwcmv2/Rainbowgender.png`,
+		postimg: `SjFwcmv2/Rainbowgender.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`rainbow`,`multigender`], // tags for search/filtering
 		info: genderData.color.link + ` related to the color spectrum as a whole,
@@ -3567,9 +3567,9 @@ const xenogenderList = [
 	{
 		name: `Rainbowgender`, // display name
 		src: `/buttons/gender/%name_2.png`, // local image source
-		imgbb: `https://i.ibb.co/R46vqkD1/Rainbowgender-2.png`,
+		imgbb: `R46vqkD1/Rainbowgender-2.png`,
 		imgur: `3uv4Yns.png`,
-		postimg: `https://i.postimg.cc/CdTWbwQZ/Rainbowgender-2.png`,
+		postimg: `CdTWbwQZ/Rainbowgender-2.png`,
 		tags: [`gender`,`xenogender`,`colorgender`,`colourgender`,`color`,`colour`,`rainbow`,`multigender`], // tags for search/filtering
 		info: genderData.color.link + ` related to the color spectrum as a whole,
 			or a <a href="?multigender">multigender</a> that is all colorgenders at once`, // optional extra info
@@ -11307,7 +11307,7 @@ const MINList = [
 		name: `Bear`, // display name
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgbb: `ycZ7yyKs/Bear.png`,
-		imgur: `https://i.imgur.com/3pOdESR.png`,
+		imgur: `3pOdESR.png`,
 		postimg: `zXCZwRSP/Bear.png`,
 		tags: [`gender`,`orientation`,`MIN attraction`,`mlm`,`gay man`,`male`,`man`,`boy`,`achillean`], // tags for search/filtering
 		info: `Slang term for <a href="?tags=orientation,gay man|mlm">gay men/MLM</a> who embrace and subvert traditional masculinity
@@ -11959,7 +11959,7 @@ const mSpecList = [
 		name: `Courscatian`, // display name
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgbb: `zVgHydJ2/Courscatian.png`,
-		imgur: `https://i.imgur.com/w7SZzJI.png`,
+		imgur: `w7SZzJI.png`,
 		postimg: `xCFGZJsv/Courscatian.png`,
 		tags: [`orientation`,`multisexual`,`m-spec`,`fin attraction`,`min attraction`,`nin attraction`,`nblm`,`nblw`,`nblnb`,`mlw`,`mlm`,`achillean`,`mlnb`], // tags for search/filtering
 		info: `Refers to someone who is nonbinary and a man who is attracted to men, women, and nonbinary individuals
@@ -12475,7 +12475,7 @@ const aroAceList = [
 		altNames: [`Rat Asexual`], // optional alternate names, for search algorithms
 		src: `/buttons/orientation/%name.png`, // local image source
 		imgbb: `RTxr1fcN/Rat-Ace.png`,
-		imgur: `https://i.imgur.com/XtoF9ya.png`,
+		imgur: `XtoF9ya.png`,
 		postimg: `HkzwDXsv/Rat-Ace.png`,
 		tags: orientData.ace.tags.concat([`bambi`,`a-spec`,`asexual`,`ace spectrum`]), // tags for search/filtering
 		info: `An <a href="?tags=orientation,ace spectrum">ace-spec</a>` + orientData.bambi.aceInfo, // optional extra info
@@ -12560,9 +12560,9 @@ const aroAceList = [
 	{
 		name: `Hetero Ace`, // display name
 		src: `/buttons/orientation/%name.png`, // local image source
-		imgbb: `https://i.ibb.co/zWf90NCv/Hetero-Ace.png`,
-		imgur: `https://i.imgur.com/fMAHqYF.png`,
-		postimg: `https://i.postimg.cc/25yXK4bm/Hetero-Ace.png`,
+		imgbb: `zWf90NCv/Hetero-Ace.png`,
+		imgur: `fMAHqYF.png`,
+		postimg: `25yXK4bm/Hetero-Ace.png`,
 		tags: orientData.ace.tags.concat([`straight`,`hetero`,`heteroromantic`]), // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -13065,7 +13065,7 @@ const aroAceList = [
 		dateAdded: `2026-09-03`, // date this button was first added to the masterlist
 		src: `/buttons/orientation/%name_alt.png`, // local image source
 		imgbb: `zVTQmZqw/Aroflux-alt.png`,
-		imgur: `https://i.imgur.com/958BHpC.png`,
+		imgur: `958BHpC.png`,
 		postimg: `ZqxRZmYf/Aroflux-alt.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`orientation`,`a-spec`,`aro spectrum`,`aromantic`,`aro`,`flux`,`fluid`], // tags for search/filtering
@@ -16643,7 +16643,9 @@ const subspeciesList = [
 	{
 		name: `Drink Dragons: Coffee`, // display name
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
+		imgbb: `277DC3Zc/Drink-Dragons-Coffee.png`,
 		imgur: `Kn2Fjf4.png`,
+		postimg: `L4CNv1Xs/Drink-Dragons-Coffee.png`,
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
 		info: subspeciesData.drinkDragons.info, // optional extra info
 		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
@@ -16676,7 +16678,9 @@ const subspeciesList = [
 	{
 		name: `Drink Dragons: Tea`, // display name
 		src: `/buttons/FR/subspecies/%name.png`, // local image source
-		imgur: `Bmki0B9.png`,
+		imgbb: `LD54Xm6K/Drink-Dragons-Tea.png`,
+		imgur: `yceBaTc.png`,
+		postimg: `66jYzv3p/Drink-Dragons-Tea.png`,
 		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
 		info: subspeciesData.drinkDragons.info, // optional extra info
 		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
@@ -20321,9 +20325,9 @@ const healthList = [
 	{
 		name: `ADD`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/tMMfQj9g/ADD.png`,
-		imgur: `https://i.imgur.com/OPlf76y.png`,
-		postimg: `https://i.postimg.cc/0NYw9NQ3/ADD.png`,
+		imgbb: `tMMfQj9g/ADD.png`,
+		imgur: `OPlf76y.png`,
+		postimg: `0NYw9NQ3/ADD.png`,
 		tags: healthData.adhd.tags, // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Neurodiversity infinity` // description of the flag/icon
@@ -20331,9 +20335,9 @@ const healthList = [
 	{
 		name: `ADHD`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/9kYFc9P1/ADHD.png`,
-		imgur: `https://i.imgur.com/gUe2de3.png`,
-		postimg: `https://i.postimg.cc/hGWmFmDK/ADHD.png`,
+		imgbb: `9kYFc9P1/ADHD.png`,
+		imgur: `gUe2de3.png`,
+		postimg: `hGWmFmDK/ADHD.png`,
 		tags: healthData.adhd.tags, // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Neurodiversity infinity` // description of the flag/icon
@@ -20342,9 +20346,9 @@ const healthList = [
 		name: `ADHD`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/HTHQtdDW/ADHD-flag.png`,
-		imgur: `https://i.imgur.com/DoQJ9XF.png`,
-		postimg: `https://i.postimg.cc/g0VZG0J1/ADHD-flag.png`,
+		imgbb: `HTHQtdDW/ADHD-flag.png`,
+		imgur: `DoQJ9XF.png`,
+		postimg: `g0VZG0J1/ADHD-flag.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: healthData.adhd.tags, // tags for search/filtering
 		info: ``, // optional extra info
@@ -20354,9 +20358,9 @@ const healthList = [
 		name: `ADHD`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_butterfly.png`, // local image source
-		imgbb: `https://i.ibb.co/qM3YmB7V/ADHD-butterfly.png`,
-		imgur: `https://i.imgur.com/N2r2kW8.png`,
-		postimg: `https://i.postimg.cc/Lst1msXw/ADHD-butterfly.png`,
+		imgbb: `qM3YmB7V/ADHD-butterfly.png`,
+		imgur: `N2r2kW8.png`,
+		postimg: `Lst1msXw/ADHD-butterfly.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: healthData.adhd.tags, // tags for search/filtering
 		info: ``, // optional extra info
@@ -20365,9 +20369,9 @@ const healthList = [
 	{
 		name: `Autistic`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/6cj5kQjt/Autistic.png`,
-		imgur: `https://i.imgur.com/G8AyR6r.png`,
-		postimg: `https://i.postimg.cc/VvC1cJsF/Autistic.png`,
+		imgbb: `6cj5kQjt/Autistic.png`,
+		imgur: `G8AyR6r.png`,
+		postimg: `VvC1cJsF/Autistic.png`,
 		tags: healthData.autism.tags, // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Neurodiversity infinity` // description of the flag/icon
@@ -20375,9 +20379,9 @@ const healthList = [
 	{
 		name: `Auttie`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/TsV6TCr/Auttie.png`,
-		imgur: `https://i.imgur.com/5Q9j6nF.png`,
-		postimg: `https://i.postimg.cc/KjMFy1cD/Auttie.png`,
+		imgbb: `TsV6TCr/Auttie.png`,
+		imgur: `5Q9j6nF.png`,
+		postimg: `KjMFy1cD/Auttie.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`autism`,`autistic`], // tags for search/filtering
 		info: `Nickname for <a href="?tags=autism">autistic</a> people`, // optional extra info
@@ -20386,9 +20390,9 @@ const healthList = [
 	{
 		name: `Aspie`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/WNSvWk0p/Aspie.png`,
-		imgur: `https://i.imgur.com/OnYplFN.png`,
-		postimg: `https://i.postimg.cc/qq30dNBL/Aspie.png`,
+		imgbb: `WNSvWk0p/Aspie.png`,
+		imgur: `OnYplFN.png`,
+		postimg: `qq30dNBL/Aspie.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: [`autism`,`autistic`,`asperger's`], // tags for search/filtering
 		info: `Nickname for <a href="?tags=autism">autistic</a> people (based on Asperger's Syndrome)`, // optional extra info
@@ -20397,9 +20401,9 @@ const healthList = [
 	{
 		name: `AuDHD`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/kgrmf6rQ/Au-DHD.png`,
-		imgur: `https://i.imgur.com/ypcKWM0.png`,
-		postimg: `https://i.postimg.cc/bNPNjRbz/Au-DHD.png`,
+		imgbb: `kgrmf6rQ/Au-DHD.png`,
+		imgur: `ypcKWM0.png`,
+		postimg: `bNPNjRbz/Au-DHD.png`,
 		tags: healthData.autism.tags.concat([`adhd`]), // tags for search/filtering
 		info: `Describes the combined experience of having both autism and ADHD`, // optional extra info
 		icon: `Neurodiversity infinity` // description of the flag/icon
@@ -20408,9 +20412,9 @@ const healthList = [
 		name: `AuDHD`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/39Nfyh8n/Au-DHD-flag.png`,
-		imgur: `https://i.imgur.com/bCuiqGR.png`,
-		postimg: `https://i.postimg.cc/Yq7qwxgr/Au-DHD-flag.png`,
+		imgbb: `39Nfyh8n/Au-DHD-flag.png`,
+		imgur: `bCuiqGR.png`,
+		postimg: `Yq7qwxgr/Au-DHD-flag.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: healthData.autism.tags.concat([`adhd`]), // tags for search/filtering
 		info: `Describes the combined experience of having both autism and ADHD`, // optional extra info
@@ -20441,7 +20445,7 @@ const systemList = [
 		name: `Alter`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_star.png`, // local image source
-		imgbb: `https://i.ibb.co/wNpKyC2d/Alter-star.png`,
+		imgbb: `wNpKyC2d/Alter-star.png`,
 		imgur: `qjk5EY4.png`,
 		postimg: `TPSNymX1/Alter-star.png`,
 		tags: [`did`,`osdd`,`headmate`], // tags for search/filtering
@@ -20451,9 +20455,9 @@ const systemList = [
 	{
 		name: `System Alter`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/LX5tycD3/System-Alter.png`,
-		imgur: `https://i.imgur.com/JiVZDdG.png`,
-		postimg: `https://i.postimg.cc/zXWbCjZQ/System-Alter.png`,
+		imgbb: `LX5tycD3/System-Alter.png`,
+		imgur: `JiVZDdG.png`,
+		postimg: `zXWbCjZQ/System-Alter.png`,
 		tags: [`did`,`osdd`,`headmate`,`alter`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Dissociation multicolor` // description of the flag/icon
@@ -20462,9 +20466,9 @@ const systemList = [
 		name: `System Alter`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `https://i.ibb.co/tTqPxC5c/System-Alter-and.png`,
-		imgur: `https://i.imgur.com/0g9tDKz.png`,
-		postimg: `https://i.postimg.cc/TYmLV9MF/System-Alter-and.png`,
+		imgbb: `tTqPxC5c/System-Alter-and.png`,
+		imgur: `0g9tDKz.png`,
+		postimg: `TYmLV9MF/System-Alter-and.png`,
 		tags: [`did`,`osdd`,`headmate`,`alter`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plural &` // description of the flag/icon
@@ -20473,9 +20477,9 @@ const systemList = [
 		name: `System Alter`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/qYh8kbcS/System-Alter-flag.png`,
-		imgur: `https://i.imgur.com/oFyJJxL.png`,
-		postimg: `https://i.postimg.cc/ZK3B8ctg/System-Alter-flag.png`,
+		imgbb: `qYh8kbcS/System-Alter-flag.png`,
+		imgur: `oFyJJxL.png`,
+		postimg: `ZK3B8ctg/System-Alter-flag.png`,
 		tags: [`did`,`osdd`,`headmate`,`alter`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `System flag` // description of the flag/icon
@@ -20483,9 +20487,9 @@ const systemList = [
 	{
 		name: `System Host`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/5WfbtqGR/System-Host.png`,
-		imgur: `https://i.imgur.com/pBi4xQl.png`,
-		postimg: `https://i.postimg.cc/65R2r0xJ/System-Host.png`,
+		imgbb: `5WfbtqGR/System-Host.png`,
+		imgur: `pBi4xQl.png`,
+		postimg: `65R2r0xJ/System-Host.png`,
 		tags: [`did`,`osdd`,`headmate`,`alter`,`host`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Dissociation multicolor` // description of the flag/icon
@@ -20494,9 +20498,9 @@ const systemList = [
 		name: `System Host`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `https://i.ibb.co/jP5S2bbt/System-Host-and.png`,
-		imgur: `https://i.imgur.com/1bSJVgF.png`,
-		postimg: `https://i.postimg.cc/7Y7G3Vrr/System-Host-and.png`,
+		imgbb: `jP5S2bbt/System-Host-and.png`,
+		imgur: `1bSJVgF.png`,
+		postimg: `7Y7G3Vrr/System-Host-and.png`,
 		tags: [`did`,`osdd`,`headmate`,`alter`,`host`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plural &` // description of the flag/icon
@@ -20505,9 +20509,9 @@ const systemList = [
 		name: `System Host`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/gb9t71xT/System-Host-flag.png`,
-		imgur: `https://i.imgur.com/nob45LW.png`,
-		postimg: `https://i.postimg.cc/c4YgRmy5/System-Host-flag.png`,
+		imgbb: `gb9t71xT/System-Host-flag.png`,
+		imgur: `nob45LW.png`,
+		postimg: `c4YgRmy5/System-Host-flag.png`,
 		tags: [`did`,`osdd`,`headmate`,`alter`,`host`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `System flag` // description of the flag/icon
@@ -20515,9 +20519,9 @@ const systemList = [
 	{
 		name: `Headmate`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/gLNWRPCL/Headmate.png`,
-		imgur: `https://i.imgur.com/uqhcO75.png`,
-		postimg: `https://i.postimg.cc/3J1fxKyj/Headmate.png`,
+		imgbb: `gLNWRPCL/Headmate.png`,
+		imgur: `uqhcO75.png`,
+		postimg: `3J1fxKyj/Headmate.png`,
 		tags: [`did`,`osdd`,`alter`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Dissociation multicolor` // description of the flag/icon
@@ -20526,9 +20530,9 @@ const systemList = [
 		name: `Headmate`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `https://i.ibb.co/Df6L2J2H/Headmate-and.png`,
-		imgur: `https://i.imgur.com/ddqh02Z.png`,
-		postimg: `https://i.postimg.cc/gkst2Ywq/Headmate-and.png`,
+		imgbb: `Df6L2J2H/Headmate-and.png`,
+		imgur: `ddqh02Z.png`,
+		postimg: `gkst2Ywq/Headmate-and.png`,
 		tags: [`did`,`osdd`,`alter`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plural &` // description of the flag/icon
@@ -20537,9 +20541,9 @@ const systemList = [
 		name: `Headmate`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/jkqvmfMH/Headmate-flag.png`,
-		imgur: `https://i.imgur.com/dxRoDDW.png`,
-		postimg: `https://i.postimg.cc/BQp7nq8B/Headmate-flag.png`,
+		imgbb: `jkqvmfMH/Headmate-flag.png`,
+		imgur: `dxRoDDW.png`,
+		postimg: `BQp7nq8B/Headmate-flag.png`,
 		tags: [`did`,`osdd`,`alter`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `System flag` // description of the flag/icon
@@ -20548,7 +20552,7 @@ const systemList = [
 		name: `Headmate`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_star.png`, // local image source
-		imgbb: `https://i.ibb.co/7tshdFCR/Headmate-star.png`,
+		imgbb: `7tshdFCR/Headmate-star.png`,
 		imgur: `YzoYSnY.png`,
 		postimg: `6qVZXs0Q/Headmate.png`,
 		tags: [`did`,`osdd`,`alter`], // tags for search/filtering
@@ -20558,7 +20562,7 @@ const systemList = [
 	{
 		name: `OSDD-1B`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/BH88hHRK/OSDD-1B.png`,
+		imgbb: `BH88hHRK/OSDD-1B.png`,
 		imgur: `MtNlSI4.png`,
 		postimg: `cLWvS5gL/OSDD-1B.png`,
 		tags: [`osdd`], // tags for search/filtering
@@ -20569,7 +20573,7 @@ const systemList = [
 		name: `OSDD-1B`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `https://i.ibb.co/LXZ2FJyt/OSDD-1-B-and.png`,
+		imgbb: `LXZ2FJyt/OSDD-1-B-and.png`,
 		imgur: `x3fTXXj.png`,
 		postimg: `T3xK6HLP/OSDD-1B-and.png`,
 		tags: [`osdd`], // tags for search/filtering
@@ -20580,7 +20584,7 @@ const systemList = [
 		name: `OSDD-1B`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/Q7tHRX8C/OSDD-1-B-flag.png`,
+		imgbb: `Q7tHRX8C/OSDD-1-B-flag.png`,
 		imgur: `urhsAAL.png`,
 		postimg: `LsdmzqSG/OSDD-1B-flag.png`,
 		tags: [`osdd`], // tags for search/filtering
@@ -20591,7 +20595,7 @@ const systemList = [
 		name: `DID System`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_&.png`, // local image source
-		imgbb: `https://i.ibb.co/TBFv56pd/DID-System.png`,
+		imgbb: `TBFv56pd/DID-System.png`,
 		imgur: `ElKYM7J.png`,
 		postimg: `PqGdmLHc/DID-System.png`,
 		tags: [`did`], // tags for search/filtering
@@ -20601,7 +20605,7 @@ const systemList = [
 	{
 		name: `DID System`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/5XGfS8yn/DID-System.png`,
+		imgbb: `5XGfS8yn/DID-System.png`,
 		postimg: `1zxypgSd/DID-System.png`,
 		imgur: `BZnhUNi.png`,
 		tags: [`did`], // tags for search/filtering
@@ -20612,7 +20616,7 @@ const systemList = [
 		name: `DID System`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/3ymkMd5c/DID-System-flag.png`,
+		imgbb: `3ymkMd5c/DID-System-flag.png`,
 		imgur: `kAof1pc.png`,
 		postimg: `bvXqQGPW/DID-System-flag.png`,
 		tags: [`did`], // tags for search/filtering
@@ -20622,7 +20626,7 @@ const systemList = [
 	{
 		name: `Dissociative`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/DfzHKsq9/Dissociative.png`,
+		imgbb: `DfzHKsq9/Dissociative.png`,
 		imgur: `HslJD2N.png`,
 		postimg: `MG43cR8X/Dissociative.png`,
 		tags: [`dissociation`], // tags for search/filtering
@@ -20633,7 +20637,7 @@ const systemList = [
 		name: `Dissociative`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_ribbon.png`, // local image source
-		imgbb: `https://i.ibb.co/0pVbZ1r6/Dissociative-ribbon.png`,
+		imgbb: `0pVbZ1r6/Dissociative-ribbon.png`,
 		imgur: `faKBo3F.png`,
 		postimg: `g05twRPJ/Dissociative-ribbon.png`,
 		tags: [`dissociation`], // tags for search/filtering
@@ -20643,7 +20647,7 @@ const systemList = [
 	{
 		name: `System`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/60SXrCXc/System.png`,
+		imgbb: `60SXrCXc/System.png`,
 		imgur: `oRkijoy.png`,
 		postimg: `286WttZM/System.png`,
 		tags: [`did`,`osdd`], // tags for search/filtering
@@ -20654,7 +20658,7 @@ const systemList = [
 		name: `System`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `https://i.ibb.co/4gNR2mhM/System-and.png`,
+		imgbb: `4gNR2mhM/System-and.png`,
 		imgur: `4xqaZpf.png`,
 		postimg: `m2D9nnHn/System-and.png`,
 		tags: [`did`,`osdd`], // tags for search/filtering
@@ -20665,7 +20669,7 @@ const systemList = [
 		name: `System`, // display name
 		dateAdded: `2026-08-26`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/JFgLRDH6/System-flag.png`,
+		imgbb: `JFgLRDH6/System-flag.png`,
 		imgur: `z0ukAzB.png`,
 		postimg: `FsRS66Lq/System-flag.png`,
 		tags: [`did`,`osdd`], // tags for search/filtering
@@ -20675,9 +20679,9 @@ const systemList = [
 	{
 		name: `Fictive`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/SDr3vYk1/Fictive.png`,
-		imgur: `https://i.imgur.com/7NmvzxK.png`,
-		postimg: `https://i.postimg.cc/DZ5nc9jY/Fictive.png`,
+		imgbb: `SDr3vYk1/Fictive.png`,
+		imgur: `7NmvzxK.png`,
+		postimg: `DZ5nc9jY/Fictive.png`,
 		tags: [`alter`,`headmate`,`introject`], // tags for search/filtering
 		info: ` based on a <a href="?tags=fictive">fictional source</a>`, // optional extra info
 		icon: `Dissociation multicolor` // description of the flag/icon
@@ -20686,9 +20690,9 @@ const systemList = [
 		name: `Fictive`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `https://i.ibb.co/ZpjL2VxJ/Fictive-and.png`,
-		imgur: `https://i.imgur.com/4HOEJot.png`,
-		postimg: `https://i.postimg.cc/ZRj4LG7g/Fictive-and.png`,
+		imgbb: `ZpjL2VxJ/Fictive-and.png`,
+		imgur: `4HOEJot.png`,
+		postimg: `ZRj4LG7g/Fictive-and.png`,
 		tags: [`alter`,`headmate`,`introject`], // tags for search/filtering
 		info: ` based on a <a href="?tags=fictive">fictional source</a>`, // optional extra info
 		icon: `Plural &` // description of the flag/icon
@@ -20697,9 +20701,9 @@ const systemList = [
 		name: `Fictive`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_system_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/Wpkf6WWf/Fictive-system-flag.png`,
-		imgur: `https://i.imgur.com/ffVTict.png`,
-		postimg: `https://i.postimg.cc/bJLpR7C5/Fictive-system-flag.png`,
+		imgbb: `Wpkf6WWf/Fictive-system-flag.png`,
+		imgur: `ffVTict.png`,
+		postimg: `bJLpR7C5/Fictive-system-flag.png`,
 		tags: [`alter`,`headmate`,`introject`], // tags for search/filtering
 		info: ` based on a <a href="?tags=fictive">fictional source</a>`, // optional extra info
 		icon: `System flag` // description of the flag/icon
@@ -20708,9 +20712,9 @@ const systemList = [
 		name: `Fictive`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/fzn45qh4/Fictive-flag.png`,
-		imgur: `https://i.imgur.com/iO5oBex.png`,
-		postimg: `https://i.postimg.cc/JnKMQf69/Fictive-flag.png`,
+		imgbb: `fzn45qh4/Fictive-flag.png`,
+		imgur: `iO5oBex.png`,
+		postimg: `JnKMQf69/Fictive-flag.png`,
 		tags: [`alter`,`headmate`,`introject`], // tags for search/filtering
 		info: ` based on a <a href="?tags=fictive">fictional source</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -20719,9 +20723,9 @@ const systemList = [
 		name: `Fictive`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_flag_2.png`, // local image source
-		imgbb: `https://i.ibb.co/6RkCJfnS/Fictive-flag-2.png`,
-		imgur: `https://i.imgur.com/PGn7OQn.png`,
-		postimg: `https://i.postimg.cc/bJLpR7CB/Fictive-flag-2.png`,
+		imgbb: `6RkCJfnS/Fictive-flag-2.png`,
+		imgur: `PGn7OQn.png`,
+		postimg: `bJLpR7CB/Fictive-flag-2.png`,
 		tags: [`alter`,`headmate`,`introject`], // tags for search/filtering
 		info: ` based on a <a href="?tags=fictive">fictional source</a>`, // optional extra info
 		icon: `flag alt` // description of the flag/icon
@@ -20730,9 +20734,9 @@ const systemList = [
 		name: `Fictive-Heavy System`, // display name
 		altNames: [`Fictive-Heavy`],
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/352SS147/Fictive-Heavy-System.png`,
-		imgur: `https://i.imgur.com/DqTaghs.png`,
-		postimg: `https://i.postimg.cc/y8VqLQRn/Fictive-Heavy-System.png`,
+		imgbb: `352SS147/Fictive-Heavy-System.png`,
+		imgur: `DqTaghs.png`,
+		postimg: `y8VqLQRn/Fictive-Heavy-System.png`,
 		tags: [`fictive`], // tags for search/filtering
 		info: `<a href="?tags=system">System</a> with a large number of <a href="?tags=fictive">fictives</a>`, // optional extra info
 		icon: `Dissociation multicolor` // description of the flag/icon
@@ -20742,9 +20746,9 @@ const systemList = [
 		altNames: [`Fictive-Heavy`],
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `https://i.ibb.co/C35MRQM8/Fictive-Heavy-System-and.png`,
-		imgur: `https://i.imgur.com/guTHexU.png`,
-		postimg: `https://i.postimg.cc/QdXLf47f/Fictive-Heavy-System-and.png`,
+		imgbb: `C35MRQM8/Fictive-Heavy-System-and.png`,
+		imgur: `guTHexU.png`,
+		postimg: `QdXLf47f/Fictive-Heavy-System-and.png`,
 		tags: [`fictive`], // tags for search/filtering
 		info: `<a href="?tags=system">System</a> with a large number of <a href="?tags=fictive">fictives</a>`, // optional extra info
 		icon: `Plural &` // description of the flag/icon
@@ -20754,9 +20758,9 @@ const systemList = [
 		altNames: [`Fictive-Heavy`],
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_system_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/HfQVznHG/Fictive-Heavy-System-system-flag.png`,
-		imgur: `https://i.imgur.com/UTCJMtj.png`,
-		postimg: `https://i.postimg.cc/y8VqLQRv/Fictive-Heavy-System-system-flag.png`,
+		imgbb: `HfQVznHG/Fictive-Heavy-System-system-flag.png`,
+		imgur: `UTCJMtj.png`,
+		postimg: `y8VqLQRv/Fictive-Heavy-System-system-flag.png`,
 		tags: [`fictive`], // tags for search/filtering
 		info: `<a href="?tags=system">System</a> with a large number of <a href="?tags=fictive">fictives</a>`, // optional extra info
 		icon: `System flag` // description of the flag/icon
@@ -20766,9 +20770,9 @@ const systemList = [
 		altNames: [`Fictive-Heavy`],
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/cc3QRhYG/Fictive-Heavy-System-flag.png`,
-		imgur: `https://i.imgur.com/KoydA5p.png`,
-		postimg: `https://i.postimg.cc/4xJCWLcP/Fictive-Heavy-System-flag.png`,
+		imgbb: `cc3QRhYG/Fictive-Heavy-System-flag.png`,
+		imgur: `KoydA5p.png`,
+		postimg: `4xJCWLcP/Fictive-Heavy-System-flag.png`,
 		tags: [`fictive`], // tags for search/filtering
 		info: `<a href="?tags=system">System</a> with a large number of <a href="?tags=fictive">fictives</a>`, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -20777,9 +20781,9 @@ const systemList = [
 		name: `Endo System`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `https://i.ibb.co/TQnNhbL/Endo-System-and.png`,
-		imgur: `https://i.imgur.com/odw26C3.png`,
-		postimg: `https://i.postimg.cc/J4KKLMtn/Endo-System-and.png`,
+		imgbb: `TQnNhbL/Endo-System-and.png`,
+		imgur: `odw26C3.png`,
+		postimg: `J4KKLMtn/Endo-System-and.png`,
 		tags: [`endogenic`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plural &` // description of the flag/icon
@@ -20788,9 +20792,9 @@ const systemList = [
 		name: `Endogenic`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `https://i.ibb.co/nshC7qfC/Endogenic-and.png`,
-		imgur: `https://i.imgur.com/YcI0Mew.png`,
-		postimg: `https://i.postimg.cc/kXwwmqD5/Endogenic-and.png`,
+		imgbb: `nshC7qfC/Endogenic-and.png`,
+		imgur: `YcI0Mew.png`,
+		postimg: `kXwwmqD5/Endogenic-and.png`,
 		tags: [`endogenic`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plural &` // description of the flag/icon
@@ -20799,9 +20803,9 @@ const systemList = [
 		name: `Parogenic`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `https://i.ibb.co/pv5f7Mpv/Parogenic-and.png`,
-		imgur: `https://i.imgur.com/6Fese5v.png`,
-		postimg: `https://i.postimg.cc/SNVVhkjR/Parogenic-and.png`,
+		imgbb: `pv5f7Mpv/Parogenic-and.png`,
+		imgur: `6Fese5v.png`,
+		postimg: `SNVVhkjR/Parogenic-and.png`,
 		tags: [`endogenic`,`parogenic`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plural &` // description of the flag/icon
@@ -20810,9 +20814,9 @@ const systemList = [
 		name: `Parogenic`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/39f7V2pT/Parogenic-flag.png`,
-		imgur: `https://i.imgur.com/6mkfuIj.png`,
-		postimg: `https://i.postimg.cc/5NppVbjj/Parogenic-flag.png`,
+		imgbb: `39f7V2pT/Parogenic-flag.png`,
+		imgur: `6mkfuIj.png`,
+		postimg: `5NppVbjj/Parogenic-flag.png`,
 		tags: [`endogenic`,`parogenic`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -20821,9 +20825,9 @@ const systemList = [
 		name: `Parogenic Plural`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `https://i.ibb.co/ccGB8dk2/Parogenic-Plural-and.png`,
-		imgur: `https://i.imgur.com/ZIG0rXL.png`,
-		postimg: `https://i.postimg.cc/fT55NDkV/Parogenic-Plural-and.png`,
+		imgbb: `ccGB8dk2/Parogenic-Plural-and.png`,
+		imgur: `ZIG0rXL.png`,
+		postimg: `fT55NDkV/Parogenic-Plural-and.png`,
 		tags: [`endogenic`,`parogenic`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plural &` // description of the flag/icon
@@ -20832,9 +20836,9 @@ const systemList = [
 		name: `Soulbond`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_flag.png`, // local image source
-		imgbb: `https://i.ibb.co/wNf5Jzfb/Soulbond-flag.png`,
-		imgur: `https://i.imgur.com/eSokEpO.png`,
-		postimg: `https://i.postimg.cc/9QMbXKqV/Soulbond-flag.png`,
+		imgbb: `wNf5Jzfb/Soulbond-flag.png`,
+		imgur: `eSokEpO.png`,
+		postimg: `9QMbXKqV/Soulbond-flag.png`,
 		tags: [`endogenic`,`headmate`,`soulbond`,`walk-in`,`fictive`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `flag` // description of the flag/icon
@@ -20843,9 +20847,9 @@ const systemList = [
 		name: `Soulbond`, // display name
 		dateAdded: `2026-09-09`, // date this button was first added to the masterlist
 		src: `%name_and.png`, // local image source
-		imgbb: `https://i.ibb.co/4wPcNNq0/Soulbond-and.png`,
-		imgur: `https://i.imgur.com/ALxwFx3.png`,
-		postimg: `https://i.postimg.cc/L8XD4wZ2/Soulbond-and.png`,
+		imgbb: `4wPcNNq0/Soulbond-and.png`,
+		imgur: `ALxwFx3.png`,
+		postimg: `L8XD4wZ2/Soulbond-and.png`,
 		tags: [`endogenic`,`headmate`,`soulbond`,`walk-in`,`fictive`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Plural &` // description of the flag/icon
@@ -21858,9 +21862,21 @@ const interestsList = [
 	{
 		name: `Tea`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
-		alt: `%name`,
 		src: `/buttons/interests/food/%name.png`, // local image source
-		imgur: `ioHnU6S.png`,
+		imgbb: `fYrGvN7n/Tea.png`,
+		imgur: `nP8zFn2.png`,
+		postimg: `7Zy7NHg4/Tea.png`,
+		tags: [`interests`,`food`,`drink`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Tea mug` // description of the flag/icon
+	},
+	{
+		name: `Tea Lover`, // display name
+		dateAdded: `2026-09-14`, // date this button was first added to the masterlist
+		src: `/buttons/interests/food/%name.png`, // local image source
+		imgbb: `B50H9FMN/Tea-Lover.png`,
+		imgur: `QJSlVKm.png`,
+		postimg: `T3Xmcdr6/Tea-Lover.png`,
 		tags: [`interests`,`food`,`drink`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Tea mug` // description of the flag/icon
@@ -21868,9 +21884,21 @@ const interestsList = [
 	{
 		name: `Coffee`, // display name
 		dateAdded: `2024-02-17`, // date this button was first added to the masterlist
-		alt: `%name`,
 		src: `/buttons/interests/food/%name.png`, // local image source
+		imgbb: `Rp5jHnpF/Coffee.png`,
 		imgur: `0CD2sOu.png`,
+		postimg: `13Z6KmpZ/Coffee.png`,
+		tags: [`interests`,`food`,`drink`], // tags for search/filtering
+		info: ``, // optional extra info
+		icon: `Coffee mug` // description of the flag/icon
+	},
+	{
+		name: `Coffee Lover`, // display name
+		dateAdded: `2026-09-14`, // date this button was first added to the masterlist
+		src: `/buttons/interests/food/%name.png`, // local image source
+		imgbb: `b8Y4VNt/Coffee-Lover.png`,
+		imgur: `ncn0jvH.png`,
+		postimg: `SKP60wn3/Coffee-Lover.png`,
 		tags: [`interests`,`food`,`drink`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Coffee mug` // description of the flag/icon
@@ -22615,7 +22643,7 @@ const interestsList = [
 		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
 		src: `/buttons/interests/%name.png`, // local image source
 		imgbb: `cKpMzcgD/Venom.png`,
-		imgur: `https://i.imgur.com/UPLTMAL.png`,
+		imgur: `UPLTMAL.png`,
 		postimg: `MTCgxXp0/Venom.png`,
 		tags: interestsData.mcu.tags.concat([`venom`]), // tags for search/filtering
 		info: interestsData.marvel.link + ` character`, // optional extra info
@@ -22736,7 +22764,7 @@ const booksList = [
 		dateAdded: `2026-08-30`, // date this button was first added to the masterlist
 		src: `%name_Glory.png`,
 		imgbb: `bgknfWL3/Wings-of-Fire.png`,
-		imgur: `https://i.imgur.com/HTUpR65.png`,
+		imgur: `HTUpR65.png`,
 		postimg: `7ZShyTPX/Wings-of-Fire.png`,
 		inFRPost: false, // whether this button should be included in the FR masterlist
 		tags: booksData.tags.concat([`dragon`]), // tags for search/filtering
@@ -26540,9 +26568,9 @@ const aestheticList = [
 	{
 		name: `Light Academia`, // display name
 		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/tMM4mV4x/Light-Academia.png`,
-		imgur: `https://i.imgur.com/LRJK4Dh.png`,
-		postimg: `https://i.postimg.cc/bwbwBbj3/Light-Academia.png`,
+		imgbb: `tMM4mV4x/Light-Academia.png`,
+		imgur: `LRJK4Dh.png`,
+		postimg: `bwbwBbj3/Light-Academia.png`,
 		tags: [`aesthetic`,`academia`,`academic`,`books`], // tags for search/filtering
 		info: `<a href="?tags=aesthetic">Aesthetic</a>`, // optional extra info
 		icon: `Book pile` // description of the flag/icon
@@ -26933,9 +26961,9 @@ const aestheticList = [
 	{
 		name: `Kidcore`, // display name
 		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/cSy3SVsT/Kidcore.png`,
-		imgur: `https://i.imgur.com/echRchh.png`,
-		postimg: `https://i.postimg.cc/FHmHwzs1/Kidcore.png`,
+		imgbb: `cSy3SVsT/Kidcore.png`,
+		imgur: `echRchh.png`,
+		postimg: `FHmHwzs1/Kidcore.png`,
 		tags: [`aesthetic`,`core`,`kid`,`child`,`fashion`], // tags for search/filtering
 		info: `<a href="?tags=aesthetic">Aesthetic</a> and <a href="?tags=fashion">fashion</a> style`, // optional extra info
 		icon: `Toy blocks` // description of the flag/icon
@@ -26944,9 +26972,9 @@ const aestheticList = [
 		name: `Liminal Space`, // display name
 		altNames: [`Liminality`,`Liminalcore`,`Liminal Aesthetic`,`Anemoiacore`],
 		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/tppswhqx/Liminal-Space.png`,
-		imgur: `https://i.imgur.com/fsKmPCy.png`,
-		postimg: `https://i.postimg.cc/SRpBjXPF/Liminal-Space.png`,
+		imgbb: `tppswhqx/Liminal-Space.png`,
+		imgur: `fsKmPCy.png`,
+		postimg: `SRpBjXPF/Liminal-Space.png`,
 		tags: [`aesthetic`,`horror`,`backrooms`], // tags for search/filtering
 		info: `<a href="?tags=aesthetic">Aesthetic</a> relating to empty transitional areas`, // optional extra info
 		icon: `Empty hallway` // description of the flag/icon
@@ -26954,9 +26982,9 @@ const aestheticList = [
 	{
 		name: `Lisafrankcore`, // display name
 		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/cK4n53LH/Lisafrankcore.png`,
-		imgur: `https://i.imgur.com/5UADvEl.png`,
-		postimg: `https://i.postimg.cc/t4P4MPHB/Lisafrankcore.png`,
+		imgbb: `cK4n53LH/Lisafrankcore.png`,
+		imgur: `5UADvEl.png`,
+		postimg: `t4P4MPHB/Lisafrankcore.png`,
 		tags: [`aesthetic`,`core`,`lisa frank`,`neon`,`colorful`], // tags for search/filtering
 		info: `<a href="?tags=aesthetic">Aesthetic</a> relating to <a href="?tags=lisa frank">Lisa Frank</a?'s artwork`, // optional extra info
 		icon: `Neon leopard spots` // description of the flag/icon
@@ -26964,9 +26992,9 @@ const aestheticList = [
 	{
 		name: `Lisa Frank`, // display name
 		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/cGM4X2j/Lisa-Frank.png`,
-		imgur: `https://i.imgur.com/K3kAV7g.png`,
-		postimg: `https://i.postimg.cc/cLYLbYND/Lisa-Frank.png`,
+		imgbb: `cGM4X2j/Lisa-Frank.png`,
+		imgur: `K3kAV7g.png`,
+		postimg: `cLYLbYND/Lisa-Frank.png`,
 		tags: [`aesthetic`,`neon`,`colorful`], // tags for search/filtering
 		info: `Artist known for colorful children's illustrations.`, // optional extra info
 		icon: `Neon leopard spots` // description of the flag/icon
@@ -26974,9 +27002,9 @@ const aestheticList = [
 	{
 		name: `Lovecore`, // display name
 		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/Q3vjB8pW/Lovecore.png`,
-		imgur: `https://i.imgur.com/TILWDJ2.png`,
-		postimg: `https://i.postimg.cc/NGm2K5Fy/Lovecore.png`,
+		imgbb: `Q3vjB8pW/Lovecore.png`,
+		imgur: `TILWDJ2.png`,
+		postimg: `NGm2K5Fy/Lovecore.png`,
 		tags: [`aesthetic`,`core`], // tags for search/filtering
 		info: `<a href="?tags=aesthetic">Aesthetic</a>`, // optional extra info
 		icon: `Candy hearts` // description of the flag/icon
@@ -26985,9 +27013,9 @@ const aestheticList = [
 		name: `Medicore`, // display name
 		altNames: [`Medicalcore`],
 		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/XrtPgRMH/Medicore.png`,
-		imgur: `https://i.imgur.com/U5WwSyj.png`,
-		postimg: `https://i.postimg.cc/MTt45WKx/Medicore.png`,
+		imgbb: `XrtPgRMH/Medicore.png`,
+		imgur: `U5WwSyj.png`,
+		postimg: `MTt45WKx/Medicore.png`,
 		tags: [`aesthetic`,`core`,`medical`,`hospital`,`nurse`], // tags for search/filtering
 		info: `<a href="?tags=aesthetic">Aesthetic</a> related to medical care and equipment`, // optional extra info
 		icon: `Syringe` // description of the flag/icon
@@ -26995,27 +27023,27 @@ const aestheticList = [
 	{
 		name: `Medieval`, // display name
 		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/DHYLHv7c/Medieval.png`,
-		imgur: `https://i.imgur.com/uO0z8IN.png`,
-		postimg: `https://i.postimg.cc/bwzncpzp/Medieval.png`,
+		imgbb: `DHYLHv7c/Medieval.png`,
+		imgur: `uO0z8IN.png`,
+		postimg: `bwzncpzp/Medieval.png`,
 		tags: [`aesthetic`,`medieval`,`dark ages`], // tags for search/filtering
 		icon: `Crown` // description of the flag/icon
 	},
 	{
 		name: `Medieval Fantasy`, // display name
 		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/BVDcq9Vc/Medieval-Fantasy.png`,
-		imgur: `https://i.imgur.com/Qcw2VE9.png`,
-		postimg: `https://i.postimg.cc/6p9ZJt9w/Medieval-Fantasy.png`,
+		imgbb: `BVDcq9Vc/Medieval-Fantasy.png`,
+		imgur: `Qcw2VE9.png`,
+		postimg: `6p9ZJt9w/Medieval-Fantasy.png`,
 		tags: [`aesthetic`,`medieval`,`dark ages`,`fantasy`], // tags for search/filtering
 		icon: `Crown` // description of the flag/icon
 	},
 	{
 		name: `Medievalcore`, // display name
 		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/BVFDNXTC/Medievalcore.png`,
-		imgur: `https://i.imgur.com/KSvpdn1.png`,
-		postimg: `https://i.postimg.cc/W12ZLT2s/Medievalcore.png`,
+		imgbb: `BVFDNXTC/Medievalcore.png`,
+		imgur: `KSvpdn1.png`,
+		postimg: `W12ZLT2s/Medievalcore.png`,
 		tags: [`aesthetic`,`core`,`medieval`,`dark ages`], // tags for search/filtering
 		info: `<a href="?tags=aesthetic">Aesthetic</a>`, // optional extra info
 		icon: `Crown` // description of the flag/icon
@@ -27024,9 +27052,9 @@ const aestheticList = [
 		name: `Menhera`, // display name
 		altNames: [`Menheracore`,`Yami Kawaii`],
 		dateAdded: `2026-09-13`, // date this button was first added to the masterlist
-		imgbb: `https://i.ibb.co/G4gQWNmL/Menhera.png`,
-		imgur: `https://i.imgur.com/aBzXjY8.png`,
-		postimg: `https://i.postimg.cc/02mgR1Vw/Menhera.png`,
+		imgbb: `G4gQWNmL/Menhera.png`,
+		imgur: `aBzXjY8.png`,
+		postimg: `02mgR1Vw/Menhera.png`,
 		tags: [`aesthetic`,`fashion`,`medical`,`medicalcore`,`medicore`,`mental health`], // tags for search/filtering
 		info: `<a href="?tags=aesthetic">Aesthetic</a> relating to mental illness`, // optional extra info
 		icon: `Bandaged heart` // description of the flag/icon
