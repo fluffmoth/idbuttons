@@ -16635,7 +16635,7 @@ const subspeciesList = [
 	{
 		name: `Drink Dragons: Bubble Tea`, // display name
 		imgur: `VBkoHoZ.png`,
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
+		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`,`bubble tea`], // tags for search/filtering
 		info: subspeciesData.drinkDragons.info, // optional extra info
 		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
 		icon: `Bubble tea with straw` // description of the flag/icon
@@ -16646,7 +16646,7 @@ const subspeciesList = [
 		imgbb: `277DC3Zc/Drink-Dragons-Coffee.png`,
 		imgur: `Kn2Fjf4.png`,
 		postimg: `L4CNv1Xs/Drink-Dragons-Coffee.png`,
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
+		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`,`coffee`], // tags for search/filtering
 		info: subspeciesData.drinkDragons.info, // optional extra info
 		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
 		icon: `Coffee mug` // description of the flag/icon
@@ -16654,7 +16654,7 @@ const subspeciesList = [
 	{
 		name: `Drink Dragons: Juice`, // display name
 		imgur: `mM8gHXZ.png`,
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
+		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`,`juice`], // tags for search/filtering
 		info: subspeciesData.drinkDragons.info, // optional extra info
 		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
 		icon: `Pink juice with straw` // description of the flag/icon
@@ -16662,7 +16662,7 @@ const subspeciesList = [
 	{
 		name: `Drink Dragons: Milk`, // display name
 		imgur: `R0VUBOF.png`,
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
+		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`,`milk`], // tags for search/filtering
 		info: subspeciesData.drinkDragons.info, // optional extra info
 		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
 		icon: `Milk with straw` // description of the flag/icon
@@ -16670,7 +16670,7 @@ const subspeciesList = [
 	{
 		name: `Drink Dragons: Soda`, // display name
 		imgur: `NUBmJKe.png`,
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
+		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`,`soda`], // tags for search/filtering
 		info: subspeciesData.drinkDragons.info, // optional extra info
 		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
 		icon: `Soda cup with straw` // description of the flag/icon
@@ -16681,7 +16681,7 @@ const subspeciesList = [
 		imgbb: `LD54Xm6K/Drink-Dragons-Tea.png`,
 		imgur: `yceBaTc.png`,
 		postimg: `66jYzv3p/Drink-Dragons-Tea.png`,
-		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`], // tags for search/filtering
+		tags: [`flight rising`,`subspecies`,`subspecies extras`,`drink dragons`,`tea`], // tags for search/filtering
 		info: subspeciesData.drinkDragons.info, // optional extra info
 		link: subspeciesData.drinkDragons.link, // optional URL the button should link to
 		icon: `Tea mug` // description of the flag/icon
@@ -21877,7 +21877,7 @@ const interestsList = [
 		imgbb: `B50H9FMN/Tea-Lover.png`,
 		imgur: `QJSlVKm.png`,
 		postimg: `T3Xmcdr6/Tea-Lover.png`,
-		tags: [`interests`,`food`,`drink`], // tags for search/filtering
+		tags: [`interests`,`food`,`drink`,`tea`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Tea mug` // description of the flag/icon
 	},
@@ -21899,7 +21899,7 @@ const interestsList = [
 		imgbb: `b8Y4VNt/Coffee-Lover.png`,
 		imgur: `ncn0jvH.png`,
 		postimg: `SKP60wn3/Coffee-Lover.png`,
-		tags: [`interests`,`food`,`drink`], // tags for search/filtering
+		tags: [`interests`,`food`,`drink`,`coffee`], // tags for search/filtering
 		info: ``, // optional extra info
 		icon: `Coffee mug` // description of the flag/icon
 	},
